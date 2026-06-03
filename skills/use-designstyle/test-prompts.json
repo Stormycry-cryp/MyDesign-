@@ -1,0 +1,17 @@
+[
+  {
+    "id": "use-1",
+    "prompt": "Use $use-designstyle to design a beautiful AI-native community profile page for Meyo using the local designstyle library.",
+    "expected": "Retrieves relevant community/profile and collaboration references, maps them to requirements, and produces a concrete design direction without copying."
+  },
+  {
+    "id": "use-2",
+    "prompt": "Use $use-designstyle for an AVG landing page with cinematic atmosphere, character art, and motion. Choose references and explain how to adapt them.",
+    "expected": "Selects cinematic/editorial references such as Apple Vision Pro/A24, maps assets and motion to AVG needs, and defines implementation checks."
+  },
+  {
+    "id": "use-3",
+    "prompt": "Use $use-designstyle for a dense internal operations dashboard. Make it polished but not marketing-like.",
+    "expected": "Selects quiet operational references such as Linear/Vercel, avoids cinematic/product-led excess, and gives density, component state, and motion guidance."
+  }
+]

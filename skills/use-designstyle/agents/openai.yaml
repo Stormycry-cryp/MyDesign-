@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use Designstyle"
+  short_description: "Apply local style references to frontend design"
+  default_prompt: "Use $use-designstyle to choose references from my local library and shape this UI direction."

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "add-1",
+    "prompt": "Use $add-designstyle to analyze https://linear.app/ and add it to my local designstyle library. I care about both code clues and aesthetics.",
+    "expected": "Creates a reusable style reference with observed code evidence, visual system, assets, motion, implementation notes, borrow/avoid guidance, and self-review."
+  },
+  {
+    "id": "add-2",
+    "prompt": "Use $add-designstyle on this design reference, but the site blocks screenshots. Still make the reference useful without inventing evidence.",
+    "expected": "Records evidence limits, separates observation from inference, and still extracts transferable aesthetic and implementation decisions."
+  },
+  {
+    "id": "add-3",
+    "prompt": "Use $add-designstyle to process a batch of three excellent websites and then evaluate whether the created references are good enough.",
+    "expected": "Creates consistent references, audits each entry, then writes a batch evaluation note with retrieval/skill iteration findings."
+  }
+]

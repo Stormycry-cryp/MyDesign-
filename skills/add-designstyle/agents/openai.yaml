@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Designstyle"
+  short_description: "Analyze a site into a reusable style reference"
+  default_prompt: "Use $add-designstyle to analyze this website and add a reusable style reference to my local library."

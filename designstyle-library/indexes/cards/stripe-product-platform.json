@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "art portfolios",
+    "beauty retail",
+    "travel hospitality"
+  ],
+  "best_for": [
+    "fintech platform homepages",
+    "developer product pages",
+    "trust-led product navigation"
+  ],
+  "category_tags": [
+    "fintech",
+    "developer-platform",
+    "saas",
+    "payments"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/stripe-product-platform/assets.md",
+    "color_surface": "dimensions/stripe-product-platform/color-surface.md",
+    "components_states": "dimensions/stripe-product-platform/components-states.md",
+    "layout_spacing": "dimensions/stripe-product-platform/layout-spacing.md",
+    "motion_code": "dimensions/stripe-product-platform/motion-code.md",
+    "scene": "dimensions/stripe-product-platform/scene.md",
+    "type_copy": "dimensions/stripe-product-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage payments developer platform",
+  "reference_path": "references/2026-06-03-stripe-product-platform.md",
+  "selection_note": "Prior local seed reference and common product-design benchmark; selected to replace old weak-format Stripe entry with evidence-grade capture",
+  "slug": "stripe-product-platform",
+  "structure_tags": [
+    "homepage",
+    "platform-navigation",
+    "product-proof"
+  ],
+  "style_tags": [
+    "technical",
+    "trust-led",
+    "polished",
+    "platform"
+  ],
+  "title": "Stripe Product Platform"
+}

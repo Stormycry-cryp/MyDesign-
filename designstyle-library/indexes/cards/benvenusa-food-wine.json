@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "developer tools",
+    "enterprise dashboards",
+    "pricing comparison"
+  ],
+  "best_for": [
+    "culinary brand sites",
+    "wine/hospitality storytelling",
+    "regional food commerce"
+  ],
+  "category_tags": [
+    "food-beverage",
+    "wine",
+    "hospitality",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/benvenusa-food-wine/assets.md",
+    "color_surface": "dimensions/benvenusa-food-wine/color-surface.md",
+    "components_states": "dimensions/benvenusa-food-wine/components-states.md",
+    "layout_spacing": "dimensions/benvenusa-food-wine/layout-spacing.md",
+    "motion_code": "dimensions/benvenusa-food-wine/motion-code.md",
+    "scene": "dimensions/benvenusa-food-wine/scene.md",
+    "type_copy": "dimensions/benvenusa-food-wine/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage food and wine brand",
+  "reference_path": "references/2026-06-03-benvenusa-food-wine.md",
+  "selection_note": "Httpster food/drink candidate; selected for culinary brand story and non-SaaS category coverage",
+  "slug": "benvenusa-food-wine",
+  "structure_tags": [
+    "homepage",
+    "brand-story",
+    "commerce-adjacent"
+  ],
+  "style_tags": [
+    "warm",
+    "editorial",
+    "culinary",
+    "regional"
+  ],
+  "title": "Benvenusa Food Wine"
+}

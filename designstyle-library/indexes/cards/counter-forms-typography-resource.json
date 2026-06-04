@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury ecommerce",
+    "high-motion campaigns",
+    "enterprise SaaS dashboards"
+  ],
+  "best_for": [
+    "typography resource sites",
+    "design education indexes",
+    "type-led editorial UI"
+  ],
+  "category_tags": [
+    "typography",
+    "design-resource",
+    "education",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/counter-forms-typography-resource/assets.md",
+    "color_surface": "dimensions/counter-forms-typography-resource/color-surface.md",
+    "components_states": "dimensions/counter-forms-typography-resource/components-states.md",
+    "layout_spacing": "dimensions/counter-forms-typography-resource/layout-spacing.md",
+    "motion_code": "dimensions/counter-forms-typography-resource/motion-code.md",
+    "scene": "dimensions/counter-forms-typography-resource/scene.md",
+    "type_copy": "dimensions/counter-forms-typography-resource/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage typography resource index",
+  "reference_path": "references/2026-06-03-counter-forms-typography-resource.md",
+  "selection_note": "Httpster typography/resource candidate; selected for type-led resource UI and non-commerce information structure",
+  "slug": "counter-forms-typography-resource",
+  "structure_tags": [
+    "homepage",
+    "resource-index",
+    "typography-system"
+  ],
+  "style_tags": [
+    "typographic",
+    "minimal",
+    "archive-like",
+    "resource-led"
+  ],
+  "title": "Counter Forms Typography Resource"
+}

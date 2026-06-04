@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "portfolio galleries",
+    "typography archives",
+    "product checkout"
+  ],
+  "best_for": [
+    "landing page structure",
+    "logistics/service SaaS hero and trust sections",
+    "inspiration analysis"
+  ],
+  "category_tags": [
+    "saas",
+    "landing-page",
+    "logistics",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-airmee-landing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-airmee-landing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-airmee-landing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-airmee-landing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-airmee-landing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-airmee-landing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-airmee-landing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "SaaS logistics landing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-airmee-landing-page.md",
+  "selection_note": "WebInspoo landing page inspiration entry; selected for SaaS/service landing page pattern coverage",
+  "slug": "webinspoo-airmee-landing-page",
+  "structure_tags": [
+    "landing-page",
+    "hero",
+    "sections",
+    "trust-proof"
+  ],
+  "style_tags": [
+    "conversion",
+    "structured",
+    "modern",
+    "service-led"
+  ],
+  "title": "WebInspoo Airmee Landing Page"
+}

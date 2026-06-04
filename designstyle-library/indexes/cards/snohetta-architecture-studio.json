@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "SaaS pricing pages",
+    "consumer checkout",
+    "dense dashboards"
+  ],
+  "best_for": [
+    "architecture studio homepage",
+    "project portfolio",
+    "editorial spatial navigation"
+  ],
+  "category_tags": [
+    "architecture",
+    "studio",
+    "portfolio",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/snohetta-architecture-studio/assets.md",
+    "color_surface": "dimensions/snohetta-architecture-studio/color-surface.md",
+    "components_states": "dimensions/snohetta-architecture-studio/components-states.md",
+    "layout_spacing": "dimensions/snohetta-architecture-studio/layout-spacing.md",
+    "motion_code": "dimensions/snohetta-architecture-studio/motion-code.md",
+    "scene": "dimensions/snohetta-architecture-studio/scene.md",
+    "type_copy": "dimensions/snohetta-architecture-studio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage architecture studio portfolio",
+  "reference_path": "references/2026-06-03-snohetta-architecture-studio.md",
+  "selection_note": "Httpster architecture/industrial design candidate; selected for global studio portfolio structure and spatial editorial pacing",
+  "slug": "snohetta-architecture-studio",
+  "structure_tags": [
+    "homepage",
+    "portfolio-grid",
+    "studio-navigation"
+  ],
+  "style_tags": [
+    "editorial",
+    "spatial",
+    "minimal",
+    "project-led"
+  ],
+  "title": "Snohetta Architecture Studio"
+}

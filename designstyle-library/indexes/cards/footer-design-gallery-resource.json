@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "single product hero pages",
+    "luxury commerce",
+    "enterprise dashboards"
+  ],
+  "best_for": [
+    "design inspiration galleries",
+    "pattern libraries",
+    "browsing indexes"
+  ],
+  "category_tags": [
+    "design-resource",
+    "gallery",
+    "web-design",
+    "pattern-library"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/footer-design-gallery-resource/assets.md",
+    "color_surface": "dimensions/footer-design-gallery-resource/color-surface.md",
+    "components_states": "dimensions/footer-design-gallery-resource/components-states.md",
+    "layout_spacing": "dimensions/footer-design-gallery-resource/layout-spacing.md",
+    "motion_code": "dimensions/footer-design-gallery-resource/motion-code.md",
+    "scene": "dimensions/footer-design-gallery-resource/scene.md",
+    "type_copy": "dimensions/footer-design-gallery-resource/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage design gallery index",
+  "reference_path": "references/2026-06-03-footer-design-gallery-resource.md",
+  "selection_note": "Httpster design resource/gallery candidate; selected for UI pattern gallery and reference browsing structure",
+  "slug": "footer-design-gallery-resource",
+  "structure_tags": [
+    "gallery",
+    "index",
+    "resource-navigation"
+  ],
+  "style_tags": [
+    "curated",
+    "minimal",
+    "grid-led",
+    "reference-driven"
+  ],
+  "title": "Footer Design Gallery Resource"
+}

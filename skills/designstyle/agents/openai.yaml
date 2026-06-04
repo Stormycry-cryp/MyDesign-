@@ -1,0 +1,4 @@
+interface:
+  display_name: "Designstyle"
+  short_description: "Route style-reference work to add or use workflows"
+  default_prompt: "Use $designstyle to decide whether this task should add a style reference, use existing references, or do both."

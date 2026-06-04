@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "B2B SaaS",
+    "checkout flows",
+    "developer docs"
+  ],
+  "best_for": [
+    "visual journals",
+    "culture magazines",
+    "image-led editorial indexes"
+  ],
+  "category_tags": [
+    "editorial",
+    "visual-journal",
+    "culture",
+    "magazine"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/visual-journal-editorial/assets.md",
+    "color_surface": "dimensions/visual-journal-editorial/color-surface.md",
+    "components_states": "dimensions/visual-journal-editorial/components-states.md",
+    "layout_spacing": "dimensions/visual-journal-editorial/layout-spacing.md",
+    "motion_code": "dimensions/visual-journal-editorial/motion-code.md",
+    "scene": "dimensions/visual-journal-editorial/scene.md",
+    "type_copy": "dimensions/visual-journal-editorial/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage visual editorial journal",
+  "reference_path": "references/2026-06-03-visual-journal-editorial.md",
+  "selection_note": "Httpster editorial/visual journal candidate; selected for publication rhythm and image-led reading flow",
+  "slug": "visual-journal-editorial",
+  "structure_tags": [
+    "homepage",
+    "article-index",
+    "visual-feed"
+  ],
+  "style_tags": [
+    "editorial",
+    "visual",
+    "archive-like",
+    "publication-led"
+  ],
+  "title": "Visual Journal Editorial"
+}

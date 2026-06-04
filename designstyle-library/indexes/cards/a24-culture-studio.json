@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "B2B SaaS",
+    "clinical health",
+    "developer docs"
+  ],
+  "best_for": [
+    "media/culture homepages",
+    "film studio indexes",
+    "editorial commerce-adjacent pages"
+  ],
+  "category_tags": [
+    "culture",
+    "media",
+    "studio",
+    "commerce"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/a24-culture-studio/assets.md",
+    "color_surface": "dimensions/a24-culture-studio/color-surface.md",
+    "components_states": "dimensions/a24-culture-studio/components-states.md",
+    "layout_spacing": "dimensions/a24-culture-studio/layout-spacing.md",
+    "motion_code": "dimensions/a24-culture-studio/motion-code.md",
+    "scene": "dimensions/a24-culture-studio/scene.md",
+    "type_copy": "dimensions/a24-culture-studio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage media culture studio",
+  "reference_path": "references/2026-06-03-a24-culture-studio.md",
+  "selection_note": "Prior local seed reference and culture/media brand benchmark; selected to replace old weak-format A24 entry with evidence-grade capture",
+  "slug": "a24-culture-studio",
+  "structure_tags": [
+    "homepage",
+    "media-index",
+    "commerce-adjacent"
+  ],
+  "style_tags": [
+    "editorial",
+    "culture-led",
+    "media-rich",
+    "archive"
+  ],
+  "title": "A24 Culture Studio"
+}

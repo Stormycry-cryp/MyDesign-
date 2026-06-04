@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "portfolio galleries",
+    "hospitality",
+    "product retail"
+  ],
+  "best_for": [
+    "developer platform pricing pages",
+    "plan comparison",
+    "technical SaaS conversion"
+  ],
+  "category_tags": [
+    "developer-tool",
+    "pricing",
+    "saas",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-browserbase-pricing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-browserbase-pricing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-browserbase-pricing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-browserbase-pricing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-browserbase-pricing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-browserbase-pricing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-browserbase-pricing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "developer SaaS pricing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-browserbase-pricing-page.md",
+  "selection_note": "WebInspoo developer SaaS pricing entry; selected for developer-platform pricing-page coverage",
+  "slug": "webinspoo-browserbase-pricing-page",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "developer-platform",
+    "faq"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "technical",
+    "structured",
+    "conversion"
+  ],
+  "title": "WebInspoo Browserbase Pricing Page"
+}

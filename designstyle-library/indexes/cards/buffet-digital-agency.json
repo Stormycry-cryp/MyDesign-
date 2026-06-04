@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "pricing tables",
+    "clinical health",
+    "developer docs"
+  ],
+  "best_for": [
+    "agency homepages",
+    "service studio portfolios",
+    "expressive digital service pages"
+  ],
+  "category_tags": [
+    "agency",
+    "studio",
+    "digital",
+    "service"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/buffet-digital-agency/assets.md",
+    "color_surface": "dimensions/buffet-digital-agency/color-surface.md",
+    "components_states": "dimensions/buffet-digital-agency/components-states.md",
+    "layout_spacing": "dimensions/buffet-digital-agency/layout-spacing.md",
+    "motion_code": "dimensions/buffet-digital-agency/motion-code.md",
+    "scene": "dimensions/buffet-digital-agency/scene.md",
+    "type_copy": "dimensions/buffet-digital-agency/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage digital agency studio",
+  "reference_path": "references/2026-06-03-buffet-digital-agency.md",
+  "selection_note": "Httpster agency/studio candidate; selected for expressive service studio and portfolio structure",
+  "slug": "buffet-digital-agency",
+  "structure_tags": [
+    "homepage",
+    "agency-navigation",
+    "service-portfolio"
+  ],
+  "style_tags": [
+    "expressive",
+    "studio",
+    "brand-led",
+    "project-led"
+  ],
+  "title": "Buffet Digital Agency"
+}

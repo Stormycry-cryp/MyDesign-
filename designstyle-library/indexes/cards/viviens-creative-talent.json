@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise SaaS",
+    "developer docs",
+    "product pricing"
+  ],
+  "best_for": [
+    "talent agency sites",
+    "creative roster pages",
+    "visual portfolio indexes"
+  ],
+  "category_tags": [
+    "creative",
+    "talent",
+    "agency",
+    "portfolio"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/viviens-creative-talent/assets.md",
+    "color_surface": "dimensions/viviens-creative-talent/color-surface.md",
+    "components_states": "dimensions/viviens-creative-talent/components-states.md",
+    "layout_spacing": "dimensions/viviens-creative-talent/layout-spacing.md",
+    "motion_code": "dimensions/viviens-creative-talent/motion-code.md",
+    "scene": "dimensions/viviens-creative-talent/scene.md",
+    "type_copy": "dimensions/viviens-creative-talent/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage creative talent portfolio",
+  "reference_path": "references/2026-06-03-viviens-creative-talent.md",
+  "selection_note": "Httpster creative/talent candidate; selected for talent roster and visual portfolio category coverage",
+  "slug": "viviens-creative-talent",
+  "structure_tags": [
+    "homepage",
+    "talent-grid",
+    "portfolio-navigation"
+  ],
+  "style_tags": [
+    "talent-led",
+    "visual",
+    "editorial",
+    "portfolio"
+  ],
+  "title": "Viviens Creative Talent"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "art portfolios",
+    "developer docs",
+    "luxury beauty"
+  ],
+  "best_for": [
+    "restaurant SaaS pages",
+    "food commerce platforms",
+    "vertical B2B conversion pages"
+  ],
+  "category_tags": [
+    "food",
+    "commerce-saas",
+    "restaurant",
+    "b2b"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/lunchbox-restaurant-commerce-saas/assets.md",
+    "color_surface": "dimensions/lunchbox-restaurant-commerce-saas/color-surface.md",
+    "components_states": "dimensions/lunchbox-restaurant-commerce-saas/components-states.md",
+    "layout_spacing": "dimensions/lunchbox-restaurant-commerce-saas/layout-spacing.md",
+    "motion_code": "dimensions/lunchbox-restaurant-commerce-saas/motion-code.md",
+    "scene": "dimensions/lunchbox-restaurant-commerce-saas/scene.md",
+    "type_copy": "dimensions/lunchbox-restaurant-commerce-saas/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage restaurant commerce SaaS",
+  "reference_path": "references/2026-06-03-lunchbox-restaurant-commerce-saas.md",
+  "selection_note": "Httpster food/commerce SaaS candidate; selected for restaurant commerce platform and category coverage",
+  "slug": "lunchbox-restaurant-commerce-saas",
+  "structure_tags": [
+    "homepage",
+    "commerce-platform",
+    "feature-sections"
+  ],
+  "style_tags": [
+    "conversion",
+    "restaurant-led",
+    "product-led",
+    "warm"
+  ],
+  "title": "Lunchbox Restaurant Commerce SaaS"
+}

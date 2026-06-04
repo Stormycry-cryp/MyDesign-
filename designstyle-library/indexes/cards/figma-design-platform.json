@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "financial dashboards",
+    "food commerce",
+    "longform reports"
+  ],
+  "best_for": [
+    "design platform homepages",
+    "collaboration product pages",
+    "creative software storytelling"
+  ],
+  "category_tags": [
+    "design-tool",
+    "collaboration",
+    "software",
+    "platform"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/figma-design-platform/assets.md",
+    "color_surface": "dimensions/figma-design-platform/color-surface.md",
+    "components_states": "dimensions/figma-design-platform/components-states.md",
+    "layout_spacing": "dimensions/figma-design-platform/layout-spacing.md",
+    "motion_code": "dimensions/figma-design-platform/motion-code.md",
+    "scene": "dimensions/figma-design-platform/scene.md",
+    "type_copy": "dimensions/figma-design-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage collaborative design platform",
+  "reference_path": "references/2026-06-03-figma-design-platform.md",
+  "selection_note": "Prior local seed reference and design-tool benchmark; selected to replace old weak-format Figma entry with evidence-grade capture",
+  "slug": "figma-design-platform",
+  "structure_tags": [
+    "homepage",
+    "platform-navigation",
+    "product-story"
+  ],
+  "style_tags": [
+    "collaborative",
+    "playful",
+    "product-led",
+    "polished"
+  ],
+  "title": "Figma Design Platform"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury beauty",
+    "developer docs",
+    "art galleries"
+  ],
+  "best_for": [
+    "food service apps",
+    "B2B marketplace homepages",
+    "practical product onboarding"
+  ],
+  "category_tags": [
+    "food-service",
+    "app",
+    "marketplace",
+    "b2b"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/rekki-food-service-app/assets.md",
+    "color_surface": "dimensions/rekki-food-service-app/color-surface.md",
+    "components_states": "dimensions/rekki-food-service-app/components-states.md",
+    "layout_spacing": "dimensions/rekki-food-service-app/layout-spacing.md",
+    "motion_code": "dimensions/rekki-food-service-app/motion-code.md",
+    "scene": "dimensions/rekki-food-service-app/scene.md",
+    "type_copy": "dimensions/rekki-food-service-app/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage food service app",
+  "reference_path": "references/2026-06-03-rekki-food-service-app.md",
+  "selection_note": "Httpster food/service/app candidate; selected for food operations app and marketplace structure",
+  "slug": "rekki-food-service-app",
+  "structure_tags": [
+    "homepage",
+    "app-preview",
+    "service-navigation"
+  ],
+  "style_tags": [
+    "practical",
+    "warm",
+    "service-led",
+    "product-led"
+  ],
+  "title": "Rekki Food Service App"
+}

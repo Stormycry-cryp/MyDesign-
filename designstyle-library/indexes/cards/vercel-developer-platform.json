@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "food/wine",
+    "art gallery",
+    "hospitality pages"
+  ],
+  "best_for": [
+    "developer platform homepages",
+    "cloud product pages",
+    "technical navigation systems"
+  ],
+  "category_tags": [
+    "developer-platform",
+    "saas",
+    "software",
+    "cloud"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/vercel-developer-platform/assets.md",
+    "color_surface": "dimensions/vercel-developer-platform/color-surface.md",
+    "components_states": "dimensions/vercel-developer-platform/components-states.md",
+    "layout_spacing": "dimensions/vercel-developer-platform/layout-spacing.md",
+    "motion_code": "dimensions/vercel-developer-platform/motion-code.md",
+    "scene": "dimensions/vercel-developer-platform/scene.md",
+    "type_copy": "dimensions/vercel-developer-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage cloud developer platform",
+  "reference_path": "references/2026-06-03-vercel-developer-platform.md",
+  "selection_note": "Prior local seed reference and developer-platform benchmark; selected to replace old weak-format Vercel entry with evidence-grade capture",
+  "slug": "vercel-developer-platform",
+  "structure_tags": [
+    "homepage",
+    "developer-platform",
+    "product-navigation"
+  ],
+  "style_tags": [
+    "technical",
+    "minimal",
+    "platform",
+    "trust-led"
+  ],
+  "title": "Vercel Developer Platform"
+}

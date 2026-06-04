@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "dense dashboards",
+    "luxury ecommerce",
+    "editorial magazines"
+  ],
+  "best_for": [
+    "forms SaaS homepage",
+    "friendly conversion pages",
+    "product-led trust sections"
+  ],
+  "category_tags": [
+    "saas",
+    "forms",
+    "product",
+    "software"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/typeform-product-forms-saas/assets.md",
+    "color_surface": "dimensions/typeform-product-forms-saas/color-surface.md",
+    "components_states": "dimensions/typeform-product-forms-saas/components-states.md",
+    "layout_spacing": "dimensions/typeform-product-forms-saas/layout-spacing.md",
+    "motion_code": "dimensions/typeform-product-forms-saas/motion-code.md",
+    "scene": "dimensions/typeform-product-forms-saas/scene.md",
+    "type_copy": "dimensions/typeform-product-forms-saas/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "hover",
+    "transition",
+    "scroll"
+  ],
+  "page_scope": "homepage plus product navigation entry points",
+  "reference_path": "references/2026-06-03-typeform-product-forms-saas.md",
+  "selection_note": "Httpster application/software listing; selected as forms SaaS/product reference with broad real-world UI usage",
+  "slug": "typeform-product-forms-saas",
+  "structure_tags": [
+    "homepage",
+    "product-navigation",
+    "conversion-sections"
+  ],
+  "style_tags": [
+    "friendly",
+    "polished",
+    "conversion",
+    "brand-led"
+  ],
+  "title": "Typeform Product Forms SaaS"
+}

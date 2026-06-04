@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "dense SaaS dashboards",
+    "regulated finance",
+    "text-only documentation"
+  ],
+  "best_for": [
+    "creator community homepage",
+    "visual bookmarking product",
+    "media-grid social tool"
+  ],
+  "category_tags": [
+    "community",
+    "creative-tool",
+    "social",
+    "media"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/cosmos-creative-network/assets.md",
+    "color_surface": "dimensions/cosmos-creative-network/color-surface.md",
+    "components_states": "dimensions/cosmos-creative-network/components-states.md",
+    "layout_spacing": "dimensions/cosmos-creative-network/layout-spacing.md",
+    "motion_code": "dimensions/cosmos-creative-network/motion-code.md",
+    "scene": "dimensions/cosmos-creative-network/scene.md",
+    "type_copy": "dimensions/cosmos-creative-network/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage creative community product",
+  "reference_path": "references/2026-06-03-cosmos-creative-network.md",
+  "selection_note": "Httpster community/social/creative tool candidate; selected for visual network and media-led product storytelling",
+  "slug": "cosmos-creative-network",
+  "structure_tags": [
+    "homepage",
+    "media-grid",
+    "community-navigation"
+  ],
+  "style_tags": [
+    "visual",
+    "editorial",
+    "creator-led",
+    "minimal-shell"
+  ],
+  "title": "Cosmos Creative Network"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "developer docs",
+    "fintech dashboards",
+    "typography archives"
+  ],
+  "best_for": [
+    "travel service sites",
+    "hospitality landing pages",
+    "destination-led brand stories"
+  ],
+  "category_tags": [
+    "travel",
+    "hospitality",
+    "service",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/viens-la-travel-hospitality/assets.md",
+    "color_surface": "dimensions/viens-la-travel-hospitality/color-surface.md",
+    "components_states": "dimensions/viens-la-travel-hospitality/components-states.md",
+    "layout_spacing": "dimensions/viens-la-travel-hospitality/layout-spacing.md",
+    "motion_code": "dimensions/viens-la-travel-hospitality/motion-code.md",
+    "scene": "dimensions/viens-la-travel-hospitality/scene.md",
+    "type_copy": "dimensions/viens-la-travel-hospitality/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage travel hospitality service",
+  "reference_path": "references/2026-06-03-viens-la-travel-hospitality.md",
+  "selection_note": "Httpster travel/hospitality candidate; selected for destination-led service storytelling and category diversity",
+  "slug": "viens-la-travel-hospitality",
+  "structure_tags": [
+    "homepage",
+    "travel-service",
+    "brand-story"
+  ],
+  "style_tags": [
+    "destination-led",
+    "editorial",
+    "experiential",
+    "warm"
+  ],
+  "title": "Viens La Travel Hospitality"
+}

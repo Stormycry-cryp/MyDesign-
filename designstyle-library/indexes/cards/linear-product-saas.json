@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "food commerce",
+    "hospitality",
+    "art galleries"
+  ],
+  "best_for": [
+    "productivity SaaS homepages",
+    "precise product storytelling",
+    "workflow software pages"
+  ],
+  "category_tags": [
+    "saas",
+    "productivity",
+    "software",
+    "workflow"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/linear-product-saas/assets.md",
+    "color_surface": "dimensions/linear-product-saas/color-surface.md",
+    "components_states": "dimensions/linear-product-saas/components-states.md",
+    "layout_spacing": "dimensions/linear-product-saas/layout-spacing.md",
+    "motion_code": "dimensions/linear-product-saas/motion-code.md",
+    "scene": "dimensions/linear-product-saas/scene.md",
+    "type_copy": "dimensions/linear-product-saas/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage productivity SaaS product",
+  "reference_path": "references/2026-06-03-linear-product-saas.md",
+  "selection_note": "Prior local seed reference and widely recognized product design benchmark; selected to replace old weak-format Linear entry with evidence-grade capture",
+  "slug": "linear-product-saas",
+  "structure_tags": [
+    "homepage",
+    "product-story",
+    "feature-sections"
+  ],
+  "style_tags": [
+    "precise",
+    "technical",
+    "polished",
+    "product-led"
+  ],
+  "title": "Linear Product SaaS"
+}

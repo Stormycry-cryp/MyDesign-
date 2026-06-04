@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise security",
+    "luxury commerce",
+    "editorial magazines"
+  ],
+  "best_for": [
+    "calendar app homepage",
+    "productivity product previews",
+    "personal software conversion pages"
+  ],
+  "category_tags": [
+    "productivity",
+    "calendar",
+    "consumer-app",
+    "software"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/amie-productivity-calendar/assets.md",
+    "color_surface": "dimensions/amie-productivity-calendar/color-surface.md",
+    "components_states": "dimensions/amie-productivity-calendar/components-states.md",
+    "layout_spacing": "dimensions/amie-productivity-calendar/layout-spacing.md",
+    "motion_code": "dimensions/amie-productivity-calendar/motion-code.md",
+    "scene": "dimensions/amie-productivity-calendar/scene.md",
+    "type_copy": "dimensions/amie-productivity-calendar/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage productivity calendar app",
+  "reference_path": "references/2026-06-03-amie-productivity-calendar.md",
+  "selection_note": "Httpster application/software candidate; selected for consumer productivity app and calendar product storytelling",
+  "slug": "amie-productivity-calendar",
+  "structure_tags": [
+    "homepage",
+    "app-preview",
+    "feature-story"
+  ],
+  "style_tags": [
+    "soft",
+    "polished",
+    "personal",
+    "app-led"
+  ],
+  "title": "Amie Productivity Calendar"
+}

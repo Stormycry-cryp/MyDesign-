@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "B2B SaaS",
+    "developer docs",
+    "data dashboards"
+  ],
+  "best_for": [
+    "wine ecommerce",
+    "premium food/beverage shop",
+    "editorial product retail"
+  ],
+  "category_tags": [
+    "wine",
+    "ecommerce",
+    "food-beverage",
+    "retail"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/ossa-wine-ecommerce/assets.md",
+    "color_surface": "dimensions/ossa-wine-ecommerce/color-surface.md",
+    "components_states": "dimensions/ossa-wine-ecommerce/components-states.md",
+    "layout_spacing": "dimensions/ossa-wine-ecommerce/layout-spacing.md",
+    "motion_code": "dimensions/ossa-wine-ecommerce/motion-code.md",
+    "scene": "dimensions/ossa-wine-ecommerce/scene.md",
+    "type_copy": "dimensions/ossa-wine-ecommerce/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage wine ecommerce",
+  "reference_path": "references/2026-06-03-ossa-wine-ecommerce.md",
+  "selection_note": "Httpster food/drink ecommerce candidate; selected for wine retail, product atmosphere, and editorial commerce pacing",
+  "slug": "ossa-wine-ecommerce",
+  "structure_tags": [
+    "homepage",
+    "commerce",
+    "product-story"
+  ],
+  "style_tags": [
+    "sensory",
+    "editorial",
+    "product-led",
+    "refined"
+  ],
+  "title": "Ossa Wine Ecommerce"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury retail",
+    "high-motion campaigns",
+    "restaurant SaaS"
+  ],
+  "best_for": [
+    "workspace software pages",
+    "modular productivity homepages",
+    "template/product navigation"
+  ],
+  "category_tags": [
+    "productivity",
+    "workspace",
+    "software",
+    "consumer-app"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/notion-workspace-product/assets.md",
+    "color_surface": "dimensions/notion-workspace-product/color-surface.md",
+    "components_states": "dimensions/notion-workspace-product/components-states.md",
+    "layout_spacing": "dimensions/notion-workspace-product/layout-spacing.md",
+    "motion_code": "dimensions/notion-workspace-product/motion-code.md",
+    "scene": "dimensions/notion-workspace-product/scene.md",
+    "type_copy": "dimensions/notion-workspace-product/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage workspace productivity product",
+  "reference_path": "references/2026-06-03-notion-workspace-product.md",
+  "selection_note": "Prior local seed reference and widely used workspace-product benchmark; selected to replace old weak-format Notion entry with evidence-grade capture",
+  "slug": "notion-workspace-product",
+  "structure_tags": [
+    "homepage",
+    "workspace-product",
+    "template-navigation"
+  ],
+  "style_tags": [
+    "calm",
+    "modular",
+    "product-led",
+    "editorial"
+  ],
+  "title": "Notion Workspace Product"
+}

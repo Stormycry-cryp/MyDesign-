@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "SaaS dashboards",
+    "luxury retail",
+    "travel hospitality"
+  ],
+  "best_for": [
+    "type resource pages",
+    "open-source design libraries",
+    "typography-led indexes"
+  ],
+  "category_tags": [
+    "typography",
+    "design-resource",
+    "open-source",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/uncut-typography-resource/assets.md",
+    "color_surface": "dimensions/uncut-typography-resource/color-surface.md",
+    "components_states": "dimensions/uncut-typography-resource/components-states.md",
+    "layout_spacing": "dimensions/uncut-typography-resource/layout-spacing.md",
+    "motion_code": "dimensions/uncut-typography-resource/motion-code.md",
+    "scene": "dimensions/uncut-typography-resource/scene.md",
+    "type_copy": "dimensions/uncut-typography-resource/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage typography resource index",
+  "reference_path": "references/2026-06-03-uncut-typography-resource.md",
+  "selection_note": "Httpster typography/resource candidate; selected as contrast to Counter Forms for type-led resource UI",
+  "slug": "uncut-typography-resource",
+  "structure_tags": [
+    "homepage",
+    "type-index",
+    "resource-navigation"
+  ],
+  "style_tags": [
+    "type-led",
+    "resource",
+    "raw",
+    "minimal"
+  ],
+  "title": "Uncut Typography Resource"
+}

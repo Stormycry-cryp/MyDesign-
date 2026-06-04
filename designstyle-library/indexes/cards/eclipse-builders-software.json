@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "hospitality",
+    "gallery indexes",
+    "luxury ecommerce"
+  ],
+  "best_for": [
+    "developer/building tool homepages",
+    "technical product stories",
+    "builder-oriented software"
+  ],
+  "category_tags": [
+    "software",
+    "builder",
+    "product",
+    "developer-tool"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/eclipse-builders-software/assets.md",
+    "color_surface": "dimensions/eclipse-builders-software/color-surface.md",
+    "components_states": "dimensions/eclipse-builders-software/components-states.md",
+    "layout_spacing": "dimensions/eclipse-builders-software/layout-spacing.md",
+    "motion_code": "dimensions/eclipse-builders-software/motion-code.md",
+    "scene": "dimensions/eclipse-builders-software/scene.md",
+    "type_copy": "dimensions/eclipse-builders-software/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage builder software product",
+  "reference_path": "references/2026-06-03-eclipse-builders-software.md",
+  "selection_note": "Httpster product/software candidate; selected for builder-focused software product page structure",
+  "slug": "eclipse-builders-software",
+  "structure_tags": [
+    "homepage",
+    "product-story",
+    "developer-navigation"
+  ],
+  "style_tags": [
+    "modern",
+    "technical",
+    "product-led",
+    "builder-focused"
+  ],
+  "title": "Eclipse Builders Software"
+}

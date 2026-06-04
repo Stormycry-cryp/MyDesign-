@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise dashboards",
+    "luxury retail",
+    "quiet editorial pages"
+  ],
+  "best_for": [
+    "AI fintech homepage",
+    "consumer app onboarding story",
+    "data-led brand conversion"
+  ],
+  "category_tags": [
+    "ai",
+    "fintech",
+    "consumer-app",
+    "data-storytelling"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/cleo-ai-fintech-storytelling/assets.md",
+    "color_surface": "dimensions/cleo-ai-fintech-storytelling/color-surface.md",
+    "components_states": "dimensions/cleo-ai-fintech-storytelling/components-states.md",
+    "layout_spacing": "dimensions/cleo-ai-fintech-storytelling/layout-spacing.md",
+    "motion_code": "dimensions/cleo-ai-fintech-storytelling/motion-code.md",
+    "scene": "dimensions/cleo-ai-fintech-storytelling/scene.md",
+    "type_copy": "dimensions/cleo-ai-fintech-storytelling/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "scroll",
+    "hover"
+  ],
+  "page_scope": "homepage AI fintech consumer product story",
+  "reference_path": "references/2026-06-03-cleo-ai-fintech-storytelling.md",
+  "selection_note": "Awwwards Cleo AI listing; tagged clean, transitions, data visualization, storytelling, React, Next.js, Framer",
+  "slug": "cleo-ai-fintech-storytelling",
+  "structure_tags": [
+    "homepage",
+    "storytelling",
+    "product-proof"
+  ],
+  "style_tags": [
+    "bold",
+    "playful",
+    "conversion",
+    "brand-led"
+  ],
+  "title": "Cleo AI Fintech Storytelling"
+}

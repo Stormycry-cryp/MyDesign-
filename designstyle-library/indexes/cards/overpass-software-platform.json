@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "art galleries",
+    "luxury retail",
+    "immersive campaigns"
+  ],
+  "best_for": [
+    "software platform homepages",
+    "B2B app conversion pages",
+    "feature-section hierarchy"
+  ],
+  "category_tags": [
+    "software",
+    "application",
+    "platform",
+    "b2b"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/overpass-software-platform/assets.md",
+    "color_surface": "dimensions/overpass-software-platform/color-surface.md",
+    "components_states": "dimensions/overpass-software-platform/components-states.md",
+    "layout_spacing": "dimensions/overpass-software-platform/layout-spacing.md",
+    "motion_code": "dimensions/overpass-software-platform/motion-code.md",
+    "scene": "dimensions/overpass-software-platform/scene.md",
+    "type_copy": "dimensions/overpass-software-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage software platform",
+  "reference_path": "references/2026-06-03-overpass-software-platform.md",
+  "selection_note": "Httpster application/software candidate; selected for platform homepage and B2B product structure",
+  "slug": "overpass-software-platform",
+  "structure_tags": [
+    "homepage",
+    "product-navigation",
+    "feature-sections"
+  ],
+  "style_tags": [
+    "clean",
+    "product-led",
+    "conversion",
+    "technical"
+  ],
+  "title": "Overpass Software Platform"
+}

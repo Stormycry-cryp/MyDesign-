@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "SaaS pricing",
+    "longform reports",
+    "fintech dashboards"
+  ],
+  "best_for": [
+    "hardware product pages",
+    "object-led commerce",
+    "minimal playful product grids"
+  ],
+  "category_tags": [
+    "hardware",
+    "product",
+    "commerce",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/teenage-engineering-hardware-brand/assets.md",
+    "color_surface": "dimensions/teenage-engineering-hardware-brand/color-surface.md",
+    "components_states": "dimensions/teenage-engineering-hardware-brand/components-states.md",
+    "layout_spacing": "dimensions/teenage-engineering-hardware-brand/layout-spacing.md",
+    "motion_code": "dimensions/teenage-engineering-hardware-brand/motion-code.md",
+    "scene": "dimensions/teenage-engineering-hardware-brand/scene.md",
+    "type_copy": "dimensions/teenage-engineering-hardware-brand/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage hardware product brand",
+  "reference_path": "references/2026-06-03-teenage-engineering-hardware-brand.md",
+  "selection_note": "Prior local seed reference and hardware/product brand benchmark; selected to replace old weak-format Teenage Engineering entry with evidence-grade capture",
+  "slug": "teenage-engineering-hardware-brand",
+  "structure_tags": [
+    "homepage",
+    "product-grid",
+    "commerce-navigation"
+  ],
+  "style_tags": [
+    "object-led",
+    "minimal",
+    "playful",
+    "technical"
+  ],
+  "title": "Teenage Engineering Hardware Brand"
+}

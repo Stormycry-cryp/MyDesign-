@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise SaaS",
+    "food commerce",
+    "data reports"
+  ],
+  "best_for": [
+    "designer portfolios",
+    "independent studio sites",
+    "project indexes"
+  ],
+  "category_tags": [
+    "portfolio",
+    "studio",
+    "design",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/patrick-mason-studio-portfolio/assets.md",
+    "color_surface": "dimensions/patrick-mason-studio-portfolio/color-surface.md",
+    "components_states": "dimensions/patrick-mason-studio-portfolio/components-states.md",
+    "layout_spacing": "dimensions/patrick-mason-studio-portfolio/layout-spacing.md",
+    "motion_code": "dimensions/patrick-mason-studio-portfolio/motion-code.md",
+    "scene": "dimensions/patrick-mason-studio-portfolio/scene.md",
+    "type_copy": "dimensions/patrick-mason-studio-portfolio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage personal studio portfolio",
+  "reference_path": "references/2026-06-03-patrick-mason-studio-portfolio.md",
+  "selection_note": "Httpster portfolio/studio candidate; selected for independent studio portfolio structure and personal brand pacing",
+  "slug": "patrick-mason-studio-portfolio",
+  "structure_tags": [
+    "homepage",
+    "portfolio",
+    "index-navigation"
+  ],
+  "style_tags": [
+    "personal",
+    "studio",
+    "project-led",
+    "minimal"
+  ],
+  "title": "Patrick Mason Studio Portfolio"
+}

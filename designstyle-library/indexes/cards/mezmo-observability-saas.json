@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "consumer lifestyle",
+    "food/wine",
+    "art galleries"
+  ],
+  "best_for": [
+    "developer tool SaaS",
+    "observability product pages",
+    "enterprise technical homepages"
+  ],
+  "category_tags": [
+    "saas",
+    "observability",
+    "developer-tool",
+    "b2b"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/mezmo-observability-saas/assets.md",
+    "color_surface": "dimensions/mezmo-observability-saas/color-surface.md",
+    "components_states": "dimensions/mezmo-observability-saas/components-states.md",
+    "layout_spacing": "dimensions/mezmo-observability-saas/layout-spacing.md",
+    "motion_code": "dimensions/mezmo-observability-saas/motion-code.md",
+    "scene": "dimensions/mezmo-observability-saas/scene.md",
+    "type_copy": "dimensions/mezmo-observability-saas/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage observability SaaS developer platform",
+  "reference_path": "references/2026-06-03-mezmo-observability-saas.md",
+  "selection_note": "Httpster observability/SaaS candidate; selected for developer-tool SaaS structure and enterprise proof",
+  "slug": "mezmo-observability-saas",
+  "structure_tags": [
+    "homepage",
+    "developer-platform",
+    "proof-sections"
+  ],
+  "style_tags": [
+    "technical",
+    "enterprise",
+    "product-led",
+    "trust-led"
+  ],
+  "title": "Mezmo Observability SaaS"
+}

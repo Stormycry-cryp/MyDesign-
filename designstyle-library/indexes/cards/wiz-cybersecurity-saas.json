@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "consumer lifestyle",
+    "luxury ecommerce",
+    "playful social apps"
+  ],
+  "best_for": [
+    "B2B SaaS homepage",
+    "security product proof sections",
+    "enterprise trust navigation"
+  ],
+  "category_tags": [
+    "saas",
+    "cybersecurity",
+    "b2b",
+    "cloud-security"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/wiz-cybersecurity-saas/assets.md",
+    "color_surface": "dimensions/wiz-cybersecurity-saas/color-surface.md",
+    "components_states": "dimensions/wiz-cybersecurity-saas/components-states.md",
+    "layout_spacing": "dimensions/wiz-cybersecurity-saas/layout-spacing.md",
+    "motion_code": "dimensions/wiz-cybersecurity-saas/motion-code.md",
+    "scene": "dimensions/wiz-cybersecurity-saas/scene.md",
+    "type_copy": "dimensions/wiz-cybersecurity-saas/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage enterprise cybersecurity SaaS",
+  "reference_path": "references/2026-06-03-wiz-cybersecurity-saas.md",
+  "selection_note": "Httpster application/software selection; useful for B2B cybersecurity SaaS polish and trust/proof structure",
+  "slug": "wiz-cybersecurity-saas",
+  "structure_tags": [
+    "homepage",
+    "enterprise-navigation",
+    "proof-sections"
+  ],
+  "style_tags": [
+    "technical",
+    "polished",
+    "trust-led",
+    "high-contrast"
+  ],
+  "title": "Wiz Cybersecurity SaaS"
+}

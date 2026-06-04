@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "art galleries",
+    "food culture",
+    "playful consumer apps"
+  ],
+  "best_for": [
+    "finance product homepages",
+    "capital platform sites",
+    "trust-led conversion pages"
+  ],
+  "category_tags": [
+    "finance",
+    "product",
+    "capital",
+    "software"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/capital-finance-product/assets.md",
+    "color_surface": "dimensions/capital-finance-product/color-surface.md",
+    "components_states": "dimensions/capital-finance-product/components-states.md",
+    "layout_spacing": "dimensions/capital-finance-product/layout-spacing.md",
+    "motion_code": "dimensions/capital-finance-product/motion-code.md",
+    "scene": "dimensions/capital-finance-product/scene.md",
+    "type_copy": "dimensions/capital-finance-product/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage finance product platform",
+  "reference_path": "references/2026-06-03-capital-finance-product.md",
+  "selection_note": "Httpster finance/product candidate; selected for financial product UI and trust-led product storytelling",
+  "slug": "capital-finance-product",
+  "structure_tags": [
+    "homepage",
+    "finance-product",
+    "conversion"
+  ],
+  "style_tags": [
+    "financial",
+    "polished",
+    "trust-led",
+    "product-led"
+  ],
+  "title": "Capital Finance Product"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise SaaS",
+    "developer docs",
+    "pricing tables"
+  ],
+  "best_for": [
+    "art galleries",
+    "illustration portfolios",
+    "visual collection browsing"
+  ],
+  "category_tags": [
+    "art",
+    "gallery",
+    "illustration",
+    "culture"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/jacky-winter-gallery/assets.md",
+    "color_surface": "dimensions/jacky-winter-gallery/color-surface.md",
+    "components_states": "dimensions/jacky-winter-gallery/components-states.md",
+    "layout_spacing": "dimensions/jacky-winter-gallery/layout-spacing.md",
+    "motion_code": "dimensions/jacky-winter-gallery/motion-code.md",
+    "scene": "dimensions/jacky-winter-gallery/scene.md",
+    "type_copy": "dimensions/jacky-winter-gallery/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage art gallery index",
+  "reference_path": "references/2026-06-03-jacky-winter-gallery.md",
+  "selection_note": "Httpster art/photography candidate; selected for gallery browsing and visual collection UI",
+  "slug": "jacky-winter-gallery",
+  "structure_tags": [
+    "homepage",
+    "gallery-grid",
+    "artist-navigation"
+  ],
+  "style_tags": [
+    "gallery-led",
+    "visual",
+    "curated",
+    "artist-focused"
+  ],
+  "title": "Jacky Winter Gallery"
+}

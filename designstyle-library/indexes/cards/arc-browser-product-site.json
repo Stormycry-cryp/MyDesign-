@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "enterprise compliance pages",
+    "luxury fashion",
+    "dense data tools"
+  ],
+  "best_for": [
+    "consumer software homepage",
+    "browser/productivity launch pages",
+    "polished download conversion"
+  ],
+  "category_tags": [
+    "software",
+    "browser",
+    "productivity",
+    "consumer-app"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/arc-browser-product-site/assets.md",
+    "color_surface": "dimensions/arc-browser-product-site/color-surface.md",
+    "components_states": "dimensions/arc-browser-product-site/components-states.md",
+    "layout_spacing": "dimensions/arc-browser-product-site/layout-spacing.md",
+    "motion_code": "dimensions/arc-browser-product-site/motion-code.md",
+    "scene": "dimensions/arc-browser-product-site/scene.md",
+    "type_copy": "dimensions/arc-browser-product-site/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage browser software product",
+  "reference_path": "references/2026-06-03-arc-browser-product-site.md",
+  "selection_note": "Httpster browser/software/product candidate; selected for consumer software product storytelling and download conversion",
+  "slug": "arc-browser-product-site",
+  "structure_tags": [
+    "homepage",
+    "product-story",
+    "download-conversion"
+  ],
+  "style_tags": [
+    "expressive",
+    "product-led",
+    "polished",
+    "consumer-tech"
+  ],
+  "title": "Arc Browser Product Site"
+}

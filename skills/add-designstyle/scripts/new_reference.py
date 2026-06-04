@@ -27,12 +27,15 @@ def main() -> int:
     parser.add_argument("name")
     parser.add_argument("--url", default="")
     parser.add_argument("--tags", default="")
+    parser.add_argument("--category-tags", default="")
     parser.add_argument("--style-tags", default="")
     parser.add_argument("--structure-tags", default="")
     parser.add_argument("--motion-tags", default="")
     parser.add_argument("--code-tags", default="")
     parser.add_argument("--best-for", default="")
     parser.add_argument("--avoid-for", default="")
+    parser.add_argument("--community-signal", default="")
+    parser.add_argument("--page-scope", default="")
     parser.add_argument("--library", default=str(LIB))
     args = parser.parse_args()
 
@@ -47,24 +50,30 @@ def main() -> int:
         raise SystemExit(f"Already exists: {path}")
 
     tags = [tag.strip() for tag in args.tags.split(",") if tag.strip()]
+    category_tags = [tag.strip() for tag in args.category_tags.split(",") if tag.strip()]
     style_tags = [tag.strip() for tag in args.style_tags.split(",") if tag.strip()] or tags
     structure_tags = [tag.strip() for tag in args.structure_tags.split(",") if tag.strip()]
     motion_tags = [tag.strip() for tag in args.motion_tags.split(",") if tag.strip()]
     code_tags = [tag.strip() for tag in args.code_tags.split(",") if tag.strip()]
     best = [item.strip() for item in args.best_for.split(",") if item.strip()]
     avoid = [item.strip() for item in args.avoid_for.split(",") if item.strip()]
+    community_signal = args.community_signal.replace('"', '\\"')
+    page_scope = args.page_scope.replace('"', '\\"')
 
     content = f'''---
 title: "{args.name}"
 source_url: "{args.url}"
 captured_at: "{today}"
 tags: {yaml_list(tags)}
+category_tags: {yaml_list(category_tags)}
 style_tags: {yaml_list(style_tags)}
 structure_tags: {yaml_list(structure_tags)}
 motion_tags: {yaml_list(motion_tags)}
 code_tags: {yaml_list(code_tags)}
 best_for: {yaml_list(best)}
 avoid_for: {yaml_list(avoid)}
+community_signal: "{community_signal}"
+page_scope: "{page_scope}"
 evidence_screenshot: "screenshots/{slug}-desktop.png"
 evidence_quality: "TODO: visual screenshot plus DOM/style/resource extraction"
 ---
@@ -85,6 +94,9 @@ TODO: one to three sentences naming the transferable design idea, not vague prai
 - Page title: TODO
 - Screenshot: screenshots/{slug}-desktop.png
 - Viewport: TODO
+- Community signal: TODO
+- Page scope: TODO
+- Secondary pages inspected: TODO
 - H1 observed: TODO
 - H2 samples: TODO
 - Navigation samples: TODO
@@ -130,6 +142,14 @@ TODO: one to three sentences naming the transferable design idea, not vague prai
 - Illustration/icon style: TODO
 - Texture/pattern: TODO
 - Likely sources or production method: TODO
+
+## Code Surface
+- Framework/runtime hints: TODO
+- Public stylesheet/script URLs: TODO
+- CSS variables/tokens observed: TODO
+- Layout primitives observed: TODO
+- Component or class naming clues: TODO
+- Asset CDN and media loading patterns: TODO
 
 ## Motion
 - Page transitions: TODO

@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "brand homepages",
+    "luxury retail",
+    "immersive campaigns"
+  ],
+  "best_for": [
+    "pricing page structure",
+    "SaaS plan comparison",
+    "pricing inspiration analysis"
+  ],
+  "category_tags": [
+    "saas",
+    "pricing",
+    "inspiration",
+    "developer-platform"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-cloudflare-pricing-pattern/assets.md",
+    "color_surface": "dimensions/webinspoo-cloudflare-pricing-pattern/color-surface.md",
+    "components_states": "dimensions/webinspoo-cloudflare-pricing-pattern/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-cloudflare-pricing-pattern/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-cloudflare-pricing-pattern/motion-code.md",
+    "scene": "dimensions/webinspoo-cloudflare-pricing-pattern/scene.md",
+    "type_copy": "dimensions/webinspoo-cloudflare-pricing-pattern/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary pages were not captured in this first pass.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "SaaS pricing inspiration page for Cloudflare pricing pattern",
+  "reference_path": "references/2026-06-03-webinspoo-cloudflare-pricing-pattern.md",
+  "selection_note": "WebInspoo SaaS pricing page inspiration entry; selected for pricing-page pattern and page-type coverage",
+  "slug": "webinspoo-cloudflare-pricing-pattern",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "faq",
+    "comparison-table"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "comparison",
+    "conversion",
+    "structured"
+  ],
+  "title": "WebInspoo Cloudflare Pricing Pattern"
+}

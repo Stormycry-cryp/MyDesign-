@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury retail",
+    "immersive campaigns",
+    "fintech dashboards"
+  ],
+  "best_for": [
+    "design tool websites",
+    "typography software homepages",
+    "practical creative software pages"
+  ],
+  "category_tags": [
+    "design-tool",
+    "typography",
+    "software",
+    "creative"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/glyphs-app-design-tool/assets.md",
+    "color_surface": "dimensions/glyphs-app-design-tool/color-surface.md",
+    "components_states": "dimensions/glyphs-app-design-tool/components-states.md",
+    "layout_spacing": "dimensions/glyphs-app-design-tool/layout-spacing.md",
+    "motion_code": "dimensions/glyphs-app-design-tool/motion-code.md",
+    "scene": "dimensions/glyphs-app-design-tool/scene.md",
+    "type_copy": "dimensions/glyphs-app-design-tool/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage typography design software",
+  "reference_path": "references/2026-06-03-glyphs-app-design-tool.md",
+  "selection_note": "Httpster design tool/software candidate; selected for typography software product structure",
+  "slug": "glyphs-app-design-tool",
+  "structure_tags": [
+    "homepage",
+    "software-product",
+    "docs-adjacent"
+  ],
+  "style_tags": [
+    "technical",
+    "typographic",
+    "tool-led",
+    "practical"
+  ],
+  "title": "Glyphs App Design Tool"
+}

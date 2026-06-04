@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "art galleries",
+    "travel pages",
+    "typography resources"
+  ],
+  "best_for": [
+    "SaaS landing page hierarchy",
+    "hero/feature/trust layout",
+    "inspiration analysis"
+  ],
+  "category_tags": [
+    "saas",
+    "landing-page",
+    "analytics",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-bevel-landing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-bevel-landing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-bevel-landing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-bevel-landing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-bevel-landing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-bevel-landing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-bevel-landing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "SaaS analytics landing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-bevel-landing-page.md",
+  "selection_note": "WebInspoo landing page inspiration entry; selected for SaaS landing page pattern and page-type coverage",
+  "slug": "webinspoo-bevel-landing-page",
+  "structure_tags": [
+    "landing-page",
+    "hero",
+    "feature-sections"
+  ],
+  "style_tags": [
+    "clean",
+    "conversion",
+    "structured",
+    "product-led"
+  ],
+  "title": "WebInspoo Bevel Landing Page"
+}

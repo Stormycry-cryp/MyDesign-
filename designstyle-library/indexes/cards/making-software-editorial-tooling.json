@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury ecommerce",
+    "immersive campaigns",
+    "consumer checkout"
+  ],
+  "best_for": [
+    "software editorial homepages",
+    "developer resource sites",
+    "technical writing indexes"
+  ],
+  "category_tags": [
+    "software",
+    "editorial",
+    "developer-tooling",
+    "education"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/making-software-editorial-tooling/assets.md",
+    "color_surface": "dimensions/making-software-editorial-tooling/color-surface.md",
+    "components_states": "dimensions/making-software-editorial-tooling/components-states.md",
+    "layout_spacing": "dimensions/making-software-editorial-tooling/layout-spacing.md",
+    "motion_code": "dimensions/making-software-editorial-tooling/motion-code.md",
+    "scene": "dimensions/making-software-editorial-tooling/scene.md",
+    "type_copy": "dimensions/making-software-editorial-tooling/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage software editorial resource",
+  "reference_path": "references/2026-06-03-making-software-editorial-tooling.md",
+  "selection_note": "Httpster software/editorial candidate; selected for software knowledge-site typography and resource structure",
+  "slug": "making-software-editorial-tooling",
+  "structure_tags": [
+    "homepage",
+    "article-index",
+    "resource-navigation"
+  ],
+  "style_tags": [
+    "editorial",
+    "technical",
+    "resource-led",
+    "minimal"
+  ],
+  "title": "Making Software Editorial Tooling"
+}

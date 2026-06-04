@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "food commerce",
+    "travel service",
+    "gallery indexes"
+  ],
+  "best_for": [
+    "AI developer product landing pages",
+    "technical hero structures",
+    "inspiration analysis"
+  ],
+  "category_tags": [
+    "ai",
+    "developer-platform",
+    "landing-page",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-mistral-ai-landing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-mistral-ai-landing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-mistral-ai-landing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-mistral-ai-landing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-mistral-ai-landing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-mistral-ai-landing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-mistral-ai-landing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "AI developer platform landing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-mistral-ai-landing-page.md",
+  "selection_note": "WebInspoo AI landing page inspiration entry; selected for AI/developer platform landing page structure",
+  "slug": "webinspoo-mistral-ai-landing-page",
+  "structure_tags": [
+    "landing-page",
+    "developer-product",
+    "hero",
+    "resources"
+  ],
+  "style_tags": [
+    "technical",
+    "ai-led",
+    "structured",
+    "brand-led"
+  ],
+  "title": "WebInspoo Mistral AI Landing Page"
+}

@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "editorial magazines",
+    "art galleries",
+    "immersive campaigns"
+  ],
+  "best_for": [
+    "SaaS pricing tables",
+    "plan comparison pages",
+    "pricing FAQ structure"
+  ],
+  "category_tags": [
+    "saas",
+    "pricing",
+    "security",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-accessgrid-pricing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-accessgrid-pricing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-accessgrid-pricing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-accessgrid-pricing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-accessgrid-pricing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-accessgrid-pricing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-accessgrid-pricing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "SaaS pricing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-accessgrid-pricing-page.md",
+  "selection_note": "WebInspoo pricing page entry; selected for pricing table and SaaS comparison coverage",
+  "slug": "webinspoo-accessgrid-pricing-page",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "comparison",
+    "faq"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "structured",
+    "comparison",
+    "conversion"
+  ],
+  "title": "WebInspoo AccessGrid Pricing Page"
+}

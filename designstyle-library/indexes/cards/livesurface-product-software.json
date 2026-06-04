@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "health biotech",
+    "travel hospitality",
+    "longform reports"
+  ],
+  "best_for": [
+    "design software product sites",
+    "mockup/product asset tools",
+    "visual software commerce pages"
+  ],
+  "category_tags": [
+    "product",
+    "software",
+    "design-tool",
+    "mockup"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/livesurface-product-software/assets.md",
+    "color_surface": "dimensions/livesurface-product-software/color-surface.md",
+    "components_states": "dimensions/livesurface-product-software/components-states.md",
+    "layout_spacing": "dimensions/livesurface-product-software/layout-spacing.md",
+    "motion_code": "dimensions/livesurface-product-software/motion-code.md",
+    "scene": "dimensions/livesurface-product-software/scene.md",
+    "type_copy": "dimensions/livesurface-product-software/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage visual product software",
+  "reference_path": "references/2026-06-03-livesurface-product-software.md",
+  "selection_note": "Httpster product/software candidate; selected for visual product software and mockup asset UI coverage",
+  "slug": "livesurface-product-software",
+  "structure_tags": [
+    "homepage",
+    "software-product",
+    "asset-gallery"
+  ],
+  "style_tags": [
+    "product-led",
+    "visual",
+    "tool-focused",
+    "commerce-adjacent"
+  ],
+  "title": "LiveSurface Product Software"
+}

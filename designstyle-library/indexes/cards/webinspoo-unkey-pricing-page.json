@@ -1,0 +1,65 @@
+{
+  "avoid_for": [
+    "fashion retail",
+    "art galleries",
+    "hospitality pages"
+  ],
+  "best_for": [
+    "API pricing pages",
+    "developer SaaS plan comparison",
+    "pricing FAQ structure"
+  ],
+  "category_tags": [
+    "developer-tool",
+    "pricing",
+    "api",
+    "saas",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-unkey-pricing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-unkey-pricing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-unkey-pricing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-unkey-pricing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-unkey-pricing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-unkey-pricing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-unkey-pricing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "API developer pricing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-unkey-pricing-page.md",
+  "selection_note": "WebInspoo developer pricing entry; selected for API/devtool pricing pattern coverage",
+  "slug": "webinspoo-unkey-pricing-page",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "api-product",
+    "faq"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "developer",
+    "structured",
+    "minimal"
+  ],
+  "title": "WebInspoo Unkey Pricing Page"
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Designstyle Progressive Card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "title",
+    "reference_path",
+    "category_tags",
+    "style_tags",
+    "structure_tags",
+    "motion_tags",
+    "code_tags",
+    "page_scope",
+    "best_for",
+    "avoid_for",
+    "evidence_strength",
+    "dimension_paths",
+    "selection_note",
+    "evidence_limits"
+  ],
+  "properties": {
+    "slug": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "reference_path": {
+      "type": "string",
+      "pattern": "^references/[^/]+\\.md$"
+    },
+    "category_tags": { "$ref": "#/$defs/stringArray" },
+    "style_tags": { "$ref": "#/$defs/stringArray" },
+    "structure_tags": { "$ref": "#/$defs/stringArray" },
+    "motion_tags": { "$ref": "#/$defs/stringArray" },
+    "code_tags": { "$ref": "#/$defs/stringArray" },
+    "page_scope": { "type": "string" },
+    "best_for": { "$ref": "#/$defs/stringArray" },
+    "avoid_for": { "$ref": "#/$defs/stringArray" },
+    "evidence_strength": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["screenshot", "layout_spacing", "type_copy", "motion_code"],
+      "properties": {
+        "screenshot": { "$ref": "#/$defs/evidenceStrength" },
+        "layout_spacing": { "$ref": "#/$defs/evidenceStrength" },
+        "type_copy": { "$ref": "#/$defs/evidenceStrength" },
+        "motion_code": { "$ref": "#/$defs/evidenceStrength" }
+      }
+    },
+    "dimension_paths": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scene",
+        "layout_spacing",
+        "type_copy",
+        "color_surface",
+        "assets",
+        "motion_code",
+        "components_states"
+      ],
+      "properties": {
+        "scene": { "type": "string", "pattern": "^dimensions/[^/]+/scene\\.md$" },
+        "layout_spacing": { "type": "string", "pattern": "^dimensions/[^/]+/layout-spacing\\.md$" },
+        "type_copy": { "type": "string", "pattern": "^dimensions/[^/]+/type-copy\\.md$" },
+        "color_surface": { "type": "string", "pattern": "^dimensions/[^/]+/color-surface\\.md$" },
+        "assets": { "type": "string", "pattern": "^dimensions/[^/]+/assets\\.md$" },
+        "motion_code": { "type": "string", "pattern": "^dimensions/[^/]+/motion-code\\.md$" },
+        "components_states": { "type": "string", "pattern": "^dimensions/[^/]+/components-states\\.md$" }
+      }
+    },
+    "selection_note": { "type": "string" },
+    "evidence_limits": { "$ref": "#/$defs/stringArray" }
+  },
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidenceStrength": {
+      "type": "string",
+      "enum": ["strong", "medium", "weak", "missing"]
+    }
+  }
+}

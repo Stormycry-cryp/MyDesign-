@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "B2B SaaS",
+    "editorial archives",
+    "luxury fashion"
+  ],
+  "best_for": [
+    "interactive product demos",
+    "design-object pages",
+    "retro-inspired object-led sites"
+  ],
+  "category_tags": [
+    "product",
+    "interactive",
+    "retro",
+    "design-object"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/bauhaus-clock-interactive-product/assets.md",
+    "color_surface": "dimensions/bauhaus-clock-interactive-product/color-surface.md",
+    "components_states": "dimensions/bauhaus-clock-interactive-product/components-states.md",
+    "layout_spacing": "dimensions/bauhaus-clock-interactive-product/layout-spacing.md",
+    "motion_code": "dimensions/bauhaus-clock-interactive-product/motion-code.md",
+    "scene": "dimensions/bauhaus-clock-interactive-product/scene.md",
+    "type_copy": "dimensions/bauhaus-clock-interactive-product/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "animation"
+  ],
+  "page_scope": "homepage interactive design object product",
+  "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
+  "selection_note": "Httpster product/interactive/retro candidate; selected for object-led interaction and simple product storytelling",
+  "slug": "bauhaus-clock-interactive-product",
+  "structure_tags": [
+    "homepage",
+    "product-demo",
+    "interactive-object"
+  ],
+  "style_tags": [
+    "bauhaus",
+    "playful",
+    "object-led",
+    "interactive"
+  ],
+  "title": "Bauhaus Clock Interactive Product"
+}

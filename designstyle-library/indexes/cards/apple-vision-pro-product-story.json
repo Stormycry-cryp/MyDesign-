@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "SaaS pricing",
+    "resource indexes",
+    "agency portfolios"
+  ],
+  "best_for": [
+    "hardware product pages",
+    "cinematic product storytelling",
+    "media-led consumer tech pages"
+  ],
+  "category_tags": [
+    "hardware",
+    "product",
+    "consumer-tech",
+    "immersive"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/apple-vision-pro-product-story/assets.md",
+    "color_surface": "dimensions/apple-vision-pro-product-story/color-surface.md",
+    "components_states": "dimensions/apple-vision-pro-product-story/components-states.md",
+    "layout_spacing": "dimensions/apple-vision-pro-product-story/layout-spacing.md",
+    "motion_code": "dimensions/apple-vision-pro-product-story/motion-code.md",
+    "scene": "dimensions/apple-vision-pro-product-story/scene.md",
+    "type_copy": "dimensions/apple-vision-pro-product-story/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "scroll",
+    "video"
+  ],
+  "page_scope": "product page immersive hardware story",
+  "reference_path": "references/2026-06-03-apple-vision-pro-product-story.md",
+  "selection_note": "Prior local seed reference and product-story benchmark; selected to replace old weak-format Apple Vision Pro entry with evidence-grade capture",
+  "slug": "apple-vision-pro-product-story",
+  "structure_tags": [
+    "product-page",
+    "storytelling",
+    "media-led"
+  ],
+  "style_tags": [
+    "cinematic",
+    "product-led",
+    "minimal",
+    "premium"
+  ],
+  "title": "Apple Vision Pro Product Story"
+}

@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "luxury retail",
+    "hospitality",
+    "art portfolios"
+  ],
+  "best_for": [
+    "developer tool landing pages",
+    "technical feature sections",
+    "product-led devrel pages"
+  ],
+  "category_tags": [
+    "developer-tool",
+    "landing-page",
+    "saas",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-rerun-developer-landing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-rerun-developer-landing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-rerun-developer-landing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-rerun-developer-landing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-rerun-developer-landing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-rerun-developer-landing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-rerun-developer-landing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "developer tool landing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-rerun-developer-landing-page.md",
+  "selection_note": "WebInspoo developer tool landing page entry; selected for developer-product page structure",
+  "slug": "webinspoo-rerun-developer-landing-page",
+  "structure_tags": [
+    "landing-page",
+    "developer-product",
+    "feature-sections"
+  ],
+  "style_tags": [
+    "technical",
+    "structured",
+    "product-led",
+    "developer"
+  ],
+  "title": "WebInspoo Rerun Developer Landing Page"
+}

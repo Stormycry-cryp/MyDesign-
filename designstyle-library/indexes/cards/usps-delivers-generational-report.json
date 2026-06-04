@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "consumer app homepages",
+    "luxury ecommerce",
+    "portfolios"
+  ],
+  "best_for": [
+    "research reports",
+    "data storytelling pages",
+    "longform informational microsites"
+  ],
+  "category_tags": [
+    "report",
+    "data",
+    "editorial",
+    "research"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/usps-delivers-generational-report/assets.md",
+    "color_surface": "dimensions/usps-delivers-generational-report/color-surface.md",
+    "components_states": "dimensions/usps-delivers-generational-report/components-states.md",
+    "layout_spacing": "dimensions/usps-delivers-generational-report/layout-spacing.md",
+    "motion_code": "dimensions/usps-delivers-generational-report/motion-code.md",
+    "scene": "dimensions/usps-delivers-generational-report/scene.md",
+    "type_copy": "dimensions/usps-delivers-generational-report/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "longform report data editorial page",
+  "reference_path": "references/2026-06-03-usps-delivers-generational-report.md",
+  "selection_note": "Httpster report/data/editorial candidate; selected for longform data report and research storytelling coverage",
+  "slug": "usps-delivers-generational-report",
+  "structure_tags": [
+    "report-page",
+    "data-story",
+    "article-navigation"
+  ],
+  "style_tags": [
+    "data-led",
+    "report",
+    "editorial",
+    "informational"
+  ],
+  "title": "USPS Delivers Generational Report"
+}

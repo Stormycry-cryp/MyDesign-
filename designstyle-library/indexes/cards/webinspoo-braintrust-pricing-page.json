@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "studio portfolios",
+    "food service",
+    "travel sites"
+  ],
+  "best_for": [
+    "AI SaaS pricing pages",
+    "enterprise plan comparison",
+    "pricing structure analysis"
+  ],
+  "category_tags": [
+    "ai",
+    "saas",
+    "pricing",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-braintrust-pricing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-braintrust-pricing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-braintrust-pricing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-braintrust-pricing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-braintrust-pricing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-braintrust-pricing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-braintrust-pricing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "AI SaaS pricing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-braintrust-pricing-page.md",
+  "selection_note": "WebInspoo AI/SaaS pricing page entry; selected for AI product pricing pattern coverage",
+  "slug": "webinspoo-braintrust-pricing-page",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "enterprise",
+    "faq"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "ai-led",
+    "structured",
+    "conversion"
+  ],
+  "title": "WebInspoo Braintrust Pricing Page"
+}

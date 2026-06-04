@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "SaaS pricing",
+    "docs",
+    "data dashboards"
+  ],
+  "best_for": [
+    "small studio portfolios",
+    "spatial project sites",
+    "architecture/industrial design homepages"
+  ],
+  "category_tags": [
+    "architecture",
+    "industrial-design",
+    "studio",
+    "portfolio"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/wam-architecture-studio/assets.md",
+    "color_surface": "dimensions/wam-architecture-studio/color-surface.md",
+    "components_states": "dimensions/wam-architecture-studio/components-states.md",
+    "layout_spacing": "dimensions/wam-architecture-studio/layout-spacing.md",
+    "motion_code": "dimensions/wam-architecture-studio/motion-code.md",
+    "scene": "dimensions/wam-architecture-studio/scene.md",
+    "type_copy": "dimensions/wam-architecture-studio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage architecture industrial design studio",
+  "reference_path": "references/2026-06-03-wam-architecture-studio.md",
+  "selection_note": "Httpster architecture/industrial design candidate; selected for studio portfolio contrast against Snøhetta",
+  "slug": "wam-architecture-studio",
+  "structure_tags": [
+    "homepage",
+    "portfolio",
+    "studio-navigation"
+  ],
+  "style_tags": [
+    "spatial",
+    "minimal",
+    "project-led",
+    "studio"
+  ],
+  "title": "WAM Architecture Studio"
+}

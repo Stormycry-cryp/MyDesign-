@@ -1,0 +1,63 @@
+{
+  "avoid_for": [
+    "pricing SaaS",
+    "documentation",
+    "clinical biotech"
+  ],
+  "best_for": [
+    "branding studio homepages",
+    "agency portfolios",
+    "service-led project pages"
+  ],
+  "category_tags": [
+    "agency",
+    "studio",
+    "branding",
+    "service"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/middle-name-agency-studio/assets.md",
+    "color_surface": "dimensions/middle-name-agency-studio/color-surface.md",
+    "components_states": "dimensions/middle-name-agency-studio/components-states.md",
+    "layout_spacing": "dimensions/middle-name-agency-studio/layout-spacing.md",
+    "motion_code": "dimensions/middle-name-agency-studio/motion-code.md",
+    "scene": "dimensions/middle-name-agency-studio/scene.md",
+    "type_copy": "dimensions/middle-name-agency-studio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "homepage branding agency studio",
+  "reference_path": "references/2026-06-03-middle-name-agency-studio.md",
+  "selection_note": "Httpster agency/studio candidate; selected for branding studio structure and non-SaaS service coverage",
+  "slug": "middle-name-agency-studio",
+  "structure_tags": [
+    "homepage",
+    "agency-portfolio",
+    "service-navigation"
+  ],
+  "style_tags": [
+    "brand-led",
+    "studio",
+    "expressive",
+    "project-led"
+  ],
+  "title": "Middle Name Agency Studio"
+}

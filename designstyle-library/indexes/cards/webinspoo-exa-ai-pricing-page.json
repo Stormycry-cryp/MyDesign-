@@ -1,0 +1,64 @@
+{
+  "avoid_for": [
+    "agency portfolios",
+    "food/beverage",
+    "architecture studios"
+  ],
+  "best_for": [
+    "AI product pricing pages",
+    "developer plan comparison",
+    "pricing-page analysis"
+  ],
+  "category_tags": [
+    "ai",
+    "pricing",
+    "developer-tool",
+    "inspiration"
+  ],
+  "code_tags": [
+    "public-css",
+    "public-js"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/webinspoo-exa-ai-pricing-page/assets.md",
+    "color_surface": "dimensions/webinspoo-exa-ai-pricing-page/color-surface.md",
+    "components_states": "dimensions/webinspoo-exa-ai-pricing-page/components-states.md",
+    "layout_spacing": "dimensions/webinspoo-exa-ai-pricing-page/layout-spacing.md",
+    "motion_code": "dimensions/webinspoo-exa-ai-pricing-page/motion-code.md",
+    "scene": "dimensions/webinspoo-exa-ai-pricing-page/scene.md",
+    "type_copy": "dimensions/webinspoo-exa-ai-pricing-page/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "transition",
+    "hover",
+    "scroll"
+  ],
+  "page_scope": "AI developer pricing page inspiration",
+  "reference_path": "references/2026-06-03-webinspoo-exa-ai-pricing-page.md",
+  "selection_note": "WebInspoo AI pricing page entry; selected for AI developer pricing structure coverage",
+  "slug": "webinspoo-exa-ai-pricing-page",
+  "structure_tags": [
+    "pricing-page",
+    "plans",
+    "developer-product",
+    "comparison"
+  ],
+  "style_tags": [
+    "pricing-clarity",
+    "technical",
+    "ai-led",
+    "structured"
+  ],
+  "title": "WebInspoo Exa AI Pricing Page"
+}

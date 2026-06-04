@@ -18,6 +18,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/reflect-notes-interface/component-styles.md",
+    "moodboard": "design-systems/reflect-notes-interface/moodboard.svg",
+    "palette": "design-systems/reflect-notes-interface/palette.md",
+    "tokens": "design-systems/reflect-notes-interface/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/reflect-notes-interface/assets.md",
     "color_surface": "dimensions/reflect-notes-interface/color-surface.md",
@@ -33,6 +39,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

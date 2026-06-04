@@ -27,7 +27,13 @@ def load_module(path: Path, name: str):
 def write_reference(library: Path) -> Path:
     (library / "references").mkdir(parents=True)
     (library / "screenshots").mkdir(parents=True)
-    (library / "screenshots" / "sample-hardware-desktop.png").write_bytes(b"png")
+    (library / "screenshots" / "sample-hardware-desktop.png").write_bytes(
+        bytes.fromhex(
+            "89504e470d0a1a0a0000000d4948445200000004000000040802000000"
+            "84e85ddc0000001549444154789c63606060f8ffff3f03031303c30300"
+            "4f6507f91b5a4b7c0000000049454e44ae426082"
+        )
+    )
     path = library / "references" / "2026-06-04-sample-hardware.md"
     path.write_text(
         """---
@@ -146,6 +152,13 @@ Object-led hardware story with sparse copy and stable product media.
 - Forms/inputs: none
 - Feedback states: hover focus visible
 
+## Style Tokens And Surface Grammar
+- Surface/background system: white shell, charcoal foreground, product render focal color
+- Borders/dividers/radii: 1px neutral border, 8px card radius
+- Shadow/depth/material: soft product shadow, no decorative blur
+- Button/input/control density: compact buy button, 13px label, 32px height
+- Icon/illustration stroke style: thin line spec icons
+
 ## Implementation Notes
 - CSS/layout primitives: grid, max-width
 - Token ideas: 24px gutter, 8px radius
@@ -232,8 +245,25 @@ class ProgressiveLibraryTests(unittest.TestCase):
             card = library / "indexes" / "cards" / "sample-hardware.json"
             self.assertTrue(card.exists())
             self.assertEqual(json.loads(card.read_text())["evidence_strength"]["layout_spacing"], "strong")
+            payload = json.loads(card.read_text())
+            self.assertEqual(payload["evidence_strength"]["design_system"], "strong")
+            self.assertEqual(payload["design_system_paths"]["tokens"], "design-systems/sample-hardware/tokens.json")
             dims = sorted((library / "dimensions" / "sample-hardware").glob("*.md"))
             self.assertEqual(len(dims), 7)
+            system_dir = library / "design-systems" / "sample-hardware"
+            self.assertTrue((system_dir / "tokens.json").exists())
+            self.assertTrue((system_dir / "palette.md").exists())
+            self.assertTrue((system_dir / "moodboard.svg").exists())
+            self.assertTrue((system_dir / "component-styles.md").exists())
+            tokens = json.loads((system_dir / "tokens.json").read_text())
+            self.assertIn("palette", tokens)
+            self.assertIn("component_styles", tokens)
+            self.assertTrue(tokens["palette"]["colors"])
+            self.assertIn("Button", tokens["component_styles"])
+            component_text = (system_dir / "component-styles.md").read_text()
+            self.assertIn("## Button", component_text)
+            self.assertIn("### Style Evidence", component_text)
+            self.assertIn("### Missing Evidence", component_text)
             self.assertTrue((library / "indexes" / "manifest.json").exists())
             self.assertTrue((library / "indexes" / "facets.json").exists())
 

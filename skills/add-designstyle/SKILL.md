@@ -15,6 +15,7 @@ After every full reference is written, update the progressive-disclosure layers:
 
 - L1 card: `indexes/cards/<slug>.json` for fast retrieval and ranking.
 - L2 dimensions: `dimensions/<slug>/*.md` for scene, layout/spacing, type/copy, color/surface, assets, motion/code, and components/states.
+- Design system: `design-systems/<slug>/` stores reusable color systems, moodboards, component style rules, and machine-readable tokens.
 - L3 full reference: `references/YYYY-MM-DD-<slug>.md` remains the authoritative complete evidence record.
 - L4 raw evidence: screenshots, DOM captures, and asset/resource clues remain supporting evidence.
 
@@ -33,6 +34,7 @@ L1/L2 are retrieval and selective-reading aids; they do not replace the L3 full 
     facets.json
     cards/
   dimensions/
+  design-systems/
 ```
 
 Create missing folders. Do not store secrets, private user data, full copied proprietary source, or proprietary brand assets beyond screenshots needed as evidence.
@@ -47,6 +49,7 @@ A reference counts as usable only when all required evidence is present:
 - A specific page scope: home, product, pricing, docs, case study, portfolio, article, checkout, dashboard, app screen, gallery, campaign, or search/listing.
 - Layered tags with `category_tags`, `style_tags`, `structure_tags`, `motion_tags`, and `code_tags`.
 - First-viewport geometry, dimension/ratio system, typography roles, palette/material, assets, interaction components, motion, and evidence limits.
+- A complete design-system retention pack with `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md`.
 - Motion code evidence from public CSS/JS/DOM when available, or an explicit `no direct code evidence` limit.
 - Community signal or selection reason for batch additions: source community, award/gallery list, repeated praise theme, or the user's stated reason.
 - Self-review that names what was revised and what still limits reuse.
@@ -96,6 +99,7 @@ Decision rule:
    - Reference text system: H1/H2/eyebrow/CTA/body/meta text samples; sentence length; verb style; claim density; naming patterns; whether copy is technical, editorial, retail, clinical, playful, or restrained.
    - Typography roles: brand/display, retail UI, body, metadata, CTA, technical labels; include observed font stacks, sizes, weights, letter spacing.
    - Style token system: dominant surfaces, border/radius/shadow grammar, icon/stroke style, dividers, focus/hover states, button density, form density, and whether the system feels product-led, editorial, dashboard-like, catalog-like, or campaign-like.
+   - Design system retention: save the reference's color system as a reusable palette/moodboard, component style rules, token roles, evidence source, and missing-evidence limits. Color values must come from screenshot pixels or explicit DOM/CSS/reference values; component styles must come from observed component evidence. Do not invent palettes or component states.
    - Spacing rhythm: header height, hero padding, section vertical gaps, grid gutters, card padding, text block width, CTA spacing, media margins, mobile compression behavior, and any CSS variables such as `--spacing-*`, `gap`, `padding`, `margin`, or `grid-template-*`.
    - Color source: shell palette vs asset-driven palette; include observed text/background colors and contrast behavior.
    - Media system: image/video style, crop, subject, material texture, aspect ratios, asset domains, production method.
@@ -119,13 +123,22 @@ Decision rule:
      ```
 
    - Report the generated L1 card path and L2 dimension folder. If generation or validation fails, report the exact failing command and do not count the reference as progressive-ready.
+   - Report the generated design-system folder:
+
+     ```text
+     design-systems/<slug>/tokens.json
+     design-systems/<slug>/palette.md
+     design-systems/<slug>/moodboard.svg
+     design-systems/<slug>/component-styles.md
+     ```
 
 4. **Self-Review And Revise**
    Before reporting completion, verify:
-   - Grounded in visible evidence and screenshot paths.
-   - Observed facts are separated from inference.
-   - Overlay/security/modal contamination is called out.
-   - Typography, color, layout geometry, assets, motion, components, and implementation notes are specific.
+- Grounded in visible evidence and screenshot paths.
+- Observed facts are separated from inference.
+- Overlay/security/modal contamination is called out.
+- Typography, color, layout geometry, assets, motion, components, and implementation notes are specific.
+- Color systems and component styles are retained as design-system artifacts, with exact source attribution and missing evidence called out.
    - `When Not To Use`, `Avoid Copying`, `Evidence Limits`, and `Self Review` are present.
    - The entry would retrieve for the right future task and not for the wrong one.
 
@@ -364,6 +377,7 @@ When a reference or batch is added, include:
 Generated progressive evidence:
 - L1 card: indexes/cards/<slug>.json
 - L2 dimensions: dimensions/<slug>/
+- Design system: design-systems/<slug>/
 - L3 reference: references/YYYY-MM-DD-<slug>.md
 - Validation: <command + result>
 Missing evidence: <explicit limits or "none beyond recorded Evidence Limits">

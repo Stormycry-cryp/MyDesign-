@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/climate-trace-explore/component-styles.md",
+    "moodboard": "design-systems/climate-trace-explore/moodboard.svg",
+    "palette": "design-systems/climate-trace-explore/palette.md",
+    "tokens": "design-systems/climate-trace-explore/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/climate-trace-explore/assets.md",
     "color_surface": "dimensions/climate-trace-explore/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

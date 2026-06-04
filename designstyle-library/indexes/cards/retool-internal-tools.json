@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/retool-internal-tools/component-styles.md",
+    "moodboard": "design-systems/retool-internal-tools/moodboard.svg",
+    "palette": "design-systems/retool-internal-tools/palette.md",
+    "tokens": "design-systems/retool-internal-tools/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/retool-internal-tools/assets.md",
     "color_surface": "dimensions/retool-internal-tools/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

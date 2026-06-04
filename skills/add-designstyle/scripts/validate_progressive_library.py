@@ -22,6 +22,7 @@ REQUIRED_CARD_FIELDS = [
     "avoid_for",
     "evidence_strength",
     "dimension_paths",
+    "design_system_paths",
     "selection_note",
     "evidence_limits",
 ]
@@ -85,7 +86,7 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
     if not isinstance(strength, dict):
         errors.append("evidence_strength must be an object")
         strength = {}
-    for key in ["screenshot", "layout_spacing", "type_copy", "motion_code"]:
+    for key in ["screenshot", "layout_spacing", "type_copy", "motion_code", "design_system"]:
         value = strength.get(key)
         if value not in ALLOWED_STRENGTH:
             errors.append(f"invalid evidence strength: {key}={value}")
@@ -116,6 +117,33 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
         strength_key = key if key in {"layout_spacing", "type_copy", "motion_code"} else None
         if strength_key and strength.get(strength_key) == "strong" and not observed_has_values(text):
             errors.append(f"strong evidence claimed with no observed values: {slug}/{key}")
+
+    system_paths = card.get("design_system_paths", {})
+    if not isinstance(system_paths, dict):
+        errors.append("design_system_paths must be an object")
+        system_paths = {}
+    for key in ["tokens", "palette", "moodboard", "component_styles"]:
+        rel = system_paths.get(key)
+        if not isinstance(rel, str):
+            errors.append(f"missing design system path: {key}")
+            continue
+        path = lib / rel
+        if not path.exists():
+            errors.append(f"design system file missing: {rel}")
+            continue
+        if key == "tokens":
+            try:
+                tokens = json.loads(path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                errors.append(f"invalid design system tokens: {rel}: {exc}")
+                continue
+            palette = tokens.get("palette", {})
+            components = tokens.get("component_styles", {})
+            colors = palette.get("colors", []) if isinstance(palette, dict) else []
+            if not isinstance(colors, list) or not colors:
+                errors.append(f"design system lacks palette colors: {rel}")
+            if not isinstance(components, dict) or not components:
+                errors.append(f"design system lacks component styles: {rel}")
 
     return {"path": str(path), "slug": slug, "valid": not errors, "errors": errors}
 

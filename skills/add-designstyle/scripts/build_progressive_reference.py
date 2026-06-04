@@ -2,8 +2,13 @@
 from __future__ import annotations
 
 import argparse
+import binascii
+import colorsys
+import math
 import json
 import re
+import struct
+import zlib
 from pathlib import Path
 
 
@@ -277,6 +282,411 @@ def screenshot_strength(meta: dict[str, object], lib: Path) -> str:
     return "weak"
 
 
+def parse_png_rgb(path: Path, max_samples: int = 50000) -> tuple[list[tuple[int, int, int]], str]:
+    try:
+        data = path.read_bytes()
+        if not data.startswith(b"\x89PNG\r\n\x1a\n"):
+            return [], "screenshot is not PNG"
+        pos = 8
+        width = height = color_type = bit_depth = None
+        idat = bytearray()
+        while pos + 8 <= len(data):
+            length = struct.unpack(">I", data[pos : pos + 4])[0]
+            kind = data[pos + 4 : pos + 8]
+            chunk = data[pos + 8 : pos + 8 + length]
+            pos += 12 + length
+            if kind == b"IHDR":
+                width, height, bit_depth, color_type = struct.unpack(">IIBB", chunk[:10])[:4]
+            elif kind == b"IDAT":
+                idat.extend(chunk)
+            elif kind == b"IEND":
+                break
+        if not width or not height or bit_depth != 8 or color_type not in {2, 6}:
+            return [], f"unsupported PNG mode bit_depth={bit_depth} color_type={color_type}"
+        channels = 3 if color_type == 2 else 4
+        raw = zlib.decompress(bytes(idat))
+        stride = width * channels
+        rows = []
+        prev = [0] * stride
+        offset = 0
+        for _ in range(height):
+            filter_type = raw[offset]
+            offset += 1
+            row = list(raw[offset : offset + stride])
+            offset += stride
+            recon = [0] * stride
+            for i, value in enumerate(row):
+                left = recon[i - channels] if i >= channels else 0
+                up = prev[i]
+                up_left = prev[i - channels] if i >= channels else 0
+                if filter_type == 0:
+                    recon[i] = value
+                elif filter_type == 1:
+                    recon[i] = (value + left) & 255
+                elif filter_type == 2:
+                    recon[i] = (value + up) & 255
+                elif filter_type == 3:
+                    recon[i] = (value + ((left + up) // 2)) & 255
+                elif filter_type == 4:
+                    p = left + up - up_left
+                    pa, pb, pc = abs(p - left), abs(p - up), abs(p - up_left)
+                    predictor = left if pa <= pb and pa <= pc else up if pb <= pc else up_left
+                    recon[i] = (value + predictor) & 255
+                else:
+                    return [], f"unsupported PNG filter {filter_type}"
+            rows.append(recon)
+            prev = recon
+        step = max(1, int(math.sqrt((width * height) / max_samples)))
+        pixels = []
+        for y in range(0, height, step):
+            row = rows[y]
+            for x in range(0, width, step):
+                idx = x * channels
+                if channels == 4 and row[idx + 3] < 16:
+                    continue
+                pixels.append((row[idx], row[idx + 1], row[idx + 2]))
+        return pixels, f"sampled {len(pixels)} pixels from {width}x{height} PNG"
+    except (OSError, zlib.error, struct.error, binascii.Error) as exc:
+        return [], f"failed to parse screenshot: {exc}"
+
+
+def hex_to_rgb(value: str) -> tuple[int, int, int] | None:
+    value = value.strip().lstrip("#")
+    if len(value) == 3:
+        value = "".join(ch * 2 for ch in value)
+    if len(value) != 6 or not re.fullmatch(r"[0-9a-fA-F]{6}", value):
+        return None
+    return tuple(int(value[i : i + 2], 16) for i in (0, 2, 4))
+
+
+def rgb_to_hex(rgb: tuple[int, int, int]) -> str:
+    return "#{:02x}{:02x}{:02x}".format(*rgb)
+
+
+def rel_luminance(rgb: tuple[int, int, int]) -> float:
+    values = []
+    for channel in rgb:
+        c = channel / 255
+        values.append(c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4)
+    return 0.2126 * values[0] + 0.7152 * values[1] + 0.0722 * values[2]
+
+
+def color_role(rgb: tuple[int, int, int]) -> str:
+    lum = rel_luminance(rgb)
+    h, s, v = colorsys.rgb_to_hsv(*(channel / 255 for channel in rgb))
+    if lum > 0.9 and s < 0.12:
+        return "background"
+    if lum < 0.12 and s < 0.25:
+        return "foreground"
+    if s < 0.12:
+        return "neutral surface"
+    if v > 0.72 and s > 0.35:
+        return "accent"
+    if v < 0.45:
+        return "deep accent"
+    return "supporting color"
+
+
+def nearest_palette(pixels: list[tuple[int, int, int]], max_colors: int = 10) -> list[dict[str, object]]:
+    buckets: dict[tuple[int, int, int], int] = {}
+    for rgb in pixels:
+        key = tuple(round(channel / 16) * 16 for channel in rgb)
+        key = tuple(min(255, channel) for channel in key)
+        buckets[key] = buckets.get(key, 0) + 1
+    colors = sorted(buckets.items(), key=lambda item: item[1], reverse=True)
+    chosen: list[tuple[tuple[int, int, int], int]] = []
+    for rgb, count in colors:
+        if all(sum((rgb[i] - existing[i]) ** 2 for i in range(3)) ** 0.5 >= 34 for existing, _ in chosen):
+            chosen.append((rgb, count))
+        if len(chosen) >= max_colors:
+            break
+    total = sum(buckets.values()) or 1
+    return [
+        {
+            "hex": rgb_to_hex(rgb),
+            "rgb": list(rgb),
+            "role": color_role(rgb),
+            "source": "screenshot pixel sample",
+            "share": round(count / total, 4),
+            "luminance": round(rel_luminance(rgb), 4),
+        }
+        for rgb, count in chosen
+    ]
+
+
+def explicit_colors(text: str) -> list[dict[str, object]]:
+    found: list[tuple[int, int, int]] = []
+    for match in re.findall(r"#[0-9a-fA-F]{3,8}\b", text):
+        rgb = hex_to_rgb(match[:7] if len(match) >= 7 else match)
+        if rgb:
+            found.append(rgb)
+    for match in re.findall(r"rgba?\(([^)]+)\)", text, re.I):
+        parts = [part.strip() for part in match.split(",")[:3]]
+        if len(parts) == 3 and all(re.fullmatch(r"\d+(?:\.\d+)?", part) for part in parts):
+            rgb = tuple(max(0, min(255, int(float(part)))) for part in parts)
+            found.append(rgb)
+    unique = []
+    seen = set()
+    for rgb in found:
+        if rgb not in seen:
+            seen.add(rgb)
+            unique.append(rgb)
+    return [
+        {
+            "hex": rgb_to_hex(rgb),
+            "rgb": list(rgb),
+            "role": color_role(rgb),
+            "source": "explicit reference or DOM color",
+            "luminance": round(rel_luminance(rgb), 4),
+        }
+        for rgb in unique[:32]
+    ]
+
+
+def line_values(text: str, label: str) -> list[str]:
+    values = []
+    pattern = rf"^- {re.escape(label)}:\s*(.*?)\s*$"
+    for match in re.finditer(pattern, text, re.M):
+        value = match.group(1).strip()
+        lowered = value.lower()
+        if not value or lowered in {"none", "none observed", "todo"}:
+            continue
+        if any(token in lowered for token in [
+            "not captured",
+            "do not infer",
+            "automated pass did not",
+            "inspect screenshot",
+            "cookie",
+            "hs-banner",
+            "hs-modal",
+            "eu-cookie",
+        ]):
+            continue
+        if len(value) > 360 and ("{" in value or "}" in value or ";" in value):
+            continue
+        value = cleaned_component_value(value)
+        if not value:
+            continue
+        if len(value) > 520:
+            value = value[:520].rstrip() + "..."
+        values.append(value)
+    return values
+
+
+def cleaned_component_value(value: str) -> str:
+    parts = [part.strip() for part in value.split(";")]
+    if len(parts) == 1:
+        return "" if is_unusable_component_sample(parts[0]) else value
+    kept = [part for part in parts if part and not is_unusable_component_sample(part)]
+    return "; ".join(kept)
+
+
+def is_unusable_component_sample(value: str) -> bool:
+    lowered = value.lower()
+    if re.search(r"\d+(?:\.\d+)?e[+-]\d+", lowered):
+        return True
+    return False
+
+
+def component_entry(
+    text: str,
+    style_labels: list[str],
+    content_labels: list[str] | None = None,
+    missing_note: str = "Missing explicit component style evidence.",
+) -> dict[str, list[str]]:
+    style: list[str] = []
+    content: list[str] = []
+    for label in style_labels:
+        style.extend(line_values(text, label))
+    for label in content_labels or []:
+        content.extend(line_values(text, label))
+    missing = [] if style else [missing_note]
+    return {
+        "style_evidence": style,
+        "content_samples": content[:4],
+        "missing_evidence": missing,
+    }
+
+
+def component_style_summary(text: str) -> dict[str, dict[str, list[str]]]:
+    return {
+        "Navigation": component_entry(
+            text,
+            ["Density", "Header/hero/section spacing", "First viewport structure"],
+            ["Navigation", "Navigation samples"],
+            "Navigation spacing/density is not explicitly measured; use screenshot before implementation.",
+        ),
+        "Button": component_entry(
+            text,
+            ["Button/input/control density"],
+            ["Buttons/links"],
+            "Button size, padding, border, and state styling are not explicitly measured.",
+        ),
+        "Card": component_entry(
+            text,
+            ["Surface/background system", "Borders/dividers/radii", "Shadow/depth/material", "Observed border radii", "Shape", "Shadow/depth"],
+            ["Cards/sections"],
+            "Card surface, border, radius, and elevation evidence is incomplete.",
+        ),
+        "Form": component_entry(
+            text,
+            ["Button/input/control density", "Forms/inputs"],
+            [],
+            "Form/input style evidence is missing or not classified.",
+        ),
+        "Feedback state": component_entry(
+            text,
+            ["Feedback states", "Micro-interactions"],
+            [],
+            "Hover/focus/loading/empty/error state styling is not fully captured.",
+        ),
+        "Icon": component_entry(
+            text,
+            ["Icon/illustration stroke style", "Illustration/icon style"],
+            [],
+            "Icon stroke/fill style evidence is missing.",
+        ),
+    }
+
+
+def design_system_strength(system: dict[str, object]) -> str:
+    palette = system.get("palette", {})
+    colors = palette.get("colors", []) if isinstance(palette, dict) else []
+    components = system.get("component_styles", {})
+    useful_components = 0
+    if isinstance(components, dict):
+        useful_components = sum(
+            1
+            for values in components.values()
+            if isinstance(values, dict) and values.get("style_evidence")
+        )
+    if len(colors) >= 2 and useful_components >= 3:
+        return "strong"
+    if len(colors) >= 2 and useful_components >= 2:
+        return "medium"
+    if colors or useful_components:
+        return "weak"
+    return "missing"
+
+
+def build_design_system(reference: Path, lib: Path, text: str, meta: dict[str, object]) -> dict[str, object]:
+    slug = slug_from_reference(reference)
+    screenshot_rel = str(meta.get("evidence_screenshot", "")).strip()
+    screenshot = lib / screenshot_rel if screenshot_rel else None
+    pixels: list[tuple[int, int, int]] = []
+    screenshot_note = "missing screenshot path"
+    if screenshot and screenshot.exists():
+        pixels, screenshot_note = parse_png_rgb(screenshot)
+    explicit = explicit_colors(text)
+    colors = nearest_palette(pixels)
+    existing_hex = {item["hex"] for item in colors}
+    for item in explicit:
+        if item["hex"] not in existing_hex:
+            colors.append(item)
+            existing_hex.add(item["hex"])
+    colors = colors[:16]
+    system = {
+        "slug": slug,
+        "title": str(meta.get("title") or slug),
+        "reference_path": f"references/{reference.name}",
+        "evidence": {
+            "screenshot": screenshot_rel,
+            "screenshot_sampling": screenshot_note,
+            "color_sources": ["screenshot pixel sample", "explicit reference or DOM color"],
+            "component_sources": ["Interaction And Components", "Style Tokens And Surface Grammar", "Visual System"],
+            "limits": section_lines(text, "Evidence Limits") or ["No explicit evidence limits recorded."],
+        },
+        "palette": {
+            "colors": colors,
+            "mood_keywords": list(meta.get("style_tags") or [])[:8],
+        },
+        "component_styles": component_style_summary(text),
+    }
+    system["evidence_strength"] = design_system_strength(system)
+    return system
+
+
+def palette_markdown(system: dict[str, object]) -> str:
+    colors = system.get("palette", {}).get("colors", [])
+    rows = "\n".join(
+        f"| `{item['hex']}` | {item.get('role', '')} | {item.get('source', '')} | {item.get('share', '')} |"
+        for item in colors
+    ) or "| Missing | Missing Evidence | No color evidence extracted | |"
+    return f"""# Color System: {system['title']}
+
+## Observed Palette
+| Color | Role | Source | Screenshot Share |
+|---|---|---|---|
+{rows}
+
+## Mood Keywords
+{markdown_list(system.get('palette', {}).get('mood_keywords', []))}
+
+## Evidence
+- Screenshot: {system['evidence']['screenshot']}
+- Sampling: {system['evidence']['screenshot_sampling']}
+- Sources: {', '.join(system['evidence']['color_sources'])}
+
+## Missing Evidence
+{markdown_list(system['evidence']['limits'])}
+
+## Do Not Copy
+- Do not copy proprietary brand palettes blindly; adapt roles, contrast, and proportions.
+"""
+
+
+def component_markdown(system: dict[str, object]) -> str:
+    blocks = []
+    for name, values in system.get("component_styles", {}).items():
+        if not isinstance(values, dict):
+            blocks.append(f"## {name}\n{markdown_list([str(values)])}")
+            continue
+        blocks.append(
+            f"""## {name}
+
+### Style Evidence
+{markdown_list(values.get("style_evidence", []))}
+
+### Content Samples
+{markdown_list(values.get("content_samples", []))}
+
+### Missing Evidence
+{markdown_list(values.get("missing_evidence", []))}
+"""
+        )
+    return f"""# Component Style System: {system['title']}
+
+{chr(10).join(blocks)}
+
+## Evidence
+- Sources: {', '.join(system['evidence']['component_sources'])}
+
+## Do Not Copy
+- Preserve component roles and density; do not copy proprietary component names, icons, or claims.
+"""
+
+
+def moodboard_svg(system: dict[str, object]) -> str:
+    colors = system.get("palette", {}).get("colors", [])[:12]
+    swatches = []
+    for index, item in enumerate(colors):
+        x = 24 + (index % 6) * 112
+        y = 92 + (index // 6) * 104
+        swatches.append(
+            f'<rect x="{x}" y="{y}" width="88" height="56" rx="6" fill="{item["hex"]}"/>'
+            f'<text x="{x}" y="{y + 76}" font-size="11" fill="#111">{item["hex"]}</text>'
+        )
+    if not swatches:
+        swatches.append('<text x="24" y="110" font-size="16" fill="#555">Missing color evidence</text>')
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <rect width="720" height="300" fill="#f7f7f5"/>
+  <text x="24" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111">{system['title']}</text>
+  <text x="24" y="62" font-family="Arial, sans-serif" font-size="12" fill="#555">Color moodboard from screenshot pixels and explicit color evidence</text>
+  {''.join(swatches)}
+</svg>
+"""
+
+
 def section_lines(text: str, name: str) -> list[str]:
     content = section(text, name)
     lines = []
@@ -292,7 +702,7 @@ def excerpt(value: str, limit: int = 180) -> str:
     return value[:limit]
 
 
-def build_card(reference: Path, lib: Path, dimensions: dict[str, str]) -> dict[str, object]:
+def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_system: dict[str, object]) -> dict[str, object]:
     text = reference.read_text(encoding="utf-8", errors="ignore")
     meta = parse_frontmatter(text)
     slug = slug_from_reference(reference)
@@ -307,6 +717,7 @@ def build_card(reference: Path, lib: Path, dimensions: dict[str, str]) -> dict[s
         "layout_spacing": evidence_strength(dimensions["layout_spacing"], "layout_spacing"),
         "type_copy": evidence_strength(dimensions["type_copy"], "type_copy"),
         "motion_code": evidence_strength(dimensions["motion_code"], "motion_code"),
+        "design_system": str(design_system.get("evidence_strength") or "missing"),
     }
     return {
         "slug": slug,
@@ -330,6 +741,12 @@ def build_card(reference: Path, lib: Path, dimensions: dict[str, str]) -> dict[s
             "motion_code": f"dimensions/{slug}/motion-code.md",
             "components_states": f"dimensions/{slug}/components-states.md",
         },
+        "design_system_paths": {
+            "tokens": f"design-systems/{slug}/tokens.json",
+            "palette": f"design-systems/{slug}/palette.md",
+            "moodboard": f"design-systems/{slug}/moodboard.svg",
+            "component_styles": f"design-systems/{slug}/component-styles.md",
+        },
         "selection_note": selection,
         "evidence_limits": evidence_limits,
     }
@@ -348,12 +765,13 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def build_outputs(reference: Path, lib: Path) -> tuple[dict[str, object], dict[str, str]]:
+def build_outputs(reference: Path, lib: Path) -> tuple[dict[str, object], dict[str, str], dict[str, object]]:
     text = reference.read_text(encoding="utf-8", errors="ignore")
     meta = parse_frontmatter(text)
     dimensions = {name: dimension_markdown(name, text, meta) for name in DIMENSIONS}
-    card = build_card(reference, lib, dimensions)
-    return card, dimensions
+    design_system = build_design_system(reference, lib, text, meta)
+    card = build_card(reference, lib, dimensions, design_system)
+    return card, dimensions, design_system
 
 
 def update_indexes(lib: Path) -> None:
@@ -374,6 +792,7 @@ def update_indexes(lib: Path) -> None:
             "title": card["title"],
             "reference_path": card["reference_path"],
             "card_path": f"indexes/cards/{path.name}",
+            "design_system_paths": card.get("design_system_paths", {}),
         })
         for key in ["category_tags", "style_tags", "structure_tags", "motion_tags", "code_tags"]:
             for value in card.get(key, []):
@@ -400,7 +819,7 @@ def main() -> int:
     for ref in refs:
         if not ref.exists():
             raise SystemExit(f"Reference not found: {ref}")
-        card, dimensions = build_outputs(ref, lib)
+        card, dimensions, design_system = build_outputs(ref, lib)
         cards.append(card)
         planned_dimensions += len(dimensions)
         if args.dry_run:
@@ -412,6 +831,12 @@ def main() -> int:
         for key, content in dimensions.items():
             filename = DIMENSIONS[key]["file"]
             (dim_dir / filename).write_text(content, encoding="utf-8")
+        system_dir = lib / "design-systems" / slug
+        system_dir.mkdir(parents=True, exist_ok=True)
+        write_json(system_dir / "tokens.json", design_system)
+        (system_dir / "palette.md").write_text(palette_markdown(design_system), encoding="utf-8")
+        (system_dir / "component-styles.md").write_text(component_markdown(design_system), encoding="utf-8")
+        (system_dir / "moodboard.svg").write_text(moodboard_svg(design_system), encoding="utf-8")
 
     if not args.dry_run:
         update_indexes(lib)

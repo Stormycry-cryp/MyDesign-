@@ -172,6 +172,7 @@ def load_reference_fallback(lib: Path) -> list[dict[str, object]]:
                     "motion_code": "missing",
                 },
                 "dimension_paths": {},
+                "design_system_paths": {},
                 "selection_note": meta.get("community_signal") or "Fallback card from reference frontmatter.",
                 "evidence_limits": ["No progressive card found; read full reference before implementation."],
                 "_card_path": "",
@@ -190,6 +191,55 @@ def dimension_excerpt(lib: Path, card: dict[str, object], dimension: str, limit:
     text = path.read_text(encoding="utf-8", errors="ignore")
     compact = " ".join(text.split())
     return rel, compact[:limit]
+
+
+def design_system_summary(lib: Path, card: dict[str, object], limit: int = 900) -> list[str]:
+    paths = card.get("design_system_paths") if isinstance(card.get("design_system_paths"), dict) else {}
+    if not paths:
+        return ["design_system: missing"]
+
+    lines = [f"design_system_paths: {paths}"]
+    token_rel = paths.get("tokens")
+    if isinstance(token_rel, str):
+        token_path = lib / token_rel
+        if token_path.exists():
+            try:
+                tokens_payload = json.loads(token_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                lines.append(f"tokens: invalid JSON: {exc}")
+            else:
+                palette = tokens_payload.get("palette", {})
+                colors = palette.get("colors", []) if isinstance(palette, dict) else []
+                color_parts = []
+                for color in colors[:8]:
+                    if not isinstance(color, dict):
+                        continue
+                    share = color.get("share")
+                    share_text = f", share {share}" if share is not None else ""
+                    color_parts.append(
+                        f"{color.get('role', 'color')} {color.get('hex')} ({color.get('source', 'source missing')}{share_text})"
+                    )
+                lines.append(f"palette_colors: {'; '.join(color_parts) or 'missing'}")
+
+                components = tokens_payload.get("component_styles", {})
+                if isinstance(components, dict) and components:
+                    lines.append(f"component_style_sections: {', '.join(components.keys())}")
+                else:
+                    lines.append("component_style_sections: missing")
+        else:
+            lines.append(f"tokens: missing file {token_rel}")
+
+    for key in ["palette", "component_styles"]:
+        rel = paths.get(key)
+        if not isinstance(rel, str):
+            continue
+        path = lib / rel
+        if path.exists():
+            compact = " ".join(path.read_text(encoding="utf-8", errors="ignore").split())
+            lines.append(f"{key}_excerpt: {compact[:limit]}")
+        else:
+            lines.append(f"{key}_excerpt: missing file {rel}")
+    return lines
 
 
 def print_card(
@@ -225,6 +275,11 @@ def print_card(
     if args.matrix:
         paths = card.get("dimension_paths") if isinstance(card.get("dimension_paths"), dict) else {}
         print(f"  dimensions: {paths}")
+        system_paths = card.get("design_system_paths") if isinstance(card.get("design_system_paths"), dict) else {}
+        print(f"  design_system: {system_paths}")
+    if args.design_system:
+        for line in design_system_summary(lib, card):
+            print(f"  {line}")
 
 
 def main() -> int:
@@ -234,6 +289,7 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=8)
     parser.add_argument("--matrix", action="store_true", help="Print dimension paths for composing multiple references.")
     parser.add_argument("--dimension", choices=sorted(DIMENSION_ALIASES), help="Include one L2 dimension summary excerpt.")
+    parser.add_argument("--design-system", action="store_true", help="Include retained palette, moodboard, token, and component-style evidence.")
     parser.add_argument("--full", action="store_true", help="Include the L3 full reference path.")
     parser.add_argument("--explain-selection", action="store_true", help="Show ranking factors and penalties.")
     args = parser.parse_args()
@@ -274,6 +330,14 @@ def main() -> int:
                 if len(leaders) >= 3:
                     break
             print(f"{dimension}: {', '.join(leaders) or 'no strong/medium match'}")
+        system_leaders = []
+        for _, card, _ in rows:
+            strength = card.get("evidence_strength", {})
+            if isinstance(strength, dict) and strength.get("design_system") in {"strong", "medium"}:
+                system_leaders.append(str(card.get("title")))
+            if len(system_leaders) >= 3:
+                break
+        print(f"design-system: {', '.join(system_leaders) or 'no strong/medium match'}")
     return 0
 
 

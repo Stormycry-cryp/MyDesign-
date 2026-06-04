@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/jacky-winter-gallery/component-styles.md",
+    "moodboard": "design-systems/jacky-winter-gallery/moodboard.svg",
+    "palette": "design-systems/jacky-winter-gallery/palette.md",
+    "tokens": "design-systems/jacky-winter-gallery/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/jacky-winter-gallery/assets.md",
     "color_surface": "dimensions/jacky-winter-gallery/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

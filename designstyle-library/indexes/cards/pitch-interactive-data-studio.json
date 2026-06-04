@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/pitch-interactive-data-studio/component-styles.md",
+    "moodboard": "design-systems/pitch-interactive-data-studio/moodboard.svg",
+    "palette": "design-systems/pitch-interactive-data-studio/palette.md",
+    "tokens": "design-systems/pitch-interactive-data-studio/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/pitch-interactive-data-studio/assets.md",
     "color_surface": "dimensions/pitch-interactive-data-studio/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

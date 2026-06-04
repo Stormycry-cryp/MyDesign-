@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/rekki-food-service-app/component-styles.md",
+    "moodboard": "design-systems/rekki-food-service-app/moodboard.svg",
+    "palette": "design-systems/rekki-food-service-app/palette.md",
+    "tokens": "design-systems/rekki-food-service-app/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/rekki-food-service-app/assets.md",
     "color_surface": "dimensions/rekki-food-service-app/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

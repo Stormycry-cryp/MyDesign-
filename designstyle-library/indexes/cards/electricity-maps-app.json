@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/electricity-maps-app/component-styles.md",
+    "moodboard": "design-systems/electricity-maps-app/moodboard.svg",
+    "palette": "design-systems/electricity-maps-app/palette.md",
+    "tokens": "design-systems/electricity-maps-app/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/electricity-maps-app/assets.md",
     "color_surface": "dimensions/electricity-maps-app/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

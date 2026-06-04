@@ -2,462 +2,924 @@
   "cards": [
     {
       "card_path": "indexes/cards/a24-culture-studio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/a24-culture-studio/component-styles.md",
+        "moodboard": "design-systems/a24-culture-studio/moodboard.svg",
+        "palette": "design-systems/a24-culture-studio/palette.md",
+        "tokens": "design-systems/a24-culture-studio/tokens.json"
+      },
       "reference_path": "references/2026-06-03-a24-culture-studio.md",
       "slug": "a24-culture-studio",
       "title": "A24 Culture Studio"
     },
     {
       "card_path": "indexes/cards/amie-productivity-calendar.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/amie-productivity-calendar/component-styles.md",
+        "moodboard": "design-systems/amie-productivity-calendar/moodboard.svg",
+        "palette": "design-systems/amie-productivity-calendar/palette.md",
+        "tokens": "design-systems/amie-productivity-calendar/tokens.json"
+      },
       "reference_path": "references/2026-06-03-amie-productivity-calendar.md",
       "slug": "amie-productivity-calendar",
       "title": "Amie Productivity Calendar"
     },
     {
       "card_path": "indexes/cards/apple-vision-pro-product-story.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/apple-vision-pro-product-story/component-styles.md",
+        "moodboard": "design-systems/apple-vision-pro-product-story/moodboard.svg",
+        "palette": "design-systems/apple-vision-pro-product-story/palette.md",
+        "tokens": "design-systems/apple-vision-pro-product-story/tokens.json"
+      },
       "reference_path": "references/2026-06-03-apple-vision-pro-product-story.md",
       "slug": "apple-vision-pro-product-story",
       "title": "Apple Vision Pro Product Story"
     },
     {
       "card_path": "indexes/cards/arc-browser-product-site.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/arc-browser-product-site/component-styles.md",
+        "moodboard": "design-systems/arc-browser-product-site/moodboard.svg",
+        "palette": "design-systems/arc-browser-product-site/palette.md",
+        "tokens": "design-systems/arc-browser-product-site/tokens.json"
+      },
       "reference_path": "references/2026-06-03-arc-browser-product-site.md",
       "slug": "arc-browser-product-site",
       "title": "Arc Browser Product Site"
     },
     {
       "card_path": "indexes/cards/attio-crm-workspace.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/attio-crm-workspace/component-styles.md",
+        "moodboard": "design-systems/attio-crm-workspace/moodboard.svg",
+        "palette": "design-systems/attio-crm-workspace/palette.md",
+        "tokens": "design-systems/attio-crm-workspace/tokens.json"
+      },
       "reference_path": "references/2026-06-04-attio-crm-workspace.md",
       "slug": "attio-crm-workspace",
       "title": "Attio CRM Workspace"
     },
     {
       "card_path": "indexes/cards/bauhaus-clock-interactive-product.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/bauhaus-clock-interactive-product/component-styles.md",
+        "moodboard": "design-systems/bauhaus-clock-interactive-product/moodboard.svg",
+        "palette": "design-systems/bauhaus-clock-interactive-product/palette.md",
+        "tokens": "design-systems/bauhaus-clock-interactive-product/tokens.json"
+      },
       "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
       "slug": "bauhaus-clock-interactive-product",
       "title": "Bauhaus Clock Interactive Product"
     },
     {
       "card_path": "indexes/cards/benvenusa-food-wine.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/benvenusa-food-wine/component-styles.md",
+        "moodboard": "design-systems/benvenusa-food-wine/moodboard.svg",
+        "palette": "design-systems/benvenusa-food-wine/palette.md",
+        "tokens": "design-systems/benvenusa-food-wine/tokens.json"
+      },
       "reference_path": "references/2026-06-03-benvenusa-food-wine.md",
       "slug": "benvenusa-food-wine",
       "title": "Benvenusa Food Wine"
     },
     {
       "card_path": "indexes/cards/better-stack-observability.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/better-stack-observability/component-styles.md",
+        "moodboard": "design-systems/better-stack-observability/moodboard.svg",
+        "palette": "design-systems/better-stack-observability/palette.md",
+        "tokens": "design-systems/better-stack-observability/tokens.json"
+      },
       "reference_path": "references/2026-06-04-better-stack-observability.md",
       "slug": "better-stack-observability",
       "title": "Better Stack Observability"
     },
     {
       "card_path": "indexes/cards/buffet-digital-agency.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/buffet-digital-agency/component-styles.md",
+        "moodboard": "design-systems/buffet-digital-agency/moodboard.svg",
+        "palette": "design-systems/buffet-digital-agency/palette.md",
+        "tokens": "design-systems/buffet-digital-agency/tokens.json"
+      },
       "reference_path": "references/2026-06-03-buffet-digital-agency.md",
       "slug": "buffet-digital-agency",
       "title": "Buffet Digital Agency"
     },
     {
       "card_path": "indexes/cards/capital-finance-product.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/capital-finance-product/component-styles.md",
+        "moodboard": "design-systems/capital-finance-product/moodboard.svg",
+        "palette": "design-systems/capital-finance-product/palette.md",
+        "tokens": "design-systems/capital-finance-product/tokens.json"
+      },
       "reference_path": "references/2026-06-03-capital-finance-product.md",
       "slug": "capital-finance-product",
       "title": "Capital Finance Product"
     },
     {
       "card_path": "indexes/cards/clay-data-workspace.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/clay-data-workspace/component-styles.md",
+        "moodboard": "design-systems/clay-data-workspace/moodboard.svg",
+        "palette": "design-systems/clay-data-workspace/palette.md",
+        "tokens": "design-systems/clay-data-workspace/tokens.json"
+      },
       "reference_path": "references/2026-06-04-clay-data-workspace.md",
       "slug": "clay-data-workspace",
       "title": "Clay Data Workspace"
     },
     {
       "card_path": "indexes/cards/cleo-ai-fintech-storytelling.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/cleo-ai-fintech-storytelling/component-styles.md",
+        "moodboard": "design-systems/cleo-ai-fintech-storytelling/moodboard.svg",
+        "palette": "design-systems/cleo-ai-fintech-storytelling/palette.md",
+        "tokens": "design-systems/cleo-ai-fintech-storytelling/tokens.json"
+      },
       "reference_path": "references/2026-06-03-cleo-ai-fintech-storytelling.md",
       "slug": "cleo-ai-fintech-storytelling",
       "title": "Cleo AI Fintech Storytelling"
     },
     {
       "card_path": "indexes/cards/climate-trace-explore.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/climate-trace-explore/component-styles.md",
+        "moodboard": "design-systems/climate-trace-explore/moodboard.svg",
+        "palette": "design-systems/climate-trace-explore/palette.md",
+        "tokens": "design-systems/climate-trace-explore/tokens.json"
+      },
       "reference_path": "references/2026-06-04-climate-trace-explore.md",
       "slug": "climate-trace-explore",
       "title": "Climate TRACE Explore"
     },
     {
       "card_path": "indexes/cards/cosmos-creative-network.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/cosmos-creative-network/component-styles.md",
+        "moodboard": "design-systems/cosmos-creative-network/moodboard.svg",
+        "palette": "design-systems/cosmos-creative-network/palette.md",
+        "tokens": "design-systems/cosmos-creative-network/tokens.json"
+      },
       "reference_path": "references/2026-06-03-cosmos-creative-network.md",
       "slug": "cosmos-creative-network",
       "title": "Cosmos Creative Network"
     },
     {
       "card_path": "indexes/cards/counter-forms-typography-resource.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/counter-forms-typography-resource/component-styles.md",
+        "moodboard": "design-systems/counter-forms-typography-resource/moodboard.svg",
+        "palette": "design-systems/counter-forms-typography-resource/palette.md",
+        "tokens": "design-systems/counter-forms-typography-resource/tokens.json"
+      },
       "reference_path": "references/2026-06-03-counter-forms-typography-resource.md",
       "slug": "counter-forms-typography-resource",
       "title": "Counter Forms Typography Resource"
     },
     {
       "card_path": "indexes/cards/cron-calendar-interface.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/cron-calendar-interface/component-styles.md",
+        "moodboard": "design-systems/cron-calendar-interface/moodboard.svg",
+        "palette": "design-systems/cron-calendar-interface/palette.md",
+        "tokens": "design-systems/cron-calendar-interface/tokens.json"
+      },
       "reference_path": "references/2026-06-04-cron-calendar-interface.md",
       "slug": "cron-calendar-interface",
       "title": "Cron Calendar Interface"
     },
     {
       "card_path": "indexes/cards/developments-media-production.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/developments-media-production/component-styles.md",
+        "moodboard": "design-systems/developments-media-production/moodboard.svg",
+        "palette": "design-systems/developments-media-production/palette.md",
+        "tokens": "design-systems/developments-media-production/tokens.json"
+      },
       "reference_path": "references/2026-06-03-developments-media-production.md",
       "slug": "developments-media-production",
       "title": "Developments Media Production"
     },
     {
       "card_path": "indexes/cards/eclipse-builders-software.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/eclipse-builders-software/component-styles.md",
+        "moodboard": "design-systems/eclipse-builders-software/moodboard.svg",
+        "palette": "design-systems/eclipse-builders-software/palette.md",
+        "tokens": "design-systems/eclipse-builders-software/tokens.json"
+      },
       "reference_path": "references/2026-06-03-eclipse-builders-software.md",
       "slug": "eclipse-builders-software",
       "title": "Eclipse Builders Software"
     },
     {
       "card_path": "indexes/cards/electricity-maps-app.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/electricity-maps-app/component-styles.md",
+        "moodboard": "design-systems/electricity-maps-app/moodboard.svg",
+        "palette": "design-systems/electricity-maps-app/palette.md",
+        "tokens": "design-systems/electricity-maps-app/tokens.json"
+      },
       "reference_path": "references/2026-06-04-electricity-maps-app.md",
       "slug": "electricity-maps-app",
       "title": "Electricity Maps App"
     },
     {
       "card_path": "indexes/cards/equals-spreadsheet-analytics.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/equals-spreadsheet-analytics/component-styles.md",
+        "moodboard": "design-systems/equals-spreadsheet-analytics/moodboard.svg",
+        "palette": "design-systems/equals-spreadsheet-analytics/palette.md",
+        "tokens": "design-systems/equals-spreadsheet-analytics/tokens.json"
+      },
       "reference_path": "references/2026-06-04-equals-spreadsheet-analytics.md",
       "slug": "equals-spreadsheet-analytics",
       "title": "Equals Spreadsheet Analytics"
     },
     {
       "card_path": "indexes/cards/figma-design-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/figma-design-platform/component-styles.md",
+        "moodboard": "design-systems/figma-design-platform/moodboard.svg",
+        "palette": "design-systems/figma-design-platform/palette.md",
+        "tokens": "design-systems/figma-design-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-03-figma-design-platform.md",
       "slug": "figma-design-platform",
       "title": "Figma Design Platform"
     },
     {
       "card_path": "indexes/cards/footer-design-gallery-resource.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/footer-design-gallery-resource/component-styles.md",
+        "moodboard": "design-systems/footer-design-gallery-resource/moodboard.svg",
+        "palette": "design-systems/footer-design-gallery-resource/palette.md",
+        "tokens": "design-systems/footer-design-gallery-resource/tokens.json"
+      },
       "reference_path": "references/2026-06-03-footer-design-gallery-resource.md",
       "slug": "footer-design-gallery-resource",
       "title": "Footer Design Gallery Resource"
     },
     {
       "card_path": "indexes/cards/glyphs-app-design-tool.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/glyphs-app-design-tool/component-styles.md",
+        "moodboard": "design-systems/glyphs-app-design-tool/moodboard.svg",
+        "palette": "design-systems/glyphs-app-design-tool/palette.md",
+        "tokens": "design-systems/glyphs-app-design-tool/tokens.json"
+      },
       "reference_path": "references/2026-06-03-glyphs-app-design-tool.md",
       "slug": "glyphs-app-design-tool",
       "title": "Glyphs App Design Tool"
     },
     {
       "card_path": "indexes/cards/hex-data-workspace.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/hex-data-workspace/component-styles.md",
+        "moodboard": "design-systems/hex-data-workspace/moodboard.svg",
+        "palette": "design-systems/hex-data-workspace/palette.md",
+        "tokens": "design-systems/hex-data-workspace/tokens.json"
+      },
       "reference_path": "references/2026-06-04-hex-data-workspace.md",
       "slug": "hex-data-workspace",
       "title": "Hex Data Workspace"
     },
     {
       "card_path": "indexes/cards/jacky-winter-gallery.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/jacky-winter-gallery/component-styles.md",
+        "moodboard": "design-systems/jacky-winter-gallery/moodboard.svg",
+        "palette": "design-systems/jacky-winter-gallery/palette.md",
+        "tokens": "design-systems/jacky-winter-gallery/tokens.json"
+      },
       "reference_path": "references/2026-06-03-jacky-winter-gallery.md",
       "slug": "jacky-winter-gallery",
       "title": "Jacky Winter Gallery"
     },
     {
       "card_path": "indexes/cards/linear-product-saas.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/linear-product-saas/component-styles.md",
+        "moodboard": "design-systems/linear-product-saas/moodboard.svg",
+        "palette": "design-systems/linear-product-saas/palette.md",
+        "tokens": "design-systems/linear-product-saas/tokens.json"
+      },
       "reference_path": "references/2026-06-03-linear-product-saas.md",
       "slug": "linear-product-saas",
       "title": "Linear Product SaaS"
     },
     {
       "card_path": "indexes/cards/livesurface-product-software.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/livesurface-product-software/component-styles.md",
+        "moodboard": "design-systems/livesurface-product-software/moodboard.svg",
+        "palette": "design-systems/livesurface-product-software/palette.md",
+        "tokens": "design-systems/livesurface-product-software/tokens.json"
+      },
       "reference_path": "references/2026-06-03-livesurface-product-software.md",
       "slug": "livesurface-product-software",
       "title": "LiveSurface Product Software"
     },
     {
       "card_path": "indexes/cards/lunchbox-restaurant-commerce-saas.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/lunchbox-restaurant-commerce-saas/component-styles.md",
+        "moodboard": "design-systems/lunchbox-restaurant-commerce-saas/moodboard.svg",
+        "palette": "design-systems/lunchbox-restaurant-commerce-saas/palette.md",
+        "tokens": "design-systems/lunchbox-restaurant-commerce-saas/tokens.json"
+      },
       "reference_path": "references/2026-06-03-lunchbox-restaurant-commerce-saas.md",
       "slug": "lunchbox-restaurant-commerce-saas",
       "title": "Lunchbox Restaurant Commerce SaaS"
     },
     {
       "card_path": "indexes/cards/making-software-editorial-tooling.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/making-software-editorial-tooling/component-styles.md",
+        "moodboard": "design-systems/making-software-editorial-tooling/moodboard.svg",
+        "palette": "design-systems/making-software-editorial-tooling/palette.md",
+        "tokens": "design-systems/making-software-editorial-tooling/tokens.json"
+      },
       "reference_path": "references/2026-06-03-making-software-editorial-tooling.md",
       "slug": "making-software-editorial-tooling",
       "title": "Making Software Editorial Tooling"
     },
     {
       "card_path": "indexes/cards/mercury-financial-dashboard.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/mercury-financial-dashboard/component-styles.md",
+        "moodboard": "design-systems/mercury-financial-dashboard/moodboard.svg",
+        "palette": "design-systems/mercury-financial-dashboard/palette.md",
+        "tokens": "design-systems/mercury-financial-dashboard/tokens.json"
+      },
       "reference_path": "references/2026-06-04-mercury-financial-dashboard.md",
       "slug": "mercury-financial-dashboard",
       "title": "Mercury Financial Dashboard"
     },
     {
       "card_path": "indexes/cards/mezmo-observability-saas.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/mezmo-observability-saas/component-styles.md",
+        "moodboard": "design-systems/mezmo-observability-saas/moodboard.svg",
+        "palette": "design-systems/mezmo-observability-saas/palette.md",
+        "tokens": "design-systems/mezmo-observability-saas/tokens.json"
+      },
       "reference_path": "references/2026-06-03-mezmo-observability-saas.md",
       "slug": "mezmo-observability-saas",
       "title": "Mezmo Observability SaaS"
     },
     {
       "card_path": "indexes/cards/middle-name-agency-studio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/middle-name-agency-studio/component-styles.md",
+        "moodboard": "design-systems/middle-name-agency-studio/moodboard.svg",
+        "palette": "design-systems/middle-name-agency-studio/palette.md",
+        "tokens": "design-systems/middle-name-agency-studio/tokens.json"
+      },
       "reference_path": "references/2026-06-03-middle-name-agency-studio.md",
       "slug": "middle-name-agency-studio",
       "title": "Middle Name Agency Studio"
     },
     {
       "card_path": "indexes/cards/notion-workspace-product.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/notion-workspace-product/component-styles.md",
+        "moodboard": "design-systems/notion-workspace-product/moodboard.svg",
+        "palette": "design-systems/notion-workspace-product/palette.md",
+        "tokens": "design-systems/notion-workspace-product/tokens.json"
+      },
       "reference_path": "references/2026-06-03-notion-workspace-product.md",
       "slug": "notion-workspace-product",
       "title": "Notion Workspace Product"
     },
     {
       "card_path": "indexes/cards/observable-data-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/observable-data-platform/component-styles.md",
+        "moodboard": "design-systems/observable-data-platform/moodboard.svg",
+        "palette": "design-systems/observable-data-platform/palette.md",
+        "tokens": "design-systems/observable-data-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-04-observable-data-platform.md",
       "slug": "observable-data-platform",
       "title": "Observable Data Platform"
     },
     {
       "card_path": "indexes/cards/ossa-wine-ecommerce.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/ossa-wine-ecommerce/component-styles.md",
+        "moodboard": "design-systems/ossa-wine-ecommerce/moodboard.svg",
+        "palette": "design-systems/ossa-wine-ecommerce/palette.md",
+        "tokens": "design-systems/ossa-wine-ecommerce/tokens.json"
+      },
       "reference_path": "references/2026-06-03-ossa-wine-ecommerce.md",
       "slug": "ossa-wine-ecommerce",
       "title": "Ossa Wine Ecommerce"
     },
     {
       "card_path": "indexes/cards/overpass-software-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/overpass-software-platform/component-styles.md",
+        "moodboard": "design-systems/overpass-software-platform/moodboard.svg",
+        "palette": "design-systems/overpass-software-platform/palette.md",
+        "tokens": "design-systems/overpass-software-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-03-overpass-software-platform.md",
       "slug": "overpass-software-platform",
       "title": "Overpass Software Platform"
     },
     {
       "card_path": "indexes/cards/patrick-mason-studio-portfolio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/patrick-mason-studio-portfolio/component-styles.md",
+        "moodboard": "design-systems/patrick-mason-studio-portfolio/moodboard.svg",
+        "palette": "design-systems/patrick-mason-studio-portfolio/palette.md",
+        "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json"
+      },
       "reference_path": "references/2026-06-03-patrick-mason-studio-portfolio.md",
       "slug": "patrick-mason-studio-portfolio",
       "title": "Patrick Mason Studio Portfolio"
     },
     {
       "card_path": "indexes/cards/pitch-interactive-data-studio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/pitch-interactive-data-studio/component-styles.md",
+        "moodboard": "design-systems/pitch-interactive-data-studio/moodboard.svg",
+        "palette": "design-systems/pitch-interactive-data-studio/palette.md",
+        "tokens": "design-systems/pitch-interactive-data-studio/tokens.json"
+      },
       "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
       "slug": "pitch-interactive-data-studio",
       "title": "Pitch Interactive Data Studio"
     },
     {
       "card_path": "indexes/cards/pitch-presentation-workspace.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/pitch-presentation-workspace/component-styles.md",
+        "moodboard": "design-systems/pitch-presentation-workspace/moodboard.svg",
+        "palette": "design-systems/pitch-presentation-workspace/palette.md",
+        "tokens": "design-systems/pitch-presentation-workspace/tokens.json"
+      },
       "reference_path": "references/2026-06-04-pitch-presentation-workspace.md",
       "slug": "pitch-presentation-workspace",
       "title": "Pitch Presentation Workspace"
     },
     {
       "card_path": "indexes/cards/plausible-analytics-live-dashboard.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/plausible-analytics-live-dashboard/component-styles.md",
+        "moodboard": "design-systems/plausible-analytics-live-dashboard/moodboard.svg",
+        "palette": "design-systems/plausible-analytics-live-dashboard/palette.md",
+        "tokens": "design-systems/plausible-analytics-live-dashboard/tokens.json"
+      },
       "reference_path": "references/2026-06-04-plausible-analytics-live-dashboard.md",
       "slug": "plausible-analytics-live-dashboard",
       "title": "Plausible Analytics Live Dashboard"
     },
     {
       "card_path": "indexes/cards/railway-developer-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/railway-developer-platform/component-styles.md",
+        "moodboard": "design-systems/railway-developer-platform/moodboard.svg",
+        "palette": "design-systems/railway-developer-platform/palette.md",
+        "tokens": "design-systems/railway-developer-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-04-railway-developer-platform.md",
       "slug": "railway-developer-platform",
       "title": "Railway Developer Platform"
     },
     {
       "card_path": "indexes/cards/raycast-productivity.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/raycast-productivity/component-styles.md",
+        "moodboard": "design-systems/raycast-productivity/moodboard.svg",
+        "palette": "design-systems/raycast-productivity/palette.md",
+        "tokens": "design-systems/raycast-productivity/tokens.json"
+      },
       "reference_path": "references/2026-06-04-raycast-productivity.md",
       "slug": "raycast-productivity",
       "title": "Raycast Productivity"
     },
     {
       "card_path": "indexes/cards/reflect-notes-interface.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/reflect-notes-interface/component-styles.md",
+        "moodboard": "design-systems/reflect-notes-interface/moodboard.svg",
+        "palette": "design-systems/reflect-notes-interface/palette.md",
+        "tokens": "design-systems/reflect-notes-interface/tokens.json"
+      },
       "reference_path": "references/2026-06-04-reflect-notes-interface.md",
       "slug": "reflect-notes-interface",
       "title": "Reflect Notes Interface"
     },
     {
       "card_path": "indexes/cards/rekki-food-service-app.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/rekki-food-service-app/component-styles.md",
+        "moodboard": "design-systems/rekki-food-service-app/moodboard.svg",
+        "palette": "design-systems/rekki-food-service-app/palette.md",
+        "tokens": "design-systems/rekki-food-service-app/tokens.json"
+      },
       "reference_path": "references/2026-06-03-rekki-food-service-app.md",
       "slug": "rekki-food-service-app",
       "title": "Rekki Food Service App"
     },
     {
       "card_path": "indexes/cards/render-cloud-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/render-cloud-platform/component-styles.md",
+        "moodboard": "design-systems/render-cloud-platform/moodboard.svg",
+        "palette": "design-systems/render-cloud-platform/palette.md",
+        "tokens": "design-systems/render-cloud-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-04-render-cloud-platform.md",
       "slug": "render-cloud-platform",
       "title": "Render Cloud Platform"
     },
     {
       "card_path": "indexes/cards/retool-internal-tools.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/retool-internal-tools/component-styles.md",
+        "moodboard": "design-systems/retool-internal-tools/moodboard.svg",
+        "palette": "design-systems/retool-internal-tools/palette.md",
+        "tokens": "design-systems/retool-internal-tools/tokens.json"
+      },
       "reference_path": "references/2026-06-04-retool-internal-tools.md",
       "slug": "retool-internal-tools",
       "title": "Retool Internal Tools"
     },
     {
       "card_path": "indexes/cards/rows-spreadsheet-dashboard.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
+        "moodboard": "design-systems/rows-spreadsheet-dashboard/moodboard.svg",
+        "palette": "design-systems/rows-spreadsheet-dashboard/palette.md",
+        "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json"
+      },
       "reference_path": "references/2026-06-04-rows-spreadsheet-dashboard.md",
       "slug": "rows-spreadsheet-dashboard",
       "title": "Rows Spreadsheet Dashboard"
     },
     {
       "card_path": "indexes/cards/snohetta-architecture-studio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/snohetta-architecture-studio/component-styles.md",
+        "moodboard": "design-systems/snohetta-architecture-studio/moodboard.svg",
+        "palette": "design-systems/snohetta-architecture-studio/palette.md",
+        "tokens": "design-systems/snohetta-architecture-studio/tokens.json"
+      },
       "reference_path": "references/2026-06-03-snohetta-architecture-studio.md",
       "slug": "snohetta-architecture-studio",
       "title": "Snohetta Architecture Studio"
     },
     {
       "card_path": "indexes/cards/stripe-product-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/stripe-product-platform/component-styles.md",
+        "moodboard": "design-systems/stripe-product-platform/moodboard.svg",
+        "palette": "design-systems/stripe-product-platform/palette.md",
+        "tokens": "design-systems/stripe-product-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-03-stripe-product-platform.md",
       "slug": "stripe-product-platform",
       "title": "Stripe Product Platform"
     },
     {
       "card_path": "indexes/cards/supabase-developer-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/supabase-developer-platform/component-styles.md",
+        "moodboard": "design-systems/supabase-developer-platform/moodboard.svg",
+        "palette": "design-systems/supabase-developer-platform/palette.md",
+        "tokens": "design-systems/supabase-developer-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-04-supabase-developer-platform.md",
       "slug": "supabase-developer-platform",
       "title": "Supabase Developer Platform"
     },
     {
       "card_path": "indexes/cards/teenage-engineering-hardware-brand.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/teenage-engineering-hardware-brand/component-styles.md",
+        "moodboard": "design-systems/teenage-engineering-hardware-brand/moodboard.svg",
+        "palette": "design-systems/teenage-engineering-hardware-brand/palette.md",
+        "tokens": "design-systems/teenage-engineering-hardware-brand/tokens.json"
+      },
       "reference_path": "references/2026-06-03-teenage-engineering-hardware-brand.md",
       "slug": "teenage-engineering-hardware-brand",
       "title": "Teenage Engineering Hardware Brand"
     },
     {
       "card_path": "indexes/cards/the-pudding-data-stories.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/the-pudding-data-stories/component-styles.md",
+        "moodboard": "design-systems/the-pudding-data-stories/moodboard.svg",
+        "palette": "design-systems/the-pudding-data-stories/palette.md",
+        "tokens": "design-systems/the-pudding-data-stories/tokens.json"
+      },
       "reference_path": "references/2026-06-04-the-pudding-data-stories.md",
       "slug": "the-pudding-data-stories",
       "title": "The Pudding Data Stories"
     },
     {
       "card_path": "indexes/cards/tines-automation-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/tines-automation-platform/component-styles.md",
+        "moodboard": "design-systems/tines-automation-platform/moodboard.svg",
+        "palette": "design-systems/tines-automation-platform/palette.md",
+        "tokens": "design-systems/tines-automation-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-04-tines-automation-platform.md",
       "slug": "tines-automation-platform",
       "title": "Tines Automation Platform"
     },
     {
       "card_path": "indexes/cards/tinybird-analytics-infrastructure.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/tinybird-analytics-infrastructure/component-styles.md",
+        "moodboard": "design-systems/tinybird-analytics-infrastructure/moodboard.svg",
+        "palette": "design-systems/tinybird-analytics-infrastructure/palette.md",
+        "tokens": "design-systems/tinybird-analytics-infrastructure/tokens.json"
+      },
       "reference_path": "references/2026-06-04-tinybird-analytics-infrastructure.md",
       "slug": "tinybird-analytics-infrastructure",
       "title": "Tinybird Analytics Infrastructure"
     },
     {
       "card_path": "indexes/cards/typeform-product-forms-saas.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/typeform-product-forms-saas/component-styles.md",
+        "moodboard": "design-systems/typeform-product-forms-saas/moodboard.svg",
+        "palette": "design-systems/typeform-product-forms-saas/palette.md",
+        "tokens": "design-systems/typeform-product-forms-saas/tokens.json"
+      },
       "reference_path": "references/2026-06-03-typeform-product-forms-saas.md",
       "slug": "typeform-product-forms-saas",
       "title": "Typeform Product Forms SaaS"
     },
     {
       "card_path": "indexes/cards/uncut-typography-resource.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/uncut-typography-resource/component-styles.md",
+        "moodboard": "design-systems/uncut-typography-resource/moodboard.svg",
+        "palette": "design-systems/uncut-typography-resource/palette.md",
+        "tokens": "design-systems/uncut-typography-resource/tokens.json"
+      },
       "reference_path": "references/2026-06-03-uncut-typography-resource.md",
       "slug": "uncut-typography-resource",
       "title": "Uncut Typography Resource"
     },
     {
       "card_path": "indexes/cards/usps-delivers-generational-report.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/usps-delivers-generational-report/component-styles.md",
+        "moodboard": "design-systems/usps-delivers-generational-report/moodboard.svg",
+        "palette": "design-systems/usps-delivers-generational-report/palette.md",
+        "tokens": "design-systems/usps-delivers-generational-report/tokens.json"
+      },
       "reference_path": "references/2026-06-03-usps-delivers-generational-report.md",
       "slug": "usps-delivers-generational-report",
       "title": "USPS Delivers Generational Report"
     },
     {
       "card_path": "indexes/cards/vercel-developer-platform.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/vercel-developer-platform/component-styles.md",
+        "moodboard": "design-systems/vercel-developer-platform/moodboard.svg",
+        "palette": "design-systems/vercel-developer-platform/palette.md",
+        "tokens": "design-systems/vercel-developer-platform/tokens.json"
+      },
       "reference_path": "references/2026-06-03-vercel-developer-platform.md",
       "slug": "vercel-developer-platform",
       "title": "Vercel Developer Platform"
     },
     {
       "card_path": "indexes/cards/viens-la-travel-hospitality.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/viens-la-travel-hospitality/component-styles.md",
+        "moodboard": "design-systems/viens-la-travel-hospitality/moodboard.svg",
+        "palette": "design-systems/viens-la-travel-hospitality/palette.md",
+        "tokens": "design-systems/viens-la-travel-hospitality/tokens.json"
+      },
       "reference_path": "references/2026-06-03-viens-la-travel-hospitality.md",
       "slug": "viens-la-travel-hospitality",
       "title": "Viens La Travel Hospitality"
     },
     {
       "card_path": "indexes/cards/visual-cinnamon-data-art.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/visual-cinnamon-data-art/component-styles.md",
+        "moodboard": "design-systems/visual-cinnamon-data-art/moodboard.svg",
+        "palette": "design-systems/visual-cinnamon-data-art/palette.md",
+        "tokens": "design-systems/visual-cinnamon-data-art/tokens.json"
+      },
       "reference_path": "references/2026-06-04-visual-cinnamon-data-art.md",
       "slug": "visual-cinnamon-data-art",
       "title": "Visual Cinnamon Data Art"
     },
     {
       "card_path": "indexes/cards/visual-journal-editorial.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/visual-journal-editorial/component-styles.md",
+        "moodboard": "design-systems/visual-journal-editorial/moodboard.svg",
+        "palette": "design-systems/visual-journal-editorial/palette.md",
+        "tokens": "design-systems/visual-journal-editorial/tokens.json"
+      },
       "reference_path": "references/2026-06-03-visual-journal-editorial.md",
       "slug": "visual-journal-editorial",
       "title": "Visual Journal Editorial"
     },
     {
       "card_path": "indexes/cards/viviens-creative-talent.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/viviens-creative-talent/component-styles.md",
+        "moodboard": "design-systems/viviens-creative-talent/moodboard.svg",
+        "palette": "design-systems/viviens-creative-talent/palette.md",
+        "tokens": "design-systems/viviens-creative-talent/tokens.json"
+      },
       "reference_path": "references/2026-06-03-viviens-creative-talent.md",
       "slug": "viviens-creative-talent",
       "title": "Viviens Creative Talent"
     },
     {
       "card_path": "indexes/cards/wam-architecture-studio.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/wam-architecture-studio/component-styles.md",
+        "moodboard": "design-systems/wam-architecture-studio/moodboard.svg",
+        "palette": "design-systems/wam-architecture-studio/palette.md",
+        "tokens": "design-systems/wam-architecture-studio/tokens.json"
+      },
       "reference_path": "references/2026-06-03-wam-architecture-studio.md",
       "slug": "wam-architecture-studio",
       "title": "WAM Architecture Studio"
     },
     {
       "card_path": "indexes/cards/webinspoo-accessgrid-pricing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-accessgrid-pricing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-accessgrid-pricing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-accessgrid-pricing-page/palette.md",
+        "tokens": "design-systems/webinspoo-accessgrid-pricing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-accessgrid-pricing-page.md",
       "slug": "webinspoo-accessgrid-pricing-page",
       "title": "WebInspoo AccessGrid Pricing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-airmee-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-airmee-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-airmee-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-airmee-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-airmee-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-airmee-landing-page.md",
       "slug": "webinspoo-airmee-landing-page",
       "title": "WebInspoo Airmee Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-bevel-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-bevel-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-bevel-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-bevel-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-bevel-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-bevel-landing-page.md",
       "slug": "webinspoo-bevel-landing-page",
       "title": "WebInspoo Bevel Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-braintrust-pricing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-braintrust-pricing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-braintrust-pricing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-braintrust-pricing-page/palette.md",
+        "tokens": "design-systems/webinspoo-braintrust-pricing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-braintrust-pricing-page.md",
       "slug": "webinspoo-braintrust-pricing-page",
       "title": "WebInspoo Braintrust Pricing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-browserbase-pricing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-browserbase-pricing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-browserbase-pricing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-browserbase-pricing-page/palette.md",
+        "tokens": "design-systems/webinspoo-browserbase-pricing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-browserbase-pricing-page.md",
       "slug": "webinspoo-browserbase-pricing-page",
       "title": "WebInspoo Browserbase Pricing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-cloudflare-pricing-pattern.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-cloudflare-pricing-pattern/component-styles.md",
+        "moodboard": "design-systems/webinspoo-cloudflare-pricing-pattern/moodboard.svg",
+        "palette": "design-systems/webinspoo-cloudflare-pricing-pattern/palette.md",
+        "tokens": "design-systems/webinspoo-cloudflare-pricing-pattern/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-cloudflare-pricing-pattern.md",
       "slug": "webinspoo-cloudflare-pricing-pattern",
       "title": "WebInspoo Cloudflare Pricing Pattern"
     },
     {
       "card_path": "indexes/cards/webinspoo-exa-ai-pricing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-exa-ai-pricing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-exa-ai-pricing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-exa-ai-pricing-page/palette.md",
+        "tokens": "design-systems/webinspoo-exa-ai-pricing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-exa-ai-pricing-page.md",
       "slug": "webinspoo-exa-ai-pricing-page",
       "title": "WebInspoo Exa AI Pricing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-expenseai-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-expenseai-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-expenseai-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-expenseai-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-expenseai-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-expenseai-landing-page.md",
       "slug": "webinspoo-expenseai-landing-page",
       "title": "WebInspoo ExpenseAI Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-mistral-ai-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-mistral-ai-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-mistral-ai-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-mistral-ai-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-mistral-ai-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-mistral-ai-landing-page.md",
       "slug": "webinspoo-mistral-ai-landing-page",
       "title": "WebInspoo Mistral AI Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-poolside-ai-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-poolside-ai-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-poolside-ai-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-poolside-ai-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-poolside-ai-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-poolside-ai-landing-page.md",
       "slug": "webinspoo-poolside-ai-landing-page",
       "title": "WebInspoo Poolside AI Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-rerun-developer-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-rerun-developer-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-rerun-developer-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-rerun-developer-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-rerun-developer-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-rerun-developer-landing-page.md",
       "slug": "webinspoo-rerun-developer-landing-page",
       "title": "WebInspoo Rerun Developer Landing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-unkey-pricing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-unkey-pricing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-unkey-pricing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-unkey-pricing-page/palette.md",
+        "tokens": "design-systems/webinspoo-unkey-pricing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-unkey-pricing-page.md",
       "slug": "webinspoo-unkey-pricing-page",
       "title": "WebInspoo Unkey Pricing Page"
     },
     {
       "card_path": "indexes/cards/webinspoo-weav-saas-landing-page.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/webinspoo-weav-saas-landing-page/component-styles.md",
+        "moodboard": "design-systems/webinspoo-weav-saas-landing-page/moodboard.svg",
+        "palette": "design-systems/webinspoo-weav-saas-landing-page/palette.md",
+        "tokens": "design-systems/webinspoo-weav-saas-landing-page/tokens.json"
+      },
       "reference_path": "references/2026-06-03-webinspoo-weav-saas-landing-page.md",
       "slug": "webinspoo-weav-saas-landing-page",
       "title": "WebInspoo Weav SaaS Landing Page"
     },
     {
       "card_path": "indexes/cards/wiz-cybersecurity-saas.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/wiz-cybersecurity-saas/component-styles.md",
+        "moodboard": "design-systems/wiz-cybersecurity-saas/moodboard.svg",
+        "palette": "design-systems/wiz-cybersecurity-saas/palette.md",
+        "tokens": "design-systems/wiz-cybersecurity-saas/tokens.json"
+      },
       "reference_path": "references/2026-06-03-wiz-cybersecurity-saas.md",
       "slug": "wiz-cybersecurity-saas",
       "title": "Wiz Cybersecurity SaaS"

@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/lunchbox-restaurant-commerce-saas/component-styles.md",
+    "moodboard": "design-systems/lunchbox-restaurant-commerce-saas/moodboard.svg",
+    "palette": "design-systems/lunchbox-restaurant-commerce-saas/palette.md",
+    "tokens": "design-systems/lunchbox-restaurant-commerce-saas/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/lunchbox-restaurant-commerce-saas/assets.md",
     "color_surface": "dimensions/lunchbox-restaurant-commerce-saas/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

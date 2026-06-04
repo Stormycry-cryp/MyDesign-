@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/overpass-software-platform/component-styles.md",
+    "moodboard": "design-systems/overpass-software-platform/moodboard.svg",
+    "palette": "design-systems/overpass-software-platform/palette.md",
+    "tokens": "design-systems/overpass-software-platform/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/overpass-software-platform/assets.md",
     "color_surface": "dimensions/overpass-software-platform/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

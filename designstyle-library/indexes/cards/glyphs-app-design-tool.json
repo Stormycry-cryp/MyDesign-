@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/glyphs-app-design-tool/component-styles.md",
+    "moodboard": "design-systems/glyphs-app-design-tool/moodboard.svg",
+    "palette": "design-systems/glyphs-app-design-tool/palette.md",
+    "tokens": "design-systems/glyphs-app-design-tool/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/glyphs-app-design-tool/assets.md",
     "color_surface": "dimensions/glyphs-app-design-tool/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

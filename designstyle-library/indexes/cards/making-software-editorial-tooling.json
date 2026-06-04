@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/making-software-editorial-tooling/component-styles.md",
+    "moodboard": "design-systems/making-software-editorial-tooling/moodboard.svg",
+    "palette": "design-systems/making-software-editorial-tooling/palette.md",
+    "tokens": "design-systems/making-software-editorial-tooling/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/making-software-editorial-tooling/assets.md",
     "color_surface": "dimensions/making-software-editorial-tooling/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "weak",
     "screenshot": "strong",

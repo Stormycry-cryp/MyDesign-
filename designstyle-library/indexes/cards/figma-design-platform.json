@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/figma-design-platform/component-styles.md",
+    "moodboard": "design-systems/figma-design-platform/moodboard.svg",
+    "palette": "design-systems/figma-design-platform/palette.md",
+    "tokens": "design-systems/figma-design-platform/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/figma-design-platform/assets.md",
     "color_surface": "dimensions/figma-design-platform/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

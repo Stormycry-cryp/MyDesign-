@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/attio-crm-workspace/component-styles.md",
+    "moodboard": "design-systems/attio-crm-workspace/moodboard.svg",
+    "palette": "design-systems/attio-crm-workspace/palette.md",
+    "tokens": "design-systems/attio-crm-workspace/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/attio-crm-workspace/assets.md",
     "color_surface": "dimensions/attio-crm-workspace/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

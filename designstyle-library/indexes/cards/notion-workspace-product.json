@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/notion-workspace-product/component-styles.md",
+    "moodboard": "design-systems/notion-workspace-product/moodboard.svg",
+    "palette": "design-systems/notion-workspace-product/palette.md",
+    "tokens": "design-systems/notion-workspace-product/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/notion-workspace-product/assets.md",
     "color_surface": "dimensions/notion-workspace-product/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

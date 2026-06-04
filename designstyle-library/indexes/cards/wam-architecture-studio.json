@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/wam-architecture-studio/component-styles.md",
+    "moodboard": "design-systems/wam-architecture-studio/moodboard.svg",
+    "palette": "design-systems/wam-architecture-studio/palette.md",
+    "tokens": "design-systems/wam-architecture-studio/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/wam-architecture-studio/assets.md",
     "color_surface": "dimensions/wam-architecture-studio/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

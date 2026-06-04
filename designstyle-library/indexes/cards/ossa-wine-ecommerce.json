@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/ossa-wine-ecommerce/component-styles.md",
+    "moodboard": "design-systems/ossa-wine-ecommerce/moodboard.svg",
+    "palette": "design-systems/ossa-wine-ecommerce/palette.md",
+    "tokens": "design-systems/ossa-wine-ecommerce/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/ossa-wine-ecommerce/assets.md",
     "color_surface": "dimensions/ossa-wine-ecommerce/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

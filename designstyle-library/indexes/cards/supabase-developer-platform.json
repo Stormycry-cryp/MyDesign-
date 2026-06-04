@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/supabase-developer-platform/component-styles.md",
+    "moodboard": "design-systems/supabase-developer-platform/moodboard.svg",
+    "palette": "design-systems/supabase-developer-platform/palette.md",
+    "tokens": "design-systems/supabase-developer-platform/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/supabase-developer-platform/assets.md",
     "color_surface": "dimensions/supabase-developer-platform/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

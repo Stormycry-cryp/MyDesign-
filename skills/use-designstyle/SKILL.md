@@ -13,6 +13,7 @@ Default to progressive disclosure:
 
 - L1 cards: read `~/.codex/designstyle-library/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
 - L2 dimensions: read only the needed `dimensions/<slug>/*.md` summaries for scene, layout/spacing, type/copy, color/surface, assets, motion/code, or components/states.
+- Design systems: read `design-systems/<slug>/tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` when the task needs color systems, moodboards, component styling, or token-level reuse.
 - L3 full references: read `references/*.md` only when the L2 summary is insufficient, contradictory, contaminated, or implementation-grade detail is required.
 - L4 raw evidence: screenshots, DOM captures, assets, and resource clues are checked only when visual/code evidence needs verification.
 
@@ -35,6 +36,7 @@ Before using references for a design task, check whether the library covers the 
 - Count candidate matches by `category_tags`, `page_scope`, `best_for`, and `avoid_for`, not only by style words.
 - Prefer references with screenshots, page scope, code surface, motion evidence, and self-review. Demote references with explicit evidence limits.
 - Prefer references that preserve reference text samples, style token grammar, and measured spacing/gap evidence when the target task asks for a complete visual system rather than mood only.
+- Prefer references with retained design-system artifacts when the target task needs color palette, moodboard, component styling, or reusable tokens. Do not use a color mood adjective when exact palette evidence is available.
 - If a category is underrepresented, say what is missing and run a narrower query. If the result is still weak, state that the library lacks implementation-grade references for that scene.
 - For large or mixed libraries, use references by role: scene, structure, type/color, asset, motion/code, and component states. Do not let a high-scoring but wrong-category entry dominate.
 - Treat page/category fit as the retrieval gate. Generic motion/code words such as `transition`, `hover`, `scroll`, `animation`, or `css` must not let an unrelated gallery, portfolio, or editorial page outrank a same-scene pricing/product/dashboard reference. Use motion/code evidence only after scene, page scope, and category fit are plausible.
@@ -56,12 +58,14 @@ Before using references for a design task, check whether the library covers the 
    ```bash
    python ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid swiper transition" --matrix --explain-selection
    python ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid" --dimension type-copy
+   python ~/.codex/skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --dimension color-surface --full
    ```
 
    Use 2-5 references maximum, selected by role rather than winner-takes-all ranking:
    - Scene/style reference: product category, audience, trust problem, tone.
    - Structure/ratio reference: first viewport geometry, page grid, media/product-card proportions.
    - Type/color reference: typography roles, color/material system, contrast.
+   - Design-system reference: exact palette roles, moodboard, component style rules, and token evidence from `design-systems/<slug>/`.
    - Text grammar reference: H1/H2/eyebrow/CTA/body/meta copy rhythm, claim density, naming style, and tone mechanics.
    - Style/spacing reference: surface system, borders/radii/shadows, control density, header/hero/section gaps, grid gutters, card padding, and mobile compression.
    - Asset reference: photography/video/material production plan.
@@ -92,6 +96,7 @@ Before using references for a design task, check whether the library covers the 
    - Style tokens: background/surface layers, border/radius/shadow grammar, button/input density, icon stroke style, divider usage, hover/focus states.
    - Spacing rhythm: header height, hero top/bottom padding, section gaps, grid gutters, media margins, card padding, text measure, CTA spacing, mobile spacing compression.
    - Color source: shell palette vs asset-derived palette.
+   - Design system: retained palette colors, color roles, moodboard direction, component style rules, source attribution, and missing evidence limits.
    - Asset plan: required photo/video/product/material quality.
    - Motion purpose: source video, reveal, drawer, hover, scroll, timing.
    - Motion code: CSS transition/animation/keyframes, exact duration/easing/delay/transform parameters, GSAP/Swiper/Slick/Owl/Framer evidence, `IntersectionObserver`, `requestAnimationFrame`, reduced-motion handling.
@@ -166,6 +171,7 @@ Before using references for a design task, check whether the library covers the 
 - Type roles:
 - Reference text grammar:
 - Style tokens:
+- Design system:
 - Spacing rhythm:
 - Color/material:
 - Assets:

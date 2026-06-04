@@ -1,0 +1,77 @@
+# Component Style System: Typeform Product Forms SaaS
+
+## Navigation
+
+### Style Evidence
+- navigation count 5, image count 40, document height 8959.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+
+### Content Samples
+- Typeform Icon; Enterprise; Pricing; Log in; Sign up
+- Typeform Icon; Enterprise; Pricing; Log in; Sign up
+
+### Missing Evidence
+- None recorded.
+
+## Button
+
+### Style Evidence
+- None recorded.
+
+### Content Samples
+- Register now; Register now; Register now; Log in; Log in; Sign up; Get started—it’s free; Get started—it’s free; Explore forms; Explore forms; Explore Growth Flow; Explore Growth Flow
+
+### Missing Evidence
+- Button size, padding, border, and state styling are not explicitly measured.
+
+## Card
+
+### Style Evidence
+- 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px
+- border radii samples recorded below.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- None recorded.
+
+## Form
+
+### Style Evidence
+- None recorded.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- Form/input style evidence is missing or not classified.
+
+## Feedback state
+
+### Style Evidence
+- infer only when backed by transition/animation evidence or visible screenshot states.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- None recorded.
+
+## Icon
+
+### Style Evidence
+- None recorded.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- Icon stroke/fill style evidence is missing.
+
+
+## Evidence
+- Sources: Interaction And Components, Style Tokens And Surface Grammar, Visual System
+
+## Do Not Copy
+- Preserve component roles and density; do not copy proprietary component names, icons, or claims.

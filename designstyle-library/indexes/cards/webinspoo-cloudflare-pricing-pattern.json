@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/webinspoo-cloudflare-pricing-pattern/component-styles.md",
+    "moodboard": "design-systems/webinspoo-cloudflare-pricing-pattern/moodboard.svg",
+    "palette": "design-systems/webinspoo-cloudflare-pricing-pattern/palette.md",
+    "tokens": "design-systems/webinspoo-cloudflare-pricing-pattern/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/webinspoo-cloudflare-pricing-pattern/assets.md",
     "color_surface": "dimensions/webinspoo-cloudflare-pricing-pattern/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

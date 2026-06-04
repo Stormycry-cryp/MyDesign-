@@ -18,6 +18,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/tines-automation-platform/component-styles.md",
+    "moodboard": "design-systems/tines-automation-platform/moodboard.svg",
+    "palette": "design-systems/tines-automation-platform/palette.md",
+    "tokens": "design-systems/tines-automation-platform/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/tines-automation-platform/assets.md",
     "color_surface": "dimensions/tines-automation-platform/color-surface.md",
@@ -33,6 +39,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

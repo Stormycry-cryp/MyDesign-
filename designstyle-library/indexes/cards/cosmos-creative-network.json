@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/cosmos-creative-network/component-styles.md",
+    "moodboard": "design-systems/cosmos-creative-network/moodboard.svg",
+    "palette": "design-systems/cosmos-creative-network/palette.md",
+    "tokens": "design-systems/cosmos-creative-network/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/cosmos-creative-network/assets.md",
     "color_surface": "dimensions/cosmos-creative-network/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

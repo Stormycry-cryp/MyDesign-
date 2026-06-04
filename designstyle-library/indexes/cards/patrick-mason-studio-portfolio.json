@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/patrick-mason-studio-portfolio/component-styles.md",
+    "moodboard": "design-systems/patrick-mason-studio-portfolio/moodboard.svg",
+    "palette": "design-systems/patrick-mason-studio-portfolio/palette.md",
+    "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/patrick-mason-studio-portfolio/assets.md",
     "color_surface": "dimensions/patrick-mason-studio-portfolio/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

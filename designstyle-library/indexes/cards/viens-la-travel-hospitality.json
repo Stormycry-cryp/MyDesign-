@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/viens-la-travel-hospitality/component-styles.md",
+    "moodboard": "design-systems/viens-la-travel-hospitality/moodboard.svg",
+    "palette": "design-systems/viens-la-travel-hospitality/palette.md",
+    "tokens": "design-systems/viens-la-travel-hospitality/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/viens-la-travel-hospitality/assets.md",
     "color_surface": "dimensions/viens-la-travel-hospitality/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

@@ -19,6 +19,12 @@
     "public-css",
     "public-js"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/mezmo-observability-saas/component-styles.md",
+    "moodboard": "design-systems/mezmo-observability-saas/moodboard.svg",
+    "palette": "design-systems/mezmo-observability-saas/palette.md",
+    "tokens": "design-systems/mezmo-observability-saas/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/mezmo-observability-saas/assets.md",
     "color_surface": "dimensions/mezmo-observability-saas/color-surface.md",
@@ -34,6 +40,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

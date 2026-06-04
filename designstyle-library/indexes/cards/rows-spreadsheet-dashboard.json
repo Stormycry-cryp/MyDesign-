@@ -17,6 +17,12 @@
     "public-dom",
     "css-js-probe"
   ],
+  "design_system_paths": {
+    "component_styles": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
+    "moodboard": "design-systems/rows-spreadsheet-dashboard/moodboard.svg",
+    "palette": "design-systems/rows-spreadsheet-dashboard/palette.md",
+    "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json"
+  },
   "dimension_paths": {
     "assets": "dimensions/rows-spreadsheet-dashboard/assets.md",
     "color_surface": "dimensions/rows-spreadsheet-dashboard/color-surface.md",
@@ -32,6 +38,7 @@
     "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "evidence_strength": {
+    "design_system": "strong",
     "layout_spacing": "strong",
     "motion_code": "strong",
     "screenshot": "strong",

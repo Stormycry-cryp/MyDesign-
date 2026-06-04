@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "plain marketing pages",
+    "government portals"
+  ],
+  "best_for": [
+    "data notebooks",
+    "analytics workspaces",
+    "interactive report builders"
+  ],
+  "category_tags": [
+    "data-platform",
+    "notebook",
+    "analytics"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/observable-data-platform/assets.md",
+    "color_surface": "dimensions/observable-data-platform/color-surface.md",
+    "components_states": "dimensions/observable-data-platform/components-states.md",
+    "layout_spacing": "dimensions/observable-data-platform/layout-spacing.md",
+    "motion_code": "dimensions/observable-data-platform/motion-code.md",
+    "scene": "dimensions/observable-data-platform/scene.md",
+    "type_copy": "dimensions/observable-data-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "scroll-reveal"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-observable-data-platform.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for data notebook and workspace composition.",
+  "slug": "observable-data-platform",
+  "structure_tags": [
+    "notebook-preview",
+    "data-canvas",
+    "editorial-product"
+  ],
+  "style_tags": [
+    "technical",
+    "modular",
+    "visual"
+  ],
+  "title": "Observable Data Platform"
+}

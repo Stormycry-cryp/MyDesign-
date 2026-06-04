@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "campaign-only pages",
+    "government portals"
+  ],
+  "best_for": [
+    "CRM dashboards",
+    "relationship data workspaces",
+    "high-density SaaS UI"
+  ],
+  "category_tags": [
+    "crm",
+    "saas",
+    "dashboard"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/attio-crm-workspace/assets.md",
+    "color_surface": "dimensions/attio-crm-workspace/color-surface.md",
+    "components_states": "dimensions/attio-crm-workspace/components-states.md",
+    "layout_spacing": "dimensions/attio-crm-workspace/layout-spacing.md",
+    "motion_code": "dimensions/attio-crm-workspace/motion-code.md",
+    "scene": "dimensions/attio-crm-workspace/scene.md",
+    "type_copy": "dimensions/attio-crm-workspace/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "scroll-reveal"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-attio-crm-workspace.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for polished CRM workspace information design despite mild density flag.",
+  "slug": "attio-crm-workspace",
+  "structure_tags": [
+    "workspace-preview",
+    "table-detail-composition",
+    "product-led-hero"
+  ],
+  "style_tags": [
+    "minimal",
+    "polished",
+    "dense-but-calm"
+  ],
+  "title": "Attio CRM Workspace"
+}

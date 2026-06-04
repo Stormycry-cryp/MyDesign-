@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "non-technical consumer apps",
+    "government portals"
+  ],
+  "best_for": [
+    "developer platform dashboards",
+    "database products",
+    "technical SaaS"
+  ],
+  "category_tags": [
+    "developer-platform",
+    "database",
+    "dashboard"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/supabase-developer-platform/assets.md",
+    "color_surface": "dimensions/supabase-developer-platform/color-surface.md",
+    "components_states": "dimensions/supabase-developer-platform/components-states.md",
+    "layout_spacing": "dimensions/supabase-developer-platform/layout-spacing.md",
+    "motion_code": "dimensions/supabase-developer-platform/motion-code.md",
+    "scene": "dimensions/supabase-developer-platform/scene.md",
+    "type_copy": "dimensions/supabase-developer-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "hover-microinteraction"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-supabase-developer-platform.md",
+  "selection_note": "Borderline in 2026-06-04 UI aesthetic probe; kept as backup developer-platform reference, not a top aesthetic pick.",
+  "slug": "supabase-developer-platform",
+  "structure_tags": [
+    "developer-hero",
+    "feature-grid",
+    "platform-preview"
+  ],
+  "style_tags": [
+    "clean",
+    "technical",
+    "green-accent"
+  ],
+  "title": "Supabase Developer Platform"
+}

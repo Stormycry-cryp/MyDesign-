@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "operational dashboards",
+    "government portals"
+  ],
+  "best_for": [
+    "data stories",
+    "visual essays",
+    "information display galleries"
+  ],
+  "category_tags": [
+    "data-storytelling",
+    "editorial",
+    "information-display"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/the-pudding-data-stories/assets.md",
+    "color_surface": "dimensions/the-pudding-data-stories/color-surface.md",
+    "components_states": "dimensions/the-pudding-data-stories/components-states.md",
+    "layout_spacing": "dimensions/the-pudding-data-stories/layout-spacing.md",
+    "motion_code": "dimensions/the-pudding-data-stories/motion-code.md",
+    "scene": "dimensions/the-pudding-data-stories/scene.md",
+    "type_copy": "dimensions/the-pudding-data-stories/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "story-interaction"
+  ],
+  "page_scope": "home/story index plus secondary links",
+  "reference_path": "references/2026-06-04-the-pudding-data-stories.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; kept as data-story reference, not dashboard core.",
+  "slug": "the-pudding-data-stories",
+  "structure_tags": [
+    "story-gallery",
+    "data-card-grid",
+    "editorial-index"
+  ],
+  "style_tags": [
+    "playful",
+    "editorial",
+    "visual"
+  ],
+  "title": "The Pudding Data Stories"
+}

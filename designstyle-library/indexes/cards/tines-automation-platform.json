@@ -1,0 +1,60 @@
+{
+  "avoid_for": [
+    "finance dashboards",
+    "government portals",
+    "one-note purple clones"
+  ],
+  "best_for": [
+    "automation dashboards",
+    "workflow builders",
+    "security operations UI"
+  ],
+  "category_tags": [
+    "automation",
+    "workflow",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/tines-automation-platform/assets.md",
+    "color_surface": "dimensions/tines-automation-platform/color-surface.md",
+    "components_states": "dimensions/tines-automation-platform/components-states.md",
+    "layout_spacing": "dimensions/tines-automation-platform/layout-spacing.md",
+    "motion_code": "dimensions/tines-automation-platform/motion-code.md",
+    "scene": "dimensions/tines-automation-platform/scene.md",
+    "type_copy": "dimensions/tines-automation-platform/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "scroll-reveal"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-tines-automation-platform.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong automation/workflow product UI, with purple-use caution.",
+  "slug": "tines-automation-platform",
+  "structure_tags": [
+    "workflow-hero",
+    "automation-canvas",
+    "security-operations"
+  ],
+  "style_tags": [
+    "bold",
+    "purple",
+    "grid-led"
+  ],
+  "title": "Tines Automation Platform"
+}

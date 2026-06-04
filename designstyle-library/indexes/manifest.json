@@ -25,6 +25,12 @@
       "title": "Arc Browser Product Site"
     },
     {
+      "card_path": "indexes/cards/attio-crm-workspace.json",
+      "reference_path": "references/2026-06-04-attio-crm-workspace.md",
+      "slug": "attio-crm-workspace",
+      "title": "Attio CRM Workspace"
+    },
+    {
       "card_path": "indexes/cards/bauhaus-clock-interactive-product.json",
       "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
       "slug": "bauhaus-clock-interactive-product",
@@ -35,6 +41,12 @@
       "reference_path": "references/2026-06-03-benvenusa-food-wine.md",
       "slug": "benvenusa-food-wine",
       "title": "Benvenusa Food Wine"
+    },
+    {
+      "card_path": "indexes/cards/better-stack-observability.json",
+      "reference_path": "references/2026-06-04-better-stack-observability.md",
+      "slug": "better-stack-observability",
+      "title": "Better Stack Observability"
     },
     {
       "card_path": "indexes/cards/buffet-digital-agency.json",
@@ -49,10 +61,22 @@
       "title": "Capital Finance Product"
     },
     {
+      "card_path": "indexes/cards/clay-data-workspace.json",
+      "reference_path": "references/2026-06-04-clay-data-workspace.md",
+      "slug": "clay-data-workspace",
+      "title": "Clay Data Workspace"
+    },
+    {
       "card_path": "indexes/cards/cleo-ai-fintech-storytelling.json",
       "reference_path": "references/2026-06-03-cleo-ai-fintech-storytelling.md",
       "slug": "cleo-ai-fintech-storytelling",
       "title": "Cleo AI Fintech Storytelling"
+    },
+    {
+      "card_path": "indexes/cards/climate-trace-explore.json",
+      "reference_path": "references/2026-06-04-climate-trace-explore.md",
+      "slug": "climate-trace-explore",
+      "title": "Climate TRACE Explore"
     },
     {
       "card_path": "indexes/cards/cosmos-creative-network.json",
@@ -67,6 +91,12 @@
       "title": "Counter Forms Typography Resource"
     },
     {
+      "card_path": "indexes/cards/cron-calendar-interface.json",
+      "reference_path": "references/2026-06-04-cron-calendar-interface.md",
+      "slug": "cron-calendar-interface",
+      "title": "Cron Calendar Interface"
+    },
+    {
       "card_path": "indexes/cards/developments-media-production.json",
       "reference_path": "references/2026-06-03-developments-media-production.md",
       "slug": "developments-media-production",
@@ -77,6 +107,18 @@
       "reference_path": "references/2026-06-03-eclipse-builders-software.md",
       "slug": "eclipse-builders-software",
       "title": "Eclipse Builders Software"
+    },
+    {
+      "card_path": "indexes/cards/electricity-maps-app.json",
+      "reference_path": "references/2026-06-04-electricity-maps-app.md",
+      "slug": "electricity-maps-app",
+      "title": "Electricity Maps App"
+    },
+    {
+      "card_path": "indexes/cards/equals-spreadsheet-analytics.json",
+      "reference_path": "references/2026-06-04-equals-spreadsheet-analytics.md",
+      "slug": "equals-spreadsheet-analytics",
+      "title": "Equals Spreadsheet Analytics"
     },
     {
       "card_path": "indexes/cards/figma-design-platform.json",
@@ -95,6 +137,12 @@
       "reference_path": "references/2026-06-03-glyphs-app-design-tool.md",
       "slug": "glyphs-app-design-tool",
       "title": "Glyphs App Design Tool"
+    },
+    {
+      "card_path": "indexes/cards/hex-data-workspace.json",
+      "reference_path": "references/2026-06-04-hex-data-workspace.md",
+      "slug": "hex-data-workspace",
+      "title": "Hex Data Workspace"
     },
     {
       "card_path": "indexes/cards/jacky-winter-gallery.json",
@@ -127,6 +175,12 @@
       "title": "Making Software Editorial Tooling"
     },
     {
+      "card_path": "indexes/cards/mercury-financial-dashboard.json",
+      "reference_path": "references/2026-06-04-mercury-financial-dashboard.md",
+      "slug": "mercury-financial-dashboard",
+      "title": "Mercury Financial Dashboard"
+    },
+    {
       "card_path": "indexes/cards/mezmo-observability-saas.json",
       "reference_path": "references/2026-06-03-mezmo-observability-saas.md",
       "slug": "mezmo-observability-saas",
@@ -143,6 +197,12 @@
       "reference_path": "references/2026-06-03-notion-workspace-product.md",
       "slug": "notion-workspace-product",
       "title": "Notion Workspace Product"
+    },
+    {
+      "card_path": "indexes/cards/observable-data-platform.json",
+      "reference_path": "references/2026-06-04-observable-data-platform.md",
+      "slug": "observable-data-platform",
+      "title": "Observable Data Platform"
     },
     {
       "card_path": "indexes/cards/ossa-wine-ecommerce.json",
@@ -163,10 +223,64 @@
       "title": "Patrick Mason Studio Portfolio"
     },
     {
+      "card_path": "indexes/cards/pitch-interactive-data-studio.json",
+      "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
+      "slug": "pitch-interactive-data-studio",
+      "title": "Pitch Interactive Data Studio"
+    },
+    {
+      "card_path": "indexes/cards/pitch-presentation-workspace.json",
+      "reference_path": "references/2026-06-04-pitch-presentation-workspace.md",
+      "slug": "pitch-presentation-workspace",
+      "title": "Pitch Presentation Workspace"
+    },
+    {
+      "card_path": "indexes/cards/plausible-analytics-live-dashboard.json",
+      "reference_path": "references/2026-06-04-plausible-analytics-live-dashboard.md",
+      "slug": "plausible-analytics-live-dashboard",
+      "title": "Plausible Analytics Live Dashboard"
+    },
+    {
+      "card_path": "indexes/cards/railway-developer-platform.json",
+      "reference_path": "references/2026-06-04-railway-developer-platform.md",
+      "slug": "railway-developer-platform",
+      "title": "Railway Developer Platform"
+    },
+    {
+      "card_path": "indexes/cards/raycast-productivity.json",
+      "reference_path": "references/2026-06-04-raycast-productivity.md",
+      "slug": "raycast-productivity",
+      "title": "Raycast Productivity"
+    },
+    {
+      "card_path": "indexes/cards/reflect-notes-interface.json",
+      "reference_path": "references/2026-06-04-reflect-notes-interface.md",
+      "slug": "reflect-notes-interface",
+      "title": "Reflect Notes Interface"
+    },
+    {
       "card_path": "indexes/cards/rekki-food-service-app.json",
       "reference_path": "references/2026-06-03-rekki-food-service-app.md",
       "slug": "rekki-food-service-app",
       "title": "Rekki Food Service App"
+    },
+    {
+      "card_path": "indexes/cards/render-cloud-platform.json",
+      "reference_path": "references/2026-06-04-render-cloud-platform.md",
+      "slug": "render-cloud-platform",
+      "title": "Render Cloud Platform"
+    },
+    {
+      "card_path": "indexes/cards/retool-internal-tools.json",
+      "reference_path": "references/2026-06-04-retool-internal-tools.md",
+      "slug": "retool-internal-tools",
+      "title": "Retool Internal Tools"
+    },
+    {
+      "card_path": "indexes/cards/rows-spreadsheet-dashboard.json",
+      "reference_path": "references/2026-06-04-rows-spreadsheet-dashboard.md",
+      "slug": "rows-spreadsheet-dashboard",
+      "title": "Rows Spreadsheet Dashboard"
     },
     {
       "card_path": "indexes/cards/snohetta-architecture-studio.json",
@@ -181,10 +295,34 @@
       "title": "Stripe Product Platform"
     },
     {
+      "card_path": "indexes/cards/supabase-developer-platform.json",
+      "reference_path": "references/2026-06-04-supabase-developer-platform.md",
+      "slug": "supabase-developer-platform",
+      "title": "Supabase Developer Platform"
+    },
+    {
       "card_path": "indexes/cards/teenage-engineering-hardware-brand.json",
       "reference_path": "references/2026-06-03-teenage-engineering-hardware-brand.md",
       "slug": "teenage-engineering-hardware-brand",
       "title": "Teenage Engineering Hardware Brand"
+    },
+    {
+      "card_path": "indexes/cards/the-pudding-data-stories.json",
+      "reference_path": "references/2026-06-04-the-pudding-data-stories.md",
+      "slug": "the-pudding-data-stories",
+      "title": "The Pudding Data Stories"
+    },
+    {
+      "card_path": "indexes/cards/tines-automation-platform.json",
+      "reference_path": "references/2026-06-04-tines-automation-platform.md",
+      "slug": "tines-automation-platform",
+      "title": "Tines Automation Platform"
+    },
+    {
+      "card_path": "indexes/cards/tinybird-analytics-infrastructure.json",
+      "reference_path": "references/2026-06-04-tinybird-analytics-infrastructure.md",
+      "slug": "tinybird-analytics-infrastructure",
+      "title": "Tinybird Analytics Infrastructure"
     },
     {
       "card_path": "indexes/cards/typeform-product-forms-saas.json",
@@ -215,6 +353,12 @@
       "reference_path": "references/2026-06-03-viens-la-travel-hospitality.md",
       "slug": "viens-la-travel-hospitality",
       "title": "Viens La Travel Hospitality"
+    },
+    {
+      "card_path": "indexes/cards/visual-cinnamon-data-art.json",
+      "reference_path": "references/2026-06-04-visual-cinnamon-data-art.md",
+      "slug": "visual-cinnamon-data-art",
+      "title": "Visual Cinnamon Data Art"
     },
     {
       "card_path": "indexes/cards/visual-journal-editorial.json",
@@ -319,5 +463,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 53
+  "total_cards": 77
 }

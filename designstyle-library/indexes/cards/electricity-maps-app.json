@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "marketing websites",
+    "government portals"
+  ],
+  "best_for": [
+    "real-time map dashboards",
+    "energy data displays",
+    "geographic status UI"
+  ],
+  "category_tags": [
+    "map",
+    "energy",
+    "data-dashboard"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/electricity-maps-app/assets.md",
+    "color_surface": "dimensions/electricity-maps-app/color-surface.md",
+    "components_states": "dimensions/electricity-maps-app/components-states.md",
+    "layout_spacing": "dimensions/electricity-maps-app/layout-spacing.md",
+    "motion_code": "dimensions/electricity-maps-app/motion-code.md",
+    "scene": "dimensions/electricity-maps-app/scene.md",
+    "type_copy": "dimensions/electricity-maps-app/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "map-interaction",
+    "low-motion"
+  ],
+  "page_scope": "interactive app map",
+  "reference_path": "references/2026-06-04-electricity-maps-app.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong real-time energy map/dashboard UI.",
+  "slug": "electricity-maps-app",
+  "structure_tags": [
+    "full-map-dashboard",
+    "legend-panel",
+    "real-time-indicators"
+  ],
+  "style_tags": [
+    "color-coded",
+    "operational",
+    "clear"
+  ],
+  "title": "Electricity Maps App"
+}

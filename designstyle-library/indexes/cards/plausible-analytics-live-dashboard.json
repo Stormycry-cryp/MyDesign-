@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "expressive hero pages",
+    "brand campaigns"
+  ],
+  "best_for": [
+    "web analytics dashboards",
+    "clear metric pages",
+    "low-noise reporting"
+  ],
+  "category_tags": [
+    "analytics",
+    "dashboard",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/plausible-analytics-live-dashboard/assets.md",
+    "color_surface": "dimensions/plausible-analytics-live-dashboard/color-surface.md",
+    "components_states": "dimensions/plausible-analytics-live-dashboard/components-states.md",
+    "layout_spacing": "dimensions/plausible-analytics-live-dashboard/layout-spacing.md",
+    "motion_code": "dimensions/plausible-analytics-live-dashboard/motion-code.md",
+    "scene": "dimensions/plausible-analytics-live-dashboard/scene.md",
+    "type_copy": "dimensions/plausible-analytics-live-dashboard/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "low-motion",
+    "static-dashboard"
+  ],
+  "page_scope": "public analytics dashboard",
+  "reference_path": "references/2026-06-04-plausible-analytics-live-dashboard.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe as actual analytics dashboard; plain but clear and useful.",
+  "slug": "plausible-analytics-live-dashboard",
+  "structure_tags": [
+    "single-page-dashboard",
+    "metric-cards",
+    "chart-table-layout"
+  ],
+  "style_tags": [
+    "minimal",
+    "plain",
+    "clear"
+  ],
+  "title": "Plausible Analytics Live Dashboard"
+}

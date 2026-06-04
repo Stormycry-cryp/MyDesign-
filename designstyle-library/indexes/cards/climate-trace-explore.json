@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "simple SaaS landing pages",
+    "government portals"
+  ],
+  "best_for": [
+    "geospatial dashboards",
+    "large-scale data exploration",
+    "emissions maps"
+  ],
+  "category_tags": [
+    "map",
+    "data-exploration",
+    "climate"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/climate-trace-explore/assets.md",
+    "color_surface": "dimensions/climate-trace-explore/color-surface.md",
+    "components_states": "dimensions/climate-trace-explore/components-states.md",
+    "layout_spacing": "dimensions/climate-trace-explore/layout-spacing.md",
+    "motion_code": "dimensions/climate-trace-explore/motion-code.md",
+    "scene": "dimensions/climate-trace-explore/scene.md",
+    "type_copy": "dimensions/climate-trace-explore/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "map-interaction",
+    "layer-motion"
+  ],
+  "page_scope": "interactive explore map",
+  "reference_path": "references/2026-06-04-climate-trace-explore.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong map/data exploration UI.",
+  "slug": "climate-trace-explore",
+  "structure_tags": [
+    "full-map-dashboard",
+    "metric-overlay",
+    "filter-panel"
+  ],
+  "style_tags": [
+    "dark-map",
+    "technical",
+    "immersive"
+  ],
+  "title": "Climate TRACE Explore"
+}

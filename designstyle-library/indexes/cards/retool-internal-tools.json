@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "minimal finance dashboards",
+    "government portals"
+  ],
+  "best_for": [
+    "internal tool builders",
+    "admin dashboards",
+    "developer workflow platforms"
+  ],
+  "category_tags": [
+    "internal-tools",
+    "developer-platform",
+    "dashboard"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/retool-internal-tools/assets.md",
+    "color_surface": "dimensions/retool-internal-tools/color-surface.md",
+    "components_states": "dimensions/retool-internal-tools/components-states.md",
+    "layout_spacing": "dimensions/retool-internal-tools/layout-spacing.md",
+    "motion_code": "dimensions/retool-internal-tools/motion-code.md",
+    "scene": "dimensions/retool-internal-tools/scene.md",
+    "type_copy": "dimensions/retool-internal-tools/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "media-led"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-retool-internal-tools.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong internal-tool product visual despite density caution.",
+  "slug": "retool-internal-tools",
+  "structure_tags": [
+    "internal-tool-preview",
+    "product-hero",
+    "workflow-builder"
+  ],
+  "style_tags": [
+    "dark",
+    "cinematic",
+    "enterprise-polished"
+  ],
+  "title": "Retool Internal Tools"
+}

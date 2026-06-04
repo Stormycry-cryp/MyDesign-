@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "plain BI pages",
+    "government portals"
+  ],
+  "best_for": [
+    "AI analytics workspaces",
+    "data apps",
+    "notebook dashboards"
+  ],
+  "category_tags": [
+    "analytics",
+    "notebook",
+    "data-workspace"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/hex-data-workspace/assets.md",
+    "color_surface": "dimensions/hex-data-workspace/color-surface.md",
+    "components_states": "dimensions/hex-data-workspace/components-states.md",
+    "layout_spacing": "dimensions/hex-data-workspace/layout-spacing.md",
+    "motion_code": "dimensions/hex-data-workspace/motion-code.md",
+    "scene": "dimensions/hex-data-workspace/scene.md",
+    "type_copy": "dimensions/hex-data-workspace/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "scroll-reveal"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-hex-data-workspace.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for polished analytics platform despite busy nav.",
+  "slug": "hex-data-workspace",
+  "structure_tags": [
+    "analytics-platform-hero",
+    "notebook-preview",
+    "reporting-workflow"
+  ],
+  "style_tags": [
+    "polished",
+    "technical",
+    "refined"
+  ],
+  "title": "Hex Data Workspace"
+}

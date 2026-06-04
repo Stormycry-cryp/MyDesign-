@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "quiet finance dashboards",
+    "plain admin panels"
+  ],
+  "best_for": [
+    "presentation dashboards",
+    "storytelling workspaces",
+    "visual productivity tools"
+  ],
+  "category_tags": [
+    "productivity",
+    "presentation",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/pitch-presentation-workspace/assets.md",
+    "color_surface": "dimensions/pitch-presentation-workspace/color-surface.md",
+    "components_states": "dimensions/pitch-presentation-workspace/components-states.md",
+    "layout_spacing": "dimensions/pitch-presentation-workspace/layout-spacing.md",
+    "motion_code": "dimensions/pitch-presentation-workspace/motion-code.md",
+    "scene": "dimensions/pitch-presentation-workspace/scene.md",
+    "type_copy": "dimensions/pitch-presentation-workspace/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "animated-product-preview",
+    "restrained"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-pitch-presentation-workspace.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for high-impact but controlled product UI.",
+  "slug": "pitch-presentation-workspace",
+  "structure_tags": [
+    "hero-product-preview",
+    "command-entry",
+    "workspace-composition"
+  ],
+  "style_tags": [
+    "bold",
+    "polished",
+    "high-contrast"
+  ],
+  "title": "Pitch Presentation Workspace"
+}

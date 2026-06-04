@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "dense admin dashboards",
+    "government portals"
+  ],
+  "best_for": [
+    "custom data visualization",
+    "information display",
+    "visual storytelling"
+  ],
+  "category_tags": [
+    "data-visualization",
+    "studio",
+    "information-display"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/visual-cinnamon-data-art/assets.md",
+    "color_surface": "dimensions/visual-cinnamon-data-art/color-surface.md",
+    "components_states": "dimensions/visual-cinnamon-data-art/components-states.md",
+    "layout_spacing": "dimensions/visual-cinnamon-data-art/layout-spacing.md",
+    "motion_code": "dimensions/visual-cinnamon-data-art/motion-code.md",
+    "scene": "dimensions/visual-cinnamon-data-art/scene.md",
+    "type_copy": "dimensions/visual-cinnamon-data-art/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "visual-emphasis"
+  ],
+  "page_scope": "home plus portfolio/secondary links",
+  "reference_path": "references/2026-06-04-visual-cinnamon-data-art.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for high-aesthetic data visualization language.",
+  "slug": "visual-cinnamon-data-art",
+  "structure_tags": [
+    "portfolio-hero",
+    "data-art-preview",
+    "studio-positioning"
+  ],
+  "style_tags": [
+    "artful",
+    "bright",
+    "custom-visualization"
+  ],
+  "title": "Visual Cinnamon Data Art"
+}

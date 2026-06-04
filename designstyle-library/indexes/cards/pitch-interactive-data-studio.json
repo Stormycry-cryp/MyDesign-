@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "light SaaS dashboards",
+    "playful consumer pages"
+  ],
+  "best_for": [
+    "data storytelling",
+    "studio portfolios",
+    "serious information displays"
+  ],
+  "category_tags": [
+    "data-visualization",
+    "studio",
+    "information-display"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/pitch-interactive-data-studio/assets.md",
+    "color_surface": "dimensions/pitch-interactive-data-studio/color-surface.md",
+    "components_states": "dimensions/pitch-interactive-data-studio/components-states.md",
+    "layout_spacing": "dimensions/pitch-interactive-data-studio/layout-spacing.md",
+    "motion_code": "dimensions/pitch-interactive-data-studio/motion-code.md",
+    "scene": "dimensions/pitch-interactive-data-studio/scene.md",
+    "type_copy": "dimensions/pitch-interactive-data-studio/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "carousel-like"
+  ],
+  "page_scope": "home plus work/secondary links",
+  "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for black editorial data studio mood.",
+  "slug": "pitch-interactive-data-studio",
+  "structure_tags": [
+    "studio-hero",
+    "case-strip",
+    "data-experience"
+  ],
+  "style_tags": [
+    "black-editorial",
+    "minimal",
+    "serious"
+  ],
+  "title": "Pitch Interactive Data Studio"
+}

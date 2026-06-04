@@ -22,7 +22,9 @@ rsync -a designstyle-library/ ~/.codex/designstyle-library/
 
 ## Current Library
 
-The library includes 53 validated UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, asset direction, interaction states, and motion/code evidence.
+The library includes 77 validated UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, asset direction, interaction states, motion/code evidence, and explicit evidence limits.
+
+The 2026-06-04 update adds a dashboard and information-display UI batch covering CRM workspaces, analytics dashboards, data platforms, developer platforms, observability tools, productivity interfaces, and data-storytelling references.
 
 The progressive-disclosure layer lets `use-designstyle` search lightweight L1 cards first, read only needed L2 dimension summaries, and open L3 full references only when implementation-grade detail is needed:
 

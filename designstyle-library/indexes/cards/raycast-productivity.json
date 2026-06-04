@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "plain enterprise admin",
+    "government portals"
+  ],
+  "best_for": [
+    "command dashboards",
+    "productivity tools",
+    "launcher-style interfaces"
+  ],
+  "category_tags": [
+    "productivity",
+    "launcher",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/raycast-productivity/assets.md",
+    "color_surface": "dimensions/raycast-productivity/color-surface.md",
+    "components_states": "dimensions/raycast-productivity/components-states.md",
+    "layout_spacing": "dimensions/raycast-productivity/layout-spacing.md",
+    "motion_code": "dimensions/raycast-productivity/motion-code.md",
+    "scene": "dimensions/raycast-productivity/scene.md",
+    "type_copy": "dimensions/raycast-productivity/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "glow-motion",
+    "restrained"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-raycast-productivity.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for polished productivity UI.",
+  "slug": "raycast-productivity",
+  "structure_tags": [
+    "command-center-hero",
+    "product-preview",
+    "shortcut-led"
+  ],
+  "style_tags": [
+    "dark",
+    "sharp",
+    "polished"
+  ],
+  "title": "Raycast Productivity"
+}

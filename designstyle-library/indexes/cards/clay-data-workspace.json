@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "quiet finance dashboards",
+    "government portals"
+  ],
+  "best_for": [
+    "data enrichment workspaces",
+    "automation dashboards",
+    "operator tools"
+  ],
+  "category_tags": [
+    "data-workspace",
+    "saas",
+    "growth"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/clay-data-workspace/assets.md",
+    "color_surface": "dimensions/clay-data-workspace/color-surface.md",
+    "components_states": "dimensions/clay-data-workspace/components-states.md",
+    "layout_spacing": "dimensions/clay-data-workspace/layout-spacing.md",
+    "motion_code": "dimensions/clay-data-workspace/motion-code.md",
+    "scene": "dimensions/clay-data-workspace/scene.md",
+    "type_copy": "dimensions/clay-data-workspace/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "animated-product-preview",
+    "scroll-reveal"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-clay-data-workspace.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for modern GTM data workspace, with density caution.",
+  "slug": "clay-data-workspace",
+  "structure_tags": [
+    "product-canvas",
+    "workflow-preview",
+    "data-grid"
+  ],
+  "style_tags": [
+    "modern",
+    "sharp",
+    "color-accented"
+  ],
+  "title": "Clay Data Workspace"
+}

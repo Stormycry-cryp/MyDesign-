@@ -1,0 +1,60 @@
+{
+  "avoid_for": [
+    "strict enterprise admin",
+    "government portals",
+    "overdone glow effects"
+  ],
+  "best_for": [
+    "knowledge dashboards",
+    "notes apps",
+    "dark productivity UI"
+  ],
+  "category_tags": [
+    "notes",
+    "productivity",
+    "workspace"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/reflect-notes-interface/assets.md",
+    "color_surface": "dimensions/reflect-notes-interface/color-surface.md",
+    "components_states": "dimensions/reflect-notes-interface/components-states.md",
+    "layout_spacing": "dimensions/reflect-notes-interface/layout-spacing.md",
+    "motion_code": "dimensions/reflect-notes-interface/motion-code.md",
+    "scene": "dimensions/reflect-notes-interface/scene.md",
+    "type_copy": "dimensions/reflect-notes-interface/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "glow-motion",
+    "restrained"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-reflect-notes-interface.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong dark product UI with glow caution.",
+  "slug": "reflect-notes-interface",
+  "structure_tags": [
+    "app-preview",
+    "centered-product-hero",
+    "knowledge-workspace"
+  ],
+  "style_tags": [
+    "dark",
+    "glow",
+    "focused"
+  ],
+  "title": "Reflect Notes Interface"
+}

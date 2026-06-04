@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "dark monitoring consoles",
+    "government portals"
+  ],
+  "best_for": [
+    "spreadsheet dashboards",
+    "business analytics surfaces",
+    "template galleries"
+  ],
+  "category_tags": [
+    "spreadsheet",
+    "analytics",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/rows-spreadsheet-dashboard/assets.md",
+    "color_surface": "dimensions/rows-spreadsheet-dashboard/color-surface.md",
+    "components_states": "dimensions/rows-spreadsheet-dashboard/components-states.md",
+    "layout_spacing": "dimensions/rows-spreadsheet-dashboard/layout-spacing.md",
+    "motion_code": "dimensions/rows-spreadsheet-dashboard/motion-code.md",
+    "scene": "dimensions/rows-spreadsheet-dashboard/scene.md",
+    "type_copy": "dimensions/rows-spreadsheet-dashboard/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "hover-microinteraction"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-rows-spreadsheet-dashboard.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for clean spreadsheet and chart dashboard preview.",
+  "slug": "rows-spreadsheet-dashboard",
+  "structure_tags": [
+    "spreadsheet-preview",
+    "chart-preview",
+    "template-led"
+  ],
+  "style_tags": [
+    "clean",
+    "bright",
+    "product-led"
+  ],
+  "title": "Rows Spreadsheet Dashboard"
+}

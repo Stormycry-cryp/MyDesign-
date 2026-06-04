@@ -1,0 +1,41 @@
+# Assets
+
+## Observed
+- Assets:
+  - Image style: https://betterstack.com/assets/v2/homepage-v3/better-stack-logo-3d-5c6cab03.png; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-sm-057621f5.jpg; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-13ad9019.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/log-management-bcc38259.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/opentelemetry-tracing-fdfebde4.jpg; https://betterstack.com/
+  - Illustration/icon style: inspect screenshot; automated pass records image sources only.
+  - Texture/pattern: inspect screenshot before use.
+  - Likely sources or production method: asset URLs/domains in image samples.
+- Images/video observed:
+  - Captured URL: https://betterstack.com/
+  - Page title: Better Stack - 30x cheaper than Datadog, Exceptional support
+  - Screenshot: screenshots/better-stack-observability-desktop.png
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11700}
+  - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for polished dark observability dashboard.
+  - Page scope: home plus product/secondary links
+  - Secondary pages inspected: Pricing -> https://betterstack.com/pricing | title: Pricing | Better Stack | h1: none observed | h2: Pricing; Starts at just $34 Starts at just $29 || Session replay See how users interact with your product. Watch at 2x speed, skip pauses, filter for rage indicators. -> https://betterstack.com/real-user-monitoring | title: Real user monitoring by Better Stack | h1: Real user monitoring | h2: Analyze your users, not your invoice; Session replay || Subscribe to status page updates Send automated updates to your customers when incident occurs. Let your customers subscribe to the entire status page or just selected components. -> https://betterstack.com/status-page | title: Free Status Page | Better Stack | h1: Free status page on your subdomain | h2: Stylish & Branded. On your domain.; Communicate incidents the right way
+  - H1 observed: The AI SRE observability stack
+  - H2 samples: At a fraction of your current costs; AI SRE; Tracing; Incident management; Uptime monitoring; Log management
+  - Navigation samples: Documentation; Pricing; Enterprise; Sign in; Sign up; AI SRE; OpenTelemetry tracing; Log management; Infrastructure monitoring; Error tracking; Real user monitoring; Incident management
+  - Images observed: image 301x46 https://betterstack.com/assets/v2/homepage-v3/better-stack-logo-3d-5c6cab03.png; image 1170x1344 https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-sm-057621f5.jpg; image 2625x1827 https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-13ad9019.jpg; image 0x0 https://betterstack.com/; image 2625x1827 https://betterstack.com/assets/v2/homepage-v3/hero-carousel/log-management-bcc38259.jpg; image 0x0 https://betterstack.com/; image 2625x1827 https://betterstack.com/assets/v2/homepage-v3/hero-carousel/opentelemetry-tracing-fdfebde4.jpg; image 0x0 https://betterstack.com/
+  - Video observed: none observed
+  - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
+- Asset loading:
+  - Framework/runtime hints: request_animation_frame
+  - Public stylesheet/script URLs: https://betterstack.com/assets/betterstack_v2-0980ad3b.css; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://www.redditstatic.com/ads/pixel.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://bat.bing.com/bat.js; https://static.ads-twitter.com/uwt.js; https://connect.facebook.net/signals/config/1062799887416376?v=2.9.331&r=stable&domain=betterstack.com&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105; https://connect.facebook.net/en_US/fbevents.js; https://www.googletagmanager.com/gtag/js?id=AW-10805602682&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=G-9FLKD0MQYY
+  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
+  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
+  - Component or class naming clues: DOM saved at `assets/2026-06-04-better-stack-observability-dom.html` for manual inspection.
+  - Asset CDN and media loading patterns: https://betterstack.com/assets/v2/homepage-v3/better-stack-logo-3d-5c6cab03.png; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-sm-057621f5.jpg; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-13ad9019.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/log-management-bcc38259.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/opentelemetry-tracing-fdfebde4.jpg; https://betterstack.com/
+
+## Inference
+- Borrow:
+  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
+  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+
+## Missing Evidence
+- None recorded.
+
+## Do Not Copy
+- Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.
+- Do not claim a motion library is used unless it appears in direct code evidence above.

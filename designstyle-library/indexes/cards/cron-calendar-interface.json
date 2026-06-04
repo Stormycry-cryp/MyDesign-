@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "data-heavy analytics",
+    "government portals"
+  ],
+  "best_for": [
+    "calendar dashboards",
+    "planning tools",
+    "productivity workspaces"
+  ],
+  "category_tags": [
+    "calendar",
+    "productivity",
+    "workspace"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/cron-calendar-interface/assets.md",
+    "color_surface": "dimensions/cron-calendar-interface/color-surface.md",
+    "components_states": "dimensions/cron-calendar-interface/components-states.md",
+    "layout_spacing": "dimensions/cron-calendar-interface/layout-spacing.md",
+    "motion_code": "dimensions/cron-calendar-interface/motion-code.md",
+    "scene": "dimensions/cron-calendar-interface/scene.md",
+    "type_copy": "dimensions/cron-calendar-interface/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "glow-motion"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-cron-calendar-interface.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for strong productivity interface mood.",
+  "slug": "cron-calendar-interface",
+  "structure_tags": [
+    "calendar-preview",
+    "hero-product-shot",
+    "desktop-app"
+  ],
+  "style_tags": [
+    "dark",
+    "precise",
+    "product-led"
+  ],
+  "title": "Cron Calendar Interface"
+}

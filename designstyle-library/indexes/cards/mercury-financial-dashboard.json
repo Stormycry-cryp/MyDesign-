@@ -1,0 +1,59 @@
+{
+  "avoid_for": [
+    "playful consumer apps",
+    "government portals"
+  ],
+  "best_for": [
+    "financial dashboards",
+    "executive KPI surfaces",
+    "trust-led SaaS"
+  ],
+  "category_tags": [
+    "fintech",
+    "dashboard",
+    "saas"
+  ],
+  "code_tags": [
+    "public-dom",
+    "css-js-probe"
+  ],
+  "dimension_paths": {
+    "assets": "dimensions/mercury-financial-dashboard/assets.md",
+    "color_surface": "dimensions/mercury-financial-dashboard/color-surface.md",
+    "components_states": "dimensions/mercury-financial-dashboard/components-states.md",
+    "layout_spacing": "dimensions/mercury-financial-dashboard/layout-spacing.md",
+    "motion_code": "dimensions/mercury-financial-dashboard/motion-code.md",
+    "scene": "dimensions/mercury-financial-dashboard/scene.md",
+    "type_copy": "dimensions/mercury-financial-dashboard/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "restrained",
+    "hover-microinteraction"
+  ],
+  "page_scope": "home plus product/secondary links",
+  "reference_path": "references/2026-06-04-mercury-financial-dashboard.md",
+  "selection_note": "Passed 2026-06-04 UI aesthetic probe; selected for refined fintech dashboard mood.",
+  "slug": "mercury-financial-dashboard",
+  "structure_tags": [
+    "hero-dashboard-preview",
+    "metrics-cards",
+    "product-led-hero"
+  ],
+  "style_tags": [
+    "refined",
+    "cinematic",
+    "trustworthy"
+  ],
+  "title": "Mercury Financial Dashboard"
+}

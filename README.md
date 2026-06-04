@@ -31,7 +31,7 @@ The progressive-disclosure layer lets `use-designstyle` search lightweight L1 ca
 - `designstyle-library/indexes/cards/*.json`: compact retrieval cards with evidence strength and missing-evidence limits.
 - `designstyle-library/dimensions/<slug>/*.md`: scene, layout/spacing, type/copy, color/surface, assets, motion/code, and components/states summaries.
 - `designstyle-library/design-systems/<slug>/`: per-reference `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` for exact palette and reusable component-style retention.
-- `designstyle-library/assets/2026-06-04-*-component-styles.json`: live-DOM computed component evidence with geometry, computed CSS, and hover/focus samples where observable.
+- `designstyle-library/assets/2026-06-04-*-component-styles.json`: retained component evidence with geometry, computed CSS, and hover/focus samples where observable. Raw DOM snapshots are not stored in the default library; L4 DOM inspection is recaptured from the source URL only when L0-L3 evidence is insufficient.
 - `designstyle-library/references-excluded/blocked/`: blocked/challenge captures preserved outside active retrieval.
 - `designstyle-library/references/*.md`: full evidence records.
 
@@ -39,7 +39,7 @@ The progressive-disclosure layer lets `use-designstyle` search lightweight L1 ca
 
 The 2026-06-04 design-system update promotes color reference from a loose color note into retained system artifacts. `add-designstyle` now generates a design-system pack for every active reference, using screenshot pixel samples and explicit DOM/reference color values for palettes. Component style evidence is extracted from live browser computed styles plus observed reference sections; common CSS values such as `9999px` pill radii are preserved, while abnormal browser-computed scientific-notation values are filtered from raw JSON and generated artifacts.
 
-Code/component captures use Playwright with real Chrome rendering so references can retain `getComputedStyle`, geometry, and hover/focus evidence. Static HTML fallback or Cloudflare/security challenge pages do not count as implementation-grade component evidence.
+Code/component captures use Playwright with real Chrome rendering so references can retain `getComputedStyle`, geometry, and hover/focus evidence in structured component JSON. Static HTML fallback or Cloudflare/security challenge pages do not count as implementation-grade component evidence. Raw DOM belongs in external temp storage during capture and should not be committed.
 
 `use-designstyle` can surface these artifacts directly:
 
@@ -48,6 +48,8 @@ python3 skills/use-designstyle/scripts/search_references.py "dashboard analytics
 ```
 
 The current per-reference design-system score report is saved at `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: 76 active references, average 91.3/100, median 93.0/100, range 66-100, with 0 active blocked/challenge contamination and 0 active scientific-notation px noise. A clean-context independent sub-agent scored the state before the final text-noise cleanup at 88/100 and identified the remaining L2/L3 radius noise; that text layer was cleaned before v0.2.4 release.
+
+The v0.2.5 library cleanup removes committed raw DOM snapshots from the default library while keeping 76 active screenshots, 76 component-style JSON files, and 76 design-system packs. The default `designstyle-library` is 48M after cleanup; raw DOM is now external/on-demand L4 evidence.
 
 ## Motion Evidence Boundary
 

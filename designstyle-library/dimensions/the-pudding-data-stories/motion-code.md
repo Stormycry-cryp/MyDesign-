@@ -21,7 +21,7 @@
   - Public stylesheet/script URLs: https://pudding.cool/_app/immutable/assets/0.C2Vp5USR.css; https://pudding.cool/_app/immutable/assets/Story.C1ahabKR.css; https://pudding.cool/_app/immutable/assets/2.DkyQtU2H.css; https://pudding.cool/_app/immutable/assets/Filters.DX9ElI68.css; https://pudding.cool/_app/immutable/assets/Stories.E6MWasA7.css; https://pudding.cool/_app/immutable/assets/HeroText.DbGaW3nx.css; https://pudding.cool/_app/immutable/assets/1.DUhG7jci.css; https://gc.zgo.at/count.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-04-the-pudding-data-stories-dom.html` for manual inspection.
+  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-04-the-pudding-data-stories-component-styles.json`
   - Asset CDN and media loading patterns: https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/more@2x.png; https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/donate@2x.png; https://pudding.cool/assets/stickers/pitch_us@2x.png; https://pudding.cool/assets/stickers/resources@2x.png
 - Implementation notes:

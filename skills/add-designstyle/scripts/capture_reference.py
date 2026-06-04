@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import tempfile
 import re
 from datetime import date
 from pathlib import Path
@@ -632,7 +633,9 @@ def main() -> int:
     today = date.today().isoformat()
     screenshot_rel = f"screenshots/{slug}-desktop.png"
     screenshot = lib / screenshot_rel
-    dom_path = lib / "assets" / f"{today}-{slug}-dom.html"
+    raw_dir = Path(tempfile.gettempdir()) / "designstyle-raw-evidence" / today
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    dom_path = raw_dir / f"{today}-{slug}-dom.html"
     component_path = lib / "assets" / f"{today}-{slug}-component-styles.json"
     ok, browser_log, captured_data = capture_with_playwright(
         args.url,
@@ -799,7 +802,7 @@ evidence_quality: "{q(evidence_quality)}"
 - Public stylesheet/script URLs: {summarize_list(checked_urls, 10)}
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/{today}-{slug}-dom.html` for manual inspection.
+- Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `{final_url}` when L0-L3 evidence is insufficient.
 - Component computed-style evidence: `assets/{today}-{slug}-component-styles.json`
 - Asset CDN and media loading patterns: {summarize_list([img.get('src') for img in images], 8)}
 

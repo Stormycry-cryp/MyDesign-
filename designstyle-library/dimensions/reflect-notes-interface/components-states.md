@@ -13,7 +13,7 @@
   - Public stylesheet/script URLs: https://static.ads-twitter.com/uwt.js; https://connect.facebook.net/signals/config/759195852092244?v=2.9.331&r=stable&domain=reflect.app&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105%2C20; https://connect.facebook.net/en_US/fbevents.js; https://www.googletagmanager.com/gtag/js?id=G-GDV0LSXN88&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtm.js?id=GTM-WHVKHFD
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-04-reflect-notes-interface-dom.html` for manual inspection.
+  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-04-reflect-notes-interface-component-styles.json`
   - Asset CDN and media loading patterns: https://reflect.app/home/build/q-7110c4a0.png; https://reflect.app/home/build/q-cb311d1c.png; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/
 

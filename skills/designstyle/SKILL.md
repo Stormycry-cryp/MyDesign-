@@ -20,7 +20,7 @@ Report which progressive-disclosure layer the task used:
 - L1 Cards: `indexes/cards/*.json` for fast candidate ranking.
 - L2 Dimensions: `dimensions/<slug>/*.md` for selective scene/layout/type/color/assets/motion/component evidence.
 - L3 Full Reference: `references/*.md` for complete evidence.
-- L4 Raw Evidence: screenshots, DOM/resource captures, and asset clues.
+- L4 On-Demand Evidence: retained screenshots and component-style JSON, plus fresh source-URL recapture when L0-L3 evidence is insufficient. Raw DOM snapshots are not stored in the default library.
 
 If L1/L2 files are missing, route through `add-designstyle` generation/validation or say that only L3/L4 evidence is available.
 

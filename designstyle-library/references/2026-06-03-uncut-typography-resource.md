@@ -89,7 +89,7 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Public stylesheet/script URLs: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-04-uncut-typography-resource-dom.html` for manual inspection.
+- Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
 - Component computed-style evidence: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
 - Asset CDN and media loading patterns: https://uncut.wtf/assets/images/tanklager.svg; https://uncut.wtf/assets/images/opening-hours-sans.svg; https://uncut.wtf/assets/images/lt-institute.svg; https://uncut.wtf/assets/images/geist.svg; https://uncut.wtf/assets/images/berlin-grotesk.svg; https://uncut.wtf/assets/images/hedvig-letters-sans.svg; https://uncut.wtf/assets/images/liga-sans.svg; https://uncut.wtf/assets/images/overused-grotesk.svg
 

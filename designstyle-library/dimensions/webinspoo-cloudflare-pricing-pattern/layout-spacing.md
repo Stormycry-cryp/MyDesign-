@@ -12,7 +12,7 @@
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
   - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6878}.
   - Media/card aspect stability: image natural sizes include 99x96; 1080x4217; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
-16px; 16px; 10px; 4px; 24px; 24px; 24px
+  16px; 16px; 10px; 4px; 24px; 24px; 24px
 - Dimension ratios:
   - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6878}
   - Observed media ratios: 99:96; 1080:4217; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24

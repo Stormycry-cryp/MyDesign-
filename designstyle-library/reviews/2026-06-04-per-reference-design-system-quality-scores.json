@@ -117,7 +117,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 component category coverage",
         "-1 reusable computed component styles",
         "-6 hover/focus state evidence"
@@ -261,7 +261,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-5 live DOM/component evidence",
+        "-5 retained browser component evidence",
         "-7 component category coverage",
         "-1 design-system file completeness",
         "-6 reusable computed component styles",
@@ -310,7 +310,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-3 live DOM/component evidence",
+        "-3 retained browser component evidence",
         "-4 component category coverage",
         "-1 design-system file completeness",
         "-3 reusable computed component styles",
@@ -410,7 +410,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-2 live DOM/component evidence",
+        "-2 retained browser component evidence",
         "-4 component category coverage",
         "-6 hover/focus state evidence"
       ],
@@ -459,7 +459,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-5 live DOM/component evidence",
+        "-5 retained browser component evidence",
         "-2 component category coverage",
         "-3 reusable computed component styles",
         "-5 hover/focus state evidence"
@@ -657,7 +657,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-7 hover/focus state evidence"
       ],
       "usefulness": "strong implementation reference"
@@ -704,7 +704,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-4 live DOM/component evidence",
+        "-4 retained browser component evidence",
         "-4 component category coverage",
         "-3 reusable computed component styles",
         "-9 hover/focus state evidence"
@@ -751,7 +751,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-6 live DOM/component evidence",
+        "-6 retained browser component evidence",
         "-7 component category coverage",
         "-1 design-system file completeness",
         "-5 reusable computed component styles",
@@ -899,7 +899,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 component category coverage",
         "-8 hover/focus state evidence"
       ],
@@ -949,7 +949,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-2 component category coverage",
         "-4 hover/focus state evidence"
       ],
@@ -1386,7 +1386,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-2 component category coverage",
         "-1 reusable computed component styles",
         "-6 hover/focus state evidence"
@@ -1533,7 +1533,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-5 live DOM/component evidence",
+        "-5 retained browser component evidence",
         "-2 component category coverage",
         "-4 reusable computed component styles",
         "-4 hover/focus state evidence"
@@ -1631,7 +1631,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 component category coverage",
         "-1 reusable computed component styles",
         "-5 hover/focus state evidence"
@@ -1777,7 +1777,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-7 live DOM/component evidence",
+        "-7 retained browser component evidence",
         "-7 component category coverage",
         "-7 reusable computed component styles",
         "-10 hover/focus state evidence"
@@ -1825,7 +1825,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-3 live DOM/component evidence",
+        "-3 retained browser component evidence",
         "-4 component category coverage",
         "-1 design-system file completeness",
         "-3 reusable computed component styles",
@@ -1924,7 +1924,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 component category coverage",
         "-1 reusable computed component styles",
         "-2 hover/focus state evidence"
@@ -1973,7 +1973,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-4 live DOM/component evidence",
+        "-4 retained browser component evidence",
         "-4 component category coverage",
         "-2 reusable computed component styles",
         "-6 hover/focus state evidence"
@@ -2022,7 +2022,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-6 live DOM/component evidence",
+        "-6 retained browser component evidence",
         "-7 component category coverage",
         "-3 reusable computed component styles",
         "-6 hover/focus state evidence"
@@ -2123,7 +2123,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-3 live DOM/component evidence",
+        "-3 retained browser component evidence",
         "-1 reusable computed component styles",
         "-2 hover/focus state evidence"
       ],
@@ -2172,7 +2172,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-2 component category coverage",
         "-1 reusable computed component styles",
         "-3 hover/focus state evidence"
@@ -2271,7 +2271,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-2 live DOM/component evidence",
+        "-2 retained browser component evidence",
         "-2 component category coverage",
         "-1 reusable computed component styles",
         "-3 hover/focus state evidence"
@@ -2322,7 +2322,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-2 live DOM/component evidence",
+        "-2 retained browser component evidence",
         "-2 component category coverage",
         "-3 hover/focus state evidence"
       ],
@@ -2421,7 +2421,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-2 component category coverage",
         "-9 hover/focus state evidence"
       ],
@@ -2471,7 +2471,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-2 live DOM/component evidence",
+        "-2 retained browser component evidence",
         "-2 component category coverage",
         "-4 hover/focus state evidence"
       ],
@@ -2522,7 +2522,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 hover/focus state evidence"
       ],
       "usefulness": "strong implementation reference"
@@ -2716,7 +2716,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-6 live DOM/component evidence",
+        "-6 retained browser component evidence",
         "-2 component category coverage",
         "-5 reusable computed component styles",
         "-7 hover/focus state evidence"
@@ -2765,7 +2765,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-5 live DOM/component evidence",
+        "-5 retained browser component evidence",
         "-4 component category coverage",
         "-4 reusable computed component styles",
         "-3 hover/focus state evidence"
@@ -2913,7 +2913,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-2 live DOM/component evidence",
+        "-2 retained browser component evidence",
         "-2 component category coverage",
         "-1 reusable computed component styles"
       ],
@@ -2960,7 +2960,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-6 live DOM/component evidence",
+        "-6 retained browser component evidence",
         "-4 component category coverage",
         "-1 design-system file completeness",
         "-8 reusable computed component styles",
@@ -3007,7 +3007,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-6 live DOM/component evidence",
+        "-6 retained browser component evidence",
         "-10 component category coverage",
         "-1 design-system file completeness",
         "-7 reusable computed component styles",
@@ -3056,7 +3056,7 @@
       "blocked_risk": false,
       "scientific_px_noise": false,
       "penalties": [
-        "-1 live DOM/component evidence",
+        "-1 retained browser component evidence",
         "-4 component category coverage",
         "-1 design-system file completeness",
         "-3 reusable computed component styles",

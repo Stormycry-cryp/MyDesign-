@@ -78,7 +78,7 @@ def summarize_penalties(parts: dict[str, int], row: dict[str, object]) -> list[s
         "hygiene": 5,
     }
     labels = {
-        "live_dom": "live DOM/component evidence",
+        "live_dom": "retained browser component evidence",
         "component_coverage": "component category coverage",
         "design_system": "design-system file completeness",
         "component_styles": "reusable computed component styles",
@@ -313,7 +313,7 @@ def markdown_report(payload: dict[str, object]) -> str:
         "",
         "| Dimension | Points | Meaning |",
         "|---|---:|---|",
-        f"| Live DOM evidence | {rubric['live_dom']} | Component JSON exists, has broad live-browser samples, and comes from real rendered DOM. |",
+        f"| Retained component evidence | {rubric['live_dom']} | Component JSON exists, has broad live-browser samples, and comes from real rendered DOM without retaining raw DOM snapshots in the library. |",
         f"| Component coverage | {rubric['component_coverage']} | Captures several useful categories such as nav, buttons, cards, forms, icons, and sections. |",
         f"| Design-system retention | {rubric['design_system']} | Keeps tokens, palette, moodboard, component-styles, palette colors, and component system categories. |",
         f"| Component-style usefulness | {rubric['component_styles']} | `component-styles.md`/`tokens.json` contain reusable computed CSS, geometry, spacing, type, radii, borders, shadows, and transitions. |",
@@ -323,7 +323,7 @@ def markdown_report(payload: dict[str, object]) -> str:
         "",
         "## Score Table",
         "",
-        "| # | Slug | Score | Grade | Live DOM /30 | Coverage /15 | Design system /15 | Component styles /15 | States /10 | Retrieval /10 | Hygiene /5 | Samples | Cats | State attempts | Changed states | Palette colors | Penalties |",
+        "| # | Slug | Score | Grade | Component evidence /30 | Coverage /15 | Design system /15 | Component styles /15 | States /10 | Retrieval /10 | Hygiene /5 | Samples | Cats | State attempts | Changed states | Palette colors | Penalties |",
         "|---:|---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|",
     ]
     for idx, row in enumerate(rows, 1):

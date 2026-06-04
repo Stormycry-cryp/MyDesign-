@@ -89,7 +89,7 @@ Making Software Editorial Tooling is captured as a software, editorial, develope
 - Public stylesheet/script URLs: none observed
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-04-making-software-editorial-tooling-dom.html` for manual inspection.
+- Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
 - Component computed-style evidence: `assets/2026-06-04-making-software-editorial-tooling-component-styles.json`
 - Asset CDN and media loading patterns: none observed
 

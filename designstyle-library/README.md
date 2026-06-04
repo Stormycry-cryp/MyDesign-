@@ -5,7 +5,7 @@ Local aesthetic reference library used by `add-designstyle` and `use-designstyle
 - `references/`: one active Markdown style reference per website or design source.
 - `references-excluded/blocked/`: blocked/challenge captures preserved outside active retrieval.
 - `screenshots/`: optional screenshots captured during analysis.
-- `assets/`: optional visual assets, palette extracts, exported images, DOM captures, and live-DOM component style JSON.
+- `assets/`: retained component style JSON and intentional lightweight assets. Raw DOM snapshots are not stored in the default library; recapture the source URL on demand when L0-L3 evidence is insufficient.
 - `assets-excluded/blocked/`: blocked/challenge DOM or component evidence preserved outside active retrieval.
 - `reviews/`: self-review notes and iteration records.
 - `indexes/`: generated or manual index files for retrieval.

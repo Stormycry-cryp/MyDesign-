@@ -14,9 +14,9 @@ Default to progressive disclosure:
 - L1 cards: read `~/.codex/designstyle-library/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
 - L2 dimensions: read only the needed `dimensions/<slug>/*.md` summaries for scene, layout/spacing, type/copy, color/surface, assets, motion/code, or components/states.
 - Design systems: read `design-systems/<slug>/tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` when the task needs color systems, moodboards, component styling, or token-level reuse.
-- Raw component systems: when implementation-grade component styling is needed, check the linked `assets/YYYY-MM-DD-<slug>-component-styles.json` evidence from the full reference or tokens before trusting a summarized component rule. Use exact computed styles for density, radius, border, shadow, padding, typography, and hover/focus deltas; keep missing states explicit.
+- Retained component systems: when implementation-grade component styling is needed, check the linked `assets/YYYY-MM-DD-<slug>-component-styles.json` evidence from the full reference or tokens before trusting a summarized component rule. Use exact computed styles for density, radius, border, shadow, padding, typography, and hover/focus deltas; keep missing states explicit.
 - L3 full references: read `references/*.md` only when the L2 summary is insufficient, contradictory, contaminated, or implementation-grade detail is required.
-- L4 raw evidence: screenshots, DOM captures, assets, and resource clues are checked only when visual/code evidence needs verification.
+- L4 on-demand evidence: retained screenshots and component-style JSON are checked only when visual/code evidence needs verification. Raw DOM is not kept in the default library; if L0-L3 plus retained components are insufficient, recapture the source URL into an external temp location and extract only the needed facts.
 
 Do not jump straight to full references unless the task needs L3/L4 evidence. Do not claim typography, spacing, copy, motion, or code evidence exists if L1/L2 marks it missing.
 
@@ -67,7 +67,7 @@ Before using references for a design task, check whether the library covers the 
    - Structure/ratio reference: first viewport geometry, page grid, media/product-card proportions.
    - Type/color reference: typography roles, color/material system, contrast.
    - Design-system reference: exact palette roles, moodboard, component style rules, and token evidence from `design-systems/<slug>/`.
-   - Component-code reference: raw computed component samples from `assets/*-component-styles.json` when available.
+   - Component-code reference: retained computed component samples from `assets/*-component-styles.json` when available.
    - Text grammar reference: H1/H2/eyebrow/CTA/body/meta copy rhythm, claim density, naming style, and tone mechanics.
    - Style/spacing reference: surface system, borders/radii/shadows, control density, header/hero/section gaps, grid gutters, card padding, and mobile compression.
    - Asset reference: photography/video/material production plan.

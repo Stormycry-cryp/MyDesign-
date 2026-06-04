@@ -13,7 +13,7 @@
   - Public stylesheet/script URLs: https://app.electricitymaps.com/assets/root-DlQXXBi3.css; https://app.electricitymaps.com/assets/maplibre-gl-DNVN2dqC.css; https://widget.intercom.io/widget/trqbz4yj; https://cdn-cookieyes.com/client_data/e8dc92a5b54e1aaf957f6897/banner.js; https://tally.so/widgets/embed.js; https://cdn-cookieyes.com/client_data/e8dc92a5b54e1aaf957f6897/script.js; https://static.cloudflareinsights.com/beacon.min.js; https://yo.electricitymaps.com/array/phc_J175TqtMxgoDEH0Cyf1P9Oa5U9IXIJspzEvfxV16pdn/config.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-04-electricity-maps-app-dom.html` for manual inspection.
+  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-04-electricity-maps-app-component-styles.json`
   - Asset CDN and media loading patterns: https://cdn-cookieyes.com/assets/images/revisit.svg; https://cdn-cookieyes.com/assets/images/close.svg; https://cdn-cookieyes.com/assets/images/poweredbtcky.svg
 

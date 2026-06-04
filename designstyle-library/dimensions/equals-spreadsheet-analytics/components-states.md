@@ -13,7 +13,7 @@
   - Public stylesheet/script URLs: https://equals.com/main-31418c658b.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://widget.intercom.io/widget/gghxukmi; https://www.googletagmanager.com/gtag/js?id=AW-11219996260&cx=c&gtm=4e6621h1; https://b2bjsstore.s3.us-west-2.amazonaws.com/b/4O7Z0HJ103NX/4O7Z0HJ103NX.js.gz; https://tag.unifyintent.com/v1/Rp1n4jApn7fF57y7f4tq8X/script.js; https://www.googletagmanager.com/gtag/js?id=G-9W105WVF7E; https://equals.com/js/free-email-domains-f576ae57be.js; https://import-cdn.default.com/sdk.js; https://equals.com/js/main-d5c667bd8f.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-04-equals-spreadsheet-analytics-dom.html` for manual inspection.
+  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-04-equals-spreadsheet-analytics-component-styles.json`
   - Asset CDN and media loading patterns: https://equals.com/images/home/hero-bg-228b623ac2.png; https://equals.com/images/logos/notion-e34afe301c.svg; https://equals.com/images/logos/intercom-f2589730e1.svg; https://equals.com/images/logos/pylon-26ade939f4.svg; https://equals.com/images/logos/11x-8f61da2197.svg; https://equals.com/images/logos/descript-03c4c41bbc.svg; https://equals.com/images/logos/bland-ae5101b8c7.svg; https://equals.com/images/logos/cursor-8a05fda75c.svg
 

@@ -17,7 +17,7 @@ After every full reference is written, update the progressive-disclosure layers:
 - L2 dimensions: `dimensions/<slug>/*.md` for scene, layout/spacing, type/copy, color/surface, assets, motion/code, and components/states.
 - Design system: `design-systems/<slug>/` stores reusable color systems, moodboards, component style rules, and machine-readable tokens.
 - L3 full reference: `references/YYYY-MM-DD-<slug>.md` remains the authoritative complete evidence record.
-- L4 raw evidence: screenshots, DOM captures, and asset/resource clues remain supporting evidence.
+- L4 on-demand evidence: keep one screenshot per active reference and retain structured component-style JSON, but do not store raw DOM snapshots in the default library. If L0-L3 evidence is insufficient, recapture the source URL into an external temp location and extract only the needed facts back into L2/L3/design-system files.
 
 L1/L2 are retrieval and selective-reading aids; they do not replace the L3 full reference. Missing typography, spacing, copy, motion, or code evidence must stay explicit as `missing` or `Missing Evidence`.
 
@@ -91,7 +91,7 @@ Decision rule:
    - Required component-code capture toolchain:
      - Python Playwright or an equivalent browser automation runtime that can call `getComputedStyle`, `getBoundingClientRect`, `locator.hover()`, and `locator.focus()`.
      - Real Chromium/Chrome rendering, not plain HTTP scraping.
-     - Screenshot plus DOM snapshot plus structured JSON evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`.
+     - Screenshot plus structured component JSON evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`; raw DOM snapshots belong in an external temp path such as `/tmp/designstyle-raw-evidence/`, not in the project or library.
      - Public CSS/JS resource sampling for motion/code snippets, while avoiding full proprietary source dumps.
    - High-quality component evidence must include sampled category, selector/class hint, visible text, geometry, computed typography/color/background/border/radius/shadow/padding/gap/transition/transform/cursor/backdrop styles, and hover/focus deltas where observable.
    - Treat capture as failed for component-code quality if Playwright is missing or `component-styles.json` has zero samples. Do not mark fallback HTML extraction as successful component evidence.
@@ -116,7 +116,7 @@ Decision rule:
    - Typography roles: brand/display, retail UI, body, metadata, CTA, technical labels; include observed font stacks, sizes, weights, letter spacing.
    - Style token system: dominant surfaces, border/radius/shadow grammar, icon/stroke style, dividers, focus/hover states, button density, form density, and whether the system feels product-led, editorial, dashboard-like, catalog-like, or campaign-like.
    - Design system retention: save the reference's color system as a reusable palette/moodboard, component style rules, token roles, evidence source, and missing-evidence limits. Color values must come from screenshot pixels or explicit DOM/CSS/reference values; component styles must come from observed component evidence. Do not invent palettes or component states.
-   - For live webpage captures, retain raw computed component evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`, including sampled navigation/buttons/cards/forms/icons/sections, geometry, computed styles, and hover/focus deltas when observable. Treat this JSON as L4 evidence that feeds `design-systems/<slug>/component-styles.md`.
+   - For live webpage captures, retain computed component evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`, including sampled navigation/buttons/cards/forms/icons/sections, geometry, computed styles, and hover/focus deltas when observable. Treat this JSON as retained L4 component evidence that feeds `design-systems/<slug>/component-styles.md`.
    - Spacing rhythm: header height, hero padding, section vertical gaps, grid gutters, card padding, text block width, CTA spacing, media margins, mobile compression behavior, and any CSS variables such as `--spacing-*`, `gap`, `padding`, `margin`, or `grid-template-*`.
    - Color source: shell palette vs asset-driven palette; include observed text/background colors and contrast behavior.
    - Media system: image/video style, crop, subject, material texture, aspect ratios, asset domains, production method.
@@ -156,7 +156,7 @@ Decision rule:
    - Overlay/security/modal contamination is called out.
    - Typography, color, layout geometry, assets, motion, components, and implementation notes are specific.
    - Color systems and component styles are retained as design-system artifacts, with exact source attribution and missing evidence called out.
-   - Live captures include raw component computed-style evidence when the browser can inspect the page.
+   - Live captures include computed component-style JSON when the browser can inspect the page, while raw DOM remains external/on-demand.
    - `component-styles.json` is non-empty and includes sampled computed styles; empty fallback JSON does not count.
    - `When Not To Use`, `Avoid Copying`, `Evidence Limits`, and `Self Review` are present.
    - The entry would retrieve for the right future task and not for the wrong one.

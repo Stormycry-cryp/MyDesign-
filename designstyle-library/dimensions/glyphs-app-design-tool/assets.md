@@ -25,7 +25,7 @@
   - Public stylesheet/script URLs: https://glyphsapp.com/assets/css/build/style.css?ver=1726569687; https://plausible.io/js/pa-83l_ieDDw-stlLRv3nvw1.js; https://glyphsapp.com/assets/js/build/bundle.js?ver=1763572134; https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-04-glyphs-app-design-tool-dom.html` for manual inspection.
+  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-04-glyphs-app-design-tool-component-styles.json`
   - Asset CDN and media loading patterns: https://glyphsapp.com/media/pages/tools/fonttableviewer/d952abdf25-1673479538/fonttableviewer-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/editglyphdata/379dec43ea-1673479538/editglyphdata-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/mergeglyphs/0a08ba7e1f-1673479538/mergeglyphs-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/commitglyphs/3789baffd6-1673479538/icon-1280x-q80.webp; https://glyphsapp.com/media/pages/buy/fdd6784499-1624987025/image-220-1280x-q80.webp; https://glyphsapp.com/media/pages/learn/arabic/0b362cccd8-1715028350/markcloud-320x-q80.webp; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
 

@@ -3,22 +3,22 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#ffffff` | background | screenshot pixel sample | 0.7535 |
-| `#202020` | foreground | screenshot pixel sample | 0.0202 |
-| `#00c0d0` | accent | screenshot pixel sample | 0.0167 |
-| `#0070c0` | accent | screenshot pixel sample | 0.015 |
-| `#1050a0` | supporting color | screenshot pixel sample | 0.011 |
-| `#0090d0` | accent | screenshot pixel sample | 0.0093 |
-| `#30e0e0` | accent | screenshot pixel sample | 0.006 |
-| `#00e0e0` | accent | screenshot pixel sample | 0.0052 |
-| `#a0e0e0` | supporting color | screenshot pixel sample | 0.0044 |
-| `#60e0d0` | accent | screenshot pixel sample | 0.0038 |
+| `#f0f0f0` | neutral surface | screenshot pixel sample | 0.347 |
+| `#30a0c0` | accent | screenshot pixel sample | 0.1005 |
+| `#40c0c0` | accent | screenshot pixel sample | 0.0352 |
+| `#2080c0` | accent | screenshot pixel sample | 0.0183 |
+| `#202020` | foreground | screenshot pixel sample | 0.0044 |
+| `#502010` | deep accent | screenshot pixel sample | 0.0031 |
+| `#f0e0d0` | supporting color | screenshot pixel sample | 0.0023 |
+| `#a04010` | supporting color | screenshot pixel sample | 0.0019 |
+| `#803010` | supporting color | screenshot pixel sample | 0.0016 |
+| `#e0c0b0` | supporting color | screenshot pixel sample | 0.0013 |
 | `#000000` | foreground | explicit reference or DOM color |  |
 | `#404040` | foreground | explicit reference or DOM color |  |
 | `#27ccc1` | accent | explicit reference or DOM color |  |
 | `#0a78b8` | accent | explicit reference or DOM color |  |
+| `#ffffff` | background | explicit reference or DOM color |  |
 | `#05bbd6` | accent | explicit reference or DOM color |  |
-| `#0097ea` | accent | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - artful

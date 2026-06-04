@@ -2,20 +2,20 @@
 
 ## Observed
 - Visual layout:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `Skip to main content Public Beta: Retool MCP Server Learn more ↗ BACK Solution Audience Resources Use cases Pricing Search ⌘K Sign in Book a demo Start for free Build how you want. Ship on a platform you can trust. Create an inventory management app for tracki`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `Skip to main content Public Beta: Retool MCP Server Learn more ↗ BACK Solution Audience Resources Use cases Pricing Search ⌘K Sign in Book a demo Start for free AppGen Generate apps that are built for business—on your data, in your cloud, and secure by default`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 6, image count 40, document height 10452.
+  - Density: navigation count 24, image count 40, document height 10451.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1410, 'docH': 10452}.
-  - Media/card aspect stability: image natural sizes include 1360x990; 239x352; 311x253; 123x297; 229x274; 343x230; 132x148; 98x250; 222x218; 311x404.
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1410, 'docH': 10451}.
+  - Media/card aspect stability: image natural sizes include 256x144; 1360x990; 239x352; 311x253; 123x297; 229x274; 343x230; 132x148; 98x250; 222x218.
   - Observed border radii: 9999px; 9999px; 9999px; 9999px; 40px; 20px; 20px; 20px; 24px; 9999px; 9999px; 9999px
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1410, 'docH': 10452}
-  - Observed media ratios: 1360:990; 239:352; 311:253; 123:297; 229:274; 343:230; 132:148; 98:250; 222:218; 311:404
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1410, 'docH': 10451}
+  - Observed media ratios: 256:144; 1360:990; 239:352; 311:253; 123:297; 229:274; 343:230; 132:148; 98:250; 222:218
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.

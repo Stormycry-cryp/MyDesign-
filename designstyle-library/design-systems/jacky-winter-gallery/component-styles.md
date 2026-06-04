@@ -3,11 +3,19 @@
 ## Navigation
 
 ### Style Evidence
+- header Exhibitions About Jacky Winter Gallery Contact | rect=1440x43.2@0,0 | display=block; position=fixed; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- a Exhibitions | rect=97.8x24@24,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
+- a About | rect=55.3x24@161.8,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
+- a Jacky Winter Gallery | rect=182.3x24@628.8,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a Contact | rect=72.3x24@1343.7,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
 - navigation count 4, image count 19, document height 11796.
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
-- Exhibitions; About; Jacky Winter Gallery; Contact
+- Exhibitions About Jacky Winter Gallery Contact
+- Exhibitions
+- About
+- Jacky Winter Gallery
 - Exhibitions; About; Jacky Winter Gallery; Contact
 
 ### Missing Evidence
@@ -16,22 +24,42 @@
 ## Button
 
 ### Style Evidence
-- None recorded.
+- div NOW SHOWING | rect=178.3x35@529.7,1044 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div NOW SHOWING | rect=178.3x35@529.7,1044 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; gap=normal 5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div NOW SHOWING | rect=138.3x35@529.7,1044 | display=flex; position=static; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); borderRadius=17.5px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; padding=0px 12px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s
+- div button-group__icon button button--square button--icon relative | rect=35x35@673,1044 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out; opacity=1
+- div PAST SHOW | rect=151.5x35@921.9,969.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div PAST SHOW | rect=151.5x35@921.9,969.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; gap=normal 5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div PAST SHOW | rect=111.5x35@921.9,969.8 | display=flex; position=static; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); borderRadius=17.5px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; padding=0px 12px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s
+- div button-group__icon button button--square button--icon relative | rect=35x35@1038.3,969.8 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out; opacity=1
 
 ### Content Samples
+- NOW SHOWING
+- PAST SHOW
 - NOW SHOWING; NOW SHOWING; NOW SHOWING; PAST SHOW; PAST SHOW; PAST SHOW; ALL PAST SHOWS; ALL PAST SHOWS; ALL PAST SHOWS; NOW SHOWING; NOW SHOWING; NOW SHOWING
 
 ### Missing Evidence
-- Button size, padding, border, and state styling are not explicitly measured.
+- None recorded.
 
 ## Card
 
 ### Style Evidence
+- div Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING PAST SHOW ALL PAST SHOWS NOW SHO | rect=1440x978@0,139 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div carousel-slide__image aspect-[0.8/1] h-full w-full cursor-pointer | rect=708x885@0,139 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); boxShadow=rgba(0, 0, 0, 0.25) 0px 0px 50px 10px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING | rect=684x93@24,1024 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; padding=20px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div Best Before Karan Singh 15 May – 20 Jun, 2026 | rect=505.7x78@24,1039 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; padding=0px 16px 0px 0px; transition=0.5s ease-in-out 0.25s; transitionDuration=0.5s; transitionTimingFunction=ease-in-out; opacity=1
+- div NOW SHOWING | rect=178.3x35@529.7,1044 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div carousel-slide__image aspect-[0.8/1] h-full w-full cursor-pointer | rect=589.3x736.7@484,213.2 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); boxShadow=rgba(0, 0, 0, 0.25) 0px 0px 50px 10px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div PAST SHOW | rect=565.3x93@508,949.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; padding=20px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div PAST SHOW | rect=151.5x35@921.9,969.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px
 - border radii samples recorded below.
 
 ### Content Samples
-- None recorded.
+- Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING PAST SHOW ALL PAST SHOWS NOW SHOWING PAST SHOW ALL PAST SHOWS
+- Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING
+- Best Before Karan Singh 15 May – 20 Jun, 2026
+- NOW SHOWING
 
 ### Missing Evidence
 - None recorded.
@@ -39,17 +67,24 @@
 ## Form
 
 ### Style Evidence
-- None recorded.
+- form SUBSCRIBE | rect=585x55@427.5,1596 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- input form-input bg-transparent border focus:outline-none h-[2.625rem] | rect=465.5x55@427.5,1596 | display=inline-block; position=static; color=rgb(255, 255, 255); border=1px solid rgb(255, 255, 255); borderRadius=100px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=28px; padding=24px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out
+- form SUBSCRIBE | rect=566x35@850,11613.3 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- input form-input bg-transparent border focus:outline-none h-[2.625rem] | rect=451.5x35@850,11613.3 | display=inline-block; position=static; color=rgb(255, 255, 255); border=1px solid rgb(255, 255, 255); borderRadius=100px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.4px; lineHeight=21px; padding=12px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out
 
 ### Content Samples
-- None recorded.
+- SUBSCRIBE
 
 ### Missing Evidence
-- Form/input style evidence is missing or not classified.
+- None recorded.
 
 ## Feedback state
 
 ### Style Evidence
+- Navigation Exhibitions | hover={'opacity': '0.527749'} | focus={'opacity': '0.443844'}
+- Navigation About | hover={'opacity': '0.527378'} | focus={'opacity': '0.446659'}
+- Navigation Contact | hover={'opacity': '0.527424'} | focus={'opacity': '0.443611'}
+- Button NOW SHOWING | hover={'borderRadius': '0px'} | focus={'borderRadius': '0px'}
 - infer only when backed by transition/animation evidence or visible screenshot states.
 
 ### Content Samples
@@ -61,17 +96,24 @@
 ## Icon
 
 ### Style Evidence
-- None recorded.
+- div button-group__icon button button--square button--icon relative | rect=35x35@673,1044 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out; opacity=1
+- div absolute overflow-hidden icon-animation flex flex-col | rect=70x70@673,1009 | display=flex; position=absolute; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=transform 0.4s ease-in-out; transitionDuration=0.4s; transitionTimingFunction=ease-in-out; transform=matrix(1, 0, 0, 1, 17.5, -17.5); opacity=1
+- svg [object SVGAnimatedString] | rect=35x35@708,1009 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=fill 0.1s ease-out; transitionDuration=0.1s; transitionTimingFunction=ease-out; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=35x35@673,1044 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=fill 0.1s ease-out; transitionDuration=0.1s; transitionTimingFunction=ease-out; opacity=1; cursor=pointer
+- div button-group__icon button button--square button--icon relative | rect=35x35@1038.3,969.8 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0.2); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out; transitionDuration=0.2s, 0.1s, 0.1s; transitionTimingFunction=ease-out, ease-out, ease-out; opacity=1
+- div absolute overflow-hidden icon-animation flex flex-col | rect=70x70@1038.3,934.8 | display=flex; position=absolute; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=transform 0.4s ease-in-out; transitionDuration=0.4s; transitionTimingFunction=ease-in-out; transform=matrix(1, 0, 0, 1, 17.5, -17.5); opacity=1
+- svg [object SVGAnimatedString] | rect=35x35@1073.3,934.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=fill 0.1s ease-out; transitionDuration=0.1s; transitionTimingFunction=ease-out; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=35x35@1038.3,969.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=35px; transition=fill 0.1s ease-out; transitionDuration=0.1s; transitionTimingFunction=ease-out; opacity=1; cursor=pointer
 
 ### Content Samples
 - None recorded.
 
 ### Missing Evidence
-- Icon stroke/fill style evidence is missing.
+- None recorded.
 
 
 ## Evidence
-- Sources: Interaction And Components, Style Tokens And Surface Grammar, Visual System
+- Sources: computed component style JSON, Interaction And Components, Style Tokens And Surface Grammar, Visual System
 
 ## Do Not Copy
 - Preserve component roles and density; do not copy proprietary component names, icons, or claims.

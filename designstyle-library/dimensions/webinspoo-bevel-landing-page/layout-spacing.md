@@ -5,17 +5,17 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Bevel — Landing Page The Connected Health Coach Free Tool Shot and send HTML to Figma `.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 40, document height 11295.
+  - Density: navigation count 7, image count 40, document height 11879.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11295}.
-  - Media/card aspect stability: image natural sizes include 256x256; 1080x10087; 0x0; 32x32; 32x32; 0x0; 32x32; 32x32; 0x0; 24x24.
-  - Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11879}.
+  - Media/card aspect stability: image natural sizes include 256x256; 1080x10087; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11295}
-  - Observed media ratios: 256:256; 1080:10087; 32:32; 32:32; 32:32; 32:32; 24:24; 32:32; 32:32; 32:32
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11879}
+  - Observed media ratios: 256:256; 1080:10087; 24:24; 32:32; 32:32; 32:32; 32:32; 24:24; 32:32; 32:32
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.

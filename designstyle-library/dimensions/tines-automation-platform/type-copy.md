@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9154}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong automation/workflow product UI, with purple-use caution.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: /solutions/products/ -> https://www.tines.com/solutions/products/ | title: Solutions by product | Tines | h1: Connect anything | h2: Top products; By vendor || /solutions/product/ -> https://www.tines.com/solutions/product/ | title: Product Solutions: Extend your product without overextending your team | Tines | h1: Extend your product without overextending your team | h2: Smart, secure workflows; TINES LIBRARY || What is an intelligent workflow? Read blog → -> https://www.tines.com/blog/what-is-an-intelligent-workflow-platform-and-why-does-it-matter/ | title: What is an intelligent workflow platform, and why does it matter? | Tines | h1: What is an intelligent workflow platform, and why does it matter? | h2: What is an intelligent workflow platform?; How intelligent workflow platforms work
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: The intelligent workflow platform
   - H2 samples: Unmatched time to value; The future of workflows is interconnected
   - Navigation samples: Tines; Log in; Sign up; Book a demo; Platform; Pricing

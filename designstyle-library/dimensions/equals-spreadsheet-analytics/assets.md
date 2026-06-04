@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9090}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for refined financial/spreadsheet analytics UI.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://equals.com/pricing/ | title: Pricing | Equals: Trusted AI analytics | h1: Pricing | h2: Compare plans; Some numbers can’t be wrong. See why teams choose Equals for trusted analytics. || Customers -> https://equals.com/customers/ | title: Customers | Equals: Trusted AI analytics | h1: Customers | h2: Stop vibe-coding your numbers. Start trusting them. || /use-cases/ -> https://equals.com/use-cases/ | title: Use cases | Equals: Trusted AI analytics | h1: Use cases | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: AI for the numbers that can’t be wrong.
   - H2 samples: A single source of truth for the entire team. Same question? Same answer.; Understand your pipeline, ARR, engagement, and more. Build once, iterate for years.; Wire your numbers into how your company operates. A system, not an artifact.; Equals syncs your team’s tools to a managed warehouse. No data stack or team required.; How serious teams use AI to deliver trusted answers to their companies.; Stop vibe-coding your numbers. Start trusting them.
   - Navigation samples: ARR Daily Pulse; ARR Dashboard; ARR Spreadsheet; Average Contract Value; Customer Dashboard; Customer Retention Cohorts; Net Revenue Retention; Operating Model Dashboard; Retention Dashboard; Deal Size and Velocity; Paid Campaign Performance; Pipeline Creation
@@ -22,10 +22,11 @@
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: intersection
-  - Public stylesheet/script URLs: https://equals.com/main-31418c658b.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://www.googletagmanager.com/gtag/js?id=AW-11219996260&cx=c&gtm=4e6630h2; https://b2bjsstore.s3.us-west-2.amazonaws.com/b/4O7Z0HJ103NX/4O7Z0HJ103NX.js.gz; https://tag.unifyintent.com/v1/Rp1n4jApn7fF57y7f4tq8X/script.js; https://www.googletagmanager.com/gtag/js?id=G-9W105WVF7E; https://equals.com/js/free-email-domains-f576ae57be.js; https://import-cdn.default.com/sdk.js; https://equals.com/js/main-d5c667bd8f.js; https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11219996260/?random=1780550226646&cv=11&fst=1780550226646&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6630h2v9
+  - Public stylesheet/script URLs: https://equals.com/main-31418c658b.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://widget.intercom.io/widget/gghxukmi; https://www.googletagmanager.com/gtag/js?id=AW-11219996260&cx=c&gtm=4e6621h1; https://b2bjsstore.s3.us-west-2.amazonaws.com/b/4O7Z0HJ103NX/4O7Z0HJ103NX.js.gz; https://tag.unifyintent.com/v1/Rp1n4jApn7fF57y7f4tq8X/script.js; https://www.googletagmanager.com/gtag/js?id=G-9W105WVF7E; https://equals.com/js/free-email-domains-f576ae57be.js; https://import-cdn.default.com/sdk.js; https://equals.com/js/main-d5c667bd8f.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-equals-spreadsheet-analytics-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-equals-spreadsheet-analytics-component-styles.json`
   - Asset CDN and media loading patterns: https://equals.com/images/home/hero-bg-228b623ac2.png; https://equals.com/images/logos/notion-e34afe301c.svg; https://equals.com/images/logos/intercom-f2589730e1.svg; https://equals.com/images/logos/pylon-26ade939f4.svg; https://equals.com/images/logos/11x-8f61da2197.svg; https://equals.com/images/logos/descript-03c4c41bbc.svg; https://equals.com/images/logos/bland-ae5101b8c7.svg; https://equals.com/images/logos/cursor-8a05fda75c.svg
 
 ## Inference

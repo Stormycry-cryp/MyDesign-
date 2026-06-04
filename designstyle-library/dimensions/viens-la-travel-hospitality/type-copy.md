@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
   - Community signal: Httpster travel/hospitality candidate; selected for destination-led service storytelling and category diversity
   - Page scope: homepage travel hospitality service
-  - Secondary pages inspected: /projet/eden-production/ -> https://viens-la.com/projet/eden-production/ | title: Eden Production — Site sur-mesure & module interactif | Viens-là | h1: E D E N P R O D U C T I O N; Et ensuite ? E t s i c ' é t a i t v o t r e s i t e l e p r o c h a i n | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: V i e n s - l à , s t u d i o c r é a t i f D i g i t a l & B r a n d i n g
   - H2 samples: Sélection de projets N o u s r é a l i s o n s d e s p r o j e t s b r a n d i n g e t w e b 1 0 0 % s u r - m e s u r e d a n s d e s s e c t e u r s t r è s v a r i é s .; Agence N o u s s o m m e s d e s p a s s i o n n é s e n q u ê t e d ’ i d é e s c r é a t i v e s e t l u d i q u e s q u i f o n t s e n s .; Services N o t r e m é t h o d o l o g i e d e t r a v a i l e s t b i e n h u i l é e , o n v o u s f a i t u n e d é m o ?; C O N C E P T I O N; Récompenses D e p u i s p l u s d e 1 4 a n s , n o u s a v o n s a c c u m u l é q u e l q u e s r é c o m p e n s e s …; Plus-values M a i s a l o r s , p o u r q u o i c h o i s i r V i e n s - l à ?
   - Navigation samples: none observed

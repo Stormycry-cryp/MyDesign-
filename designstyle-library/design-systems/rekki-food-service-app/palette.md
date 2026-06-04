@@ -3,16 +3,16 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#000000` | foreground | screenshot pixel sample | 0.6258 |
-| `#ffffff` | background | screenshot pixel sample | 0.1045 |
-| `#202020` | foreground | screenshot pixel sample | 0.0301 |
-| `#0060e0` | accent | screenshot pixel sample | 0.0183 |
-| `#808080` | neutral surface | screenshot pixel sample | 0.0069 |
-| `#404040` | foreground | screenshot pixel sample | 0.0049 |
-| `#606060` | foreground | screenshot pixel sample | 0.003 |
-| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0012 |
-| `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0011 |
-| `#c0c0c0` | neutral surface | screenshot pixel sample | 0.0011 |
+| `#000000` | foreground | screenshot pixel sample | 0.6144 |
+| `#202020` | foreground | screenshot pixel sample | 0.1016 |
+| `#0060e0` | accent | screenshot pixel sample | 0.0683 |
+| `#ffffff` | background | screenshot pixel sample | 0.0427 |
+| `#808080` | neutral surface | screenshot pixel sample | 0.004 |
+| `#404040` | foreground | screenshot pixel sample | 0.0036 |
+| `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0025 |
+| `#606060` | foreground | screenshot pixel sample | 0.0024 |
+| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0019 |
+| `#c0c0c0` | neutral surface | screenshot pixel sample | 0.0019 |
 | `#0000ee` | accent | explicit reference or DOM color |  |
 | `#0063e1` | accent | explicit reference or DOM color |  |
 

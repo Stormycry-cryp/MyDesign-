@@ -27,6 +27,126 @@ MOTION_PATTERNS = {
     "swiper": re.compile(r"\bswiper\b|swiper-wrapper|new\s+Swiper", re.I),
 }
 
+BLOCKED_PATTERNS = [
+    re.compile(r"attention required!\s*\|\s*cloudflare", re.I),
+    re.compile(r"cloudflare ray id", re.I),
+    re.compile(r"performance\s*&\s*security by cloudflare", re.I),
+    re.compile(r"just a moment", re.I),
+    re.compile(r"checking your browser", re.I),
+    re.compile(r"verify you are human", re.I),
+    re.compile(r"security challenge", re.I),
+    re.compile(r"cf-chl|challenge-platform", re.I),
+]
+SCIENTIFIC_PX_RE = re.compile(r"\d+(?:\.\d+)?e[+-]?\d+px", re.I)
+
+COMPONENT_STYLE_KEYS = [
+    "display",
+    "position",
+    "top",
+    "left",
+    "right",
+    "bottom",
+    "zIndex",
+    "color",
+    "backgroundColor",
+    "border",
+    "borderTop",
+    "borderRight",
+    "borderBottom",
+    "borderLeft",
+    "borderRadius",
+    "boxShadow",
+    "fontFamily",
+    "fontSize",
+    "fontWeight",
+    "letterSpacing",
+    "lineHeight",
+    "padding",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "margin",
+    "gap",
+    "columnGap",
+    "rowGap",
+    "alignItems",
+    "justifyContent",
+    "transition",
+    "transitionDuration",
+    "transitionTimingFunction",
+    "transform",
+    "opacity",
+    "cursor",
+    "backdropFilter",
+]
+
+COMPONENT_CAPTURE_JS = """
+() => {
+  const styleKeys = %s;
+  const cleanText = (value) => (value || '').replace(/\\s+/g, ' ').trim();
+  const visible = (el) => {
+    const rect = el.getBoundingClientRect();
+    const style = getComputedStyle(el);
+    return rect.width > 0 && rect.height > 0 && style.display !== 'none' && style.visibility !== 'hidden';
+  };
+  const styleOf = (el) => {
+    const cs = getComputedStyle(el);
+    const out = {};
+    for (const key of styleKeys) out[key] = cs[key] || '';
+    return out;
+  };
+  const rectOf = (el) => {
+    const r = el.getBoundingClientRect();
+    return {
+      x: Math.round(r.x * 10) / 10,
+      y: Math.round(r.y * 10) / 10,
+      width: Math.round(r.width * 10) / 10,
+      height: Math.round(r.height * 10) / 10,
+      viewportVisible: r.bottom >= 0 && r.right >= 0 && r.top <= innerHeight && r.left <= innerWidth
+    };
+  };
+  const classHint = (el) => cleanText(String(el.className || '')).split(' ').filter(Boolean).slice(0, 5).join(' ');
+  const sample = (category, selector, limit) => Array.from(document.querySelectorAll(selector))
+    .filter(visible)
+    .slice(0, limit)
+    .map((el, index) => {
+      const id = `ds-${category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${index}`;
+      el.setAttribute('data-designstyle-sample-id', id);
+      return {
+        sampleId: id,
+        category,
+        tag: el.tagName.toLowerCase(),
+        role: el.getAttribute('role') || '',
+        ariaLabel: el.getAttribute('aria-label') || '',
+        type: el.getAttribute('type') || '',
+        classHint: classHint(el),
+        text: cleanText(el.innerText || el.textContent || '').slice(0, 160),
+        href: el.tagName.toLowerCase() === 'a' ? (el.href || '') : '',
+        rect: rectOf(el),
+        styles: styleOf(el)
+      };
+    });
+  const samples = [
+    ...sample('Navigation', 'header, nav, [role="navigation"], header a, nav a', 24),
+    ...sample('Button', 'button, a[role="button"], input[type="button"], input[type="submit"], a[class*="button" i], a[class*="btn" i], [class*="button" i], [class*="btn" i]', 32),
+    ...sample('Card', 'article, [class*="card" i], [class*="tile" i], [class*="item" i], li:has(a), section:has(img)', 28),
+    ...sample('Form', 'form, label, input, textarea, select', 28),
+    ...sample('Icon', 'svg, [class*="icon" i], img[width][height]', 28),
+    ...sample('Section', 'main > section, body > section, section', 20)
+  ];
+  const byCategory = {};
+  for (const item of samples) byCategory[item.category] = (byCategory[item.category] || 0) + 1;
+  return {
+    capturedAt: new Date().toISOString(),
+    viewport: {w: innerWidth, h: innerHeight, docW: document.documentElement.scrollWidth, docH: document.documentElement.scrollHeight},
+    styleKeys,
+    counts: byCategory,
+    samples
+  };
+}
+""" % json.dumps(COMPONENT_STYLE_KEYS)
+
 
 def slugify(text: str) -> str:
     text = text.lower().strip()
@@ -42,6 +162,27 @@ def yaml_list(values: list[str]) -> str:
 
 def q(value: str) -> str:
     return value.replace('"', '\\"').replace("\n", " ")
+
+
+def blocked_evidence_reasons(payload: object) -> list[str]:
+    text = json.dumps(payload, ensure_ascii=False).lower() if not isinstance(payload, str) else payload.lower()
+    reasons = []
+    for pattern in BLOCKED_PATTERNS:
+        if pattern.search(text):
+            reasons.append(pattern.pattern)
+    return reasons
+
+
+def sanitize_computed_value(value: object) -> object:
+    if isinstance(value, str):
+        if SCIENTIFIC_PX_RE.search(value):
+            return "filtered abnormal computed value"
+        return value
+    if isinstance(value, list):
+        return [sanitize_computed_value(item) for item in value]
+    if isinstance(value, dict):
+        return {key: sanitize_computed_value(item) for key, item in value.items()}
+    return value
 
 
 def dismiss_common_overlays(page) -> list[str]:
@@ -136,7 +277,91 @@ def choose_secondary_links(base_url: str, links: list[dict], limit: int = 3) -> 
     return [{"url": url, "text": text} for _, url, text in scored[:limit]]
 
 
-def capture_with_playwright(url: str, screenshot: Path, dom_path: Path, width: int, height: int, timeout: int) -> tuple[bool, str, dict]:
+def capture_interaction_states(page, samples: list[dict], limit: int = 12) -> list[dict]:
+    states: list[dict] = []
+    interactive = [
+        sample
+        for sample in samples
+        if sample.get("category") in {"Button", "Navigation", "Form"} and sample.get("sampleId")
+    ][:limit]
+    for sample in interactive:
+        sample_id = str(sample["sampleId"])
+        selector = f'[data-designstyle-sample-id="{sample_id}"]'
+        try:
+            target = page.locator(selector).first
+            if not target.is_visible(timeout=700):
+                continue
+            before = page.evaluate(
+                """([selector, keys]) => {
+                  const el = document.querySelector(selector);
+                  if (!el) return {};
+                  const cs = getComputedStyle(el);
+                  const out = {};
+                  for (const key of keys) out[key] = cs[key] || '';
+                  return out;
+                }""",
+                [selector, COMPONENT_STYLE_KEYS],
+            )
+            target.hover(timeout=1200)
+            page.wait_for_timeout(120)
+            hover = page.evaluate(
+                """([selector, keys]) => {
+                  const el = document.querySelector(selector);
+                  if (!el) return {};
+                  const cs = getComputedStyle(el);
+                  const out = {};
+                  for (const key of keys) out[key] = cs[key] || '';
+                  return out;
+                }""",
+                [selector, COMPONENT_STYLE_KEYS],
+            )
+            try:
+                target.focus(timeout=700)
+            except Exception:
+                pass
+            focus = page.evaluate(
+                """([selector, keys]) => {
+                  const el = document.querySelector(selector);
+                  if (!el) return {};
+                  const cs = getComputedStyle(el);
+                  const out = {};
+                  for (const key of keys) out[key] = cs[key] || '';
+                  return out;
+                }""",
+                [selector, COMPONENT_STYLE_KEYS],
+            )
+            changed_hover = {k: hover.get(k) for k in COMPONENT_STYLE_KEYS if hover.get(k) != before.get(k)}
+            changed_focus = {k: focus.get(k) for k in COMPONENT_STYLE_KEYS if focus.get(k) != before.get(k)}
+            states.append(
+                {
+                    "sampleId": sample_id,
+                    "category": sample.get("category", ""),
+                    "text": sample.get("text", ""),
+                    "hover_changed": changed_hover,
+                    "focus_changed": changed_focus,
+                }
+            )
+        except Exception as exc:
+            states.append(
+                {
+                    "sampleId": sample_id,
+                    "category": sample.get("category", ""),
+                    "text": sample.get("text", ""),
+                    "error": f"{type(exc).__name__}: {exc}",
+                }
+            )
+    return states
+
+
+def capture_with_playwright(
+    url: str,
+    screenshot: Path,
+    dom_path: Path,
+    width: int,
+    height: int,
+    timeout: int,
+    inspect_secondary: bool = True,
+) -> tuple[bool, str, dict]:
     if not CHROME.exists():
         return False, f"Chrome not found: {CHROME}", {}
     try:
@@ -206,37 +431,49 @@ def capture_with_playwright(url: str, screenshot: Path, dom_path: Path, width: i
                 }""",
                 clicked,
             )
+            component_evidence = page.evaluate(COMPONENT_CAPTURE_JS)
+            component_evidence["stateSamples"] = capture_interaction_states(
+                page, component_evidence.get("samples", [])
+            )
+            data["componentEvidence"] = component_evidence
+            blocked_reasons = blocked_evidence_reasons(data)
+            if blocked_reasons:
+                browser.close()
+                return False, f"blocked/security challenge captured: {', '.join(blocked_reasons[:3])}", data
             home_content = page.content()
             page.screenshot(path=str(screenshot), full_page=False)
             secondary = []
-            for link in choose_secondary_links(data.get("url") or url, data.get("links") or [], limit=3):
-                try:
-                    page.goto(link["url"], wait_until="domcontentloaded", timeout=min(timeout, 10) * 1000)
-                    page.wait_for_timeout(900)
-                    summary = page.evaluate(
-                        """(link) => {
-                          const visibleText = (el) => {
-                            const text = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
-                            const style = getComputedStyle(el);
-                            const rect = el.getBoundingClientRect();
-                            if (!text || style.display === 'none' || style.visibility === 'hidden' || rect.width === 0 || rect.height === 0) return '';
-                            return text;
-                          };
-                          const sample = (selector, limit) => Array.from(document.querySelectorAll(selector)).map(visibleText).filter(Boolean).slice(0, limit);
-                          return {
-                            url: location.href,
-                            sourceText: link.text || '',
-                            title: document.title,
-                            h1: sample('h1', 2),
-                            h2: sample('h2', 4),
-                            viewport: {w: innerWidth, h: innerHeight, docW: document.documentElement.scrollWidth, docH: document.documentElement.scrollHeight}
-                          };
-                        }""",
-                        link,
-                    )
-                    secondary.append(summary)
-                except Exception as exc:
-                    secondary.append({"url": link["url"], "sourceText": link.get("text", ""), "error": f"{type(exc).__name__}: {exc}"})
+            if inspect_secondary:
+                for link in choose_secondary_links(data.get("url") or url, data.get("links") or [], limit=3):
+                    try:
+                        page.goto(link["url"], wait_until="domcontentloaded", timeout=min(timeout, 10) * 1000)
+                        page.wait_for_timeout(900)
+                        summary = page.evaluate(
+                            """(link) => {
+                              const visibleText = (el) => {
+                                const text = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
+                                const style = getComputedStyle(el);
+                                const rect = el.getBoundingClientRect();
+                                if (!text || style.display === 'none' || style.visibility === 'hidden' || rect.width === 0 || rect.height === 0) return '';
+                                return text;
+                              };
+                              const sample = (selector, limit) => Array.from(document.querySelectorAll(selector)).map(visibleText).filter(Boolean).slice(0, limit);
+                              return {
+                                url: location.href,
+                                sourceText: link.text || '',
+                                title: document.title,
+                                h1: sample('h1', 2),
+                                h2: sample('h2', 4),
+                                viewport: {w: innerWidth, h: innerHeight, docW: document.documentElement.scrollWidth, docH: document.documentElement.scrollHeight}
+                              };
+                            }""",
+                            link,
+                        )
+                        secondary.append(summary)
+                    except Exception as exc:
+                        secondary.append({"url": link["url"], "sourceText": link.get("text", ""), "error": f"{type(exc).__name__}: {exc}"})
+            else:
+                secondary.append({"note": "secondary page inspection skipped; prioritized homepage computed component evidence"})
             data["secondaryPages"] = secondary
             dom_path.write_text(home_content, encoding="utf-8", errors="ignore")
             browser.close()
@@ -340,7 +577,15 @@ def list_values(raw: str) -> list[str]:
 
 
 def summarize_list(values: list, limit: int = 5) -> str:
-    return "; ".join(str(v)[:180] for v in values[:limit]) or "none observed"
+    cleaned = []
+    for value in values:
+        text = str(value)
+        if SCIENTIFIC_PX_RE.search(text):
+            continue
+        cleaned.append(text[:180])
+        if len(cleaned) >= limit:
+            break
+    return "; ".join(cleaned) or "none observed"
 
 
 def summarize_secondary_pages(values: list[dict]) -> str:
@@ -375,6 +620,8 @@ def main() -> int:
     parser.add_argument("--height", type=int, default=1000)
     parser.add_argument("--timeout", type=int, default=12)
     parser.add_argument("--replace", action="store_true", help="Overwrite today's existing reference for this slug.")
+    parser.add_argument("--output-reference", help="Overwrite this existing reference file instead of creating a dated file.")
+    parser.add_argument("--skip-secondary", action="store_true", help="Skip secondary pages and prioritize first-page component evidence.")
     args = parser.parse_args()
 
     lib = Path(args.library).expanduser()
@@ -386,7 +633,16 @@ def main() -> int:
     screenshot_rel = f"screenshots/{slug}-desktop.png"
     screenshot = lib / screenshot_rel
     dom_path = lib / "assets" / f"{today}-{slug}-dom.html"
-    ok, browser_log, captured_data = capture_with_playwright(args.url, screenshot, dom_path, args.width, args.height, args.timeout)
+    component_path = lib / "assets" / f"{today}-{slug}-component-styles.json"
+    ok, browser_log, captured_data = capture_with_playwright(
+        args.url,
+        screenshot,
+        dom_path,
+        args.width,
+        args.height,
+        args.timeout,
+        inspect_secondary=not args.skip_secondary,
+    )
     if not dom_path.exists():
         dom_path.write_text(
             f"<!doctype html><title>{q(args.name)}</title><body>capture failed: {q(browser_log)}</body>",
@@ -394,6 +650,21 @@ def main() -> int:
         )
     dom = dom_path.read_text(encoding="utf-8", errors="ignore")
     data = captured_data or extract_json(dom) or fallback_extract(dom, args.url)
+    component_evidence = data.get("componentEvidence") if isinstance(data.get("componentEvidence"), dict) else {}
+    blocked_reasons = blocked_evidence_reasons(data)
+    component_evidence = sanitize_computed_value(component_evidence)
+    component_payload = {
+        "slug": slug,
+        "name": args.name,
+        "source_url": args.url,
+        "final_url": data.get("url") or args.url,
+        "captured_at": today,
+        "screenshot": screenshot_rel,
+        "evidence_quality": "blocked/security challenge captured" if blocked_reasons else "computed component styles from live DOM" if component_evidence else "component style capture unavailable",
+        "blocked_reasons": blocked_reasons,
+        "component_evidence": component_evidence,
+    }
+    component_path.write_text(json.dumps(component_payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     final_url = data.get("url") or args.url
     resource_urls = (data.get("stylesheets") or []) + (data.get("scripts") or [])
     checked_urls, motion = collect_motion(resource_urls, final_url)
@@ -430,8 +701,10 @@ def main() -> int:
     secondary_pages = data.get("secondaryPages") or []
 
     evidence_quality = "visual screenshot plus DOM/style/resource extraction" if ok else f"partial DOM extraction; screenshot failed: {browser_log[:160]}"
-    path = lib / "references" / f"{today}-{slug}.md"
-    if path.exists() and not args.replace:
+    path = Path(args.output_reference).expanduser() if args.output_reference else lib / "references" / f"{today}-{slug}.md"
+    if not path.is_absolute():
+        path = lib / path
+    if path.exists() and not args.replace and not args.output_reference:
         digest = hashlib.sha1(args.url.encode()).hexdigest()[:6]
         path = lib / "references" / f"{today}-{slug}-{digest}.md"
 
@@ -527,6 +800,7 @@ evidence_quality: "{q(evidence_quality)}"
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/{today}-{slug}-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/{today}-{slug}-component-styles.json`
 - Asset CDN and media loading patterns: {summarize_list([img.get('src') for img in images], 8)}
 
 ## Motion
@@ -549,6 +823,7 @@ evidence_quality: "{q(evidence_quality)}"
 ## Interaction And Components
 - Navigation: {summarize_list(nav, 16)}
 - Buttons/links: {summarize_list(buttons, 12)}
+- Computed component styles: `assets/{today}-{slug}-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9090}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for refined financial/spreadsheet analytics UI.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://equals.com/pricing/ | title: Pricing | Equals: Trusted AI analytics | h1: Pricing | h2: Compare plans; Some numbers can’t be wrong. See why teams choose Equals for trusted analytics. || Customers -> https://equals.com/customers/ | title: Customers | Equals: Trusted AI analytics | h1: Customers | h2: Stop vibe-coding your numbers. Start trusting them. || /use-cases/ -> https://equals.com/use-cases/ | title: Use cases | Equals: Trusted AI analytics | h1: Use cases | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: AI for the numbers that can’t be wrong.
   - H2 samples: A single source of truth for the entire team. Same question? Same answer.; Understand your pipeline, ARR, engagement, and more. Build once, iterate for years.; Wire your numbers into how your company operates. A system, not an artifact.; Equals syncs your team’s tools to a managed warehouse. No data stack or team required.; How serious teams use AI to deliver trusted answers to their companies.; Stop vibe-coding your numbers. Start trusting them.
   - Navigation samples: ARR Daily Pulse; ARR Dashboard; ARR Spreadsheet; Average Contract Value; Customer Dashboard; Customer Retention Cohorts; Net Revenue Retention; Operating Model Dashboard; Retention Dashboard; Deal Size and Velocity; Paid Campaign Performance; Pipeline Creation

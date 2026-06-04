@@ -1,0 +1,20 @@
+# DesignStyle Recrawl Report
+
+Date: 2026-06-04
+
+- Total: 10
+- OK: 10
+- Failed: 0
+
+| # | Reference | Status | Component JSON | Note |
+|---:|---|---|---|---|
+| 1 | `2026-06-03-a24-culture-studio.md` | ok | `assets/2026-06-04-a24-culture-studio-component-styles.json` | component samples=81; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-a24-culture-studio.md; designstyle-library/screenshots/a24-culture-studio-desktop.png |
+| 2 | `2026-06-03-amie-productivity-calendar.md` | ok | `assets/2026-06-04-amie-productivity-calendar-component-styles.json` | component samples=69; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-amie-productivity-calendar.md; designstyle-library/screenshots/amie-productivity-calendar-desk |
+| 3 | `2026-06-03-apple-vision-pro-product-story.md` | ok | `assets/2026-06-04-apple-vision-pro-product-story-component-styles.json` | component samples=124; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-apple-vision-pro-product-story.md; designstyle-library/screenshots/apple-vision-pro-product-s |
+| 4 | `2026-06-03-arc-browser-product-site.md` | ok | `assets/2026-06-04-arc-browser-product-site-component-styles.json` | component samples=4; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-arc-browser-product-site.md; designstyle-library/screenshots/arc-browser-product-site-desktop.p |
+| 5 | `2026-06-03-bauhaus-clock-interactive-product.md` | ok | `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json` | component samples=32; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-bauhaus-clock-interactive-product.md; designstyle-library/screenshots/bauhaus-clock-interactiv |
+| 6 | `2026-06-03-benvenusa-food-wine.md` | ok | `assets/2026-06-04-benvenusa-food-wine-component-styles.json` | component samples=51; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-benvenusa-food-wine.md; designstyle-library/screenshots/benvenusa-food-wine-desktop.png |
+| 7 | `2026-06-03-buffet-digital-agency.md` | ok | `assets/2026-06-04-buffet-digital-agency-component-styles.json` | component samples=57; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-buffet-digital-agency.md; designstyle-library/screenshots/buffet-digital-agency-desktop.png |
+| 8 | `2026-06-03-capital-finance-product.md` | ok | `assets/2026-06-04-capital-finance-product-component-styles.json` | component samples=26; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-capital-finance-product.md; designstyle-library/screenshots/capital-finance-product-desktop.pn |
+| 9 | `2026-06-03-cleo-ai-fintech-storytelling.md` | ok | `assets/2026-06-04-cleo-ai-fintech-storytelling-component-styles.json` | component samples=110; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-cleo-ai-fintech-storytelling.md; designstyle-library/screenshots/cleo-ai-fintech-storytelling |
+| 10 | `2026-06-03-cosmos-creative-network.md` | ok | `assets/2026-06-04-cosmos-creative-network-component-styles.json` | component samples=69; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-cosmos-creative-network.md; designstyle-library/screenshots/cosmos-creative-network-desktop.pn |

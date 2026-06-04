@@ -644,14 +644,14 @@
     max-height: 100dvh;
   }
 
-  /* Add text decoration for links without a class */ 
+  /* Add text decoration for links without a class */
   a:not([class]) {
     text-decoration: underline;
   }
 
   /* Apply to all text globally */
   body {
-    font-feature-settings: 
+    font-feature-settings:
       'ss03' 1,  /* y */
       'ss10' 1,  /* question mark */
       'ss11' 1,  /* t */
@@ -660,7 +660,7 @@
 
   /* Single-story 'a' only for headers */
   h1, h2, h3, h4, h5, h6, .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-feature-settings: 
+    font-feature-settings:
       'ss01' 1,  /* a */
       'ss03' 1,  /* y */
       'ss10' 1,  /* question mark */
@@ -668,12 +668,12 @@
       'ss12' 1;  /* dollar */
   }
 
-  /* Button default hover animation */ 
+  /* Button default hover animation */
   .btn:has(.btn_icon-track):hover .btn-icon, .press-item:hover .btn-icon {
     transform: translateY(0%);
   }
 
-  /* Button up-down hover */ 
+  /* Button up-down hover */
   .btn[animation-style='up-down']:has(.btn_icon-track) .btn-icon {
     transform: translateY(-100%);
   }
@@ -780,7 +780,7 @@
   }
 
   .nav_hamburger-icon {
-    transform: unset !important; 
+    transform: unset !important;
   }
 
   .subnav-category_dropdown_btn.w--open .subnav-category_dropdown_btn-arrow,
@@ -794,7 +794,7 @@
 
   /* Hide section with "data-cms-section" attribute that has an empty collection list within it*/
   [data-cms-section]:not(:has(.w-dyn-item)) {
-    display: none; 
+    display: none;
   }
 
   /* HL empty links designer only */
@@ -813,7 +813,7 @@
     transition: grid-template-rows ease-out 250ms;
   }
 
-  /* Open accordion when checked */ 
+  /* Open accordion when checked */
   .accordion_container:has(.accordion_checkbox:checked) .accordion_mask {
     grid-template-rows: 1fr;
     padding-top: 1rem;
@@ -909,11 +909,11 @@
   }
   dialog::-webkit-scrollbar {
     width: 10px;
-  }            
+  }
   dialog::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: transparent;
-  }            
+  }
   dialog::-webkit-scrollbar-thumb {
     border-radius: 10px;
     border: 2px solid var(--colors--background);
@@ -1269,7 +1269,7 @@ font-feature-settings: 'ss10' on, 'ss12' on;
     opacity: 1;
     transform: translateY(-80%) rotateZ(-8deg);
   }
-  
+
   .cs-template_section:has(.cs-marquee-container):last-child:after {
     background-color:  var(--_swatches---color--oat-100);
   }
@@ -1298,7 +1298,7 @@ font-feature-settings: 'ss10' on, 'ss12' on;
   .cs-cta_marquee:nth-child(3) [data-text-card-2] {
     background-color: var(--_swatches---color--dragonfruit-800) !important;
   }
-  
+
   video {
     object-fit: cover !important;
     background-size: cover !important;
@@ -1435,7 +1435,7 @@ font-feature-settings: 'ss10' on, 'ss12' on;
 
   html:not(html.wf-design-mode, html.w-editor-preview) [iseu='true'] {
     visibility: hidden;
-  } 
+  }
 
   [iseu='false'] [data-logo-eu],
   [iseu='true'] [data-logo-na] {
@@ -1580,7 +1580,7 @@ font-feature-settings: 'ss10' on, 'ss12' on;
 </style></div><div class="row workflows"><div class="col col-lg-6 col-md-12"><div class="u-text-balance"><h3 class="heading-4">Clay’s data + workflows unlock any <span class="u-text-oat-700">growth use case</span></h3><p>Use the best data foundation alongside flexible workflows to turn any growth idea into reality—from CRM enrichment to intent-based outbound. Iterate quickly to scale your best experiments.</p></div></div><div class="col col-lg-6 col-md-12"><div aria-hidden="true" class="homepage-card-img u-aspect-square"><div class="homepage-card-img-xl"><div class="clay_pulse-container"><div class="clay_pulse"><div class="clay_pulse-aspect u-aspect-custom"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffe1486603443f04f9edc_Clay-LOGO-2024%201.avif" loading="lazy" alt="" class="u-img-cover"></div></div><div class="clay_pulse-animate"></div></div><div class="clay-pulse-connector"><div class="u-aspect-square"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/67900215f7f8d8c7afdd1438_Union.svg" loading="lazy" alt="" class="u-img-cover"></div><div class="pulse-connector-mask cc-1"></div></div><div class="homepage-card-img-flow flex-col flex-gap-sm"><div class="homepage-uc-item u-w-100"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6790071e7584165bbc0440c2_Frame%202147224443.svg" loading="lazy" alt="" class="u-img-cover"></div><div>Data enrichments</div></div><div class="homepage-uc-item u-w-100"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6790071e7819cfe9395296c2_Frame%202147224046.svg" loading="lazy" alt="" class="u-img-cover"></div><div>AI agents</div></div></div><div class="clay-pulse-connector cc-inverse"><div class="u-aspect-square"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/67900215f7f8d8c7afdd1438_Union.svg" loading="lazy" alt="" class="u-img-cover"></div><div class="pulse-connector-mask cc-2"></div></div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb1226057a9de43a470b_icon%2002.svg" loading="lazy" alt="" class="u-img-cover"></div><div>CRM enrichment and maintenance</div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb12fc28c3a076926bc9_icon%2004.svg" loading="lazy" alt="" class="u-img-cover"></div><div>TAM sourcing &amp; territory planning</div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb12c61e98eeefec9b6f_icon%2006.svg" loading="lazy" alt="" class="u-img-cover"></div><div>Inbound lead enrichment &amp; routing</div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb12cc898485b1c4e53e_icon%2007.svg" loading="lazy" alt="" class="u-img-cover"></div><div>Intent-based outreach flows</div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb12fa4cd21d5980bab5_icon%2003.svg" loading="lazy" alt="" class="u-img-cover"></div><div>AI powered outbound campaigns</div></div><div class="homepage-uc-item"><div class="homepage-uc-icon icon"><img src="https://cdn.prod.website-files.com/61477f2c24a826836f969afe/678ffb12acb5c6b24fa8b19f_icon%2001.svg" loading="lazy" alt="" class="u-img-cover"></div><div>Account based marketing</div></div></div></div></div></div></div></div></div></div></section><section id="gtm-stack" class="section u-pt-1 u-pb-2"><div id="GTM-stack-consolidation" class="anchor-link-hp"></div><div class="container"><div class="u-mt-3"><div class="row row-justify-between u-mb-0"><div class="col col-lg-6 col-md-7 col-sm-12 flex-col"><h3 class="h1">Cut costs, access data faster in one central platform</h3><p class="paragraph_1-125">Stop waiting months to purchase and implement new data tools. Clay gives you immediate access to 100+ premium data sources (+ your own API keys) &nbsp;in one subscription: no contracts, renewals, or implementation hassle needed.</p><div class="buttons-wrap flex-row flex-gap-md"><a class="btn w-inline-block" data-wf-component-context="%5B%7B%22componentId%22%3A%226edb7271-d320-2a83-9d75-2b74f55b6b12%22%2C%22instanceId%22%3A%226d5547cb-6ab2-d44a-ea17-5c6bb944bede%22%7D%5D" variant="" animaton-style="default" data-wf-element-id="6edb7271-d320-2a83-9d75-2b74f55b6b12" data-wf-event-ids="" href="https://www.clay.com/enterprise" data-button="" data-wf--global-main-button--variant="base" element_location="homepage_enterprise_section" data-wf-native-id-path="6d5547cb-6ab2-d44a-ea17-5c6bb944bede:6edb7271-d320-2a83-9d75-2b74f55b6b12" data-wf-ao-click-engagement-tracking="true"><div>Read more about Clay Enterprise</div><div class="btn_icon-track u-position-relative overflow-hidden"><div class="btn-icon u-position-absolute"><div data-wf--icon--variant="base" class="icon_ph ph ph-arrow-right" id="" style=""></div></div><div class="btn-icon"><div data-wf--icon--variant="base" class="icon_ph ph ph-arrow-right" id="" style=""></div></div></div></a><a class="btn w-inline-block cc-secondary" data-wf-component-context="%5B%7B%22componentId%22%3A%226edb7271-d320-2a83-9d75-2b74f55b6b12%22%2C%22instanceId%22%3A%226d5547cb-6ab2-d44a-ea17-5c6bb944bee0%22%7D%5D" variant="" animaton-style="default" data-wf-element-id="6edb7271-d320-2a83-9d75-2b74f55b6b12" data-wf-event-ids="" href="https://www.clay.com/contact-form" data-button="" data-wf--global-main-button--variant="base" element_location="homepage_enterprise_section" data-wf-native-id-path="6d5547cb-6ab2-d44a-ea17-5c6bb944bee0:6edb7271-d320-2a83-9d75-2b74f55b6b12" data-wf-ao-click-engagement-tracking="true"><div>Get a demo</div><div class="btn_icon-track u-position-relative overflow-hidden"><div class="btn-icon u-position-absolute"><div data-wf--icon--variant="base" class="icon_ph ph ph-arrow-right" id="" style=""></div></div><div class="btn-icon"><div data-wf--icon--variant="base" class="icon_ph ph ph-arrow-right" id="" style=""></div></div></div></a></div></div><div class="col col-lg-6 col-md-5 col-sm-12"><div class="u-aspect-square u-overflow-visible u-border_r30 u-border-full"><div class="w-embed"><img class="u-img-cover" src="https://imagedelivery.net/otqd4BE23NbdYqDBd5Ckhg/b54a6bcf-e16a-42ce-357a-c4622062c700/public" alt="homepage flowers" style="width:100%;height:100%;object-fit:cover;display:block"></div></div></div></div></div></div></section><section class="section u-pb-0 u-bg-oat-100"><div class="w-embed"><style>
   .col:has(.homepage-badge) img {
     transition: transform ease-out 150ms;
-  } 
+  }
 
   .col:has(.homepage-badge):hover img {
     transform: rotateZ(-6deg);
@@ -1707,7 +1707,7 @@ font-feature-settings: 'ss10' on, 'ss12' on;
   [data-jobs].third-hover:after {
     content: 'Stop hovering, come join us!';
   }
-  
+
   [data-new-feat]:after {
   	content: 'New';
     background-color: var(--_swatches---color--blueberry-600);
@@ -2205,12 +2205,12 @@ font-feature-settings: 'ss10' on, 'ss12' on;
       analytics.ready(function() {
         // Find all buttons in header and bind click tracking
         var headerButtons = document.querySelectorAll('header button, [role="banner"] button');
-        
+
         headerButtons.forEach(function(button) {
           button.addEventListener('click', function(e) {
             var buttonText = button.textContent.trim() || 'Unknown Button';
             var buttonId = button.id || button.getAttribute('data-button-id') || 'unidentified';
-            
+
             window.analytics.track('Header Button Clicked', {
               button_text: buttonText,
               button_id: buttonId,

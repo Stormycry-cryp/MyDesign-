@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-supabase-developer-platform-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-supabase-developer-platform-component-styles.json`
   - Asset CDN and media loading patterns: none observed
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

@@ -29,7 +29,7 @@
 
 ## Missing Evidence
 - Automated capture covers one desktop viewport and public DOM/resources only.
-- Secondary pages were not captured in this first pass.
+- Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.
 - Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.
 
 ## Do Not Copy

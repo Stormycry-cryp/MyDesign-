@@ -34,10 +34,10 @@ Rows Spreadsheet Dashboard is captured as a spreadsheet, analytics, saas referen
 - Captured URL: https://rows.com/product
 - Page title: Rows - Your new AI Data Analyst
 - Screenshot: screenshots/rows-spreadsheet-dashboard-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6775}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for clean spreadsheet and chart dashboard preview.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: Pricing -> https://rows.com/pricing | title: Rows Pricing Plans: Free, Plus, Pro and Enterprise | h1: Compare plans & features | h2: Extract PDFs, import your business data and analyze it with AI✨.; You’re in great company || Learn more about Rows AI -> https://rows.com/ai | title: Rows AI: Analyze and Transform Data with AI. | h1: Your Data team of one | h2: Use spreadsheets 10x faster; Make sense of your data || /about -> https://rows.com/about | title: About | Rows | h1: Rows is on a mission to empower the next 1B+ of app creators; We spreadsheets | h2: Our Investors; Join the team
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Your new AI; Data Analyst
 - H2 samples: You’re in great company; Want answers? Just ask.; Connected to your data; Build reports your team will actually read; Looking for a head start?; Your new AI Data Analyst
 - Navigation samples: Rows AI Your number crunching sidekick; Integrations Seamless connections to your tools; Support Docs Learn how to make the most out of Rows.; Features All-in-one spreadsheet for teams; Pricing; Templates; Community; Continue with Coda; Continue with Coda; Features; Blog; About
@@ -49,7 +49,7 @@ Rows Spreadsheet Dashboard is captured as a spreadsheet, analytics, saas referen
 - Layout: infer from screenshot and viewport; primary page text sample starts `Rows joined Superhuman. For any inquiries, email support@rows.com. The Superhuman Privacy Policy and Terms will apply as of June 16. Product Rows AI Your number crunching sidekick Integrations Seamless connections to your tools Support Docs Learn how to make t`.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 24, image count 29, document height 6775.
+- Density: navigation count 24, image count 29, document height 5932.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
@@ -67,12 +67,12 @@ Rows Spreadsheet Dashboard is captured as a spreadsheet, analytics, saas referen
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6775}.
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}.
 - Media/card aspect stability: image natural sizes include 5984x3072; 6001x3072; 1436x1288; 1255x456; 684x588; 684x588; 2853x2382; 0x0; 150x150; 0x0.
 - Observed border radii: 8px; 8px; 2px; 2px; 50%; 12px; 12px; 12px; 12px; 8px; 8px; 8px
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6775}
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}
 - Observed media ratios: 5984:3072; 6001:3072; 1436:1288; 1255:456; 684:588; 684:588; 2853:2382; 150:150; 80:80; 80:80
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
@@ -90,6 +90,7 @@ Rows Spreadsheet Dashboard is captured as a spreadsheet, analytics, saas referen
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-rows-spreadsheet-dashboard-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-rows-spreadsheet-dashboard-component-styles.json`
 - Asset CDN and media loading patterns: https://rows.com/_next/static/chunks/media/images/rows-spreadsheet.519133bd0a062c0.png; https://rows.com/_next/static/chunks/media/images/regular-spreadsheet.a7b97fb23f645da.png; https://rows.com/_next/static/chunks/media/images/mobile-spreadsheet.d9dc44b2fc0ce75.png; https://rows.com/_next/static/chunks/media/images/rows-x-background.e0cb42c59b81b95.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/share-your-work-confidently.53831f559fb69ed.png; https://images.ctfassets.net/pt9zoi1ijm0e/5T5kOQxqGIivkM3nL9Hn3v/76411c12490636e00c624438850aab66/Screenshot_2024-07-17_at_18.20.10.png
 
 ## Motion
@@ -112,6 +113,7 @@ Rows Spreadsheet Dashboard is captured as a spreadsheet, analytics, saas referen
 ## Interaction And Components
 - Navigation: Rows AI Your number crunching sidekick; Integrations Seamless connections to your tools; Support Docs Learn how to make the most out of Rows.; Features All-in-one spreadsheet for teams; Pricing; Templates; Community; Continue with Coda; Continue with Coda; Features; Blog; About; Security; Rows AI; Support Docs; Careers
 - Buttons/links: Product; Product Video
+- Computed component styles: `assets/2026-06-04-rows-spreadsheet-dashboard-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

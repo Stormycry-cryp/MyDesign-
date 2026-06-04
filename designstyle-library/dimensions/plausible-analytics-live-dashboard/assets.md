@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2879}
   - Community signal: Passed 2026-06-04 UI aesthetic probe as actual analytics dashboard; plain but clear and useful.
   - Page scope: public analytics dashboard
-  - Secondary pages inspected: See pricing -> https://plausible.io/ | title: Plausible Analytics | Simple, privacy-friendly Google Analytics alternative | h1: Easy to use and privacy-friendly Google Analytics alternative | h2: Why use Plausible Analytics?; People ❤️ Plausible || About -> https://plausible.io/about | title: About | Plausible Analytics | h1: About | h2: Our story; How we’re funded || Documentation -> https://plausible.io/docs | title: Plausible Analytics documentation | Plausible docs | h1: Plausible Analytics documentation | h2: Ready to ditch Google Analytics?
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: You just saw how Plausible tracks plausible.io No cookies, no personal data, no Google
   - Navigation samples: Login; Sign up
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-plausible-analytics-live-dashboard-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; https://plausible.io/favicon/sources/plausible.io; https://plausible.io/favicon/sources/Direct%20%2F%20None; https://plausible.io/favicon/sources/Google; https://plausible.io/favicon/sources/chatgpt.com; https://plausible.io/favicon/sources/GitHub; https://plausible.io/favicon/sources/Bing
 
 ## Inference

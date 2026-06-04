@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-rows-spreadsheet-dashboard-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-rows-spreadsheet-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://rows.com/_next/static/chunks/media/images/rows-spreadsheet.519133bd0a062c0.png; https://rows.com/_next/static/chunks/media/images/regular-spreadsheet.a7b97fb23f645da.png; https://rows.com/_next/static/chunks/media/images/mobile-spreadsheet.d9dc44b2fc0ce75.png; https://rows.com/_next/static/chunks/media/images/rows-x-background.e0cb42c59b81b95.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/share-your-work-confidently.53831f559fb69ed.png; https://images.ctfassets.net/pt9zoi1ijm0e/5T5kOQxqGIivkM3nL9Hn3v/76411c12490636e00c624438850aab66/Screenshot_2024-07-17_at_18.20.10.png
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

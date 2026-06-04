@@ -11,11 +11,11 @@
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
   - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1492}.
-  - Media/card aspect stability: image natural sizes include 7x10; 10x6; 7x10; 10x6; 600x750; 7x10; 7x10; 10x6; 0x0; 0x0.
+  - Media/card aspect stability: image natural sizes include 384x512; 384x256; 384x512; 384x256; 300x375; 384x512; 384x512; 384x256; 384x288; 384x512.
   - Observed border radii: 12px; 12px; 12px; 12px; 12px; 12px; 12px; 12px; 12px; 12px; 12px; 12px
 - Dimension ratios:
   - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1492}
-  - Observed media ratios: 7:10; 10:6; 7:10; 10:6; 600:750; 7:10; 7:10; 10:6; 7:10; 10:10
+  - Observed media ratios: 384:512; 384:256; 384:512; 384:256; 300:375; 384:512; 384:512; 384:256; 384:288; 384:512
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.

@@ -10,11 +10,11 @@
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}.
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}.
   - Media/card aspect stability: image natural sizes include 600x875; 600x751; 600x900; 600x1291; 600x1103; 600x484; 600x1111; 600x658; 600x1009; 600x780.
-  - Observed border radii: 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px
+  - Observed border radii: filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}
   - Observed media ratios: 600:875; 600:751; 600:900; 600:1291; 600:1103; 600:484; 600:1111; 600:658; 600:1009; 600:780
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.

@@ -1,0 +1,20 @@
+# DesignStyle Recrawl Report
+
+Date: 2026-06-04
+
+- Total: 10
+- OK: 10
+- Failed: 0
+
+| # | Reference | Status | Component JSON | Note |
+|---:|---|---|---|---|
+| 1 | `2026-06-03-teenage-engineering-hardware-brand.md` | ok | `assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json` | component samples=62; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-teenage-engineering-hardware-brand.md; designstyle-library/screenshots/teenage-engineering-har |
+| 2 | `2026-06-03-typeform-product-forms-saas.md` | ok | `assets/2026-06-04-typeform-product-forms-saas-component-styles.json` | component samples=97; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-typeform-product-forms-saas.md; designstyle-library/screenshots/typeform-product-forms-saas-de |
+| 3 | `2026-06-03-uncut-typography-resource.md` | ok | `assets/2026-06-04-uncut-typography-resource-component-styles.json` | component samples=16; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-uncut-typography-resource.md; designstyle-library/screenshots/uncut-typography-resource-deskto |
+| 4 | `2026-06-03-usps-delivers-generational-report.md` | ok | `assets/2026-06-04-usps-delivers-generational-report-component-styles.json` | component samples=22; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-usps-delivers-generational-report.md; designstyle-library/screenshots/usps-delivers-generation |
+| 5 | `2026-06-03-vercel-developer-platform.md` | ok | `assets/2026-06-04-vercel-developer-platform-component-styles.json` | component samples=131; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-vercel-developer-platform.md; designstyle-library/screenshots/vercel-developer-platform-deskt |
+| 6 | `2026-06-03-viens-la-travel-hospitality.md` | ok | `assets/2026-06-04-viens-la-travel-hospitality-component-styles.json` | component samples=87; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-viens-la-travel-hospitality.md; designstyle-library/screenshots/viens-la-travel-hospitality-de |
+| 7 | `2026-06-03-visual-journal-editorial.md` | ok | `assets/2026-06-04-visual-journal-editorial-component-styles.json` | component samples=7; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-visual-journal-editorial.md; designstyle-library/screenshots/visual-journal-editorial-desktop.p |
+| 8 | `2026-06-03-viviens-creative-talent.md` | ok | `assets/2026-06-04-viviens-creative-talent-component-styles.json` | component samples=21; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-viviens-creative-talent.md; designstyle-library/screenshots/viviens-creative-talent-desktop.pn |
+| 9 | `2026-06-03-wam-architecture-studio.md` | ok | `assets/2026-06-04-wam-architecture-studio-component-styles.json` | component samples=69; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-wam-architecture-studio.md; designstyle-library/screenshots/wam-architecture-studio-desktop.pn |
+| 10 | `2026-06-03-webinspoo-accessgrid-pricing-page.md` | ok | `assets/2026-06-04-webinspoo-accessgrid-pricing-page-component-styles.json` | component samples=99; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-webinspoo-accessgrid-pricing-page.md; designstyle-library/screenshots/webinspoo-accessgrid-pri |

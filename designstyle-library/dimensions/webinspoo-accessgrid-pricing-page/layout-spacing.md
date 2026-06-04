@@ -5,17 +5,17 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up AccessGrid Pricing Page — Landing Page Enabling Apple + Google Wallet credentials for `.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 40, document height 4633.
+  - Density: navigation count 7, image count 40, document height 4049.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}.
-  - Media/card aspect stability: image natural sizes include 512x512; 1080x1581; 1440x1600; 32x32; 1440x5622; 99x96; 1440x1600; 1000x1000; 1440x1600; 0x0.
-  - Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}.
+  - Media/card aspect stability: image natural sizes include 512x512; 1080x1581; 32x32; 24x24; 32x32; 32x32; 32x32; 24x24; 32x32; 24x24.
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}
-  - Observed media ratios: 512:512; 1080:1581; 1440:1600; 32:32; 1440:5622; 99:96; 1440:1600; 1000:1000; 1440:1600; 1440:1600
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}
+  - Observed media ratios: 512:512; 1080:1581; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
@@ -23,7 +23,7 @@
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
   - Libraries or techniques: animation, easing, intersection, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 34; check reduced-motion and image loading before copying motion patterns.
+  - Performance/accessibility concerns: heavy media count 40 and scripts 35; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference
 - Borrow:

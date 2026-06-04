@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5900}
   - Community signal: Httpster editorial/visual journal candidate; selected for publication rhythm and image-led reading flow
   - Page scope: homepage visual editorial journal
-  - Secondary pages inspected: none found in automated first pass
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Visual Journal
   - H2 samples: none observed
   - Navigation samples: Visual Journal

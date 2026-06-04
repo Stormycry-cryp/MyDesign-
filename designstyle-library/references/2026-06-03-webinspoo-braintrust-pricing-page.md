@@ -1,7 +1,7 @@
 ---
 title: "WebInspoo Braintrust Pricing Page"
 source_url: "https://www.webinspoo.com/inspiration/braintrust-pricing-pricing-page"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["ai", "saas", "pricing", "inspiration", "pricing-clarity", "ai-led", "structured", "conversion", "pricing-page", "plans", "enterprise", "faq", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["ai", "saas", "pricing", "inspiration"]
 style_tags: ["pricing-clarity", "ai-led", "structured", "conversion"]
@@ -34,14 +34,14 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 - Captured URL: https://www.webinspoo.com/inspiration/braintrust-pricing-pricing-page
 - Page title: WebInspoo | Braintrust Pricing Pricing Page Landing Page
 - Screenshot: screenshots/webinspoo-braintrust-pricing-page-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5929}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6513}
 - Community signal: WebInspoo AI/SaaS pricing page entry; selected for AI product pricing pattern coverage
 - Page scope: AI SaaS pricing page inspiration
-- Secondary pages inspected: pricing -> https://www.webinspoo.com/category/saas-pricing-page-examples | title: 94 SaaS Pricing page examples for design inspiration | Webinspoo | h1: 94SaaS Pricing page examples | h2: Get the 7 best SaaS designs in your inbox each week. || Productivity -> https://www.webinspoo.com/tag/productivity-saas-websites-inspiration | title: 74 Productivity SaaS Websites Inspiration - Webinspoo | h1: 74Productivity SaaS Websites Inspiration | h2: Get the 7 best SaaS designs in your inbox each week. || About us pages -> https://www.webinspoo.com/category/saas-about-page-examples | title: 59 SaaS About page examples for design inspiration | Webinspoo | h1: 59SaaS About us page examples | h2: Get the 7 best SaaS designs in your inbox each week.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Braintrust Pricing Pricing Page — Landing Page
 - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
 - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
-- Images observed: Braintrust Pricing Pricing Page 180x180 https://ik.imagekit.io/webinspoo/favicons/logo-braintrust_gysARTquQ; Braintrust Pricing Pricing Page full page screenshot 1080x3788 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-braintrust-pr; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
+- Images observed: Braintrust Pricing Pricing Page 180x180 https://ik.imagekit.io/webinspoo/favicons/logo-braintrust_gysARTquQ; Braintrust Pricing Pricing Page full page screenshot 1080x3788 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-braintrust-pr; Exa AI Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; Exa AI Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; Cloudflare Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; Cloudflare Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; Unsiloed Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; Unsiloed Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
 - Video observed: none observed
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
@@ -49,7 +49,7 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Braintrust Pricing Pricing Page — Landing Page The AI observability platform for build`.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 7, image count 40, document height 5929.
+- Density: navigation count 7, image count 40, document height 6513.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
@@ -67,19 +67,19 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5929}.
-- Media/card aspect stability: image natural sizes include 180x180; 1080x3788; 32x32; 24x24; 32x32; 32x32; 32x32; 24x24; 32x32; 24x24.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6513}.
+- Media/card aspect stability: image natural sizes include 180x180; 1080x3788; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5929}
-- Observed media ratios: 180:180; 1080:3788; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6513}
+- Observed media ratios: 180:180; 1080:3788; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24; 32:32
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
 
 ## Assets
-- Image style: Braintrust Pricing Pricing Page; Braintrust Pricing Pricing Page full page screenshot; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon
+- Image style: Braintrust Pricing Pricing Page; Braintrust Pricing Pricing Page full page screenshot; Exa AI Pricing Page screenshot; Exa AI Pricing Page logo; Cloudflare Pricing Page screenshot; Cloudflare Pricing Page logo; Unsiloed Pricing Page screenshot; Unsiloed Pricing Page logo
 - Illustration/icon style: inspect screenshot; automated pass records image sources only.
 - Texture/pattern: inspect screenshot before use.
 - Likely sources or production method: asset URLs/domains in image samples.
@@ -89,8 +89,9 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 - Public stylesheet/script URLs: https://www.webinspoo.com/_next/static/chunks/03p_x0hlr6ev9.css; https://www.googletagmanager.com/gtag/js?id=G-V8X6RMCG1P&gtg_health=1; https://www.webinspoo.com/euy4/; https://www.webinspoo.com/_next/static/chunks/0uhyvxec_vzs4.js; https://www.webinspoo.com/_next/static/chunks/16ksa~32zaksw.js; https://www.webinspoo.com/_next/static/chunks/030lje4w49skv.js; https://www.webinspoo.com/_next/static/chunks/128aahewwf1we.js; https://www.webinspoo.com/_next/static/chunks/turbopack-0etm5yd2ek2g~.js; https://www.webinspoo.com/_next/static/chunks/0sc2gw7i6s266.js; https://www.webinspoo.com/_next/static/chunks/07arlpvrc_3o8.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-webinspoo-braintrust-pricing-page-dom.html` for manual inspection.
-- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-braintrust_gysARTquQ; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-braintrust-pricing-page_hq_fvlsja&w=1080&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
+- Component or class naming clues: DOM saved at `assets/2026-06-04-webinspoo-braintrust-pricing-page-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-webinspoo-braintrust-pricing-page-component-styles.json`
+- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-braintrust_gysARTquQ; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-braintrust-pricing-page_hq_fvlsja&w=1080&q=75; https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
 
 ## Motion
 - Page transitions: -lg:16px;--blur-xl:24px;--blur-3xl:64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-ge, 64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-geist-mono);--color-background:var(--background);--color-foregr, ty,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,visibility,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--d
@@ -112,6 +113,7 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 ## Interaction And Components
 - Navigation: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
 - Buttons/links: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear
+- Computed component styles: `assets/2026-06-04-webinspoo-braintrust-pricing-page-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -120,7 +122,7 @@ WebInspoo Braintrust Pricing Page is captured as a ai, saas, pricing, inspiratio
 - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
 - Token ideas: extract from computed colors, font roles, and CSS resources.
 - Libraries or techniques: animation, easing, intersection, reduced_motion, request_animation_frame, transform, transition
-- Performance/accessibility concerns: heavy media count 40 and scripts 31; check reduced-motion and image loading before copying motion patterns.
+- Performance/accessibility concerns: heavy media count 40 and scripts 35; check reduced-motion and image loading before copying motion patterns.
 
 ## Borrow
 - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.

@@ -1,7 +1,7 @@
 ---
 title: "Cosmos Creative Network"
 source_url: "https://www.cosmos.so/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["community", "creative-tool", "social", "media", "visual", "editorial", "creator-led", "minimal-shell", "homepage", "media-grid", "community-navigation", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["community", "creative-tool", "social", "media"]
 style_tags: ["visual", "editorial", "creator-led", "minimal-shell"]
@@ -34,15 +34,15 @@ Cosmos Creative Network is captured as a community, creative-tool, social, media
 - Captured URL: https://www.cosmos.so/
 - Page title: Cosmos
 - Screenshot: screenshots/cosmos-creative-network-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}
 - Community signal: Httpster community/social/creative tool candidate; selected for visual network and media-led product storytelling
 - Page scope: homepage creative community product
-- Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+- Secondary pages inspected: none found in automated first pass
 - H1 observed: Your space for inspiration
 - H2 samples: Every search opens a new world.; Search the way you think.; Know what you’re looking at.; Inspiration for the world’s top creative teams.
 - Navigation samples: Cosmos Logo; Explore; Careers; Login; Sign up
 - Images observed: image 600x875 https://cdn.sanity.io/images/ca81n2nu/production/4400bda550b1fb82e286777fd39f62d24c7daa5a-1516x2212.png?w=600&q=75&auto=format; image 600x751 https://cdn.sanity.io/images/ca81n2nu/production/debf547a545661eaf7e4e7b3b6cff1e40ab7a18b-1048x1312.png?w=600&q=75&auto=format; image 600x900 https://cdn.sanity.io/images/ca81n2nu/production/3b58bec33141d2e8e26750651711b0ed3ea352c9-1040x1560.png?w=600&q=75&auto=format; image 600x1291 https://cdn.sanity.io/images/ca81n2nu/production/503c057fa2b78012af824220976153651323efca-764x1644.png?w=600&q=75&auto=format; image 600x1103 https://cdn.sanity.io/images/ca81n2nu/production/8f5934850f4844c6be14461b7e5f320edf17e9a4-692x1272.png?w=600&q=75&auto=format; image 600x484 https://cdn.sanity.io/images/ca81n2nu/production/f10cbd2c6ea56eac0c3bb67bc4af5f46c85d8b8b-892x720.png?w=600&q=75&auto=format; image 600x1111 https://cdn.sanity.io/images/ca81n2nu/production/cc559a567335ab21050449cb02abc0396098914f-512x948.png?w=600&q=75&auto=format; image 600x658 https://cdn.sanity.io/images/ca81n2nu/production/94edc31a29bbceb45c81e29287fb87b834801830-748x820.png?w=600&q=75&auto=format
-- Video observed: blob:https://www.cosmos.so/36ca7254-ecde-4e81-87d0-1ce4c5cb5f27
+- Video observed: blob:https://www.cosmos.so/cd73f1f3-3237-456c-89ba-4f4f3c7b5b18
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
 ## Visual System
@@ -67,12 +67,12 @@ Cosmos Creative Network is captured as a community, creative-tool, social, media
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}.
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}.
 - Media/card aspect stability: image natural sizes include 600x875; 600x751; 600x900; 600x1291; 600x1103; 600x484; 600x1111; 600x658; 600x1009; 600x780.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px
+- Observed border radii: filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value; filtered abnormal computed value
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}
 - Observed media ratios: 600:875; 600:751; 600:900; 600:1291; 600:1103; 600:484; 600:1111; 600:658; 600:1009; 600:780
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
@@ -86,10 +86,11 @@ Cosmos Creative Network is captured as a community, creative-tool, social, media
 
 ## Code Surface
 - Framework/runtime hints: intersection, request_animation_frame
-- Public stylesheet/script URLs: https://www.cosmos.so/_next/static/chunks/0ascv.eu--cjz.css; https://www.cosmos.so/_next/static/chunks/01fzk74-x26m0.css; https://www.cosmos.so/_next/static/chunks/0o9~vmvoq5xsy.css; https://www.cosmos.so/_next/static/chunks/11yo4-hc1mdje.js; https://www.cosmos.so/_next/static/chunks/0zh7_g9fut9r1.js; https://www.cosmos.so/_next/static/chunks/0mo5jw0n_w2~i.js; https://www.cosmos.so/_next/static/chunks/0gik3ez-462uz.js; https://www.cosmos.so/_next/static/chunks/11h28pyd~99os.js; https://www.cosmos.so/_next/static/chunks/0ti.2m3td-r24.js; https://www.cosmos.so/_next/static/chunks/turbopack-07gyui6.ahbxn.js
+- Public stylesheet/script URLs: https://www.cosmos.so/_next/static/chunks/00o91x5g3s~kd.css; https://www.cosmos.so/_next/static/chunks/01fzk74-x26m0.css; https://www.cosmos.so/_next/static/chunks/0o9~vmvoq5xsy.css; https://www.cosmos.so/_next/static/chunks/11yo4-hc1mdje.js; https://www.cosmos.so/_next/static/chunks/0zh7_g9fut9r1.js; https://www.cosmos.so/_next/static/chunks/0mo5jw0n_w2~i.js; https://www.cosmos.so/_next/static/chunks/0gik3ez-462uz.js; https://www.cosmos.so/_next/static/chunks/11h28pyd~99os.js; https://www.cosmos.so/_next/static/chunks/0ti.2m3td-r24.js; https://www.cosmos.so/_next/static/chunks/turbopack-07gyui6.ahbxn.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-cosmos-creative-network-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-cosmos-creative-network-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-cosmos-creative-network-component-styles.json`
 - Asset CDN and media loading patterns: https://cdn.sanity.io/images/ca81n2nu/production/4400bda550b1fb82e286777fd39f62d24c7daa5a-1516x2212.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/debf547a545661eaf7e4e7b3b6cff1e40ab7a18b-1048x1312.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/3b58bec33141d2e8e26750651711b0ed3ea352c9-1040x1560.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/503c057fa2b78012af824220976153651323efca-764x1644.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/8f5934850f4844c6be14461b7e5f320edf17e9a4-692x1272.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/f10cbd2c6ea56eac0c3bb67bc4af5f46c85d8b8b-892x720.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/cc559a567335ab21050449cb02abc0396098914f-512x948.png?w=600&q=75&auto=format; https://cdn.sanity.io/images/ca81n2nu/production/94edc31a29bbceb45c81e29287fb87b834801830-748x820.png?w=600&q=75&auto=format
 
 ## Motion
@@ -105,13 +106,14 @@ Cosmos Creative Network is captured as a community, creative-tool, social, media
 - Public CSS/JS motion snippets: -text-primary);text-underline-offset:.125em;text-decoration:underline;transition:opacity .2s}.prose-x-cosmos a:not(.not-prose):hover{opacity:.7}.prose-x-cosmos a:not(.not-prose):fo; g:16px;--blur-xl:24px;--blur-2xl:40px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--radius-element:.187; px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--radius-element:.1875rem;--color-white:var(--color-whit; educe){@view-transition{navigation:none}}html.no-view-transition{view-transition-name:none}@property --fade-top-intensity{syntax:"<number>";inherits:true;initial-value:1}@property ; ,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-g; ar(--tw-skew-y,)}.transform-none{transform:none}.animate-canvas-enter{animation:var(--animate-canvas-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:v; ate-canvas-enter{animation:var(--animate-canvas-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:var(--animate-dot-2)}.animate-dot-3{animation:var(--an; s-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:var(--animate-dot-2)}.animate-dot-3{animation:var(--animate-dot-3)}.animate-element-view{animation:v; e-dot-1)}.animate-dot-2{animation:var(--animate-dot-2)}.animate-dot-3{animation:var(--animate-dot-3)}.animate-element-view{animation:var(--animate-element-view)}.animate-fade-in{an; )}.animate-dot-3{animation:var(--animate-dot-3)}.animate-element-view{animation:var(--animate-element-view)}.animate-fade-in{animation:var(--animate-fade-in)}.animate-fade-in-quick
 - Exact motion parameters: -text-primary);text-underline-offset:.125em;text-decoration:underline;transition:opacity .2s}.prose-x-cosmos a:not(.not-prose):hover{opacity:.7}.prose-x-cosmos a:not(.not-prose):fo; g:16px;--blur-xl:24px;--blur-2xl:40px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--radius-element:.187; px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--radius-element:.1875rem;--color-white:var(--color-whit; ar(--tw-skew-y,)}.transform-none{transform:none}.animate-canvas-enter{animation:var(--animate-canvas-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:v; ate-canvas-enter{animation:var(--animate-canvas-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:var(--animate-dot-2)}.animate-dot-3{animation:var(--an; s-enter)}.animate-dot-1{animation:var(--animate-dot-1)}.animate-dot-2{animation:var(--animate-dot-2)}.animate-dot-3{animation:var(--animate-dot-3)}.animate-element-view{animation:v; tw-gradient-via-position:50%;--tw-gradient-to-position:100%;--tw-mask-linear:linear-gradient(#fff, #fff);--tw-mask-radial:linear-gradient(#fff, #fff);--tw-mask-conic:linear-gradien; ient-via-position:50%;--tw-gradient-to-position:100%;--tw-mask-linear:linear-gradient(#fff, #fff);--tw-mask-radial:linear-gradient(#fff, #fff);--tw-mask-conic:linear-gradient(#fff,; on:100%;--tw-mask-linear:linear-gradient(#fff, #fff);--tw-mask-radial:linear-gradient(#fff, #fff);--tw-mask-conic:linear-gradient(#fff, #fff);--tw-mask-left:linear-gradient(#fff, #; tate-\[8deg\]{rotate:8deg}.rotate-y-180{--tw-rotate-y:rotateY(180deg);transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.tra
 - JavaScript/runtime motion evidence: n"==typeof WeakMap?new WeakMap:new Map,g=new Set,_="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;v(t.targ; akMap:new Map,g=new Set,_="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;v(t.target,e)}},{rootMargin:"200p; (0,t.useRef)(null),A=(0,t.useCallback)(()=>(D.current||(D.current=new IntersectionObserver(e=>{for(let t of e)P(E.current.get(t.target),t.isIntersecting),R(t)},{threshold:[0,.5]})); rsistOnRouteChange,component:e,props:t||{},executor:r};s(e=>[...e,i]),requestAnimationFrame(()=>{s(e=>e.map(e=>e.id===n?{...e,open:!0}:e))})})}),[]),c=(e,t)=>{let r=o.find(t=>t.id=
-- Stylesheet evidence: https://www.cosmos.so/_next/static/chunks/0ascv.eu--cjz.css; https://www.cosmos.so/_next/static/chunks/01fzk74-x26m0.css; https://www.cosmos.so/_next/static/chunks/0o9~vmvoq5xsy.css; https://www.cosmos.so/_next/static/chunks/11yo4-hc1mdje.js; https://www.cosmos.so/_next/static/chunks/0zh7_g9fut9r1.js; https://www.cosmos.so/_next/static/chunks/0mo5jw0n_w2~i.js; https://www.cosmos.so/_next/static/chunks/0gik3ez-462uz.js; https://www.cosmos.so/_next/static/chunks/11h28pyd~99os.js
+- Stylesheet evidence: https://www.cosmos.so/_next/static/chunks/00o91x5g3s~kd.css; https://www.cosmos.so/_next/static/chunks/01fzk74-x26m0.css; https://www.cosmos.so/_next/static/chunks/0o9~vmvoq5xsy.css; https://www.cosmos.so/_next/static/chunks/11yo4-hc1mdje.js; https://www.cosmos.so/_next/static/chunks/0zh7_g9fut9r1.js; https://www.cosmos.so/_next/static/chunks/0mo5jw0n_w2~i.js; https://www.cosmos.so/_next/static/chunks/0gik3ez-462uz.js; https://www.cosmos.so/_next/static/chunks/11h28pyd~99os.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
 
 ## Interaction And Components
 - Navigation: Cosmos Logo; Explore; Careers; Login; Sign up
 - Buttons/links: Login; Sign up; Sign up; Get the app; Watch our new film (ft. Odessa A’zion); Show; Blur; Hide; Sign up for Cosmos; Download the app
+- Computed component styles: `assets/2026-06-04-cosmos-creative-network-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -132,11 +134,11 @@ Cosmos Creative Network is captured as a community, creative-tool, social, media
 
 ## Evidence Limits
 - Automated capture covers one desktop viewport and public DOM/resources only.
-- Secondary pages were not captured in this first pass.
+- Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.
 - Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.
 
 ## Self Review
 - Evidence quality: visual screenshot plus DOM/style/resource extraction
 - Reuse value: useful for homepage creative community product if category and screenshot match the future task.
-- Missing pieces: mobile screenshot, secondary page states, manual overlay classification, exact spacing measurements.
+- Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.

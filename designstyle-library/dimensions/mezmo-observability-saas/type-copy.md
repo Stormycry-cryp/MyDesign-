@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6447}
   - Community signal: Httpster observability/SaaS candidate; selected for developer-tool SaaS structure and enterprise proof
   - Page scope: homepage observability SaaS developer platform
-  - Secondary pages inspected: ✨ AURA is the open-source agentic harness for production AI. See how teams are using AURA in production here.✨ -> https://www.mezmo.com/blog/aura-in-practice-real-world-use-cases-for-production-ai-agent-infrastructure | title: Use Cases for Production AI Agent Infrastructure & AURA | Mezmo | h1: AURA in practice: real-world use cases for production AI agent infrastructure | h2: Use case 1: Drop-in AI agent for existing chat UIs; Use case 2: Runbook-grounded incident response agent || /pricing -> https://www.mezmo.com/pricing | title: Observability Pipeline and Log Analysis Pricing | Mezmo | h1: Pricing built for AI-driven SRE | h2: One Platform. Total Control. Intelligent Resolution.; Frequently Asked Questions || /customers -> https://www.mezmo.com/customers | title: Mezmo Customers Making Observability A Reality | Mezmo | h1: Customer success, powered by Mezmo | h2: Customer stories that inspire; Why customers choose Mezmo
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: The intelligence layer for production AI
   - H2 samples: Pick your entry point; Mezmo as the brain, AURA as the hands.; The right data for your agents. Faster resolution for your team.; Explore more
   - Navigation samples: Sign in; Get a demo

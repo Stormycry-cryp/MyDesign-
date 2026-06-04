@@ -4,6 +4,7 @@
 - Components:
   - Navigation: none observed
   - Buttons/links: PROGRESS; WORDS; ↑; ↓
+  - Computed component styles: `assets/2026-06-04-making-software-editorial-tooling-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -12,7 +13,8 @@
   - Public stylesheet/script URLs: none observed
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-03-making-software-editorial-tooling-dom.html` for manual inspection.
+  - Component or class naming clues: DOM saved at `assets/2026-06-04-making-software-editorial-tooling-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-making-software-editorial-tooling-component-styles.json`
   - Asset CDN and media loading patterns: none observed
 
 ## Inference

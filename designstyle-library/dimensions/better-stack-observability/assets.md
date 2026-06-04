@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11700}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for polished dark observability dashboard.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://betterstack.com/pricing | title: Pricing | Better Stack | h1: none observed | h2: Pricing; Starts at just $34 Starts at just $29 || Session replay See how users interact with your product. Watch at 2x speed, skip pauses, filter for rage indicators. -> https://betterstack.com/real-user-monitoring | title: Real user monitoring by Better Stack | h1: Real user monitoring | h2: Analyze your users, not your invoice; Session replay || Subscribe to status page updates Send automated updates to your customers when incident occurs. Let your customers subscribe to the entire status page or just selected components. -> https://betterstack.com/status-page | title: Free Status Page | Better Stack | h1: Free status page on your subdomain | h2: Stylish & Branded. On your domain.; Communicate incidents the right way
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: The AI SRE observability stack
   - H2 samples: At a fraction of your current costs; AI SRE; Tracing; Incident management; Uptime monitoring; Log management
   - Navigation samples: Documentation; Pricing; Enterprise; Sign in; Sign up; AI SRE; OpenTelemetry tracing; Log management; Infrastructure monitoring; Error tracking; Real user monitoring; Incident management
@@ -22,10 +22,11 @@
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://betterstack.com/assets/betterstack_v2-0980ad3b.css; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://www.redditstatic.com/ads/pixel.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://bat.bing.com/bat.js; https://static.ads-twitter.com/uwt.js; https://connect.facebook.net/signals/config/1062799887416376?v=2.9.331&r=stable&domain=betterstack.com&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105; https://connect.facebook.net/en_US/fbevents.js; https://www.googletagmanager.com/gtag/js?id=AW-10805602682&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=G-9FLKD0MQYY
+  - Public stylesheet/script URLs: https://betterstack.com/assets/betterstack_v2-0980ad3b.css; https://www.redditstatic.com/ads/pixel.js; https://bat.bing.com/bat.js; https://static.ads-twitter.com/uwt.js; https://connect.facebook.net/signals/config/1062799887416376?v=2.9.331&r=stable&domain=betterstack.com&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105; https://connect.facebook.net/en_US/fbevents.js; https://www.googletagmanager.com/gtag/js?id=AW-10805602682&cx=c&gtm=4e6621h1; https://www.googletagmanager.com/gtag/js?id=G-9FLKD0MQYY; https://betterstack.com/assets/es-module-shims.min-806a0b27.js; https://betterstack.net/b.js?t=v2CKiJRHnw3yBFdNogaJkM8a
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-better-stack-observability-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-better-stack-observability-component-styles.json`
   - Asset CDN and media loading patterns: https://betterstack.com/assets/v2/homepage-v3/better-stack-logo-3d-5c6cab03.png; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-sm-057621f5.jpg; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-13ad9019.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/log-management-bcc38259.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/opentelemetry-tracing-fdfebde4.jpg; https://betterstack.com/
 
 ## Inference

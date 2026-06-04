@@ -2,7 +2,7 @@
 
 ## Observed
 - Visual layout:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `Home Map Developer Hub Coverage Help & Support Sign in Toggle Sidebar Jun 4, 2026 1:15 PM GMT+8 15 min 5 min 15 min hourly daily monthly yearly 6:00 PM Jun 4 6:00 AM Fixing climate change... Jun 4, 2026 1:15 PM Carbon intensity gCO₂eq/kWh 0 300 600 900 1200 15`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `Home Map Developer Hub Coverage Help & Support Sign in Toggle Sidebar Jun 4, 2026 4:15 PM GMT+8 15 min 5 min 15 min hourly daily monthly yearly 6:00 PM Jun 4 6:00 AM 12:00 PM Stabilizing the frequency... Jun 4, 2026 4:15 PM Carbon intensity gCO₂eq/kWh 0 300 60`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
   - Density: navigation count 0, image count 3, document height 1000.

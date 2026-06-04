@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `Rows joined Superhuman. For any inquiries, email support@rows.com. The Superhuman Privacy Policy and Terms will apply as of June 16. Product Rows AI Your number crunching sidekick Integrations Seamless connections to your tools Support Docs Learn how to make t`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 24, image count 29, document height 6775.
+  - Density: navigation count 24, image count 29, document height 5932.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

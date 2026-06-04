@@ -4,6 +4,7 @@
 - Components:
   - Navigation: DATA·VIZ; DATA·ART; CHART; ABOUT; CONTACT; BLOG
   - Buttons/links: none observed
+  - Computed component styles: `assets/2026-06-04-visual-cinnamon-data-art-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -13,6 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-visual-cinnamon-data-art-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-visual-cinnamon-data-art-component-styles.json`
   - Asset CDN and media loading patterns: https://www.visualcinnamon.com/svg/site/logo_visualcinnamon.svg; https://www.visualcinnamon.com/img/site/visual_cinnamon_logo_512.png; https://www.visualcinnamon.com/img/portfolio/2026/searching-for-birds/searching_for_birds_feature.png; https://www.visualcinnamon.com/img/portfolio/2025/sciam-radius-gap/radius_gap_feature.png; https://www.visualcinnamon.com/img/portfolio/2025/orca-commit-history/github_commit_history_feature.png; https://www.visualcinnamon.com/img/art/2024/GDQS/GDQS_feature.png; https://www.visualcinnamon.com/img/art/2021/elemental-flows/elemental_flows_feature.png; https://www.visualcinnamon.com/img/portfolio/2020/space-wars/space_wars_feature.png
 
 ## Inference

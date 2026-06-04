@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `Work Practice People NewsPerspectivesCareersContact Everything is possible with Collective Culture Consciousness Conversations Wisdom Action Ambition Culture 65 years of experience has taught us that nothing great is made alone. Design isn’t a process, it’s a `.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 29, document height 13797.
+  - Density: navigation count 7, image count 29, document height 14024.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

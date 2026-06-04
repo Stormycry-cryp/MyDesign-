@@ -4,15 +4,15 @@
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
 | `#f0f0f0` | neutral surface | screenshot pixel sample | 0.7287 |
-| `#000000` | foreground | screenshot pixel sample | 0.1716 |
-| `#202020` | foreground | screenshot pixel sample | 0.0788 |
+| `#000000` | foreground | screenshot pixel sample | 0.1692 |
+| `#202020` | foreground | screenshot pixel sample | 0.0807 |
 | `#404040` | foreground | screenshot pixel sample | 0.0035 |
 | `#fff000` | accent | screenshot pixel sample | 0.0024 |
-| `#909090` | neutral surface | screenshot pixel sample | 0.0011 |
+| `#909090` | neutral surface | screenshot pixel sample | 0.0012 |
 | `#b0b0b0` | neutral surface | screenshot pixel sample | 0.001 |
 | `#707070` | neutral surface | screenshot pixel sample | 0.001 |
 | `#d0d0d0` | neutral surface | screenshot pixel sample | 0.0009 |
-| `#ff60c0` | accent | screenshot pixel sample | 0.0003 |
+| `#0060d0` | accent | screenshot pixel sample | 0.0006 |
 | `#feed01` | accent | explicit reference or DOM color |  |
 | `#ffffff` | background | explicit reference or DOM color |  |
 

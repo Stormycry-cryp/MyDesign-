@@ -23,7 +23,7 @@
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
   - Libraries or techniques: animation, easing, intersection, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 32 and scripts 30; check reduced-motion and image loading before copying motion patterns.
+  - Performance/accessibility concerns: heavy media count 32 and scripts 29; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference
 - Borrow:

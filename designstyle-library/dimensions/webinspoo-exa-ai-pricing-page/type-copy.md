@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6379}
   - Community signal: WebInspoo AI pricing page entry; selected for AI developer pricing structure coverage
   - Page scope: AI developer pricing page inspiration
-  - Secondary pages inspected: Runner Pricing Page Start Finishing with AI Workflow Automation -> https://www.webinspoo.com/inspiration/runner-pricing-page | title: WebInspoo | Runner Pricing Page Landing Page | h1: Runner Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Unkey Pricing Page The Developer Platform for Modern APIs -> https://www.webinspoo.com/inspiration/unkey-pricing-page | title: WebInspoo | Unkey Pricing Page Landing Page | h1: Unkey Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Table22 Pricing Page Growth Engine for Hospitality Businesses -> https://www.webinspoo.com/inspiration/table22-pricing-page | title: WebInspoo | Table22 Pricing Page Landing Page | h1: Table22 Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Exa AI Pricing Page — Landing Page
   - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
   - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up

@@ -6,7 +6,7 @@
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
 - Visual color:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `产品 解决方案 开发者 资源 定价 登录 登录 联系销售 Stripe 承载的全球 GDP 份额： 1.65780873% 1.65780873% 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 立即开始 通过 Google 注册 灵活的解决方案，适配各种业务模式。 一系列全面的支付和金融工具，既能`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `产品 解决方案 开发者 资源 定价 登录 登录 联系销售 Stripe 承载的全球 GDP 份额： 1.65827073% 1.65827073% 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 立即开始 通过 Google 注册 灵活的解决方案，适配各种业务模式。 一系列全面的支付和金融工具，既能`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
   - Density: navigation count 6, image count 37, document height 14415.

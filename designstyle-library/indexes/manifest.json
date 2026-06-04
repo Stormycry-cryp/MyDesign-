@@ -37,18 +37,6 @@
       "title": "Apple Vision Pro Product Story"
     },
     {
-      "card_path": "indexes/cards/arc-browser-product-site.json",
-      "design_system_paths": {
-        "component_styles": "design-systems/arc-browser-product-site/component-styles.md",
-        "moodboard": "design-systems/arc-browser-product-site/moodboard.svg",
-        "palette": "design-systems/arc-browser-product-site/palette.md",
-        "tokens": "design-systems/arc-browser-product-site/tokens.json"
-      },
-      "reference_path": "references/2026-06-03-arc-browser-product-site.md",
-      "slug": "arc-browser-product-site",
-      "title": "Arc Browser Product Site"
-    },
-    {
       "card_path": "indexes/cards/attio-crm-workspace.json",
       "design_system_paths": {
         "component_styles": "design-systems/attio-crm-workspace/component-styles.md",
@@ -925,5 +913,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 77
+  "total_cards": 76
 }

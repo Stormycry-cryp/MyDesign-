@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
   - Community signal: Httpster food/drink ecommerce candidate; selected for wine retail, product atmosphere, and editorial commerce pacing
   - Page scope: homepage wine ecommerce
-  - Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Elevated wines born from raw, natural beauty.
   - H2 samples: none observed
   - Navigation samples: Ossa Wines Tasmania; Shop wine; Wine Collection Wine Collection Wine Collection Wine Collection; Our Founders Our Founders Our Founders; Our Winemaker Our Winemaker; Contact the Winery; Pinot Noir 2023; Pinot Meunier 2025; Pinot Noir 2024; Méthode Traditionnelle 2020; Grüner Veltliner 2023; Chardonnay 2022
@@ -22,10 +22,11 @@
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css; https://ossa.wine/wp-content/cache/breeze-minification/css/breeze_ossa-wine-1-358.css?ver=1780471520; https://www.google-analytics.com/analytics.js; https://www.googletagmanager.com/gtag/js?id=UA-213553681-1&cx=c&gtm=4e6611; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-jquery.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-minmax-quantity-for-woocommerce-js-frontend.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-blockui-jquery.blockUI.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-js-cookie-js.cookie.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-frontend-woocommerce.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-public-js-app.js?ver=1780471520
+  - Public stylesheet/script URLs: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css; https://ossa.wine/wp-content/cache/breeze-minification/css/breeze_ossa-wine-1-358.css?ver=1780471520; https://www.google-analytics.com/analytics.js; https://www.googletagmanager.com/gtag/js?id=UA-213553681-1&cx=c&gtm=4e6621; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-jquery.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-minmax-quantity-for-woocommerce-js-frontend.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-blockui-jquery.blockUI.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-js-cookie-js.cookie.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-frontend-woocommerce.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-public-js-app.js?ver=1780471520
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-03-ossa-wine-ecommerce-dom.html` for manual inspection.
+  - Component or class naming clues: DOM saved at `assets/2026-06-04-ossa-wine-ecommerce-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-ossa-wine-ecommerce-component-styles.json`
   - Asset CDN and media loading patterns: https://ossa.wine/wp-content/uploads/2021/11/ossa-tas-logo-horiz-1.png; https://ossa.wine/wp-content/uploads/2022/02/ossa-274A1860-2-2400-1600x1012.jpg; https://ossa.wine/wp-content/uploads/2022/02/20211207_OSSA_Styled_Bottles12859_V2_FA_WithoutVintage_LR-1200x1001.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3788.jpg; https://ossa.wine/wp-content/uploads/2022/05/SSH_0557.jpg; https://ossa.wine/wp-content/uploads/2022/02/SSH_3927-copy.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3800_1.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3800_2.jpg
 
 ## Inference

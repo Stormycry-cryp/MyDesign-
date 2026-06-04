@@ -5,17 +5,17 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `Work Practice People NewsPerspectivesCareersContact Everything is possible with Collective Culture Consciousness Conversations Wisdom Action Ambition Culture 65 years of experience has taught us that nothing great is made alone. Design isn’t a process, it’s a `.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 29, document height 13797.
+  - Density: navigation count 7, image count 29, document height 14024.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13797}.
-  - Media/card aspect stability: image natural sizes include 1440x810; 1440x810; 1440x810; 1440x959; 1440x959; 0x0; 0x0; 0x0; 0x0; 0x0.
-  - Observed border radii: 2px; 2px; 2px; 2px; 2px; 2px
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 14024}.
+  - Media/card aspect stability: image natural sizes include 0x0; 1440x810; 1440x810; 0x0; 1440x959; 0x0; 0x0; 0x0; 0x0; 0x0.
+  - Observed border radii: 2px; 2px; 2px
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13797}
-  - Observed media ratios: 1440:810; 1440:810; 1440:810; 1440:959; 1440:959
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 14024}
+  - Observed media ratios: 1440:810; 1440:810; 1440:959
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.

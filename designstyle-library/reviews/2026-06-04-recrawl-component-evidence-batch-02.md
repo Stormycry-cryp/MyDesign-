@@ -1,0 +1,20 @@
+# DesignStyle Recrawl Report
+
+Date: 2026-06-04
+
+- Total: 10
+- OK: 10
+- Failed: 0
+
+| # | Reference | Status | Component JSON | Note |
+|---:|---|---|---|---|
+| 1 | `2026-06-03-counter-forms-typography-resource.md` | ok | `assets/2026-06-04-counter-forms-typography-resource-component-styles.json` | component samples=39; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-counter-forms-typography-resource.md; designstyle-library/screenshots/counter-forms-typography |
+| 2 | `2026-06-03-developments-media-production.md` | ok | `assets/2026-06-04-developments-media-production-component-styles.json` | component samples=85; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-developments-media-production.md; designstyle-library/screenshots/developments-media-productio |
+| 3 | `2026-06-03-eclipse-builders-software.md` | ok | `assets/2026-06-04-eclipse-builders-software-component-styles.json` | component samples=82; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-eclipse-builders-software.md; designstyle-library/screenshots/eclipse-builders-software-deskto |
+| 4 | `2026-06-03-figma-design-platform.md` | ok | `assets/2026-06-04-figma-design-platform-component-styles.json` | component samples=106; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-figma-design-platform.md; designstyle-library/screenshots/figma-design-platform-desktop.png |
+| 5 | `2026-06-03-footer-design-gallery-resource.md` | ok | `assets/2026-06-04-footer-design-gallery-resource-component-styles.json` | component samples=102; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-footer-design-gallery-resource.md; designstyle-library/screenshots/footer-design-gallery-reso |
+| 6 | `2026-06-03-glyphs-app-design-tool.md` | ok | `assets/2026-06-04-glyphs-app-design-tool-component-styles.json` | component samples=112; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-glyphs-app-design-tool.md; designstyle-library/screenshots/glyphs-app-design-tool-desktop.png |
+| 7 | `2026-06-03-jacky-winter-gallery.md` | ok | `assets/2026-06-04-jacky-winter-gallery-component-styles.json` | component samples=97; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-jacky-winter-gallery.md; designstyle-library/screenshots/jacky-winter-gallery-desktop.png |
+| 8 | `2026-06-03-linear-product-saas.md` | ok | `assets/2026-06-04-linear-product-saas-component-styles.json` | component samples=119; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-linear-product-saas.md; designstyle-library/screenshots/linear-product-saas-desktop.png |
+| 9 | `2026-06-03-livesurface-product-software.md` | ok | `assets/2026-06-04-livesurface-product-software-component-styles.json` | component samples=77; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-livesurface-product-software.md; designstyle-library/screenshots/livesurface-product-software- |
+| 10 | `2026-06-03-lunchbox-restaurant-commerce-saas.md` | ok | `assets/2026-06-04-lunchbox-restaurant-commerce-saas-component-styles.json` | component samples=146; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-lunchbox-restaurant-commerce-saas.md; designstyle-library/screenshots/lunchbox-restaurant-com |

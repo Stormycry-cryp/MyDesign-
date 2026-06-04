@@ -2,19 +2,19 @@
 
 ## Observed
 - Visual layout:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME InflataCart CLIENT Pitch Interactive, Inc. The`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME Norfolk Southern PULSE CLIENT GE Transportatio`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 5, image count 40, document height 7207.
+  - Density: navigation count 5, image count 40, document height 7445.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}.
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}.
   - Media/card aspect stability: image natural sizes include 1200x2; 0x0; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240.
   - Observed border radii: none observed
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}
   - Observed media ratios: 1200:2; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.

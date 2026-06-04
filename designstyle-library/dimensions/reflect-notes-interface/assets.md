@@ -13,9 +13,9 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13460}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong dark product UI with glow caution.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Blog -> https://reflect.app/blog | title: Reflect Blog | h1: Reflect Blog | h2: Learn how to think better by taking notes. Improve your note-taking with AI, learn new workflows, and see how notable founders and builders setup their work environments.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Think better with Reflect
-  - H2 samples: Notes with an AI assistant; Give your brain superpowers; Never lose information; HPTuQCs t2pJKjj; Get more out of your meetings; Use Reflect with other apps
+  - H2 samples: Notes with an AI assistant; Give your brain superpowers; Never lose information; lwk31Ay nq7gIkR; Get more out of your meetings; Use Reflect with other apps
   - Navigation samples: none observed
   - Images observed: Logo 72x72 https://reflect.app/home/build/q-7110c4a0.png; hero video preview 2400x1500 https://reflect.app/home/build/q-cb311d1c.png; image 0x0 https://reflect.app/; image 0x0 https://reflect.app/; image 0x0 https://reflect.app/; image 0x0 https://reflect.app/; image 0x0 https://reflect.app/; image 0x0 https://reflect.app/
   - Video observed: https://reflect.app/home/build/q-c3d7becf.webm
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-reflect-notes-interface-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-reflect-notes-interface-component-styles.json`
   - Asset CDN and media loading patterns: https://reflect.app/home/build/q-7110c4a0.png; https://reflect.app/home/build/q-cb311d1c.png; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/
 
 ## Inference

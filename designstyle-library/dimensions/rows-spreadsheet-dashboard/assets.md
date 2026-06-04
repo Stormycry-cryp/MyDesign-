@@ -10,10 +10,10 @@
   - Captured URL: https://rows.com/product
   - Page title: Rows - Your new AI Data Analyst
   - Screenshot: screenshots/rows-spreadsheet-dashboard-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6775}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for clean spreadsheet and chart dashboard preview.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://rows.com/pricing | title: Rows Pricing Plans: Free, Plus, Pro and Enterprise | h1: Compare plans & features | h2: Extract PDFs, import your business data and analyze it with AI✨.; You’re in great company || Learn more about Rows AI -> https://rows.com/ai | title: Rows AI: Analyze and Transform Data with AI. | h1: Your Data team of one | h2: Use spreadsheets 10x faster; Make sense of your data || /about -> https://rows.com/about | title: About | Rows | h1: Rows is on a mission to empower the next 1B+ of app creators; We spreadsheets | h2: Our Investors; Join the team
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Your new AI; Data Analyst
   - H2 samples: You’re in great company; Want answers? Just ask.; Connected to your data; Build reports your team will actually read; Looking for a head start?; Your new AI Data Analyst
   - Navigation samples: Rows AI Your number crunching sidekick; Integrations Seamless connections to your tools; Support Docs Learn how to make the most out of Rows.; Features All-in-one spreadsheet for teams; Pricing; Templates; Community; Continue with Coda; Continue with Coda; Features; Blog; About
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-rows-spreadsheet-dashboard-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-rows-spreadsheet-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://rows.com/_next/static/chunks/media/images/rows-spreadsheet.519133bd0a062c0.png; https://rows.com/_next/static/chunks/media/images/regular-spreadsheet.a7b97fb23f645da.png; https://rows.com/_next/static/chunks/media/images/mobile-spreadsheet.d9dc44b2fc0ce75.png; https://rows.com/_next/static/chunks/media/images/rows-x-background.e0cb42c59b81b95.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/rows-x-background-mobile.ce4ee4955d4bf25.png; https://rows.com/_next/static/chunks/media/images/share-your-work-confidently.53831f559fb69ed.png; https://images.ctfassets.net/pt9zoi1ijm0e/5T5kOQxqGIivkM3nL9Hn3v/76411c12490636e00c624438850aab66/Screenshot_2024-07-17_at_18.20.10.png
 
 ## Inference

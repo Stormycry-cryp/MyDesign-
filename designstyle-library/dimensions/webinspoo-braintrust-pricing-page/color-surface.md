@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Braintrust Pricing Pricing Page — Landing Page The AI observability platform for build`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 40, document height 5929.
+  - Density: navigation count 7, image count 40, document height 6513.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

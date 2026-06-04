@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}
   - Community signal: Httpster report/data/editorial candidate; selected for longform data report and research storytelling coverage
   - Page scope: longform report data editorial page
-  - Secondary pages inspected: /about/ -> https://www.uspsdelivers.com/about/ | title: About Us | USPS Delivers | h1: Helping businesses tackle tomorrow. | h2: Expert insights for future-thinking shippers and marketers.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: A USPS® Generational Study
   - H2 samples: 4000 Consumers 4 Generations
   - Navigation samples: Home; Boomer; Gen X; Millennial; Gen Z; About; Summary; Download as PDF

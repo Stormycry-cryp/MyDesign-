@@ -481,6 +481,117 @@ def cleaned_component_value(value: str) -> str:
     return "; ".join(kept)
 
 
+def reference_component_evidence_path(text: str, lib: Path) -> Path | None:
+    match = re.search(r"`([^`]+component-styles\.json)`", text)
+    if not match:
+        return None
+    path = Path(match.group(1))
+    return path if path.is_absolute() else lib / path
+
+
+def compact_style(styles: dict[str, object]) -> str:
+    keys = [
+        "display",
+        "position",
+        "color",
+        "backgroundColor",
+        "border",
+        "borderRadius",
+        "boxShadow",
+        "fontFamily",
+        "fontSize",
+        "fontWeight",
+        "letterSpacing",
+        "lineHeight",
+        "padding",
+        "gap",
+        "transition",
+        "transitionDuration",
+        "transitionTimingFunction",
+        "transform",
+        "opacity",
+        "cursor",
+        "backdropFilter",
+    ]
+    parts = []
+    for key in keys:
+        value = str(styles.get(key) or "").strip()
+        if not value or value in {"0px", "none", "normal", "auto", "rgba(0, 0, 0, 0)", "matrix(1, 0, 0, 1, 0, 0)"}:
+            continue
+        if is_unusable_component_sample(value):
+            continue
+        parts.append(f"{key}={value}")
+    return "; ".join(parts[:14])
+
+
+def compact_sample(sample: dict[str, object]) -> str:
+    rect = sample.get("rect") if isinstance(sample.get("rect"), dict) else {}
+    styles = sample.get("styles") if isinstance(sample.get("styles"), dict) else {}
+    text = str(sample.get("text") or sample.get("ariaLabel") or sample.get("classHint") or "").strip()
+    text = re.sub(r"\s+", " ", text)[:90] or "unlabeled"
+    geometry = ""
+    if rect:
+        geometry = f"rect={rect.get('width')}x{rect.get('height')}@{rect.get('x')},{rect.get('y')}"
+    style = compact_style(styles)
+    bits = [f"{sample.get('tag', 'node')} {text}", geometry, style]
+    return " | ".join(bit for bit in bits if bit)
+
+
+def component_evidence_summary(text: str, lib: Path) -> dict[str, dict[str, list[str]]]:
+    path = reference_component_evidence_path(text, lib)
+    if not path or not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    evidence = payload.get("component_evidence", {})
+    if not isinstance(evidence, dict):
+        return {}
+    samples = evidence.get("samples", [])
+    states = evidence.get("stateSamples", [])
+    if not isinstance(samples, list):
+        samples = []
+    if not isinstance(states, list):
+        states = []
+
+    result: dict[str, dict[str, list[str]]] = {}
+    for name in ["Navigation", "Button", "Card", "Form", "Icon"]:
+        matching = [sample for sample in samples if isinstance(sample, dict) and sample.get("category") == name]
+        style_evidence = []
+        content_samples = []
+        for sample in matching[:8]:
+            line = compact_sample(sample)
+            if line:
+                style_evidence.append(line)
+            text_sample = str(sample.get("text") or sample.get("ariaLabel") or "").strip()
+            if text_sample and text_sample not in content_samples:
+                content_samples.append(text_sample[:120])
+        missing = [] if style_evidence else [f"{name} computed style evidence was not captured."]
+        result[name] = {
+            "style_evidence": style_evidence,
+            "content_samples": content_samples[:4],
+            "missing_evidence": missing,
+        }
+
+    state_lines = []
+    for state in states[:8]:
+        if not isinstance(state, dict):
+            continue
+        hover = state.get("hover_changed") if isinstance(state.get("hover_changed"), dict) else {}
+        focus = state.get("focus_changed") if isinstance(state.get("focus_changed"), dict) else {}
+        if not hover and not focus:
+            continue
+        label = str(state.get("text") or state.get("sampleId") or "interactive sample").strip()[:80]
+        state_lines.append(f"{state.get('category', 'Component')} {label} | hover={hover} | focus={focus}")
+    result["Feedback state"] = {
+        "style_evidence": state_lines,
+        "content_samples": [],
+        "missing_evidence": [] if state_lines else ["Hover/focus computed-state deltas were not observed or did not change."],
+    }
+    return result
+
+
 def is_unusable_component_sample(value: str) -> bool:
     lowered = value.lower()
     if re.search(r"\d+(?:\.\d+)?e[+-]\d+", lowered):
@@ -508,8 +619,18 @@ def component_entry(
     }
 
 
-def component_style_summary(text: str) -> dict[str, dict[str, list[str]]]:
-    return {
+def merge_component_entries(primary: dict[str, dict[str, list[str]]], fallback: dict[str, dict[str, list[str]]]) -> dict[str, dict[str, list[str]]]:
+    merged = fallback
+    for name, values in primary.items():
+        current = merged.setdefault(name, {"style_evidence": [], "content_samples": [], "missing_evidence": []})
+        current["style_evidence"] = list(dict.fromkeys(values.get("style_evidence", []) + current.get("style_evidence", [])))[:10]
+        current["content_samples"] = list(dict.fromkeys(values.get("content_samples", []) + current.get("content_samples", [])))[:6]
+        current["missing_evidence"] = values.get("missing_evidence", []) if values.get("missing_evidence") else []
+    return merged
+
+
+def component_style_summary(text: str, lib: Path | None = None) -> dict[str, dict[str, list[str]]]:
+    fallback = {
         "Navigation": component_entry(
             text,
             ["Density", "Header/hero/section spacing", "First viewport structure"],
@@ -547,6 +668,9 @@ def component_style_summary(text: str) -> dict[str, dict[str, list[str]]]:
             "Icon stroke/fill style evidence is missing.",
         ),
     }
+    if not lib:
+        return fallback
+    return merge_component_entries(component_evidence_summary(text, lib), fallback)
 
 
 def design_system_strength(system: dict[str, object]) -> str:
@@ -593,14 +717,19 @@ def build_design_system(reference: Path, lib: Path, text: str, meta: dict[str, o
             "screenshot": screenshot_rel,
             "screenshot_sampling": screenshot_note,
             "color_sources": ["screenshot pixel sample", "explicit reference or DOM color"],
-            "component_sources": ["Interaction And Components", "Style Tokens And Surface Grammar", "Visual System"],
+            "component_sources": [
+                "computed component style JSON",
+                "Interaction And Components",
+                "Style Tokens And Surface Grammar",
+                "Visual System",
+            ],
             "limits": section_lines(text, "Evidence Limits") or ["No explicit evidence limits recorded."],
         },
         "palette": {
             "colors": colors,
             "mood_keywords": list(meta.get("style_tags") or [])[:8],
         },
-        "component_styles": component_style_summary(text),
+        "component_styles": component_style_summary(text, lib),
     }
     system["evidence_strength"] = design_system_strength(system)
     return system

@@ -2,14 +2,14 @@
 
 ## Observed
 - Color/material:
-  - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(255, 255, 255):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); H1:rgb(128, 128, 128):rgba(0, 0, 0, 0.7); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
+  - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(255, 255, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); H1:rgb(128, 128, 128):rgba(0, 0, 0, 0.7); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
 - Visual color:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME InflataCart CLIENT Pitch Interactive, Inc. The`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME Norfolk Southern PULSE CLIENT GE Transportatio`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 5, image count 40, document height 7207.
+  - Density: navigation count 5, image count 40, document height 7445.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

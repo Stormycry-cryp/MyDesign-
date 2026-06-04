@@ -3,8 +3,8 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#101010` | foreground | screenshot pixel sample | 0.4251 |
-| `#ffffff` | background | screenshot pixel sample | 0.2485 |
+| `#101010` | foreground | screenshot pixel sample | 0.425 |
+| `#ffffff` | background | screenshot pixel sample | 0.2486 |
 | `#202030` | deep accent | screenshot pixel sample | 0.0372 |
 | `#60a0f0` | accent | screenshot pixel sample | 0.0067 |
 | `#2070d0` | accent | screenshot pixel sample | 0.0055 |

@@ -1,7 +1,7 @@
 ---
 title: "WebInspoo Browserbase Pricing Page"
 source_url: "https://www.webinspoo.com/inspiration/browserbase-pricing-page-e2"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["developer-tool", "pricing", "saas", "inspiration", "pricing-clarity", "technical", "structured", "conversion", "pricing-page", "plans", "developer-platform", "faq", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["developer-tool", "pricing", "saas", "inspiration"]
 style_tags: ["pricing-clarity", "technical", "structured", "conversion"]
@@ -37,7 +37,7 @@ WebInspoo Browserbase Pricing Page is captured as a developer-tool, pricing, saa
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7390}
 - Community signal: WebInspoo developer SaaS pricing entry; selected for developer-platform pricing-page coverage
 - Page scope: developer SaaS pricing page inspiration
-- Secondary pages inspected: Runner Pricing Page Start Finishing with AI Workflow Automation -> https://www.webinspoo.com/inspiration/runner-pricing-page | title: WebInspoo | Runner Pricing Page Landing Page | h1: Runner Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Unkey Pricing Page The Developer Platform for Modern APIs -> https://www.webinspoo.com/inspiration/unkey-pricing-page | title: WebInspoo | Unkey Pricing Page Landing Page | h1: Unkey Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Exa AI Pricing Page The web, organized for agents -> https://www.webinspoo.com/inspiration/exa-ai-pricing-page | title: WebInspoo | Exa AI Pricing Page Landing Page | h1: Exa AI Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Browserbase Pricing Page — Landing Page
 - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
 - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
@@ -69,11 +69,11 @@ WebInspoo Browserbase Pricing Page is captured as a developer-tool, pricing, saa
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7390}.
 - Media/card aspect stability: image natural sizes include 180x180; 1080x4817; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7390}
-- Observed media ratios: 180:180; 1080:4817; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
+- Observed media ratios: 180:180; 1080:4817; 32:32; 32:32; 32:32; 32:32; 32:32; 32:32; 32:32; 24:24
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
@@ -89,7 +89,8 @@ WebInspoo Browserbase Pricing Page is captured as a developer-tool, pricing, saa
 - Public stylesheet/script URLs: https://www.webinspoo.com/_next/static/chunks/03p_x0hlr6ev9.css; https://www.googletagmanager.com/gtag/js?id=G-V8X6RMCG1P&gtg_health=1; https://www.webinspoo.com/euy4/; https://www.webinspoo.com/_next/static/chunks/0uhyvxec_vzs4.js; https://www.webinspoo.com/_next/static/chunks/16ksa~32zaksw.js; https://www.webinspoo.com/_next/static/chunks/030lje4w49skv.js; https://www.webinspoo.com/_next/static/chunks/128aahewwf1we.js; https://www.webinspoo.com/_next/static/chunks/turbopack-0etm5yd2ek2g~.js; https://www.webinspoo.com/_next/static/chunks/0sc2gw7i6s266.js; https://www.webinspoo.com/_next/static/chunks/07arlpvrc_3o8.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-webinspoo-browserbase-pricing-page-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-webinspoo-browserbase-pricing-page-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-webinspoo-browserbase-pricing-page-component-styles.json`
 - Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-browserbase-e2_webinspoo; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-browserbase-pricing-page_dk5FB-2jc&w=1080&q=75; https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
 
 ## Motion
@@ -112,6 +113,7 @@ WebInspoo Browserbase Pricing Page is captured as a developer-tool, pricing, saa
 ## Interaction And Components
 - Navigation: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
 - Buttons/links: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear
+- Computed component styles: `assets/2026-06-04-webinspoo-browserbase-pricing-page-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

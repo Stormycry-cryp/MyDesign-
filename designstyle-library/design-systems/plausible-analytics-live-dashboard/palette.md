@@ -3,15 +3,15 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#ffffff` | background | screenshot pixel sample | 0.8139 |
-| `#e0e0ff` | supporting color | screenshot pixel sample | 0.006 |
+| `#ffffff` | background | screenshot pixel sample | 0.8134 |
+| `#e0e0ff` | supporting color | screenshot pixel sample | 0.0061 |
 | `#5040f0` | accent | screenshot pixel sample | 0.0027 |
+| `#6060ff` | accent | screenshot pixel sample | 0.0019 |
 | `#202020` | foreground | screenshot pixel sample | 0.0018 |
-| `#6060ff` | accent | screenshot pixel sample | 0.0015 |
-| `#707080` | supporting color | screenshot pixel sample | 0.0015 |
+| `#707080` | supporting color | screenshot pixel sample | 0.0014 |
 | `#c0c0c0` | neutral surface | screenshot pixel sample | 0.001 |
-| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0007 |
 | `#606060` | foreground | screenshot pixel sample | 0.0007 |
+| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0007 |
 | `#a0a0ff` | accent | screenshot pixel sample | 0.0005 |
 | `#f7f7f8` | background | explicit reference or DOM color |  |
 | `#191e38` | deep accent | explicit reference or DOM color |  |

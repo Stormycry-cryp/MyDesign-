@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 14415}
   - Community signal: Prior local seed reference and common product-design benchmark; selected to replace old weak-format Stripe entry with evidence-grade capture
   - Page scope: homepage payments developer platform
-  - Secondary pages inspected: 阅读更多 -> https://stripe.com/blog/introducing-our-agentic-commerce-solutions | title: Introducing our agentic commerce solutions | h1: Stripe logo; Payments | h2: What we’re building for AI platforms; What we’re building for businesses || /zh-hk/customers/shopify -> https://stripe.com/zh-hk/customers/shopify | title: Shopify 案例研究 | Stripe | h1: Stripe logo; 付款 | h2: 挑战; 解决方案 || 定价 -> https://stripe.com/zh-hk/pricing | title: 价格与费用 | h1: Stripe logo; 付款 | h2: 3.4% + HK$2.35; 所有产品的标准定价
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。; 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。
   - H2 samples: 灵活的解决方案，适配各种业务模式。; 全球商务的 支柱; 赋能各种规模的企业。; 可靠、可扩展的基础设施，适配任何技术栈。; 最新动态
   - Navigation samples: 定价; 登录 登录; 联系销售; Stripe 大型企业解决方案; Stripe 初创企业解决方案; Stripe 平台企业解决方案
@@ -22,7 +22,7 @@
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `产品 解决方案 开发者 资源 定价 登录 登录 联系销售 Stripe 承载的全球 GDP 份额： 1.65780873% 1.65780873% 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 立即开始 通过 Google 注册 灵活的解决方案，适配各种业务模式。 一系列全面的支付和金融工具，既能`.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `产品 解决方案 开发者 资源 定价 登录 登录 联系销售 Stripe 承载的全球 GDP 份额： 1.65827073% 1.65827073% 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。 立即开始 通过 Google 注册 灵活的解决方案，适配各种业务模式。 一系列全面的支付和金融工具，既能`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
   - Density: navigation count 6, image count 37, document height 14415.

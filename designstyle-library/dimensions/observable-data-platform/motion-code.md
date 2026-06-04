@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-observable-data-platform-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-observable-data-platform-component-styles.json`
   - Asset CDN and media loading patterns: https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://observablehq.com/_next/image?url=https%3A%2F%2Fstatic.observablehq.com%2Fassets%2Fmarketing%2Fcomponents%2Fhome-hero%2Fcells%2FChoropleth.png&w=640&q=75; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/Calendar.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/FacetedScatter.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/PowerPlantTable.svg
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

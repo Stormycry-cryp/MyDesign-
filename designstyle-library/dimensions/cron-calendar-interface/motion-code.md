@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-cron-calendar-interface-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-cron-calendar-interface-component-styles.json`
   - Asset CDN and media loading patterns: https://www.cron.com/images/brand/cron-logotype-s.png; https://www.cron.com/images/product/cron-2023-02-28@2x.png
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

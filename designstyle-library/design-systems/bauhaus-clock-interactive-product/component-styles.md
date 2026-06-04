@@ -10,7 +10,7 @@
 - None recorded.
 
 ### Missing Evidence
-- None recorded.
+- Navigation computed style evidence was not captured.
 
 ## Button
 
@@ -21,16 +21,17 @@
 - None recorded.
 
 ### Missing Evidence
-- Button size, padding, border, and state styling are not explicitly measured.
+- Button computed style evidence was not captured.
 
 ## Card
 
 ### Style Evidence
-- 100px; 7.21215% / 94.0081%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%
+- section “An absolutely stunning screen saver for macOS.” Alexey Sekachov Founder of joi.software “ | rect=1340x213@50,1391 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; padding=10px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- 100px; 7.21272% / 94.2648%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%
 - border radii samples recorded below.
 
 ### Content Samples
-- None recorded.
+- “An absolutely stunning screen saver for macOS.” Alexey Sekachov Founder of joi.software “This is absolutely stunning.”
 
 ### Missing Evidence
 - None recorded.
@@ -44,7 +45,7 @@
 - None recorded.
 
 ### Missing Evidence
-- Form/input style evidence is missing or not classified.
+- Form computed style evidence was not captured.
 
 ## Feedback state
 
@@ -55,22 +56,29 @@
 - None recorded.
 
 ### Missing Evidence
-- None recorded.
+- Hover/focus computed-state deltas were not observed or did not change.
 
 ## Icon
 
 ### Style Evidence
-- None recorded.
+- svg [object SVGAnimatedString] | rect=71.5x71.5@46.7,46.8 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=22.7x12@79.7,79.7 | display=inline; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=35.7x16.3@49.6,79.7 | display=inline; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=44.5x5.5@47.8,79.8 | display=inline; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=32x32@821,208 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=200x48@620,1328 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- img unlabeled | rect=60x60@126.1,1520.5 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=100%; fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- img unlabeled | rect=60x60@660.6,1520.5 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=100%; fontFamily=ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 
 ### Content Samples
 - None recorded.
 
 ### Missing Evidence
-- Icon stroke/fill style evidence is missing.
+- None recorded.
 
 
 ## Evidence
-- Sources: Interaction And Components, Style Tokens And Surface Grammar, Visual System
+- Sources: computed component style JSON, Interaction And Components, Style Tokens And Surface Grammar, Visual System
 
 ## Do Not Copy
 - Preserve component roles and density; do not copy proprietary component names, icons, or claims.

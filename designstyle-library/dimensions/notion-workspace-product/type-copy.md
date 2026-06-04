@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7481}
   - Community signal: Prior local seed reference and widely used workspace-product benchmark; selected to replace old weak-format Notion entry with evidence-grade capture
   - Page scope: homepage workspace productivity product
-  - Secondary pages inspected: /product/ai/use-cases -> https://www.notion.com/product/ai/use-cases | title: Notion AI Use Cases | h1: What can Notion AI do? | h2: Share your use case || /product/ai/use-cases/triage-product-feedback -> https://www.notion.com/product/ai/use-cases/triage-product-feedback | title: Triage product feedback | h1: Triage product feedback | h2: Prompt; Learn more || /product/ai/use-cases/automate-weekly-reporting -> https://www.notion.com/product/ai/use-cases/automate-weekly-reporting | title: Automate weekly reporting | h1: Automate weekly reporting | h2: Prompt; Learn more
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Meet the night shift.
   - H2 samples: Keep work moving 24/7.; Automate repetitive work for your team.; Ask your on-demand assistants.; You assign the tasks. Notion Agent does the work.; One search for everything.; Perfect notes, every time.
   - Navigation samples: Developers; Enterprise; Pricing; Request a demo; Get Notion free; Log in; Get Notion free; Request a demo; About us; Careers; Security; Status

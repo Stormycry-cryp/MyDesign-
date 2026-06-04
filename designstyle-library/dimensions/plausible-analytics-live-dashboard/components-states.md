@@ -4,6 +4,7 @@
 - Components:
   - Navigation: Login; Sign up
   - Buttons/links: Filter; Last 28 days; Last 28 days; CHANNELS; SOURCES; CAMPAIGNS; TOP PAGES; ENTRY PAGES; EXIT PAGES; MAP; COUNTRIES; REGIONS
+  - Computed component styles: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -13,6 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-plausible-analytics-live-dashboard-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; https://plausible.io/favicon/sources/plausible.io; https://plausible.io/favicon/sources/Direct%20%2F%20None; https://plausible.io/favicon/sources/Google; https://plausible.io/favicon/sources/chatgpt.com; https://plausible.io/favicon/sources/GitHub; https://plausible.io/favicon/sources/Bing
 
 ## Inference

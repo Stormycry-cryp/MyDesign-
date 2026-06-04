@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5442}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for high-aesthetic data visualization language.
   - Page scope: home plus portfolio/secondary links
-  - Secondary pages inspected: ABOUT -> https://www.visualcinnamon.com/about/ | title: About | Nadieh Bremer - A Data Visualization Designer & Artist | Visual Cinnamon | h1: Bringing Your Data to Life | h2: What I do Best; The Design Process || /blog/ -> https://www.visualcinnamon.com/blog/ | title: Blog | Visual Cinnamon | h1: none observed | h2: Interested in transforming your data into stunning visual stories? — get in touch!
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Unique & Beautiful Data Visualizations and Data Art
   - H2 samples: My Clients Include; Awards; Join My Newsletter; Interested in transforming your data into stunning visual stories? — get in touch!
   - Navigation samples: DATA·VIZ; DATA·ART; CHART; ABOUT; CONTACT; BLOG

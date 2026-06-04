@@ -11,15 +11,15 @@
   - Captured URL: https://www.cosmos.so/
   - Page title: Cosmos
   - Screenshot: screenshots/cosmos-creative-network-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6422}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}
   - Community signal: Httpster community/social/creative tool candidate; selected for visual network and media-led product storytelling
   - Page scope: homepage creative community product
-  - Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+  - Secondary pages inspected: none found in automated first pass
   - H1 observed: Your space for inspiration
   - H2 samples: Every search opens a new world.; Search the way you think.; Know what you’re looking at.; Inspiration for the world’s top creative teams.
   - Navigation samples: Cosmos Logo; Explore; Careers; Login; Sign up
   - Images observed: image 600x875 https://cdn.sanity.io/images/ca81n2nu/production/4400bda550b1fb82e286777fd39f62d24c7daa5a-1516x2212.png?w=600&q=75&auto=format; image 600x751 https://cdn.sanity.io/images/ca81n2nu/production/debf547a545661eaf7e4e7b3b6cff1e40ab7a18b-1048x1312.png?w=600&q=75&auto=format; image 600x900 https://cdn.sanity.io/images/ca81n2nu/production/3b58bec33141d2e8e26750651711b0ed3ea352c9-1040x1560.png?w=600&q=75&auto=format; image 600x1291 https://cdn.sanity.io/images/ca81n2nu/production/503c057fa2b78012af824220976153651323efca-764x1644.png?w=600&q=75&auto=format; image 600x1103 https://cdn.sanity.io/images/ca81n2nu/production/8f5934850f4844c6be14461b7e5f320edf17e9a4-692x1272.png?w=600&q=75&auto=format; image 600x484 https://cdn.sanity.io/images/ca81n2nu/production/f10cbd2c6ea56eac0c3bb67bc4af5f46c85d8b8b-892x720.png?w=600&q=75&auto=format; image 600x1111 https://cdn.sanity.io/images/ca81n2nu/production/cc559a567335ab21050449cb02abc0396098914f-512x948.png?w=600&q=75&auto=format; image 600x658 https://cdn.sanity.io/images/ca81n2nu/production/94edc31a29bbceb45c81e29287fb87b834801830-748x820.png?w=600&q=75&auto=format
-  - Video observed: blob:https://www.cosmos.so/36ca7254-ecde-4e81-87d0-1ce4c5cb5f27
+  - Video observed: blob:https://www.cosmos.so/cd73f1f3-3237-456c-89ba-4f4f3c7b5b18
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Explore Careers Try 'vitsoe shelving' Login Sign up Your space for inspiration Sign up Get the app Watch our new film (ft. Odessa A’zion) Every search opens a new world. future home Your collections, your references, your taste. Connected, searchable, yours. S`.

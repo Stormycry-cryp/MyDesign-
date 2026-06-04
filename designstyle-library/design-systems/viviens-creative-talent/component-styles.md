@@ -10,7 +10,7 @@
 - None recorded.
 
 ### Missing Evidence
-- None recorded.
+- Navigation computed style evidence was not captured.
 
 ## Button
 
@@ -21,15 +21,20 @@
 - None recorded.
 
 ### Missing Evidence
-- Button size, padding, border, and state styling are not explicitly measured.
+- Button computed style evidence was not captured.
 
 ## Card
 
 ### Style Evidence
+- div VIVIEN’S CREATIVE | rect=1298.3x15@70.9,16 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=12px; fontWeight=700; lineHeight=15px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div Vivien’s Creative is an artist management and production company representing Australia’s  | rect=1440x1000@0,0 | display=flex; position=fixed; color=rgb(0, 0, 0); backgroundColor=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div embla__slide is-selected pointer-events-auto embla__slide flex | rect=1440x1000@0,0 | display=flex; position=absolute; color=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 1s; transitionDuration=1s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
+- div embla__slide pointer-events-none embla__slide flex h-full | rect=1440x1000@0,0 | display=flex; position=absolute; color=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 1s; transitionDuration=1s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=0
 - border radii samples recorded below.
 
 ### Content Samples
-- None recorded.
+- VIVIEN’S CREATIVE
+- Vivien’s Creative is an artist management and production company representing Australia’s leading photographers, stylist
 
 ### Missing Evidence
 - None recorded.
@@ -43,7 +48,7 @@
 - None recorded.
 
 ### Missing Evidence
-- Form/input style evidence is missing or not classified.
+- Form computed style evidence was not captured.
 
 ## Feedback state
 
@@ -54,22 +59,23 @@
 - None recorded.
 
 ### Missing Evidence
-- None recorded.
+- Hover/focus computed-state deltas were not observed or did not change.
 
 ## Icon
 
 ### Style Evidence
-- None recorded.
+- svg [object SVGAnimatedString] | rect=1400x250.2@20,737.8 | display=block; position=static; color=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- img unlabeled | rect=1440x1000@0,0 | display=block; position=absolute; border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 
 ### Content Samples
 - None recorded.
 
 ### Missing Evidence
-- Icon stroke/fill style evidence is missing.
+- None recorded.
 
 
 ## Evidence
-- Sources: Interaction And Components, Style Tokens And Surface Grammar, Visual System
+- Sources: computed component style JSON, Interaction And Components, Style Tokens And Surface Grammar, Visual System
 
 ## Do Not Copy
 - Preserve component roles and density; do not copy proprietary component names, icons, or claims.

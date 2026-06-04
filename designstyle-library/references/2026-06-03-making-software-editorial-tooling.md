@@ -1,7 +1,7 @@
 ---
 title: "Making Software Editorial Tooling"
 source_url: "https://www.makingsoftware.com/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["software", "editorial", "developer-tooling", "education", "technical", "resource-led", "minimal", "homepage", "article-index", "resource-navigation", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["software", "editorial", "developer-tooling", "education"]
 style_tags: ["editorial", "technical", "resource-led", "minimal"]
@@ -37,7 +37,7 @@ Making Software Editorial Tooling is captured as a software, editorial, develope
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7122}
 - Community signal: Httpster software/editorial candidate; selected for software knowledge-site typography and resource structure
 - Page scope: homepage software editorial resource
-- Secondary pages inspected: NETWORKING AND THE WEB -> https://www.makingsoftware.com/chapters | title: Making Software | h1: Table of Contents. | h2: none observed || How does a screen work? 3.6K WORDS -> https://www.makingsoftware.com/chapters/how-a-screen-works | title: Making Software: How does a screen work? | h1: How does a screen work? | h2: A brief history of digital displays; Modern displays || How does a GPU work? 3.6K WORDS -> https://www.makingsoftware.com/chapters/how-does-a-gpu-work | title: Making Software: How does a GPU work? | h1: How does a GPU work? | h2: How a CPU works
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Making Software
 - H2 samples: none observed
 - Navigation samples: none observed
@@ -89,7 +89,8 @@ Making Software Editorial Tooling is captured as a software, editorial, develope
 - Public stylesheet/script URLs: none observed
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-making-software-editorial-tooling-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-making-software-editorial-tooling-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-making-software-editorial-tooling-component-styles.json`
 - Asset CDN and media loading patterns: none observed
 
 ## Motion
@@ -112,6 +113,7 @@ Making Software Editorial Tooling is captured as a software, editorial, develope
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: PROGRESS; WORDS; ↑; ↓
+- Computed component styles: `assets/2026-06-04-making-software-editorial-tooling-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

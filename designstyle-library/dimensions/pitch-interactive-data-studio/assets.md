@@ -10,15 +10,15 @@
   - Captured URL: https://www.pitchinteractive.com/
   - Page title: Pitch Interactive: Data Visualization Studio | Award-Winning Design
   - Screenshot: screenshots/pitch-interactive-data-studio-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for black editorial data studio mood.
   - Page scope: home plus work/secondary links
-  - Secondary pages inspected: /work/covid-19casemapper/ -> https://www.pitchinteractive.com/work/covid-19casemapper/ | title: Pitch Interactive – COVID-19 Case Mapper | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients || Work -> https://www.pitchinteractive.com/work/ | title: Pitch Interactive: Data Visualization Studio | Award-Winning Design | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients || /work/kpp/ -> https://www.pitchinteractive.com/work/kpp/ | title: Pitch Interactive – Knowledge Production Project (KPP) | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us
   - H2 samples: About; Clients; Get in Touch
   - Navigation samples: PITCH INTERACTIVE; Work; About; Clients; Contact
   - Images observed: rainbow 1200x2 https://www.pitchinteractive.com/_next/static/media/rainbow_sm.f481a65e.png; image 0x0 https://www.pitchinteractive.com/background/asset-3.svg; InflataCart 240x240 https://www.pitchinteractive.com/projects/square/InflataCart_sq.png; Human Climate Horizons 240x240 https://www.pitchinteractive.com/projects/square/UNHCH_sq.jpg; Decoding Asian Hate 240x240 https://www.pitchinteractive.com/projects/square/DecodingAsianHate-square.png; Ebb and Flow: COVID-19 Daily Cases Across the US 240x240 https://www.pitchinteractive.com/projects/square/EbbAndFlow_square.png; Norfolk Southern PULSE 240x240 https://www.pitchinteractive.com/projects/square/ge_pulse_square.jpg; Out of Sight, Out of Mind 240x240 https://www.pitchinteractive.com/projects/square/drones.jpg
-  - Video observed: none observed
+  - Video observed: https://www.pitchinteractive.com/projects/details/GE_NorfolkSouthern_long.mp4
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: intersection, request_animation_frame
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-pitch-interactive-data-studio-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-pitch-interactive-data-studio-component-styles.json`
   - Asset CDN and media loading patterns: https://www.pitchinteractive.com/_next/static/media/rainbow_sm.f481a65e.png; https://www.pitchinteractive.com/background/asset-3.svg; https://www.pitchinteractive.com/projects/square/InflataCart_sq.png; https://www.pitchinteractive.com/projects/square/UNHCH_sq.jpg; https://www.pitchinteractive.com/projects/square/DecodingAsianHate-square.png; https://www.pitchinteractive.com/projects/square/EbbAndFlow_square.png; https://www.pitchinteractive.com/projects/square/ge_pulse_square.jpg; https://www.pitchinteractive.com/projects/square/drones.jpg
 
 ## Inference

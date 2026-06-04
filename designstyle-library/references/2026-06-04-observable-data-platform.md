@@ -37,7 +37,7 @@ Observable Data Platform is captured as a data-platform, notebook, analytics ref
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7709}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for data notebook and workspace composition.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: Pricing -> https://observablehq.com/pricing | title: Pricing for teams | Observable | h1: Pricing | h2: Notebook Free; Notebook Pro || Observable Framework -> https://observablehq.com/framework/ | title: Observable Framework | h1: The best dashboards are built with code. | h2: Create fast, beautiful data apps, dashboards, and reports from the command line. Write Markdown, JavaScript, SQL, Python, R… and any language you like. Free and open-source. || About -> https://observablehq.com/about | title: Our mission and our values | Observable | h1: The future of data analysis is Observable; What people say | h2: Making data make sense; Forging a path
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Not your typical notebook
 - H2 samples: The shortest path from idea to live code; Collaborate and share; Batteries included; Ready for production; Join the community; Get started today
 - Navigation samples: Notebooks; Pricing
@@ -90,6 +90,7 @@ Observable Data Platform is captured as a data-platform, notebook, analytics ref
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-observable-data-platform-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-observable-data-platform-component-styles.json`
 - Asset CDN and media loading patterns: https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://observablehq.com/_next/image?url=https%3A%2F%2Fstatic.observablehq.com%2Fassets%2Fmarketing%2Fcomponents%2Fhome-hero%2Fcells%2FChoropleth.png&w=640&q=75; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/Calendar.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/FacetedScatter.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/PowerPlantTable.svg
 
 ## Motion
@@ -112,6 +113,7 @@ Observable Data Platform is captured as a data-platform, notebook, analytics ref
 ## Interaction And Components
 - Navigation: Notebooks; Pricing
 - Buttons/links: Resources; Sign in; Get started; Try it for free; Explore the docs; Read the documentation; Read the documentation; Sign up for notebooks; Contact us; Newsletter signup
+- Computed component styles: `assets/2026-06-04-observable-data-platform-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

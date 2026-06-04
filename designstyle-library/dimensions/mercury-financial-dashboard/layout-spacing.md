@@ -22,7 +22,7 @@
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
+  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
   - Performance/accessibility concerns: heavy media count 35 and scripts 36; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference

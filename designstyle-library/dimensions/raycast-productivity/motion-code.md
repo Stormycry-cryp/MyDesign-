@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-raycast-productivity-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-raycast-productivity-component-styles.json`
   - Asset CDN and media loading patterns: https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-pitch-interactive-data-studio-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-pitch-interactive-data-studio-component-styles.json`
   - Asset CDN and media loading patterns: https://www.pitchinteractive.com/_next/static/media/rainbow_sm.f481a65e.png; https://www.pitchinteractive.com/background/asset-3.svg; https://www.pitchinteractive.com/projects/square/InflataCart_sq.png; https://www.pitchinteractive.com/projects/square/UNHCH_sq.jpg; https://www.pitchinteractive.com/projects/square/DecodingAsianHate-square.png; https://www.pitchinteractive.com/projects/square/EbbAndFlow_square.png; https://www.pitchinteractive.com/projects/square/ge_pulse_square.jpg; https://www.pitchinteractive.com/projects/square/drones.jpg
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

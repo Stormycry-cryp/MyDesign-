@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong productivity interface mood.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Blog -> https://www.cron.com/blog | title: Cron Blog | h1: Cron Blog; Cron is now Notion Calendar | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: It’s about time.
   - H2 samples: none observed
   - Navigation samples: Blog; Changelog; Docs; Login; Sign up

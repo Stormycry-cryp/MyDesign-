@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6569}
   - Community signal: WebInspoo landing page inspiration entry; selected for SaaS/service landing page pattern coverage
   - Page scope: SaaS logistics landing page inspiration
-  - Secondary pages inspected: Pricing pages -> https://www.webinspoo.com/category/saas-pricing-page-examples | title: 94 SaaS Pricing page examples for design inspiration | Webinspoo | h1: 94SaaS Pricing page examples | h2: Get the 7 best SaaS designs in your inbox each week. || Productivity -> https://www.webinspoo.com/tag/productivity-saas-websites-inspiration | title: 74 Productivity SaaS Websites Inspiration - Webinspoo | h1: 74Productivity SaaS Websites Inspiration | h2: Get the 7 best SaaS designs in your inbox each week. || About us pages -> https://www.webinspoo.com/category/saas-about-page-examples | title: 59 SaaS About page examples for design inspiration | Webinspoo | h1: 59SaaS About us page examples | h2: Get the 7 best SaaS designs in your inbox each week.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Airmee — Landing Page
   - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
   - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up

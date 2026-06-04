@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}
   - Community signal: Prior local seed reference and hardware/product brand benchmark; selected to replace old weak-format Teenage Engineering entry with evidence-grade capture
   - Page scope: homepage hardware product brand
-  - Secondary pages inspected: product -> https://teenage.engineering/products | title: products - teenage engineering | h1: none observed | h2: none observed || /products/po -> https://teenage.engineering/products/po | title: pocket operators - teenage engineering | h1: none observed | h2: none observed || /products/ob-4 -> https://teenage.engineering/products/ob-4 | title: OB–4 magic radio - teenage engineering | h1: none observed | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: none observed
   - Navigation samples: teenage engineering; product; instruments; audio; designs; store; checkout; deals; newsletter; instagram; now; guides

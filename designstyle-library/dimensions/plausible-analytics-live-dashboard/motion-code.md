@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-plausible-analytics-live-dashboard-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; https://plausible.io/favicon/sources/plausible.io; https://plausible.io/favicon/sources/Direct%20%2F%20None; https://plausible.io/favicon/sources/Google; https://plausible.io/favicon/sources/chatgpt.com; https://plausible.io/favicon/sources/GitHub; https://plausible.io/favicon/sources/Bing
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

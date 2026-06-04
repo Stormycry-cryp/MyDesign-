@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5918}
   - Community signal: Prior local seed reference and developer-platform benchmark; selected to replace old weak-format Vercel entry with evidence-grade capture
   - Page scope: homepage cloud developer platform
-  - Secondary pages inspected: More about Infrastructure -> https://vercel.com/cdn | title: Content Delivery Network - Vercel | h1: A self-driving delivery network | h2: Deploy once, scale everywhere.; Build with zero-config overhead. || CI/CD Helping teams ship 6× faster -> https://vercel.com/products/previews | title: Vercel's toolkit for fueling iteration. | h1: A deployment for every idea. | h2: Zero-config to deploy. Instantly share your work.; Develop. || Observability Trace every step -> https://vercel.com/products/observability | title: Observability | h1: Understand production from the inside out. | h2: Proactive Anomaly Detection and Alerting.; Quick, accurate debugging.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Build and deploy on the AI Cloud.
   - H2 samples: Framework-Defined Infrastructure; Scale your; without compromising; Deploy once, deliver everywhere.; Fluid Compute; AI Gateway
   - Navigation samples: AI Cloud; AI Gateway One endpoint, all your models; Sandbox Isolated, safe code execution; Vercel Agent An agent that knows your stack; AI SDK The AI Toolkit for TypeScript; v0 Build applications with AI; CI/CD Helping teams ship 6× faster; Content Delivery Fast, scalable, and reliable; Fluid Compute Servers, in serverless form; Workflow Long-running workflows at scale; Observability Trace every step; Security

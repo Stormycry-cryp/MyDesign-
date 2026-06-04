@@ -1,7 +1,7 @@
 ---
 title: "WebInspoo Cloudflare Pricing Pattern"
 source_url: "https://www.webinspoo.com/inspiration/cloudflare-pricing-page"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["saas", "pricing", "inspiration", "developer-platform", "pricing-clarity", "comparison", "conversion", "structured", "pricing-page", "plans", "faq", "comparison-table", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["saas", "pricing", "inspiration", "developer-platform"]
 style_tags: ["pricing-clarity", "comparison", "conversion", "structured"]
@@ -34,14 +34,14 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 - Captured URL: https://www.webinspoo.com/inspiration/cloudflare-pricing-page
 - Page title: WebInspoo | Cloudflare Pricing Page Landing Page
 - Screenshot: screenshots/webinspoo-cloudflare-pricing-pattern-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6294}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6878}
 - Community signal: WebInspoo SaaS pricing page inspiration entry; selected for pricing-page pattern and page-type coverage
 - Page scope: SaaS pricing inspiration page for Cloudflare pricing pattern
-- Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Cloudflare Pricing Page — Landing Page
 - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
 - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
-- Images observed: Cloudflare Pricing Page 99x96 https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; Cloudflare Pricing Page full page screenshot 1080x4217 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-cloudflare-pricing-pa; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=32&q=75
+- Images observed: Cloudflare Pricing Page 99x96 https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; Cloudflare Pricing Page full page screenshot 1080x4217 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-cloudflare-pricing-pa; Exa AI Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; Exa AI Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; Unsiloed Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; Unsiloed Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD; Unkey Pricing Page screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-unkey; Unkey Pricing Page logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-unkey_v9liJNQqU
 - Video observed: none observed
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
@@ -49,7 +49,7 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Cloudflare Pricing Page — Landing Page Cloudflare: Build for the agent era Free Tool S`.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 7, image count 40, document height 6294.
+- Density: navigation count 7, image count 40, document height 6878.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
@@ -67,19 +67,19 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6294}.
-- Media/card aspect stability: image natural sizes include 99x96; 1080x4217; 32x32; 32x32; 32x32; 32x32; 32x32; 32x32; 32x32; 24x24.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6878}.
+- Media/card aspect stability: image natural sizes include 99x96; 1080x4217; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6294}
-- Observed media ratios: 99:96; 1080:4217; 32:32; 32:32; 32:32; 32:32; 32:32; 32:32; 32:32; 24:24
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6878}
+- Observed media ratios: 99:96; 1080:4217; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
 
 ## Assets
-- Image style: Cloudflare Pricing Page; Cloudflare Pricing Page full page screenshot; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon
+- Image style: Cloudflare Pricing Page; Cloudflare Pricing Page full page screenshot; Exa AI Pricing Page screenshot; Exa AI Pricing Page logo; Unsiloed Pricing Page screenshot; Unsiloed Pricing Page logo; Unkey Pricing Page screenshot; Unkey Pricing Page logo
 - Illustration/icon style: inspect screenshot; automated pass records image sources only.
 - Texture/pattern: inspect screenshot before use.
 - Likely sources or production method: asset URLs/domains in image samples.
@@ -89,8 +89,9 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 - Public stylesheet/script URLs: https://www.webinspoo.com/_next/static/chunks/03p_x0hlr6ev9.css; https://www.googletagmanager.com/gtag/js?id=G-V8X6RMCG1P&gtg_health=1; https://www.webinspoo.com/euy4/; https://www.webinspoo.com/_next/static/chunks/0uhyvxec_vzs4.js; https://www.webinspoo.com/_next/static/chunks/16ksa~32zaksw.js; https://www.webinspoo.com/_next/static/chunks/030lje4w49skv.js; https://www.webinspoo.com/_next/static/chunks/128aahewwf1we.js; https://www.webinspoo.com/_next/static/chunks/turbopack-0etm5yd2ek2g~.js; https://www.webinspoo.com/_next/static/chunks/0sc2gw7i6s266.js; https://www.webinspoo.com/_next/static/chunks/07arlpvrc_3o8.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-webinspoo-cloudflare-pricing-pattern-dom.html` for manual inspection.
-- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-cloudflare-pricing-page_BVKuR6pKa&w=1080&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=32&q=75
+- Component or class naming clues: DOM saved at `assets/2026-06-04-webinspoo-cloudflare-pricing-pattern-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-webinspoo-cloudflare-pricing-pattern-component-styles.json`
+- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-cloudflare-pricing-page_BVKuR6pKa&w=1080&q=75; https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD; https://ik.imagekit.io/webinspoo/screenshots/thumb-unkey; https://ik.imagekit.io/webinspoo/favicons/logo-unkey_v9liJNQqU
 
 ## Motion
 - Page transitions: -lg:16px;--blur-xl:24px;--blur-3xl:64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-ge, 64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-geist-mono);--color-background:var(--background);--color-foregr, ty,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,visibility,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--d
@@ -112,6 +113,7 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 ## Interaction And Components
 - Navigation: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
 - Buttons/links: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear
+- Computed component styles: `assets/2026-06-04-webinspoo-cloudflare-pricing-pattern-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -132,11 +134,11 @@ WebInspoo Cloudflare Pricing Pattern is captured as a saas, pricing, inspiration
 
 ## Evidence Limits
 - Automated capture covers one desktop viewport and public DOM/resources only.
-- Secondary pages were not captured in this first pass.
+- Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.
 - Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.
 
 ## Self Review
 - Evidence quality: visual screenshot plus DOM/style/resource extraction
 - Reuse value: useful for SaaS pricing inspiration page for Cloudflare pricing pattern if category and screenshot match the future task.
-- Missing pieces: mobile screenshot, secondary page states, manual overlay classification, exact spacing measurements.
+- Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.

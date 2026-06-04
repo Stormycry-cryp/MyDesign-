@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `COUNTER FORMS TEXTS TYPEFACES WORKROOM INFORMATION C O U N T E R F O R M S ACKNOWLEDGEMENT OF COUNTRY Counter Forms was made on/across/between the stolen lands of many Sovereign people including on Wurundjeri and Whadjuk lands. We recognise our practices are s`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 0, image count 9, document height 3217.
+  - Density: navigation count 0, image count 9, document height 3278.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

@@ -34,6 +34,62 @@ def write_reference(library: Path) -> Path:
             "4f6507f91b5a4b7c0000000049454e44ae426082"
         )
     )
+    (library / "assets").mkdir(parents=True)
+    (library / "assets" / "2026-06-04-sample-hardware-component-styles.json").write_text(
+        json.dumps(
+            {
+                "slug": "sample-hardware",
+                "component_evidence": {
+                    "samples": [
+                        {
+                            "sampleId": "button-0",
+                            "category": "Button",
+                            "tag": "a",
+                            "text": "Buy now",
+                            "rect": {"x": 1100, "y": 24, "width": 108, "height": 32},
+                            "styles": {
+                                "display": "inline-flex",
+                                "backgroundColor": "rgb(17, 17, 17)",
+                                "color": "rgb(255, 255, 255)",
+                                "border": "1px solid rgb(17, 17, 17)",
+                                "borderRadius": "9999px",
+                                "fontSize": "13px",
+                                "fontWeight": "600",
+                                "padding": "0px 14px",
+                                "transition": "transform 180ms ease",
+                            },
+                        },
+                        {
+                            "sampleId": "card-0",
+                            "category": "Card",
+                            "tag": "article",
+                            "text": "Battery",
+                            "rect": {"x": 80, "y": 520, "width": 280, "height": 180},
+                            "styles": {
+                                "backgroundColor": "rgb(255, 255, 255)",
+                                "border": "1px solid rgb(229, 229, 229)",
+                                "borderRadius": "3.35544e+07px",
+                                "boxShadow": "rgba(0, 0, 0, 0.08) 0px 8px 24px",
+                                "padding": "20px",
+                            },
+                        },
+                    ],
+                    "stateSamples": [
+                        {
+                            "sampleId": "button-0",
+                            "category": "Button",
+                            "text": "Buy now",
+                            "hover_changed": {"transform": "matrix(1, 0, 0, 1, 0, -2)"},
+                            "focus_changed": {"outlineColor": "rgb(17, 17, 17)"},
+                        }
+                    ],
+                },
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
     path = library / "references" / "2026-06-04-sample-hardware.md"
     path.write_text(
         """---
@@ -127,6 +183,7 @@ Object-led hardware story with sparse copy and stable product media.
 - CSS variables/tokens observed: --space-24
 - Layout primitives observed: CSS grid
 - Component or class naming clues: product-card
+- Component computed-style evidence: `assets/2026-06-04-sample-hardware-component-styles.json`
 - Asset CDN and media loading patterns: local images
 
 ## Motion
@@ -148,6 +205,7 @@ Object-led hardware story with sparse copy and stable product media.
 ## Interaction And Components
 - Navigation: top nav
 - Buttons/links: compact buy button
+- Computed component styles: `assets/2026-06-04-sample-hardware-component-styles.json`
 - Cards/sections: spec cards
 - Forms/inputs: none
 - Feedback states: hover focus visible
@@ -258,6 +316,14 @@ class ProgressiveLibraryTests(unittest.TestCase):
             tokens = json.loads((system_dir / "tokens.json").read_text())
             self.assertIn("palette", tokens)
             self.assertIn("component_styles", tokens)
+            button_evidence = "\n".join(tokens["component_styles"]["Button"]["style_evidence"])
+            card_evidence = "\n".join(tokens["component_styles"]["Card"]["style_evidence"])
+            self.assertIn("9999px", button_evidence)
+            self.assertNotIn("3.35544e+07px", card_evidence)
+            self.assertIn("computed component style JSON", tokens["evidence"]["component_sources"])
+            component_text = (system_dir / "component-styles.md").read_text(encoding="utf-8")
+            self.assertIn("Buy now", component_text)
+            self.assertIn("hover=", component_text)
             self.assertTrue(tokens["palette"]["colors"])
             self.assertIn("Button", tokens["component_styles"])
             component_text = (system_dir / "component-styles.md").read_text()

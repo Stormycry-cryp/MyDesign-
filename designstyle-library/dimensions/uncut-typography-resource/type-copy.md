@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}
   - Community signal: Httpster typography/resource candidate; selected as contrast to Counter Forms for type-led resource UI
   - Page scope: homepage typography resource index
-  - Secondary pages inspected: none found in automated first pass
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: UNCUT.wtf
   - H2 samples: SANS SERIF; SERIF; MONOSPACE; DISPLAY
   - Navigation samples: none observed

@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6786}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; kept as data-story reference, not dashboard core.
   - Page scope: home/story index plus secondary links
-  - Secondary pages inspected: sitters vs standers The American worker divide: Those who sit, and those who stand. -> https://pudding.cool/2024/11/sitters-standers/ | title: Sitters and Standers | h1: sitters and standers | h2: none observed || flipbook -> https://pudding.cool/projects/flipbook/ | title: The Flipbook Experiment | h1: The Flipbook Experiment | h2: FAQ || /about -> https://pudding.cool/about/ | title: About Us | h1: About Us | h2: The Team; Awards
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: none observed
   - Navigation samples: none observed

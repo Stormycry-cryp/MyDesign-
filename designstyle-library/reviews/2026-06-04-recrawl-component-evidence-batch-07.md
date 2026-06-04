@@ -1,0 +1,20 @@
+# DesignStyle Recrawl Report
+
+Date: 2026-06-04
+
+- Total: 10
+- OK: 10
+- Failed: 0
+
+| # | Reference | Status | Component JSON | Note |
+|---:|---|---|---|---|
+| 1 | `2026-06-04-hex-data-workspace.md` | ok | `assets/2026-06-04-hex-data-workspace-component-styles.json` | component samples=137; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-hex-data-workspace.md; designstyle-library/screenshots/hex-data-workspace-desktop.png |
+| 2 | `2026-06-04-mercury-financial-dashboard.md` | ok | `assets/2026-06-04-mercury-financial-dashboard-component-styles.json` | component samples=104; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-mercury-financial-dashboard.md; designstyle-library/screenshots/mercury-financial-dashboard-d |
+| 3 | `2026-06-04-observable-data-platform.md` | ok | `assets/2026-06-04-observable-data-platform-component-styles.json` | component samples=70; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-observable-data-platform.md; designstyle-library/screenshots/observable-data-platform-desktop. |
+| 4 | `2026-06-04-pitch-interactive-data-studio.md` | ok | `assets/2026-06-04-pitch-interactive-data-studio-component-styles.json` | component samples=44; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-pitch-interactive-data-studio.md; designstyle-library/screenshots/pitch-interactive-data-studi |
+| 5 | `2026-06-04-pitch-presentation-workspace.md` | ok | `assets/2026-06-04-pitch-presentation-workspace-component-styles.json` | component samples=81; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-pitch-presentation-workspace.md; designstyle-library/screenshots/pitch-presentation-workspace- |
+| 6 | `2026-06-04-plausible-analytics-live-dashboard.md` | ok | `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json` | component samples=73; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-plausible-analytics-live-dashboard.md; designstyle-library/screenshots/plausible-analytics-liv |
+| 7 | `2026-06-04-railway-developer-platform.md` | ok | `assets/2026-06-04-railway-developer-platform-component-styles.json` | component samples=38; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-railway-developer-platform.md; designstyle-library/screenshots/railway-developer-platform-desk |
+| 8 | `2026-06-04-raycast-productivity.md` | ok | `assets/2026-06-04-raycast-productivity-component-styles.json` | component samples=24; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-raycast-productivity.md; designstyle-library/screenshots/raycast-productivity-desktop.png |
+| 9 | `2026-06-04-reflect-notes-interface.md` | ok | `assets/2026-06-04-reflect-notes-interface-component-styles.json` | component samples=91; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-reflect-notes-interface.md; designstyle-library/screenshots/reflect-notes-interface-desktop.pn |
+| 10 | `2026-06-04-render-cloud-platform.md` | ok | `assets/2026-06-04-render-cloud-platform-component-styles.json` | component samples=73; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-04-render-cloud-platform.md; designstyle-library/screenshots/render-cloud-platform-desktop.png |

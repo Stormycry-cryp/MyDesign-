@@ -1,7 +1,7 @@
 ---
 title: "Capital Finance Product"
 source_url: "https://capital.xyz/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["finance", "product", "capital", "software", "financial", "polished", "trust-led", "product-led", "homepage", "finance-product", "conversion", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["finance", "product", "capital", "software"]
 style_tags: ["financial", "polished", "trust-led", "product-led"]
@@ -34,7 +34,7 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 - Captured URL: https://capital.xyz/
 - Page title: Modern companies are built on Capital
 - Screenshot: screenshots/capital-finance-product-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6826}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7402}
 - Community signal: Httpster finance/product candidate; selected for financial product UI and trust-led product storytelling
 - Page scope: homepage finance product platform
 - Secondary pages inspected: EXPEDITED ONBOARDING FOR SVB CUSTOMERS -> https://capital.xyz/svb | title: Capital | Priority Access for SVB Customers | h1: CAPITAL; CAPITAL | h2: none observed
@@ -49,7 +49,7 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 - Layout: infer from screenshot and viewport; primary page text sample starts `EXPEDITED ONBOARDING FOR SVB CUSTOMERS CAPITAL CAPITAL HAS JOINED RHO • LEARN MORE Modern companies are built on Capital Earn 4% APY on all of your money Free, high-yield banking services with automated fundraising built right in. CAPITAL CUSTOMERS FOUNDERS IN`.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 1, image count 22, document height 6826.
+- Density: navigation count 1, image count 25, document height 7402.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
@@ -67,12 +67,12 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6826}.
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7402}.
 - Media/card aspect stability: image natural sizes include 28x24; 152x152; 28x24; 1757x1483; 128x128; 128x128; 128x24; 128x82; 90x93; 0x0.
 - Observed border radii: 24px; 24px; 24px; 8px; 9px; 8px; 16px; 24px; 24px; 16px; 16px; 16px
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6826}
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7402}
 - Observed media ratios: 28:24; 152:152; 28:24; 1757:1483; 128:128; 128:128; 128:24; 128:82; 90:93; 28:24
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
@@ -89,7 +89,8 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 - Public stylesheet/script URLs: https://capital.xyz/_next/static/css/aaeeeae4d7c17bfa.css; https://capital.xyz/_next/static/css/b83955e549de6e61.css; https://capital.xyz/_next/static/css/3f6322c340f974c1.css; https://static.hotjar.com/c/hotjar-3291971.js?sv=7; https://www.googletagmanager.com/gtm.js?id=GTM-TPBWFPR; https://capital.xyz/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js; https://www.googletagmanager.com/gtag/js?id=G-S4ZPGCCMHT; https://capital.xyz/_next/static/chunks/webpack-02224abda62d8e0a.js; https://capital.xyz/_next/static/chunks/framework-2c79e2a64abdb08b.js; https://capital.xyz/_next/static/chunks/main-cbc9a2a6ab78d2c0.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-capital-finance-product-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-capital-finance-product-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-capital-finance-product-component-styles.json`
 - Asset CDN and media loading patterns: https://capital.xyz/_next/image?url=%2Fimg%2Ficons%2Farrow.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcapital-logo.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Ficons%2Farrow.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fmocks%2Fipad-intro.png&w=2048&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fdiagram.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fyuga.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fpopshop.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fjuneshine.png&w=128&q=75
 
 ## Motion
@@ -112,6 +113,7 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 ## Interaction And Components
 - Navigation: CAPITAL
 - Buttons/links: EXPEDITED ONBOARDING FOR SVB CUSTOMERS; CAPITAL HAS JOINED RHO • LEARN MORE; CAPITAL HAS JOINED RHO • LEARN MORE; FOUNDERS; INVESTORS; CAPITAL FOUNDER SERIES; Start
+- Computed component styles: `assets/2026-06-04-capital-finance-product-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -120,7 +122,7 @@ Capital Finance Product is captured as a finance, product, capital, software ref
 - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
 - Token ideas: extract from computed colors, font roles, and CSS resources.
 - Libraries or techniques: animation, easing, gsap, keyframes, request_animation_frame, transform, transition
-- Performance/accessibility concerns: heavy media count 22 and scripts 33; check reduced-motion and image loading before copying motion patterns.
+- Performance/accessibility concerns: heavy media count 25 and scripts 25; check reduced-motion and image loading before copying motion patterns.
 
 ## Borrow
 - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.

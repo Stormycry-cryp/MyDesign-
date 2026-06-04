@@ -34,45 +34,45 @@ Pitch Interactive Data Studio is captured as a data-visualization, studio, infor
 - Captured URL: https://www.pitchinteractive.com/
 - Page title: Pitch Interactive: Data Visualization Studio | Award-Winning Design
 - Screenshot: screenshots/pitch-interactive-data-studio-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for black editorial data studio mood.
 - Page scope: home plus work/secondary links
-- Secondary pages inspected: /work/covid-19casemapper/ -> https://www.pitchinteractive.com/work/covid-19casemapper/ | title: Pitch Interactive – COVID-19 Case Mapper | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients || Work -> https://www.pitchinteractive.com/work/ | title: Pitch Interactive: Data Visualization Studio | Award-Winning Design | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients || /work/kpp/ -> https://www.pitchinteractive.com/work/kpp/ | title: Pitch Interactive – Knowledge Production Project (KPP) | h1: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us | h2: About; Clients
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: We are a data visualization studio that focuses on building meaningful experiences with data.; Other Ways to Reach Us
 - H2 samples: About; Clients; Get in Touch
 - Navigation samples: PITCH INTERACTIVE; Work; About; Clients; Contact
 - Images observed: rainbow 1200x2 https://www.pitchinteractive.com/_next/static/media/rainbow_sm.f481a65e.png; image 0x0 https://www.pitchinteractive.com/background/asset-3.svg; InflataCart 240x240 https://www.pitchinteractive.com/projects/square/InflataCart_sq.png; Human Climate Horizons 240x240 https://www.pitchinteractive.com/projects/square/UNHCH_sq.jpg; Decoding Asian Hate 240x240 https://www.pitchinteractive.com/projects/square/DecodingAsianHate-square.png; Ebb and Flow: COVID-19 Daily Cases Across the US 240x240 https://www.pitchinteractive.com/projects/square/EbbAndFlow_square.png; Norfolk Southern PULSE 240x240 https://www.pitchinteractive.com/projects/square/ge_pulse_square.jpg; Out of Sight, Out of Mind 240x240 https://www.pitchinteractive.com/projects/square/drones.jpg
-- Video observed: none observed
+- Video observed: https://www.pitchinteractive.com/projects/details/GE_NorfolkSouthern_long.mp4
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
 ## Visual System
-- Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME InflataCart CLIENT Pitch Interactive, Inc. The`.
+- Layout: infer from screenshot and viewport; primary page text sample starts `PITCH INTERACTIVE WorkAboutClientsContact Currently in Oakland 60°F (16°C) We are a data visualization studio that focuses on building meaningful experiences with data. Currently in Oakland °F (NaN°C) PROJECT NAME Norfolk Southern PULSE CLIENT GE Transportatio`.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 5, image count 40, document height 7207.
+- Density: navigation count 5, image count 40, document height 7445.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
 ## Typography And Reading Rhythm
-- Observed font stack counts: BODY:"Fira Sans", sans-serif:16px:400:normal:32px; A:"Fira Sans", sans-serif:22.5px:700:2.7px:33.75px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; H1:"Fira Sans", sans-serif:57.6px:400:normal:115.2px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:27px:700:normal:40.5px; A:"Fira Sans", sans-serif:18px:400:normal:32px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px
-- Observed font sizes: A:"Fira Sans", sans-serif:22.5px:700:2.7px:33.75px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; H1:"Fira Sans", sans-serif:57.6px:400:normal:115.2px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:27px:700:normal:40.5px; A:"Fira Sans", sans-serif:18px:400:normal:32px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px
+- Observed font stack counts: BODY:"Fira Sans", sans-serif:16px:400:normal:32px; A:"Fira Sans", sans-serif:22.5px:700:2.7px:33.75px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; H1:"Fira Sans", sans-serif:57.6px:400:normal:115.2px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:27px:700:normal:40.5px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px
+- Observed font sizes: A:"Fira Sans", sans-serif:22.5px:700:2.7px:33.75px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; A:"Fira Sans", sans-serif:18px:400:normal:27px; H1:"Fira Sans", sans-serif:57.6px:400:normal:115.2px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:27px:700:normal:40.5px; P:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px; A:"Fira Sans", sans-serif:18px:400:normal:32px
 - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
 ## Color, Material, And Contrast
-- Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(255, 255, 255):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); A:rgb(130, 93, 253):rgb(0, 0, 0); H1:rgb(128, 128, 128):rgba(0, 0, 0, 0.7); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
+- Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(255, 255, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); A:rgb(124, 98, 255):rgb(0, 0, 0); H1:rgb(128, 128, 128):rgba(0, 0, 0, 0.7); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
 - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}.
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}.
 - Media/card aspect stability: image natural sizes include 1200x2; 0x0; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240; 240x240.
 - Observed border radii: none observed
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7207}
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7445}
 - Observed media ratios: 1200:2; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240; 240:240
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
@@ -90,6 +90,7 @@ Pitch Interactive Data Studio is captured as a data-visualization, studio, infor
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-pitch-interactive-data-studio-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-pitch-interactive-data-studio-component-styles.json`
 - Asset CDN and media loading patterns: https://www.pitchinteractive.com/_next/static/media/rainbow_sm.f481a65e.png; https://www.pitchinteractive.com/background/asset-3.svg; https://www.pitchinteractive.com/projects/square/InflataCart_sq.png; https://www.pitchinteractive.com/projects/square/UNHCH_sq.jpg; https://www.pitchinteractive.com/projects/square/DecodingAsianHate-square.png; https://www.pitchinteractive.com/projects/square/EbbAndFlow_square.png; https://www.pitchinteractive.com/projects/square/ge_pulse_square.jpg; https://www.pitchinteractive.com/projects/square/drones.jpg
 
 ## Motion
@@ -112,6 +113,7 @@ Pitch Interactive Data Studio is captured as a data-visualization, studio, infor
 ## Interaction And Components
 - Navigation: PITCH INTERACTIVE; Work; About; Clients; Contact
 - Buttons/links: none observed
+- Computed component styles: `assets/2026-06-04-pitch-interactive-data-studio-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

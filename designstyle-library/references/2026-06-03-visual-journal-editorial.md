@@ -1,7 +1,7 @@
 ---
 title: "Visual Journal Editorial"
 source_url: "https://visualjournal.it/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["editorial", "visual-journal", "culture", "magazine", "visual", "archive-like", "publication-led", "homepage", "article-index", "visual-feed", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["editorial", "visual-journal", "culture", "magazine"]
 style_tags: ["editorial", "visual", "archive-like", "publication-led"]
@@ -37,7 +37,7 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5900}
 - Community signal: Httpster editorial/visual journal candidate; selected for publication rhythm and image-led reading flow
 - Page scope: homepage visual editorial journal
-- Secondary pages inspected: none found in automated first pass
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Visual Journal
 - H2 samples: none observed
 - Navigation samples: Visual Journal
@@ -89,7 +89,8 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Public stylesheet/script URLs: https://visualjournal.it/assets/css/main.min.css; https://visualjournal.it/assets/js/lib/infinitescroll.min.js; https://visualjournal.it/assets/js/lib/lazyload.min.js; https://visualjournal.it/assets/js/app.min.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-visual-journal-editorial-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-visual-journal-editorial-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
 - Asset CDN and media loading patterns: https://visualjournal.it/content/home/14_2026/85_noblemachines/1a.jpg; https://visualjournal.it/content/home/14_2026/84_olivera/2.jpg; https://visualjournal.it/content/home/14_2026/83_botnia/1.jpg; https://visualjournal.it/content/home/14_2026/82_themoraine/cover-def.jpg; https://visualjournal.it/content/home/14_2026/81_freesoul/2.jpg; https://visualjournal.it/content/home/14_2026/80_bobbeaute/1.jpg; https://visualjournal.it/content/home/14_2026/79_otsu/1.jpg; https://visualjournal.it/content/home/14_2026/78_tas/6-08.15.14.jpg
 
 ## Motion
@@ -112,6 +113,7 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 ## Interaction And Components
 - Navigation: Visual Journal
 - Buttons/links: About and support
+- Computed component styles: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

@@ -11,10 +11,10 @@
   - Captured URL: https://rows.com/product
   - Page title: Rows - Your new AI Data Analyst
   - Screenshot: screenshots/rows-spreadsheet-dashboard-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6775}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for clean spreadsheet and chart dashboard preview.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://rows.com/pricing | title: Rows Pricing Plans: Free, Plus, Pro and Enterprise | h1: Compare plans & features | h2: Extract PDFs, import your business data and analyze it with AI✨.; You’re in great company || Learn more about Rows AI -> https://rows.com/ai | title: Rows AI: Analyze and Transform Data with AI. | h1: Your Data team of one | h2: Use spreadsheets 10x faster; Make sense of your data || /about -> https://rows.com/about | title: About | Rows | h1: Rows is on a mission to empower the next 1B+ of app creators; We spreadsheets | h2: Our Investors; Join the team
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Your new AI; Data Analyst
   - H2 samples: You’re in great company; Want answers? Just ask.; Connected to your data; Build reports your team will actually read; Looking for a head start?; Your new AI Data Analyst
   - Navigation samples: Rows AI Your number crunching sidekick; Integrations Seamless connections to your tools; Support Docs Learn how to make the most out of Rows.; Features All-in-one spreadsheet for teams; Pricing; Templates; Community; Continue with Coda; Continue with Coda; Features; Blog; About
@@ -25,7 +25,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `Rows joined Superhuman. For any inquiries, email support@rows.com. The Superhuman Privacy Policy and Terms will apply as of June 16. Product Rows AI Your number crunching sidekick Integrations Seamless connections to your tools Support Docs Learn how to make t`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 24, image count 29, document height 6775.
+  - Density: navigation count 24, image count 29, document height 5932.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

@@ -3,13 +3,13 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#101010` | foreground | screenshot pixel sample | 0.4267 |
+| `#101010` | foreground | screenshot pixel sample | 0.4276 |
 | `#ffffff` | background | screenshot pixel sample | 0.2708 |
-| `#202030` | deep accent | screenshot pixel sample | 0.0378 |
+| `#202030` | deep accent | screenshot pixel sample | 0.0365 |
 | `#60a0f0` | accent | screenshot pixel sample | 0.0067 |
 | `#2070d0` | accent | screenshot pixel sample | 0.0055 |
 | `#4080e0` | accent | screenshot pixel sample | 0.0049 |
-| `#404040` | foreground | screenshot pixel sample | 0.0045 |
+| `#404040` | foreground | screenshot pixel sample | 0.0046 |
 | `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0033 |
 | `#ff5010` | accent | screenshot pixel sample | 0.0029 |
 | `#c0c0c0` | neutral surface | screenshot pixel sample | 0.0022 |
@@ -29,7 +29,7 @@
 
 ## Missing Evidence
 - Automated capture covers one desktop viewport and public DOM/resources only.
-- Secondary pages were not captured in this first pass.
+- Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.
 - Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.
 
 ## Do Not Copy

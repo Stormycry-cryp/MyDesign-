@@ -11,21 +11,21 @@
   - Captured URL: https://www.webinspoo.com/inspiration/accessgrid-pricing-page
   - Page title: WebInspoo | AccessGrid Pricing Page Landing Page
   - Screenshot: screenshots/webinspoo-accessgrid-pricing-page-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}
   - Community signal: WebInspoo pricing page entry; selected for pricing table and SaaS comparison coverage
   - Page scope: SaaS pricing page inspiration
-  - Secondary pages inspected: Runner Pricing Page Start Finishing with AI Workflow Automation -> https://www.webinspoo.com/inspiration/runner-pricing-page | title: WebInspoo | Runner Pricing Page Landing Page | h1: Runner Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Unkey Pricing Page The Developer Platform for Modern APIs -> https://www.webinspoo.com/inspiration/unkey-pricing-page | title: WebInspoo | Unkey Pricing Page Landing Page | h1: Unkey Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Exa AI Pricing Page The web, organized for agents -> https://www.webinspoo.com/inspiration/exa-ai-pricing-page | title: WebInspoo | Exa AI Pricing Page Landing Page | h1: Exa AI Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: AccessGrid Pricing Page — Landing Page
   - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
   - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
-  - Images observed: AccessGrid Pricing Page 512x512 https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; AccessGrid Pricing Page full page screenshot 1080x1581 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-pa; Exa AI Pricing Page screenshot 1440x1600 https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; Exa AI Pricing Page logo 32x32 https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; Cloudflare Pricing Page screenshot 1440x5622 https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; Cloudflare Pricing Page logo 99x96 https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; Unsiloed Pricing Page screenshot 1440x1600 https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; Unsiloed Pricing Page logo 1000x1000 https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
+  - Images observed: AccessGrid Pricing Page 512x512 https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; AccessGrid Pricing Page full page screenshot 1080x1581 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-pa; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up AccessGrid Pricing Page — Landing Page Enabling Apple + Google Wallet credentials for `.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 40, document height 4633.
+  - Density: navigation count 7, image count 40, document height 4049.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

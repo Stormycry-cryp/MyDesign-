@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1425, 'docH': 9556}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for dark analytics infrastructure UI.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Workspace Monitor, explore, and operate your data infrastructure -> https://www.tinybird.co/product/workspace | title: Workspace - Monitor, Explore & Operate Your Data Infrastructure | Tinybird | h1: Your workspace at a glance | h2: Overview; Resources || Read the announcement -> https://www.tinybird.co/blog/new-developer-plan-pricing | title: No more QPS limits on Developer Plans | h1: No more QPS limits on Developer Plans | h2: Why we're changing this; What changed || Use Cases / -> https://www.tinybird.co/docs/use-cases | title: Use Cases · Tinybird Docs | h1: Use Case Hub | h2: Examples; Not sure where to start?
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Ship fast over a Managed ClickHouse®
   - H2 samples: Here's how you work with Tinybird; Low-latency queries over large amounts of data with zero-infrastructure management; ClickHouse performance + Vercel-level developer experience; Startup-level speed for Enterprise-level data projects; See who's shipping faster; Skip the infra work. Deploy your first ClickHouse project now
   - Navigation samples: none observed

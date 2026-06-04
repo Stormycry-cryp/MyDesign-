@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong map/data exploration UI.
   - Page scope: interactive explore map
-  - Secondary pages inspected: none found in automated first pass
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: Emissions Summary; All Emissions
   - Navigation samples: none observed
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-climate-trace-explore-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-climate-trace-explore-component-styles.json`
   - Asset CDN and media loading patterns: none observed
 
 ## Inference

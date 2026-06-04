@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1425, 'docH': 3309}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for clean developer platform UI.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Render Workflows -> https://render.com/docs/workflows | title: Intro to Render Workflows – Render Docs | h1: Intro to Render Workflows | h2: Orchestrate chains of long-running, distributed tasks.; At a glance || Private Networking -> https://render.com/docs/private-network | title: Private Network – Render Docs | h1: Private Network | h2: Communicate securely between services without traversing the public internet.; Port restrictions || Private Networking -> https://render.com/docs/private-services | title: Private Services – Render Docs | h1: Private Services | h2: Host apps that only accept traffic from your other services.; Examples
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Render Acceptable Use Policy
   - H2 samples: Enforcement; Reporting of Violations
   - Navigation samples: Product; Platform Overview; Workflows; Autoscaling; Private Networking; Persistent Disks; Infrastructure as Code; Preview Environments; Zero Downtime Deploys; Render API; Static Sites; Web Services

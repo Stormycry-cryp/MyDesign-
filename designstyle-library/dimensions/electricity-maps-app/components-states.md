@@ -4,6 +4,7 @@
 - Components:
   - Navigation: none observed
   - Buttons/links: Home; Map; Developer Hub; Coverage; Help & Support; Sign in; Toggle Sidebar; 15 min
+  - Computed component styles: `assets/2026-06-04-electricity-maps-app-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -13,6 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-electricity-maps-app-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-electricity-maps-app-component-styles.json`
   - Asset CDN and media loading patterns: https://cdn-cookieyes.com/assets/images/revisit.svg; https://cdn-cookieyes.com/assets/images/close.svg; https://cdn-cookieyes.com/assets/images/poweredbtcky.svg
 
 ## Inference

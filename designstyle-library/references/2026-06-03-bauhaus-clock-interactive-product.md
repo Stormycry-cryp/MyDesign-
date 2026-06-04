@@ -1,7 +1,7 @@
 ---
 title: "Bauhaus Clock Interactive Product"
 source_url: "https://bauhausclock.com/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["product", "interactive", "retro", "design-object", "bauhaus", "playful", "object-led", "homepage", "product-demo", "interactive-object", "transition", "hover", "animation", "public-css", "public-js"]
 category_tags: ["product", "interactive", "retro", "design-object"]
 style_tags: ["bauhaus", "playful", "object-led", "interactive"]
@@ -69,7 +69,7 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10226}.
 - Media/card aspect stability: image natural sizes include 113x113; 113x113; 400x400; 320x320; 140x140; 400x400; 400x400; 400x400; 113x113; 213x213.
-- Observed border radii: 100px; 7.21215% / 94.0081%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%
+- Observed border radii: 100px; 7.21272% / 94.2648%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%
 
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10226}
@@ -89,7 +89,8 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - Public stylesheet/script URLs: https://events.framer.com/script?v=2; https://framerusercontent.com/sites/kLe3S9ySj0JYvCtrF4uSA/script_main.Bt7RJVYU.mjs; https://cdn.jsdelivr.net/npm/@polar-sh/checkout@latest/dist/embed.global.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-bauhaus-clock-interactive-product-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-bauhaus-clock-interactive-product-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
 - Asset CDN and media loading patterns: https://framerusercontent.com/images/lKdIzoMOsiRbwxVobT9gjZTs.webp?width=113&height=113; https://framerusercontent.com/images/8qQUnpJkQhhJtwCK5JnuZy91s8.webp?width=113&height=113; https://framerusercontent.com/images/vFo2Y5SnzqgciAGjFZtAa6I5I8.jpg?width=400&height=400; https://framerusercontent.com/images/nzRqYsGvxVGBYJd5ugSynrICKA.webp?width=320&height=320; https://framerusercontent.com/images/Ia0ImoCrNPC4Z50jx63hBlSFS8.webp?width=140&height=140; https://framerusercontent.com/images/PsQJc8r5AWCgX9aWd9QjLKMMkQ.png?width=400&height=400; https://framerusercontent.com/images/F9YtRWdYsQf77p7K9xLa9Uc2pHw.jpg?width=400&height=400; https://framerusercontent.com/images/Cp81F5pG4QSFnM8tbLxLBIQrloo.jpg?width=400&height=400
 
 ## Motion
@@ -112,6 +113,7 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: none observed
+- Computed component styles: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

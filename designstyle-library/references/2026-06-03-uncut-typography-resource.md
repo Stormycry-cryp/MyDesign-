@@ -1,7 +1,7 @@
 ---
 title: "Uncut Typography Resource"
 source_url: "https://uncut.wtf/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["typography", "design-resource", "open-source", "culture", "type-led", "resource", "raw", "minimal", "homepage", "type-index", "resource-navigation", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["typography", "design-resource", "open-source", "culture"]
 style_tags: ["type-led", "resource", "raw", "minimal"]
@@ -37,7 +37,7 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}
 - Community signal: Httpster typography/resource candidate; selected as contrast to Counter Forms for type-led resource UI
 - Page scope: homepage typography resource index
-- Secondary pages inspected: none found in automated first pass
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: UNCUT.wtf
 - H2 samples: SANS SERIF; SERIF; MONOSPACE; DISPLAY
 - Navigation samples: none observed
@@ -89,7 +89,8 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Public stylesheet/script URLs: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-uncut-typography-resource-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-uncut-typography-resource-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
 - Asset CDN and media loading patterns: https://uncut.wtf/assets/images/tanklager.svg; https://uncut.wtf/assets/images/opening-hours-sans.svg; https://uncut.wtf/assets/images/lt-institute.svg; https://uncut.wtf/assets/images/geist.svg; https://uncut.wtf/assets/images/berlin-grotesk.svg; https://uncut.wtf/assets/images/hedvig-letters-sans.svg; https://uncut.wtf/assets/images/liga-sans.svg; https://uncut.wtf/assets/images/overused-grotesk.svg
 
 ## Motion
@@ -112,6 +113,7 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: none observed
+- Computed component styles: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

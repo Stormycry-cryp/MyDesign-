@@ -21,7 +21,8 @@
   - Public stylesheet/script URLs: https://events.framer.com/script?v=2; https://framerusercontent.com/sites/kLe3S9ySj0JYvCtrF4uSA/script_main.Bt7RJVYU.mjs; https://cdn.jsdelivr.net/npm/@polar-sh/checkout@latest/dist/embed.global.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: DOM saved at `assets/2026-06-03-bauhaus-clock-interactive-product-dom.html` for manual inspection.
+  - Component or class naming clues: DOM saved at `assets/2026-06-04-bauhaus-clock-interactive-product-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
   - Asset CDN and media loading patterns: https://framerusercontent.com/images/lKdIzoMOsiRbwxVobT9gjZTs.webp?width=113&height=113; https://framerusercontent.com/images/8qQUnpJkQhhJtwCK5JnuZy91s8.webp?width=113&height=113; https://framerusercontent.com/images/vFo2Y5SnzqgciAGjFZtAa6I5I8.jpg?width=400&height=400; https://framerusercontent.com/images/nzRqYsGvxVGBYJd5ugSynrICKA.webp?width=320&height=320; https://framerusercontent.com/images/Ia0ImoCrNPC4Z50jx63hBlSFS8.webp?width=140&height=140; https://framerusercontent.com/images/PsQJc8r5AWCgX9aWd9QjLKMMkQ.png?width=400&height=400; https://framerusercontent.com/images/F9YtRWdYsQf77p7K9xLa9Uc2pHw.jpg?width=400&height=400; https://framerusercontent.com/images/Cp81F5pG4QSFnM8tbLxLBIQrloo.jpg?width=400&height=400
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

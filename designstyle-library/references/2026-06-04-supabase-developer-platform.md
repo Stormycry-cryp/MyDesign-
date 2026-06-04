@@ -37,7 +37,7 @@ Supabase Developer Platform is captured as a developer-platform, database, dashb
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3383}
 - Community signal: Borderline in 2026-06-04 UI aesthetic probe; kept as backup developer-platform reference, not a top aesthetic pick.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: Pricing -> https://supabase.com/pricing | title: Pricing & Fees | Supabase | h1: Predictable pricing, designed to scale | h2: How compute pricing works; Advanced disk configurations || No Code -> https://supabase.com/solutions/no-code | title: Supabase for building Apps | h1: Your app, your vision. Supabase powers the rest. | h2: Why no-code app builders choose Supabase; Supabase is the Back-End for Everyone || Startups -> https://supabase.com/solutions/startups | title: Supabase is for Startups | h1: Build fast. Scale easily. Trust your stack. | h2: Why startups choose Supabase; Supabase helps you build
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Acceptable Use Policy#
 - H2 samples: 1. General Prohibitions#; 2. Artificial Intelligence and Content Manipulation#; 3. Security and Network Integrity#; 4. Account and Message Abuse#; 5. Financial Crime and Regulated Goods#; 6. Monitoring and Enforcement#
 - Navigation samples: Pricing; Docs; Blog; 103.4K; Sign in; Start your project
@@ -90,6 +90,7 @@ Supabase Developer Platform is captured as a developer-platform, database, dashb
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-supabase-developer-platform-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-supabase-developer-platform-component-styles.json`
 - Asset CDN and media loading patterns: none observed
 
 ## Motion
@@ -112,6 +113,7 @@ Supabase Developer Platform is captured as a developer-platform, database, dashb
 ## Interaction And Components
 - Navigation: Pricing; Docs; Blog; 103.4K; Sign in; Start your project
 - Buttons/links: Product; Developers; Solutions; Sign in; Subscribe; Privacy Settings; Toggle theme
+- Computed component styles: `assets/2026-06-04-supabase-developer-platform-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

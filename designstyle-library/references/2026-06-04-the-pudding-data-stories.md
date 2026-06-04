@@ -37,7 +37,7 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6786}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; kept as data-story reference, not dashboard core.
 - Page scope: home/story index plus secondary links
-- Secondary pages inspected: sitters vs standers The American worker divide: Those who sit, and those who stand. -> https://pudding.cool/2024/11/sitters-standers/ | title: Sitters and Standers | h1: sitters and standers | h2: none observed || flipbook -> https://pudding.cool/projects/flipbook/ | title: The Flipbook Experiment | h1: The Flipbook Experiment | h2: FAQ || /about -> https://pudding.cool/about/ | title: About Us | h1: About Us | h2: The Team; Awards
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: none observed
 - H2 samples: none observed
 - Navigation samples: none observed
@@ -90,6 +90,7 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-the-pudding-data-stories-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-the-pudding-data-stories-component-styles.json`
 - Asset CDN and media loading patterns: https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/more@2x.png; https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/donate@2x.png; https://pudding.cool/assets/stickers/pitch_us@2x.png; https://pudding.cool/assets/stickers/resources@2x.png
 
 ## Motion
@@ -112,6 +113,7 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: OUR FAVES; POPULAR; UPDATING; YOUR INPUT; VIDEO; AUDIO; Prove you‘re human:; LOAD MORE STORIES
+- Computed component styles: `assets/2026-06-04-the-pudding-data-stories-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

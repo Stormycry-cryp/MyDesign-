@@ -1,0 +1,3754 @@
+{
+  "generated_at": "2026-06-04",
+  "library": "designstyle-library",
+  "rubric": {
+    "live_dom": 30,
+    "component_coverage": 15,
+    "design_system": 15,
+    "component_styles": 15,
+    "interaction_states": 10,
+    "retrieval_validation": 10,
+    "hygiene": 5
+  },
+  "summary": {
+    "reference_count": 76,
+    "average_score": 91.3,
+    "median_score": 93.0,
+    "min_score": 66,
+    "max_score": 100,
+    "buckets": {
+      "A_or_A_minus_90_plus": 52,
+      "B_80_to_89": 17,
+      "C_70_to_79": 5,
+      "below_70": 2
+    },
+    "blocked_risk_count": 0,
+    "scientific_px_noise_count": 0
+  },
+  "references": [
+    {
+      "slug": "a24-culture-studio",
+      "title": "A24 Culture Studio",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 81,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 7,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-a24-culture-studio-component-styles.json",
+      "tokens_path": "design-systems/a24-culture-studio/tokens.json",
+      "component_styles_path": "design-systems/a24-culture-studio/component-styles.md",
+      "reference_path": "references/2026-06-03-a24-culture-studio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "amie-productivity-calendar",
+      "title": "Amie Productivity Calendar",
+      "score": 88,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 69,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 7,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-amie-productivity-calendar-component-styles.json",
+      "tokens_path": "design-systems/amie-productivity-calendar/tokens.json",
+      "component_styles_path": "design-systems/amie-productivity-calendar/component-styles.md",
+      "reference_path": "references/2026-06-03-amie-productivity-calendar.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "apple-vision-pro-product-story",
+      "title": "Apple Vision Pro Product Story",
+      "score": 97,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 124,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 11,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 14,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-apple-vision-pro-product-story-component-styles.json",
+      "tokens_path": "design-systems/apple-vision-pro-product-story/tokens.json",
+      "component_styles_path": "design-systems/apple-vision-pro-product-story/component-styles.md",
+      "reference_path": "references/2026-06-03-apple-vision-pro-product-story.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "attio-crm-workspace",
+      "title": "Attio CRM Workspace",
+      "score": 89,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 2,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 94,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 4,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-attio-crm-workspace-component-styles.json",
+      "tokens_path": "design-systems/attio-crm-workspace/tokens.json",
+      "component_styles_path": "design-systems/attio-crm-workspace/component-styles.md",
+      "reference_path": "references/2026-06-04-attio-crm-workspace.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-8 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "bauhaus-clock-interactive-product",
+      "title": "Bauhaus Clock Interactive Product",
+      "score": 71,
+      "grade": "C+",
+      "parts": {
+        "live_dom": 25,
+        "component_coverage": 8,
+        "design_system": 14,
+        "component_styles": 9,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 32,
+      "categories": [
+        "Card",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 3,
+      "state_attempts": 0,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json",
+      "tokens_path": "design-systems/bauhaus-clock-interactive-product/tokens.json",
+      "component_styles_path": "design-systems/bauhaus-clock-interactive-product/component-styles.md",
+      "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-5 live DOM/component evidence",
+        "-7 component category coverage",
+        "-1 design-system file completeness",
+        "-6 reusable computed component styles",
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "usable mainly for aesthetic or narrow component cues"
+    },
+    {
+      "slug": "benvenusa-food-wine",
+      "title": "Benvenusa Food Wine",
+      "score": 79,
+      "grade": "C+",
+      "parts": {
+        "live_dom": 27,
+        "component_coverage": 11,
+        "design_system": 14,
+        "component_styles": 12,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 51,
+      "categories": [
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 1,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-benvenusa-food-wine-component-styles.json",
+      "tokens_path": "design-systems/benvenusa-food-wine/tokens.json",
+      "component_styles_path": "design-systems/benvenusa-food-wine/component-styles.md",
+      "reference_path": "references/2026-06-03-benvenusa-food-wine.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-3 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 design-system file completeness",
+        "-3 reusable computed component styles",
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "usable mainly for aesthetic or narrow component cues"
+    },
+    {
+      "slug": "better-stack-observability",
+      "title": "Better Stack Observability",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 132,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 7,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-better-stack-observability-component-styles.json",
+      "tokens_path": "design-systems/better-stack-observability/tokens.json",
+      "component_styles_path": "design-systems/better-stack-observability/component-styles.md",
+      "reference_path": "references/2026-06-04-better-stack-observability.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "buffet-digital-agency",
+      "title": "Buffet Digital Agency",
+      "score": 88,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 28,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 57,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon"
+      ],
+      "category_count": 4,
+      "state_attempts": 9,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-buffet-digital-agency-component-styles.json",
+      "tokens_path": "design-systems/buffet-digital-agency/tokens.json",
+      "component_styles_path": "design-systems/buffet-digital-agency/component-styles.md",
+      "reference_path": "references/2026-06-03-buffet-digital-agency.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 live DOM/component evidence",
+        "-4 component category coverage",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "capital-finance-product",
+      "title": "Capital Finance Product",
+      "score": 85,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 25,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 12,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 26,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 10,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-capital-finance-product-component-styles.json",
+      "tokens_path": "design-systems/capital-finance-product/tokens.json",
+      "component_styles_path": "design-systems/capital-finance-product/component-styles.md",
+      "reference_path": "references/2026-06-03-capital-finance-product.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-5 live DOM/component evidence",
+        "-2 component category coverage",
+        "-3 reusable computed component styles",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "clay-data-workspace",
+      "title": "Clay Data Workspace",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 127,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 6,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-clay-data-workspace-component-styles.json",
+      "tokens_path": "design-systems/clay-data-workspace/tokens.json",
+      "component_styles_path": "design-systems/clay-data-workspace/component-styles.md",
+      "reference_path": "references/2026-06-04-clay-data-workspace.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "cleo-ai-fintech-storytelling",
+      "title": "Cleo AI Fintech Storytelling",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 110,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 11,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 14,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-cleo-ai-fintech-storytelling-component-styles.json",
+      "tokens_path": "design-systems/cleo-ai-fintech-storytelling/tokens.json",
+      "component_styles_path": "design-systems/cleo-ai-fintech-storytelling/component-styles.md",
+      "reference_path": "references/2026-06-03-cleo-ai-fintech-storytelling.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "climate-trace-explore",
+      "title": "Climate TRACE Explore",
+      "score": 91,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 97,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon"
+      ],
+      "category_count": 4,
+      "state_attempts": 9,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-climate-trace-explore-component-styles.json",
+      "tokens_path": "design-systems/climate-trace-explore/tokens.json",
+      "component_styles_path": "design-systems/climate-trace-explore/component-styles.md",
+      "reference_path": "references/2026-06-04-climate-trace-explore.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "cosmos-creative-network",
+      "title": "Cosmos Creative Network",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 3,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 69,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 4,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-cosmos-creative-network-component-styles.json",
+      "tokens_path": "design-systems/cosmos-creative-network/tokens.json",
+      "component_styles_path": "design-systems/cosmos-creative-network/component-styles.md",
+      "reference_path": "references/2026-06-03-cosmos-creative-network.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-7 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "counter-forms-typography-resource",
+      "title": "Counter Forms Typography Resource",
+      "score": 80,
+      "grade": "B",
+      "parts": {
+        "live_dom": 26,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 12,
+        "interaction_states": 1,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 39,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 1,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-counter-forms-typography-resource-component-styles.json",
+      "tokens_path": "design-systems/counter-forms-typography-resource/tokens.json",
+      "component_styles_path": "design-systems/counter-forms-typography-resource/component-styles.md",
+      "reference_path": "references/2026-06-03-counter-forms-typography-resource.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 live DOM/component evidence",
+        "-4 component category coverage",
+        "-3 reusable computed component styles",
+        "-9 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "cron-calendar-interface",
+      "title": "Cron Calendar Interface",
+      "score": 76,
+      "grade": "C+",
+      "parts": {
+        "live_dom": 24,
+        "component_coverage": 8,
+        "design_system": 14,
+        "component_styles": 10,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 18,
+      "categories": [
+        "Button",
+        "Card",
+        "Navigation"
+      ],
+      "category_count": 3,
+      "state_attempts": 8,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-cron-calendar-interface-component-styles.json",
+      "tokens_path": "design-systems/cron-calendar-interface/tokens.json",
+      "component_styles_path": "design-systems/cron-calendar-interface/component-styles.md",
+      "reference_path": "references/2026-06-04-cron-calendar-interface.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 live DOM/component evidence",
+        "-7 component category coverage",
+        "-1 design-system file completeness",
+        "-5 reusable computed component styles",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "usable mainly for aesthetic or narrow component cues"
+    },
+    {
+      "slug": "developments-media-production",
+      "title": "Developments Media Production",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 85,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 9,
+      "changed_states": 6,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 8,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-developments-media-production-component-styles.json",
+      "tokens_path": "design-systems/developments-media-production/tokens.json",
+      "component_styles_path": "design-systems/developments-media-production/component-styles.md",
+      "reference_path": "references/2026-06-03-developments-media-production.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "eclipse-builders-software",
+      "title": "Eclipse Builders Software",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 82,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 6,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-eclipse-builders-software-component-styles.json",
+      "tokens_path": "design-systems/eclipse-builders-software/tokens.json",
+      "component_styles_path": "design-systems/eclipse-builders-software/component-styles.md",
+      "reference_path": "references/2026-06-03-eclipse-builders-software.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "electricity-maps-app",
+      "title": "Electricity Maps App",
+      "score": 87,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 2,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 71,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon"
+      ],
+      "category_count": 4,
+      "state_attempts": 4,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-electricity-maps-app-component-styles.json",
+      "tokens_path": "design-systems/electricity-maps-app/tokens.json",
+      "component_styles_path": "design-systems/electricity-maps-app/component-styles.md",
+      "reference_path": "references/2026-06-04-electricity-maps-app.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 component category coverage",
+        "-8 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "equals-spreadsheet-analytics",
+      "title": "Equals Spreadsheet Analytics",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 74,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-equals-spreadsheet-analytics-component-styles.json",
+      "tokens_path": "design-systems/equals-spreadsheet-analytics/tokens.json",
+      "component_styles_path": "design-systems/equals-spreadsheet-analytics/component-styles.md",
+      "reference_path": "references/2026-06-04-equals-spreadsheet-analytics.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-2 component category coverage",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "figma-design-platform",
+      "title": "Figma Design Platform",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 106,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-figma-design-platform-component-styles.json",
+      "tokens_path": "design-systems/figma-design-platform/tokens.json",
+      "component_styles_path": "design-systems/figma-design-platform/component-styles.md",
+      "reference_path": "references/2026-06-03-figma-design-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "footer-design-gallery-resource",
+      "title": "Footer Design Gallery Resource",
+      "score": 97,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 102,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 10,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-footer-design-gallery-resource-component-styles.json",
+      "tokens_path": "design-systems/footer-design-gallery-resource/tokens.json",
+      "component_styles_path": "design-systems/footer-design-gallery-resource/component-styles.md",
+      "reference_path": "references/2026-06-03-footer-design-gallery-resource.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "glyphs-app-design-tool",
+      "title": "Glyphs App Design Tool",
+      "score": 91,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 112,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 14,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-glyphs-app-design-tool-component-styles.json",
+      "tokens_path": "design-systems/glyphs-app-design-tool/tokens.json",
+      "component_styles_path": "design-systems/glyphs-app-design-tool/component-styles.md",
+      "reference_path": "references/2026-06-03-glyphs-app-design-tool.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "hex-data-workspace",
+      "title": "Hex Data Workspace",
+      "score": 88,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 137,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 1,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-hex-data-workspace-component-styles.json",
+      "tokens_path": "design-systems/hex-data-workspace/tokens.json",
+      "component_styles_path": "design-systems/hex-data-workspace/component-styles.md",
+      "reference_path": "references/2026-06-04-hex-data-workspace.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "jacky-winter-gallery",
+      "title": "Jacky Winter Gallery",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 97,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 5,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-jacky-winter-gallery-component-styles.json",
+      "tokens_path": "design-systems/jacky-winter-gallery/tokens.json",
+      "component_styles_path": "design-systems/jacky-winter-gallery/component-styles.md",
+      "reference_path": "references/2026-06-03-jacky-winter-gallery.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "linear-product-saas",
+      "title": "Linear Product SaaS",
+      "score": 99,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 9,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 119,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 11,
+      "changed_states": 5,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-linear-product-saas-component-styles.json",
+      "tokens_path": "design-systems/linear-product-saas/tokens.json",
+      "component_styles_path": "design-systems/linear-product-saas/component-styles.md",
+      "reference_path": "references/2026-06-03-linear-product-saas.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "livesurface-product-software",
+      "title": "LiveSurface Product Software",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 14,
+        "component_styles": 13,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 77,
+      "categories": [
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 12,
+      "changed_states": 8,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 9,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-livesurface-product-software-component-styles.json",
+      "tokens_path": "design-systems/livesurface-product-software/tokens.json",
+      "component_styles_path": "design-systems/livesurface-product-software/component-styles.md",
+      "reference_path": "references/2026-06-03-livesurface-product-software.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-1 design-system file completeness",
+        "-2 reusable computed component styles"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "lunchbox-restaurant-commerce-saas",
+      "title": "Lunchbox Restaurant Commerce SaaS",
+      "score": 96,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 146,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-lunchbox-restaurant-commerce-saas-component-styles.json",
+      "tokens_path": "design-systems/lunchbox-restaurant-commerce-saas/tokens.json",
+      "component_styles_path": "design-systems/lunchbox-restaurant-commerce-saas/component-styles.md",
+      "reference_path": "references/2026-06-03-lunchbox-restaurant-commerce-saas.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "making-software-editorial-tooling",
+      "title": "Making Software Editorial Tooling",
+      "score": 90,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 63,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 5,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-making-software-editorial-tooling-component-styles.json",
+      "tokens_path": "design-systems/making-software-editorial-tooling/tokens.json",
+      "component_styles_path": "design-systems/making-software-editorial-tooling/component-styles.md",
+      "reference_path": "references/2026-06-03-making-software-editorial-tooling.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "mercury-financial-dashboard",
+      "title": "Mercury Financial Dashboard",
+      "score": 91,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 1,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 104,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 1,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-mercury-financial-dashboard-component-styles.json",
+      "tokens_path": "design-systems/mercury-financial-dashboard/tokens.json",
+      "component_styles_path": "design-systems/mercury-financial-dashboard/component-styles.md",
+      "reference_path": "references/2026-06-04-mercury-financial-dashboard.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-9 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "mezmo-observability-saas",
+      "title": "Mezmo Observability SaaS",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 93,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 11,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-mezmo-observability-saas-component-styles.json",
+      "tokens_path": "design-systems/mezmo-observability-saas/tokens.json",
+      "component_styles_path": "design-systems/mezmo-observability-saas/component-styles.md",
+      "reference_path": "references/2026-06-03-mezmo-observability-saas.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "middle-name-agency-studio",
+      "title": "Middle Name Agency Studio",
+      "score": 85,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 25,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 11,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 18,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 6,
+      "changed_states": 4,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-middle-name-agency-studio-component-styles.json",
+      "tokens_path": "design-systems/middle-name-agency-studio/tokens.json",
+      "component_styles_path": "design-systems/middle-name-agency-studio/component-styles.md",
+      "reference_path": "references/2026-06-03-middle-name-agency-studio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-5 live DOM/component evidence",
+        "-2 component category coverage",
+        "-4 reusable computed component styles",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "notion-workspace-product",
+      "title": "Notion Workspace Product",
+      "score": 98,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 147,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 8,
+      "changed_states": 6,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 14,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-notion-workspace-product-component-styles.json",
+      "tokens_path": "design-systems/notion-workspace-product/tokens.json",
+      "component_styles_path": "design-systems/notion-workspace-product/component-styles.md",
+      "reference_path": "references/2026-06-03-notion-workspace-product.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "observable-data-platform",
+      "title": "Observable Data Platform",
+      "score": 89,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 70,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 6,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-observable-data-platform-component-styles.json",
+      "tokens_path": "design-systems/observable-data-platform/tokens.json",
+      "component_styles_path": "design-systems/observable-data-platform/component-styles.md",
+      "reference_path": "references/2026-06-04-observable-data-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "ossa-wine-ecommerce",
+      "title": "Ossa Wine Ecommerce",
+      "score": 96,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 85,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-ossa-wine-ecommerce-component-styles.json",
+      "tokens_path": "design-systems/ossa-wine-ecommerce/tokens.json",
+      "component_styles_path": "design-systems/ossa-wine-ecommerce/component-styles.md",
+      "reference_path": "references/2026-06-03-ossa-wine-ecommerce.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "overpass-software-platform",
+      "title": "Overpass Software Platform",
+      "score": 96,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 126,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-overpass-software-platform-component-styles.json",
+      "tokens_path": "design-systems/overpass-software-platform/tokens.json",
+      "component_styles_path": "design-systems/overpass-software-platform/component-styles.md",
+      "reference_path": "references/2026-06-03-overpass-software-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "patrick-mason-studio-portfolio",
+      "title": "Patrick Mason Studio Portfolio",
+      "score": 69,
+      "grade": "C",
+      "parts": {
+        "live_dom": 23,
+        "component_coverage": 8,
+        "design_system": 15,
+        "component_styles": 8,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 6,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon"
+      ],
+      "category_count": 3,
+      "state_attempts": 1,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-patrick-mason-studio-portfolio-component-styles.json",
+      "tokens_path": "design-systems/patrick-mason-studio-portfolio/tokens.json",
+      "component_styles_path": "design-systems/patrick-mason-studio-portfolio/component-styles.md",
+      "reference_path": "references/2026-06-03-patrick-mason-studio-portfolio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-7 live DOM/component evidence",
+        "-7 component category coverage",
+        "-7 reusable computed component styles",
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "weak active reference; consider replacement or manual enrichment"
+    },
+    {
+      "slug": "pitch-interactive-data-studio",
+      "title": "Pitch Interactive Data Studio",
+      "score": 83,
+      "grade": "B",
+      "parts": {
+        "live_dom": 27,
+        "component_coverage": 11,
+        "design_system": 14,
+        "component_styles": 12,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 44,
+      "categories": [
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 7,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-pitch-interactive-data-studio-component-styles.json",
+      "tokens_path": "design-systems/pitch-interactive-data-studio/tokens.json",
+      "component_styles_path": "design-systems/pitch-interactive-data-studio/component-styles.md",
+      "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-3 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 design-system file completeness",
+        "-3 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "pitch-presentation-workspace",
+      "title": "Pitch Presentation Workspace",
+      "score": 99,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 9,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 81,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 5,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-pitch-presentation-workspace-component-styles.json",
+      "tokens_path": "design-systems/pitch-presentation-workspace/tokens.json",
+      "component_styles_path": "design-systems/pitch-presentation-workspace/component-styles.md",
+      "reference_path": "references/2026-06-04-pitch-presentation-workspace.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "plausible-analytics-live-dashboard",
+      "title": "Plausible Analytics Live Dashboard",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 73,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 7,
+      "changed_states": 6,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json",
+      "tokens_path": "design-systems/plausible-analytics-live-dashboard/tokens.json",
+      "component_styles_path": "design-systems/plausible-analytics-live-dashboard/component-styles.md",
+      "reference_path": "references/2026-06-04-plausible-analytics-live-dashboard.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "railway-developer-platform",
+      "title": "Railway Developer Platform",
+      "score": 84,
+      "grade": "B",
+      "parts": {
+        "live_dom": 26,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 13,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 38,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 4,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-railway-developer-platform-component-styles.json",
+      "tokens_path": "design-systems/railway-developer-platform/tokens.json",
+      "component_styles_path": "design-systems/railway-developer-platform/component-styles.md",
+      "reference_path": "references/2026-06-04-railway-developer-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 live DOM/component evidence",
+        "-4 component category coverage",
+        "-2 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "raycast-productivity",
+      "title": "Raycast Productivity",
+      "score": 78,
+      "grade": "C+",
+      "parts": {
+        "live_dom": 24,
+        "component_coverage": 8,
+        "design_system": 15,
+        "component_styles": 12,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 24,
+      "categories": [
+        "Button",
+        "Form",
+        "Icon"
+      ],
+      "category_count": 3,
+      "state_attempts": 4,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-raycast-productivity-component-styles.json",
+      "tokens_path": "design-systems/raycast-productivity/tokens.json",
+      "component_styles_path": "design-systems/raycast-productivity/component-styles.md",
+      "reference_path": "references/2026-06-04-raycast-productivity.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 live DOM/component evidence",
+        "-7 component category coverage",
+        "-3 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable mainly for aesthetic or narrow component cues"
+    },
+    {
+      "slug": "reflect-notes-interface",
+      "title": "Reflect Notes Interface",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 91,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-reflect-notes-interface-component-styles.json",
+      "tokens_path": "design-systems/reflect-notes-interface/tokens.json",
+      "component_styles_path": "design-systems/reflect-notes-interface/component-styles.md",
+      "reference_path": "references/2026-06-04-reflect-notes-interface.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "rekki-food-service-app",
+      "title": "Rekki Food Service App",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 27,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 42,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 11,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-rekki-food-service-app-component-styles.json",
+      "tokens_path": "design-systems/rekki-food-service-app/tokens.json",
+      "component_styles_path": "design-systems/rekki-food-service-app/component-styles.md",
+      "reference_path": "references/2026-06-03-rekki-food-service-app.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-3 live DOM/component evidence",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "render-cloud-platform",
+      "title": "Render Cloud Platform",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 73,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-render-cloud-platform-component-styles.json",
+      "tokens_path": "design-systems/render-cloud-platform/tokens.json",
+      "component_styles_path": "design-systems/render-cloud-platform/component-styles.md",
+      "reference_path": "references/2026-06-04-render-cloud-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "retool-internal-tools",
+      "title": "Retool Internal Tools",
+      "score": 89,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 2,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 117,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 4,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-retool-internal-tools-component-styles.json",
+      "tokens_path": "design-systems/retool-internal-tools/tokens.json",
+      "component_styles_path": "design-systems/retool-internal-tools/component-styles.md",
+      "reference_path": "references/2026-06-04-retool-internal-tools.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-8 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "rows-spreadsheet-dashboard",
+      "title": "Rows Spreadsheet Dashboard",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 28,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 60,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-rows-spreadsheet-dashboard-component-styles.json",
+      "tokens_path": "design-systems/rows-spreadsheet-dashboard/tokens.json",
+      "component_styles_path": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
+      "reference_path": "references/2026-06-04-rows-spreadsheet-dashboard.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 live DOM/component evidence",
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "snohetta-architecture-studio",
+      "title": "Snohetta Architecture Studio",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 28,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 59,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 4,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-snohetta-architecture-studio-component-styles.json",
+      "tokens_path": "design-systems/snohetta-architecture-studio/tokens.json",
+      "component_styles_path": "design-systems/snohetta-architecture-studio/component-styles.md",
+      "reference_path": "references/2026-06-03-snohetta-architecture-studio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 live DOM/component evidence",
+        "-2 component category coverage",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "stripe-product-platform",
+      "title": "Stripe Product Platform",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 114,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 4,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-stripe-product-platform-component-styles.json",
+      "tokens_path": "design-systems/stripe-product-platform/tokens.json",
+      "component_styles_path": "design-systems/stripe-product-platform/component-styles.md",
+      "reference_path": "references/2026-06-03-stripe-product-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "supabase-developer-platform",
+      "title": "Supabase Developer Platform",
+      "score": 88,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 1,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 63,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 2,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-supabase-developer-platform-component-styles.json",
+      "tokens_path": "design-systems/supabase-developer-platform/tokens.json",
+      "component_styles_path": "design-systems/supabase-developer-platform/component-styles.md",
+      "reference_path": "references/2026-06-04-supabase-developer-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-2 component category coverage",
+        "-9 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "teenage-engineering-hardware-brand",
+      "title": "Teenage Engineering Hardware Brand",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 28,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 62,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json",
+      "tokens_path": "design-systems/teenage-engineering-hardware-brand/tokens.json",
+      "component_styles_path": "design-systems/teenage-engineering-hardware-brand/component-styles.md",
+      "reference_path": "references/2026-06-03-teenage-engineering-hardware-brand.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 live DOM/component evidence",
+        "-2 component category coverage",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "the-pudding-data-stories",
+      "title": "The Pudding Data Stories",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 70,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 11,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 14,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-the-pudding-data-stories-component-styles.json",
+      "tokens_path": "design-systems/the-pudding-data-stories/tokens.json",
+      "component_styles_path": "design-systems/the-pudding-data-stories/component-styles.md",
+      "reference_path": "references/2026-06-04-the-pudding-data-stories.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "tines-automation-platform",
+      "title": "Tines Automation Platform",
+      "score": 94,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 126,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 9,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-tines-automation-platform-component-styles.json",
+      "tokens_path": "design-systems/tines-automation-platform/tokens.json",
+      "component_styles_path": "design-systems/tines-automation-platform/component-styles.md",
+      "reference_path": "references/2026-06-04-tines-automation-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "tinybird-analytics-infrastructure",
+      "title": "Tinybird Analytics Infrastructure",
+      "score": 89,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 4,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 98,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 6,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-tinybird-analytics-infrastructure-component-styles.json",
+      "tokens_path": "design-systems/tinybird-analytics-infrastructure/tokens.json",
+      "component_styles_path": "design-systems/tinybird-analytics-infrastructure/component-styles.md",
+      "reference_path": "references/2026-06-04-tinybird-analytics-infrastructure.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-4 component category coverage",
+        "-1 reusable computed component styles",
+        "-6 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "typeform-product-forms-saas",
+      "title": "Typeform Product Forms SaaS",
+      "score": 92,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 97,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 7,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-typeform-product-forms-saas-component-styles.json",
+      "tokens_path": "design-systems/typeform-product-forms-saas/tokens.json",
+      "component_styles_path": "design-systems/typeform-product-forms-saas/component-styles.md",
+      "reference_path": "references/2026-06-03-typeform-product-forms-saas.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "uncut-typography-resource",
+      "title": "Uncut Typography Resource",
+      "score": 80,
+      "grade": "B",
+      "parts": {
+        "live_dom": 24,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 10,
+        "interaction_states": 3,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 16,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 5,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-uncut-typography-resource-component-styles.json",
+      "tokens_path": "design-systems/uncut-typography-resource/tokens.json",
+      "component_styles_path": "design-systems/uncut-typography-resource/component-styles.md",
+      "reference_path": "references/2026-06-03-uncut-typography-resource.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 live DOM/component evidence",
+        "-2 component category coverage",
+        "-5 reusable computed component styles",
+        "-7 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "usps-delivers-generational-report",
+      "title": "USPS Delivers Generational Report",
+      "score": 84,
+      "grade": "B",
+      "parts": {
+        "live_dom": 25,
+        "component_coverage": 11,
+        "design_system": 15,
+        "component_styles": 11,
+        "interaction_states": 7,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 22,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation"
+      ],
+      "category_count": 4,
+      "state_attempts": 11,
+      "changed_states": 1,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-usps-delivers-generational-report-component-styles.json",
+      "tokens_path": "design-systems/usps-delivers-generational-report/tokens.json",
+      "component_styles_path": "design-systems/usps-delivers-generational-report/component-styles.md",
+      "reference_path": "references/2026-06-03-usps-delivers-generational-report.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-5 live DOM/component evidence",
+        "-4 component category coverage",
+        "-4 reusable computed component styles",
+        "-3 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "vercel-developer-platform",
+      "title": "Vercel Developer Platform",
+      "score": 91,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 1,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 131,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 2,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-vercel-developer-platform-component-styles.json",
+      "tokens_path": "design-systems/vercel-developer-platform/tokens.json",
+      "component_styles_path": "design-systems/vercel-developer-platform/component-styles.md",
+      "reference_path": "references/2026-06-03-vercel-developer-platform.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-9 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "viens-la-travel-hospitality",
+      "title": "Viens La Travel Hospitality",
+      "score": 93,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 5,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 87,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 9,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-viens-la-travel-hospitality-component-styles.json",
+      "tokens_path": "design-systems/viens-la-travel-hospitality/tokens.json",
+      "component_styles_path": "design-systems/viens-la-travel-hospitality/component-styles.md",
+      "reference_path": "references/2026-06-03-viens-la-travel-hospitality.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-5 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "visual-cinnamon-data-art",
+      "title": "Visual Cinnamon Data Art",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 28,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 55,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 16,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-visual-cinnamon-data-art-component-styles.json",
+      "tokens_path": "design-systems/visual-cinnamon-data-art/tokens.json",
+      "component_styles_path": "design-systems/visual-cinnamon-data-art/component-styles.md",
+      "reference_path": "references/2026-06-04-visual-cinnamon-data-art.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 live DOM/component evidence",
+        "-2 component category coverage",
+        "-1 reusable computed component styles"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "visual-journal-editorial",
+      "title": "Visual Journal Editorial",
+      "score": 73,
+      "grade": "C+",
+      "parts": {
+        "live_dom": 24,
+        "component_coverage": 11,
+        "design_system": 14,
+        "component_styles": 7,
+        "interaction_states": 2,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 7,
+      "categories": [
+        "Button",
+        "Card",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 4,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-visual-journal-editorial-component-styles.json",
+      "tokens_path": "design-systems/visual-journal-editorial/tokens.json",
+      "component_styles_path": "design-systems/visual-journal-editorial/component-styles.md",
+      "reference_path": "references/2026-06-03-visual-journal-editorial.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 design-system file completeness",
+        "-8 reusable computed component styles",
+        "-8 hover/focus state evidence"
+      ],
+      "usefulness": "usable mainly for aesthetic or narrow component cues"
+    },
+    {
+      "slug": "viviens-creative-talent",
+      "title": "Viviens Creative Talent",
+      "score": 66,
+      "grade": "C",
+      "parts": {
+        "live_dom": 24,
+        "component_coverage": 5,
+        "design_system": 14,
+        "component_styles": 8,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 21,
+      "categories": [
+        "Card",
+        "Icon"
+      ],
+      "category_count": 2,
+      "state_attempts": 0,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-viviens-creative-talent-component-styles.json",
+      "tokens_path": "design-systems/viviens-creative-talent/tokens.json",
+      "component_styles_path": "design-systems/viviens-creative-talent/component-styles.md",
+      "reference_path": "references/2026-06-03-viviens-creative-talent.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-6 live DOM/component evidence",
+        "-10 component category coverage",
+        "-1 design-system file completeness",
+        "-7 reusable computed component styles",
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "weak active reference; consider replacement or manual enrichment"
+    },
+    {
+      "slug": "wam-architecture-studio",
+      "title": "WAM Architecture Studio",
+      "score": 87,
+      "grade": "B+",
+      "parts": {
+        "live_dom": 29,
+        "component_coverage": 11,
+        "design_system": 14,
+        "component_styles": 12,
+        "interaction_states": 6,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 69,
+      "categories": [
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 4,
+      "state_attempts": 10,
+      "changed_states": 2,
+      "component_style_categories": [
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 4,
+      "palette_colors": 11,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-wam-architecture-studio-component-styles.json",
+      "tokens_path": "design-systems/wam-architecture-studio/tokens.json",
+      "component_styles_path": "design-systems/wam-architecture-studio/component-styles.md",
+      "reference_path": "references/2026-06-03-wam-architecture-studio.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-1 live DOM/component evidence",
+        "-4 component category coverage",
+        "-1 design-system file completeness",
+        "-3 reusable computed component styles",
+        "-4 hover/focus state evidence"
+      ],
+      "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "webinspoo-accessgrid-pricing-page",
+      "title": "WebInspoo AccessGrid Pricing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 99,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-accessgrid-pricing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-accessgrid-pricing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-accessgrid-pricing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-accessgrid-pricing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-airmee-landing-page",
+      "title": "WebInspoo Airmee Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 97,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-airmee-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-airmee-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-airmee-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-airmee-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-bevel-landing-page",
+      "title": "WebInspoo Bevel Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 99,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-bevel-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-bevel-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-bevel-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-bevel-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-braintrust-pricing-page",
+      "title": "WebInspoo Braintrust Pricing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-braintrust-pricing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-braintrust-pricing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-braintrust-pricing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-braintrust-pricing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-browserbase-pricing-page",
+      "title": "WebInspoo Browserbase Pricing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-browserbase-pricing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-browserbase-pricing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-browserbase-pricing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-browserbase-pricing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-cloudflare-pricing-pattern",
+      "title": "WebInspoo Cloudflare Pricing Pattern",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-cloudflare-pricing-pattern-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-cloudflare-pricing-pattern/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-cloudflare-pricing-pattern/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-cloudflare-pricing-pattern.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-exa-ai-pricing-page",
+      "title": "WebInspoo Exa AI Pricing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-exa-ai-pricing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-exa-ai-pricing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-exa-ai-pricing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-exa-ai-pricing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-expenseai-landing-page",
+      "title": "WebInspoo ExpenseAI Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-expenseai-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-expenseai-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-expenseai-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-expenseai-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-mistral-ai-landing-page",
+      "title": "WebInspoo Mistral AI Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-mistral-ai-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-mistral-ai-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-mistral-ai-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-mistral-ai-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-poolside-ai-landing-page",
+      "title": "WebInspoo Poolside AI Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 102,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-poolside-ai-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-poolside-ai-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-poolside-ai-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-poolside-ai-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-rerun-developer-landing-page",
+      "title": "WebInspoo Rerun Developer Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 99,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-rerun-developer-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-rerun-developer-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-rerun-developer-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-rerun-developer-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-unkey-pricing-page",
+      "title": "WebInspoo Unkey Pricing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 98,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-unkey-pricing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-unkey-pricing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-unkey-pricing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-unkey-pricing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "webinspoo-weav-saas-landing-page",
+      "title": "WebInspoo Weav SaaS Landing Page",
+      "score": 100,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 10,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 103,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 12,
+      "changed_states": 9,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 13,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-webinspoo-weav-saas-landing-page-component-styles.json",
+      "tokens_path": "design-systems/webinspoo-weav-saas-landing-page/tokens.json",
+      "component_styles_path": "design-systems/webinspoo-weav-saas-landing-page/component-styles.md",
+      "reference_path": "references/2026-06-03-webinspoo-weav-saas-landing-page.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "none"
+      ],
+      "usefulness": "strong implementation reference"
+    },
+    {
+      "slug": "wiz-cybersecurity-saas",
+      "title": "Wiz Cybersecurity SaaS",
+      "score": 90,
+      "grade": "A-",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 15,
+        "design_system": 15,
+        "component_styles": 15,
+        "interaction_states": 0,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 125,
+      "categories": [
+        "Button",
+        "Card",
+        "Form",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 6,
+      "state_attempts": 1,
+      "changed_states": 0,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Form",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 6,
+      "palette_colors": 15,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-04-wiz-cybersecurity-saas-component-styles.json",
+      "tokens_path": "design-systems/wiz-cybersecurity-saas/tokens.json",
+      "component_styles_path": "design-systems/wiz-cybersecurity-saas/component-styles.md",
+      "reference_path": "references/2026-06-03-wiz-cybersecurity-saas.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-10 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
+    }
+  ]
+}

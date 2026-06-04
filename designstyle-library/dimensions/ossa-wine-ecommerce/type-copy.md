@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
   - Community signal: Httpster food/drink ecommerce candidate; selected for wine retail, product atmosphere, and editorial commerce pacing
   - Page scope: homepage wine ecommerce
-  - Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Elevated wines born from raw, natural beauty.
   - H2 samples: none observed
   - Navigation samples: Ossa Wines Tasmania; Shop wine; Wine Collection Wine Collection Wine Collection Wine Collection; Our Founders Our Founders Our Founders; Our Winemaker Our Winemaker; Contact the Winery; Pinot Noir 2023; Pinot Meunier 2025; Pinot Noir 2024; Méthode Traditionnelle 2020; Grüner Veltliner 2023; Chardonnay 2022

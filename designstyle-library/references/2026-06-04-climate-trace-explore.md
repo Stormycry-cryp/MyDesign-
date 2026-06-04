@@ -37,7 +37,7 @@ Climate TRACE Explore is captured as a map, data-exploration, climate reference 
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong map/data exploration UI.
 - Page scope: interactive explore map
-- Secondary pages inspected: none found in automated first pass
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: none observed
 - H2 samples: Emissions Summary; All Emissions
 - Navigation samples: none observed
@@ -90,6 +90,7 @@ Climate TRACE Explore is captured as a map, data-exploration, climate reference 
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-climate-trace-explore-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-climate-trace-explore-component-styles.json`
 - Asset CDN and media loading patterns: none observed
 
 ## Motion
@@ -112,6 +113,7 @@ Climate TRACE Explore is captured as a map, data-exploration, climate reference 
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: 100 YR; 100 YR; 20 YR; 20 YR; How to use; More Details
+- Computed component styles: `assets/2026-06-04-climate-trace-explore-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -120,7 +122,7 @@ Climate TRACE Explore is captured as a map, data-exploration, climate reference 
 - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
 - Token ideas: extract from computed colors, font roles, and CSS resources.
 - Libraries or techniques: animation, easing, keyframes, transform, transition
-- Performance/accessibility concerns: heavy media count 0 and scripts 20; check reduced-motion and image loading before copying motion patterns.
+- Performance/accessibility concerns: heavy media count 0 and scripts 8; check reduced-motion and image loading before copying motion patterns.
 
 ## Borrow
 - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.

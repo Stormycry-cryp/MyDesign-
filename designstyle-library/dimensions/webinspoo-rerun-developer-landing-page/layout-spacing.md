@@ -12,10 +12,10 @@
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
   - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6019}.
   - Media/card aspect stability: image natural sizes include 180x180; 1080x3208; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
-  - Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 - Dimension ratios:
   - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6019}
-  - Observed media ratios: 180:180; 1080:3208; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
+  - Observed media ratios: 180:180; 1080:3208; 32:32; 32:32; 32:32; 32:32; 32:32; 24:24; 32:32; 32:32
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
@@ -23,7 +23,7 @@
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
   - Libraries or techniques: animation, easing, intersection, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 33; check reduced-motion and image loading before copying motion patterns.
+  - Performance/accessibility concerns: heavy media count 40 and scripts 35; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference
 - Borrow:

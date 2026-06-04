@@ -22,6 +22,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-pitch-presentation-workspace-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-pitch-presentation-workspace-component-styles.json`
   - Asset CDN and media loading patterns: https://framerusercontent.com/images/OScGSLf3Du6gXnXNfzapfSunTI.png?scale-down-to=2048&width=2518&height=1309; https://framerusercontent.com/images/byi3NUA4aO2AMUMt8xX384GjISc.png?scale-down-to=2048&width=4642&height=4699; https://framerusercontent.com/images/PAwhOoEIgyOBkqpzvrtK09Pp5s.png?width=1920&height=1080; https://framerusercontent.com/images/AX127cQCRdbgqRHHV4TWYYeLs.png?width=1200&height=675; https://framerusercontent.com/images/d1Gzw1JLuvaoE3asa9TK73NTmg.png?width=1920&height=1080; https://framerusercontent.com/images/pnc2tUjPJHuHuW6ymMJlDhsyDfo.png?width=1920&height=1080; https://framerusercontent.com/images/CpFPsjnF5znMMwnTMeweiI3Ups.png?width=1200&height=675; https://framerusercontent.com/images/LwmgbB7CnX7Fz2qa0Ov01zYdxg.png?width=1200&height=675
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.

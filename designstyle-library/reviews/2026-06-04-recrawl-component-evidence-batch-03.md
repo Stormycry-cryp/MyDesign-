@@ -1,0 +1,20 @@
+# DesignStyle Recrawl Report
+
+Date: 2026-06-04
+
+- Total: 10
+- OK: 10
+- Failed: 0
+
+| # | Reference | Status | Component JSON | Note |
+|---:|---|---|---|---|
+| 1 | `2026-06-03-making-software-editorial-tooling.md` | ok | `assets/2026-06-04-making-software-editorial-tooling-component-styles.json` | component samples=63; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-making-software-editorial-tooling.md; designstyle-library/screenshots/making-software-editoria |
+| 2 | `2026-06-03-mezmo-observability-saas.md` | ok | `assets/2026-06-04-mezmo-observability-saas-component-styles.json` | component samples=93; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-mezmo-observability-saas.md; designstyle-library/screenshots/mezmo-observability-saas-desktop. |
+| 3 | `2026-06-03-middle-name-agency-studio.md` | ok | `assets/2026-06-04-middle-name-agency-studio-component-styles.json` | component samples=18; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-middle-name-agency-studio.md; designstyle-library/screenshots/middle-name-agency-studio-deskto |
+| 4 | `2026-06-03-notion-workspace-product.md` | ok | `assets/2026-06-04-notion-workspace-product-component-styles.json` | component samples=147; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-notion-workspace-product.md; designstyle-library/screenshots/notion-workspace-product-desktop |
+| 5 | `2026-06-03-ossa-wine-ecommerce.md` | ok | `assets/2026-06-04-ossa-wine-ecommerce-component-styles.json` | component samples=85; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-ossa-wine-ecommerce.md; designstyle-library/screenshots/ossa-wine-ecommerce-desktop.png |
+| 6 | `2026-06-03-overpass-software-platform.md` | ok | `assets/2026-06-04-overpass-software-platform-component-styles.json` | component samples=126; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-overpass-software-platform.md; designstyle-library/screenshots/overpass-software-platform-des |
+| 7 | `2026-06-03-patrick-mason-studio-portfolio.md` | ok | `assets/2026-06-04-patrick-mason-studio-portfolio-component-styles.json` | component samples=6; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-patrick-mason-studio-portfolio.md; designstyle-library/screenshots/patrick-mason-studio-portfol |
+| 8 | `2026-06-03-rekki-food-service-app.md` | ok | `assets/2026-06-04-rekki-food-service-app-component-styles.json` | component samples=42; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-rekki-food-service-app.md; designstyle-library/screenshots/rekki-food-service-app-desktop.png |
+| 9 | `2026-06-03-snohetta-architecture-studio.md` | ok | `assets/2026-06-04-snohetta-architecture-studio-component-styles.json` | component samples=59; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-snohetta-architecture-studio.md; designstyle-library/screenshots/snohetta-architecture-studio- |
+| 10 | `2026-06-03-stripe-product-platform.md` | ok | `assets/2026-06-04-stripe-product-platform-component-styles.json` | component samples=114; /Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/references/2026-06-03-stripe-product-platform.md; designstyle-library/screenshots/stripe-product-platform-desktop.p |

@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
   - Community signal: Httpster creative/talent candidate; selected for talent roster and visual portfolio category coverage
   - Page scope: homepage creative talent portfolio
-  - Secondary pages inspected: none found in automated first pass
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: none observed
   - Navigation samples: none observed

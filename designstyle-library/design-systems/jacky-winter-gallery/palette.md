@@ -3,16 +3,16 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#f0f0f0` | neutral surface | screenshot pixel sample | 0.2369 |
-| `#000000` | foreground | screenshot pixel sample | 0.234 |
-| `#e0d0d0` | neutral surface | screenshot pixel sample | 0.0138 |
-| `#70d0ff` | accent | screenshot pixel sample | 0.0073 |
-| `#303030` | foreground | screenshot pixel sample | 0.0066 |
-| `#b0e0ff` | supporting color | screenshot pixel sample | 0.0063 |
-| `#fff000` | accent | screenshot pixel sample | 0.0057 |
-| `#ff6010` | accent | screenshot pixel sample | 0.0036 |
+| `#000000` | foreground | screenshot pixel sample | 0.5646 |
+| `#f0f0f0` | neutral surface | screenshot pixel sample | 0.0808 |
+| `#303030` | foreground | screenshot pixel sample | 0.0078 |
+| `#70d0ff` | accent | screenshot pixel sample | 0.0057 |
+| `#f0e0d0` | supporting color | screenshot pixel sample | 0.0056 |
+| `#b0e0ff` | supporting color | screenshot pixel sample | 0.0047 |
 | `#4080e0` | accent | screenshot pixel sample | 0.0035 |
-| `#ffe050` | accent | screenshot pixel sample | 0.0035 |
+| `#ff6010` | accent | screenshot pixel sample | 0.0033 |
+| `#ffe050` | accent | screenshot pixel sample | 0.003 |
+| `#d0c0c0` | neutral surface | screenshot pixel sample | 0.0019 |
 | `#ffffff` | background | explicit reference or DOM color |  |
 
 ## Mood Keywords

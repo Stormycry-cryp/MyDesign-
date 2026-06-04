@@ -1,7 +1,7 @@
 ---
 title: "WebInspoo Exa AI Pricing Page"
 source_url: "https://www.webinspoo.com/inspiration/exa-ai-pricing-page"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["ai", "pricing", "developer-tool", "inspiration", "pricing-clarity", "technical", "ai-led", "structured", "pricing-page", "plans", "developer-product", "comparison", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["ai", "pricing", "developer-tool", "inspiration"]
 style_tags: ["pricing-clarity", "technical", "ai-led", "structured"]
@@ -37,7 +37,7 @@ WebInspoo Exa AI Pricing Page is captured as a ai, pricing, developer-tool, insp
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6379}
 - Community signal: WebInspoo AI pricing page entry; selected for AI developer pricing structure coverage
 - Page scope: AI developer pricing page inspiration
-- Secondary pages inspected: Runner Pricing Page Start Finishing with AI Workflow Automation -> https://www.webinspoo.com/inspiration/runner-pricing-page | title: WebInspoo | Runner Pricing Page Landing Page | h1: Runner Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Unkey Pricing Page The Developer Platform for Modern APIs -> https://www.webinspoo.com/inspiration/unkey-pricing-page | title: WebInspoo | Unkey Pricing Page Landing Page | h1: Unkey Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Table22 Pricing Page Growth Engine for Hospitality Businesses -> https://www.webinspoo.com/inspiration/table22-pricing-page | title: WebInspoo | Table22 Pricing Page Landing Page | h1: Table22 Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Exa AI Pricing Page — Landing Page
 - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
 - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
@@ -69,7 +69,7 @@ WebInspoo Exa AI Pricing Page is captured as a ai, pricing, developer-tool, insp
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6379}.
 - Media/card aspect stability: image natural sizes include 32x32; 1080x3631; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6379}
@@ -89,7 +89,8 @@ WebInspoo Exa AI Pricing Page is captured as a ai, pricing, developer-tool, insp
 - Public stylesheet/script URLs: https://www.webinspoo.com/_next/static/chunks/03p_x0hlr6ev9.css; https://www.googletagmanager.com/gtag/js?id=G-V8X6RMCG1P&gtg_health=1; https://www.webinspoo.com/euy4/; https://www.webinspoo.com/_next/static/chunks/0uhyvxec_vzs4.js; https://www.webinspoo.com/_next/static/chunks/16ksa~32zaksw.js; https://www.webinspoo.com/_next/static/chunks/030lje4w49skv.js; https://www.webinspoo.com/_next/static/chunks/128aahewwf1we.js; https://www.webinspoo.com/_next/static/chunks/turbopack-0etm5yd2ek2g~.js; https://www.webinspoo.com/_next/static/chunks/0sc2gw7i6s266.js; https://www.webinspoo.com/_next/static/chunks/07arlpvrc_3o8.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-webinspoo-exa-ai-pricing-page-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-webinspoo-exa-ai-pricing-page-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-webinspoo-exa-ai-pricing-page-component-styles.json`
 - Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-exa-ai-pricing-page_qZldJyp0w&w=1080&q=75; https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD; https://ik.imagekit.io/webinspoo/screenshots/thumb-unkey; https://ik.imagekit.io/webinspoo/favicons/logo-unkey_v9liJNQqU
 
 ## Motion
@@ -112,6 +113,7 @@ WebInspoo Exa AI Pricing Page is captured as a ai, pricing, developer-tool, insp
 ## Interaction And Components
 - Navigation: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
 - Buttons/links: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear
+- Computed component styles: `assets/2026-06-04-webinspoo-exa-ai-pricing-page-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -120,7 +122,7 @@ WebInspoo Exa AI Pricing Page is captured as a ai, pricing, developer-tool, insp
 - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
 - Token ideas: extract from computed colors, font roles, and CSS resources.
 - Libraries or techniques: animation, easing, intersection, reduced_motion, request_animation_frame, transform, transition
-- Performance/accessibility concerns: heavy media count 40 and scripts 35; check reduced-motion and image loading before copying motion patterns.
+- Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
 
 ## Borrow
 - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.

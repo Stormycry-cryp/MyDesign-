@@ -1,7 +1,7 @@
 ---
 title: "WebInspoo AccessGrid Pricing Page"
 source_url: "https://www.webinspoo.com/inspiration/accessgrid-pricing-page"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["saas", "pricing", "security", "inspiration", "pricing-clarity", "structured", "comparison", "conversion", "pricing-page", "plans", "faq", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["saas", "pricing", "security", "inspiration"]
 style_tags: ["pricing-clarity", "structured", "comparison", "conversion"]
@@ -34,14 +34,14 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 - Captured URL: https://www.webinspoo.com/inspiration/accessgrid-pricing-page
 - Page title: WebInspoo | AccessGrid Pricing Page Landing Page
 - Screenshot: screenshots/webinspoo-accessgrid-pricing-page-desktop.png
-- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}
+- Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}
 - Community signal: WebInspoo pricing page entry; selected for pricing table and SaaS comparison coverage
 - Page scope: SaaS pricing page inspiration
-- Secondary pages inspected: Runner Pricing Page Start Finishing with AI Workflow Automation -> https://www.webinspoo.com/inspiration/runner-pricing-page | title: WebInspoo | Runner Pricing Page Landing Page | h1: Runner Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Unkey Pricing Page The Developer Platform for Modern APIs -> https://www.webinspoo.com/inspiration/unkey-pricing-page | title: WebInspoo | Unkey Pricing Page Landing Page | h1: Unkey Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week. || Exa AI Pricing Page The web, organized for agents -> https://www.webinspoo.com/inspiration/exa-ai-pricing-page | title: WebInspoo | Exa AI Pricing Page Landing Page | h1: Exa AI Pricing Page — Landing Page | h2: Similar websites; Get the 7 best SaaS designs in your inbox each week.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: AccessGrid Pricing Page — Landing Page
 - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
 - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
-- Images observed: AccessGrid Pricing Page 512x512 https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; AccessGrid Pricing Page full page screenshot 1080x1581 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-pa; Exa AI Pricing Page screenshot 1440x1600 https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; Exa AI Pricing Page logo 32x32 https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; Cloudflare Pricing Page screenshot 1440x5622 https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; Cloudflare Pricing Page logo 99x96 https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; Unsiloed Pricing Page screenshot 1440x1600 https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; Unsiloed Pricing Page logo 1000x1000 https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
+- Images observed: AccessGrid Pricing Page 512x512 https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; AccessGrid Pricing Page full page screenshot 1080x1581 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-pa; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
 - Video observed: none observed
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
@@ -49,7 +49,7 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up AccessGrid Pricing Page — Landing Page Enabling Apple + Google Wallet credentials for `.
 - Typography: observed font stacks and role rhythm are recorded below.
 - Color: observed computed foreground/background pairs are recorded below.
-- Density: navigation count 7, image count 40, document height 4633.
+- Density: navigation count 7, image count 40, document height 4049.
 - Shape: border radii samples recorded below.
 - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 
@@ -67,19 +67,19 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}.
-- Media/card aspect stability: image natural sizes include 512x512; 1080x1581; 1440x1600; 32x32; 1440x5622; 99x96; 1440x1600; 1000x1000; 1440x1600; 0x0.
-- Observed border radii: 3.35544e+07px; 3.35544e+07px; 16px; 16px; 10px; 4px; 3.35544e+07px; 3.35544e+07px; 3.35544e+07px; 24px; 24px; 24px
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}.
+- Media/card aspect stability: image natural sizes include 512x512; 1080x1581; 32x32; 24x24; 32x32; 32x32; 32x32; 24x24; 32x32; 24x24.
+16px; 16px; 10px; 4px; 24px; 24px; 24px
 
 ## Dimension And Ratio System
-- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4633}
-- Observed media ratios: 512:512; 1080:1581; 1440:1600; 32:32; 1440:5622; 99:96; 1440:1600; 1000:1000; 1440:1600; 1440:1600
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 4049}
+- Observed media ratios: 512:512; 1080:1581; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
 
 ## Assets
-- Image style: AccessGrid Pricing Page; AccessGrid Pricing Page full page screenshot; Exa AI Pricing Page screenshot; Exa AI Pricing Page logo; Cloudflare Pricing Page screenshot; Cloudflare Pricing Page logo; Unsiloed Pricing Page screenshot; Unsiloed Pricing Page logo
+- Image style: AccessGrid Pricing Page; AccessGrid Pricing Page full page screenshot; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon; Website Icon
 - Illustration/icon style: inspect screenshot; automated pass records image sources only.
 - Texture/pattern: inspect screenshot before use.
 - Likely sources or production method: asset URLs/domains in image samples.
@@ -89,8 +89,9 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 - Public stylesheet/script URLs: https://www.webinspoo.com/_next/static/chunks/03p_x0hlr6ev9.css; https://www.googletagmanager.com/gtag/js?id=G-V8X6RMCG1P&gtg_health=1; https://www.webinspoo.com/euy4/; https://www.webinspoo.com/_next/static/chunks/0uhyvxec_vzs4.js; https://www.webinspoo.com/_next/static/chunks/16ksa~32zaksw.js; https://www.webinspoo.com/_next/static/chunks/030lje4w49skv.js; https://www.webinspoo.com/_next/static/chunks/128aahewwf1we.js; https://www.webinspoo.com/_next/static/chunks/turbopack-0etm5yd2ek2g~.js; https://www.webinspoo.com/_next/static/chunks/0sc2gw7i6s266.js; https://www.webinspoo.com/_next/static/chunks/07arlpvrc_3o8.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-webinspoo-accessgrid-pricing-page-dom.html` for manual inspection.
-- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-page_hnhnrhnDU&w=1080&q=75; https://ik.imagekit.io/webinspoo/screenshots/thumb-exa-ai-pricing-page_AWYOPvmOS; https://ik.imagekit.io/webinspoo/favicons/logo-exa-ai_iSn1g2WSy; https://ik.imagekit.io/webinspoo/screenshots/long-cloudflare-pricing-page_BVKuR6pKa; https://ik.imagekit.io/webinspoo/favicons/logo-cloudflare_e_Fxe5SNe; https://ik.imagekit.io/webinspoo/screenshots/thumb-unsiloed-ai; https://ik.imagekit.io/webinspoo/favicons/logo-unsiloed_UVyjC6wSD
+- Component or class naming clues: DOM saved at `assets/2026-06-04-webinspoo-accessgrid-pricing-page-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-webinspoo-accessgrid-pricing-page-component-styles.json`
+- Asset CDN and media loading patterns: https://ik.imagekit.io/webinspoo/favicons/logo-accessgrid_M7xDyKp7a; https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-accessgrid-pricing-page_hnhnrhnDU&w=1080&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
 
 ## Motion
 - Page transitions: -lg:16px;--blur-xl:24px;--blur-3xl:64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-ge, 64px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:sanss;--default-mono-font-family:var(--font-geist-mono);--color-background:var(--background);--color-foregr, ty,)var(--tw-backdrop-saturate,)var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,visibility,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--d
@@ -112,6 +113,7 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 ## Interaction And Components
 - Navigation: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
 - Buttons/links: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear
+- Computed component styles: `assets/2026-06-04-webinspoo-accessgrid-pricing-page-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -120,7 +122,7 @@ WebInspoo AccessGrid Pricing Page is captured as a saas, pricing, security, insp
 - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
 - Token ideas: extract from computed colors, font roles, and CSS resources.
 - Libraries or techniques: animation, easing, intersection, reduced_motion, request_animation_frame, transform, transition
-- Performance/accessibility concerns: heavy media count 40 and scripts 34; check reduced-motion and image loading before copying motion patterns.
+- Performance/accessibility concerns: heavy media count 40 and scripts 35; check reduced-motion and image loading before copying motion patterns.
 
 ## Borrow
 - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.

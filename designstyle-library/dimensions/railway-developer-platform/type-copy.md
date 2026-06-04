@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1432, 'docH': 2173}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for dark developer dashboard polish.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://railway.com/pricing | title: Pricing | Railway | h1: Pay only for what your app uses, by the second | h2: Say goodbye to overprovisioning and optimizing box sizes. Railway only charges you for what your app uses.; Compare features || Customers -> https://railway.com/customers | title: Customers | Railway | h1: Loved by developers at 31% of the F500 | h2: Railway supports great software teams wherever they are. Hear how Railway powers businesses at the largest scale across AI, Fintech, B2B SaaS, and more.; We help customers achieve results || About -> https://railway.com/about | title: About | Railway | h1: About Railway | h2: Meet the train crew; Our investors
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Acceptable Use Policy
   - H2 samples: none observed
   - Navigation samples: Pricing

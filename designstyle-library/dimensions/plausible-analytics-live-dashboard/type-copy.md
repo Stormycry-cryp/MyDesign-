@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2879}
   - Community signal: Passed 2026-06-04 UI aesthetic probe as actual analytics dashboard; plain but clear and useful.
   - Page scope: public analytics dashboard
-  - Secondary pages inspected: See pricing -> https://plausible.io/ | title: Plausible Analytics | Simple, privacy-friendly Google Analytics alternative | h1: Easy to use and privacy-friendly Google Analytics alternative | h2: Why use Plausible Analytics?; People ❤️ Plausible || About -> https://plausible.io/about | title: About | Plausible Analytics | h1: About | h2: Our story; How we’re funded || Documentation -> https://plausible.io/docs | title: Plausible Analytics documentation | Plausible docs | h1: Plausible Analytics documentation | h2: Ready to ditch Google Analytics?
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
   - H2 samples: You just saw how Plausible tracks plausible.io No cookies, no personal data, no Google
   - Navigation samples: Login; Sign up
@@ -22,7 +22,7 @@
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `Login Sign up plausible.io 73 current visitors Filter Last 28 days UNIQUE VISITORS 303k 4% TOTAL VISITS 511k 3% TOTAL PAGEVIEWS 1.8M 4% VIEWS PER VISIT 3.61 6% BOUNCE RATE 42% 0% VISIT DURATION 7m 18s 4% 0 2k 4k 6k 8k 10k 12k 14k 7 May 12 May 17 May 22 May 27 `.
+  - Layout: infer from screenshot and viewport; primary page text sample starts `Login Sign up plausible.io 136 current visitors Filter Last 28 days UNIQUE VISITORS 303k 4% TOTAL VISITS 511k 3% TOTAL PAGEVIEWS 1.8M 4% VIEWS PER VISIT 3.61 6% BOUNCE RATE 42% 0% VISIT DURATION 7m 18s 4% 0 2k 4k 6k 8k 10k 12k 14k 7 May 12 May 17 May 22 May 27`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
   - Density: navigation count 2, image count 13, document height 2879.

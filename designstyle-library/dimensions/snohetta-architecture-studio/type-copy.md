@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5139}
   - Community signal: Httpster architecture/industrial design candidate; selected for global studio portfolio structure and spatial editorial pacing
   - Page scope: homepage architecture studio portfolio
-  - Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Snøhetta is a global transdisciplinary practice, working on projects of all scales.
   - H2 samples: Disciplines; Latest News; Highlighted Projects
   - Navigation samples: Snøhetta; Menu

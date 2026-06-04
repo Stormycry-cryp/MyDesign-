@@ -13,7 +13,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15486}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for polished productivity UI.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://www.raycast.com/pricing | title: Raycast Pricing: Free Forever or Pro with AI for $8/month | h1: none observed | h2: FAQs || Productivity -> https://www.raycast.com/store/category/productivity | title: +10 Best Productivity Tools - Raycast Extensions | h1: Productivity Extensions | h2: Raycast’s Featured Productivity Tools; 1Password || Customers -> https://www.raycast.com/customers | title: Raycast Customers | h1: Customers | h2: none observed
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Raycast Platform Acceptable Use Policy (including Platform Terms of Use)
   - H2 samples: PLEASE READ THESE PLATFORM TERMS OF USE CAREFULLY; PLEASE READ THESE TERMS CAREFULLY BEFORE USING THE PLATFORM; Acceptable Use; How we protect you from illegal content
   - Navigation samples: none observed
@@ -26,6 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-raycast-productivity-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-raycast-productivity-component-styles.json`
   - Asset CDN and media loading patterns: https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
 
 ## Inference

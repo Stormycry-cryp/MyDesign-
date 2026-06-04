@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13002}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for polished CRM workspace information design despite mild density flag.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://attio.com/pricing | title: Pricing | Attio | h1: From zero to IPO. | h2: Credits; Workspace || Startups -> https://attio.com/solutions/startup-crm | title: Attio: Ask more from CRM | h1: CRM for startups | h2: The real-time CRM for scaling startups.; From zero to one || Deal flow -> https://attio.com/solutions/deal-flow-management-software | title: Attio: Ask more from CRM | h1: Deal flow CRM | h2: The CRM for custom deal flow.; Organize
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: The revenue platform engineered for scale.
   - H2 samples: [01] POWERFUL PLATFORM; Start with 14 days of Pro, for free.; [02] ADAPTIVE MODEL; [03] DATA ENRICHMENT; [04] BUILT FOR SCALE; Enterprise-ready, out of the box.
   - Navigation samples: Customers; Pricing; Sign in; Start for free

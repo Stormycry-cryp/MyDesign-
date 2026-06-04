@@ -5,25 +5,25 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `COUNTER FORMS TEXTS TYPEFACES WORKROOM INFORMATION C O U N T E R F O R M S ACKNOWLEDGEMENT OF COUNTRY Counter Forms was made on/across/between the stolen lands of many Sovereign people including on Wurundjeri and Whadjuk lands. We recognise our practices are s`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 0, image count 9, document height 3217.
+  - Density: navigation count 0, image count 9, document height 3278.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
-  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3217}.
-  - Media/card aspect stability: image natural sizes include 660x449; 660x414; 660x429; 660x445; 660x470; 920x506; 660x380; 567x567; 567x567.
+  - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}.
+  - Media/card aspect stability: image natural sizes include 660x414; 660x449; 660x380; 660x470; 660x429; 920x506; 660x445; 567x567; 567x567.
   - Observed border radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px
 - Dimension ratios:
-  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3217}
-  - Observed media ratios: 660:449; 660:414; 660:429; 660:445; 660:470; 920:506; 660:380; 567:567; 567:567
+  - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}
+  - Observed media ratios: 660:414; 660:449; 660:380; 660:470; 660:429; 920:506; 660:445; 567:567; 567:567
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
 - Implementation notes:
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: easing, intersection, transform, transition
-  - Performance/accessibility concerns: heavy media count 9 and scripts 14; check reduced-motion and image loading before copying motion patterns.
+  - Libraries or techniques: easing, intersection, request_animation_frame, transform, transition
+  - Performance/accessibility concerns: heavy media count 9 and scripts 19; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference
 - Borrow:

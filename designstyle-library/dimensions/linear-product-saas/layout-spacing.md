@@ -11,11 +11,11 @@
 - Layout geometry:
   - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
   - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10781}.
-  - Media/card aspect stability: image natural sizes include 1062x493; 0x0; 6304x3520; 144x144; 144x144; 64x64; 96x96; 96x96; 64x64; 96x96.
+  - Media/card aspect stability: image natural sizes include 1062x493; 0x0; 6304x3520; 144x144; 144x144; 64x64; 64x64; 64x64; 64x64; 64x64.
   - Observed border radii: 6px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 50%; 6px; 6px
 - Dimension ratios:
   - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10781}
-  - Observed media ratios: 1062:493; 6304:3520; 144:144; 144:144; 64:64; 96:96; 96:96; 64:64; 96:96; 96:96
+  - Observed media ratios: 1062:493; 6304:3520; 144:144; 144:144; 64:64; 64:64; 64:64; 64:64; 64:64; 96:96
   - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
   - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
   - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
@@ -23,7 +23,7 @@
   - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
   - Token ideas: extract from computed colors, font roles, and CSS resources.
   - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 31 and scripts 28; check reduced-motion and image loading before copying motion patterns.
+  - Performance/accessibility concerns: heavy media count 31 and scripts 25; check reduced-motion and image loading before copying motion patterns.
 
 ## Inference
 - Borrow:

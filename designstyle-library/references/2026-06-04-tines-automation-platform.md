@@ -37,7 +37,7 @@ Tines Automation Platform is captured as a automation, workflow, saas reference 
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9154}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong automation/workflow product UI, with purple-use caution.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: /solutions/products/ -> https://www.tines.com/solutions/products/ | title: Solutions by product | Tines | h1: Connect anything | h2: Top products; By vendor || /solutions/product/ -> https://www.tines.com/solutions/product/ | title: Product Solutions: Extend your product without overextending your team | Tines | h1: Extend your product without overextending your team | h2: Smart, secure workflows; TINES LIBRARY || What is an intelligent workflow? Read blog → -> https://www.tines.com/blog/what-is-an-intelligent-workflow-platform-and-why-does-it-matter/ | title: What is an intelligent workflow platform, and why does it matter? | Tines | h1: What is an intelligent workflow platform, and why does it matter? | h2: What is an intelligent workflow platform?; How intelligent workflow platforms work
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: The intelligent workflow platform
 - H2 samples: Unmatched time to value; The future of workflows is interconnected
 - Navigation samples: Tines; Log in; Sign up; Book a demo; Platform; Pricing
@@ -90,6 +90,7 @@ Tines Automation Platform is captured as a automation, workflow, saas reference 
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-tines-automation-platform-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-tines-automation-platform-component-styles.json`
 - Asset CDN and media loading patterns: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjEiIGhlaWdodD0iNjMiIHZpZXdCb3g9IjAgMCA2MSA2MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGQ9Ik0xNS42NDg2ID; data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNjciIHZpZXdCb3g9IjAgMCA0MCA2NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGQ9Ik0yMS41NDA4ID; https://www.tines.com/static/SolutionByTeamsIconInNav-0b5935472bfcd4b4f2119b50583c8a8e.svg; https://www.tines.com/static/PartnersIconInNav-be0837b33d80081fe2315ae47b39a3a6.svg; https://www.datocms-assets.com/55802/1779971366-blog-winners-1-1200x630.png?auto=format; https://www.tines.com/static/CareersIllustrationInNav-6f48318ef45ba262f7e16d3f13edc70d.svg; https://www.tines.com/static/AboutIllustrationInNav-b6a69b97e3b02c924483a716d0829429.svg; https://www.tines.com/static/TinesStoreShelf-3519708ee8e95f97292a995d4c379165.svg
 
 ## Motion
@@ -112,6 +113,7 @@ Tines Automation Platform is captured as a automation, workflow, saas reference 
 ## Interaction And Components
 - Navigation: Tines; Log in; Sign up; Book a demo; Platform; Pricing
 - Buttons/links: PLATFORM; SOLUTIONS; RESOURCES; COMPANY; CONNECT; RSS
+- Computed component styles: `assets/2026-06-04-tines-automation-platform-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

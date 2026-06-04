@@ -37,7 +37,7 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for strong productivity interface mood.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: Blog -> https://www.cron.com/blog | title: Cron Blog | h1: Cron Blog; Cron is now Notion Calendar | h2: none observed
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: It’s about time.
 - H2 samples: none observed
 - Navigation samples: Blog; Changelog; Docs; Login; Sign up
@@ -90,6 +90,7 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-cron-calendar-interface-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-cron-calendar-interface-component-styles.json`
 - Asset CDN and media loading patterns: https://www.cron.com/images/brand/cron-logotype-s.png; https://www.cron.com/images/product/cron-2023-02-28@2x.png
 
 ## Motion
@@ -112,6 +113,7 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 ## Interaction And Components
 - Navigation: Blog; Changelog; Docs; Login; Sign up
 - Buttons/links: Sign up
+- Computed component styles: `assets/2026-06-04-cron-calendar-interface-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

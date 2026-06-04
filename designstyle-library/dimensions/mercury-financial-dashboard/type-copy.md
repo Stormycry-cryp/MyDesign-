@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13147}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for refined fintech dashboard mood.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: here -> https://mercury.com/blog/how-mercury-works-with-partner-banks | title: How Mercury works with its partners to bring you powerful banking | Mercury | h1: How Mercury works with its partners to bring you powerful banking | h2: The founder’s guide to invoice payment methods; AI in banking: From automation to autonomous action || Pricing -> https://mercury.com/pricing | title: Explore Pricing | Mercury | h1: Pricing that fits your business; Mercury | h2: Jump to section:; Everything you get with a Mercury account, plus: || Product Releases -> https://mercury.com/releases | title: Mercury Release Notes | Latest Features & Product Updates | h1: Release Notes | h2: Filter Menu; Command your money with Mercury CLI
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Radically different banking
   - H2 samples: Loved by 300K+ of the most ambitious entrepreneurs on the planet; You’re creating something to stand the test of time. So are we.; $650M in annual revenue and profitable; Mercury lands $300M Series C; Fast Company’s Most Innovative; Banking – redesigned from the ground up.
   - Navigation samples: Mercury logoThe logo for Mercury, featuring a circular emblem with abstract, interconnected swirling lines on the left, and the word "MERCURY" in clean, uppercase letters to the ri; Pricing; Log in; Open account

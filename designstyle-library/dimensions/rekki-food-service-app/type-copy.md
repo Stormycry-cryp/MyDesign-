@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}
   - Community signal: Httpster food/service/app candidate; selected for food operations app and marketplace structure
   - Page scope: homepage food service app
-  - Secondary pages inspected: David Dwek, CEO SEVEN SEEDED ‘It's incredibly liberating not having to key in one thousand five hundred orders a week‘ -> https://rekki.com/article/seven-seeded-rekki-connect-case-study | title: REKKI — How Seven Seeded saved over £50,000 with REKKI Connect | h1: none observed | h2: How Seven Seeded saved over £50,000 with REKKI Connect || Company -> https://rekki.com/about | title: REKKI — We make wholesale operations smarter so you can serve better | h1: none observed | h2: What guides us; Our Team
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Office robots built for wholesale distributors; Scale your business without growing costs
   - H2 samples: GET STARTED
   - Navigation samples: For Customer Service; For Sales; For Chefs; Company; BOOK A DEMO; GET A DEMO

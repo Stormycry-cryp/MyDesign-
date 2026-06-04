@@ -1,7 +1,7 @@
 ---
 title: "Developments Media Production"
 source_url: "https://developments.media/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["media", "production", "studio", "culture", "production-led", "media-rich", "editorial", "homepage", "showreel", "project-navigation", "transition", "hover", "video", "scroll", "public-css", "public-js"]
 category_tags: ["media", "production", "studio", "culture"]
 style_tags: ["production-led", "media-rich", "studio", "editorial"]
@@ -41,7 +41,7 @@ Developments Media Production is captured as a media, production, studio, cultur
 - H1 observed: none observed
 - H2 samples: none observed
 - Navigation samples: none observed
-- Images observed: Developments - © Developments 121x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; Sarah Bassett - © Developments 395x205 https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; Isabel + Helen - © Developments 395x205 https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; Colors And The Kids - © Developments 413x156 https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-800x.jpg; Pierre Rousseau - © Developments 225x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; Special Offer - © Developments 244x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; OKOK Services - © Developments 300x107 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; Giga Design Studio - © Developments 244x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
+- Images observed: Developments - © Developments 121x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; Sarah Bassett - © Developments 395x205 https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; Isabel + Helen - © Developments 395x205 https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; Colors And The Kids - © Developments 0x0 https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-1024x.jpg; Pierre Rousseau - © Developments 225x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; Special Offer - © Developments 244x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; OKOK Services - © Developments 300x107 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; Giga Design Studio - © Developments 244x150 data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
 - Video observed: none observed
 - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 
@@ -68,12 +68,12 @@ Developments Media Production is captured as a media, production, studio, cultur
 ## Layout Geometry And Spacing
 - First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 - Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.
-- Media/card aspect stability: image natural sizes include 121x150; 395x205; 395x205; 413x156; 225x150; 244x150; 300x107; 244x150; 258x150; 297x150.
+- Media/card aspect stability: image natural sizes include 121x150; 395x205; 395x205; 0x0; 225x150; 244x150; 300x107; 244x150; 258x150; 297x150.
 - Observed border radii: 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px
 
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
-- Observed media ratios: 121:150; 395:205; 395:205; 413:156; 225:150; 244:150; 300:107; 244:150; 258:150; 297:150
+- Observed media ratios: 121:150; 395:205; 395:205; 225:150; 244:150; 300:107; 244:150; 258:150; 297:150; 150:150
 - Observed spacing samples: automated pass did not measure spacing; use screenshot for exact spacing before implementation.
 - Preserve ratios as implementation constraints: preserve hero/media/card proportions visible in screenshot; avoid free-floating cards unless the captured page uses them.
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
@@ -89,8 +89,9 @@ Developments Media Production is captured as a media, production, studio, cultur
 - Public stylesheet/script URLs: https://developments.media/assets/fonts.css?v=1618395708; https://developments.media/assets/build/index.css?v=1774634291; https://developments.media/assets/build/vendor/modernizr-bundle.js?v=1774634291; https://www.googletagmanager.com/gtag/js?id=G-CX3GZK35H4; https://developments.media/assets/build/bundle.js?v=1774634291
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-developments-media-production-dom.html` for manual inspection.
-- Asset CDN and media loading patterns: data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-800x.jpg; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
+- Component or class naming clues: DOM saved at `assets/2026-06-04-developments-media-production-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-developments-media-production-component-styles.json`
+- Asset CDN and media loading patterns: data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-1024x.jpg; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
 
 ## Motion
 - Page transitions: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy, acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter ., ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter
@@ -112,6 +113,7 @@ Developments Media Production is captured as a media, production, studio, cultur
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: D; Read what they say about REFERENCES DEVELOPMENT STRATEGY ADVICE MANAGEMENT; REFERENCES; DEVELOPMENT; STRATEGY; ADVICE; MANAGEMENT
+- Computed component styles: `assets/2026-06-04-developments-media-production-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

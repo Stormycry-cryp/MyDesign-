@@ -4,15 +4,17 @@
 - Components:
   - Navigation: Product; Platform Overview; Workflows; Autoscaling; Private Networking; Persistent Disks; Infrastructure as Code; Preview Environments; Zero Downtime Deploys; Render API; Static Sites; Web Services; Private Services; Background Workers; Cron Jobs; Render Postgres
   - Buttons/links: none observed
+  - Computed component styles: `assets/2026-06-04-render-cloud-platform-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
 - Code surface:
   - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://render.com/_next/static/css/b0f5d8f15fd7fda5.css?dpl=dd6d8cb85; https://render.com/_next/static/css/305a22106d19e694.css?dpl=dd6d8cb85; https://render.com/_next/static/css/574dc7d9222aa34c.css?dpl=dd6d8cb85; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-16550422935; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://render.com/seg/cdn/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz; https://render.com/seg/cdn/next-integrations/integrations/linkedin-insight-tag/1.0.1/linkedin-insight-tag.dynamic.js.gz; https://render.com/seg/cdn/next-integrations/integrations/google-adwords-new/1.3.0/google-adwords-new.dynamic.js.gz; https://us-assets.i.posthog.com/static/array.js
+  - Public stylesheet/script URLs: https://render.com/_next/static/css/b0f5d8f15fd7fda5.css?dpl=dd6d8cb85; https://render.com/_next/static/css/305a22106d19e694.css?dpl=dd6d8cb85; https://render.com/_next/static/css/574dc7d9222aa34c.css?dpl=dd6d8cb85; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-16550422935; https://render.com/seg/cdn/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: DOM saved at `assets/2026-06-04-render-cloud-platform-dom.html` for manual inspection.
+  - Component computed-style evidence: `assets/2026-06-04-render-cloud-platform-component-styles.json`
   - Asset CDN and media loading patterns: none observed
 
 ## Inference

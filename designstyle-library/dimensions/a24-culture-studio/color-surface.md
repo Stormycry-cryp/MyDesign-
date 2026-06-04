@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `WANT MORE A24? Get our emails. Letters from our filmmakers, new trailers, podcasts, merch, and more. Not too often — just enough. EMAIL I understand that my information will be used in accordance with A24's Privacy Policy. Backrooms 2026 The Death of Robin Hoo`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 14, image count 26, document height 12676.
+  - Density: navigation count 14, image count 24, document height 12660.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

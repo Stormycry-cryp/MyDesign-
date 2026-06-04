@@ -56,6 +56,8 @@ A reference counts as usable only when all required evidence is present:
 
 Do not count blocked, blank, overlay-dominated, visually ordinary, purely remembered, or single-sentence entries toward batch goals such as "50 websites".
 
+Do not count Cloudflare/security challenge pages as references. If the screenshot, title, DOM, or component samples show challenge-page signatures such as `Attention Required | Cloudflare`, `Cloudflare Ray ID`, `Performance & security by Cloudflare`, `checking your browser`, `verify you are human`, `cf-chl`, or `challenge-platform`, exclude the candidate or move it to a blocked/excluded record until clean visual evidence is available. Do not automatically exclude a legitimate product page merely because its normal product copy or scripts mention CAPTCHA/recaptcha.
+
 ## Aesthetic Gate
 
 Run an aesthetic fit probe before writing any new reference. This is a blocking preflight, not a post-hoc review.
@@ -85,8 +87,22 @@ Decision rule:
    - For code evidence, prefer concrete clues: CSS variables, font declarations, layout primitives, spacing declarations, transition/animation/keyframe snippets, animation libraries, framework/runtime hints, asset CDN patterns, component names, image/video sources.
    - Do not store full proprietary CSS/JS. Store resource URLs, fetch date, motion-relevant snippets, matched selectors/properties/library names, and implementation interpretation.
    - For motion, preserve exact useful parameters whenever available: duration, delay, easing, `cubic-bezier(...)`, animated properties, transform direction/axis, keyframe names, translate/scale/rotate values, carousel translate strategy, and reduced-motion overrides.
+   - For high-quality code/component evidence, use a real browser runtime with Playwright and the system Chrome executable. Static HTML fetches are not enough for implementation-grade component styles because modern sites hydrate components, inject CSS variables, and compute hover/focus states after load.
+   - Required component-code capture toolchain:
+     - Python Playwright or an equivalent browser automation runtime that can call `getComputedStyle`, `getBoundingClientRect`, `locator.hover()`, and `locator.focus()`.
+     - Real Chromium/Chrome rendering, not plain HTTP scraping.
+     - Screenshot plus DOM snapshot plus structured JSON evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`.
+     - Public CSS/JS resource sampling for motion/code snippets, while avoiding full proprietary source dumps.
+   - High-quality component evidence must include sampled category, selector/class hint, visible text, geometry, computed typography/color/background/border/radius/shadow/padding/gap/transition/transform/cursor/backdrop styles, and hover/focus deltas where observable.
+   - Treat capture as failed for component-code quality if Playwright is missing or `component-styles.json` has zero samples. Do not mark fallback HTML extraction as successful component evidence.
+   - Treat capture as failed for component-code quality if component samples are from Cloudflare/security challenge UI. Do not retain challenge-page buttons, ray IDs, bot checks, or security vendor footers as component style evidence. Normal product copy that mentions CAPTCHA/recaptcha is not a blocked-page signal by itself.
+   - Clean abnormal browser-computed style artifacts before storing raw JSON. Values like `3.35544e+07px` are noise and must be filtered; valid common CSS such as `9999px` pill radii should remain.
+   - Before release or batch completion, run `clean_reference_noise.py --library <library> --check` so active references, dimensions, indexes, and design-system artifacts fail fast if abnormal scientific-notation `px` values remain.
+   - For large recrawls where the goal is component/code quality, prefer first-page computed component evidence over slow secondary-page summaries. Secondary pages are useful context but must not block code-style retention.
 
    STOP: If the reference cannot be viewed and there is no screenshot, HTML, or user-provided visual evidence, do not create a style reference from memory.
+   STOP: If implementation-grade component styles are requested and the browser runtime cannot produce computed component samples, report the tooling gap instead of claiming the design system has been refreshed.
+   STOP: If the captured page is a Cloudflare/security challenge, do not write or update the active reference. Preserve it only as excluded evidence and ask for a clean URL/screenshot or replacement reference.
 
 2. **Build The Evidence Matrix**
    Capture these dimensions before writing conclusions:
@@ -100,6 +116,7 @@ Decision rule:
    - Typography roles: brand/display, retail UI, body, metadata, CTA, technical labels; include observed font stacks, sizes, weights, letter spacing.
    - Style token system: dominant surfaces, border/radius/shadow grammar, icon/stroke style, dividers, focus/hover states, button density, form density, and whether the system feels product-led, editorial, dashboard-like, catalog-like, or campaign-like.
    - Design system retention: save the reference's color system as a reusable palette/moodboard, component style rules, token roles, evidence source, and missing-evidence limits. Color values must come from screenshot pixels or explicit DOM/CSS/reference values; component styles must come from observed component evidence. Do not invent palettes or component states.
+   - For live webpage captures, retain raw computed component evidence in `assets/YYYY-MM-DD-<slug>-component-styles.json`, including sampled navigation/buttons/cards/forms/icons/sections, geometry, computed styles, and hover/focus deltas when observable. Treat this JSON as L4 evidence that feeds `design-systems/<slug>/component-styles.md`.
    - Spacing rhythm: header height, hero padding, section vertical gaps, grid gutters, card padding, text block width, CTA spacing, media margins, mobile compression behavior, and any CSS variables such as `--spacing-*`, `gap`, `padding`, `margin`, or `grid-template-*`.
    - Color source: shell palette vs asset-driven palette; include observed text/background colors and contrast behavior.
    - Media system: image/video style, crop, subject, material texture, aspect ratios, asset domains, production method.
@@ -107,7 +124,7 @@ Decision rule:
    - Component grammar: nav, CTAs, cards, badges, forms, search, cart, menus, diagnostic flows, empty/loading/error states.
    - Motion: source video, hover, reveal, drawer/menu transitions, timing/easing, reduced-motion needs.
    - Motion code evidence: public CSS/JS resource URLs, `transition`, `animation`, `@keyframes`, `transform`, durations, easing curves, direction/axis values, `IntersectionObserver`, `requestAnimationFrame`, GSAP/Swiper/Framer/Slick/Owl hints, video play/pause code, and reduced-motion handling.
-   - Contamination: cookie banners, region selectors, newsletter modals, carts, chat widgets, accessibility widgets, captcha/security pages.
+   - Contamination: cookie banners, region selectors, newsletter modals, carts, chat widgets, accessibility widgets, Cloudflare/security challenge pages.
    - Do-not-copy boundaries: wordmark, proprietary typefaces, campaign images, product names, claims, brand-specific mythology.
 
 3. **Write The Reference**
@@ -134,11 +151,13 @@ Decision rule:
 
 4. **Self-Review And Revise**
    Before reporting completion, verify:
-- Grounded in visible evidence and screenshot paths.
-- Observed facts are separated from inference.
-- Overlay/security/modal contamination is called out.
-- Typography, color, layout geometry, assets, motion, components, and implementation notes are specific.
-- Color systems and component styles are retained as design-system artifacts, with exact source attribution and missing evidence called out.
+   - Grounded in visible evidence and screenshot paths.
+   - Observed facts are separated from inference.
+   - Overlay/security/modal contamination is called out.
+   - Typography, color, layout geometry, assets, motion, components, and implementation notes are specific.
+   - Color systems and component styles are retained as design-system artifacts, with exact source attribution and missing evidence called out.
+   - Live captures include raw component computed-style evidence when the browser can inspect the page.
+   - `component-styles.json` is non-empty and includes sampled computed styles; empty fallback JSON does not count.
    - `When Not To Use`, `Avoid Copying`, `Evidence Limits`, and `Self Review` are present.
    - The entry would retrieve for the right future task and not for the wrong one.
 
@@ -181,7 +200,8 @@ Use this workflow for large library expansion tasks.
 
 | Trigger | First response | Fallback |
 |---|---|---|
-| URL blocked by captcha/security | Record as unusable evidence; do not infer style | Ask for screenshot or replace with a cleaner reference |
+| URL blocked by Cloudflare/security challenge | Record as unusable evidence; do not infer style | Ask for screenshot or replace with a cleaner reference |
+| Cloudflare/security challenge appears in component JSON | Fail the component-code capture; exclude from active references | Move evidence to blocked/excluded records and recrawl only with clean access |
 | Cookie/region/newsletter overlay dominates | Try dismissing once if safe; recapture | Mark contamination and do not use overlay as aesthetic evidence |
 | Blank/minimal capture | Retry once with longer wait or alternate URL | Exclude or create an evidence-unavailable stub only |
 | Public source unavailable | Use visible UI, screenshots, asset domains, computed styles | Mark implementation details as inference |

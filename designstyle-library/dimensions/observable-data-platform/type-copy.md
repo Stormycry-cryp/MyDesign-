@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7709}
   - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for data notebook and workspace composition.
   - Page scope: home plus product/secondary links
-  - Secondary pages inspected: Pricing -> https://observablehq.com/pricing | title: Pricing for teams | Observable | h1: Pricing | h2: Notebook Free; Notebook Pro || Observable Framework -> https://observablehq.com/framework/ | title: Observable Framework | h1: The best dashboards are built with code. | h2: Create fast, beautiful data apps, dashboards, and reports from the command line. Write Markdown, JavaScript, SQL, Python, R… and any language you like. Free and open-source. || About -> https://observablehq.com/about | title: Our mission and our values | Observable | h1: The future of data analysis is Observable; What people say | h2: Making data make sense; Forging a path
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Not your typical notebook
   - H2 samples: The shortest path from idea to live code; Collaborate and share; Batteries included; Ready for production; Join the community; Get started today
   - Navigation samples: Notebooks; Pricing

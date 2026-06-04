@@ -14,18 +14,18 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}
   - Community signal: Httpster application/software candidate; selected for platform homepage and B2B product structure
   - Page scope: homepage software platform
-  - Secondary pages inspected: /pricing/ -> https://www.overpass.com/pricing/ | title: No Brainer Sales & Support Hiring Solution | Overpass | h1: Choose a subscription | h2: Why risk it all when you can risk nothing?; Find your perfect match || /solutions/sdr-bdr/ -> https://www.overpass.com/solutions/sdr-bdr/ | title: SDR BDR | Overpass | h1: SDR BDR | h2: Set up an account and start hiring! || Find Remote Work -> https://www.overpass.com/agent/ | title: Find Remote Sales & Support Jobs | Remote Sales, CSR, VA | Overpass | h1: none observed | h2: Find a perfect opportunity; You bring the experience. We bring everything else.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Certified; Certified; Certified
   - H2 samples: Stack your team with reps that crush it; Reimagine your sales team Reimagine your sales team Reimagine your sales team Reimagine your sales team; A new way to hire A new way to hire A new way to hire A new way to hire; Testimonials; Trusted by Trusted by Trusted by Trusted by Trusted by; Frequently Asked Questions
   - Navigation samples: Find a rep; Profile Insights; Assisted Hiring; Payment Facilitation; Lead Generation; About Us; Careers; Sales Academy; Blog; Podcasts; Webinars; Help Center
-  - Images observed: image 1517x2284 https://www.overpass.com/_nuxt/img/academy-img.e862b43.png; Trusted by 2308x86 https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86; Trusted by 2308x86 https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86; image 0x0 https://bat.bing.com/action/0?ti=26009120&Ver=2&mid=d5bb92e1-69bb-47e6-946b-2298fa1fa7e6&bo=1&sid=a5b049e05f4211f1bd8f070d26b964fc&vid=a5b06d705f4211f18591ede77a89624c&vi
+  - Images observed: image 1517x2284 https://www.overpass.com/_nuxt/img/academy-img.e862b43.png; Trusted by 2308x86 https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86; Trusted by 2308x86 https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Product Find a rep Profile Insights Assisted Hiring Payment Facilitation Solutions Lead Generation Company About Us Careers Resources Sales Academy Blog Podcasts Webinars Help Center Pricing Find Remote Work Login Top notch talent. Simple hiring. Finding relia`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 24, image count 4, document height 11184.
+  - Density: navigation count 24, image count 3, document height 11184.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

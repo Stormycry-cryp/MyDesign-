@@ -9,7 +9,7 @@
   - Layout: infer from screenshot and viewport; primary page text sample starts `EXPEDITED ONBOARDING FOR SVB CUSTOMERS CAPITAL CAPITAL HAS JOINED RHO • LEARN MORE Modern companies are built on Capital Earn 4% APY on all of your money Free, high-yield banking services with automated fundraising built right in. CAPITAL CUSTOMERS FOUNDERS IN`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 1, image count 22, document height 6826.
+  - Density: navigation count 1, image count 25, document height 7402.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

@@ -37,7 +37,7 @@ Visual Cinnamon Data Art is captured as a data-visualization, studio, informatio
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5442}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for high-aesthetic data visualization language.
 - Page scope: home plus portfolio/secondary links
-- Secondary pages inspected: ABOUT -> https://www.visualcinnamon.com/about/ | title: About | Nadieh Bremer - A Data Visualization Designer & Artist | Visual Cinnamon | h1: Bringing Your Data to Life | h2: What I do Best; The Design Process || /blog/ -> https://www.visualcinnamon.com/blog/ | title: Blog | Visual Cinnamon | h1: none observed | h2: Interested in transforming your data into stunning visual stories? — get in touch!
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Unique & Beautiful Data Visualizations and Data Art
 - H2 samples: My Clients Include; Awards; Join My Newsletter; Interested in transforming your data into stunning visual stories? — get in touch!
 - Navigation samples: DATA·VIZ; DATA·ART; CHART; ABOUT; CONTACT; BLOG
@@ -90,6 +90,7 @@ Visual Cinnamon Data Art is captured as a data-visualization, studio, informatio
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-visual-cinnamon-data-art-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-visual-cinnamon-data-art-component-styles.json`
 - Asset CDN and media loading patterns: https://www.visualcinnamon.com/svg/site/logo_visualcinnamon.svg; https://www.visualcinnamon.com/img/site/visual_cinnamon_logo_512.png; https://www.visualcinnamon.com/img/portfolio/2026/searching-for-birds/searching_for_birds_feature.png; https://www.visualcinnamon.com/img/portfolio/2025/sciam-radius-gap/radius_gap_feature.png; https://www.visualcinnamon.com/img/portfolio/2025/orca-commit-history/github_commit_history_feature.png; https://www.visualcinnamon.com/img/art/2024/GDQS/GDQS_feature.png; https://www.visualcinnamon.com/img/art/2021/elemental-flows/elemental_flows_feature.png; https://www.visualcinnamon.com/img/portfolio/2020/space-wars/space_wars_feature.png
 
 ## Motion
@@ -112,6 +113,7 @@ Visual Cinnamon Data Art is captured as a data-visualization, studio, informatio
 ## Interaction And Components
 - Navigation: DATA·VIZ; DATA·ART; CHART; ABOUT; CONTACT; BLOG
 - Buttons/links: none observed
+- Computed component styles: `assets/2026-06-04-visual-cinnamon-data-art-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

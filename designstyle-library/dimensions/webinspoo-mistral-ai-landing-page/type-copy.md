@@ -11,21 +11,21 @@
   - Captured URL: https://www.webinspoo.com/inspiration/mistral-landing-page-e2
   - Page title: WebInspoo | Mistral Landing Page
   - Screenshot: screenshots/webinspoo-mistral-ai-landing-page-desktop.png
-  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10590}
+  - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11174}
   - Community signal: WebInspoo AI landing page inspiration entry; selected for AI/developer platform landing page structure
   - Page scope: AI developer platform landing page inspiration
-  - Secondary pages inspected: Pricing pages -> https://www.webinspoo.com/category/saas-pricing-page-examples | title: 94 SaaS Pricing page examples for design inspiration | Webinspoo | h1: 94SaaS Pricing page examples | h2: Get the 7 best SaaS designs in your inbox each week. || Productivity -> https://www.webinspoo.com/tag/productivity-saas-websites-inspiration | title: 74 Productivity SaaS Websites Inspiration - Webinspoo | h1: 74Productivity SaaS Websites Inspiration | h2: Get the 7 best SaaS designs in your inbox each week. || About us pages -> https://www.webinspoo.com/category/saas-about-page-examples | title: 59 SaaS About page examples for design inspiration | Webinspoo | h1: 59SaaS About us page examples | h2: Get the 7 best SaaS designs in your inbox each week.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Mistral — Landing Page
   - H2 samples: Similar websites; Get the 7 best SaaS designs in your inbox each week.
   - Navigation samples: Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up
-  - Images observed: Mistral 180x180 https://ik.imagekit.io/webinspoo/favicons/logo-mistral_cQlDtaTdy; Mistral full page screenshot 1080x9260 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-mistral_nFS0rOJjB&w=1080&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.11yd70rprybg-.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.0_t6ea6okjat2.png&w=48&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.07hq-x6h~yil9.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.0.n1.k6z0dbw_.png&w=32&q=75; Website Icon 32x32 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F8.14.c_9ku.9673.png&w=32&q=75; Website Icon 24x24 https://www.webinspoo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F9.0fs_0n~eyq5k0.png&w=48&q=75
+  - Images observed: Mistral 180x180 https://ik.imagekit.io/webinspoo/favicons/logo-mistral_cQlDtaTdy; Mistral full page screenshot 1080x9260 https://www.webinspoo.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fwebinspoo%2Fscreenshots%2Flong-mistral_nFS0rOJjB&w=1080&q=75; Loopa screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-loopa-framer-website_kXgrcGzDwf.png; Loopa logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-loopa-framer-website_36RMjMQaz; Getmaito screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-getmaito-com_niRmZ4qUL.png; Getmaito logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-getmaito-com_yOvOj2O7P; Supaste screenshot 0x0 https://ik.imagekit.io/webinspoo/screenshots/thumb-supaste-com_7RZK2tLWp.png; Supaste logo 0x0 https://ik.imagekit.io/webinspoo/favicons/logo-supaste-com_xP2gkqqFU
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons none observed; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Mistral — Landing Page Frontier AI LLMs, assistants, agents, services | Mistral AI Fre`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
-  - Density: navigation count 7, image count 40, document height 10590.
+  - Density: navigation count 7, image count 40, document height 11174.
   - Shape: border radii samples recorded below.
   - Shadow/depth: inspect screenshot; automated pass records no shadow taxonomy.
 

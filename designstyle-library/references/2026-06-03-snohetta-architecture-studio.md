@@ -1,7 +1,7 @@
 ---
 title: "Snohetta Architecture Studio"
 source_url: "https://www.snohetta.com/"
-captured_at: "2026-06-03"
+captured_at: "2026-06-04"
 tags: ["architecture", "studio", "portfolio", "culture", "editorial", "spatial", "minimal", "project-led", "homepage", "portfolio-grid", "studio-navigation", "transition", "hover", "scroll", "public-css", "public-js"]
 category_tags: ["architecture", "studio", "portfolio", "culture"]
 style_tags: ["editorial", "spatial", "minimal", "project-led"]
@@ -37,7 +37,7 @@ Snohetta Architecture Studio is captured as a architecture, studio, portfolio, c
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5139}
 - Community signal: Httpster architecture/industrial design candidate; selected for global studio portfolio structure and spatial editorial pacing
 - Page scope: homepage architecture studio portfolio
-- Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Snøhetta is a global transdisciplinary practice, working on projects of all scales.
 - H2 samples: Disciplines; Latest News; Highlighted Projects
 - Navigation samples: Snøhetta; Menu
@@ -89,7 +89,8 @@ Snohetta Architecture Studio is captured as a architecture, studio, portfolio, c
 - Public stylesheet/script URLs: https://www.snohetta.com/assets/1773064926/bundle.css; https://www.snohetta.com/js/plascript.js; https://www.snohetta.com/assets/1773064926/bundle.es.js; https://www.snohetta.com/assets/1773064926/bundle.legacy.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-- Component or class naming clues: DOM saved at `assets/2026-06-03-snohetta-architecture-studio-dom.html` for manual inspection.
+- Component or class naming clues: DOM saved at `assets/2026-06-04-snohetta-architecture-studio-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-snohetta-architecture-studio-component-styles.json`
 - Asset CDN and media loading patterns: https://snohetta.b-cdn.net/uploads/oa/aura/2023199_N28_webimageland.jpg?width=750&height=500&quality=85&crop=1728%2C1152%2C160%2C0; https://snohetta.b-cdn.net/uploads/oa/usm-haller/US1234_webimageland.jpg?width=500&height=333&quality=85&crop=1717%2C1143%2C165%2C0; https://snohetta.b-cdn.net/uploads/images/IMG_9353.jpg?width=500&height=333&quality=85&crop=1771%2C1179%2C148%2C0; https://snohetta.b-cdn.net/uploads/oa/solstice-culinary-space/20241209_HK_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C0; https://snohetta.b-cdn.net/uploads/oa/good-finance-taichung/2022115_HK_N72_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C137; https://snohetta.b-cdn.net/uploads/oa/queensland-performing-arts-centre-the-glass-house-theatre/1818_AU_N25_webimageland.jpg?width=500&height=333&quality=85&crop=1920%2C1279%2C0%2C; https://snohetta.b-cdn.net/uploads/oa/ion-riva/2025201_OS_N3_webimageland.jpg?width=500&height=333&quality=85&crop=2048%2C1364%2C0%2C342; https://snohetta.b-cdn.net/uploads/images/Snohetta_Euraenergie_05-copy.jpg?width=500&height=333&quality=85&crop=2244%2C1495%2C0%2C0
 
 ## Motion
@@ -112,6 +113,7 @@ Snohetta Architecture Studio is captured as a architecture, studio, portfolio, c
 ## Interaction And Components
 - Navigation: Snøhetta; Menu
 - Buttons/links: Menu; <-; ->
+- Computed component styles: `assets/2026-06-04-snohetta-architecture-studio-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -132,11 +134,11 @@ Snohetta Architecture Studio is captured as a architecture, studio, portfolio, c
 
 ## Evidence Limits
 - Automated capture covers one desktop viewport and public DOM/resources only.
-- Secondary pages were not captured in this first pass.
+- Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.
 - Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.
 
 ## Self Review
 - Evidence quality: visual screenshot plus DOM/style/resource extraction
 - Reuse value: useful for homepage architecture studio portfolio if category and screenshot match the future task.
-- Missing pieces: mobile screenshot, secondary page states, manual overlay classification, exact spacing measurements.
+- Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.

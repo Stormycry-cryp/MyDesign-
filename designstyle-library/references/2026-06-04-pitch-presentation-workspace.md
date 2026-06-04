@@ -37,7 +37,7 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}
 - Community signal: Passed 2026-06-04 UI aesthetic probe; selected for high-impact but controlled product UI.
 - Page scope: home plus product/secondary links
-- Secondary pages inspected: Product -> https://pitch.com/templates/collections/Product | title: 10+ Free Product Presentation Templates - Fully Customizable | Pitch | Pitch | h1: none observed | h2: none observed || Resources -> https://pitch.com/blog | title: Blog | Pitch | h1: none observed | h2: Pitch Agent: The new era of AI presentations; ESSENTIAL READING || Pricing -> https://pitch.com/pricing | title: Pricing | Pitch | h1: Switch to Pitch | h2: Loved by teams around the world
+- Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
 - H1 observed: Create slides that win.
 - H2 samples: From prompt to presentation, 4M+ teams create and deliver winning slides together in Pitch.; Pitch is your presentation workspace; THE PAYOFF; From first draft to closed deal, and beyond; A complete presentation toolkit; Weave Pitch into your existing workflow
 - Navigation samples: Product; Use Cases; Templates; Resources; Pricing; Log in; Sign up
@@ -90,6 +90,7 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: DOM saved at `assets/2026-06-04-pitch-presentation-workspace-dom.html` for manual inspection.
+- Component computed-style evidence: `assets/2026-06-04-pitch-presentation-workspace-component-styles.json`
 - Asset CDN and media loading patterns: https://framerusercontent.com/images/OScGSLf3Du6gXnXNfzapfSunTI.png?scale-down-to=2048&width=2518&height=1309; https://framerusercontent.com/images/byi3NUA4aO2AMUMt8xX384GjISc.png?scale-down-to=2048&width=4642&height=4699; https://framerusercontent.com/images/PAwhOoEIgyOBkqpzvrtK09Pp5s.png?width=1920&height=1080; https://framerusercontent.com/images/AX127cQCRdbgqRHHV4TWYYeLs.png?width=1200&height=675; https://framerusercontent.com/images/d1Gzw1JLuvaoE3asa9TK73NTmg.png?width=1920&height=1080; https://framerusercontent.com/images/pnc2tUjPJHuHuW6ymMJlDhsyDfo.png?width=1920&height=1080; https://framerusercontent.com/images/CpFPsjnF5znMMwnTMeweiI3Ups.png?width=1200&height=675; https://framerusercontent.com/images/LwmgbB7CnX7Fz2qa0Ov01zYdxg.png?width=1200&height=675
 
 ## Motion
@@ -112,6 +113,7 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 ## Interaction And Components
 - Navigation: Product; Use Cases; Templates; Resources; Pricing; Log in; Sign up
 - Buttons/links: Prompts; Generate
+- Computed component styles: `assets/2026-06-04-pitch-presentation-workspace-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.

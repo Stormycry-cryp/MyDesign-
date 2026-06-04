@@ -14,7 +14,7 @@
   - Viewport: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11215}
   - Community signal: Httpster application/software selection; useful for B2B cybersecurity SaaS polish and trust/proof structure
   - Page scope: homepage enterprise cybersecurity SaaS
-  - Secondary pages inspected: none in automated first pass; recapture detail/pricing/docs pages when needed.
+  - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: Protect Everything You Build and Run; Schedule a call with a Wiz expert; Ready to see Wiz in action?
   - H2 samples: Customers rate Wiz #1 in cloud security; Anewdevelopmentreality.; A new operating model for AI-era security; AI-Powered Code-to-Cloud Defense; How Wiz helps: From Exposure to Code Fix; Trusted by security teams all over the world
   - Navigation samples: Sign in; Experiencing an incident?; Pricing

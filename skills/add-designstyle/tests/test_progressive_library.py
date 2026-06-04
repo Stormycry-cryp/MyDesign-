@@ -12,6 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BUILD = ROOT / "scripts" / "build_progressive_reference.py"
 VALIDATE = ROOT / "scripts" / "validate_progressive_library.py"
+SKILL = ROOT / "SKILL.md"
+PROBE = ROOT / "scripts" / "probe_aesthetic_fit.py"
 
 
 def load_module(path: Path, name: str):
@@ -175,6 +177,37 @@ def run(cmd: list[str]) -> subprocess.CompletedProcess[str]:
 
 
 class ProgressiveLibraryTests(unittest.TestCase):
+    def test_skill_requires_aesthetic_gate_before_writing_reference(self) -> None:
+        text = SKILL.read_text(encoding="utf-8")
+
+        self.assertIn("Aesthetic Gate", text)
+        self.assertIn("probe_aesthetic_fit.py", text)
+        self.assertIn("minimum_score: 75", text)
+        self.assertIn("Do not write the reference until the user confirms", text)
+
+
+    def test_aesthetic_probe_blocks_failed_capture(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            result = run([
+                sys.executable,
+                str(PROBE),
+                "--name",
+                "Missing Local Site",
+                "--url",
+                "http://127.0.0.1:9/not-running",
+                "--out-dir",
+                td,
+                "--timeout-ms",
+                "1000",
+            ])
+
+            self.assertEqual(result.returncode, 2)
+            payload = json.loads(result.stdout)
+            self.assertFalse(payload["allowed_to_write"])
+            self.assertEqual(payload["decision"], "warn_user_before_writing")
+            self.assertIn("blocked", payload["flags"])
+
+
     def test_dry_run_does_not_write(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             library = Path(td) / "library"

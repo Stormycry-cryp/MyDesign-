@@ -41,6 +41,7 @@ Create missing folders. Do not store secrets, private user data, full copied pro
 
 A reference counts as usable only when all required evidence is present:
 
+- It passes the **Aesthetic Gate** before any reference is written, or the user explicitly confirms adding it despite the warning.
 - One unique site or one clearly scoped page style from a broad multi-style site.
 - At least one screenshot or user-provided visual artifact.
 - A specific page scope: home, product, pricing, docs, case study, portfolio, article, checkout, dashboard, app screen, gallery, campaign, or search/listing.
@@ -50,11 +51,29 @@ A reference counts as usable only when all required evidence is present:
 - Community signal or selection reason for batch additions: source community, award/gallery list, repeated praise theme, or the user's stated reason.
 - Self-review that names what was revised and what still limits reuse.
 
-Do not count blocked, blank, overlay-dominated, purely remembered, or single-sentence entries toward batch goals such as "50 websites".
+Do not count blocked, blank, overlay-dominated, visually ordinary, purely remembered, or single-sentence entries toward batch goals such as "50 websites".
+
+## Aesthetic Gate
+
+Run an aesthetic fit probe before writing any new reference. This is a blocking preflight, not a post-hoc review.
+
+```bash
+python ~/.codex/skills/add-designstyle/scripts/probe_aesthetic_fit.py --name "site name" --url "https://example.com"
+```
+
+Use `minimum_score: 75` unless the user gives a stricter standard. Score visible first-viewport UI quality, not brand fame. Penalize government-like layouts, generic templates, weak typography hierarchy, cluttered navigation, low visual distinctiveness, blocked/404/security pages, cookie/modal contamination, and screenshots that do not show the actual target UI.
+
+Decision rule:
+
+- `score >= 75` and no severe flags: proceed to capture/write the reference.
+- `score < 75` or severe flags such as `blocked`, `404`, `overlay_dominated`, `blank`, `generic_template`, or `visually_ordinary`: stop and tell the user the score, screenshot path, and reasons. Do not write the reference until the user confirms.
+- If the user confirms after a warning, record `community_signal` or `Evidence Limits` with `user explicitly approved low aesthetic score <score>` so future retrieval understands the weakness.
+- For batches, probe all candidates first, save a candidate/rejection note in `reviews/YYYY-MM-DD-<batch>-candidates.md`, then write only approved candidates. Do not silently replace a failed candidate unless the user asked for a target count and equivalent replacements are available.
 
 ## Workflow
 
 1. **Capture Evidence**
+   - First run the **Aesthetic Gate**. If it fails, stop before writing files and ask for user confirmation.
    - If given a URL, inspect the live page.
    - Capture at least one screenshot when visual fidelity matters. Prefer desktop first viewport; add mobile/product-detail screenshots when relevant.
    - For a website rather than one screen, inspect at least two meaningful page states when available: home plus one product/pricing/docs/case-study/detail/listing page. If only one page is accessible, record `page_scope` and the missing states.

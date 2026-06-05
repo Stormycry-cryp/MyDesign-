@@ -97,6 +97,18 @@
       "title": "Buffet Digital Agency"
     },
     {
+      "card_path": "indexes/cards/bunkhouse.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/bunkhouse/component-styles.md",
+        "moodboard": "design-systems/bunkhouse/moodboard.svg",
+        "palette": "design-systems/bunkhouse/palette.md",
+        "tokens": "design-systems/bunkhouse/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-bunkhouse.md",
+      "slug": "bunkhouse",
+      "title": "Bunkhouse"
+    },
+    {
       "card_path": "indexes/cards/capital-finance-product.json",
       "design_system_paths": {
         "component_styles": "design-systems/capital-finance-product/component-styles.md",
@@ -913,5 +925,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 76
+  "total_cards": 77
 }

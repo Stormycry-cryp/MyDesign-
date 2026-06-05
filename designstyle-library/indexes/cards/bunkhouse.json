@@ -1,0 +1,66 @@
+{
+  "avoid_for": [
+    "dense saas dashboard",
+    "minimal utility product"
+  ],
+  "best_for": [
+    "boutique hospitality homepage",
+    "design-led hotel brand site"
+  ],
+  "category_tags": [
+    "hospitality",
+    "hotel-brand"
+  ],
+  "code_tags": [
+    "wordpress",
+    "video-light",
+    "computed-styles"
+  ],
+  "design_system_paths": {
+    "component_styles": "design-systems/bunkhouse/component-styles.md",
+    "moodboard": "design-systems/bunkhouse/moodboard.svg",
+    "palette": "design-systems/bunkhouse/palette.md",
+    "tokens": "design-systems/bunkhouse/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/bunkhouse/assets.md",
+    "color_surface": "dimensions/bunkhouse/color-surface.md",
+    "components_states": "dimensions/bunkhouse/components-states.md",
+    "layout_spacing": "dimensions/bunkhouse/layout-spacing.md",
+    "motion_code": "dimensions/bunkhouse/motion-code.md",
+    "scene": "dimensions/bunkhouse/scene.md",
+    "type_copy": "dimensions/bunkhouse/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "subtle-scroll",
+    "reveal-light"
+  ],
+  "page_scope": "brand homepage / hotel-group landing page",
+  "reference_path": "references/2026-06-05-bunkhouse.md",
+  "selection_note": "2026-06-05 curated daily UI candidate batch; confirmed by user as the only site to ingest from the hospitality set",
+  "slug": "bunkhouse",
+  "structure_tags": [
+    "image-led-hero",
+    "collage-grid",
+    "booking-light"
+  ],
+  "style_tags": [
+    "editorial-collage",
+    "design-led",
+    "boutique",
+    "story-led"
+  ],
+  "title": "Bunkhouse"
+}

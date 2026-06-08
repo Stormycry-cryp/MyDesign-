@@ -22,7 +22,7 @@ rsync -a designstyle-library/ ~/.codex/designstyle-library/
 
 ## Current Library
 
-The library includes 76 active validated UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, retained color systems, component style systems, asset direction, interaction states, motion/code evidence, and explicit evidence limits. One blocked Cloudflare/security challenge capture is preserved under excluded evidence folders and does not count toward active retrieval or scoring.
+The library includes 77 active validated UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, retained color systems, component style systems, asset direction, interaction states, motion/code evidence, and explicit evidence limits. One blocked Cloudflare/security challenge capture is preserved under excluded evidence folders and does not count toward active retrieval or scoring.
 
 The 2026-06-04 update adds a dashboard and information-display UI batch covering CRM workspaces, analytics dashboards, data platforms, developer platforms, observability tools, productivity interfaces, and data-storytelling references.
 
@@ -31,7 +31,7 @@ The progressive-disclosure layer lets `use-designstyle` search lightweight L1 ca
 - `designstyle-library/indexes/cards/*.json`: compact retrieval cards with evidence strength and missing-evidence limits.
 - `designstyle-library/dimensions/<slug>/*.md`: scene, layout/spacing, type/copy, color/surface, assets, motion/code, and components/states summaries.
 - `designstyle-library/design-systems/<slug>/`: per-reference `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` for exact palette and reusable component-style retention.
-- `designstyle-library/assets/2026-06-04-*-component-styles.json`: retained component evidence with geometry, computed CSS, and hover/focus samples where observable. Raw DOM snapshots are not stored in the default library; L4 DOM inspection is recaptured from the source URL only when L0-L3 evidence is insufficient.
+- `designstyle-library/assets/*-component-styles.json`: retained component evidence with geometry, computed CSS, and hover/focus samples where observable. Raw DOM snapshots are not stored in the default library; L4 DOM inspection is recaptured from the source URL only when L0-L3 evidence is insufficient.
 - `designstyle-library/references-excluded/blocked/`: blocked/challenge captures preserved outside active retrieval.
 - `designstyle-library/references/*.md`: full evidence records.
 
@@ -47,9 +47,9 @@ Code/component captures use Playwright with real Chrome rendering so references 
 python3 skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --library designstyle-library --matrix --design-system
 ```
 
-The current per-reference design-system score report is saved at `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: 76 active references, average 91.3/100, median 93.0/100, range 66-100, with 0 active blocked/challenge contamination and 0 active scientific-notation px noise. A clean-context independent sub-agent scored the state before the final text-noise cleanup at 88/100 and identified the remaining L2/L3 radius noise; that text layer was cleaned before v0.2.4 release.
+The current per-reference design-system score report is saved at `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: 77 active references, average 91.4/100, median 93/100, range 66-100, with 0 active blocked/challenge contamination and 0 active scientific-notation px noise. A clean-context independent sub-agent scored the state before the final text-noise cleanup at 88/100 and identified the remaining L2/L3 radius noise; that text layer was cleaned before v0.2.4 release.
 
-The v0.2.5 library cleanup removes committed raw DOM snapshots from the default library while keeping 76 active screenshots, 76 component-style JSON files, and 76 design-system packs. The default `designstyle-library` is 48M after cleanup; raw DOM is now external/on-demand L4 evidence.
+The v0.2.5 library cleanup removes committed raw DOM snapshots from the default library while keeping active screenshots, component-style JSON files, and design-system packs. The default `designstyle-library` is 49M after the v0.2.6 update; raw DOM is now external/on-demand L4 evidence.
 
 The v0.2.6 `use-designstyle` update adds upfront HITL and plan-led iteration. Before build work, the skill now collects style anchors, forbidden drift directions, motion richness level, asset boundaries, deliverable format, and required QA states. The direction plan is treated as an execution contract with a stepwise build plan, iteration log, and final QA checklist, so agents can build without repeatedly interrupting the user unless a hard blocker appears.
 

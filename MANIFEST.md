@@ -11,16 +11,16 @@ Date: 2026-06-08
 
 ## Library Contents
 
-- `designstyle-library/references`: 76 active validated Markdown references.
+- `designstyle-library/references`: 77 active validated Markdown references.
 - `designstyle-library/references-excluded/blocked`: 1 blocked reference excluded from active retrieval because the live page captured a Cloudflare/security challenge.
-- `designstyle-library/screenshots`: 76 active desktop evidence screenshots, one per active reference.
+- `designstyle-library/screenshots`: 77 active desktop evidence screenshots, one per active reference.
 - `designstyle-library/screenshots-excluded/blocked`: 1 blocked screenshot preserved as exclusion evidence.
-- `designstyle-library/assets`: 76 retained component-style JSON evidence files. Raw DOM snapshots are not stored in the default library.
+- `designstyle-library/assets`: 77 retained component-style JSON evidence files. Raw DOM snapshots are not stored in the default library.
 - `designstyle-library/assets-excluded/blocked`: 3 blocked evidence captures preserved outside active retrieval.
 - `designstyle-library/reviews`: candidate reviews, batch reports, capture evidence JSON, scoring reports, motion code probe JSON.
-- `designstyle-library/indexes`: manual indexes plus generated `manifest.json`, `facets.json`, and 76 L1 card JSON files.
-- `designstyle-library/dimensions`: 532 L2 dimension summaries, 7 per active reference.
-- `designstyle-library/design-systems`: 76 retained design-system packs, 1 per active reference, each with `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md`.
+- `designstyle-library/indexes`: manual indexes plus generated `manifest.json`, `facets.json`, and 77 L1 card JSON files.
+- `designstyle-library/dimensions`: 539 L2 dimension summaries, 7 per active reference.
+- `designstyle-library/design-systems`: 77 retained design-system packs, 1 per active reference, each with `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md`.
 
 ## Highlights
 
@@ -48,13 +48,13 @@ Validated locally before release:
 
 - `rg -n "Upfront HITL|Stepwise Build Plan|Iteration Log|Final QA Checklist" skills/use-designstyle/SKILL.md`: confirms the new HITL, stepwise plan, iteration log, and QA checklist gates are present.
 - `rg -n "repeated confirmation|filenames|hover/focus|post-animation" skills/use-designstyle/SKILL.md`: confirms the no-repeat-confirmation, asset visual-inspection, and interaction-state QA rules are present.
-- `validate_references.py --library designstyle-library --json`: 76 total, 76 valid, 0 invalid.
+- `validate_references.py --library designstyle-library --json`: 77 total, 77 valid, 0 invalid.
 - `clean_reference_noise.py --library designstyle-library --check`: no abnormal scientific-notation `px` values remain in active reference text artifacts.
-- `score_reference_quality.py --library designstyle-library --markdown-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md --json-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.json`: 76 references scored with per-dimension breakdown.
-- `build_progressive_reference.py --library designstyle-library --all --dry-run`: 76 cards and 532 dimensions planned.
-- `build_progressive_reference.py --library designstyle-library --all`: 76 cards and 532 dimensions written idempotently.
-- `validate_progressive_library.py --library designstyle-library --json`: 76 cards, 0 invalid, 0 errors.
+- `score_reference_quality.py --library designstyle-library --markdown-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md --json-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.json`: 77 references scored with per-dimension breakdown.
+- `build_progressive_reference.py --library designstyle-library --all --dry-run`: 77 cards and 539 dimensions planned.
+- `build_progressive_reference.py --library designstyle-library --all`: 77 cards and 539 dimensions written idempotently.
+- `validate_progressive_library.py --library designstyle-library --json`: 77 cards, 0 invalid, 0 errors.
 - `search_references.py "dashboard analytics color system table components" --library designstyle-library --matrix --design-system`: search output includes retained design-system paths, palette colors, and component style sections.
 - Blocked-page scan: Cloudflare/security challenge-page signatures are absent from active references, retained component JSON, active design-system artifacts, and active dimensions.
 - Raw/reference/design-system noise scan: abnormal scientific-notation `px` values are not present in active retained artifacts.
-- `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: per-reference design-system quality report with 76 active score rows, average 91.3/100, median 93.0/100, range 66-100, and explicit dimension-level point breakdown.
+- `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: per-reference design-system quality report with 77 active score rows, average 91.4/100, median 93/100, range 66-100, and explicit dimension-level point breakdown.

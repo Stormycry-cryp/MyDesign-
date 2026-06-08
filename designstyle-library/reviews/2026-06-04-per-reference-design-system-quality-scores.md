@@ -1,16 +1,16 @@
 # Per-Reference Design-System Quality Scores
 
-Date: 2026-06-04
+Date: 2026-06-08
 
 This report scores each active reference individually for practical design-system and component-style reuse. It is not a pure aesthetic taste score; it measures how useful each reference is as implementation-grade evidence.
 
 ## Summary
 
-- Active references scored: 76
-- Average score: 91.3/100
-- Median score: 93.0/100
+- Active references scored: 77
+- Average score: 91.4/100
+- Median score: 93/100
 - Score range: 66 to 100
-- 90+: 52
+- 90+: 53
 - 80-89: 17
 - 70-79: 5
 - Below 70: 2
@@ -41,74 +41,75 @@ This report scores each active reference individually for practical design-syste
 | 6 | benvenusa-food-wine | 79 | C+ | 27 | 11 | 14 | 12 | 0 | 10 | 5 | 51 | 4 | 1 | 0 | 12 | -3 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -3 reusable computed component styles; -10 hover/focus state evidence |
 | 7 | better-stack-observability | 95 | A | 30 | 15 | 15 | 15 | 5 | 10 | 5 | 132 | 6 | 7 | 1 | 15 | -5 hover/focus state evidence |
 | 8 | buffet-digital-agency | 88 | B+ | 28 | 11 | 15 | 15 | 4 | 10 | 5 | 57 | 4 | 9 | 0 | 11 | -2 retained browser component evidence; -4 component category coverage; -6 hover/focus state evidence |
-| 9 | capital-finance-product | 85 | B+ | 25 | 13 | 15 | 12 | 5 | 10 | 5 | 26 | 5 | 10 | 0 | 15 | -5 retained browser component evidence; -2 component category coverage; -3 reusable computed component styles; -5 hover/focus state evidence |
-| 10 | clay-data-workspace | 95 | A | 30 | 13 | 15 | 14 | 8 | 10 | 5 | 127 | 5 | 9 | 6 | 11 | -2 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
-| 11 | cleo-ai-fintech-storytelling | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 110 | 5 | 11 | 2 | 14 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 12 | climate-trace-explore | 91 | A- | 30 | 11 | 15 | 15 | 5 | 10 | 5 | 97 | 4 | 9 | 1 | 16 | -4 component category coverage; -5 hover/focus state evidence |
-| 13 | cosmos-creative-network | 92 | A- | 29 | 15 | 15 | 15 | 3 | 10 | 5 | 69 | 6 | 4 | 2 | 12 | -1 retained browser component evidence; -7 hover/focus state evidence |
-| 14 | counter-forms-typography-resource | 80 | B | 26 | 11 | 15 | 12 | 1 | 10 | 5 | 39 | 4 | 1 | 1 | 15 | -4 retained browser component evidence; -4 component category coverage; -3 reusable computed component styles; -9 hover/focus state evidence |
-| 15 | cron-calendar-interface | 76 | C+ | 24 | 8 | 14 | 10 | 5 | 10 | 5 | 18 | 3 | 8 | 1 | 16 | -6 retained browser component evidence; -7 component category coverage; -1 design-system file completeness; -5 reusable computed component styles; -5 hover/focus state evidence |
-| 16 | developments-media-production | 93 | A- | 30 | 11 | 15 | 14 | 8 | 10 | 5 | 85 | 4 | 9 | 6 | 8 | -4 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
-| 17 | eclipse-builders-software | 95 | A | 30 | 13 | 15 | 14 | 8 | 10 | 5 | 82 | 5 | 9 | 6 | 11 | -2 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
-| 18 | electricity-maps-app | 87 | B+ | 29 | 11 | 15 | 15 | 2 | 10 | 5 | 71 | 4 | 4 | 0 | 15 | -1 retained browser component evidence; -4 component category coverage; -8 hover/focus state evidence |
-| 19 | equals-spreadsheet-analytics | 93 | A- | 29 | 13 | 15 | 15 | 6 | 10 | 5 | 74 | 5 | 12 | 0 | 13 | -1 retained browser component evidence; -2 component category coverage; -4 hover/focus state evidence |
-| 20 | figma-design-platform | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 106 | 5 | 12 | 2 | 11 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 21 | footer-design-gallery-resource | 97 | A | 30 | 13 | 15 | 14 | 10 | 10 | 5 | 102 | 5 | 12 | 10 | 15 | -2 component category coverage; -1 reusable computed component styles |
-| 22 | glyphs-app-design-tool | 91 | A- | 30 | 11 | 15 | 14 | 6 | 10 | 5 | 112 | 4 | 12 | 0 | 14 | -4 component category coverage; -1 reusable computed component styles; -4 hover/focus state evidence |
-| 23 | hex-data-workspace | 88 | B+ | 30 | 13 | 15 | 15 | 0 | 10 | 5 | 137 | 5 | 1 | 0 | 15 | -2 component category coverage; -10 hover/focus state evidence |
-| 24 | jacky-winter-gallery | 95 | A | 30 | 13 | 15 | 15 | 7 | 10 | 5 | 97 | 5 | 9 | 5 | 11 | -2 component category coverage; -3 hover/focus state evidence |
-| 25 | linear-product-saas | 99 | A | 30 | 15 | 15 | 15 | 9 | 10 | 5 | 119 | 6 | 11 | 5 | 16 | -1 hover/focus state evidence |
-| 26 | livesurface-product-software | 93 | A- | 30 | 11 | 14 | 13 | 10 | 10 | 5 | 77 | 4 | 12 | 8 | 9 | -4 component category coverage; -1 design-system file completeness; -2 reusable computed component styles |
-| 27 | lunchbox-restaurant-commerce-saas | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 146 | 6 | 12 | 0 | 12 | -4 hover/focus state evidence |
-| 28 | making-software-editorial-tooling | 90 | A- | 29 | 13 | 15 | 14 | 4 | 10 | 5 | 63 | 5 | 5 | 3 | 11 | -1 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -6 hover/focus state evidence |
-| 29 | mercury-financial-dashboard | 91 | A- | 30 | 15 | 15 | 15 | 1 | 10 | 5 | 104 | 6 | 1 | 1 | 16 | -9 hover/focus state evidence |
-| 30 | mezmo-observability-saas | 92 | A- | 30 | 11 | 15 | 14 | 7 | 10 | 5 | 93 | 4 | 11 | 1 | 16 | -4 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 31 | middle-name-agency-studio | 85 | B+ | 25 | 13 | 15 | 11 | 6 | 10 | 5 | 18 | 5 | 6 | 4 | 15 | -5 retained browser component evidence; -2 component category coverage; -4 reusable computed component styles; -4 hover/focus state evidence |
-| 32 | notion-workspace-product | 98 | A | 30 | 15 | 15 | 15 | 8 | 10 | 5 | 147 | 6 | 8 | 6 | 14 | -2 hover/focus state evidence |
-| 33 | observable-data-platform | 89 | B+ | 29 | 11 | 15 | 14 | 5 | 10 | 5 | 70 | 4 | 6 | 3 | 16 | -1 retained browser component evidence; -4 component category coverage; -1 reusable computed component styles; -5 hover/focus state evidence |
-| 34 | ossa-wine-ecommerce | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 85 | 6 | 12 | 0 | 12 | -4 hover/focus state evidence |
-| 35 | overpass-software-platform | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 126 | 6 | 12 | 0 | 15 | -4 hover/focus state evidence |
-| 36 | patrick-mason-studio-portfolio | 69 | C | 23 | 8 | 15 | 8 | 0 | 10 | 5 | 6 | 3 | 1 | 0 | 12 | -7 retained browser component evidence; -7 component category coverage; -7 reusable computed component styles; -10 hover/focus state evidence |
-| 37 | pitch-interactive-data-studio | 83 | B | 27 | 11 | 14 | 12 | 4 | 10 | 5 | 44 | 4 | 7 | 0 | 15 | -3 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -3 reusable computed component styles; -6 hover/focus state evidence |
-| 38 | pitch-presentation-workspace | 99 | A | 30 | 15 | 15 | 15 | 9 | 10 | 5 | 81 | 6 | 12 | 5 | 13 | -1 hover/focus state evidence |
-| 39 | plausible-analytics-live-dashboard | 92 | A- | 29 | 11 | 15 | 14 | 8 | 10 | 5 | 73 | 4 | 7 | 6 | 15 | -1 retained browser component evidence; -4 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
-| 40 | railway-developer-platform | 84 | B | 26 | 11 | 15 | 13 | 4 | 10 | 5 | 38 | 4 | 4 | 3 | 13 | -4 retained browser component evidence; -4 component category coverage; -2 reusable computed component styles; -6 hover/focus state evidence |
-| 41 | raycast-productivity | 78 | C+ | 24 | 8 | 15 | 12 | 4 | 10 | 5 | 24 | 3 | 4 | 3 | 15 | -6 retained browser component evidence; -7 component category coverage; -3 reusable computed component styles; -6 hover/focus state evidence |
-| 42 | reflect-notes-interface | 94 | A- | 30 | 13 | 15 | 15 | 6 | 10 | 5 | 91 | 5 | 12 | 0 | 15 | -2 component category coverage; -4 hover/focus state evidence |
-| 43 | rekki-food-service-app | 94 | A- | 27 | 15 | 15 | 14 | 8 | 10 | 5 | 42 | 6 | 11 | 3 | 12 | -3 retained browser component evidence; -1 reusable computed component styles; -2 hover/focus state evidence |
-| 44 | render-cloud-platform | 93 | A- | 29 | 13 | 15 | 14 | 7 | 10 | 5 | 73 | 5 | 12 | 2 | 11 | -1 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 45 | retool-internal-tools | 89 | B+ | 30 | 13 | 15 | 14 | 2 | 10 | 5 | 117 | 5 | 4 | 0 | 15 | -2 component category coverage; -1 reusable computed component styles; -8 hover/focus state evidence |
-| 46 | rows-spreadsheet-dashboard | 92 | A- | 28 | 13 | 15 | 14 | 7 | 10 | 5 | 60 | 5 | 12 | 1 | 15 | -2 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 47 | snohetta-architecture-studio | 93 | A- | 28 | 13 | 15 | 15 | 7 | 10 | 5 | 59 | 5 | 9 | 4 | 12 | -2 retained browser component evidence; -2 component category coverage; -3 hover/focus state evidence |
-| 48 | stripe-product-platform | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 114 | 5 | 9 | 4 | 15 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
-| 49 | supabase-developer-platform | 88 | B+ | 29 | 13 | 15 | 15 | 1 | 10 | 5 | 63 | 5 | 2 | 0 | 16 | -1 retained browser component evidence; -2 component category coverage; -9 hover/focus state evidence |
-| 50 | teenage-engineering-hardware-brand | 92 | A- | 28 | 13 | 15 | 15 | 6 | 10 | 5 | 62 | 5 | 12 | 0 | 11 | -2 retained browser component evidence; -2 component category coverage; -4 hover/focus state evidence |
-| 51 | the-pudding-data-stories | 95 | A | 29 | 15 | 15 | 15 | 6 | 10 | 5 | 70 | 6 | 11 | 0 | 14 | -1 retained browser component evidence; -4 hover/focus state evidence |
-| 52 | tines-automation-platform | 94 | A- | 30 | 15 | 15 | 15 | 4 | 10 | 5 | 126 | 6 | 9 | 0 | 15 | -6 hover/focus state evidence |
-| 53 | tinybird-analytics-infrastructure | 89 | B+ | 30 | 11 | 15 | 14 | 4 | 10 | 5 | 98 | 4 | 6 | 2 | 15 | -4 component category coverage; -1 reusable computed component styles; -6 hover/focus state evidence |
-| 54 | typeform-product-forms-saas | 92 | A- | 30 | 13 | 15 | 14 | 5 | 10 | 5 | 97 | 5 | 7 | 2 | 16 | -2 component category coverage; -1 reusable computed component styles; -5 hover/focus state evidence |
-| 55 | uncut-typography-resource | 80 | B | 24 | 13 | 15 | 10 | 3 | 10 | 5 | 16 | 5 | 5 | 2 | 11 | -6 retained browser component evidence; -2 component category coverage; -5 reusable computed component styles; -7 hover/focus state evidence |
-| 56 | usps-delivers-generational-report | 84 | B | 25 | 11 | 15 | 11 | 7 | 10 | 5 | 22 | 4 | 11 | 1 | 13 | -5 retained browser component evidence; -4 component category coverage; -4 reusable computed component styles; -3 hover/focus state evidence |
-| 57 | vercel-developer-platform | 91 | A- | 30 | 15 | 15 | 15 | 1 | 10 | 5 | 131 | 6 | 2 | 0 | 15 | -9 hover/focus state evidence |
-| 58 | viens-la-travel-hospitality | 93 | A- | 30 | 13 | 15 | 15 | 5 | 10 | 5 | 87 | 5 | 9 | 2 | 16 | -2 component category coverage; -5 hover/focus state evidence |
-| 59 | visual-cinnamon-data-art | 95 | A | 28 | 13 | 15 | 14 | 10 | 10 | 5 | 55 | 5 | 12 | 9 | 16 | -2 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles |
-| 60 | visual-journal-editorial | 73 | C+ | 24 | 11 | 14 | 7 | 2 | 10 | 5 | 7 | 4 | 4 | 0 | 11 | -6 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -8 reusable computed component styles; -8 hover/focus state evidence |
-| 61 | viviens-creative-talent | 66 | C | 24 | 5 | 14 | 8 | 0 | 10 | 5 | 21 | 2 | 0 | 0 | 11 | -6 retained browser component evidence; -10 component category coverage; -1 design-system file completeness; -7 reusable computed component styles; -10 hover/focus state evidence |
-| 62 | wam-architecture-studio | 87 | B+ | 29 | 11 | 14 | 12 | 6 | 10 | 5 | 69 | 4 | 10 | 2 | 11 | -1 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -3 reusable computed component styles; -4 hover/focus state evidence |
-| 63 | webinspoo-accessgrid-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
-| 64 | webinspoo-airmee-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 97 | 6 | 12 | 9 | 12 | none |
-| 65 | webinspoo-bevel-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
-| 66 | webinspoo-braintrust-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
-| 67 | webinspoo-browserbase-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
-| 68 | webinspoo-cloudflare-pricing-pattern | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
-| 69 | webinspoo-exa-ai-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
-| 70 | webinspoo-expenseai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
-| 71 | webinspoo-mistral-ai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
-| 72 | webinspoo-poolside-ai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 102 | 6 | 12 | 9 | 12 | none |
-| 73 | webinspoo-rerun-developer-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
-| 74 | webinspoo-unkey-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 98 | 6 | 12 | 9 | 12 | none |
-| 75 | webinspoo-weav-saas-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
-| 76 | wiz-cybersecurity-saas | 90 | A- | 30 | 15 | 15 | 15 | 0 | 10 | 5 | 125 | 6 | 1 | 0 | 15 | -10 hover/focus state evidence |
+| 9 | bunkhouse | 95 | A | 30 | 13 | 15 | 14 | 8 | 10 | 5 | 99 | 5 | 12 | 3 | 12 | -2 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 10 | capital-finance-product | 85 | B+ | 25 | 13 | 15 | 12 | 5 | 10 | 5 | 26 | 5 | 10 | 0 | 15 | -5 retained browser component evidence; -2 component category coverage; -3 reusable computed component styles; -5 hover/focus state evidence |
+| 11 | clay-data-workspace | 95 | A | 30 | 13 | 15 | 14 | 8 | 10 | 5 | 127 | 5 | 9 | 6 | 11 | -2 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 12 | cleo-ai-fintech-storytelling | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 110 | 5 | 11 | 2 | 14 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 13 | climate-trace-explore | 91 | A- | 30 | 11 | 15 | 15 | 5 | 10 | 5 | 97 | 4 | 9 | 1 | 16 | -4 component category coverage; -5 hover/focus state evidence |
+| 14 | cosmos-creative-network | 92 | A- | 29 | 15 | 15 | 15 | 3 | 10 | 5 | 69 | 6 | 4 | 2 | 12 | -1 retained browser component evidence; -7 hover/focus state evidence |
+| 15 | counter-forms-typography-resource | 80 | B | 26 | 11 | 15 | 12 | 1 | 10 | 5 | 39 | 4 | 1 | 1 | 15 | -4 retained browser component evidence; -4 component category coverage; -3 reusable computed component styles; -9 hover/focus state evidence |
+| 16 | cron-calendar-interface | 76 | C+ | 24 | 8 | 14 | 10 | 5 | 10 | 5 | 18 | 3 | 8 | 1 | 16 | -6 retained browser component evidence; -7 component category coverage; -1 design-system file completeness; -5 reusable computed component styles; -5 hover/focus state evidence |
+| 17 | developments-media-production | 93 | A- | 30 | 11 | 15 | 14 | 8 | 10 | 5 | 85 | 4 | 9 | 6 | 8 | -4 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 18 | eclipse-builders-software | 95 | A | 30 | 13 | 15 | 14 | 8 | 10 | 5 | 82 | 5 | 9 | 6 | 11 | -2 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 19 | electricity-maps-app | 87 | B+ | 29 | 11 | 15 | 15 | 2 | 10 | 5 | 71 | 4 | 4 | 0 | 15 | -1 retained browser component evidence; -4 component category coverage; -8 hover/focus state evidence |
+| 20 | equals-spreadsheet-analytics | 93 | A- | 29 | 13 | 15 | 15 | 6 | 10 | 5 | 74 | 5 | 12 | 0 | 13 | -1 retained browser component evidence; -2 component category coverage; -4 hover/focus state evidence |
+| 21 | figma-design-platform | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 106 | 5 | 12 | 2 | 11 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 22 | footer-design-gallery-resource | 97 | A | 30 | 13 | 15 | 14 | 10 | 10 | 5 | 102 | 5 | 12 | 10 | 15 | -2 component category coverage; -1 reusable computed component styles |
+| 23 | glyphs-app-design-tool | 91 | A- | 30 | 11 | 15 | 14 | 6 | 10 | 5 | 112 | 4 | 12 | 0 | 14 | -4 component category coverage; -1 reusable computed component styles; -4 hover/focus state evidence |
+| 24 | hex-data-workspace | 88 | B+ | 30 | 13 | 15 | 15 | 0 | 10 | 5 | 137 | 5 | 1 | 0 | 15 | -2 component category coverage; -10 hover/focus state evidence |
+| 25 | jacky-winter-gallery | 95 | A | 30 | 13 | 15 | 15 | 7 | 10 | 5 | 97 | 5 | 9 | 5 | 11 | -2 component category coverage; -3 hover/focus state evidence |
+| 26 | linear-product-saas | 99 | A | 30 | 15 | 15 | 15 | 9 | 10 | 5 | 119 | 6 | 11 | 5 | 16 | -1 hover/focus state evidence |
+| 27 | livesurface-product-software | 93 | A- | 30 | 11 | 14 | 13 | 10 | 10 | 5 | 77 | 4 | 12 | 8 | 9 | -4 component category coverage; -1 design-system file completeness; -2 reusable computed component styles |
+| 28 | lunchbox-restaurant-commerce-saas | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 146 | 6 | 12 | 0 | 12 | -4 hover/focus state evidence |
+| 29 | making-software-editorial-tooling | 90 | A- | 29 | 13 | 15 | 14 | 4 | 10 | 5 | 63 | 5 | 5 | 3 | 11 | -1 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -6 hover/focus state evidence |
+| 30 | mercury-financial-dashboard | 91 | A- | 30 | 15 | 15 | 15 | 1 | 10 | 5 | 104 | 6 | 1 | 1 | 16 | -9 hover/focus state evidence |
+| 31 | mezmo-observability-saas | 92 | A- | 30 | 11 | 15 | 14 | 7 | 10 | 5 | 93 | 4 | 11 | 1 | 16 | -4 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 32 | middle-name-agency-studio | 85 | B+ | 25 | 13 | 15 | 11 | 6 | 10 | 5 | 18 | 5 | 6 | 4 | 15 | -5 retained browser component evidence; -2 component category coverage; -4 reusable computed component styles; -4 hover/focus state evidence |
+| 33 | notion-workspace-product | 98 | A | 30 | 15 | 15 | 15 | 8 | 10 | 5 | 147 | 6 | 8 | 6 | 14 | -2 hover/focus state evidence |
+| 34 | observable-data-platform | 89 | B+ | 29 | 11 | 15 | 14 | 5 | 10 | 5 | 70 | 4 | 6 | 3 | 16 | -1 retained browser component evidence; -4 component category coverage; -1 reusable computed component styles; -5 hover/focus state evidence |
+| 35 | ossa-wine-ecommerce | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 85 | 6 | 12 | 0 | 12 | -4 hover/focus state evidence |
+| 36 | overpass-software-platform | 96 | A | 30 | 15 | 15 | 15 | 6 | 10 | 5 | 126 | 6 | 12 | 0 | 15 | -4 hover/focus state evidence |
+| 37 | patrick-mason-studio-portfolio | 69 | C | 23 | 8 | 15 | 8 | 0 | 10 | 5 | 6 | 3 | 1 | 0 | 12 | -7 retained browser component evidence; -7 component category coverage; -7 reusable computed component styles; -10 hover/focus state evidence |
+| 38 | pitch-interactive-data-studio | 83 | B | 27 | 11 | 14 | 12 | 4 | 10 | 5 | 44 | 4 | 7 | 0 | 15 | -3 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -3 reusable computed component styles; -6 hover/focus state evidence |
+| 39 | pitch-presentation-workspace | 99 | A | 30 | 15 | 15 | 15 | 9 | 10 | 5 | 81 | 6 | 12 | 5 | 13 | -1 hover/focus state evidence |
+| 40 | plausible-analytics-live-dashboard | 92 | A- | 29 | 11 | 15 | 14 | 8 | 10 | 5 | 73 | 4 | 7 | 6 | 15 | -1 retained browser component evidence; -4 component category coverage; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 41 | railway-developer-platform | 84 | B | 26 | 11 | 15 | 13 | 4 | 10 | 5 | 38 | 4 | 4 | 3 | 13 | -4 retained browser component evidence; -4 component category coverage; -2 reusable computed component styles; -6 hover/focus state evidence |
+| 42 | raycast-productivity | 78 | C+ | 24 | 8 | 15 | 12 | 4 | 10 | 5 | 24 | 3 | 4 | 3 | 15 | -6 retained browser component evidence; -7 component category coverage; -3 reusable computed component styles; -6 hover/focus state evidence |
+| 43 | reflect-notes-interface | 94 | A- | 30 | 13 | 15 | 15 | 6 | 10 | 5 | 91 | 5 | 12 | 0 | 15 | -2 component category coverage; -4 hover/focus state evidence |
+| 44 | rekki-food-service-app | 94 | A- | 27 | 15 | 15 | 14 | 8 | 10 | 5 | 42 | 6 | 11 | 3 | 12 | -3 retained browser component evidence; -1 reusable computed component styles; -2 hover/focus state evidence |
+| 45 | render-cloud-platform | 93 | A- | 29 | 13 | 15 | 14 | 7 | 10 | 5 | 73 | 5 | 12 | 2 | 11 | -1 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 46 | retool-internal-tools | 89 | B+ | 30 | 13 | 15 | 14 | 2 | 10 | 5 | 117 | 5 | 4 | 0 | 15 | -2 component category coverage; -1 reusable computed component styles; -8 hover/focus state evidence |
+| 47 | rows-spreadsheet-dashboard | 92 | A- | 28 | 13 | 15 | 14 | 7 | 10 | 5 | 60 | 5 | 12 | 1 | 15 | -2 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 48 | snohetta-architecture-studio | 93 | A- | 28 | 13 | 15 | 15 | 7 | 10 | 5 | 59 | 5 | 9 | 4 | 12 | -2 retained browser component evidence; -2 component category coverage; -3 hover/focus state evidence |
+| 49 | stripe-product-platform | 94 | A- | 30 | 13 | 15 | 14 | 7 | 10 | 5 | 114 | 5 | 9 | 4 | 15 | -2 component category coverage; -1 reusable computed component styles; -3 hover/focus state evidence |
+| 50 | supabase-developer-platform | 88 | B+ | 29 | 13 | 15 | 15 | 1 | 10 | 5 | 63 | 5 | 2 | 0 | 16 | -1 retained browser component evidence; -2 component category coverage; -9 hover/focus state evidence |
+| 51 | teenage-engineering-hardware-brand | 92 | A- | 28 | 13 | 15 | 15 | 6 | 10 | 5 | 62 | 5 | 12 | 0 | 11 | -2 retained browser component evidence; -2 component category coverage; -4 hover/focus state evidence |
+| 52 | the-pudding-data-stories | 95 | A | 29 | 15 | 15 | 15 | 6 | 10 | 5 | 70 | 6 | 11 | 0 | 14 | -1 retained browser component evidence; -4 hover/focus state evidence |
+| 53 | tines-automation-platform | 94 | A- | 30 | 15 | 15 | 15 | 4 | 10 | 5 | 126 | 6 | 9 | 0 | 15 | -6 hover/focus state evidence |
+| 54 | tinybird-analytics-infrastructure | 89 | B+ | 30 | 11 | 15 | 14 | 4 | 10 | 5 | 98 | 4 | 6 | 2 | 15 | -4 component category coverage; -1 reusable computed component styles; -6 hover/focus state evidence |
+| 55 | typeform-product-forms-saas | 92 | A- | 30 | 13 | 15 | 14 | 5 | 10 | 5 | 97 | 5 | 7 | 2 | 16 | -2 component category coverage; -1 reusable computed component styles; -5 hover/focus state evidence |
+| 56 | uncut-typography-resource | 80 | B | 24 | 13 | 15 | 10 | 3 | 10 | 5 | 16 | 5 | 5 | 2 | 11 | -6 retained browser component evidence; -2 component category coverage; -5 reusable computed component styles; -7 hover/focus state evidence |
+| 57 | usps-delivers-generational-report | 84 | B | 25 | 11 | 15 | 11 | 7 | 10 | 5 | 22 | 4 | 11 | 1 | 13 | -5 retained browser component evidence; -4 component category coverage; -4 reusable computed component styles; -3 hover/focus state evidence |
+| 58 | vercel-developer-platform | 91 | A- | 30 | 15 | 15 | 15 | 1 | 10 | 5 | 131 | 6 | 2 | 0 | 15 | -9 hover/focus state evidence |
+| 59 | viens-la-travel-hospitality | 93 | A- | 30 | 13 | 15 | 15 | 5 | 10 | 5 | 87 | 5 | 9 | 2 | 16 | -2 component category coverage; -5 hover/focus state evidence |
+| 60 | visual-cinnamon-data-art | 95 | A | 28 | 13 | 15 | 14 | 10 | 10 | 5 | 55 | 5 | 12 | 9 | 16 | -2 retained browser component evidence; -2 component category coverage; -1 reusable computed component styles |
+| 61 | visual-journal-editorial | 73 | C+ | 24 | 11 | 14 | 7 | 2 | 10 | 5 | 7 | 4 | 4 | 0 | 11 | -6 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -8 reusable computed component styles; -8 hover/focus state evidence |
+| 62 | viviens-creative-talent | 66 | C | 24 | 5 | 14 | 8 | 0 | 10 | 5 | 21 | 2 | 0 | 0 | 11 | -6 retained browser component evidence; -10 component category coverage; -1 design-system file completeness; -7 reusable computed component styles; -10 hover/focus state evidence |
+| 63 | wam-architecture-studio | 87 | B+ | 29 | 11 | 14 | 12 | 6 | 10 | 5 | 69 | 4 | 10 | 2 | 11 | -1 retained browser component evidence; -4 component category coverage; -1 design-system file completeness; -3 reusable computed component styles; -4 hover/focus state evidence |
+| 64 | webinspoo-accessgrid-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
+| 65 | webinspoo-airmee-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 97 | 6 | 12 | 9 | 12 | none |
+| 66 | webinspoo-bevel-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
+| 67 | webinspoo-braintrust-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
+| 68 | webinspoo-browserbase-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
+| 69 | webinspoo-cloudflare-pricing-pattern | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
+| 70 | webinspoo-exa-ai-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
+| 71 | webinspoo-expenseai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 12 | none |
+| 72 | webinspoo-mistral-ai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
+| 73 | webinspoo-poolside-ai-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 102 | 6 | 12 | 9 | 12 | none |
+| 74 | webinspoo-rerun-developer-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 99 | 6 | 12 | 9 | 12 | none |
+| 75 | webinspoo-unkey-pricing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 98 | 6 | 12 | 9 | 12 | none |
+| 76 | webinspoo-weav-saas-landing-page | 100 | A | 30 | 15 | 15 | 15 | 10 | 10 | 5 | 103 | 6 | 12 | 9 | 13 | none |
+| 77 | wiz-cybersecurity-saas | 90 | A- | 30 | 15 | 15 | 15 | 0 | 10 | 5 | 125 | 6 | 1 | 0 | 15 | -10 hover/focus state evidence |
 
 ## Lowest Scores
 
@@ -137,6 +138,7 @@ This report scores each active reference individually for practical design-syste
 | benvenusa-food-wine | assets/2026-06-04-benvenusa-food-wine-component-styles.json | design-systems/benvenusa-food-wine/tokens.json | design-systems/benvenusa-food-wine/component-styles.md | references/2026-06-03-benvenusa-food-wine.md |
 | better-stack-observability | assets/2026-06-04-better-stack-observability-component-styles.json | design-systems/better-stack-observability/tokens.json | design-systems/better-stack-observability/component-styles.md | references/2026-06-04-better-stack-observability.md |
 | buffet-digital-agency | assets/2026-06-04-buffet-digital-agency-component-styles.json | design-systems/buffet-digital-agency/tokens.json | design-systems/buffet-digital-agency/component-styles.md | references/2026-06-03-buffet-digital-agency.md |
+| bunkhouse | assets/2026-06-05-bunkhouse-component-styles.json | design-systems/bunkhouse/tokens.json | design-systems/bunkhouse/component-styles.md | references/2026-06-05-bunkhouse.md |
 | capital-finance-product | assets/2026-06-04-capital-finance-product-component-styles.json | design-systems/capital-finance-product/tokens.json | design-systems/capital-finance-product/component-styles.md | references/2026-06-03-capital-finance-product.md |
 | clay-data-workspace | assets/2026-06-04-clay-data-workspace-component-styles.json | design-systems/clay-data-workspace/tokens.json | design-systems/clay-data-workspace/component-styles.md | references/2026-06-04-clay-data-workspace.md |
 | cleo-ai-fintech-storytelling | assets/2026-06-04-cleo-ai-fintech-storytelling-component-styles.json | design-systems/cleo-ai-fintech-storytelling/tokens.json | design-systems/cleo-ai-fintech-storytelling/component-styles.md | references/2026-06-03-cleo-ai-fintech-storytelling.md |

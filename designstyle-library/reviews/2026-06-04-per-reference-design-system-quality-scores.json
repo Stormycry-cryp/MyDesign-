@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04",
+  "generated_at": "2026-06-08",
   "library": "designstyle-library",
   "rubric": {
     "live_dom": 30,
@@ -11,13 +11,13 @@
     "hygiene": 5
   },
   "summary": {
-    "reference_count": 76,
-    "average_score": 91.3,
-    "median_score": 93.0,
+    "reference_count": 77,
+    "average_score": 91.4,
+    "median_score": 93,
     "min_score": 66,
     "max_score": 100,
     "buckets": {
-      "A_or_A_minus_90_plus": 52,
+      "A_or_A_minus_90_plus": 53,
       "B_80_to_89": 17,
       "C_70_to_79": 5,
       "below_70": 2
@@ -415,6 +415,55 @@
         "-6 hover/focus state evidence"
       ],
       "usefulness": "usable with selective follow-up"
+    },
+    {
+      "slug": "bunkhouse",
+      "title": "Bunkhouse",
+      "score": 95,
+      "grade": "A",
+      "parts": {
+        "live_dom": 30,
+        "component_coverage": 13,
+        "design_system": 15,
+        "component_styles": 14,
+        "interaction_states": 8,
+        "retrieval_validation": 10,
+        "hygiene": 5
+      },
+      "samples": 99,
+      "categories": [
+        "Button",
+        "Card",
+        "Icon",
+        "Navigation",
+        "Section"
+      ],
+      "category_count": 5,
+      "state_attempts": 12,
+      "changed_states": 3,
+      "component_style_categories": [
+        "Button",
+        "Card",
+        "Feedback state",
+        "Icon",
+        "Navigation"
+      ],
+      "component_style_category_count": 5,
+      "palette_colors": 12,
+      "dimensions_present": 7,
+      "design_system_files_present": 4,
+      "asset_path": "assets/2026-06-05-bunkhouse-component-styles.json",
+      "tokens_path": "design-systems/bunkhouse/tokens.json",
+      "component_styles_path": "design-systems/bunkhouse/component-styles.md",
+      "reference_path": "references/2026-06-05-bunkhouse.md",
+      "blocked_risk": false,
+      "scientific_px_noise": false,
+      "penalties": [
+        "-2 component category coverage",
+        "-1 reusable computed component styles",
+        "-2 hover/focus state evidence"
+      ],
+      "usefulness": "strong implementation reference"
     },
     {
       "slug": "capital-finance-product",

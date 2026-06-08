@@ -20,7 +20,7 @@ Default rule: references capture reusable design decisions, not praise. Each ent
 
 Progressive summaries are aids, not replacements. If a card or dimension summary marks evidence as missing, future use must keep that missing evidence explicit instead of inferring typography, spacing, copy, motion, or code details.
 
-Active readiness is evaluated through the generated L1/L2/design-system layer. In v0.2.6, the active library has 91 cards, 637 L2 dimension summaries, 91 component-style JSON files, and 91 design-system packs. Historical L3 Markdown references still need backfill for the newer `Reference Text And Copy Grammar` and `Style Tokens And Surface Grammar` sections before `validate_references.py` can pass.
+Active readiness is evaluated through the generated L1/L2/design-system layer. In v0.2.7, the active library has 92 cards, 644 L2 dimension summaries, 92 component-style JSON files, and 92 design-system packs. Historical L3 Markdown references still need backfill for the newer `Reference Text And Copy Grammar` and `Style Tokens And Surface Grammar` sections before `validate_references.py` can pass.
 
 Design-system packs retain exact color evidence from screenshot pixels and explicit DOM/reference colors, plus observed component style rules. Common CSS values such as `9999px` pill radii are preserved; abnormal browser-computed scientific-notation values are filtered.
 

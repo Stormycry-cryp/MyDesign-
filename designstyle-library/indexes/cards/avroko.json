@@ -1,0 +1,74 @@
+{
+  "avoid_for": [
+    "utility products",
+    "dense saas dashboards",
+    "template storefronts"
+  ],
+  "best_for": [
+    "interior design studios",
+    "hospitality design references",
+    "project-led brand sites"
+  ],
+  "category_tags": [
+    "architecture",
+    "interior-design",
+    "studio"
+  ],
+  "code_tags": [
+    "custom-site",
+    "media-rich"
+  ],
+  "component_json_path": "assets/2026-06-08-avroko-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/avroko/component-styles.md",
+    "moodboard": "design-systems/avroko/moodboard.svg",
+    "palette": "design-systems/avroko/palette.md",
+    "tokens": "design-systems/avroko/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/avroko/assets.md",
+    "color_surface": "dimensions/avroko/color-surface.md",
+    "components_states": "dimensions/avroko/components-states.md",
+    "layout_spacing": "dimensions/avroko/layout-spacing.md",
+    "motion_code": "dimensions/avroko/motion-code.md",
+    "scene": "dimensions/avroko/scene.md",
+    "type_copy": "dimensions/avroko/type-copy.md"
+  },
+  "evidence_limits": [
+    "Secondary pages were attempted but timed out.",
+    "Some deeper motion/code evidence is inferred from minified public bundles rather than human-readable source.",
+    "Mobile behavior and complete spacing measurements remain unverified."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Mobile behavior and complete spacing measurements remain unverified.",
+    "Secondary pages were attempted but timed out.",
+    "Some deeper motion/code evidence is inferred from minified public bundles rather than human-readable source."
+  ],
+  "motion_tags": [
+    "minimal-motion",
+    "fade-reveal"
+  ],
+  "page_scope": "Official homepage for the interior design practice; homepage-led reference with project and studio storytelling.",
+  "reference_path": "references/2026-06-08-avroko.md",
+  "selection_note": "Selected in the 2026-06-08 curated daily candidate batch for DesignStyle and explicitly confirmed by the user for ingestion after passing the aesthetic gate with a stable first viewport.",
+  "slug": "avroko",
+  "structure_tags": [
+    "split-hero",
+    "case-study-led",
+    "immersive-sections"
+  ],
+  "style_tags": [
+    "contemporary",
+    "material-rich",
+    "editorial",
+    "project-led"
+  ],
+  "title": "AvroKO"
+}

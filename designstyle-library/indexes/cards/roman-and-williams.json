@@ -1,0 +1,78 @@
+{
+  "avoid_for": [
+    "pure saas",
+    "ultra-minimal productivity apps",
+    "plain marketing pages"
+  ],
+  "best_for": [
+    "editorial studio sites",
+    "material-led interiors",
+    "design brands with guild storytelling"
+  ],
+  "category_tags": [
+    "architecture",
+    "interior-design",
+    "studio"
+  ],
+  "code_tags": [
+    "custom-site",
+    "commerce-adjacent",
+    "media-rich"
+  ],
+  "component_json_path": "assets/2026-06-08-roman-and-williams-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/roman-and-williams/component-styles.md",
+    "moodboard": "design-systems/roman-and-williams/moodboard.svg",
+    "palette": "design-systems/roman-and-williams/palette.md",
+    "tokens": "design-systems/roman-and-williams/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/roman-and-williams/assets.md",
+    "color_surface": "dimensions/roman-and-williams/color-surface.md",
+    "components_states": "dimensions/roman-and-williams/components-states.md",
+    "layout_spacing": "dimensions/roman-and-williams/layout-spacing.md",
+    "motion_code": "dimensions/roman-and-williams/motion-code.md",
+    "scene": "dimensions/roman-and-williams/scene.md",
+    "type_copy": "dimensions/roman-and-williams/type-copy.md"
+  },
+  "evidence_limits": [
+    "This reference is homepage-only.",
+    "Cookie contamination was removed in the accepted probe, but formal deeper extraction timed out later.",
+    "Component evidence and code evidence are weak and should be refreshed on demand before implementation-grade reuse."
+  ],
+  "evidence_strength": {
+    "design_system": "weak",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "weak",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Component evidence and code evidence are weak and should be refreshed on demand before implementation-grade reuse.",
+    "Cookie contamination was removed in the accepted probe, but formal deeper extraction timed out later.",
+    "This reference is homepage-only.",
+    "design-system evidence is weak",
+    "motion/code evidence is weak",
+    "screenshot evidence is weak"
+  ],
+  "motion_tags": [
+    "minimal-motion",
+    "fade-reveal"
+  ],
+  "page_scope": "Official homepage for the studio and guild-facing design brand; homepage-led reference with product, editorial, and studio storytelling.",
+  "reference_path": "references/2026-06-08-roman-and-williams.md",
+  "selection_note": "Selected in the 2026-06-08 curated daily candidate batch for DesignStyle and explicitly confirmed by the user for ingestion after passing the aesthetic gate with a strong first viewport.",
+  "slug": "roman-and-williams",
+  "structure_tags": [
+    "image-first",
+    "story-led",
+    "collection-sections"
+  ],
+  "style_tags": [
+    "editorial-commerce",
+    "material-rich",
+    "eclectic",
+    "project-led"
+  ],
+  "title": "Roman and Williams"
+}

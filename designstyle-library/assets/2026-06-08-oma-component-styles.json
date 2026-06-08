@@ -1,0 +1,11 @@
+{
+  "blocked_reasons": [],
+  "captured_at": "2026-06-08",
+  "component_evidence": {},
+  "evidence_quality": "component style capture unavailable",
+  "final_url": "https://oma.com/",
+  "name": "OMA",
+  "screenshot": "screenshots/oma-desktop.png",
+  "slug": "oma",
+  "source_url": "https://oma.com/"
+}

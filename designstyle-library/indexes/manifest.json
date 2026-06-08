@@ -61,6 +61,18 @@
       "title": "Attio CRM Workspace"
     },
     {
+      "card_path": "indexes/cards/avroko.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/avroko/component-styles.md",
+        "moodboard": "design-systems/avroko/moodboard.svg",
+        "palette": "design-systems/avroko/palette.md",
+        "tokens": "design-systems/avroko/tokens.json"
+      },
+      "reference_path": "references/2026-06-08-avroko.md",
+      "slug": "avroko",
+      "title": "AvroKO"
+    },
+    {
       "card_path": "indexes/cards/bauhaus-clock-interactive-product.json",
       "design_system_paths": {
         "component_styles": "design-systems/bauhaus-clock-interactive-product/component-styles.md",
@@ -529,6 +541,18 @@
       "title": "Observable Data Platform"
     },
     {
+      "card_path": "indexes/cards/oma.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/oma/component-styles.md",
+        "moodboard": "design-systems/oma/moodboard.svg",
+        "palette": "design-systems/oma/palette.md",
+        "tokens": "design-systems/oma/tokens.json"
+      },
+      "reference_path": "references/2026-06-08-oma.md",
+      "slug": "oma",
+      "title": "OMA"
+    },
+    {
       "card_path": "indexes/cards/ossa-wine-ecommerce.json",
       "design_system_paths": {
         "component_styles": "design-systems/ossa-wine-ecommerce/component-styles.md",
@@ -695,6 +719,18 @@
       "reference_path": "references/2026-06-04-retool-internal-tools.md",
       "slug": "retool-internal-tools",
       "title": "Retool Internal Tools"
+    },
+    {
+      "card_path": "indexes/cards/roman-and-williams.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/roman-and-williams/component-styles.md",
+        "moodboard": "design-systems/roman-and-williams/moodboard.svg",
+        "palette": "design-systems/roman-and-williams/palette.md",
+        "tokens": "design-systems/roman-and-williams/tokens.json"
+      },
+      "reference_path": "references/2026-06-08-roman-and-williams.md",
+      "slug": "roman-and-williams",
+      "title": "Roman and Williams"
     },
     {
       "card_path": "indexes/cards/rows-spreadsheet-dashboard.json",
@@ -1105,5 +1141,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 92
+  "total_cards": 95
 }

@@ -1,0 +1,77 @@
+{
+  "avoid_for": [
+    "consumer ecommerce",
+    "bright playful apps",
+    "dense dashboards"
+  ],
+  "best_for": [
+    "architecture studios",
+    "project-led portfolios",
+    "editorial practice sites"
+  ],
+  "category_tags": [
+    "architecture",
+    "interior-design",
+    "studio"
+  ],
+  "code_tags": [
+    "custom-site",
+    "typography-forward"
+  ],
+  "component_json_path": "assets/2026-06-08-oma-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/oma/component-styles.md",
+    "moodboard": "design-systems/oma/moodboard.svg",
+    "palette": "design-systems/oma/palette.md",
+    "tokens": "design-systems/oma/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/oma/assets.md",
+    "color_surface": "dimensions/oma/color-surface.md",
+    "components_states": "dimensions/oma/components-states.md",
+    "layout_spacing": "dimensions/oma/layout-spacing.md",
+    "motion_code": "dimensions/oma/motion-code.md",
+    "scene": "dimensions/oma/scene.md",
+    "type_copy": "dimensions/oma/type-copy.md"
+  },
+  "evidence_limits": [
+    "This reference is intentionally scoped to the first desktop viewport because the formal capture timed out and component style capture was unavailable.",
+    "Secondary-page evidence is missing.",
+    "Code/resource evidence is weak and should be refreshed on demand before implementation-grade reuse."
+  ],
+  "evidence_strength": {
+    "design_system": "weak",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "weak",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Code/resource evidence is weak and should be refreshed on demand before implementation-grade reuse.",
+    "Secondary-page evidence is missing.",
+    "This reference is intentionally scoped to the first desktop viewport because the formal capture timed out and component style capture was unavailable.",
+    "design-system evidence is weak",
+    "motion/code evidence is weak",
+    "screenshot evidence is weak"
+  ],
+  "motion_tags": [
+    "minimal-motion",
+    "hover-reveal"
+  ],
+  "page_scope": "Official homepage for the architecture practice; homepage-led reference with project/news modules.",
+  "reference_path": "references/2026-06-08-oma.md",
+  "selection_note": "Selected in the 2026-06-08 curated daily candidate batch for DesignStyle and explicitly confirmed by the user for ingestion despite a borderline preflight score because the first viewport remained distinctive and captureable.",
+  "slug": "oma",
+  "structure_tags": [
+    "project-grid",
+    "headline-led",
+    "image-first"
+  ],
+  "style_tags": [
+    "modernist",
+    "editorial",
+    "monochrome",
+    "project-led"
+  ],
+  "title": "OMA"
+}

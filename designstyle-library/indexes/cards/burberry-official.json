@@ -1,0 +1,73 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "heritage fashion homepage",
+    "outerwear commerce"
+  ],
+  "category_tags": [
+    "luxury fashion",
+    "heritage retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-burberry-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/burberry-official/component-styles.md",
+    "moodboard": "design-systems/burberry-official/moodboard.svg",
+    "palette": "design-systems/burberry-official/palette.md",
+    "tokens": "design-systems/burberry-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/burberry-official/assets.md",
+    "color_surface": "dimensions/burberry-official/color-surface.md",
+    "components_states": "dimensions/burberry-official/components-states.md",
+    "layout_spacing": "dimensions/burberry-official/layout-spacing.md",
+    "motion_code": "dimensions/burberry-official/motion-code.md",
+    "scene": "dimensions/burberry-official/scene.md",
+    "type_copy": "dimensions/burberry-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "menu transitions"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-burberry-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "burberry-official",
+  "structure_tags": [
+    "campaign hero",
+    "category gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "british heritage",
+    "campaign editorial",
+    "structured retail"
+  ],
+  "title": "Burberry Official"
+}

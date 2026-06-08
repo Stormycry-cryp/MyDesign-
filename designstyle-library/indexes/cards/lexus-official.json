@@ -1,0 +1,74 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "luxury automotive homepage",
+    "model-led retail"
+  ],
+  "category_tags": [
+    "luxury automotive",
+    "brand retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-lexus-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/lexus-official/component-styles.md",
+    "moodboard": "design-systems/lexus-official/moodboard.svg",
+    "palette": "design-systems/lexus-official/palette.md",
+    "tokens": "design-systems/lexus-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/lexus-official/assets.md",
+    "color_surface": "dimensions/lexus-official/color-surface.md",
+    "components_states": "dimensions/lexus-official/components-states.md",
+    "layout_spacing": "dimensions/lexus-official/layout-spacing.md",
+    "motion_code": "dimensions/lexus-official/motion-code.md",
+    "scene": "dimensions/lexus-official/scene.md",
+    "type_copy": "dimensions/lexus-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.",
+    "motion/code evidence is weak"
+  ],
+  "motion_tags": [
+    "hover states",
+    "carousel",
+    "scroll reveals"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-lexus-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "lexus-official",
+  "structure_tags": [
+    "model gateway",
+    "hero modules",
+    "global navigation"
+  ],
+  "style_tags": [
+    "premium automotive luxury",
+    "clean product hero",
+    "precise retail"
+  ],
+  "title": "Lexus Official"
+}

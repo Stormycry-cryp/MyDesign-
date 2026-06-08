@@ -1,0 +1,67 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "avant-garde watch homepage",
+    "spectacle luxury retail"
+  ],
+  "category_tags": [
+    "luxury watches",
+    "brand editorial"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "design_system_paths": {
+    "component_styles": "design-systems/roger-dubuis-official/component-styles.md",
+    "moodboard": "design-systems/roger-dubuis-official/moodboard.svg",
+    "palette": "design-systems/roger-dubuis-official/palette.md",
+    "tokens": "design-systems/roger-dubuis-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/roger-dubuis-official/assets.md",
+    "color_surface": "dimensions/roger-dubuis-official/color-surface.md",
+    "components_states": "dimensions/roger-dubuis-official/components-states.md",
+    "layout_spacing": "dimensions/roger-dubuis-official/layout-spacing.md",
+    "motion_code": "dimensions/roger-dubuis-official/motion-code.md",
+    "scene": "dimensions/roger-dubuis-official/scene.md",
+    "type_copy": "dimensions/roger-dubuis-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "hero media",
+    "scroll storytelling",
+    "hover states"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-roger-dubuis-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "roger-dubuis-official",
+  "structure_tags": [
+    "campaign hero",
+    "collection gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "extravagant watch luxury",
+    "dark high-contrast",
+    "technical spectacle"
+  ],
+  "title": "Roger Dubuis Official"
+}

@@ -19,6 +19,7 @@
     "public-css",
     "public-js"
   ],
+  "component_json_path": "assets/2026-06-04-typeform-product-forms-saas-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/typeform-product-forms-saas/component-styles.md",
     "moodboard": "design-systems/typeform-product-forms-saas/moodboard.svg",
@@ -46,6 +47,11 @@
     "screenshot": "strong",
     "type_copy": "strong"
   },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
   "motion_tags": [
     "hover",
     "transition",

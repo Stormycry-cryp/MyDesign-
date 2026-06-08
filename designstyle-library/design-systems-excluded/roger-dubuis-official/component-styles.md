@@ -1,0 +1,121 @@
+# Component Style System: Roger Dubuis Official
+
+## Navigation
+
+### Style Evidence
+- header TO ACCESS INFORMATION RELEVANT TO YOUR GEOGRAPHIC LOCATION, WE RECOMMEND USING THE VERSION | rect=1440x171.8@0,0 | display=block; position=fixed; color=rgb(255, 255, 255); backgroundColor=rgba(11, 11, 11, 0.027); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.3s, 0.3s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1
+- a HONG KONG SAR, CHINA | rect=182.9x18@541.7,42 | display=inline; position=static; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=700; lineHeight=21px; transition=opacity 0.15s; transitionDuration=0.15s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a 中國香港特別行政區 | rect=126x18@736.3,42 | display=inline; position=static; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=700; lineHeight=21px; transition=opacity 0.15s; transitionDuration=0.15s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- nav MENU HOMEPAGE | rect=1440x100@0,71.8 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- a HOMEPAGE | rect=453.3x13@493.3,115.3 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1; cursor=pointer
+- a Watches collections | rect=28x28@1234,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- a Find a store | rect=28x28@1303,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- a Search | rect=28x28@1372,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- navigation count 6, image count 24, document height 8462.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+
+### Content Samples
+- TO ACCESS INFORMATION RELEVANT TO YOUR GEOGRAPHIC LOCATION, WE RECOMMEND USING THE VERSION: HONG KONG SAR, CHINA 中國香港特別行
+- HONG KONG SAR, CHINA
+- 中國香港特別行政區
+- MENU HOMEPAGE
+- HONG KONG SAR, CHINA; 中國香港特別行政區; HOMEPAGE; Watches collections; Find a store; Search
+
+### Missing Evidence
+- None recorded.
+
+## Button
+
+### Style Evidence
+- a GO TO THE CONTENT | rect=205.9x37.2@-5000,0 | display=flex; position=absolute; color=rgb(11, 11, 11); backgroundColor=rgb(255, 255, 255); border=1px solid rgb(255, 255, 255); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=12px; fontWeight=500; letterSpacing=2.4px; lineHeight=19.2px; padding=8px 16px; transition=color 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94), border-color 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s, 0.25s, 0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.25, 0.46, 0.45, 0.94), cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- span GO TO THE CONTENT | rect=171.9x19.2@-4983,9 | display=block; position=static; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=12px; fontWeight=500; letterSpacing=2.4px; lineHeight=19.2px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button button button--icon button--close button--sm promotion-banner__close-btn | rect=32x32@1396,12 | display=flex; position=absolute; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); borderRadius=2px; fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); transitionDuration=0.6s; transitionTimingFunction=cubic-bezier(0.165, 0.84, 0.44, 1); opacity=1; cursor=pointer
+- button MENU | rect=98.8x32@40,105.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1
+- div sgphx-btn__hamburger | rect=32x32@40,105.8 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a HOMEPAGE | rect=453.3x13@493.3,115.3 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1; cursor=pointer
+- a Watches collections | rect=28x28@1234,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- span Watches collections | rect=20x20@1238,111.8 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+
+### Content Samples
+- GO TO THE CONTENT
+- MENU
+- HOMEPAGE
+- Watches collections
+- MENU; UNITED STATES OF AMERICA
+
+### Missing Evidence
+- None recorded.
+
+## Card
+
+### Style Evidence
+- li HONG KONG SAR, CHINA | rect=182.9x21@541.7,41 | display=inline-block; position=static; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li 中國香港特別行政區 | rect=126x21@736.3,41 | display=inline-block; position=static; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li Watches collections | rect=69x28@1214,107.8 | display=block; position=static; color=rgb(255, 255, 255); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li Find a store | rect=69x28@1283,107.8 | display=block; position=static; color=rgb(255, 255, 255); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li Search | rect=48x28@1352,107.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 0px 0px 20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li DISCOVER | rect=514.6x53.2@462.7,882.8 | display=list-item; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=16px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- section NOVELTIES THE LATEST BIRETROGRADE PERPETUAL CALENDAR EXCALIBUR DISCOVER BIRETROGRADE CALEN | rect=1440x1361.4@0,1000 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=64px 0px 192px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- section NOVELTIES THE LATEST BIRETROGRADE PERPETUAL CALENDAR EXCALIBUR DISCOVER BIRETROGRADE CALEN | rect=1440x1105.4@0,1064 | display=block; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=64px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- 2px; 50%; 50%; 1px; 1px; 50%; 50%; 50%; 50%; 50%; 50%; 50%
+- border radii samples recorded below.
+
+### Content Samples
+- HONG KONG SAR, CHINA
+- 中國香港特別行政區
+- Watches collections
+- Find a store
+
+### Missing Evidence
+- None recorded.
+
+## Form
+
+### Style Evidence
+- None recorded.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- Form computed style evidence was not captured.
+
+## Feedback state
+
+### Style Evidence
+- Navigation TO ACCESS INFORMATION RELEVANT TO YOUR GEOGRAPHIC LOCATION, WE RECOMMEND USING T | hover={'bottom': '818px'} | focus={'bottom': '818px'}
+- Navigation HONG KONG SAR, CHINA | hover={'opacity': '0.768813'} | focus={'opacity': '0.757692'}
+- Navigation 中國香港特別行政區 | hover={'opacity': '0.757857'} | focus={'opacity': '0.751853'}
+- infer only when backed by transition/animation evidence or visible screenshot states.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- None recorded.
+
+## Icon
+
+### Style Evidence
+- button button button--icon button--close button--sm promotion-banner__close-btn | rect=32x32@1396,12 | display=flex; position=absolute; color=rgb(11, 11, 11); border=0px solid rgb(229, 231, 235); borderRadius=2px; fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); transitionDuration=0.6s; transitionTimingFunction=cubic-bezier(0.165, 0.84, 0.44, 1); opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=140x13@650,115.3 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a Watches collections | rect=28x28@1234,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- span Watches collections | rect=20x20@1238,111.8 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg Watches collections | rect=20x20@1238,111.8 | display=inline-block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a Find a store | rect=28x28@1303,107.8 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=22.4px; padding=4px; gap=12px; transition=opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94)
+- span Find a store | rect=20x20@1307,111.8 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg Find a store | rect=20x20@1307,111.8 | display=inline-block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(229, 231, 235); fontFamily=Montserrat, Helvetica, Arial, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=2.4px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+
+### Content Samples
+- Watches collections
+- Find a store
+
+### Missing Evidence
+- None recorded.
+
+
+## Evidence
+- Sources: computed component style JSON, Interaction And Components, Style Tokens And Surface Grammar, Visual System
+
+## Do Not Copy
+- Preserve component roles and density; do not copy proprietary component names, icons, or claims.

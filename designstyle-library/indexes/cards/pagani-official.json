@@ -1,0 +1,73 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "hypercar homepage",
+    "craft luxury storytelling"
+  ],
+  "category_tags": [
+    "luxury automotive",
+    "hypercar brand"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-pagani-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/pagani-official/component-styles.md",
+    "moodboard": "design-systems/pagani-official/moodboard.svg",
+    "palette": "design-systems/pagani-official/palette.md",
+    "tokens": "design-systems/pagani-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/pagani-official/assets.md",
+    "color_surface": "dimensions/pagani-official/color-surface.md",
+    "components_states": "dimensions/pagani-official/components-states.md",
+    "layout_spacing": "dimensions/pagani-official/layout-spacing.md",
+    "motion_code": "dimensions/pagani-official/motion-code.md",
+    "scene": "dimensions/pagani-official/scene.md",
+    "type_copy": "dimensions/pagani-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "hero media",
+    "scroll storytelling",
+    "hover states"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-pagani-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "pagani-official",
+  "structure_tags": [
+    "cinematic hero",
+    "brand story gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "artisanal hypercar luxury",
+    "craft editorial",
+    "dramatic product"
+  ],
+  "title": "Pagani Official"
+}

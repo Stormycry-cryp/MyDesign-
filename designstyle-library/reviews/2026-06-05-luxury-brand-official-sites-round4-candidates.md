@@ -1,0 +1,24 @@
+# Luxury Official Sites Candidate Review - 2026-06-05
+
+Selection reason: user requested 15 luxury official websites for add-designstyle. Candidates are official brand sites; only aesthetic-gate passes count.
+
+## Passed
+
+- Land Rover Range Rover Official | score 84 | https://www.landroverusa.com/range-rover/index.html | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/land-rover-range-rover-official-aesthetic.png
+- McLaren Official | score 76 | https://cars.mclaren.com/us-en | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/mclaren-official-aesthetic.png
+- Pagani Official | score 78 | https://www.pagani.com/ | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/pagani-official-aesthetic.png
+- Bremont Official | score 76 | https://www.bremont.com/ | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/bremont-official-aesthetic.png
+- Roger Dubuis Official | score 90 | https://www.rogerdubuis.com/us-en | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/roger-dubuis-official-aesthetic.png
+- Ulysse Nardin Official | score 76 | https://www.ulysse-nardin.com/usa_en/ | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/ulysse-nardin-official-aesthetic.png
+
+## Failed / Excluded
+
+- Genesis Official | score 57 | flags overlay_dominated, busy_navigation, overlay_dismissed | severe overlay_dominated | reasons clear first-screen headline; visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/genesis-official-aesthetic.png | https://www.genesis.com/us/en/genesis.html
+- Mercedes Maybach Official | score 25 | flags cluttered_first_viewport, visually_ordinary, generic_template | severe generic_template, visually_ordinary | reasons visible action controls | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/mercedes-maybach-official-aesthetic.png | https://www.mercedes-benz.com/en/vehicles/mercedes-maybach/
+- Bugatti Official | score 57 | flags overlay_dominated, overlay_dismissed | severe overlay_dominated | reasons visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/bugatti-official-aesthetic.png | https://www.bugatti.com/
+- Koenigsegg Official | score 59 | flags generic_template | severe generic_template | reasons visible action controls; visual or product media evidence; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/koenigsegg-official-aesthetic.png | https://www.koenigsegg.com/
+- Breguet Official | score 57 | flags overlay_dominated | severe overlay_dominated | reasons visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/breguet-official-aesthetic.png | https://www.breguet.com/en
+- De Beers Official | score 26 | flags blocked, overlay_dismissed | severe blocked | reasons visible action controls; visual or product media evidence; multiple typography roles; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/de-beers-official-aesthetic.png | https://www.debeers.com/en-us
+- Mikimoto Official | score 65 | flags overlay_dominated | severe overlay_dominated | reasons clear first-screen headline; visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/mikimoto-official-aesthetic.png | https://www.mikimotoamerica.com/us_en/
+- Tasaki Official | score 0 | flags blocked | severe blocked | reasons capture failed | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/tasaki-official-aesthetic.png | https://www.tasaki-global.com/
+- The Row Official | score 37 | flags busy_navigation, cluttered_first_viewport, generic_template | severe generic_template | reasons visible action controls; visual or product media evidence | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/the-row-official-aesthetic.png | https://www.therow.com/

@@ -43,11 +43,12 @@ GENERIC_PAGE_TOKENS = {
 }
 
 CARD_WEIGHTS = [
+    ("page_scope", 48),
     ("category_tags", 42),
-    ("page_scope", 32),
     ("best_for", 28),
-    ("style_tags", 14),
+    ("dimension_match", 18),
     ("structure_tags", 12),
+    ("style_tags", 14),
     ("motion_tags", 5),
     ("code_tags", 4),
     ("title", 10),
@@ -72,12 +73,24 @@ def count_matches(query_tokens: list[str], value: object) -> int:
     return sum(blob.count(token) for token in query_tokens)
 
 
+def dimension_match_blob(card: dict[str, object]) -> str:
+    parts = [
+        card.get("evidence_strength"),
+        card.get("dimension_paths"),
+        card.get("design_system_paths"),
+        card.get("missing_evidence"),
+        card.get("evidence_limits"),
+    ]
+    return " ".join(text_for(part) for part in parts)
+
+
 def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, dict[str, int]]:
     factors: dict[str, int] = {}
     raw = 0
     for field, weight in CARD_WEIGHTS:
         field_score = 0
-        blob = text_for(card.get(field)).lower()
+        source_value = dimension_match_blob(card) if field == "dimension_match" else card.get(field)
+        blob = text_for(source_value).lower()
         for token in query_tokens:
             token_weight = 1.0
             if field in {"motion_tags", "code_tags"} and token in GENERIC_MOTION_TOKENS:
@@ -92,7 +105,7 @@ def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, d
     factors["avoid_for_penalty"] = -avoid_penalty
 
     scene_fit = factors["category_tags"] + factors["page_scope"] + factors["best_for"]
-    scene_gate = min(1.0, scene_fit / 90) if scene_fit > 0 else 0.0
+    scene_gate = min(1.0, scene_fit / 120) if scene_fit > 0 else 0.0
     motion_code = factors["motion_tags"] + factors["code_tags"]
     gated_motion_code = int(motion_code * scene_gate)
     factors["scene_gate_percent"] = int(scene_gate * 100)
@@ -102,6 +115,7 @@ def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, d
         factors["category_tags"]
         + factors["page_scope"]
         + factors["best_for"]
+        + factors["dimension_match"]
         + factors["style_tags"]
         + factors["structure_tags"]
         + factors["title"]
@@ -110,6 +124,59 @@ def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, d
         - avoid_penalty
     )
     return total, factors
+
+
+def evidence_label(card: dict[str, object]) -> str:
+    strength = card.get("evidence_strength")
+    if not isinstance(strength, dict):
+        return "missing"
+    values = {str(value) for value in strength.values()}
+    if "strong" in values:
+        return "strong"
+    if "medium" in values:
+        return "medium"
+    if "weak" in values:
+        return "weak"
+    return "missing"
+
+
+def selected_reason(card: dict[str, object], factors: dict[str, int]) -> str:
+    reasons = []
+    if factors.get("page_scope", 0) > 0:
+        reasons.append("page scope match")
+    if factors.get("category_tags", 0) > 0:
+        reasons.append("category match")
+    if factors.get("best_for", 0) > 0:
+        reasons.append("best_for match")
+    if factors.get("dimension_match", 0) > 0:
+        reasons.append("dimension/evidence match")
+    if factors.get("gated_motion_code", 0) > 0:
+        reasons.append("motion/code evidence after scene gate")
+    return ", ".join(reasons) or "weak text match only"
+
+
+def rejected_reason(card: dict[str, object], factors: dict[str, int]) -> str:
+    reasons = []
+    if factors.get("avoid_for_penalty", 0) < 0:
+        reasons.append("avoid_for penalty")
+    if factors.get("scene_gate_percent", 0) == 0:
+        reasons.append("no scene/page fit")
+    if (factors.get("motion_tags", 0) or factors.get("code_tags", 0)) and factors.get("gated_motion_code", 0) == 0:
+        reasons.append("motion/code ignored until scene/page fit")
+    missing = card.get("missing_evidence") or card.get("evidence_limits") or []
+    if missing:
+        reasons.append("evidence limits present")
+    return ", ".join(reasons) or "not rejected by hard gate"
+
+
+def coverage_hint(factors: dict[str, int], card: dict[str, object]) -> str:
+    scene = factors.get("category_tags", 0) + factors.get("page_scope", 0) + factors.get("best_for", 0)
+    evidence = evidence_label(card)
+    if scene >= 120 and evidence in {"strong", "medium"}:
+        return "strong candidate for selected roles"
+    if scene > 0:
+        return "partial candidate; use only matched dimensions"
+    return "weak inspiration only; do not use as implementation-grade evidence"
 
 
 def load_cards(lib: Path) -> list[dict[str, object]]:
@@ -265,6 +332,10 @@ def print_card(
             if value or key in {"scene_gate_percent", "avoid_for_penalty"}
         }
         print(f"  ranking: {visible}")
+        print(f"  selected_reason: {selected_reason(card, factors)}")
+        print(f"  rejected_reason: {rejected_reason(card, factors)}")
+        print(f"  category_page_fit: scene_gate={factors.get('scene_gate_percent', 0)}%")
+        print(f"  coverage_hint: {coverage_hint(factors, card)}")
     if args.dimension:
         dimension_key = DIMENSION_ALIASES[args.dimension]
         rel, snippet = dimension_excerpt(lib, card, dimension_key)

@@ -1,0 +1,24 @@
+# Luxury Official Sites Candidate Review - 2026-06-05
+
+Selection reason: user requested 15 luxury official websites for add-designstyle. Candidates are official brand sites; only aesthetic-gate passes count.
+
+## Passed
+
+- Bentley Motors Official | score 82 | https://www.bentleymotors.com/en.html | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/bentley-motors-official-aesthetic.png
+- Aston Martin Official | score 75 | https://www.astonmartin.com/en-us/ | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/aston-martin-official-aesthetic.png
+- Lamborghini Official | score 76 | https://www.lamborghini.com/en-en | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/lamborghini-official-aesthetic.png
+- Chopard Official | score 82 | https://www.chopard.com/en-us | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/chopard-official-aesthetic.png
+
+## Failed / Excluded
+
+- Rolls Royce Motor Cars Official | score 74 | flags cluttered_first_viewport, overlay_dismissed | severe  | reasons visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/rolls-royce-motor-cars-official-aesthetic.png | https://www.rolls-roycemotorcars.com/en_US/home.html
+- Ferrari Official | score 48 | flags generic_template | severe generic_template | reasons visual or product media evidence | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/ferrari-official-aesthetic.png | https://www.ferrari.com/en-US
+- Maserati Official | score 70 | flags  | severe  | reasons visible action controls; visual or product media evidence; multiple typography roles | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/maserati-official-aesthetic.png | https://www.maserati.com/us/en
+- Porsche Official | score 56 | flags generic_template | severe generic_template | reasons clear first-screen headline; visual or product media evidence | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/porsche-official-aesthetic.png | https://www.porsche.com/usa/
+- Vacheron Constantin Official | score 53 | flags overlay_dominated | severe overlay_dominated | reasons clear first-screen headline; visible action controls; visual or product media evidence; multiple typography roles | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/vacheron-constantin-official-aesthetic.png | https://www.vacheron-constantin.com/us/en/home.html
+- Jaeger LeCoultre Official | score 43 | flags overlay_dominated, busy_navigation, cluttered_first_viewport, overlay_dismissed | severe overlay_dominated | reasons clear first-screen headline; visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/jaeger-lecoultre-official-aesthetic.png | https://www.jaeger-lecoultre.com/us-en
+- IWC Schaffhausen Official | score 71 | flags overlay_dismissed | severe  | reasons clear first-screen headline; visible action controls; visual or product media evidence | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/iwc-schaffhausen-official-aesthetic.png | https://www.iwc.com/us/en.html
+- Hublot Official | score 0 | flags blocked | severe blocked | reasons capture failed | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/hublot-official-aesthetic.png | https://www.hublot.com/en-us
+- Richard Mille Official | score 54 | flags busy_navigation, cluttered_first_viewport | severe  | reasons visible action controls; visual or product media evidence; multiple typography roles | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/richard-mille-official-aesthetic.png | https://www.richardmille.com/
+- Piaget Official | score 59 | flags overlay_dominated | severe overlay_dominated | reasons clear first-screen headline; visible action controls; visual or product media evidence; multiple typography roles; data/product UI language visible | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/piaget-official-aesthetic.png | https://www.piaget.com/us-en
+- Graff Official | score 68 | flags busy_navigation | severe  | reasons visible action controls; visual or product media evidence; multiple typography roles; surface contrast variety | screenshot /Users/chenyunzhe/.codex/designstyle-library/reviews/2026-06-05-aesthetic-probes/graff-official-aesthetic.png | https://www.graff.com/us-en/home/

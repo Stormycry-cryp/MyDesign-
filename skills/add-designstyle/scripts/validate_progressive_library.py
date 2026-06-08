@@ -21,6 +21,8 @@ REQUIRED_CARD_FIELDS = [
     "best_for",
     "avoid_for",
     "evidence_strength",
+    "missing_evidence",
+    "component_json_path",
     "dimension_paths",
     "design_system_paths",
     "selection_note",
@@ -36,6 +38,15 @@ REQUIRED_DIMENSIONS = [
     "components_states",
 ]
 ALLOWED_STRENGTH = {"strong", "medium", "weak", "missing"}
+CHALLENGE_PATTERNS = [
+    "Attention Required | Cloudflare",
+    "Cloudflare Ray ID",
+    "Performance & security by Cloudflare",
+    "checking your browser",
+    "verify you are human",
+    "cf-chl",
+    "challenge-platform",
+]
 
 
 def observed_has_values(text: str) -> bool:
@@ -81,6 +92,13 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
 
     if "avoid_for" in card and not isinstance(card["avoid_for"], list):
         errors.append("avoid_for must be present as a list")
+    if not isinstance(card.get("best_for"), list) or not card.get("best_for"):
+        errors.append("best_for must be present as a non-empty list")
+    if not isinstance(card.get("missing_evidence"), list):
+        errors.append("missing_evidence must be present as a list")
+    component_json = card.get("component_json_path")
+    if component_json is not None and not isinstance(component_json, str):
+        errors.append("component_json_path must be a string when present")
 
     strength = card.get("evidence_strength", {})
     if not isinstance(strength, dict):
@@ -144,6 +162,13 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
                 errors.append(f"design system lacks palette colors: {rel}")
             if not isinstance(components, dict) or not components:
                 errors.append(f"design system lacks component styles: {rel}")
+
+    joined_payload = json.dumps(card, ensure_ascii=False)
+    if "assets-excluded" in joined_payload or "design-systems-excluded" in joined_payload:
+        errors.append("active card points at excluded assets or design systems")
+    for pattern in CHALLENGE_PATTERNS:
+        if pattern.lower() in joined_payload.lower():
+            errors.append(f"active card contains challenge-page evidence: {pattern}")
 
     return {"path": str(path), "slug": slug, "valid": not errors, "errors": errors}
 

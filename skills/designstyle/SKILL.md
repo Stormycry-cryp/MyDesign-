@@ -24,6 +24,41 @@ Report which progressive-disclosure layer the task used:
 
 If L1/L2 files are missing, route through `add-designstyle` generation/validation or say that only L3/L4 evidence is available.
 
+## Shared Contract
+
+After routing, the selected child skill must report:
+
+- Routing:
+- Reason:
+- Evidence layers read or generated:
+- Scene/page fit:
+- Required dimensions:
+- Missing evidence:
+- Reuse boundary:
+- Next handoff:
+
+For complete visual-system tasks, these Required dimensions are mandatory:
+
+- Reference text grammar.
+- Style tokens.
+- Spacing rhythm.
+
+If any mandatory dimension is missing, say it explicitly. Do not infer it from adjacent evidence or broad style words.
+
+## Handoff Rules
+
+`add-designstyle -> use-designstyle`:
+
+- Report the new reference's best future use.
+- Report dimensions with strong evidence.
+- Report dimensions with weak or missing evidence.
+- Report suggested Use roles.
+
+`use-designstyle -> add-designstyle`:
+
+- If coverage is partial or weak, produce an Add-Designstyle Backlog.
+- The backlog must name missing scene, missing page scope, missing dimensions, needed evidence level, and suggested reference type.
+
 ## Route
 
 Use `add-designstyle` when the user:

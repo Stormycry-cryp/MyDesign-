@@ -831,6 +831,36 @@ def excerpt(value: str, limit: int = 180) -> str:
     return value[:limit]
 
 
+def component_json_path(text: str, slug: str) -> str:
+    match = re.search(r"`?(assets/[^`\s]+component-styles\.json)`?", text)
+    if match:
+        return match.group(1)
+    return f"assets/*-{slug}-component-styles.json"
+
+
+def card_missing_evidence(strength: dict[str, str], design_system: dict[str, object]) -> list[str]:
+    missing: list[str] = []
+    labels = {
+        "screenshot": "screenshot",
+        "layout_spacing": "layout/spacing",
+        "type_copy": "type/copy",
+        "motion_code": "motion/code",
+        "design_system": "design-system",
+    }
+    for key, label in labels.items():
+        if strength.get(key) == "missing":
+            missing.append(f"{label} evidence is missing")
+        elif strength.get(key) == "weak":
+            missing.append(f"{label} evidence is weak")
+    components = design_system.get("component_styles", {})
+    if not isinstance(components, dict) or not components:
+        missing.append("component/state evidence is missing")
+    for limit in design_system.get("evidence", {}).get("limits", []):
+        if isinstance(limit, str) and limit and "no explicit evidence limits" not in limit.lower():
+            missing.append(limit)
+    return sorted(set(missing))
+
+
 def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_system: dict[str, object]) -> dict[str, object]:
     text = reference.read_text(encoding="utf-8", errors="ignore")
     meta = parse_frontmatter(text)
@@ -861,6 +891,8 @@ def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_sy
         "best_for": list(meta.get("best_for") or []),
         "avoid_for": list(meta.get("avoid_for") or []),
         "evidence_strength": strength,
+        "missing_evidence": card_missing_evidence(strength, design_system),
+        "component_json_path": component_json_path(text, slug),
         "dimension_paths": {
             "scene": f"dimensions/{slug}/scene.md",
             "layout_spacing": f"dimensions/{slug}/layout-spacing.md",

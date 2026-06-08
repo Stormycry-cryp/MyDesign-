@@ -1,0 +1,68 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "jewelry homepage",
+    "colorful luxury retail"
+  ],
+  "category_tags": [
+    "luxury jewelry",
+    "watches",
+    "retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "design_system_paths": {
+    "component_styles": "design-systems/bulgari-official/component-styles.md",
+    "moodboard": "design-systems/bulgari-official/moodboard.svg",
+    "palette": "design-systems/bulgari-official/palette.md",
+    "tokens": "design-systems/bulgari-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/bulgari-official/assets.md",
+    "color_surface": "dimensions/bulgari-official/color-surface.md",
+    "components_states": "dimensions/bulgari-official/components-states.md",
+    "layout_spacing": "dimensions/bulgari-official/layout-spacing.md",
+    "motion_code": "dimensions/bulgari-official/motion-code.md",
+    "scene": "dimensions/bulgari-official/scene.md",
+    "type_copy": "dimensions/bulgari-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "menu transitions"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-bulgari-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "bulgari-official",
+  "structure_tags": [
+    "campaign hero",
+    "product category gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "roman jewelry luxury",
+    "polished editorial",
+    "high-color product"
+  ],
+  "title": "Bulgari Official"
+}

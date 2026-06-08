@@ -58,6 +58,25 @@ Do not count blocked, blank, overlay-dominated, visually ordinary, purely rememb
 
 Do not count Cloudflare/security challenge pages as references. If the screenshot, title, DOM, or component samples show challenge-page signatures such as `Attention Required | Cloudflare`, `Cloudflare Ray ID`, `Performance & security by Cloudflare`, `checking your browser`, `verify you are human`, `cf-chl`, or `challenge-platform`, exclude the candidate or move it to a blocked/excluded record until clean visual evidence is available. Do not automatically exclude a legitimate product page merely because its normal product copy or scripts mention CAPTCHA/recaptcha.
 
+## Use-Readiness Gate
+
+A reference counts as active usable only when:
+
+- L3 full reference is written.
+- L1 card is generated.
+- L2 dimensions are generated.
+- `design-systems/<slug>/tokens.json` exists.
+- `design-systems/<slug>/palette.md` exists.
+- `design-systems/<slug>/moodboard.svg` exists.
+- `design-systems/<slug>/component-styles.md` exists.
+- At least one screenshot or user-provided visual artifact exists.
+- `component_json_path` points to non-empty component-style JSON, or missing component evidence is explicitly recorded.
+- `best_for` and `avoid_for` can guide `use-designstyle` retrieval.
+- Reference text grammar, Style tokens, and Spacing rhythm have evidence or explicit `missing` markers.
+- Progressive library validation passes.
+
+If any condition fails, mark the entry partial or blocked instead of counting it as active usable.
+
 ## Aesthetic Gate
 
 Run an aesthetic fit probe before writing any new reference. This is a blocking preflight, not a post-hoc review.
@@ -195,6 +214,54 @@ Use this workflow for large library expansion tasks.
      python ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --all
      python ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
      ```
+
+## Curated Website UI Candidate Workflow
+
+Use this stricter workflow when the user asks for high-quality websites, brand
+official sites, luxury/high-end official sites, or daily candidate discovery.
+
+1. **Build a style-coherent candidate set first**
+   - Pick one style theme for the batch, such as refined luxury commerce,
+     editorial culture, precise dashboard, calm wellness, expressive product
+     launch, or immersive portfolio.
+   - All candidates in a confirmation batch must share that style theme. Do not
+     mix unrelated aesthetics just to hit the requested count.
+   - Prefer brand/official/product/studio sites and strong original UI sources.
+     Do not use marketplace, aggregator, template, or generic independent-store
+     pages unless the user explicitly approves that weaker source type.
+
+2. **Probe before counting**
+   - Run the Aesthetic Gate for every candidate.
+   - Record rejected candidates and reasons in a review file. Rejection reasons
+     must distinguish at least: `anti_bot_or_security`, `blank_or_error`,
+     `cookie_or_region_overlay`, `screenshot_contamination`,
+     `generic_independent_store_feel`, `marketplace_or_aggregator`,
+     `ordinary_visual_quality`, and `insufficient_component_evidence`.
+   - A candidate is not counted only because the brand is famous. The visible
+     UI must be clean, distinctive, and captureable.
+
+3. **Show confirmation screenshots before full add**
+   - For daily or exploratory discovery, stop after a clean screenshot/contact
+     sheet of the proposed candidates.
+   - Present the unified style theme, candidate names, URLs, scores, and one
+     contact sheet. Do not write active references until the user confirms.
+   - If the user confirms, run the normal full capture/write/progressive
+     workflow for exactly the confirmed sites or approved replacements.
+
+4. **Clean screenshot QA for official/brand sites**
+   - Before claiming a batch is ready, visually inspect the contact sheet.
+   - Do not accept Cloudflare pages, blank/near-blank pages, menus accidentally
+     opened by hover, footer/detail miscaptures, large cookie/region dialogs, or
+     pages navigated away by overly broad button-click rules.
+   - If a site is unstable after reasonable exact dismiss rules, replace it or
+     report the shortfall. Do not keep unstable screenshots to satisfy count.
+
+5. **Active-library hygiene**
+   - Move failed, unstable, or user-rejected attempts to an excluded/blocked
+     location or review note; do not leave them in active references, indexes,
+     dimensions, or design-system retrieval.
+   - After replacements, rerun progressive generation and validators for the
+     final active set only.
 
 ## Failure Handling
 
@@ -401,4 +468,20 @@ Generated progressive evidence:
 - L3 reference: references/YYYY-MM-DD-<slug>.md
 - Validation: <command + result>
 Missing evidence: <explicit limits or "none beyond recorded Evidence Limits">
+```
+
+## Use Readiness
+
+When a reference or batch is added, also include:
+
+```markdown
+## Use Readiness
+- Status: active usable | partial | blocked
+- Best for:
+- Avoid for:
+- Strong dimensions:
+- Weak or missing dimensions:
+- Suggested Use roles:
+- Retrieval tags to strengthen:
+- Validator result:
 ```

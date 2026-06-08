@@ -1,0 +1,73 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "luxury EV homepage",
+    "calm product storytelling"
+  ],
+  "category_tags": [
+    "luxury automotive",
+    "brand retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-lucid-motors-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/lucid-motors-official/component-styles.md",
+    "moodboard": "design-systems/lucid-motors-official/moodboard.svg",
+    "palette": "design-systems/lucid-motors-official/palette.md",
+    "tokens": "design-systems/lucid-motors-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/lucid-motors-official/assets.md",
+    "color_surface": "dimensions/lucid-motors-official/color-surface.md",
+    "components_states": "dimensions/lucid-motors-official/components-states.md",
+    "layout_spacing": "dimensions/lucid-motors-official/layout-spacing.md",
+    "motion_code": "dimensions/lucid-motors-official/motion-code.md",
+    "scene": "dimensions/lucid-motors-official/scene.md",
+    "type_copy": "dimensions/lucid-motors-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "scroll reveals"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-lucid-motors-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "lucid-motors-official",
+  "structure_tags": [
+    "cinematic hero",
+    "model gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "electric luxury",
+    "calm product hero",
+    "warm premium minimalism"
+  ],
+  "title": "Lucid Motors Official"
+}

@@ -62,6 +62,16 @@ Before using references for a design task, check whether the library covers the 
 - For large or mixed libraries, use references by role: scene, structure, type/color, asset, motion/code, and component states. Do not let a high-scoring but wrong-category entry dominate.
 - Treat page/category fit as the retrieval gate. Generic motion/code words such as `transition`, `hover`, `scroll`, `animation`, or `css` must not let an unrelated gallery, portfolio, or editorial page outrank a same-scene pricing/product/dashboard reference. Use motion/code evidence only after scene, page scope, and category fit are plausible.
 
+## Coverage Strength
+
+Classify library coverage before planning:
+
+- strong: scene, page scope, structure, type/color, spacing, and component or motion evidence are enough for the requested deliverable.
+- partial: enough for selected dimensions, but not enough for a complete visual system or implementation-grade guidance.
+- weak: only suitable as loose inspiration. Do not treat it as implementation-grade evidence.
+
+Coverage strength must be based on scene/page fit plus evidence strength, not the top search score alone.
+
 ## Workflow
 
 Use this fixed flow whenever the skill is active. Keep the output compact, but do not skip gates.
@@ -117,6 +127,19 @@ Check whether the library covers the scene before using any reference:
 
 The coverage result must name the queries used, selected candidates, rejected candidates if relevant, and why the final references are scene/page-fit. This is the guardrail that keeps the local aesthetic library useful.
 
+If coverage is `partial` or `weak`, output this block before implementation:
+
+```markdown
+## Add-Designstyle Backlog
+- Missing scene:
+- Missing page scope:
+- Missing dimensions:
+- Needed evidence level:
+- Suggested reference type:
+- Candidate query direction:
+- Why current library is insufficient:
+```
+
 ### 4. Role-Based Retrieval
 
 Retrieve references by role rather than letting one top result dominate. Use 2-5 references maximum:
@@ -131,6 +154,8 @@ Retrieve references by role rather than letting one top result dominate. Use 2-5
 - Assets: photography/video/material production plan.
 - Motion/code: transition, animation, keyframes, exact duration/easing/transform parameters, runtime library, reduced-motion strategy.
 - Components/states: navigation, cards, forms, drawers, search, menus, pricing tables, dashboard tables, galleries, or feedback states.
+
+One reference can cover multiple roles, but never assume it covers all roles. If page/category fit does not match, use the reference only for the specific dimensions where evidence clearly transfers. `motion/code` evidence cannot bypass the scene/page fit gate.
 
 Search with product scene plus mechanics:
 
@@ -219,6 +244,8 @@ Required sections:
 - Rejected/weak references:
 - Coverage strength:
 - Missing reference gaps:
+- Add backlog:
+- Evidence strength per role:
 
 ## 3. Upfront HITL Inputs And Assumptions
 - Confirmed style anchors:

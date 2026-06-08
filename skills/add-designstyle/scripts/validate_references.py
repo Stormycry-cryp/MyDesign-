@@ -34,8 +34,10 @@ REQUIRED_SECTIONS = [
     "Evidence Snapshot",
     "Visual System",
     "Typography And Reading Rhythm",
+    "Reference Text And Copy Grammar",
     "Color, Material, And Contrast",
     "Layout Geometry And Spacing",
+    "Style Tokens And Surface Grammar",
     "Dimension And Ratio System",
     "Assets",
     "Code Surface",
@@ -60,9 +62,16 @@ QUALITY_MARKERS = [
     "- Public stylesheet/script URLs:",
     "- CSS variables/tokens observed:",
     "- Preserve ratios as implementation constraints:",
+    "- Component computed-style evidence:",
     "- Evidence quality:",
     "- Reuse value:",
 ]
+MANDATORY_DIMENSION_SECTIONS = [
+    "Reference Text And Copy Grammar",
+    "Style Tokens And Surface Grammar",
+    "Layout Geometry And Spacing",
+]
+MISSING_MARKERS = {"missing", "missing evidence", "not observed", "no direct", "unavailable"}
 
 
 def field(text: str, name: str) -> str:
@@ -84,6 +93,21 @@ def is_todo_heavy(text: str) -> bool:
     return todo_count > 4
 
 
+def has_evidence_or_missing_marker(content: str) -> bool:
+    cleaned_lines = []
+    for line in content.splitlines():
+        cleaned = line.strip().lstrip("- ").strip()
+        if not cleaned or cleaned.endswith(":"):
+            continue
+        cleaned_lines.append(cleaned)
+    if not cleaned_lines:
+        return False
+    blob = "\n".join(cleaned_lines).lower()
+    if any(marker in blob for marker in MISSING_MARKERS):
+        return True
+    return any(not re.search(r"\btodo\b", line, re.I) for line in cleaned_lines)
+
+
 def validate(path: Path, lib: Path) -> dict:
     text = path.read_text(encoding="utf-8", errors="ignore")
     issues: list[str] = []
@@ -101,11 +125,22 @@ def validate(path: Path, lib: Path) -> dict:
         if marker not in text:
             issues.append(f"missing marker: {marker}")
 
+    for name in MANDATORY_DIMENSION_SECTIONS:
+        content = section_text(text, name)
+        if not has_evidence_or_missing_marker(content):
+            issues.append(f"mandatory dimension lacks evidence or explicit missing marker: {name}")
+
     screenshot = field(text, "evidence_screenshot").strip('"')
     if screenshot:
         screenshot_path = lib / screenshot
         if not screenshot_path.exists():
             issues.append(f"screenshot not found: {screenshot}")
+    elif "user-provided visual evidence" not in text.lower():
+        issues.append("screenshot missing without explicit user-provided visual evidence")
+
+    component_evidence = f"{section_text(text, 'Code Surface')}\n{section_text(text, 'Interaction And Components')}".lower()
+    if "component-styles.json" not in component_evidence and "component evidence missing" not in text.lower():
+        issues.append("component JSON missing without explicit component evidence missing marker")
 
     if "no direct code evidence" not in text.lower():
         motion_evidence = section_text(text, "Motion Code And Runtime Evidence")
@@ -140,7 +175,7 @@ def main() -> int:
 
     if args.json:
         print(json.dumps({"total": len(results), "valid": len(valid), "invalid": len(results) - len(valid), "results": results}, ensure_ascii=False, indent=2))
-        return 0
+        return 0 if len(valid) == len(results) else 1
 
     print(f"references={len(results)} valid={len(valid)} invalid={len(results) - len(valid)}")
     for row in results:
@@ -148,7 +183,7 @@ def main() -> int:
         print(f"{status}\t{row['title']}\t{Path(row['path']).name}")
         for issue in row["issues"][:8]:
             print(f"  - {issue}")
-    return 0
+    return 0 if len(valid) == len(results) else 1
 
 
 if __name__ == "__main__":

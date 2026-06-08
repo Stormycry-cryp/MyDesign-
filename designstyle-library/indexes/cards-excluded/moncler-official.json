@@ -1,0 +1,68 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "outerwear luxury homepage",
+    "technical retail"
+  ],
+  "category_tags": [
+    "luxury fashion",
+    "outerwear",
+    "retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "design_system_paths": {
+    "component_styles": "design-systems/moncler-official/component-styles.md",
+    "moodboard": "design-systems/moncler-official/moodboard.svg",
+    "palette": "design-systems/moncler-official/palette.md",
+    "tokens": "design-systems/moncler-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/moncler-official/assets.md",
+    "color_surface": "dimensions/moncler-official/color-surface.md",
+    "components_states": "dimensions/moncler-official/components-states.md",
+    "layout_spacing": "dimensions/moncler-official/layout-spacing.md",
+    "motion_code": "dimensions/moncler-official/motion-code.md",
+    "scene": "dimensions/moncler-official/scene.md",
+    "type_copy": "dimensions/moncler-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "menu transitions"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-moncler-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "moncler-official",
+  "structure_tags": [
+    "campaign hero",
+    "category gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "technical luxury",
+    "outerwear editorial",
+    "clean commerce"
+  ],
+  "title": "Moncler Official"
+}

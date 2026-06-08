@@ -1,0 +1,119 @@
+# Component Style System: Lamborghini Official
+
+## Navigation
+
+### Style Evidence
+- header MENU MODELS OWNERSHIP DEALERSHIPS BEYOND COMPANY MOTORSPORT MUSEUM STORE NEWS Design Susta | rect=1440x104@0,0 | display=block; position=fixed; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform 1s linear; transitionDuration=1s; transitionTimingFunction=linear; opacity=1
+- nav MENU | rect=1296x104@72,0 | display=flex; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=16px 0px; transition=height 0.3s ease-out, padding 0.3s ease-out; transitionDuration=0.3s, 0.3s; transitionTimingFunction=ease-out, ease-out; opacity=1
+- a Search | rect=40x41.8@1326,31.1 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a DEALERSHIPS | rect=416x49@952,144 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a BEYOND | rect=416x49@72,217 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a MUSEUM | rect=416x49@72,290 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a STORE | rect=416x49@512,290 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a NEWS | rect=416x49@952,290 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- navigation count 24, image count 27, document height 6308.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+
+### Content Samples
+- MENU MODELS OWNERSHIP DEALERSHIPS BEYOND COMPANY MOTORSPORT MUSEUM STORE NEWS Design Sustainability History Financial se
+- MENU
+- Search
+- DEALERSHIPS
+- DEALERSHIPS; BEYOND; MUSEUM; STORE; NEWS; Design; Sustainability; History; Financial services; Warranty extension; Driving Programs; Lounge; Club; Podcast; COMPANY; SUSTAINABILITY
+- DEALERSHIPS; BEYOND; MUSEUM; STORE; NEWS; Design; Sustainability; History; Financial services; Warranty extension; Driving Programs; Lounge
+
+### Missing Evidence
+- None recorded.
+
+## Button
+
+### Style Evidence
+- button MENU | rect=88.3x44@72,30 | display=flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- button Open chatbot | rect=40x41.8@1278,31.1 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a Search | rect=40x41.8@1326,31.1 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button Close | rect=58x58@1480,24 | display=flex; position=relative; color=rgb(255, 255, 255); border=1px solid rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=32px; fontWeight=400; lineHeight=32px; padding=16px; gap=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=0.5
+- button MODELS | rect=416x49@72,144 | display=flex; position=static; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button OWNERSHIP | rect=416x49@512,144 | display=flex; position=static; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button COMPANY | rect=416x49@512,217 | display=flex; position=static; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button MOTORSPORT | rect=416x49@952,217 | display=flex; position=static; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+
+### Content Samples
+- MENU
+- Open chatbot
+- Search
+- Close
+- MENU; MODELS; OWNERSHIP; COMPANY; MOTORSPORT; LANGUAGES; Allow animations; EXPLORE THE MODEL; DOWNLOAD BROCHURE; EXPLORE THE MODEL; DOWNLOAD BROCHURE; EXPLORE THE MODEL
+
+### Missing Evidence
+- None recorded.
+
+## Card
+
+### Style Evidence
+- nav MENU | rect=1296x104@72,0 | display=flex; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=16px 0px; transition=height 0.3s ease-out, padding 0.3s ease-out; transitionDuration=0.3s, 0.3s; transitionTimingFunction=ease-out, ease-out; opacity=1
+- div top d-flex align-items-center justify-content-between | rect=548x106@1440,0 | display=flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=24px 40px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li MODELS | rect=440x49@60,144 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li OWNERSHIP | rect=440x49@500,144 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li DEALERSHIPS | rect=440x49@940,144 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li BEYOND | rect=440x49@60,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li COMPANY | rect=440x49@500,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- li MOTORSPORT | rect=440x49@940,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- border radii samples recorded below.
+
+### Content Samples
+- MENU
+- MODELS
+- OWNERSHIP
+- DEALERSHIPS
+
+### Missing Evidence
+- None recorded.
+
+## Form
+
+### Style Evidence
+- None recorded.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- Form computed style evidence was not captured.
+
+## Feedback state
+
+### Style Evidence
+- infer only when backed by transition/animation evidence or visible screenshot states.
+
+### Content Samples
+- None recorded.
+
+### Missing Evidence
+- Hover/focus computed-state deltas were not observed or did not change.
+
+## Icon
+
+### Style Evidence
+- svg [object SVGAnimatedString] | rect=24x24@80,40 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button Open chatbot | rect=40x41.8@1278,31.1 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=24x24@1286,40.9 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- a Search | rect=40x41.8@1326,31.1 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=24x24@1334,40.9 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- button Close | rect=58x58@1480,24 | display=flex; position=relative; color=rgb(255, 255, 255); border=1px solid rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=32px; fontWeight=400; lineHeight=32px; padding=16px; gap=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=0.5
+- svg [object SVGAnimatedString] | rect=24x24@1497,41 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=32px; fontWeight=400; lineHeight=32px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- svg [object SVGAnimatedString] | rect=16x16@472,160 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+
+### Content Samples
+- Open chatbot
+- Search
+- Close
+
+### Missing Evidence
+- None recorded.
+
+
+## Evidence
+- Sources: computed component style JSON, Interaction And Components, Style Tokens And Surface Grammar, Visual System
+
+## Do Not Copy
+- Preserve component roles and density; do not copy proprietary component names, icons, or claims.

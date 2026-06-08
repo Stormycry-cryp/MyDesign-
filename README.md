@@ -22,9 +22,18 @@ rsync -a designstyle-library/ ~/.codex/designstyle-library/
 
 ## Current Library
 
-The library includes 77 active validated UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, retained color systems, component style systems, asset direction, interaction states, motion/code evidence, and explicit evidence limits. One blocked Cloudflare/security challenge capture is preserved under excluded evidence folders and does not count toward active retrieval or scoring.
+The library includes 92 active UI references. Each reference preserves layered tags, first-viewport geometry, dimension ratios, typography, color/material source, retained color systems, component style systems, asset direction, interaction states, motion/code evidence, and explicit evidence limits. Nine excluded references are preserved outside active retrieval; they do not count toward active search, progressive validation, or design-system reuse.
 
 The 2026-06-04 update adds a dashboard and information-display UI batch covering CRM workspaces, analytics dashboards, data platforms, developer platforms, observability tools, productivity interfaces, and data-storytelling references.
+
+The 2026-06-05 library update adds 15 luxury official-site references covering automotive, fashion, jewelry, and watch brand systems, while preserving 9 rejected/blocked luxury candidates under excluded evidence folders.
+
+The 2026-06-08 skill update turns Add and Use into a stricter evidence loop:
+
+- `designstyle` requires routed child skills to report scene/page fit, required dimensions, missing evidence, reuse boundary, and next handoff.
+- `add-designstyle` adds a Use-readiness gate so a reference is only active usable when L1/L2/L3, design-system artifacts, visual evidence, best/avoid use, required dimensions, and progressive validation are explicit.
+- `use-designstyle` classifies coverage as strong, partial, or weak and emits an Add-Designstyle Backlog for partial/weak coverage.
+- `search_references.py --explain-selection` now reports selected reasons, rejected reasons, category/page fit, and coverage hints so motion/code terms cannot bypass scene fit.
 
 The progressive-disclosure layer lets `use-designstyle` search lightweight L1 cards first, read only needed L2 dimension summaries, and open L3 full references only when implementation-grade detail is needed:
 
@@ -47,11 +56,11 @@ Code/component captures use Playwright with real Chrome rendering so references 
 python3 skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --library designstyle-library --matrix --design-system
 ```
 
-The current per-reference design-system score report is saved at `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: 77 active references, average 91.4/100, median 93/100, range 66-100, with 0 active blocked/challenge contamination and 0 active scientific-notation px noise. A clean-context independent sub-agent scored the state before the final text-noise cleanup at 88/100 and identified the remaining L2/L3 radius noise; that text layer was cleaned before v0.2.4 release.
-
-The v0.2.5 library cleanup removes committed raw DOM snapshots from the default library while keeping active screenshots, component-style JSON files, and design-system packs. The default `designstyle-library` is 49M after the v0.2.6 update; raw DOM is now external/on-demand L4 evidence.
+The current per-reference design-system score report is saved at `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: it covers the pre-luxury 76-reference baseline, average 91.3/100, median 93.0/100, range 66-100, with 0 active blocked/challenge contamination and 0 active scientific-notation px noise. A clean-context independent sub-agent scored that state before the final text-noise cleanup at 88/100 and identified the remaining L2/L3 radius noise; that text layer was cleaned before v0.2.4 release. A fresh 92-reference quality score report has not been regenerated yet.
 
 The v0.2.6 `use-designstyle` update adds upfront HITL and plan-led iteration. Before build work, the skill now collects style anchors, forbidden drift directions, motion richness level, asset boundaries, deliverable format, and required QA states. The direction plan is treated as an execution contract with a stepwise build plan, iteration log, and final QA checklist, so agents can build without repeatedly interrupting the user unless a hard blocker appears.
+
+The v0.2.7 packaged library keeps 92 active screenshots, 92 component-style JSON files, and 92 design-system packs. The default `designstyle-library` is 135M after merging the 2026-06-05 luxury batch with the remote `bunkhouse` reference and excluded evidence preservation; raw DOM is still external/on-demand L4 evidence.
 
 ## Motion Evidence Boundary
 
@@ -67,3 +76,5 @@ python3 skills/add-designstyle/scripts/build_progressive_reference.py --library 
 python3 skills/add-designstyle/scripts/validate_progressive_library.py --library designstyle-library --json
 python3 skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --library designstyle-library --matrix --design-system
 ```
+
+Note: `validate_references.py` is intentionally stricter in v0.2.7. Existing L3 references fail until they are backfilled with the new `Reference Text And Copy Grammar` and `Style Tokens And Surface Grammar` sections. `validate_progressive_library.py` is the active readiness check for the generated L1/L2/design-system layer.

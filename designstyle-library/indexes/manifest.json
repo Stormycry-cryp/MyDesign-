@@ -37,6 +37,18 @@
       "title": "Apple Vision Pro Product Story"
     },
     {
+      "card_path": "indexes/cards/aston-martin-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/aston-martin-official/component-styles.md",
+        "moodboard": "design-systems/aston-martin-official/moodboard.svg",
+        "palette": "design-systems/aston-martin-official/palette.md",
+        "tokens": "design-systems/aston-martin-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-aston-martin-official.md",
+      "slug": "aston-martin-official",
+      "title": "Aston Martin Official"
+    },
+    {
       "card_path": "indexes/cards/attio-crm-workspace.json",
       "design_system_paths": {
         "component_styles": "design-systems/attio-crm-workspace/component-styles.md",
@@ -59,6 +71,18 @@
       "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
       "slug": "bauhaus-clock-interactive-product",
       "title": "Bauhaus Clock Interactive Product"
+    },
+    {
+      "card_path": "indexes/cards/bentley-motors-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/bentley-motors-official/component-styles.md",
+        "moodboard": "design-systems/bentley-motors-official/moodboard.svg",
+        "palette": "design-systems/bentley-motors-official/palette.md",
+        "tokens": "design-systems/bentley-motors-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-bentley-motors-official.md",
+      "slug": "bentley-motors-official",
+      "title": "Bentley Motors Official"
     },
     {
       "card_path": "indexes/cards/benvenusa-food-wine.json",
@@ -109,6 +133,18 @@
       "title": "Bunkhouse"
     },
     {
+      "card_path": "indexes/cards/burberry-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/burberry-official/component-styles.md",
+        "moodboard": "design-systems/burberry-official/moodboard.svg",
+        "palette": "design-systems/burberry-official/palette.md",
+        "tokens": "design-systems/burberry-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-burberry-official.md",
+      "slug": "burberry-official",
+      "title": "Burberry Official"
+    },
+    {
       "card_path": "indexes/cards/capital-finance-product.json",
       "design_system_paths": {
         "component_styles": "design-systems/capital-finance-product/component-styles.md",
@@ -119,6 +155,18 @@
       "reference_path": "references/2026-06-03-capital-finance-product.md",
       "slug": "capital-finance-product",
       "title": "Capital Finance Product"
+    },
+    {
+      "card_path": "indexes/cards/chopard-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/chopard-official/component-styles.md",
+        "moodboard": "design-systems/chopard-official/moodboard.svg",
+        "palette": "design-systems/chopard-official/palette.md",
+        "tokens": "design-systems/chopard-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-chopard-official.md",
+      "slug": "chopard-official",
+      "title": "Chopard Official"
     },
     {
       "card_path": "indexes/cards/clay-data-workspace.json",
@@ -301,6 +349,42 @@
       "title": "Jacky Winter Gallery"
     },
     {
+      "card_path": "indexes/cards/lamborghini-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/lamborghini-official/component-styles.md",
+        "moodboard": "design-systems/lamborghini-official/moodboard.svg",
+        "palette": "design-systems/lamborghini-official/palette.md",
+        "tokens": "design-systems/lamborghini-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-lamborghini-official.md",
+      "slug": "lamborghini-official",
+      "title": "Lamborghini Official"
+    },
+    {
+      "card_path": "indexes/cards/land-rover-range-rover-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/land-rover-range-rover-official/component-styles.md",
+        "moodboard": "design-systems/land-rover-range-rover-official/moodboard.svg",
+        "palette": "design-systems/land-rover-range-rover-official/palette.md",
+        "tokens": "design-systems/land-rover-range-rover-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-land-rover-range-rover-official.md",
+      "slug": "land-rover-range-rover-official",
+      "title": "Land Rover Range Rover Official"
+    },
+    {
+      "card_path": "indexes/cards/lexus-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/lexus-official/component-styles.md",
+        "moodboard": "design-systems/lexus-official/moodboard.svg",
+        "palette": "design-systems/lexus-official/palette.md",
+        "tokens": "design-systems/lexus-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-lexus-official.md",
+      "slug": "lexus-official",
+      "title": "Lexus Official"
+    },
+    {
       "card_path": "indexes/cards/linear-product-saas.json",
       "design_system_paths": {
         "component_styles": "design-systems/linear-product-saas/component-styles.md",
@@ -325,6 +409,18 @@
       "title": "LiveSurface Product Software"
     },
     {
+      "card_path": "indexes/cards/lucid-motors-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/lucid-motors-official/component-styles.md",
+        "moodboard": "design-systems/lucid-motors-official/moodboard.svg",
+        "palette": "design-systems/lucid-motors-official/palette.md",
+        "tokens": "design-systems/lucid-motors-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-lucid-motors-official.md",
+      "slug": "lucid-motors-official",
+      "title": "Lucid Motors Official"
+    },
+    {
       "card_path": "indexes/cards/lunchbox-restaurant-commerce-saas.json",
       "design_system_paths": {
         "component_styles": "design-systems/lunchbox-restaurant-commerce-saas/component-styles.md",
@@ -347,6 +443,30 @@
       "reference_path": "references/2026-06-03-making-software-editorial-tooling.md",
       "slug": "making-software-editorial-tooling",
       "title": "Making Software Editorial Tooling"
+    },
+    {
+      "card_path": "indexes/cards/maserati-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/maserati-official/component-styles.md",
+        "moodboard": "design-systems/maserati-official/moodboard.svg",
+        "palette": "design-systems/maserati-official/palette.md",
+        "tokens": "design-systems/maserati-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-maserati-official.md",
+      "slug": "maserati-official",
+      "title": "Maserati Official"
+    },
+    {
+      "card_path": "indexes/cards/mclaren-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/mclaren-official/component-styles.md",
+        "moodboard": "design-systems/mclaren-official/moodboard.svg",
+        "palette": "design-systems/mclaren-official/palette.md",
+        "tokens": "design-systems/mclaren-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-mclaren-official.md",
+      "slug": "mclaren-official",
+      "title": "McLaren Official"
     },
     {
       "card_path": "indexes/cards/mercury-financial-dashboard.json",
@@ -431,6 +551,30 @@
       "reference_path": "references/2026-06-03-overpass-software-platform.md",
       "slug": "overpass-software-platform",
       "title": "Overpass Software Platform"
+    },
+    {
+      "card_path": "indexes/cards/pagani-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/pagani-official/component-styles.md",
+        "moodboard": "design-systems/pagani-official/moodboard.svg",
+        "palette": "design-systems/pagani-official/palette.md",
+        "tokens": "design-systems/pagani-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-pagani-official.md",
+      "slug": "pagani-official",
+      "title": "Pagani Official"
+    },
+    {
+      "card_path": "indexes/cards/patek-philippe-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/patek-philippe-official/component-styles.md",
+        "moodboard": "design-systems/patek-philippe-official/moodboard.svg",
+        "palette": "design-systems/patek-philippe-official/palette.md",
+        "tokens": "design-systems/patek-philippe-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-patek-philippe-official.md",
+      "slug": "patek-philippe-official",
+      "title": "Patek Philippe Official"
     },
     {
       "card_path": "indexes/cards/patrick-mason-studio-portfolio.json",
@@ -601,6 +745,18 @@
       "title": "Supabase Developer Platform"
     },
     {
+      "card_path": "indexes/cards/tag-heuer-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/tag-heuer-official/component-styles.md",
+        "moodboard": "design-systems/tag-heuer-official/moodboard.svg",
+        "palette": "design-systems/tag-heuer-official/palette.md",
+        "tokens": "design-systems/tag-heuer-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-tag-heuer-official.md",
+      "slug": "tag-heuer-official",
+      "title": "TAG Heuer Official"
+    },
+    {
       "card_path": "indexes/cards/teenage-engineering-hardware-brand.json",
       "design_system_paths": {
         "component_styles": "design-systems/teenage-engineering-hardware-brand/component-styles.md",
@@ -661,6 +817,18 @@
       "title": "Typeform Product Forms SaaS"
     },
     {
+      "card_path": "indexes/cards/ulysse-nardin-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/ulysse-nardin-official/component-styles.md",
+        "moodboard": "design-systems/ulysse-nardin-official/moodboard.svg",
+        "palette": "design-systems/ulysse-nardin-official/palette.md",
+        "tokens": "design-systems/ulysse-nardin-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-ulysse-nardin-official.md",
+      "slug": "ulysse-nardin-official",
+      "title": "Ulysse Nardin Official"
+    },
+    {
       "card_path": "indexes/cards/uncut-typography-resource.json",
       "design_system_paths": {
         "component_styles": "design-systems/uncut-typography-resource/component-styles.md",
@@ -683,6 +851,18 @@
       "reference_path": "references/2026-06-03-usps-delivers-generational-report.md",
       "slug": "usps-delivers-generational-report",
       "title": "USPS Delivers Generational Report"
+    },
+    {
+      "card_path": "indexes/cards/valentino-official.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/valentino-official/component-styles.md",
+        "moodboard": "design-systems/valentino-official/moodboard.svg",
+        "palette": "design-systems/valentino-official/palette.md",
+        "tokens": "design-systems/valentino-official/tokens.json"
+      },
+      "reference_path": "references/2026-06-05-valentino-official.md",
+      "slug": "valentino-official",
+      "title": "Valentino Official"
     },
     {
       "card_path": "indexes/cards/vercel-developer-platform.json",
@@ -925,5 +1105,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 77
+  "total_cards": 92
 }

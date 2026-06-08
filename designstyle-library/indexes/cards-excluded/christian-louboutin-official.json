@@ -1,0 +1,68 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "luxury shoe homepage",
+    "signature-color retail"
+  ],
+  "category_tags": [
+    "luxury shoes",
+    "accessories",
+    "retail"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "design_system_paths": {
+    "component_styles": "design-systems/christian-louboutin-official/component-styles.md",
+    "moodboard": "design-systems/christian-louboutin-official/moodboard.svg",
+    "palette": "design-systems/christian-louboutin-official/palette.md",
+    "tokens": "design-systems/christian-louboutin-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/christian-louboutin-official/assets.md",
+    "color_surface": "dimensions/christian-louboutin-official/color-surface.md",
+    "components_states": "dimensions/christian-louboutin-official/components-states.md",
+    "layout_spacing": "dimensions/christian-louboutin-official/layout-spacing.md",
+    "motion_code": "dimensions/christian-louboutin-official/motion-code.md",
+    "scene": "dimensions/christian-louboutin-official/scene.md",
+    "type_copy": "dimensions/christian-louboutin-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "weak",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "menu transitions"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-christian-louboutin-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "christian-louboutin-official",
+  "structure_tags": [
+    "campaign hero",
+    "category gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "red-accent luxury",
+    "glam editorial",
+    "polished commerce"
+  ],
+  "title": "Christian Louboutin Official"
+}

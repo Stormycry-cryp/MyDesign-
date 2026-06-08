@@ -12,7 +12,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BUILD = ROOT / "scripts" / "build_progressive_reference.py"
 VALIDATE = ROOT / "scripts" / "validate_progressive_library.py"
+VALIDATE_REFERENCES = ROOT / "scripts" / "validate_references.py"
 SKILL = ROOT / "SKILL.md"
+DESIGNSTYLE_SKILL = ROOT.parent / "designstyle" / "SKILL.md"
+USE_SKILL = ROOT.parent / "use-designstyle" / "SKILL.md"
+SEARCH = ROOT.parent / "use-designstyle" / "scripts" / "search_references.py"
 PROBE = ROOT / "scripts" / "probe_aesthetic_fit.py"
 
 
@@ -248,6 +252,136 @@ def run(cmd: list[str]) -> subprocess.CompletedProcess[str]:
 
 
 class ProgressiveLibraryTests(unittest.TestCase):
+    def test_router_declares_shared_contract_and_handoff_rules(self) -> None:
+        text = DESIGNSTYLE_SKILL.read_text(encoding="utf-8")
+
+        for marker in [
+            "## Shared Contract",
+            "## Handoff Rules",
+            "Required dimensions",
+            "Reuse boundary",
+            "Next handoff",
+            "Add-Designstyle Backlog",
+        ]:
+            self.assertIn(marker, text)
+
+
+    def test_add_skill_declares_use_readiness_gate(self) -> None:
+        text = SKILL.read_text(encoding="utf-8")
+
+        for marker in [
+            "## Use-Readiness Gate",
+            "A reference counts as active usable only when",
+            "component_json_path",
+            "Reference text grammar",
+            "Style tokens",
+            "Spacing rhythm",
+            "## Use Readiness",
+        ]:
+            self.assertIn(marker, text)
+
+
+    def test_use_skill_declares_coverage_strength_and_add_backlog(self) -> None:
+        text = USE_SKILL.read_text(encoding="utf-8")
+
+        for marker in [
+            "## Coverage Strength",
+            "strong: scene, page scope",
+            "partial: enough for selected dimensions",
+            "weak: only suitable as loose inspiration",
+            "## Add-Designstyle Backlog",
+            "Needed evidence level",
+            "Candidate query direction",
+        ]:
+            self.assertIn(marker, text)
+
+
+    def test_search_weights_page_scope_before_generic_style_or_motion(self) -> None:
+        search = load_module(SEARCH, "search_references")
+        weight_order = [field for field, _ in search.CARD_WEIGHTS]
+
+        self.assertLess(weight_order.index("page_scope"), weight_order.index("category_tags"))
+        self.assertLess(weight_order.index("page_scope"), weight_order.index("style_tags"))
+        self.assertLess(weight_order.index("best_for"), weight_order.index("motion_tags"))
+
+        query = search.tokens("skincare product detail formula hover transition")
+        fit_card = {
+            "title": "Clinical PDP",
+            "page_scope": "product detail page",
+            "category_tags": ["skincare", "commerce"],
+            "best_for": ["clinical skincare product detail page"],
+            "structure_tags": ["product grid"],
+            "style_tags": ["clinical"],
+            "motion_tags": [],
+            "code_tags": [],
+            "avoid_for": [],
+        }
+        wrong_motion_card = {
+            "title": "Portfolio Motion",
+            "page_scope": "portfolio",
+            "category_tags": ["portfolio"],
+            "best_for": ["portfolio gallery"],
+            "structure_tags": [],
+            "style_tags": [],
+            "motion_tags": ["hover", "transition", "animation"],
+            "code_tags": ["css", "js"],
+            "avoid_for": ["product detail page", "skincare commerce"],
+        }
+
+        fit_score, fit_factors = search.card_score(query, fit_card)
+        wrong_score, wrong_factors = search.card_score(query, wrong_motion_card)
+
+        self.assertGreater(fit_score, wrong_score)
+        self.assertGreaterEqual(fit_factors["scene_gate_percent"], 50)
+        self.assertEqual(wrong_factors["gated_motion_code"], 0)
+
+
+    def test_search_explain_output_names_selection_and_rejection_reasons(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            library = Path(td) / "library"
+            (library / "indexes" / "cards").mkdir(parents=True)
+            (library / "references").mkdir(parents=True)
+            (library / "references" / "clinical.md").write_text("# Clinical\n", encoding="utf-8")
+            (library / "indexes" / "cards" / "clinical.json").write_text(
+                json.dumps(
+                    {
+                        "slug": "clinical",
+                        "title": "Clinical PDP",
+                        "reference_path": "references/clinical.md",
+                        "category_tags": ["skincare", "commerce"],
+                        "style_tags": ["clinical"],
+                        "structure_tags": ["product grid"],
+                        "motion_tags": [],
+                        "code_tags": [],
+                        "page_scope": "product detail page",
+                        "best_for": ["clinical skincare product detail page"],
+                        "avoid_for": [],
+                        "evidence_strength": {"screenshot": "strong"},
+                        "dimension_paths": {},
+                        "design_system_paths": {},
+                        "selection_note": "same scene",
+                        "evidence_limits": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            result = run([
+                sys.executable,
+                str(SEARCH),
+                "skincare product detail formula hover transition",
+                "--library",
+                str(library),
+                "--matrix",
+                "--explain-selection",
+            ])
+
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn("selected_reason:", result.stdout)
+            self.assertIn("rejected_reason:", result.stdout)
+            self.assertIn("coverage_hint:", result.stdout)
+
+
     def test_skill_requires_aesthetic_gate_before_writing_reference(self) -> None:
         text = SKILL.read_text(encoding="utf-8")
 
@@ -304,6 +438,12 @@ class ProgressiveLibraryTests(unittest.TestCase):
             self.assertTrue(card.exists())
             self.assertEqual(json.loads(card.read_text())["evidence_strength"]["layout_spacing"], "strong")
             payload = json.loads(card.read_text())
+            self.assertIn("missing_evidence", payload)
+            self.assertIn("component_json_path", payload)
+            self.assertEqual(
+                payload["component_json_path"],
+                "assets/2026-06-04-sample-hardware-component-styles.json",
+            )
             self.assertEqual(payload["evidence_strength"]["design_system"], "strong")
             self.assertEqual(payload["design_system_paths"]["tokens"], "design-systems/sample-hardware/tokens.json")
             dims = sorted((library / "dimensions" / "sample-hardware").glob("*.md"))
@@ -332,6 +472,15 @@ class ProgressiveLibraryTests(unittest.TestCase):
             self.assertIn("### Missing Evidence", component_text)
             self.assertTrue((library / "indexes" / "manifest.json").exists())
             self.assertTrue((library / "indexes" / "facets.json").exists())
+
+
+    def test_reference_validator_requires_shared_mandatory_dimensions(self) -> None:
+        validate_references = load_module(VALIDATE_REFERENCES, "validate_references")
+
+        self.assertIn("Reference Text And Copy Grammar", validate_references.REQUIRED_SECTIONS)
+        self.assertIn("Style Tokens And Surface Grammar", validate_references.REQUIRED_SECTIONS)
+        self.assertIn("Layout Geometry And Spacing", validate_references.REQUIRED_SECTIONS)
+        self.assertIn("- Component computed-style evidence:", validate_references.QUALITY_MARKERS)
 
 
     def test_validator_rejects_broken_card(self) -> None:

@@ -1,0 +1,73 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "heritage watch homepage",
+    "technical brand storytelling"
+  ],
+  "category_tags": [
+    "luxury watches",
+    "brand editorial"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-patek-philippe-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/patek-philippe-official/component-styles.md",
+    "moodboard": "design-systems/patek-philippe-official/moodboard.svg",
+    "palette": "design-systems/patek-philippe-official/palette.md",
+    "tokens": "design-systems/patek-philippe-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/patek-philippe-official/assets.md",
+    "color_surface": "dimensions/patek-philippe-official/color-surface.md",
+    "components_states": "dimensions/patek-philippe-official/components-states.md",
+    "layout_spacing": "dimensions/patek-philippe-official/layout-spacing.md",
+    "motion_code": "dimensions/patek-philippe-official/motion-code.md",
+    "scene": "dimensions/patek-philippe-official/scene.md",
+    "type_copy": "dimensions/patek-philippe-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "hero media",
+    "hover states",
+    "scroll reveals"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-patek-philippe-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "patek-philippe-official",
+  "structure_tags": [
+    "brand editorial hero",
+    "collection gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "heritage watchmaking",
+    "classical luxury",
+    "technical editorial"
+  ],
+  "title": "Patek Philippe Official"
+}

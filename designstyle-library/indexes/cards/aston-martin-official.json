@@ -1,0 +1,73 @@
+{
+  "avoid_for": [
+    "marketplace pages",
+    "ordinary ecommerce templates",
+    "low-brand retail pages"
+  ],
+  "best_for": [
+    "luxury automotive homepage",
+    "performance brand storytelling"
+  ],
+  "category_tags": [
+    "luxury automotive",
+    "brand editorial"
+  ],
+  "code_tags": [
+    "computed styles",
+    "public css js",
+    "component evidence"
+  ],
+  "component_json_path": "assets/2026-06-05-aston-martin-official-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/aston-martin-official/component-styles.md",
+    "moodboard": "design-systems/aston-martin-official/moodboard.svg",
+    "palette": "design-systems/aston-martin-official/palette.md",
+    "tokens": "design-systems/aston-martin-official/tokens.json"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/aston-martin-official/assets.md",
+    "color_surface": "dimensions/aston-martin-official/color-surface.md",
+    "components_states": "dimensions/aston-martin-official/components-states.md",
+    "layout_spacing": "dimensions/aston-martin-official/layout-spacing.md",
+    "motion_code": "dimensions/aston-martin-official/motion-code.md",
+    "scene": "dimensions/aston-martin-official/scene.md",
+    "type_copy": "dimensions/aston-martin-official/type-copy.md"
+  },
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "hero media",
+    "scroll storytelling",
+    "hover states"
+  ],
+  "page_scope": "official brand homepage",
+  "reference_path": "references/2026-06-05-aston-martin-official.md",
+  "selection_note": "User requested luxury brand official websites only; selected from aesthetic-gate passed official brand sites and excluded marketplaces/ordinary independent-site-looking pages.",
+  "slug": "aston-martin-official",
+  "structure_tags": [
+    "cinematic hero",
+    "model gateway",
+    "global navigation"
+  ],
+  "style_tags": [
+    "performance luxury",
+    "cinematic editorial",
+    "dark product polish"
+  ],
+  "title": "Aston Martin Official"
+}

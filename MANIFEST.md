@@ -1,7 +1,7 @@
 # Manifest
 
-Version: v0.2.5
-Date: 2026-06-04
+Version: v0.2.6
+Date: 2026-06-08
 
 ## Skills
 
@@ -24,6 +24,10 @@ Date: 2026-06-04
 
 ## Highlights
 
+- `use-designstyle` now requires an upfront HITL gate before build work when user-provided assets, premium visual direction, or rich motion are involved. The gate collects style anchors, forbidden drift directions, motion richness level, asset boundaries, deliverable format, and required QA states.
+- `use-designstyle` now treats `work/designstyle-direction-plan.md` as an execution contract with upfront assumptions, a stepwise build plan, an iteration log, and a final QA checklist.
+- Build flow is now plan-led: agents should update the plan after each step and avoid repeatedly asking the user for confirmation during build unless a hard blocker appears.
+- Use-side QA now explicitly covers hover/focus states, immediate-load first viewport, post-animation state, mobile sections, reduced motion, and asset usage against the confirmed plan.
 - Progressive disclosure: L1 cards, L2 dimension summaries, L3 full references, and L4 on-demand evidence boundaries.
 - Router skill: `designstyle` chooses add, use, or add-then-use and reports evidence layers read.
 - Aesthetic gate: `add-designstyle` can reject visually ordinary candidates before they count as library references.
@@ -42,6 +46,8 @@ Date: 2026-06-04
 
 Validated locally before release:
 
+- `rg -n "Upfront HITL|Stepwise Build Plan|Iteration Log|Final QA Checklist" skills/use-designstyle/SKILL.md`: confirms the new HITL, stepwise plan, iteration log, and QA checklist gates are present.
+- `rg -n "repeated confirmation|filenames|hover/focus|post-animation" skills/use-designstyle/SKILL.md`: confirms the no-repeat-confirmation, asset visual-inspection, and interaction-state QA rules are present.
 - `validate_references.py --library designstyle-library --json`: 76 total, 76 valid, 0 invalid.
 - `clean_reference_noise.py --library designstyle-library --check`: no abnormal scientific-notation `px` values remain in active reference text artifacts.
 - `score_reference_quality.py --library designstyle-library --markdown-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md --json-output designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.json`: 76 references scored with per-dimension breakdown.

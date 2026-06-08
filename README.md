@@ -51,6 +51,8 @@ The current per-reference design-system score report is saved at `designstyle-li
 
 The v0.2.5 library cleanup removes committed raw DOM snapshots from the default library while keeping 76 active screenshots, 76 component-style JSON files, and 76 design-system packs. The default `designstyle-library` is 48M after cleanup; raw DOM is now external/on-demand L4 evidence.
 
+The v0.2.6 `use-designstyle` update adds upfront HITL and plan-led iteration. Before build work, the skill now collects style anchors, forbidden drift directions, motion richness level, asset boundaries, deliverable format, and required QA states. The direction plan is treated as an execution contract with a stepwise build plan, iteration log, and final QA checklist, so agents can build without repeatedly interrupting the user unless a hard blocker appears.
+
 ## Motion Evidence Boundary
 
 The references intentionally do not store full proprietary CSS/JS. They keep resource URLs, short motion-relevant snippets, exact useful motion parameters, and implementation interpretation. This keeps references useful without turning the library into copied source.

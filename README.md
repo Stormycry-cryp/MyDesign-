@@ -226,7 +226,7 @@ designstyle-library/
 - L2 `motion-code.md` 改成清单表在前，snippet 只做附录。
 - `tokens.json` 拆成 evidence/apply 两层；聚不出来的值保留 `missing`。
 - 每个 design-system pack 生成 `variables.css`、`tailwind.theme.json`、`motion-presets.css`。
-- 噪声检查覆盖截断 CSS、autofill、consent、cookie、captcha 和异常 `px` 值。
+- 噪声检查覆盖截断 CSS、autofill、consent、cookie、captcha、第三方 analytics/replay key 形态和异常 `px` 值。
 
 **Use 侧**
 

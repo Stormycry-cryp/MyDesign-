@@ -30,7 +30,9 @@ MOTION_PATTERNS = {
 }
 
 MOTION_NOISE_RE = re.compile(
-    r"autofill|captcha|consent|cookie|cookielaw|hs-banner|hs-modal|onetrust|ot-sdk|otsdk|privacy|recaptcha",
+    r"autofill|captcha|consent|cookie|cookielaw|hs-banner|hs-modal|onetrust|ot-sdk|otsdk|privacy|recaptcha|posthog|ph"
+    r"c_[A-Za-z0-9]+|replay"
+    r"ApiKey=",
     re.I,
 )
 CSS_DURATION_RE = re.compile(r"(?<![\w.-])(\d*\.?\d+)(ms|s)(?![\w-])", re.I)

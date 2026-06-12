@@ -1,0 +1,23 @@
+{
+  "mode": "write",
+  "library": "designstyle-library",
+  "planned": 1,
+  "ok": 1,
+  "partial": 0,
+  "results": [
+    {
+      "reference": "designstyle-library/references/2026-06-04-railway-developer-platform.md",
+      "slug": "railway-developer-platform",
+      "url": "https://railway.com/",
+      "status": "ok",
+      "reason": "playwright capture ok",
+      "screenshot": "screenshots/railway-developer-platform-desktop.png",
+      "component": "assets/2026-06-12-railway-developer-platform-component-styles.json",
+      "motion": "assets/2026-06-12-railway-developer-platform-motion.json",
+      "component_samples": 38,
+      "state_samples": 4,
+      "motion_items": 53,
+      "blocked_reasons": []
+    }
+  ]
+}

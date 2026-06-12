@@ -30,6 +30,16 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 1411x1764; 469x469; 938x938; 1411x1764; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}; source: Dimension And Ratio System
+- Observed media ratios: 1411:1764; 469:469; 938:938; 1411:1764; 1440:1800; 1:1; source: Dimension And Ratio System
+- component load motion uses 250ms ease-in-out; source: motion.json
+- component state-change motion uses 200ms ease-out; source: motion.json
+- component state-change motion uses 200ms ease-in; source: motion.json
+- component load motion uses 1000ms linear; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://teenage.engineering/
 - Page title: teenage engineering
@@ -60,6 +70,12 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation teenage engineering; product; instruments; audio; designs; store; checkout; deals; newsletter; instagram; now; guides
+- Sentence rhythm: 93 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title teenage engineering; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0); BUTTON:rgb(229, 229, 229):rgba(0, 0, 0, 0); A:rgb(229, 229, 229):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +87,12 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 - Media/card aspect stability: image natural sizes include 1411x1764; 469x469; 938x938; 1411x1764; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons search; search; search; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}
 - Observed media ratios: 1411:1764; 469:469; 938:938; 1411:1764; 1440:1800; 1:1
@@ -90,20 +112,20 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-teenage-engineering-hardware-brand-component-styles.json`
 - Asset CDN and media loading patterns: https://assets.teenage.engineering/_img/69fb290acbb33728c83adf79_2048.webp; https://assets.teenage.engineering/_img/6a0478c28fa08037d0b1da88_512.webp; https://assets.teenage.engineering/_img/6a048b74e7daa247db147cb4_1024.webp; https://assets.teenage.engineering/_img/6978c061edd4be589c072ea3_2048.webp; https://assets.teenage.engineering/_img/69679fcdc59421146f2da1d5_128.webp; https://assets.teenage.engineering/_img/654e3948255502e470bf2649_128.webp; https://assets.teenage.engineering/_img/65bb545c604563e4f94c9726_128.webp; https://assets.teenage.engineering/_img/691c2c32e6d1b72313eaddae_128.webp
 
 ## Motion
-- Page transitions: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leav, se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#fff;background-color:var(--, ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (width>=768px){._add_1lf02_73{width:var(--add-icon-size);heig
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}, dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leav, top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#fff;background-color:var(--, -spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{border:var(--spinner-border) solid var(--
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; p:calc(var(--tile-padding) * 1.5);color:var(--te-black);grid-area:buy;transition:transform .25s,opacity .15s}._secondary_1lf02_106 ._add-to-cart_1lf02_146 svg>*>*{stroke:none}._sec; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; n-checkout__payment-method{border-radius:0!important}}img{color:#0000}@keyframes bulge{0%{transform:scale(1)}50%{transform:scale(1.25)}to{transform:scale(1)}}.bag-animation{transfo; @keyframes _load_hiku9_1{0%{transform:rotate(0)}to{transform:rotate(360deg)}}._spinner_hiku9_11{--spinner-size:calc(.0714286 * var(--client-width));--spin
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, keyframes, transform, transition
-- Public CSS/JS motion snippets: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; p:calc(var(--tile-padding) * 1.5);color:var(--te-black);grid-area:buy;transition:transform .25s,opacity .15s}._secondary_1lf02_106 ._add-to-cart_1lf02_146 svg>*>*{stroke:none}._sec; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; n-checkout__payment-method{border-radius:0!important}}img{color:#0000}@keyframes bulge{0%{transform:scale(1)}50%{transform:scale(1.25)}to{transform:scale(1)}}.bag-animation{transfo; @keyframes _load_hiku9_1{0%{transform:rotate(0)}to{transform:rotate(360deg)}}._spinner_hiku9_11{--spinner-size:calc(.0714286 * var(--client-width));--spin; nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._mes
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._mes; top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#; eft}.center{text-align:center}.right{text-align:right}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.te-20{font-family:var(--te-20)}.te-40{font-family:var; {text-align:right}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.te-20{font-family:var(--te-20)}.te-40{font-family:var(--te-40)}@font-face{font-family:Uni
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://teenage.engineering/assets/root.QSqwWqQS.css; https://teenage.engineering/assets/app-context.DXURrIqw.css; https://teenage.engineering/assets/form.DWmR17wv.css; https://teenage.engineering/assets/block.2tPiDhcW.css; https://teenage.engineering/assets/flex.C4wW179p.css; https://teenage.engineering/assets/button.B8x4Racb.css; https://teenage.engineering/assets/container.dVm2W4Ta.css; https://teenage.engineering/assets/grid.BPtO4oiR.css
@@ -113,7 +135,7 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 ## Interaction And Components
 - Navigation: teenage engineering; product; instruments; audio; designs; store; checkout; deals; newsletter; instagram; now; guides; support; product; checkout; store
 - Buttons/links: search; search; search
-- Computed component styles: `assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json`
+- Computed component styles: `assets/2026-06-12-teenage-engineering-hardware-brand-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +164,4 @@ Teenage Engineering Hardware Brand is captured as a hardware, product, commerce,
 - Reuse value: useful for homepage hardware product brand if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-teenage-engineering-hardware-brand-motion.json`

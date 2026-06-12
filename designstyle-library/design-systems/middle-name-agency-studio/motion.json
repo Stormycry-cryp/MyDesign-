@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "首屏load：animation translate(0) -> translate(calc(-100% - 25px))，34000ms linear，load 触发",
+      "duration_ms": 34000,
+      "easing": "linear",
+      "from": "translate(0)",
+      "id": "motion-hero-load-animation-34000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translate(calc(-100% - 25px))"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".block-hero__marque>span",
+      "selector_role": "hero",
+      "snippet": ".block-hero__marque>span { animation: scroll 34s linear infinite; }",
+      "source": "https://middlename.co.uk/_nuxt/entry.ZzGZU1i6.css",
+      "to": "translate(calc(-100% - 25px))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：all，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-navigation-state-change-all-300-ease",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".slideshow__nav a",
+      "selector_role": "navigation",
+      "snippet": ".slideshow__nav a { transition: all .3s ease; }",
+      "source": "https://middlename.co.uk/_nuxt/entry.ZzGZU1i6.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(67, 85, 139)，250ms ease，hover 触发；样本 ABOUT",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(67, 85, 139)\", \"border\": \"0px none rgb(200, 205, 222)\", \"borderBottom\": \"0px none rgb(200, 205, 222)\", \"borderLeft\": \"0px none rgb(200, 205, 222)\", \"borderRight\": \"0px none rgb(200, 205, 222)\", \"borderTop\": \"0px none rgb(200, 205, 222)\", \"color\": \"rgb(200, 205, 222)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(67, 85, 139)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(67, 85, 139)，250ms ease，focus 触发；样本 ABOUT",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(67, 85, 139)\", \"border\": \"0px none rgb(200, 205, 222)\", \"borderBottom\": \"0px none rgb(200, 205, 222)\", \"borderLeft\": \"0px none rgb(200, 205, 222)\", \"borderRight\": \"0px none rgb(200, 205, 222)\", \"borderTop\": \"0px none rgb(200, 205, 222)\", \"color\": \"rgb(200, 205, 222)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(67, 85, 139)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(227, 170, 157)，250ms ease，hover 触发；样本 TESTIMONIALS",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-1\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(227, 170, 157)\", \"border\": \"0px none rgb(199, 205, 221)\", \"borderBottom\": \"0px none rgb(199, 205, 221)\", \"borderLeft\": \"0px none rgb(199, 205, 221)\", \"borderRight\": \"0px none rgb(199, 205, 221)\", \"borderTop\": \"0px none rgb(199, 205, 221)\", \"color\": \"rgb(199, 205, 221)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(227, 170, 157)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(227, 170, 157)，250ms ease，focus 触发；样本 TESTIMONIALS",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-1\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(227, 170, 157)\", \"border\": \"0px none rgb(199, 205, 221)\", \"borderBottom\": \"0px none rgb(199, 205, 221)\", \"borderLeft\": \"0px none rgb(199, 205, 221)\", \"borderRight\": \"0px none rgb(199, 205, 221)\", \"borderTop\": \"0px none rgb(199, 205, 221)\", \"color\": \"rgb(199, 205, 221)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(227, 170, 157)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(217, 154, 95)，250ms ease，hover 触发；样本 CONTACT",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(217, 154, 95)\", \"border\": \"0px none rgb(200, 205, 222)\", \"borderBottom\": \"0px none rgb(200, 205, 222)\", \"borderLeft\": \"0px none rgb(200, 205, 222)\", \"borderRight\": \"0px none rgb(200, 205, 222)\", \"borderTop\": \"0px none rgb(200, 205, 222)\", \"color\": \"rgb(200, 205, 222)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(217, 154, 95)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(217, 154, 95)，250ms ease，focus 触发；样本 CONTACT",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(217, 154, 95)\", \"border\": \"0px none rgb(200, 205, 222)\", \"borderBottom\": \"0px none rgb(200, 205, 222)\", \"borderLeft\": \"0px none rgb(200, 205, 222)\", \"borderRight\": \"0px none rgb(200, 205, 222)\", \"borderTop\": \"0px none rgb(200, 205, 222)\", \"color\": \"rgb(200, 205, 222)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(217, 154, 95)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(67, 85, 139)，250ms ease，hover 触发；样本 INSTAGRAM",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-3\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(67, 85, 139)\", \"border\": \"0px none rgb(200, 205, 222)\", \"borderBottom\": \"0px none rgb(200, 205, 222)\", \"borderLeft\": \"0px none rgb(200, 205, 222)\", \"borderRight\": \"0px none rgb(200, 205, 222)\", \"borderTop\": \"0px none rgb(200, 205, 222)\", \"color\": \"rgb(200, 205, 222)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(67, 85, 139)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(52, 72, 131)，250ms ease，focus 触发；样本 INSTAGRAM",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-250-ease",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-3\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(52, 72, 131)\", \"border\": \"0px none rgb(216, 220, 231)\", \"borderBottom\": \"0px none rgb(216, 220, 231)\", \"borderLeft\": \"0px none rgb(216, 220, 231)\", \"borderRight\": \"0px none rgb(216, 220, 231)\", \"borderTop\": \"0px none rgb(216, 220, 231)\", \"color\": \"rgb(216, 220, 231)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(52, 72, 131)",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [
+    "motion-hero-load-animation-0-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "首屏load：animation，0ms missing，load 触发",
+      "duration_ms": 0,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-hero-load-animation-0-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".block-hero.is-paused .block-hero__marque>span",
+      "selector_role": "hero",
+      "snippet": ".block-hero.is-paused .block-hero__marque>span { animation: missing missing missing 0ms; }",
+      "source": "https://middlename.co.uk/_nuxt/entry.ZzGZU1i6.css",
+      "to": "missing",
+      "trigger": "load"
+    }
+  ],
+  "reference_path": "references/2026-06-03-middle-name-agency-studio.md",
+  "slug": "middle-name-agency-studio",
+  "source_motion_path": "assets/2026-06-12-middle-name-agency-studio-motion.json",
+  "source_urls": [
+    "https://middlename.co.uk/_nuxt/entry.ZzGZU1i6.css"
+  ],
+  "title": "Middle Name Agency Studio"
+}

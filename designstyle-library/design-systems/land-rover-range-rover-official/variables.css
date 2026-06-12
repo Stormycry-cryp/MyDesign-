@@ -1,0 +1,26 @@
+:root {
+  --ds-color-foreground: #202020;
+  --ds-color-background: #ffffff;
+  --ds-color-accent: #c09060;
+  --ds-color-supporting-color: #803010;
+  --ds-color-foreground-2: #404040;
+  --ds-color-accent-2: #c05020;
+  --ds-color-supporting-color-2: #a04020;
+  --ds-color-deep-accent: #602010;
+  --ds-color-supporting-color-3: #c0c0a0;
+  --ds-color-accent-3: #e07030;
+  --ds-color-foreground-3: #4a4f54;
+  --ds-color-deep-accent-2: #0c121c;
+  --ds-spacing-component: 0px 6.5px 0px 10px;
+  --ds-radius-component: 100%;
+  --ds-shadow-component: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px;
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-ease-duration: 300ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-ease-delay: 0ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-ease-easing: ease;
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-ease-duration: 300ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-ease-delay: 0ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-ease-easing: ease;
+  --ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-duration: 500ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-easing: ease-in-out;
+}

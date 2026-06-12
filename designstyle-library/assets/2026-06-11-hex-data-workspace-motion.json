@@ -1,0 +1,25 @@
+{
+  "checked_urls": [
+    "https://hex.tech/styles/brand-refresh-fonts.css",
+    "https://hex.tech/styles/fonts-editorial.css",
+    "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap",
+    "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700|IBM+Plex+Mono:400,500,700|IBM+Plex+Serif:300,400,500,600,700&display=swap",
+    "https://cdn.rudderlabs.com/3.31.3/modern/js-integrations/GoogleTagManager.min.js",
+    "https://cdn.rudderlabs.com/v3/modern/rsa.min.js",
+    "https://cdn.claydar.com/releases/latest/radar.min.js",
+    "https://static.claydar.com/init.v1.js?id=c79rWKpa2E",
+    "https://hex.tech/webpack-runtime-7f1ba5351d2544d3b8c3.js",
+    "https://hex.tech/framework-08e3389d5503b6f7912a.js"
+  ],
+  "items": [],
+  "missing": [
+    "No structured motion declarations found in sampled public CSS/JS resources."
+  ],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "hex-data-workspace",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": []
+}

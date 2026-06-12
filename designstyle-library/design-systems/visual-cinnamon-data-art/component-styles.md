@@ -12,7 +12,7 @@
 - a ABOUT | rect=123.3x44.3@770,40 | display=block; position=relative; color=rgb(27, 27, 27); border=0px none rgb(27, 27, 27); fontFamily=Cabrio, sans-serif; fontSize=15.3px; fontWeight=400; letterSpacing=2.448px; lineHeight=29.07px; padding=7.65px 30.6px; transition=background-color 0.2s linear; transitionDuration=0.2s; transitionTimingFunction=linear; opacity=1
 - a CONTACT | rect=144x44.3@893.3,40 | display=block; position=relative; color=rgb(27, 27, 27); border=0px none rgb(27, 27, 27); fontFamily=Cabrio, sans-serif; fontSize=15.3px; fontWeight=400; letterSpacing=2.448px; lineHeight=29.07px; padding=7.65px 30.6px; transition=background-color 0.2s linear; transitionDuration=0.2s; transitionTimingFunction=linear; opacity=1
 - navigation count 6, image count 33, document height 5442.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - DATA·VIZ DATA·ART CHART ABOUT CONTACT BLOG
@@ -50,7 +50,8 @@
 - li BLOG | rect=110.5x44.3@1037.3,40 | display=list-item; position=relative; color=rgb(27, 27, 27); border=0px none rgb(27, 27, 27); fontFamily=Cabrio, sans-serif; fontSize=15.3px; fontWeight=400; letterSpacing=2.448px; lineHeight=29.07px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section ARE YOU LOOKING FOR Unique & Beautiful Data Visualizations and Data Art to make an impact, | rect=1100x812.2@170,135.3 | display=block; position=relative; color=rgb(27, 27, 27); border=0px none rgb(27, 27, 27); fontFamily=Cabrio, sans-serif; fontSize=17.6px; fontWeight=400; lineHeight=33.44px; padding=0px 17.6px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section client Google Trends client Scientific American client Mozilla client Intake collection El | rect=1440x720@0,1060.8 | display=block; position=relative; color=rgb(27, 27, 27); border=0px none rgb(27, 27, 27); fontFamily=Cabrio, sans-serif; fontSize=18.88px; fontWeight=400; lineHeight=35.872px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - DATA·VIZ

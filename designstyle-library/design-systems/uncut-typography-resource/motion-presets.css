@@ -1,0 +1,197 @@
+.ds-motion-motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955-easing);
+  transform: scaleY(1);
+}
+
+.ds-motion-motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-easing);
+}
+
+.ds-motion-motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1-easing);
+}
+
+.ds-motion-motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-duration);
+  transition-delay: var(--ds-motion-motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-easing);
+  transform: scale(1) rotate(-15deg);
+}
+
+.ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-300-ease {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-300-ease-easing);
+  transform: translateY(1rem);
+}
+
+.ds-motion-motion-component-state-change-color-300-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-state-change-color-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-color-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-color-300-ease-easing);
+}
+
+.ds-motion-motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955-easing);
+  transform: rotate(0deg) translateX(-100%);
+}
+
+.ds-motion-motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86-easing);
+  transform: 0;
+}
+
+.ds-motion-motion-component-load-animation-7000-cubic-bezier-1-0-0-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-7000-cubic-bezier-1-0-0-1-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-7000-cubic-bezier-1-0-0-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-7000-cubic-bezier-1-0-0-1-easing);
+  transform: translate(-1%, -2%);
+}
+
+.ds-motion-motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1 {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-duration);
+  transition-delay: var(--ds-motion-motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-easing);
+}
+
+.ds-motion-motion-component-load-animation-150-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-150-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-150-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-150-linear-easing);
+  transform: 1;
+}
+
+.ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1 {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-easing);
+  transform: perspective(20rem) rotateY(0deg);
+}
+
+.ds-motion-motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94 {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-easing);
+  transform: perspective(20rem) rotateY(0deg);
+}
+
+.ds-motion-motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955-easing);
+  transform: perspective(20rem) rotateY(-50deg);
+}
+
+.ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94 {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94-easing);
+  transform: perspective(20rem) rotateY(-50deg);
+}
+
+.ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335-easing);
+  transform: translateX(-200%) scaleX(2.5);
+}
+
+.ds-motion-motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1-easing);
+  transform: translate(0%) scaleX(1);
+}
+
+.ds-motion-motion-component-state-change-opacity-300-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-300-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-300-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-300-linear-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-300-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-300-ease-easing);
+  transform: translateY(1rem);
+}
+
+.ds-motion-motion-button-state-change-background-color-300-ease {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-button-state-change-background-color-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-background-color-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-background-color-300-ease-easing);
+}
+
+.ds-motion-motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1-easing);
+}
+
+.ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-easing);
+  transform: rgb(158, 158, 158);
+}
+
+.ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1-easing);
+  transform: rgb(158, 158, 158);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

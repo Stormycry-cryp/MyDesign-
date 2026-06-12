@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation none observed
+  - Sentence rhythm: 110 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Map | Electricity Maps; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://app.electricitymaps.com/map/live/fifteen_minutes
   - Page title: Map | Electricity Maps
@@ -18,7 +24,6 @@
   - H1 observed: none observed
   - H2 samples: none observed
   - Navigation samples: none observed
-  - Images observed: Revisit consent button 36x36 https://cdn-cookieyes.com/assets/images/revisit.svg; image 10x10 https://cdn-cookieyes.com/assets/images/close.svg; Cookieyes logo 78x13 https://cdn-cookieyes.com/assets/images/poweredbtcky.svg
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons Accept; inspect screenshot before final use.
 - Visual typography:
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

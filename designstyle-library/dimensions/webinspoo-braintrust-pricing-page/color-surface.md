@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(255, 255, 255):rgb(20, 20, 20); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); A:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); BUTTON:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); A:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); BUTTON:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); A:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); BUTTON:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); A:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); BUTTON:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0); A:lab(84.9837 0.601262 -2.17986):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: missing; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons Logos; OG images; Blog; Templates; Html to Figma; Login; Sign up; Save; Rate; Screenshot; OG Image; Clear; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `For the complete documentation index, see llms.txt. Convert HTML to Figma with our new extension | Get extension › Logos OG images Blog Templates Html to Figma Login Sign up Braintrust Pricing Pricing Page — Landing Page The AI observability platform for build`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

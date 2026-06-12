@@ -15,7 +15,6 @@
   - Page scope: public analytics dashboard
   - Secondary pages inspected: link -> None | title:  | h1: none observed | h2: none observed
   - H1 observed: none observed
-  - H2 samples: You just saw how Plausible tracks plausible.io No cookies, no personal data, no Google
   - Navigation samples: Login; Sign up
   - Images observed: Plausible logo 300x73 https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; Plausible logo 300x73 https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; image 32x32 https://plausible.io/favicon/sources/plausible.io; image 150x150 https://plausible.io/favicon/sources/Direct%20%2F%20None; image 20x20 https://plausible.io/favicon/sources/Google; image 48x48 https://plausible.io/favicon/sources/chatgpt.com; image 32x32 https://plausible.io/favicon/sources/GitHub; image 32x32 https://plausible.io/favicon/sources/Bing
   - Video observed: none observed
@@ -26,7 +25,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-plausible-analytics-live-dashboard-component-styles.json`
   - Asset CDN and media loading patterns: https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; https://plausible.io/favicon/sources/plausible.io; https://plausible.io/favicon/sources/Direct%20%2F%20None; https://plausible.io/favicon/sources/Google; https://plausible.io/favicon/sources/chatgpt.com; https://plausible.io/favicon/sources/GitHub; https://plausible.io/favicon/sources/Bing
 
 ## Inference

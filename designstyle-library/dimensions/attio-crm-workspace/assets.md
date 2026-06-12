@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-attio-crm-workspace-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-attio-crm-workspace-component-styles.json`
   - Asset CDN and media loading patterns: https://a.storyblok.com/f/234930/40x40/6b7e650997/navigation-ask-attio-light-2.svg; https://a.storyblok.com/f/234930/40x40/94a08879f5/navigation-ask-attio-dark-3.svg; https://a.storyblok.com/f/234930/40x40/319415fd4d/navigation-ai-light.svg; https://a.storyblok.com/f/234930/40x40/55885fd463/navigation-ai-dark.svg; https://a.storyblok.com/f/234930/40x40/7b06c284d7/navigation-data-light.svg; https://a.storyblok.com/f/234930/40x40/4bb779e3e2/navigation-data-dark.svg; https://a.storyblok.com/f/234930/40x40/cf8e6abe56/navigation-collaboration-light.svg; https://a.storyblok.com/f/234930/40x40/b713f5083d/navigation-collaboration-dark.svg
 
 ## Inference

@@ -12,7 +12,7 @@
 - a Pricing | rect=74.1x49.6@946.6,58.8 | display=flex; position=relative; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily=sans-serif; fontSize=12px; fontWeight=400; padding=12px; gap=4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Log in | rect=96.5x44@1213.7,61.6 | display=flex; position=relative; color=rgb(0, 0, 238); backgroundColor=rgb(255, 255, 255); border=0px none rgb(0, 0, 238); borderRadius=30px; fontFamily=sans-serif; fontSize=12px; fontWeight=400; padding=12px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - navigation count 7, image count 40, document height 15001.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Use Cases Templates Resources Pricing Log in Sign up
@@ -53,8 +53,8 @@
 - li ” I’m a very happy customer and love the fact that Pitch continuously gets better. It’s re | rect=312x410@312,6589.6 | display=list-item; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=sans-serif; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li ” Everyone kind of realized super quickly how much better everything became once we switch | rect=312x410@648,6589.6 | display=list-item; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=sans-serif; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li ” If more than one person on the team is producing decks, the consistency problem just get | rect=312x410@984,6589.6 | display=list-item; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=sans-serif; fontSize=12px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Create slides that win. Prompts Generate From prompt to presentation, 4M+ teams create and deliver winning slides togeth

@@ -1,0 +1,37 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-neutral-surface: #d0d0d0;
+  --ds-color-foreground: #000000;
+  --ds-color-accent: #5050ff;
+  --ds-color-neutral-surface-2: #808080;
+  --ds-color-foreground-2: #202020;
+  --ds-color-foreground-3: #404040;
+  --ds-color-neutral-surface-3: #b0b0b0;
+  --ds-color-foreground-4: #606060;
+  --ds-color-accent-2: #8050ff;
+  --ds-color-accent-3: #4d49fc;
+  --ds-spacing-component: 8px;
+  --ds-radius-component: 8px;
+  --ds-shadow-component: rgb(0, 0, 0) 0px 0px 0px 1px inset;
+  --ds-motion-motion-navigation-state-change-borderradius-160-ease-out-duration: 160ms;
+  --ds-motion-motion-navigation-state-change-borderradius-160-ease-out-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-borderradius-160-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-translate-160-ease-out-duration: 160ms;
+  --ds-motion-motion-button-state-change-translate-160-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-translate-160-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-opacity-160-ease-out-duration: 160ms;
+  --ds-motion-motion-button-state-change-opacity-160-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-160-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-background-160-ease-out-duration: 160ms;
+  --ds-motion-motion-button-state-change-background-160-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-background-160-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-clippath-160-ease-out-duration: 160ms;
+  --ds-motion-motion-button-state-change-clippath-160-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-clippath-160-ease-out-easing: ease-out;
+  --ds-motion-motion-card-state-change-background-2000-ease-in-out-duration: 2000ms;
+  --ds-motion-motion-card-state-change-background-2000-ease-in-out-delay: 0ms;
+  --ds-motion-motion-card-state-change-background-2000-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-opacity-160-ease-out-duration: 160ms;
+  --ds-motion-motion-component-state-change-opacity-160-ease-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-opacity-160-ease-out-easing: ease-out;
+}

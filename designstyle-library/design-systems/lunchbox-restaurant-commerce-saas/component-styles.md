@@ -12,7 +12,7 @@
 - a Catering Streamlined catering that converts higher check averages. | rect=267x76.1@813.7,85.7 | display=block; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Dispute Manager Fully automate 3rd-party disputes and recover lost-revenue. | rect=267x76.1@813.7,193.7 | display=block; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 24, image count 40, document height 8576.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Lunchbox.io ProductsResourcesPartnersCompany Web & App Ordering Delight your guests with a beautiful ordering experience
@@ -55,8 +55,8 @@
 - button Resources | rect=76.4x19.2@578.7,59.7 | display=inline-block; position=relative; color=rgb(234, 234, 234); border=0px solid rgb(226, 232, 240); fontFamily="Stabil Grotesk"; fontSize=16px; fontWeight=100; lineHeight=19.2px; transition=color 0.3s cubic-bezier(0.19, 1, 0.22, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1); opacity=1; cursor=pointer
 - button Partners | rect=60.4x19.2@685.1,59.7 | display=inline-block; position=relative; color=rgb(234, 234, 234); border=0px solid rgb(226, 232, 240); fontFamily="Stabil Grotesk"; fontSize=16px; fontWeight=100; lineHeight=19.2px; transition=color 0.3s cubic-bezier(0.19, 1, 0.22, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1); opacity=1; cursor=pointer
 - button Company | rect=71.4x19.2@775.5,59.7 | display=inline-block; position=relative; color=rgb(234, 234, 234); border=0px solid rgb(226, 232, 240); fontFamily="Stabil Grotesk"; fontSize=16px; fontWeight=100; lineHeight=19.2px; transition=color 0.3s cubic-bezier(0.19, 1, 0.22, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1); opacity=1; cursor=pointer
-- 4px; 10px; 10px; 20px; 5px; 45px; 20px; 5px; 45px; 10000px; 10000px; 5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 10px; 10px; 20px; 5px; 45px; 20px; 5px; 45px; 10000px; 10000px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Multi Locations Enterprise The #1 choice for native app and web ordering, loyalty, marketing, and third-party order aggr

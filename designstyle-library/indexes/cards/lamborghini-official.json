@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/lamborghini-official/component-styles.md",
     "moodboard": "design-systems/lamborghini-official/moodboard.svg",
+    "motion": "design-systems/lamborghini-official/motion.json",
+    "motion_presets": "design-systems/lamborghini-official/motion-presets.css",
     "palette": "design-systems/lamborghini-official/palette.md",
-    "tokens": "design-systems/lamborghini-official/tokens.json"
+    "tailwind_theme": "design-systems/lamborghini-official/tailwind.theme.json",
+    "tokens": "design-systems/lamborghini-official/tokens.json",
+    "variables_css": "design-systems/lamborghini-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/lamborghini-official/assets.md",
@@ -33,6 +37,48 @@
     "scene": "dimensions/lamborghini-official/scene.md",
     "type_copy": "dimensions/lamborghini-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 3870, 'docH': 6308}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 70x72; 3000x2000; 0x0; 0x0; 0x0; 0x0; 1x1; 1x1; 1x1; 1x1.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 3870, 'docH': 6308}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 70:72; 3000:2000; 1:1; 1:1; 1:1; 1:1; 1:1; 1:1; 1:1; 1:1",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "navigation state-change motion uses 1000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

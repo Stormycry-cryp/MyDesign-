@@ -3,7 +3,7 @@
 ## Navigation
 
 ### Style Evidence
-- header MENU | rect=1440x161.1@0,-79.6 | display=block; position=fixed; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=background-color 0.7s cubic-bezier(0.19, 1, 0.22, 1), transform 0.7s cubic-bezier(0.4, 0.05, 0.32, 1); transitionDuration=0.7s, 0.7s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1); transform=matrix(1, 0, 0, 1, 0, -79.5504); opacity=1
+- header MENU | rect=1440x161.1@0,-79.5 | display=block; position=fixed; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=background-color 0.7s cubic-bezier(0.19, 1, 0.22, 1), transform 0.7s cubic-bezier(0.4, 0.05, 0.32, 1); transitionDuration=0.7s, 0.7s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1); transform=matrix(1, 0, 0, 1, 0, -79.5441); opacity=1
 - nav MENU | rect=342x40@36,-19 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Go to home page | rect=203x107@618.5,-52.5 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a unlabeled | rect=40x40@1318.1,-19 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
@@ -12,7 +12,7 @@
 - a The founders | rect=94.3x19@120,8059 | display=block; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=15.2px; fontWeight=400; lineHeight=19px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Patek Philippe | rect=100.4x19@120,8094 | display=block; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=15.2px; fontWeight=400; lineHeight=19px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 24, image count 9, document height 8864.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - MENU
@@ -34,8 +34,6 @@
 - span MENU | rect=51.3x14@81.9,-6 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=17px; fontWeight=400; letterSpacing=0.34px; lineHeight=14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - button Search | rect=40x40@1364,-19 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div Pause | rect=80x80@680,473.3 | display=block; position=absolute; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1); transitionDuration=0.5s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1); transform=matrix(1, 0, 0, 1, -40, -40); opacity=0
-- button Pause | rect=80x80@680,473.3 | display=flex; position=static; color=rgb(46, 46, 51); backgroundColor=rgba(46, 46, 51, 0.8); border=0px none rgb(46, 46, 51); borderRadius=50%; fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=0.3s cubic-bezier(0.19, 1, 0.22, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.19, 1, 0.22, 1); opacity=1
-- svg [object SVGAnimatedString] | rect=30x30@705,498.3 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 
 ### Content Samples
 - MENU
@@ -49,21 +47,21 @@
 ## Card
 
 ### Style Evidence
-- article 0:00 / 0:00 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM Launched during its Open Hous | rect=1440x1100@0,0 | display=block; position=relative; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- article 0:00 / 0:00 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM The Patek Philippe Museum is  | rect=1440x1100@0,0 | display=block; position=relative; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div 0:00 / 0:00 | rect=1440x1100@0,-36.7 | display=block; position=absolute; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; transform=matrix(1, 0, 0, 1, 0, -36.6663); opacity=1
 - div 0:00 / 0:00 | rect=1440x1100@0,-36.7 | display=block; position=absolute; color=rgb(46, 46, 51); backgroundColor=rgb(0, 0, 0); border=0px none rgb(46, 46, 51); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM Launched during its Open House Weekend on | rect=1440x1100@0,0 | display=flex; position=absolute; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; padding=80px 80px 180px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM Launched during its Open House Weekend on | rect=588x286@80,627.2 | display=flex; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; transform=matrix(1, 0, 0, 1, 0, -6.80966); opacity=1
-- h1 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM | rect=588x96@80,631.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=40px; fontWeight=300; letterSpacing=0.12px; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div Launched during its Open House Weekend on June 6 and 7, the Patek Philippe Museum is pleas | rect=588x78@80,759.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div DISCOVER MORE | rect=161.4x52@80,861.2 | display=block; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px
-- border radii samples recorded below.
+- div NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM The Patek Philippe Museum is pleased to a | rect=1440x1100@0,0 | display=flex; position=absolute; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; padding=80px 80px 180px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM The Patek Philippe Museum is pleased to a | rect=588x260@80,653.8 | display=flex; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; transform=matrix(1, 0, 0, 1, 0, -6.1906); opacity=1
+- h1 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM | rect=588x96@80,657.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=openSans, "openSans Fallback", Arial, sans-serif; fontSize=40px; fontWeight=300; letterSpacing=0.12px; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div The Patek Philippe Museum is pleased to announce a thematic exhibition retracing 50 years  | rect=588x52@80,785.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div DISCOVER MORE | rect=161.4x52@80,861.8 | display=block; position=static; color=rgb(46, 46, 51); border=0px none rgb(46, 46, 51); fontFamily=lora, "lora Fallback", Times, serif; fontSize=16px; fontWeight=400; lineHeight=26px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
-- 0:00 / 0:00 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM Launched during its Open House Weekend on June 6 and 7, the
+- 0:00 / 0:00 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM The Patek Philippe Museum is pleased to announce a thematic
 - 0:00 / 0:00
-- NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM Launched during its Open House Weekend on June 6 and 7, the Patek Phili
+- NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM The Patek Philippe Museum is pleased to announce a thematic exhibition
 
 ### Missing Evidence
 - None recorded.

@@ -17,12 +17,16 @@
     "public css js",
     "component evidence"
   ],
-  "component_json_path": "assets/2026-06-05-mclaren-official-component-styles.json",
+  "component_json_path": "assets/2026-06-12-mclaren-official-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/mclaren-official/component-styles.md",
     "moodboard": "design-systems/mclaren-official/moodboard.svg",
+    "motion": "design-systems/mclaren-official/motion.json",
+    "motion_presets": "design-systems/mclaren-official/motion-presets.css",
     "palette": "design-systems/mclaren-official/palette.md",
-    "tokens": "design-systems/mclaren-official/tokens.json"
+    "tailwind_theme": "design-systems/mclaren-official/tailwind.theme.json",
+    "tokens": "design-systems/mclaren-official/tokens.json",
+    "variables_css": "design-systems/mclaren-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/mclaren-official/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/mclaren-official/scene.md",
     "type_copy": "dimensions/mclaren-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9751}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 0x0; 1512x704; 7370x5896; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 9999px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9751}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1512:704; 7370:5896",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 9999px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "Button/input/control density: buttons USA; McLAREN.COM / AUTOMOTIVE; MODELS; MSO; OWNERSHIP; EXPERIENCES; ABOUT; PRE-OWNED; 01; 02; 03; 04; forms automated pass did not classify forms.; source: Interaction And Components",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 400ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

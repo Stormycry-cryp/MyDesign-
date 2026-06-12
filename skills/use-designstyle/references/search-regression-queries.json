@@ -1,0 +1,107 @@
+[
+  {
+    "id": "dashboard-analytics-motion",
+    "query": "dashboard analytics table hover metrics",
+    "need": "motion:L2,scene:dashboard",
+    "expected_top3": ["plausible-analytics-live-dashboard", "mercury-financial-dashboard", "rows-spreadsheet-dashboard"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "pricing"]
+  },
+  {
+    "id": "dashboard-finance-kpi",
+    "query": "finance dashboard executive KPI trust table",
+    "need": "scene:dashboard",
+    "expected_top3": ["mercury-financial-dashboard", "plausible-analytics-live-dashboard", "rows-spreadsheet-dashboard"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "pricing"]
+  },
+  {
+    "id": "dashboard-developer-console",
+    "query": "developer dashboard database product console",
+    "need": "scene:dashboard",
+    "expected_top3": ["supabase-developer-platform", "railway-developer-platform", "plausible-analytics-live-dashboard"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "pricing"]
+  },
+  {
+    "id": "luxury-product-cinematic",
+    "query": "luxury product landing cinematic motion",
+    "need": "motion:L2,scene:luxury",
+    "expected_top3": ["bentley-motors-official", "land-rover-range-rover-official", "maserati-official"],
+    "forbidden_top1_terms": ["dashboard", "pricing", "developer-tool"]
+  },
+  {
+    "id": "luxury-fashion-heritage",
+    "query": "fashion luxury retail homepage heritage editorial",
+    "need": "scene:luxury",
+    "expected_top3": ["burberry-official", "chopard-official", "valentino-official"],
+    "forbidden_top1_terms": ["dashboard", "pricing", "developer-tool"]
+  },
+  {
+    "id": "luxury-watch-jewelry",
+    "query": "watch jewelry luxury homepage technical heritage",
+    "need": "scene:luxury",
+    "expected_top3": ["chopard-official", "ulysse-nardin-official", "patek-philippe-official", "tag-heuer-official"],
+    "forbidden_top1_terms": ["dashboard", "pricing", "developer-tool"]
+  },
+  {
+    "id": "docs-developer-navigation",
+    "query": "developer documentation docs code layout navigation",
+    "need": "scene:docs",
+    "expected_top3": ["vercel-developer-platform", "webinspoo-rerun-developer-landing-page", "supabase-developer-platform"],
+    "forbidden_top1_terms": ["luxury", "pricing", "portfolio"]
+  },
+  {
+    "id": "docs-editorial-resource",
+    "query": "software editorial resource technical writing index",
+    "need": "scene:docs",
+    "expected_top3": ["making-software-editorial-tooling", "counter-forms-typography-resource", "uncut-typography-resource"],
+    "forbidden_top1_terms": ["luxury", "pricing", "dashboard"]
+  },
+  {
+    "id": "pricing-developer-api",
+    "query": "developer platform pricing page plan comparison api",
+    "need": "scene:pricing",
+    "expected_top3": ["webinspoo-unkey-pricing-page", "webinspoo-exa-ai-pricing-page", "webinspoo-browserbase-pricing-page"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "dashboard"]
+  },
+  {
+    "id": "pricing-ai-enterprise",
+    "query": "ai pricing page enterprise plan comparison",
+    "need": "scene:pricing",
+    "expected_top3": ["webinspoo-braintrust-pricing-page", "webinspoo-exa-ai-pricing-page", "webinspoo-accessgrid-pricing-page"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "dashboard"]
+  },
+  {
+    "id": "portfolio-architecture-motion",
+    "query": "architecture studio portfolio project grid motion",
+    "need": "scene:portfolio",
+    "expected_top3": ["patrick-mason-studio-portfolio", "snohetta-architecture-studio", "wam-architecture-studio"],
+    "forbidden_top1_terms": ["pricing", "dashboard", "luxury automotive"]
+  },
+  {
+    "id": "portfolio-designer-index",
+    "query": "designer portfolio independent studio project index",
+    "need": "scene:portfolio",
+    "expected_top3": ["patrick-mason-studio-portfolio", "snohetta-architecture-studio", "wam-architecture-studio"],
+    "forbidden_top1_terms": ["pricing", "dashboard", "luxury automotive"]
+  },
+  {
+    "id": "portfolio-data-storytelling",
+    "query": "data storytelling report longform editorial visualization",
+    "need": "scene:portfolio",
+    "expected_top3": ["visual-cinnamon-data-art", "pitch-interactive-data-studio", "patrick-mason-studio-portfolio"],
+    "forbidden_top1_terms": ["pricing", "dashboard", "luxury automotive"]
+  },
+  {
+    "id": "motion-dashboard-pollution",
+    "query": "hover transition animation dashboard metrics table",
+    "need": "motion:L2,scene:dashboard",
+    "expected_top3": ["plausible-analytics-live-dashboard", "mercury-financial-dashboard", "rows-spreadsheet-dashboard"],
+    "forbidden_top1_terms": ["portfolio", "luxury", "pricing"]
+  },
+  {
+    "id": "motion-pricing-pollution",
+    "query": "scroll motion transition pricing plan comparison",
+    "need": "motion:L2,scene:pricing",
+    "expected_top3": ["webinspoo-cloudflare-pricing-pattern", "webinspoo-accessgrid-pricing-page", "webinspoo-exa-ai-pricing-page", "webinspoo-braintrust-pricing-page", "webinspoo-unkey-pricing-page"],
+    "forbidden_top1_terms": ["portfolio", "dashboard", "luxury"]
+  }
+]

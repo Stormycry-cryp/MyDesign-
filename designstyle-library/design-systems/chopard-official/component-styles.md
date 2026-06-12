@@ -10,6 +10,7 @@
 - a My Wishlist | rect=24x24@1328,56 | display=flex; position=static; color=rgb(68, 68, 68); border=0px none rgb(68, 68, 68); fontFamily=-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - nav WATCHES JEWELRY ACCESSORIES LA MAISON HIGHLIGHTS GIFTS | rect=604.9x24.8@392.5,122.6 | display=block; position=static; color=rgb(254, 254, 254); border=0px none rgb(254, 254, 254); fontFamily=-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 4, image count 40, document height 1000.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -55,8 +56,8 @@
 - section CHOPARD X CANNES FILM FESTIVAL RED CARPET COLLECTION DISCOVER OUR 2026 COLLECTION | rect=1440x1000@0,40 | display=block; position=static; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section Product Carousel NEW L'HEURE DU DIAMANT - ALTA MODA 24 MM, QUARTZ, ETHICAL WHITE GOLD, DIA | rect=1440x704.6@0,1040 | display=block; position=static; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section NEW L'HEURE DU DIAMANT - ALTA MODA 24 MM, QUARTZ, ETHICAL WHITE GOLD, DIAMONDS $91,000 $91 | rect=330x566.6@48,1088 | display=block; position=relative; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Enjoy complimentary shipping & returns, secure payments, and exclusive online services.

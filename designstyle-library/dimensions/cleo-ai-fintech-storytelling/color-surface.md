@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(71, 32, 28):rgba(0, 0, 0, 0); HEADER:rgb(71, 32, 28):rgba(0, 0, 0, 0); A:rgb(71, 32, 28):rgba(41, 18, 16, 0.1); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); P:rgb(71, 32, 28):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1); A:rgb(255, 255, 255):rgba(41, 18, 16, 0.1)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: 32px 32px 32px 0px; 20px; 20px; 20px; 28px; 88px; 88px; 88px; 88px; 88px; 88px; 88px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons Products; Products; About; About; Learn; Learn; Get the app; Get the app; Get the app; Autopilot; Autopilot; Cleo Card; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Products About Learn Get the app Closed Autopilot Cleo Card Money IQ Savings Plans & pricing Company Careers News Annual Report Money talks. Cleo talks back. She analyzes your spending, calls out bad habits, and makes you better at money. Try it out TALK THERA`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

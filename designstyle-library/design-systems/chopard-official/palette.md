@@ -13,11 +13,11 @@
 | `#200010` | deep accent | screenshot pixel sample | 0.0056 |
 | `#604050` | deep accent | screenshot pixel sample | 0.0047 |
 | `#401010` | deep accent | screenshot pixel sample | 0.0047 |
-| `#f2f2f3` | neutral surface | explicit reference or DOM color |  |
 | `#e9e9e9` | neutral surface | explicit reference or DOM color |  |
+| `#f2f2f3` | neutral surface | explicit reference or DOM color |  |
 | `#e3b339` | accent | explicit reference or DOM color |  |
-| `#fefefe` | background | explicit reference or DOM color |  |
 | `#212529` | foreground | explicit reference or DOM color |  |
+| `#fefefe` | background | explicit reference or DOM color |  |
 | `#010307` | deep accent | explicit reference or DOM color |  |
 
 ## Mood Keywords

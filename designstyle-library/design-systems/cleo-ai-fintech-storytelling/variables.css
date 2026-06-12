@@ -1,0 +1,29 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-neutral-surface: #b0a0a0;
+  --ds-color-deep-accent: #502020;
+  --ds-color-neutral-surface-2: #e0e0e0;
+  --ds-color-deep-accent-2: #604020;
+  --ds-color-supporting-color: #807070;
+  --ds-color-accent: #c0a070;
+  --ds-color-supporting-color-2: #806030;
+  --ds-color-supporting-color-3: #a08050;
+  --ds-color-deep-accent-3: #100000;
+  --ds-color-deep-accent-4: #47201c;
+  --ds-color-neutral-surface-3: #ac9b98;
+  --ds-spacing-component: 32px;
+  --ds-radius-component: 32px 32px 32px 0px;
+  --ds-shadow-component: rgba(0, 0, 0, 0.1) 0px 6px 12px 0px;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-duration: 200ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-delay: 0ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-easing: cubic-bezier(0, 0, 1, 1);
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-duration: 200ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-delay: 0ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-easing: cubic-bezier(0, 0, 1, 1);
+  --ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-duration: 200ms;
+  --ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-delay: 0ms;
+  --ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-easing: cubic-bezier(0, 0, 1, 1);
+  --ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-duration: 200ms;
+  --ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-delay: 0ms;
+  --ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-easing: cubic-bezier(0, 0, 1, 1);
+}

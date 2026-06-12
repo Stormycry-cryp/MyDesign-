@@ -30,6 +30,13 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13460}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 72x72; 2400x1500; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.; source: Layout Geometry And Spacing
+- Observed border radii: 8px; 8px; 32px; 50%; 50%; 50%; 8px; 8px; 8px; 5px; 5px; 5px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13460}; source: Dimension And Ratio System
+- Observed media ratios: 72:72; 2400:1500; source: Dimension And Ratio System
 ## Evidence Snapshot
 - Captured URL: https://reflect.app/
 - Page title: Reflect Notes
@@ -60,6 +67,12 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Think better with Reflect; H2 Notes with an AI assistant; Give your brain superpowers; Never lose information; lwk31Ay nq7gIkR; Get more out of your meetings; Use Reflect with other apps; navigation none observed
+- Sentence rhythm: 103 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Reflect Notes; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(255, 255, 255):rgb(3, 0, 20); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgba(255, 255, 255, 0.9):rgba(0, 0, 0, 0); A:rgba(255, 255, 255, 0.9):rgba(0, 0, 0, 0); A:rgba(255, 255, 255, 0.9):rgba(0, 0, 0, 0); A:rgba(255, 255, 255, 0.9):rgba(0, 0, 0, 0); A:rgba(255, 255, 255, 0.9):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(244, 240, 255):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); H1:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgba(239, 237, 253, 0.7):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgba(0, 0, 0, 0); H2:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +84,12 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 - Media/card aspect stability: image natural sizes include 72x72; 2400x1500; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
 - Observed border radii: 8px; 8px; 32px; 50%; 50%; 50%; 8px; 8px; 8px; 5px; 5px; 5px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 8px; 8px; 32px; 50%; 50%; 50%; 8px; 8px; 8px; 5px; 5px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Start free trial; Click to see magic; Click to see magic; Re-run R; R; Insert I; I; Copy C; C; Replace ⌘↩; ⌘↩; Start your 14-day trial; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13460}
 - Observed media ratios: 72:72; 2400:1500
@@ -90,22 +109,20 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-reflect-notes-interface-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-reflect-notes-interface-component-styles.json`
 - Asset CDN and media loading patterns: https://reflect.app/home/build/q-7110c4a0.png; https://reflect.app/home/build/q-cb311d1c.png; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/; https://reflect.app/
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:", q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:"setHandler",value:functi
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Timing/easing: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1, t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1Branch+Metrics+API\n1Brea
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: none observed
 - Public CSS/JS probe keywords: easing, request_animation_frame
-- Public CSS/JS motion snippets: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n; tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n
-- JavaScript/runtime motion evidence: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://static.ads-twitter.com/uwt.js; https://connect.facebook.net/signals/config/759195852092244?v=2.9.331&r=stable&domain=reflect.app&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105%2C20; https://connect.facebook.net/en_US/fbevents.js; https://www.googletagmanager.com/gtag/js?id=G-GDV0LSXN88&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtm.js?id=GTM-WHVKHFD
 - Interpreted motion tags: glow-motion, restrained
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +130,7 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: Start free trial; Click to see magic; Click to see magic; Re-run R; R; Insert I; I; Copy C; C; Replace ⌘↩; ⌘↩; Start your 14-day trial
-- Computed component styles: `assets/2026-06-04-reflect-notes-interface-component-styles.json`
+- Computed component styles: `assets/2026-06-12-reflect-notes-interface-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +159,4 @@ Reflect Notes Interface is captured as a notes, productivity, workspace referenc
 - Reuse value: useful for home plus product/secondary links if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-reflect-notes-interface-motion.json`

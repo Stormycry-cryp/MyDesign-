@@ -12,7 +12,7 @@
 - a Forum | rect=69.6x70@928.6,0 | display=inline-flex; position=static; color=rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20px; padding=1.6px 12px; transition=0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1; cursor=pointer
 - a Resources | rect=94.7x70@998.2,0 | display=inline-flex; position=static; color=rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20px; padding=1.6px 12px; transition=0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1; cursor=pointer
 - navigation count 24, image count 40, document height 6905.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Glyphs Get Glyphs Features Learn Forum Resources News Events EN
@@ -57,8 +57,8 @@
 - li Events | rect=71x70@1155.7,0 | display=list-item; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - li Type design | rect=333x71.4@30,1054 | display=list-item; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=51px; fontWeight=400; letterSpacing=-1.5px; lineHeight=51px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - li Lettering | rect=333x71.4@30,1125.4 | display=list-item; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=51px; fontWeight=400; letterSpacing=-1.5px; lineHeight=51px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- 5px; 5px; 5px; 5px; 5px; 5px; 5px; 5px; 10px; 5px; 10px; 5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 5px; 5px; 5px; 5px; 5px; 5px; 5px; 5px; 10px; 5px; 10px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Features
@@ -97,11 +97,11 @@
 - svg [object SVGAnimatedString] | rect=42x40@30,12 | display=block; position=static; color=rgb(135, 243, 46); border=0px none rgb(135, 243, 46); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=23px; fontWeight=400; letterSpacing=-0.46px; lineHeight=28px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - svg [object SVGAnimatedString] | rect=10.5x10.5@1399.5,29.8 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=14px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - svg [object SVGAnimatedString] | rect=565.7x304.8@728,490.3 | display=block; position=static; color=rgb(43, 55, 42); border=0px none rgb(43, 55, 42); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- svg [object SVGAnimatedString] | rect=1031x284@379,1287.3 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - svg [object SVGAnimatedString] | rect=622x622@758,1884.8 | display=inline; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- svg [object SVGAnimatedString] | rect=622x622@758,2678 | display=inline; position=static; color=rgb(43, 55, 42); border=0px none rgb(43, 55, 42); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- svg [object SVGAnimatedString] | rect=622x622@758,3471.3 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- img Testimonial-sourceImage lazyload | rect=60x60@60,4449.8 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=18px; fontWeight=400; lineHeight=22px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=0; cursor=default
+- img Testimonial-sourceImage lazyload | rect=60x60@60,4060.8 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=18px; fontWeight=400; lineHeight=22px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=0; cursor=default
+- img Testimonials-buttonImage lazyload | rect=60x60@30,4166.8 | display=block; position=absolute; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=50%; fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=13.3333px; fontWeight=400; transition=opacity 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=0.8; cursor=pointer
+- img Testimonials-buttonImage lazyload | rect=60x60@106,4166.8 | display=block; position=absolute; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=50%; fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=13.3333px; fontWeight=400; transition=opacity 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=0; cursor=pointer
+- img Testimonials-buttonImage lazyload | rect=60x60@182,4166.8 | display=block; position=absolute; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=50%; fontFamily="ABC Arizona Serif", Arial, sans-serif; fontSize=13.3333px; fontWeight=400; transition=opacity 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=0; cursor=pointer
 
 ### Content Samples
 - None recorded.

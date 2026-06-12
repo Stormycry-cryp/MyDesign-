@@ -13,12 +13,12 @@
 | `#a04010` | supporting color | screenshot pixel sample | 0.0019 |
 | `#803010` | supporting color | screenshot pixel sample | 0.0016 |
 | `#e0c0b0` | supporting color | screenshot pixel sample | 0.0013 |
-| `#000000` | foreground | explicit reference or DOM color |  |
 | `#404040` | foreground | explicit reference or DOM color |  |
 | `#27ccc1` | accent | explicit reference or DOM color |  |
 | `#0a78b8` | accent | explicit reference or DOM color |  |
 | `#ffffff` | background | explicit reference or DOM color |  |
-| `#05bbd6` | accent | explicit reference or DOM color |  |
+| `#1b1b1b` | foreground | explicit reference or DOM color |  |
+| `#000000` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - artful

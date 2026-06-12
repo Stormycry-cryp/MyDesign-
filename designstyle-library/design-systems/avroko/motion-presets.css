@@ -1,0 +1,20 @@
+.ds-motion-motion-button-state-change-color-200-ease-out {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-state-change-color-200-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-color-200-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-color-200-ease-out-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-100-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-100-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-100-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-100-linear-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

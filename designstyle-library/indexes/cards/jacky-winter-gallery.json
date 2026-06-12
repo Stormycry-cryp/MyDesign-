@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/jacky-winter-gallery/component-styles.md",
     "moodboard": "design-systems/jacky-winter-gallery/moodboard.svg",
+    "motion": "design-systems/jacky-winter-gallery/motion.json",
+    "motion_presets": "design-systems/jacky-winter-gallery/motion-presets.css",
     "palette": "design-systems/jacky-winter-gallery/palette.md",
-    "tokens": "design-systems/jacky-winter-gallery/tokens.json"
+    "tailwind_theme": "design-systems/jacky-winter-gallery/tailwind.theme.json",
+    "tokens": "design-systems/jacky-winter-gallery/tokens.json",
+    "variables_css": "design-systems/jacky-winter-gallery/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/jacky-winter-gallery/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/jacky-winter-gallery/scene.md",
     "type_copy": "dimensions/jacky-winter-gallery/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11796}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1500x2000; 1500x2338; 1500x1960; 1500x2000; 1500x2338; 1500x1960; 200x267; 200x312; 200x261; 2000x1500.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11796}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1500:2000; 1500:2338; 1500:1960; 1500:2000; 1500:2338; 1500:1960; 200:267; 200:312; 200:261; 2000:1500",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "form state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 32, document height 3063.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -43,8 +44,8 @@
 - div Splash__Item-sc-nwgdew-5 fyvUhk | rect=102.8x1000@514.2,0 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Synt, sans-serif; fontSize=14.1359px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=url("https://www.buffet.digital/_next/static/media/cursor.d3ceca4b.svg"), default
 - div Splash__Item-sc-nwgdew-5 fyvUhk | rect=102.8x1000@617.1,0 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Synt, sans-serif; fontSize=14.1359px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=url("https://www.buffet.digital/_next/static/media/cursor.d3ceca4b.svg"), default
 - div Splash__Item-sc-nwgdew-5 fyvUhk | rect=102.8x1000@719.9,0 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Synt, sans-serif; fontSize=14.1359px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=url("https://www.buffet.digital/_next/static/media/cursor.d3ceca4b.svg"), default
-- 50%; 50%; 50%; 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; 50%; 50%; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - None recorded.

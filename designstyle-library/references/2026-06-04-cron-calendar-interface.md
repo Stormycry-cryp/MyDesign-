@@ -30,6 +30,15 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 76x24; 2932x2084.; source: Layout Geometry And Spacing
+- Observed border radii: 9999px; 4px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}; source: Dimension And Ratio System
+- Observed media ratios: 76:24; 2932:2084; source: Dimension And Ratio System
+- button hover motion uses 175ms ease; source: motion.json
+- button focus motion uses 175ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.cron.com/
 - Page title: Cron Calendar
@@ -60,6 +69,12 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 It’s about time.; H2 none observed; navigation Blog; Changelog; Docs; Login; Sign up
+- Sentence rhythm: 92 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Cron Calendar; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(204, 204, 204):rgb(22, 20, 18); HEADER:rgb(204, 204, 204):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgb(255, 71, 0); A:rgb(255, 255, 255):rgb(22, 20, 18); H1:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(204, 204, 204):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +86,12 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - Media/card aspect stability: image natural sizes include 76x24; 2932x2084.
 - Observed border radii: 9999px; 4px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 9999px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Sign up; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}
 - Observed media ratios: 76:24; 2932:2084
@@ -90,20 +111,18 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-cron-calendar-interface-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-cron-calendar-interface-component-styles.json`
 - Asset CDN and media loading patterns: https://www.cron.com/images/brand/cron-logotype-s.png; https://www.cron.com/images/product/cron-2023-02-28@2x.png
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: x-wrap: wrap; width: 440px; max-width: 90%; padding: 6px; background: linear-gradient(180deg, rgba(255, 238, 204, 0.08) 0%, rgba(255, 255, 255, 0.11) 100%); border: 1px solid rgba(255, 238, 204, 0.05); bord, gin: 40px auto 100px auto; } .request-access-form:hover { background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%); } #email-input, .email-input { flex: 1 1 auto; he, ex: 0 0 auto; min-height: 50px; padding: 0 30px 1px 30px; background: linear-gradient(180deg, #ff661a 0%, #ff4705 100%); border: none; border-radius: 3px; font-size: 15px; font-weight: 500; color: #fff; lin
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: none observed
 - Public CSS/JS probe keywords: easing, transform
-- Public CSS/JS motion snippets: x-wrap: wrap; width: 440px; max-width: 90%; padding: 6px; background: linear-gradient(180deg, rgba(255, 238, 204, 0.08) 0%, rgba(255, 255, 255, 0.11) 100%); border: 1px solid rgba(; gin: 40px auto 100px auto; } .request-access-form:hover { background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%); } #email-input, .email-; ex: 0 0 auto; min-height: 50px; padding: 0 30px 1px 30px; background: linear-gradient(180deg, #ff661a 0%, #ff4705 100%); border: none; border-radius: 3px; font-size: 15px; font-wei; : 0.9; } h2 { margin: 20px 0; font-size: 12px; font-weight: 200; text-transform: uppercase; letter-spacing: 2px; color: #fa0; } .request-access-form { display: flex; flex-wrap: wra
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: x-wrap: wrap; width: 440px; max-width: 90%; padding: 6px; background: linear-gradient(180deg, rgba(255, 238, 204, 0.08) 0%, rgba(255, 255, 255, 0.11) 100%); border: 1px solid rgba(; gin: 40px auto 100px auto; } .request-access-form:hover { background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%); } #email-input, .email-; ex: 0 0 auto; min-height: 50px; padding: 0 30px 1px 30px; background: linear-gradient(180deg, #ff661a 0%, #ff4705 100%); border: none; border-radius: 3px; font-size: 15px; font-wei; : 0.9; } h2 { margin: 20px 0; font-size: 12px; font-weight: 200; text-transform: uppercase; letter-spacing: 2px; color: #fa0; } .request-access-form { display: flex; flex-wrap: wra
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://www.cron.com/style.css
@@ -113,7 +132,7 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 ## Interaction And Components
 - Navigation: Blog; Changelog; Docs; Login; Sign up
 - Buttons/links: Sign up
-- Computed component styles: `assets/2026-06-04-cron-calendar-interface-component-styles.json`
+- Computed component styles: `assets/2026-06-12-cron-calendar-interface-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +161,4 @@ Cron Calendar Interface is captured as a calendar, productivity, workspace refer
 - Reuse value: useful for home plus product/secondary links if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-cron-calendar-interface-motion.json`

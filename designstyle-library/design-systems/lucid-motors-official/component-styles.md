@@ -12,7 +12,7 @@
 - a Pre-Owned | rect=82.8x34@670.4,85 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="PingFang SC"; fontSize=16px; fontWeight=400; padding=4px 0px; transition=color 0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1; cursor=default
 - a Discover | rect=64.3x34@785.2,85 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="PingFang SC"; fontSize=16px; fontWeight=400; padding=4px 0px; transition=color 0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1; cursor=default
 - navigation count 6, image count 2, document height 7736.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers Lucid Air Lucid Gravity Pre-Owned D
@@ -57,8 +57,8 @@
 - div EXPLORE LOCATIONS | rect=566x36@850,3726 | display=flex; position=relative; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="PingFang SC"; fontSize=16px; fontWeight=400; padding=12px 0px 0px; gap=normal 8px; transition=0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1; cursor=pointer
 - a MAY 21, 2026 The Lucid Air Sapphire and Lucid Gravity Take on the Inaugural Trinitē Road R | rect=453.3x496@24,4972 | display=block; position=static; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="PingFang SC"; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div MAY 21, 2026 The Lucid Air Sapphire and Lucid Gravity Take on the Inaugural Trinitē Road R | rect=477.3x496@12,4972 | display=flex; position=static; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="PingFang SC"; fontSize=16px; fontWeight=400; gap=16px normal; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- 4px; 4px; 4px; 50%; 4px; 50%; 50%; 50%; 4px; 4px; 50%; 4px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 4px; 4px; 50%; 4px; 50%; 50%; 50%; 4px; 4px; 50%; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Current Offers EXPLORE CURRENT OFFERS

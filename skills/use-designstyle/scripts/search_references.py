@@ -42,6 +42,15 @@ GENERIC_PAGE_TOKENS = {
     "pages",
 }
 
+SCENE_ALIASES = {
+    "docs": ["docs", "documentation", "document", "developer", "devrel", "resource", "knowledge", "technical", "writing"],
+    "documentation": ["docs", "documentation", "document", "developer", "devrel", "resource", "knowledge", "technical", "writing"],
+    "dashboard": ["dashboard", "dashboards", "analytics", "metrics", "reporting", "workspace", "console"],
+    "luxury": ["luxury", "heritage", "automotive", "fashion", "watches", "watch", "jewelry", "retail", "brand"],
+    "pricing": ["pricing", "plans", "plan", "comparison"],
+    "portfolio": ["portfolio", "studio", "gallery", "project"],
+}
+
 CARD_WEIGHTS = [
     ("page_scope", 48),
     ("category_tags", 42),
@@ -71,6 +80,51 @@ def text_for(value: object) -> str:
 def count_matches(query_tokens: list[str], value: object) -> int:
     blob = text_for(value).lower()
     return sum(blob.count(token) for token in query_tokens)
+
+
+def parse_need(value: str) -> dict[str, str]:
+    needs: dict[str, str] = {}
+    for part in value.split(","):
+        if ":" not in part:
+            continue
+        key, raw = part.split(":", 1)
+        key = key.strip().lower()
+        raw = raw.strip().lower()
+        if key and raw:
+            needs[key] = raw
+    return needs
+
+
+def scene_blob(card: dict[str, object]) -> str:
+    return text_for([card.get("category_tags"), card.get("page_scope"), card.get("best_for")]).lower()
+
+
+def style_blob(card: dict[str, object]) -> str:
+    return text_for([card.get("style_tags"), card.get("selection_note"), card.get("dna")]).lower()
+
+
+def scene_need_matches(card: dict[str, object], needs: dict[str, str]) -> bool:
+    scene = needs.get("scene")
+    if not scene:
+        return True
+    query = tokens(scene)
+    if not query:
+        return True
+    blob = scene_blob(card)
+    for token in query:
+        aliases = SCENE_ALIASES.get(token, [token])
+        if not any(alias in blob for alias in aliases):
+            return False
+    return True
+
+
+def need_tokens(needs: dict[str, str]) -> list[str]:
+    expanded: list[str] = []
+    for key, value in needs.items():
+        expanded.extend(tokens(value))
+        if key not in expanded:
+            expanded.append(key)
+    return expanded
 
 
 def dimension_match_blob(card: dict[str, object]) -> str:
@@ -177,6 +231,39 @@ def coverage_hint(factors: dict[str, int], card: dict[str, object]) -> str:
     if scene > 0:
         return "partial candidate; use only matched dimensions"
     return "weak inspiration only; do not use as implementation-grade evidence"
+
+
+def borrowable_dimensions(card: dict[str, object], needs: dict[str, str]) -> tuple[list[str], list[str]]:
+    strength = card.get("evidence_strength") if isinstance(card.get("evidence_strength"), dict) else {}
+    paths = card.get("design_system_paths") if isinstance(card.get("design_system_paths"), dict) else {}
+    borrow: list[str] = []
+    blocked: list[str] = []
+
+    if needs.get("scene"):
+        if scene_need_matches(card, needs):
+            borrow.append("scene")
+        else:
+            blocked.append("scene")
+    if needs.get("motion"):
+        if strength.get("motion_code") in {"strong", "medium"} or paths.get("motion"):
+            borrow.append("motion")
+        else:
+            blocked.append("motion")
+    if needs.get("palette"):
+        palette = needs["palette"]
+        palette_match = palette in style_blob(card) or palette in text_for(card.get("category_tags")).lower()
+        if strength.get("design_system") in {"strong", "medium"} or paths.get("tokens") or palette_match:
+            borrow.append("palette")
+        else:
+            blocked.append("palette")
+    if not needs:
+        for key in ["layout_spacing", "type_copy", "motion_code", "design_system"]:
+            if strength.get(key) in {"strong", "medium"}:
+                borrow.append(key)
+    for key, value in strength.items():
+        if value in {"missing", "weak"}:
+            blocked.append(str(key))
+    return sorted(set(borrow)), sorted(set(blocked))
 
 
 def load_cards(lib: Path) -> list[dict[str, object]]:
@@ -336,6 +423,11 @@ def print_card(
         print(f"  rejected_reason: {rejected_reason(card, factors)}")
         print(f"  category_page_fit: scene_gate={factors.get('scene_gate_percent', 0)}%")
         print(f"  coverage_hint: {coverage_hint(factors, card)}")
+    needs = parse_need(args.need or "")
+    borrow, blocked = borrowable_dimensions(card, needs)
+    if needs:
+        print(f"  borrowable_dimensions: {borrow or []}")
+        print(f"  not_borrowable_dimensions: {blocked or []}")
     if args.dimension:
         dimension_key = DIMENSION_ALIASES[args.dimension]
         rel, snippet = dimension_excerpt(lib, card, dimension_key)
@@ -363,6 +455,7 @@ def main() -> int:
     parser.add_argument("--design-system", action="store_true", help="Include retained palette, moodboard, token, and component-style evidence.")
     parser.add_argument("--full", action="store_true", help="Include the L3 full reference path.")
     parser.add_argument("--explain-selection", action="store_true", help="Show ranking factors and penalties.")
+    parser.add_argument("--need", default="", help='Structured needs, e.g. "motion:L2,palette:dark,scene:dashboard".')
     args = parser.parse_args()
 
     lib = Path(args.library).expanduser()
@@ -370,7 +463,8 @@ def main() -> int:
         print(f"No designstyle library found at {lib}")
         return 0
 
-    query_tokens = tokens(args.query)
+    needs = parse_need(args.need)
+    query_tokens = tokens(args.query) + need_tokens(needs)
     cards = load_cards(lib)
     source = "L1 cards"
     if not cards:
@@ -379,6 +473,8 @@ def main() -> int:
 
     rows = []
     for card in cards:
+        if not scene_need_matches(card, needs):
+            continue
         score, factors = card_score(query_tokens, card)
         if score > 0:
             rows.append((score, card, factors))

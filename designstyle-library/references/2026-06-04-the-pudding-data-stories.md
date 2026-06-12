@@ -30,6 +30,14 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6786}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 450x240; 806x241; 454x240; 450x240; 806x241; 601x240; 516x240; 559x240; 590x240; 583x240.; source: Layout Geometry And Spacing
+- Observed border radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6786}; source: Dimension And Ratio System
+- Observed media ratios: 450:240; 806:241; 454:240; 450:240; 806:241; 601:240; 516:240; 559:240; 590:240; 583:240; source: Dimension And Ratio System
+- component state-change motion uses 100ms ease-out; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://pudding.cool/
 - Page title: The Pudding
@@ -60,6 +68,12 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation none observed
+- Sentence rhythm: 102 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title The Pudding; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(38, 38, 38):rgb(255, 255, 255); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(38, 38, 38):rgba(0, 0, 0, 0); P:rgb(38, 38, 38):rgba(0, 0, 0, 0); A:rgb(38, 38, 38):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +85,12 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - Media/card aspect stability: image natural sizes include 450x240; 806x241; 454x240; 450x240; 806x241; 601x240; 516x240; 559x240; 590x240; 583x240.
 - Observed border radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons OUR FAVES; POPULAR; UPDATING; YOUR INPUT; VIDEO; AUDIO; Prove you‘re human:; LOAD MORE STORIES; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6786}
 - Observed media ratios: 450:240; 806:241; 454:240; 450:240; 806:241; 601:240; 516:240; 559:240; 590:240; 583:240
@@ -90,20 +110,20 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-the-pudding-data-stories-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-the-pudding-data-stories-component-styles.json`
 - Asset CDN and media loading patterns: https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/more@2x.png; https://pudding.cool/assets/stickers/about@2x.png; https://pudding.cool/assets/stickers/subscribe@2x.png; https://pudding.cool/assets/stickers/donate@2x.png; https://pudding.cool/assets/stickers/pitch_us@2x.png; https://pudding.cool/assets/stickers/resources@2x.png
 
 ## Motion
-- Page transitions: ight-tilt: 2deg;--left-tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0), tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255,, t-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255,
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: ast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255, 255, 1) 50%);--1s, 1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255, 255, 1) 50%);--1s: 1ms}@me, medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255, 255, 1) 50%);--1s: 1ms}@media screen and, lor-gray-400);--color-default-story-bg: var(--color-gray-800);--fade: linear-gradient(180deg, rgba(25, 25, 25, 0) 0%, rgba(25, 25, 25, .8) 30%, rgba(25, 25, 25, 1) 50%)}}@media screen and (prefers-reduced-m, h2.svelte-lvg8c3{-webkit-transition:all .1s ease-out;transition:all .1s ease-out}
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: ight-tilt: 2deg;--left-tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear; tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(; t-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb; ransition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30; -webkit-transform:translate(100%,0);transform:translate(100%);-webkit-transition:-webkit-transform var(--transition-medium);transition:-webkit-transform var(--transition-medium);tr
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: easing, reduced_motion, transform, transition
-- Public CSS/JS motion snippets: ight-tilt: 2deg;--left-tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear; tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(; t-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb; ransition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30; -webkit-transform:translate(100%,0);transform:translate(100%);-webkit-transition:-webkit-transform var(--transition-medium);transition:-webkit-transform var(--transition-medium);tr; ast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255; 1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255,; medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255, 255, 1) 50%);--; lor-gray-400);--color-default-story-bg: var(--color-gray-800);--fade: linear-gradient(180deg, rgba(25, 25, 25, 0) 0%, rgba(25, 25, 25, .8) 30%, rgba(25, 25, 25, 1) 50%)}}@media scr; h2.svelte-lvg8c3{-webkit-transition:all .1s ease-out;transition:all .1s ease-out}
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: ight-tilt: 2deg;--left-tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear; tilt-double: -4deg;--right-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(; t-tilt-double: 4deg;--transition-fast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb; ast: .1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255; 1s;--transition-medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255,; medium: .2s;--transition-slow: .5s;--transition-ease: ease-in;--fade: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .8) 30%, rgba(255, 255, 255, 1) 50%);--; height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-in; height:auto;max-width:100%}h1,h2,h3,h4,h5,h6{font-weight:500}sub{text-transform:lowercase;font-size:inherit;font-variant-position:sub}sup{text-transform:lowercase;font-variant-posi; nsform:lowercase;font-size:inherit;font-variant-position:sub}sup{text-transform:lowercase;font-variant-position:super}textarea{overflow:auto;resize:vertical}@font-face{font-family:
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://pudding.cool/_app/immutable/assets/0.C2Vp5USR.css; https://pudding.cool/_app/immutable/assets/Story.C1ahabKR.css; https://pudding.cool/_app/immutable/assets/2.DkyQtU2H.css; https://pudding.cool/_app/immutable/assets/Filters.DX9ElI68.css; https://pudding.cool/_app/immutable/assets/Stories.E6MWasA7.css; https://pudding.cool/_app/immutable/assets/HeroText.DbGaW3nx.css; https://pudding.cool/_app/immutable/assets/1.DUhG7jci.css; https://gc.zgo.at/count.js
@@ -113,7 +133,7 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: OUR FAVES; POPULAR; UPDATING; YOUR INPUT; VIDEO; AUDIO; Prove you‘re human:; LOAD MORE STORIES
-- Computed component styles: `assets/2026-06-04-the-pudding-data-stories-component-styles.json`
+- Computed component styles: `assets/2026-06-12-the-pudding-data-stories-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +162,4 @@ The Pudding Data Stories is captured as a data-storytelling, editorial, informat
 - Reuse value: useful for home/story index plus secondary links if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-the-pudding-data-stories-motion.json`

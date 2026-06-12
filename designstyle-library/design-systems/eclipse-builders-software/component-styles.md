@@ -12,7 +12,7 @@
 - a nav-social cc-discord w-inline-block | rect=22x16@1195.6,24 | display=flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Barlow Condensed", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=-0.48px; lineHeight=16px; transition=opacity 0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a nav-social w-inline-block | rect=18x16@1227.6,24 | display=flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Barlow Condensed", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=-0.48px; lineHeight=16px; transition=opacity 0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 5, image count 9, document height 8157.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - ABOUT BUILDERS CAREERS ECOSYSTEM START BUILDING
@@ -53,8 +53,8 @@
 - div ANNOUNCEMENTS | rect=127.8x19.2@69,5865.5 | display=flex; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Barlow Condensed", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=-0.48px; lineHeight=16px; gap=10px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div ECLIPSE IS SOLANA ON ETHEREUM, THE BEST PLACE FOR APPS. THE EVERYTHING ECLIPSE NEWSLETTER  | rect=314x77.4@69,6042 | display=flow-root; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Barlow Condensed", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=-0.48px; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div ANNOUNCEMENTS 1.7.2025 Everything Eclipse (Ed. 11) ECLIPSE IS SOLANA ON ETHEREUM, THE BEST | rect=380x320@436,5832.5 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); borderRadius=25px; fontFamily="Barlow Condensed", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=-0.48px; lineHeight=16px; transition=transform; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 100px; 100px; 100px; 100px; 100px; 100px; 25px; 25px; 50%; 25px; 25px; 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 100px; 100px; 100px; 100px; 100px; 100px; 25px; 25px; 50%; 25px; 25px; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - // this script will autoplay video on click to avoid two clicks document.addEventListener("DOMContentLoaded", function (

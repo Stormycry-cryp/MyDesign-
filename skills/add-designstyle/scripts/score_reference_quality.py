@@ -19,7 +19,16 @@ DIMENSIONS = {
     "motion_code",
     "components_states",
 }
-DESIGN_SYSTEM_FILES = {"tokens", "palette", "moodboard", "component_styles"}
+DESIGN_SYSTEM_FILES = {
+    "tokens",
+    "palette",
+    "moodboard",
+    "component_styles",
+    "motion",
+    "variables_css",
+    "tailwind_theme",
+    "motion_presets",
+}
 BLOCKED_PATTERNS = re.compile(
     r"Attention Required!\s*\|\s*Cloudflare|Cloudflare Ray ID|Performance\s*&\s*security by Cloudflare|verify you are human|checking your browser|security challenge|cf-chl|challenge-platform",
     re.I,
@@ -69,13 +78,15 @@ def text_has_pattern(path: Path, pattern: re.Pattern[str]) -> bool:
 def summarize_penalties(parts: dict[str, int], row: dict[str, object]) -> list[str]:
     penalties: list[str] = []
     caps = {
-        "live_dom": 30,
-        "component_coverage": 15,
-        "design_system": 15,
-        "component_styles": 15,
-        "interaction_states": 10,
-        "retrieval_validation": 10,
-        "hygiene": 5,
+        "live_dom": 24,
+        "component_coverage": 12,
+        "design_system": 12,
+        "component_styles": 12,
+        "interaction_states": 8,
+        "motion_structure": 10,
+        "apply_pack": 10,
+        "retrieval_validation": 8,
+        "hygiene": 4,
     }
     labels = {
         "live_dom": "retained browser component evidence",
@@ -83,6 +94,8 @@ def summarize_penalties(parts: dict[str, int], row: dict[str, object]) -> list[s
         "design_system": "design-system file completeness",
         "component_styles": "reusable computed component styles",
         "interaction_states": "hover/focus state evidence",
+        "motion_structure": "structured motion evidence",
+        "apply_pack": "reusable apply-token pack",
         "retrieval_validation": "progressive retrieval metadata",
         "hygiene": "blocked/noise hygiene",
     }
@@ -122,6 +135,7 @@ def score_card(lib: Path, card_path: Path) -> dict[str, object]:
     tokens = read_json(design_files["tokens"]) if "tokens" in design_files else {}
     palette = tokens.get("palette", {}) if isinstance(tokens, dict) else {}
     token_components = tokens.get("component_styles", {}) if isinstance(tokens, dict) else {}
+    apply = tokens.get("apply", {}) if isinstance(tokens, dict) else {}
     colors = palette.get("colors", []) if isinstance(palette, dict) else []
     component_style_categories = [
         key
@@ -170,36 +184,62 @@ def score_card(lib: Path, card_path: Path) -> dict[str, object]:
 
     live_dom = 0
     if asset_path and asset_path.exists():
-        live_dom += 12
+        live_dom += 9
     if sample_count:
-        live_dom += 8
-    live_dom += points(min(sample_count, 80) / 80 * 7, 7)
+        live_dom += 6
+    live_dom += points(min(sample_count, 80) / 80 * 6, 6)
     live_dom += points(min(category_count, 4) / 4 * 3, 3)
 
-    component_coverage = points(min(category_count, 6) / 6 * 10, 10)
-    component_coverage += points(min(important_count, 5) / 5 * 5, 5)
+    component_coverage = points(min(category_count, 6) / 6 * 8, 8)
+    component_coverage += points(min(important_count, 5) / 5 * 4, 4)
 
     existing_system_files = sum(1 for key in DESIGN_SYSTEM_FILES if design_files.get(key) and design_files[key].exists())
-    design_system = points(existing_system_files / 4 * 6, 6)
+    design_system = points(existing_system_files / len(DESIGN_SYSTEM_FILES) * 4, 4)
     design_system += points(min(len(colors), 8) / 8 * 4, 4)
-    design_system += points(min(len(component_style_categories), 5) / 5 * 4, 4)
+    design_system += points(min(len(component_style_categories), 5) / 5 * 3, 3)
     design_system += 1 if design_strength == "strong" else 0
 
-    component_styles = points(min(len(component_style_categories), 6) / 6 * 7, 7)
-    component_styles += points(min(style_lines, 30) / 30 * 5, 5)
-    component_styles += points(min(sample_count, 50) / 50 * 3, 3)
+    component_styles = points(min(len(component_style_categories), 6) / 6 * 6, 6)
+    component_styles += points(min(style_lines, 30) / 30 * 4, 4)
+    component_styles += points(min(sample_count, 50) / 50 * 2, 2)
 
-    interaction_states = points(min(state_attempts, 12) / 12 * 6, 6)
-    interaction_states += points(min(changed_states, 6) / 6 * 4, 4)
+    interaction_states = points(min(state_attempts, 12) / 12 * 5, 5)
+    interaction_states += points(min(changed_states, 6) / 6 * 3, 3)
 
-    retrieval_validation = points(dimensions_present / len(DIMENSIONS) * 5, 5)
-    retrieval_validation += 2 if reference_exists else 0
+    motion_payload = read_json(design_files["motion"]) if "motion" in design_files else {}
+    motion_items = motion_payload.get("items", []) if isinstance(motion_payload, dict) else []
+    if not isinstance(motion_items, list):
+        motion_items = []
+    complete_motion = 0
+    for item in motion_items:
+        if not isinstance(item, dict):
+            continue
+        required = ["selector_role", "trigger", "property", "duration_ms", "delay_ms", "easing", "description"]
+        if all(item.get(key) not in {None, "", "missing"} or key in {"delay_ms"} for key in required):
+            complete_motion += 1
+    motion_structure = points(min(len(motion_items), 8) / 8 * 4, 4)
+    motion_structure += points(min(complete_motion, 6) / 6 * 4, 4)
+    motion_structure += 1 if motion_payload.get("source_motion_path") not in {None, "", "missing"} else 0
+    motion_structure += 1 if (lib / str(system_paths.get("motion", ""))).exists() else 0
+
+    apply_sections = [key for key in ["color", "type", "spacing", "radius", "shadow", "motion"] if isinstance(apply, dict) and key in apply]
+    apply_files = [
+        key
+        for key in ["variables_css", "tailwind_theme", "motion_presets"]
+        if design_files.get(key) and design_files[key].exists()
+    ]
+    apply_pack = points(len(apply_sections) / 6 * 5, 5)
+    apply_pack += points(len(apply_files) / 3 * 4, 4)
+    apply_pack += 1 if isinstance(apply.get("motion"), dict) and apply.get("motion") else 0
+
+    retrieval_validation = points(dimensions_present / len(DIMENSIONS) * 4, 4)
+    retrieval_validation += 1 if reference_exists else 0
     retrieval_validation += 2 if isinstance(limits, list) and limits else 0
     retrieval_validation += 1 if design_strength in {"strong", "medium"} else 0
 
-    hygiene = 5
+    hygiene = 4
     if blocked_risk:
-        hygiene -= 3
+        hygiene -= 2
     if scientific_noise:
         hygiene -= 2
     hygiene = max(0, hygiene)
@@ -210,6 +250,8 @@ def score_card(lib: Path, card_path: Path) -> dict[str, object]:
         "design_system": design_system,
         "component_styles": component_styles,
         "interaction_states": interaction_states,
+        "motion_structure": motion_structure,
+        "apply_pack": apply_pack,
         "retrieval_validation": retrieval_validation,
         "hygiene": hygiene,
     }
@@ -230,6 +272,10 @@ def score_card(lib: Path, card_path: Path) -> dict[str, object]:
         "palette_colors": len(colors) if isinstance(colors, list) else 0,
         "dimensions_present": dimensions_present,
         "design_system_files_present": existing_system_files,
+        "motion_items": len(motion_items),
+        "complete_motion_items": complete_motion,
+        "apply_sections": sorted(apply_sections),
+        "apply_files": sorted(apply_files),
         "asset_path": str(asset_path.relative_to(lib)) if asset_path else "",
         "tokens_path": system_paths.get("tokens", ""),
         "component_styles_path": system_paths.get("component_styles", ""),
@@ -263,13 +309,15 @@ def score_library(lib: Path) -> dict[str, object]:
         "generated_at": date.today().isoformat(),
         "library": str(lib),
         "rubric": {
-            "live_dom": 30,
-            "component_coverage": 15,
-            "design_system": 15,
-            "component_styles": 15,
-            "interaction_states": 10,
-            "retrieval_validation": 10,
-            "hygiene": 5,
+            "live_dom": 24,
+            "component_coverage": 12,
+            "design_system": 12,
+            "component_styles": 12,
+            "interaction_states": 8,
+            "motion_structure": 10,
+            "apply_pack": 10,
+            "retrieval_validation": 8,
+            "hygiene": 4,
         },
         "summary": {
             "reference_count": len(rows),
@@ -318,19 +366,21 @@ def markdown_report(payload: dict[str, object]) -> str:
         f"| Design-system retention | {rubric['design_system']} | Keeps tokens, palette, moodboard, component-styles, palette colors, and component system categories. |",
         f"| Component-style usefulness | {rubric['component_styles']} | `component-styles.md`/`tokens.json` contain reusable computed CSS, geometry, spacing, type, radii, borders, shadows, and transitions. |",
         f"| Interaction states | {rubric['interaction_states']} | Hover/focus attempts and actual computed deltas are captured when observable. |",
+        f"| Motion structure | {rubric['motion_structure']} | `motion.json` contains structured selector roles, triggers, properties, timing, easing, descriptions, and source evidence. |",
+        f"| Apply pack | {rubric['apply_pack']} | `tokens.json` has apply-layer tokens and generated `variables.css`, `tailwind.theme.json`, and `motion-presets.css`. |",
         f"| Retrieval/validation | {rubric['retrieval_validation']} | Reference has complete L1/L2/L3 paths, evidence limits, and design-system metadata. |",
         f"| Hygiene | {rubric['hygiene']} | No blocked/challenge text and no abnormal scientific-notation px noise in active evidence. |",
         "",
         "## Score Table",
         "",
-        "| # | Slug | Score | Grade | Component evidence /30 | Coverage /15 | Design system /15 | Component styles /15 | States /10 | Retrieval /10 | Hygiene /5 | Samples | Cats | State attempts | Changed states | Palette colors | Penalties |",
-        "|---:|---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|",
+        "| # | Slug | Score | Grade | Component evidence /24 | Coverage /12 | Design system /12 | Component styles /12 | States /8 | Motion /10 | Apply /10 | Retrieval /8 | Hygiene /4 | Samples | Cats | State attempts | Changed states | Motion items | Palette colors | Penalties |",
+        "|---:|---|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|",
     ]
     for idx, row in enumerate(rows, 1):
         parts = row["parts"]
         penalties = "; ".join(row["penalties"])
         lines.append(
-            "| {idx} | {slug} | {score} | {grade} | {live_dom} | {coverage} | {system} | {styles} | {states} | {retrieval} | {hygiene} | {samples} | {cats} | {attempts} | {changed} | {colors} | {penalties} |".format(
+            "| {idx} | {slug} | {score} | {grade} | {live_dom} | {coverage} | {system} | {styles} | {states} | {motion} | {apply} | {retrieval} | {hygiene} | {samples} | {cats} | {attempts} | {changed} | {motion_items} | {colors} | {penalties} |".format(
                 idx=idx,
                 slug=row["slug"],
                 score=row["score"],
@@ -340,12 +390,15 @@ def markdown_report(payload: dict[str, object]) -> str:
                 system=parts["design_system"],
                 styles=parts["component_styles"],
                 states=parts["interaction_states"],
+                motion=parts["motion_structure"],
+                apply=parts["apply_pack"],
                 retrieval=parts["retrieval_validation"],
                 hygiene=parts["hygiene"],
                 samples=row["samples"],
                 cats=row["category_count"],
                 attempts=row["state_attempts"],
                 changed=row["changed_states"],
+                motion_items=row["motion_items"],
                 colors=row["palette_colors"],
                 penalties=penalties,
             )

@@ -1,0 +1,13 @@
+.ds-motion-motion-component-state-change-all-100-ease-out {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-component-state-change-all-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-all-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-all-100-ease-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

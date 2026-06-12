@@ -1,0 +1,41 @@
+.ds-motion-motion-button-state-change-textdecoration-100-ease-out {
+  transition-property: textDecoration;
+  transition-duration: var(--ds-motion-motion-button-state-change-textdecoration-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-textdecoration-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-textdecoration-100-ease-out-easing);
+}
+
+.ds-motion-motion-button-state-change-backgroundcolor-150-ease-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-easing);
+}
+
+.ds-motion-motion-button-state-change-opacity-200-ease-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-state-change-opacity-200-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-opacity-200-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-opacity-200-ease-out-easing);
+}
+
+.ds-motion-motion-form-state-change-boxshadow-100-ease-out {
+  transition-property: boxShadow;
+  transition-duration: var(--ds-motion-motion-form-state-change-boxshadow-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-form-state-change-boxshadow-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-form-state-change-boxshadow-100-ease-out-easing);
+}
+
+.ds-motion-motion-form-state-change-width-150-ease-out {
+  transition-property: width;
+  transition-duration: var(--ds-motion-motion-form-state-change-width-150-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-form-state-change-width-150-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-form-state-change-width-150-ease-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

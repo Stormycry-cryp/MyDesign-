@@ -1,42 +1,131 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-, ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[dat, ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-ao
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: .aos-animate{pointer-events:auto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-e, uto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-eas, r],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-, on:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-ao, ,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; os][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{trans; data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="100"].aos-animate,body[data-aos-delay="100"] [data-ao; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; os][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{trans; data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="100"].aos-animate,body[data-aos-delay="100"] [data-ao; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an; on-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-coun; -direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-anim
-  - Exact motion parameters: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an; .aos-animate{pointer-events:auto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data; uto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easi; r],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]; no-js) [data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;-webkit-transform:none;transform:none}html:not(.no-js) [data-aos=fade-up]{-webkit-transform:translate3d(0,100px,0);tra
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/slick.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/hamburgers.min.css; https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css; https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/style.css
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/slick.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/hamburgers.min.css; https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css; https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/style.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/main.css; https://snap.licdn.com/li.lms-analytics/insight.old.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/media/logo.svg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/timeline_arrow_r.png; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_bg.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide1.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide2.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide3.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide4.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_top.gif
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 15; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | opacity | 150ms | 0ms | linear | 组件state-change：opacity，150ms linear，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | ease-in-out | 组件load：animation scale(1) -> scale(var(--fa-beat-scale,1.25))，1000ms ease-in-out，load 触发 |
+| navigation | state-change | all | 250ms | 100ms | ease | 导航state-change：all，250ms ease，state-change 触发 |
+| button | hover | opacity | 150ms | 0ms | linear | 按钮hover：opacity missing -> 0.800296，150ms linear，hover 触发；样本 Menu |
+| button | focus | opacity | 150ms | 0ms | linear | 按钮focus：opacity missing -> 0.765496，150ms linear，focus 触发；样本 Menu |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-usps-delivers-generational-report-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-all-50-missing lacks easing
+- motion-component-state-change-all-50-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-100-missing lacks easing
+- motion-component-state-change-all-100-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-150-missing lacks easing
+- motion-component-state-change-all-150-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-200-missing lacks easing
+- motion-component-state-change-all-200-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-250-missing lacks easing
+- motion-component-state-change-all-250-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-350-missing lacks easing
+- motion-component-state-change-all-350-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-component-state-change-all-400-missing lacks easing
+- motion-component-state-change-all-400-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+- motion-reveal-viewport-all-missing-missing lacks duration_ms
+- motion-reveal-viewport-all-missing-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-opacity-150-linear
+
+```css
+link https://github.com/jonsuh/hamburgers
+ */.hamburger { transition-property: opacity; transition-duration: .15s; transition-timing-function: linear; }
+```
+
+### motion-component-load-animation-1000-ease-in-out
+
+```css
+.fa-beat { animation: fa-beat 1s ease-in-out 0s; }
+```
+
+### motion-navigation-state-change-all-250-ease
+
+```css
+#menuModal { transition-property: all; transition-duration: .25s; transition-timing-function: ease; }
+```
+
+### motion-button-hover-opacity-150-linear
+
+```css
+{"backgroundColor": "rgb(255, 255, 255)", "border": "0px none rgb(0, 0, 0)", "borderBottom": "0px none rgb(0, 0, 0)", "borderLeft": "0px none rgb(0, 0, 0)", "borderRight": "0px none rgb(0, 0, 0)", "borderTop": "0px none rgb(0, 0, 0)", "color": "rgb(0, 0, 0)", "opacity": "0.800296"}
+```
+
+### motion-button-focus-opacity-150-linear
+
+```css
+{"backgroundColor": "rgb(255, 255, 255)", "border": "2px solid rgb(0, 0, 255)", "borderBottom": "2px solid rgb(0, 0, 255)", "borderLeft": "2px solid rgb(0, 0, 255)", "borderRight": "2px solid rgb(0, 0, 255)", "borderTop": "2px solid rgb(0, 0, 255)", "color": "rgb(0, 0, 0)", "opacity": "0.765496"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

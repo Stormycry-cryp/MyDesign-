@@ -1,0 +1,22 @@
+.ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-easing);
+  transform: oklab(0.995977 0.0000962686 -0.000159234);
+}
+
+.ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-easing);
+  transform: oklab(0.999048 0.0000575117 -0.0000221571);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

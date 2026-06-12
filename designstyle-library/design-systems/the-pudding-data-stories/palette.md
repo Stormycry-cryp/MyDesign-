@@ -3,20 +3,19 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#ffffff` | background | screenshot pixel sample | 0.5632 |
-| `#202020` | foreground | screenshot pixel sample | 0.0573 |
-| `#000000` | foreground | screenshot pixel sample | 0.0459 |
-| `#f0d0d0` | supporting color | screenshot pixel sample | 0.0443 |
-| `#c0a0f0` | supporting color | screenshot pixel sample | 0.0428 |
+| `#ffffff` | background | screenshot pixel sample | 0.5641 |
+| `#201020` | deep accent | screenshot pixel sample | 0.0592 |
+| `#c0a0f0` | supporting color | screenshot pixel sample | 0.043 |
 | `#40c0c0` | accent | screenshot pixel sample | 0.0427 |
+| `#b01070` | supporting color | screenshot pixel sample | 0.0424 |
+| `#30c0e0` | accent | screenshot pixel sample | 0.0213 |
 | `#c0e030` | accent | screenshot pixel sample | 0.0213 |
-| `#ffe000` | accent | screenshot pixel sample | 0.0213 |
-| `#30c0e0` | accent | screenshot pixel sample | 0.021 |
-| `#404040` | foreground | screenshot pixel sample | 0.0077 |
+| `#f0d0d0` | supporting color | screenshot pixel sample | 0.0211 |
+| `#000000` | foreground | screenshot pixel sample | 0.0117 |
+| `#507090` | supporting color | screenshot pixel sample | 0.0076 |
 | `#221188` | supporting color | explicit reference or DOM color |  |
 | `#221177` | supporting color | explicit reference or DOM color |  |
 | `#262626` | foreground | explicit reference or DOM color |  |
-| `#191919` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - playful

@@ -19,12 +19,16 @@
     "commerce-adjacent",
     "media-rich"
   ],
-  "component_json_path": "assets/2026-06-08-roman-and-williams-component-styles.json",
+  "component_json_path": "assets/2026-06-11-roman-and-williams-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/roman-and-williams/component-styles.md",
     "moodboard": "design-systems/roman-and-williams/moodboard.svg",
+    "motion": "design-systems/roman-and-williams/motion.json",
+    "motion_presets": "design-systems/roman-and-williams/motion-presets.css",
     "palette": "design-systems/roman-and-williams/palette.md",
-    "tokens": "design-systems/roman-and-williams/tokens.json"
+    "tailwind_theme": "design-systems/roman-and-williams/tailwind.theme.json",
+    "tokens": "design-systems/roman-and-williams/tokens.json",
+    "variables_css": "design-systems/roman-and-williams/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/roman-and-williams/assets.md",
@@ -35,25 +39,70 @@
     "scene": "dimensions/roman-and-williams/scene.md",
     "type_copy": "dimensions/roman-and-williams/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "Viewport and document: 1440x1000 visible probe viewport; probe document height reported about 7625px",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed font stack counts: visible probe output showed `No5` sans roles around 10px to 16px and `Lyon Display` / `Lyon Text` serif roles around 20px and 50px.",
+      "evidence_source": "Typography And Reading Rhythm"
+    },
+    {
+      "decision": "card state-change motion uses 250ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 100ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 200ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 500ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation hover motion uses 125ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 125ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "This reference is homepage-only.",
-    "Cookie contamination was removed in the accepted probe, but formal deeper extraction timed out later.",
     "Component evidence and code evidence are weak and should be refreshed on demand before implementation-grade reuse."
   ],
   "evidence_strength": {
-    "design_system": "weak",
+    "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "weak",
-    "screenshot": "weak",
+    "motion_code": "strong",
+    "screenshot": "strong",
     "type_copy": "strong"
   },
   "missing_evidence": [
     "Component evidence and code evidence are weak and should be refreshed on demand before implementation-grade reuse.",
-    "Cookie contamination was removed in the accepted probe, but formal deeper extraction timed out later.",
-    "This reference is homepage-only.",
-    "design-system evidence is weak",
-    "motion/code evidence is weak",
-    "screenshot evidence is weak"
+    "This reference is homepage-only."
   ],
   "motion_tags": [
     "minimal-motion",

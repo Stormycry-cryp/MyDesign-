@@ -1,0 +1,1346 @@
+{
+  "checked_urls": [
+    "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+    "https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css",
+    "https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css",
+    "https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css",
+    "https://www.raycast.com/_next/static/css/88cec015e89afcfe.css",
+    "https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css",
+    "https://www.raycast.com/_next/static/css/a59e492e46719f4d.css",
+    "https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css",
+    "https://www.raycast.com/_next/static/css/3563776b487bdaf8.css",
+    "https://www.raycast.com/_next/static/css/daa5c66cd12da278.css",
+    "https://www.raycast.com/_next/static/css/693b2155f5de85b5.css",
+    "https://www.raycast.com/_next/static/css/467af547d1448fcc.css"
+  ],
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-200-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".search_searchBoxEnterActive__9HVSa",
+      "selector_role": "component",
+      "snippet": ".search_searchBoxEnterActive__9HVSa { transition: opacity .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> scale(1)，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-missing",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu",
+      "selector_role": "component",
+      "snippet": ".search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu { transition: transform .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scale(1)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-200-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".search_searchBoxExitActive__7_vV8",
+      "selector_role": "component",
+      "snippet": ".search_searchBoxExitActive__7_vV8 { transition: opacity .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> scale(.95)，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-missing",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu",
+      "selector_role": "component",
+      "snippet": ".search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu { transition: transform .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scale(.95)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：opacity，200ms missing，load 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-opacity-200-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".search_loadingIndicator__gxtmG",
+      "selector_role": "component",
+      "snippet": ".search_loadingIndicator__gxtmG { transition: opacity .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translateX(0) -> translateX(-100%)，2000ms ease-in-out，load 触发",
+      "duration_ms": 2000,
+      "easing": "ease-in-out",
+      "from": "translateX(0)",
+      "id": "motion-component-load-animation-2000-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%,to",
+          "values": {
+            "left": "0",
+            "transform": "translateX(0)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "left": "100%",
+            "transform": "translateX(-100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".search_loadingIndicator__gxtmG",
+      "selector_role": "component",
+      "snippet": ".search_loadingIndicator__gxtmG { animation: search_nightRider__a2oGM 2s ease-in-out infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "translateX(-100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-missing",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".search_emptyState__uvN3V>a>svg",
+      "selector_role": "component",
+      "snippet": ".search_emptyState__uvN3V>a>svg { transition: transform .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".FlashMessage_enterActive__1rDzF",
+      "selector_role": "component",
+      "snippet": ".FlashMessage_enterActive__1rDzF { transition: opacity .3s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".FlashMessage_exitActive__aIkah",
+      "selector_role": "component",
+      "snippet": ".FlashMessage_exitActive__aIkah { transition: opacity .3s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-image，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-image-200-missing",
+      "keyframes": [],
+      "property": "background-image",
+      "reduced_motion": "missing",
+      "selector": ".Button_button__JJiqJ",
+      "selector_role": "button",
+      "snippet": ".Button_button__JJiqJ { transition: background-image .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-200-missing",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".Button_button__JJiqJ",
+      "selector_role": "button",
+      "snippet": ".Button_button__JJiqJ { transition: background-color .2s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：box-shadow，200ms ease-in-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-button-state-change-box-shadow-200-ease-in-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".Button_button__JJiqJ",
+      "selector_role": "button",
+      "snippet": ".Button_button__JJiqJ { transition: box-shadow .2s ease-in-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：transform，100ms ease-in-out，state-change 触发",
+      "duration_ms": 100,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-button-state-change-transform-100-ease-in-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".Button_button__JJiqJ",
+      "selector_role": "button",
+      "snippet": ".Button_button__JJiqJ { transition: transform .1s ease-in-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translate(-50%,calc(-50% - 50px))，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_img__grW93",
+      "selector_role": "component",
+      "snippet": ".Gallery_img__grW93 { transition: opacity .3s cubic-bezier(.4,0,.2,1); }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "translate(-50%,calc(-50% - 50px))",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-width-300-ease",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_page__9tY2Q",
+      "selector_role": "component",
+      "snippet": ".Gallery_page__9tY2Q { transition: width .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(100%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_page__9tY2Q.Gallery_current__gpJFY:after",
+      "selector_role": "component",
+      "snippet": ".Gallery_page__9tY2Q.Gallery_current__gpJFY:after { animation: Gallery_progress__FmE_S var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(100%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_page__9tY2Q.Gallery_current__gpJFY:before",
+      "selector_role": "component",
+      "snippet": ".Gallery_page__9tY2Q.Gallery_current__gpJFY:before { animation: Gallery_progress__FmE_S var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，400ms ease，state-change 触发",
+      "duration_ms": 400,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-400-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_pageDescription__gzbMf",
+      "selector_role": "component",
+      "snippet": ".Gallery_pageDescription__gzbMf { transition: opacity .4s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-all-300-ease",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".Gallery_pageDescription__gzbMf>span",
+      "selector_role": "component",
+      "snippet": ".Gallery_pageDescription__gzbMf>span { transition: all .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".Reel_next__jGdWP",
+      "selector_role": "component",
+      "snippet": ".Reel_next__jGdWP { transition: color .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".Reel_previous__h1vz0",
+      "selector_role": "component",
+      "snippet": ".Reel_previous__h1vz0 { transition: color .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，200ms ease，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-200-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".InstallViaWinget_trigger__a4x9E",
+      "selector_role": "component",
+      "snippet": ".InstallViaWinget_trigger__a4x9E { transition: opacity .2s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".InstallViaWinget_copyToClipboard__v4nU2",
+      "selector_role": "component",
+      "snippet": ".InstallViaWinget_copyToClipboard__v4nU2 { transition: color .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，150ms ease，state-change 触发",
+      "duration_ms": 150,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-150-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".InstallViaWinget_icon__XAk8H",
+      "selector_role": "component",
+      "snippet": ".InstallViaWinget_icon__XAk8H { transition: opacity .15s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms ease，state-change 触发",
+      "duration_ms": 150,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-ease",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".InstallViaWinget_icon__XAk8H",
+      "selector_role": "component",
+      "snippet": ".InstallViaWinget_icon__XAk8H { transition: transform .15s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scale(.8) -> scale(1)，300ms ease，load 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "scale(.8)",
+      "id": "motion-component-load-animation-300-ease",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(.8)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scale(1.1)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".InstallViaWinget_iconCopied__osOxD",
+      "selector_role": "component",
+      "snippet": ".InstallViaWinget_iconCopied__osOxD { animation: InstallViaWinget_iconSuccess__hI9N1 .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scale(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 1，1500ms cubic-bezier(.455,.03,.515,.955)，load 触发",
+      "duration_ms": 1500,
+      "easing": "cubic-bezier(.455,.03,.515,.955)",
+      "from": "0",
+      "id": "motion-component-load-animation-1500-cubic-bezier-455-03-515-955",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "left": "0",
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "left": "26%",
+            "opacity": "1"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".RaycastWindow_loadingIndicator__uCS_m:after",
+      "selector_role": "component",
+      "snippet": ".RaycastWindow_loadingIndicator__uCS_m:after { animation: RaycastWindow_loadingSweep__UKb0Y 1.5s cubic-bezier(.455,.03,.515,.955) forwards; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translate(-50%,calc(-50% - 50px))，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_img__jstSw",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_img__jstSw { transition: opacity .3s cubic-bezier(.4,0,.2,1); }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "translate(-50%,calc(-50% - 50px))",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-width-300-ease",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_page__IYgfn",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_page__IYgfn { transition: width .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(100%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_page__IYgfn.AIShowCase_current__TG7Mv:after",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_page__IYgfn.AIShowCase_current__TG7Mv:after { animation: AIShowCase_progress__VqqNs var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(100%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_page__IYgfn.AIShowCase_current__TG7Mv:before",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_page__IYgfn.AIShowCase_current__TG7Mv:before { animation: AIShowCase_progress__VqqNs var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，400ms ease，state-change 触发",
+      "duration_ms": 400,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-400-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_pageDescription__U91h0",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_pageDescription__U91h0 { transition: opacity .4s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-all-300-ease",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".AIShowCase_pageDescription__U91h0>span",
+      "selector_role": "component",
+      "snippet": ".AIShowCase_pageDescription__U91h0>span { transition: all .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_wall__BRIeA .FeatureWall_text__KtcCg",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_wall__BRIeA .FeatureWall_text__KtcCg { transition: color .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，200ms ease-in-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-200-ease-in-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_desktopWrapper__a9h7u",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_desktopWrapper__a9h7u { transition: box-shadow .2s ease-in-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，200ms ease-in-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-200-ease-in-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_desktop__y7X6D",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_desktop__y7X6D { transition: box-shadow .2s ease-in-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(95%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "5%",
+          "values": {
+            "transform": "scaleX(10%)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(95%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_page___6ylx.FeatureWall_current__adA_j:after",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_page___6ylx.FeatureWall_current__adA_j:after { animation: FeatureWall_progress__Gdb_p var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(95%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(0) -> scaleX(95%)，missingms linear，load 触发",
+      "duration_ms": "missing",
+      "easing": "linear",
+      "from": "scaleX(0)",
+      "id": "motion-component-load-animation-missing-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(0)"
+          }
+        },
+        {
+          "step": "5%",
+          "values": {
+            "transform": "scaleX(10%)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(95%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_page___6ylx.FeatureWall_current__adA_j:before",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_page___6ylx.FeatureWall_current__adA_j:before { animation: FeatureWall_progress__Gdb_p var(--animation-duration) linear; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "scaleX(95%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> none，600ms cubic-bezier(.4,0,.22,.96)，state-change 触发",
+      "duration_ms": 600,
+      "easing": "cubic-bezier(.4,0,.22,.96)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_enterActive__jjjtR",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_enterActive__jjjtR { transition: opacity .6s cubic-bezier(.4,0,.22,.96); }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "none",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> none，600ms cubic-bezier(.4,0,.22,.96)，state-change 触发",
+      "duration_ms": 600,
+      "easing": "cubic-bezier(.4,0,.22,.96)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-600-cubic-bezier-4-0-22-96",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_enterActive__jjjtR",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_enterActive__jjjtR { transition: transform .6s cubic-bezier(.4,0,.22,.96); }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "none",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".FeatureWall_exitActive__Z3Ion",
+      "selector_role": "component",
+      "snippet": ".FeatureWall_exitActive__Z3Ion { transition: opacity .3s; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "首屏state-change：all missing -> translateZ(0)，200ms ease，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-hero-state-change-all-200-ease",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".HeroAnnouncement_announcementOuter__T5qC1",
+      "selector_role": "hero",
+      "snippet": ".HeroAnnouncement_announcementOuter__T5qC1 { transition: all .2s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "首屏viewport：animation，3000ms linear，viewport 触发",
+      "duration_ms": 3000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-hero-viewport-animation-3000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "--r2": "0deg"
+          }
+        },
+        {
+          "step": "32.82275711%",
+          "values": {
+            "--r2": "0deg"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "--r2": "180deg"
+          }
+        },
+        {
+          "step": "82.82275711%",
+          "values": {
+            "--r2": "180deg"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "--r2": "360deg"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".HeroAnnouncement_announcementOuter__T5qC1.HeroAnnouncement_animate__T5ctC",
+      "selector_role": "hero",
+      "snippet": ".HeroAnnouncement_announcementOuter__T5qC1.HeroAnnouncement_animate__T5ctC { animation: HeroAnnouncement_rotating2__GbW_t -.64s linear 3s infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-underline-offset，100ms ease-out，state-change 触发",
+      "duration_ms": 100,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-text-underline-offset-100-ease-out",
+      "keyframes": [],
+      "property": "text-underline-offset",
+      "reduced_motion": "missing",
+      "selector": ".SectionParagraph_root__fSzgt a",
+      "selector_role": "component",
+      "snippet": ".SectionParagraph_root__fSzgt a { transition: text-underline-offset .1s ease-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，200ms ease-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".ai-chat_root__QQJDJ .ai-chat_popover__jq15c",
+      "selector_role": "component",
+      "snippet": ".ai-chat_root__QQJDJ .ai-chat_popover__jq15c { transition: transform .2s ease-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，400ms ease-out，state-change 触发",
+      "duration_ms": 400,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-400-ease-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".ai-chat_root__QQJDJ .ai-chat_popover__jq15c",
+      "selector_role": "component",
+      "snippet": ".ai-chat_root__QQJDJ .ai-chat_popover__jq15c { transition: opacity .4s ease-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 0，1100ms missing，load 触发",
+      "duration_ms": 1100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-component-load-animation-1100-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".ai-chat_cursor__kd9VS:before",
+      "selector_role": "component",
+      "snippet": ".ai-chat_cursor__kd9VS:before { animation: ai-chat_blink__XTGtJ 1.1s step-end infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateZ(0)，100ms ease-out，state-change 触发",
+      "duration_ms": 100,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-100-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".ai-chat_popover__jq15c",
+      "selector_role": "component",
+      "snippet": ".ai-chat_popover__jq15c { transition: transform .1s ease-out; }",
+      "source": "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(0deg) -> rotate(1turn)，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "rotate(0deg)",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".FeaturebaseContent_spinner__EhePC",
+      "selector_role": "component",
+      "snippet": ".FeaturebaseContent_spinner__EhePC { animation: FeaturebaseContent_spin__1K7tB 1s linear infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css",
+      "to": "rotate(1turn)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：all，200ms ease-in-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-state-change-all-200-ease-in-out",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".NavLink_navLink__REP72",
+      "selector_role": "navigation",
+      "snippet": ".NavLink_navLink__REP72 { transition: all .2s ease-in-out; }",
+      "source": "https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-underline-offset，100ms ease-out，state-change 触发",
+      "duration_ms": 100,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-text-underline-offset-100-ease-out",
+      "keyframes": [],
+      "property": "text-underline-offset",
+      "reduced_motion": "missing",
+      "selector": ".markdown :where(a):not(:where([class~=not-markdown],[class~=not-markdown] *))",
+      "selector_role": "component",
+      "snippet": ".markdown :where(a):not(:where([class~=not-markdown],[class~=not-markdown] *)) { transition: text-underline-offset .1s ease-out; }",
+      "source": "https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".ArrowLink_link__WKebC",
+      "selector_role": "component",
+      "snippet": ".ArrowLink_link__WKebC { transition: color .3s ease; }",
+      "source": "https://www.raycast.com/_next/static/css/88cec015e89afcfe.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航load：animation 0 -> 0，1100ms missing，load 触发",
+      "duration_ms": 1100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-navigation-load-animation-1100-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".RaycastWindow_navigationBar__hJ9Ml .RaycastWindow_cursor__wNE1G.RaycastWindow_blink__gOQ01",
+      "selector_role": "navigation",
+      "snippet": ".RaycastWindow_navigationBar__hJ9Ml .RaycastWindow_cursor__wNE1G.RaycastWindow_blink__gOQ01 { animation: RaycastWindow_blink__gOQ01 1.1s step-end infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航load：animation 0 -> 0，1100ms missing，load 触发",
+      "duration_ms": 1100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-navigation-load-animation-1100-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".CalculatorTimeShowcase_navigationBar__9P588 .CalculatorTimeShowcase_cursor__TeXSl.CalculatorTimeShowcase_blink__8cpQK",
+      "selector_role": "navigation",
+      "snippet": ".CalculatorTimeShowcase_navigationBar__9P588 .CalculatorTimeShowcase_cursor__TeXSl.CalculatorTimeShowcase_blink__8cpQK { animation: CalculatorTimeShowcase_blink__8cpQK 1.1s step-end infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 0，1100ms missing，load 触发",
+      "duration_ms": 1100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-component-load-animation-1100-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".SnippetsShowcase_addressSnippet__76DsF .SnippetsShowcase_cursor__3Cyq9:before",
+      "selector_role": "component",
+      "snippet": ".SnippetsShowcase_addressSnippet__76DsF .SnippetsShowcase_cursor__3Cyq9:before { animation: SnippetsShowcase_blink__QJVQu 1.1s step-end infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/3563776b487bdaf8.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 0，1100ms missing，load 触发",
+      "duration_ms": 1100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-component-load-animation-1100-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".AIShowcase_cursor__f159w.AIShowcase_blink__cKvIy",
+      "selector_role": "component",
+      "snippet": ".AIShowcase_cursor__f159w.AIShowcase_blink__cKvIy { animation: AIShowcase_blink__cKvIy 1.1s step-end infinite; }",
+      "source": "https://www.raycast.com/_next/static/css/daa5c66cd12da278.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateY(-37px) translateZ(0)，1500ms cubic-bezier(.165,.84,.44,1)，state-change 触发",
+      "duration_ms": 1500,
+      "easing": "cubic-bezier(.165,.84,.44,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".ApiFig1_bottom__XigQ9",
+      "selector_role": "component",
+      "snippet": ".ApiFig1_bottom__XigQ9 { transition: transform 1.5s cubic-bezier(.165,.84,.44,1); }",
+      "source": "https://www.raycast.com/_next/static/css/693b2155f5de85b5.css",
+      "to": "translateY(-37px) translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 500,
+      "description": "组件state-change：opacity，500ms missing，state-change 触发",
+      "duration_ms": 500,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-500-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".ApiFig2_appleLogoActive__QmFCC",
+      "selector_role": "component",
+      "snippet": ".ApiFig2_appleLogoActive__QmFCC { transition: opacity .5s .5s; }",
+      "source": "https://www.raycast.com/_next/static/css/467af547d1448fcc.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(252, 252, 252)，200ms ease, ease, ease-in-out, ease-in-out，hover 触发；样本 Download",
+      "duration_ms": 200,
+      "easing": "ease, ease, ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(252, 252, 252)\", \"boxShadow\": \"rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(252, 252, 252)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(252, 252, 252)，200ms ease, ease, ease-in-out, ease-in-out，focus 触发；样本 Download",
+      "duration_ms": 200,
+      "easing": "ease, ease, ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(252, 252, 252)\", \"boxShadow\": \"rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(252, 252, 252)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：style，300ms ease, ease，hover 触发；样本 ds-form-1",
+      "duration_ms": 300,
+      "easing": "ease, ease",
+      "from": "missing",
+      "id": "motion-form-hover-style-300-ease-ease",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-form-1\"]",
+      "selector_role": "form",
+      "snippet": "{\"border\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderBottom\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderLeft\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderRight\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderTop\": \"1px solid rgba(255, 255, 255, 0.184)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件focus：style，300ms ease, ease，focus 触发；样本 ds-form-1",
+      "duration_ms": 300,
+      "easing": "ease, ease",
+      "from": "missing",
+      "id": "motion-form-focus-style-300-ease-ease",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-form-1\"]",
+      "selector_role": "form",
+      "snippet": "{\"border\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderBottom\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderLeft\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderRight\": \"1px solid rgba(255, 255, 255, 0.184)\", \"borderTop\": \"1px solid rgba(255, 255, 255, 0.184)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：style，300ms ease-in-out, ease-in-out, ease-in-out，hover 触发；样本 ds-form-2",
+      "duration_ms": 300,
+      "easing": "ease-in-out, ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-form-2\"]",
+      "selector_role": "form",
+      "snippet": "{\"cursor\": \"pointer\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件focus：style，300ms ease-in-out, ease-in-out, ease-in-out，focus 触发；样本 ds-form-2",
+      "duration_ms": 300,
+      "easing": "ease-in-out, ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-form-2\"]",
+      "selector_role": "form",
+      "snippet": "{\"cursor\": \"pointer\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "raycast-productivity",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": [
+    "https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css",
+    "https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css",
+    "https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css",
+    "https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css",
+    "https://www.raycast.com/_next/static/css/88cec015e89afcfe.css",
+    "https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css",
+    "https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css",
+    "https://www.raycast.com/_next/static/css/3563776b487bdaf8.css",
+    "https://www.raycast.com/_next/static/css/daa5c66cd12da278.css",
+    "https://www.raycast.com/_next/static/css/693b2155f5de85b5.css",
+    "https://www.raycast.com/_next/static/css/467af547d1448fcc.css"
+  ]
+}

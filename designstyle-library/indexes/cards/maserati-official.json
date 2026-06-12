@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/maserati-official/component-styles.md",
     "moodboard": "design-systems/maserati-official/moodboard.svg",
+    "motion": "design-systems/maserati-official/motion.json",
+    "motion_presets": "design-systems/maserati-official/motion-presets.css",
     "palette": "design-systems/maserati-official/palette.md",
-    "tokens": "design-systems/maserati-official/tokens.json"
+    "tailwind_theme": "design-systems/maserati-official/tailwind.theme.json",
+    "tokens": "design-systems/maserati-official/tokens.json",
+    "variables_css": "design-systems/maserati-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/maserati-official/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/maserati-official/scene.md",
     "type_copy": "dimensions/maserati-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1471, 'docH': 8383}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1500x822; 1500x822; 1500x822; 1500x822; 1005x672; 1500x822; 1500x822; 1005x672; 1440x810; 1440x810.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 50%; 50%; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1471, 'docH': 8383}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1500:822; 1500:822; 1500:822; 1500:822; 1005:672; 1500:822; 1500:822; 1005:672; 1440:810; 1440:810",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 50%; 50%; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 500ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 500ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

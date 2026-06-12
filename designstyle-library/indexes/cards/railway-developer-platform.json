@@ -17,12 +17,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-railway-developer-platform-component-styles.json",
+  "component_json_path": "assets/2026-06-12-railway-developer-platform-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/railway-developer-platform/component-styles.md",
     "moodboard": "design-systems/railway-developer-platform/moodboard.svg",
+    "motion": "design-systems/railway-developer-platform/motion.json",
+    "motion_presets": "design-systems/railway-developer-platform/motion-presets.css",
     "palette": "design-systems/railway-developer-platform/palette.md",
-    "tokens": "design-systems/railway-developer-platform/tokens.json"
+    "tailwind_theme": "design-systems/railway-developer-platform/tailwind.theme.json",
+    "tokens": "design-systems/railway-developer-platform/tokens.json",
+    "variables_css": "design-systems/railway-developer-platform/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/railway-developer-platform/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/railway-developer-platform/scene.md",
     "type_copy": "dimensions/railway-developer-platform/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1432, 'docH': 2173}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 50%; 6px; 6px; 6px; 6px; 6px; 6px; 12px; 0px 12px 12px 0px; 12px; 0px 12px 12px 0px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1432, 'docH': 2173}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 50%; 6px; 6px; 6px; 6px; 6px; 6px; 12px; 0px 12px 12px 0px; 12px; 0px 12px 12px 0px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "reveal viewport motion uses 60000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 120000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1000ms cubic-bezier(0,0,.2,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 2000ms cubic-bezier(.4,0,.6,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 3000ms cubic-bezier(.25,.1,.25,.8)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 40000ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

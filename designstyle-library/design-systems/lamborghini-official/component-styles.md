@@ -12,7 +12,7 @@
 - a STORE | rect=416x49@512,290 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a NEWS | rect=416x49@952,290 | display=flex; position=relative; color=rgb(255, 255, 255); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=18px; fontWeight=400; lineHeight=28px; padding=16px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 24, image count 27, document height 6308.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - MENU MODELS OWNERSHIP DEALERSHIPS BEYOND COMPANY MOTORSPORT MUSEUM STORE NEWS Design Sustainability History Financial se
@@ -58,7 +58,8 @@
 - li BEYOND | rect=440x49@60,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li COMPANY | rect=440x49@500,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li MOTORSPORT | rect=440x49@940,217 | display=list-item; position=relative; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily=LamboType, Roboto, "Helvetica Neue", Arial; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 12px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - MENU

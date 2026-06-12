@@ -1,0 +1,38 @@
+:root {
+  --ds-color-deep-accent: #400030;
+  --ds-color-background: #ffffff;
+  --ds-color-supporting-color: #fff0d0;
+  --ds-color-accent: #ffc050;
+  --ds-color-accent-2: #ff9020;
+  --ds-color-supporting-color-2: #e0f0ff;
+  --ds-color-neutral-surface: #909090;
+  --ds-color-neutral-surface-2: #c0c0c0;
+  --ds-color-foreground: #505050;
+  --ds-color-supporting-color-3: #ffe0f0;
+  --ds-color-deep-accent-2: #3a032d;
+  --ds-color-accent-3: #ffc800;
+  --ds-spacing-component: 0px 16px;
+  --ds-radius-component: 2px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-opacity-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-hover-opacity-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-hover-opacity-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-navigation-focus-opacity-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-focus-opacity-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-focus-opacity-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-navigation-state-change-background-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-state-change-background-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-background-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-button-state-change-opacity-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-button-state-change-opacity-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-button-state-change-background-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-button-state-change-background-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-background-300-ease-in-out-easing: ease-in-out;
+}

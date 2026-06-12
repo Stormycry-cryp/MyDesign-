@@ -30,6 +30,15 @@ Lexus Official is captured as a luxury automotive, brand retail reference for of
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6097}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 208x150; 22x22; 1920x795; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471.; source: Layout Geometry And Spacing
+- Observed border radii: 24px; 20px; 932px; 932px; 9999px; 9999px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6097}; source: Dimension And Ratio System
+- Observed media ratios: 208:150; 22:22; 1920:795; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471; source: Dimension And Ratio System
+- button hover motion uses 150ms cubic-bezier(0.335, 0.015, 0.46, 0.995); source: motion.json
+- button focus motion uses 150ms cubic-bezier(0.335, 0.015, 0.46, 0.995); source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.lexus.com/
 - Page title: Lexus | Experience Amazing
@@ -60,6 +69,12 @@ Lexus Official is captured as a luxury automotive, brand retail reference for of
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 Meet the models; Discover Lexus; LexusCare; The Lexus Electrified Line; L/Certified by Lexus; Lexus Accessories; navigation none observed
+- Sentence rhythm: 101 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Lexus | Experience Amazing; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(255, 255, 255); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(255, 255, 255); H2:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgb(0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +86,12 @@ Lexus Official is captured as a luxury automotive, brand retail reference for of
 - Media/card aspect stability: image natural sizes include 208x150; 22x22; 1920x795; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471.
 - Observed border radii: 24px; 20px; 932px; 932px; 9999px; 9999px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 24px; 20px; 932px; 932px; 9999px; 9999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Skip to Main Content; VEHICLES; SHOP; MY LEXUS; SIGN IN; LEARN MORE; EXPLORE; BUILD; Arrow Icon; Arrow Icon; ACCEPT DECLINE; ACCEPT; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6097}
 - Observed media ratios: 208:150; 22:22; 1920:795; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471
@@ -94,18 +115,16 @@ Lexus Official is captured as a luxury automotive, brand retail reference for of
 - Asset CDN and media loading patterns: data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2027.9.3,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%209.03%20; data:image/svg+xml,%3csvg%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20x='0px'%20y='0px'%20width='21.962px'%20; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:2f2f4a73-d051-434e-be36-5c54975b9dc0/as/lexus-tz-homepage-hero-desktop-1920x795-LEX-TZE-MY27-0023.jpg?width=1920&; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:347d2852-face-42a9-82e3-2302e9da468b/as/Lexus-UX-Hybrid-and-Electric-LEX-USH-MY23-0004-05.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:b9541487-42be-44d2-b810-f7c9142ccac1/as/Lexus-NX-Hybrid-and-Electric-LEX-NXH-MY26-11364.png?width=750&length=471; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:332e01df-3db1-4442-9288-80792de07a1e/as/Lexus-RZ-Hybrid-and-Electric-LEX-RZV-MY26-2848-04.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:20e83ff5-6b44-4867-a089-9d1ab67444a3/as/Lexus-RX-Hybrid-and-Electric-LEX-RXH-MY26-3227-05.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:9cb6da2d-76b8-463a-95c4-664d5fdc05c2/as/Lexus-TX-Hybrid-and-Electric-LEX-TXG-MY26-1252-04.png?width=750&length=47
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","pointerup","pointer, tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","pointerup","pointerdown"];function Sc(i,r, ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseStart>0&&i.respo, ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseStart>0&&i.responseStart<performance.now()
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Timing/easing: no direct timing evidence found
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: none observed
 - Public CSS/JS probe keywords: intersection, request_animation_frame
-- Public CSS/JS motion snippets: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap; tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","p; ebKitMutationObserver)!==null&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.Mutatio; ll&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.n; tionObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.nodeProperties,i.Node.pro; ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigat; ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseS
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: no direct code evidence; preserve only visible motion intent
-- JavaScript/runtime motion evidence: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap; tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","p; ebKitMutationObserver)!==null&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.Mutatio; ll&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.n; tionObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.nodeProperties,i.Node.pro; ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigat; ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseS
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://www.lexus.com/etc.clientlibs/lexus/components/core/content/container/v1/container/clientlibs/site.lc-2a6e83bfeea337c34c6d26e7eeb402c1-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/components/container/clientlibs/site.lc-33331d9b97706d3d692938f1ab7579f9-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/clientlibs/lexus-react.lc-44f578454112a6bd5a41eb2aa7f9558f-lc.min.css; https://sc-static.net/scevent.min.js; https://www.googletagmanager.com/gtag/js?id=AW-10999173448; https://www.googletagmanager.com/gtag/js?id=AW-11350348623; https://www.googletagmanager.com/gtag/js?id=DC-1044889; https://t.contentsquare.net/uxa/cd11b5d7d4392.js
 - Interpreted motion tags: hover states, carousel, scroll reveals
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.

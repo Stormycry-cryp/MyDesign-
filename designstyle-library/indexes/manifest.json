@@ -5,8 +5,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/a24-culture-studio/component-styles.md",
         "moodboard": "design-systems/a24-culture-studio/moodboard.svg",
+        "motion": "design-systems/a24-culture-studio/motion.json",
+        "motion_presets": "design-systems/a24-culture-studio/motion-presets.css",
         "palette": "design-systems/a24-culture-studio/palette.md",
-        "tokens": "design-systems/a24-culture-studio/tokens.json"
+        "tailwind_theme": "design-systems/a24-culture-studio/tailwind.theme.json",
+        "tokens": "design-systems/a24-culture-studio/tokens.json",
+        "variables_css": "design-systems/a24-culture-studio/variables.css"
       },
       "reference_path": "references/2026-06-03-a24-culture-studio.md",
       "slug": "a24-culture-studio",
@@ -17,8 +21,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/amie-productivity-calendar/component-styles.md",
         "moodboard": "design-systems/amie-productivity-calendar/moodboard.svg",
+        "motion": "design-systems/amie-productivity-calendar/motion.json",
+        "motion_presets": "design-systems/amie-productivity-calendar/motion-presets.css",
         "palette": "design-systems/amie-productivity-calendar/palette.md",
-        "tokens": "design-systems/amie-productivity-calendar/tokens.json"
+        "tailwind_theme": "design-systems/amie-productivity-calendar/tailwind.theme.json",
+        "tokens": "design-systems/amie-productivity-calendar/tokens.json",
+        "variables_css": "design-systems/amie-productivity-calendar/variables.css"
       },
       "reference_path": "references/2026-06-03-amie-productivity-calendar.md",
       "slug": "amie-productivity-calendar",
@@ -29,8 +37,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/apple-vision-pro-product-story/component-styles.md",
         "moodboard": "design-systems/apple-vision-pro-product-story/moodboard.svg",
+        "motion": "design-systems/apple-vision-pro-product-story/motion.json",
+        "motion_presets": "design-systems/apple-vision-pro-product-story/motion-presets.css",
         "palette": "design-systems/apple-vision-pro-product-story/palette.md",
-        "tokens": "design-systems/apple-vision-pro-product-story/tokens.json"
+        "tailwind_theme": "design-systems/apple-vision-pro-product-story/tailwind.theme.json",
+        "tokens": "design-systems/apple-vision-pro-product-story/tokens.json",
+        "variables_css": "design-systems/apple-vision-pro-product-story/variables.css"
       },
       "reference_path": "references/2026-06-03-apple-vision-pro-product-story.md",
       "slug": "apple-vision-pro-product-story",
@@ -41,8 +53,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/aston-martin-official/component-styles.md",
         "moodboard": "design-systems/aston-martin-official/moodboard.svg",
+        "motion": "design-systems/aston-martin-official/motion.json",
+        "motion_presets": "design-systems/aston-martin-official/motion-presets.css",
         "palette": "design-systems/aston-martin-official/palette.md",
-        "tokens": "design-systems/aston-martin-official/tokens.json"
+        "tailwind_theme": "design-systems/aston-martin-official/tailwind.theme.json",
+        "tokens": "design-systems/aston-martin-official/tokens.json",
+        "variables_css": "design-systems/aston-martin-official/variables.css"
       },
       "reference_path": "references/2026-06-05-aston-martin-official.md",
       "slug": "aston-martin-official",
@@ -53,8 +69,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/attio-crm-workspace/component-styles.md",
         "moodboard": "design-systems/attio-crm-workspace/moodboard.svg",
+        "motion": "design-systems/attio-crm-workspace/motion.json",
+        "motion_presets": "design-systems/attio-crm-workspace/motion-presets.css",
         "palette": "design-systems/attio-crm-workspace/palette.md",
-        "tokens": "design-systems/attio-crm-workspace/tokens.json"
+        "tailwind_theme": "design-systems/attio-crm-workspace/tailwind.theme.json",
+        "tokens": "design-systems/attio-crm-workspace/tokens.json",
+        "variables_css": "design-systems/attio-crm-workspace/variables.css"
       },
       "reference_path": "references/2026-06-04-attio-crm-workspace.md",
       "slug": "attio-crm-workspace",
@@ -65,8 +85,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/avroko/component-styles.md",
         "moodboard": "design-systems/avroko/moodboard.svg",
+        "motion": "design-systems/avroko/motion.json",
+        "motion_presets": "design-systems/avroko/motion-presets.css",
         "palette": "design-systems/avroko/palette.md",
-        "tokens": "design-systems/avroko/tokens.json"
+        "tailwind_theme": "design-systems/avroko/tailwind.theme.json",
+        "tokens": "design-systems/avroko/tokens.json",
+        "variables_css": "design-systems/avroko/variables.css"
       },
       "reference_path": "references/2026-06-08-avroko.md",
       "slug": "avroko",
@@ -77,8 +101,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/bauhaus-clock-interactive-product/component-styles.md",
         "moodboard": "design-systems/bauhaus-clock-interactive-product/moodboard.svg",
+        "motion": "design-systems/bauhaus-clock-interactive-product/motion.json",
+        "motion_presets": "design-systems/bauhaus-clock-interactive-product/motion-presets.css",
         "palette": "design-systems/bauhaus-clock-interactive-product/palette.md",
-        "tokens": "design-systems/bauhaus-clock-interactive-product/tokens.json"
+        "tailwind_theme": "design-systems/bauhaus-clock-interactive-product/tailwind.theme.json",
+        "tokens": "design-systems/bauhaus-clock-interactive-product/tokens.json",
+        "variables_css": "design-systems/bauhaus-clock-interactive-product/variables.css"
       },
       "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
       "slug": "bauhaus-clock-interactive-product",
@@ -89,8 +117,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/bentley-motors-official/component-styles.md",
         "moodboard": "design-systems/bentley-motors-official/moodboard.svg",
+        "motion": "design-systems/bentley-motors-official/motion.json",
+        "motion_presets": "design-systems/bentley-motors-official/motion-presets.css",
         "palette": "design-systems/bentley-motors-official/palette.md",
-        "tokens": "design-systems/bentley-motors-official/tokens.json"
+        "tailwind_theme": "design-systems/bentley-motors-official/tailwind.theme.json",
+        "tokens": "design-systems/bentley-motors-official/tokens.json",
+        "variables_css": "design-systems/bentley-motors-official/variables.css"
       },
       "reference_path": "references/2026-06-05-bentley-motors-official.md",
       "slug": "bentley-motors-official",
@@ -101,8 +133,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/benvenusa-food-wine/component-styles.md",
         "moodboard": "design-systems/benvenusa-food-wine/moodboard.svg",
+        "motion": "design-systems/benvenusa-food-wine/motion.json",
+        "motion_presets": "design-systems/benvenusa-food-wine/motion-presets.css",
         "palette": "design-systems/benvenusa-food-wine/palette.md",
-        "tokens": "design-systems/benvenusa-food-wine/tokens.json"
+        "tailwind_theme": "design-systems/benvenusa-food-wine/tailwind.theme.json",
+        "tokens": "design-systems/benvenusa-food-wine/tokens.json",
+        "variables_css": "design-systems/benvenusa-food-wine/variables.css"
       },
       "reference_path": "references/2026-06-03-benvenusa-food-wine.md",
       "slug": "benvenusa-food-wine",
@@ -113,8 +149,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/better-stack-observability/component-styles.md",
         "moodboard": "design-systems/better-stack-observability/moodboard.svg",
+        "motion": "design-systems/better-stack-observability/motion.json",
+        "motion_presets": "design-systems/better-stack-observability/motion-presets.css",
         "palette": "design-systems/better-stack-observability/palette.md",
-        "tokens": "design-systems/better-stack-observability/tokens.json"
+        "tailwind_theme": "design-systems/better-stack-observability/tailwind.theme.json",
+        "tokens": "design-systems/better-stack-observability/tokens.json",
+        "variables_css": "design-systems/better-stack-observability/variables.css"
       },
       "reference_path": "references/2026-06-04-better-stack-observability.md",
       "slug": "better-stack-observability",
@@ -125,8 +165,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/buffet-digital-agency/component-styles.md",
         "moodboard": "design-systems/buffet-digital-agency/moodboard.svg",
+        "motion": "design-systems/buffet-digital-agency/motion.json",
+        "motion_presets": "design-systems/buffet-digital-agency/motion-presets.css",
         "palette": "design-systems/buffet-digital-agency/palette.md",
-        "tokens": "design-systems/buffet-digital-agency/tokens.json"
+        "tailwind_theme": "design-systems/buffet-digital-agency/tailwind.theme.json",
+        "tokens": "design-systems/buffet-digital-agency/tokens.json",
+        "variables_css": "design-systems/buffet-digital-agency/variables.css"
       },
       "reference_path": "references/2026-06-03-buffet-digital-agency.md",
       "slug": "buffet-digital-agency",
@@ -137,8 +181,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/bunkhouse/component-styles.md",
         "moodboard": "design-systems/bunkhouse/moodboard.svg",
+        "motion": "design-systems/bunkhouse/motion.json",
+        "motion_presets": "design-systems/bunkhouse/motion-presets.css",
         "palette": "design-systems/bunkhouse/palette.md",
-        "tokens": "design-systems/bunkhouse/tokens.json"
+        "tailwind_theme": "design-systems/bunkhouse/tailwind.theme.json",
+        "tokens": "design-systems/bunkhouse/tokens.json",
+        "variables_css": "design-systems/bunkhouse/variables.css"
       },
       "reference_path": "references/2026-06-05-bunkhouse.md",
       "slug": "bunkhouse",
@@ -149,8 +197,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/burberry-official/component-styles.md",
         "moodboard": "design-systems/burberry-official/moodboard.svg",
+        "motion": "design-systems/burberry-official/motion.json",
+        "motion_presets": "design-systems/burberry-official/motion-presets.css",
         "palette": "design-systems/burberry-official/palette.md",
-        "tokens": "design-systems/burberry-official/tokens.json"
+        "tailwind_theme": "design-systems/burberry-official/tailwind.theme.json",
+        "tokens": "design-systems/burberry-official/tokens.json",
+        "variables_css": "design-systems/burberry-official/variables.css"
       },
       "reference_path": "references/2026-06-05-burberry-official.md",
       "slug": "burberry-official",
@@ -161,8 +213,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/capital-finance-product/component-styles.md",
         "moodboard": "design-systems/capital-finance-product/moodboard.svg",
+        "motion": "design-systems/capital-finance-product/motion.json",
+        "motion_presets": "design-systems/capital-finance-product/motion-presets.css",
         "palette": "design-systems/capital-finance-product/palette.md",
-        "tokens": "design-systems/capital-finance-product/tokens.json"
+        "tailwind_theme": "design-systems/capital-finance-product/tailwind.theme.json",
+        "tokens": "design-systems/capital-finance-product/tokens.json",
+        "variables_css": "design-systems/capital-finance-product/variables.css"
       },
       "reference_path": "references/2026-06-03-capital-finance-product.md",
       "slug": "capital-finance-product",
@@ -173,8 +229,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/chopard-official/component-styles.md",
         "moodboard": "design-systems/chopard-official/moodboard.svg",
+        "motion": "design-systems/chopard-official/motion.json",
+        "motion_presets": "design-systems/chopard-official/motion-presets.css",
         "palette": "design-systems/chopard-official/palette.md",
-        "tokens": "design-systems/chopard-official/tokens.json"
+        "tailwind_theme": "design-systems/chopard-official/tailwind.theme.json",
+        "tokens": "design-systems/chopard-official/tokens.json",
+        "variables_css": "design-systems/chopard-official/variables.css"
       },
       "reference_path": "references/2026-06-05-chopard-official.md",
       "slug": "chopard-official",
@@ -185,8 +245,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/clay-data-workspace/component-styles.md",
         "moodboard": "design-systems/clay-data-workspace/moodboard.svg",
+        "motion": "design-systems/clay-data-workspace/motion.json",
+        "motion_presets": "design-systems/clay-data-workspace/motion-presets.css",
         "palette": "design-systems/clay-data-workspace/palette.md",
-        "tokens": "design-systems/clay-data-workspace/tokens.json"
+        "tailwind_theme": "design-systems/clay-data-workspace/tailwind.theme.json",
+        "tokens": "design-systems/clay-data-workspace/tokens.json",
+        "variables_css": "design-systems/clay-data-workspace/variables.css"
       },
       "reference_path": "references/2026-06-04-clay-data-workspace.md",
       "slug": "clay-data-workspace",
@@ -197,8 +261,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/cleo-ai-fintech-storytelling/component-styles.md",
         "moodboard": "design-systems/cleo-ai-fintech-storytelling/moodboard.svg",
+        "motion": "design-systems/cleo-ai-fintech-storytelling/motion.json",
+        "motion_presets": "design-systems/cleo-ai-fintech-storytelling/motion-presets.css",
         "palette": "design-systems/cleo-ai-fintech-storytelling/palette.md",
-        "tokens": "design-systems/cleo-ai-fintech-storytelling/tokens.json"
+        "tailwind_theme": "design-systems/cleo-ai-fintech-storytelling/tailwind.theme.json",
+        "tokens": "design-systems/cleo-ai-fintech-storytelling/tokens.json",
+        "variables_css": "design-systems/cleo-ai-fintech-storytelling/variables.css"
       },
       "reference_path": "references/2026-06-03-cleo-ai-fintech-storytelling.md",
       "slug": "cleo-ai-fintech-storytelling",
@@ -209,8 +277,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/climate-trace-explore/component-styles.md",
         "moodboard": "design-systems/climate-trace-explore/moodboard.svg",
+        "motion": "design-systems/climate-trace-explore/motion.json",
+        "motion_presets": "design-systems/climate-trace-explore/motion-presets.css",
         "palette": "design-systems/climate-trace-explore/palette.md",
-        "tokens": "design-systems/climate-trace-explore/tokens.json"
+        "tailwind_theme": "design-systems/climate-trace-explore/tailwind.theme.json",
+        "tokens": "design-systems/climate-trace-explore/tokens.json",
+        "variables_css": "design-systems/climate-trace-explore/variables.css"
       },
       "reference_path": "references/2026-06-04-climate-trace-explore.md",
       "slug": "climate-trace-explore",
@@ -221,8 +293,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/cosmos-creative-network/component-styles.md",
         "moodboard": "design-systems/cosmos-creative-network/moodboard.svg",
+        "motion": "design-systems/cosmos-creative-network/motion.json",
+        "motion_presets": "design-systems/cosmos-creative-network/motion-presets.css",
         "palette": "design-systems/cosmos-creative-network/palette.md",
-        "tokens": "design-systems/cosmos-creative-network/tokens.json"
+        "tailwind_theme": "design-systems/cosmos-creative-network/tailwind.theme.json",
+        "tokens": "design-systems/cosmos-creative-network/tokens.json",
+        "variables_css": "design-systems/cosmos-creative-network/variables.css"
       },
       "reference_path": "references/2026-06-03-cosmos-creative-network.md",
       "slug": "cosmos-creative-network",
@@ -233,8 +309,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/counter-forms-typography-resource/component-styles.md",
         "moodboard": "design-systems/counter-forms-typography-resource/moodboard.svg",
+        "motion": "design-systems/counter-forms-typography-resource/motion.json",
+        "motion_presets": "design-systems/counter-forms-typography-resource/motion-presets.css",
         "palette": "design-systems/counter-forms-typography-resource/palette.md",
-        "tokens": "design-systems/counter-forms-typography-resource/tokens.json"
+        "tailwind_theme": "design-systems/counter-forms-typography-resource/tailwind.theme.json",
+        "tokens": "design-systems/counter-forms-typography-resource/tokens.json",
+        "variables_css": "design-systems/counter-forms-typography-resource/variables.css"
       },
       "reference_path": "references/2026-06-03-counter-forms-typography-resource.md",
       "slug": "counter-forms-typography-resource",
@@ -245,8 +325,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/cron-calendar-interface/component-styles.md",
         "moodboard": "design-systems/cron-calendar-interface/moodboard.svg",
+        "motion": "design-systems/cron-calendar-interface/motion.json",
+        "motion_presets": "design-systems/cron-calendar-interface/motion-presets.css",
         "palette": "design-systems/cron-calendar-interface/palette.md",
-        "tokens": "design-systems/cron-calendar-interface/tokens.json"
+        "tailwind_theme": "design-systems/cron-calendar-interface/tailwind.theme.json",
+        "tokens": "design-systems/cron-calendar-interface/tokens.json",
+        "variables_css": "design-systems/cron-calendar-interface/variables.css"
       },
       "reference_path": "references/2026-06-04-cron-calendar-interface.md",
       "slug": "cron-calendar-interface",
@@ -257,8 +341,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/developments-media-production/component-styles.md",
         "moodboard": "design-systems/developments-media-production/moodboard.svg",
+        "motion": "design-systems/developments-media-production/motion.json",
+        "motion_presets": "design-systems/developments-media-production/motion-presets.css",
         "palette": "design-systems/developments-media-production/palette.md",
-        "tokens": "design-systems/developments-media-production/tokens.json"
+        "tailwind_theme": "design-systems/developments-media-production/tailwind.theme.json",
+        "tokens": "design-systems/developments-media-production/tokens.json",
+        "variables_css": "design-systems/developments-media-production/variables.css"
       },
       "reference_path": "references/2026-06-03-developments-media-production.md",
       "slug": "developments-media-production",
@@ -269,8 +357,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/eclipse-builders-software/component-styles.md",
         "moodboard": "design-systems/eclipse-builders-software/moodboard.svg",
+        "motion": "design-systems/eclipse-builders-software/motion.json",
+        "motion_presets": "design-systems/eclipse-builders-software/motion-presets.css",
         "palette": "design-systems/eclipse-builders-software/palette.md",
-        "tokens": "design-systems/eclipse-builders-software/tokens.json"
+        "tailwind_theme": "design-systems/eclipse-builders-software/tailwind.theme.json",
+        "tokens": "design-systems/eclipse-builders-software/tokens.json",
+        "variables_css": "design-systems/eclipse-builders-software/variables.css"
       },
       "reference_path": "references/2026-06-03-eclipse-builders-software.md",
       "slug": "eclipse-builders-software",
@@ -281,8 +373,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/electricity-maps-app/component-styles.md",
         "moodboard": "design-systems/electricity-maps-app/moodboard.svg",
+        "motion": "design-systems/electricity-maps-app/motion.json",
+        "motion_presets": "design-systems/electricity-maps-app/motion-presets.css",
         "palette": "design-systems/electricity-maps-app/palette.md",
-        "tokens": "design-systems/electricity-maps-app/tokens.json"
+        "tailwind_theme": "design-systems/electricity-maps-app/tailwind.theme.json",
+        "tokens": "design-systems/electricity-maps-app/tokens.json",
+        "variables_css": "design-systems/electricity-maps-app/variables.css"
       },
       "reference_path": "references/2026-06-04-electricity-maps-app.md",
       "slug": "electricity-maps-app",
@@ -293,8 +389,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/equals-spreadsheet-analytics/component-styles.md",
         "moodboard": "design-systems/equals-spreadsheet-analytics/moodboard.svg",
+        "motion": "design-systems/equals-spreadsheet-analytics/motion.json",
+        "motion_presets": "design-systems/equals-spreadsheet-analytics/motion-presets.css",
         "palette": "design-systems/equals-spreadsheet-analytics/palette.md",
-        "tokens": "design-systems/equals-spreadsheet-analytics/tokens.json"
+        "tailwind_theme": "design-systems/equals-spreadsheet-analytics/tailwind.theme.json",
+        "tokens": "design-systems/equals-spreadsheet-analytics/tokens.json",
+        "variables_css": "design-systems/equals-spreadsheet-analytics/variables.css"
       },
       "reference_path": "references/2026-06-04-equals-spreadsheet-analytics.md",
       "slug": "equals-spreadsheet-analytics",
@@ -305,8 +405,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/figma-design-platform/component-styles.md",
         "moodboard": "design-systems/figma-design-platform/moodboard.svg",
+        "motion": "design-systems/figma-design-platform/motion.json",
+        "motion_presets": "design-systems/figma-design-platform/motion-presets.css",
         "palette": "design-systems/figma-design-platform/palette.md",
-        "tokens": "design-systems/figma-design-platform/tokens.json"
+        "tailwind_theme": "design-systems/figma-design-platform/tailwind.theme.json",
+        "tokens": "design-systems/figma-design-platform/tokens.json",
+        "variables_css": "design-systems/figma-design-platform/variables.css"
       },
       "reference_path": "references/2026-06-03-figma-design-platform.md",
       "slug": "figma-design-platform",
@@ -317,8 +421,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/footer-design-gallery-resource/component-styles.md",
         "moodboard": "design-systems/footer-design-gallery-resource/moodboard.svg",
+        "motion": "design-systems/footer-design-gallery-resource/motion.json",
+        "motion_presets": "design-systems/footer-design-gallery-resource/motion-presets.css",
         "palette": "design-systems/footer-design-gallery-resource/palette.md",
-        "tokens": "design-systems/footer-design-gallery-resource/tokens.json"
+        "tailwind_theme": "design-systems/footer-design-gallery-resource/tailwind.theme.json",
+        "tokens": "design-systems/footer-design-gallery-resource/tokens.json",
+        "variables_css": "design-systems/footer-design-gallery-resource/variables.css"
       },
       "reference_path": "references/2026-06-03-footer-design-gallery-resource.md",
       "slug": "footer-design-gallery-resource",
@@ -329,8 +437,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/glyphs-app-design-tool/component-styles.md",
         "moodboard": "design-systems/glyphs-app-design-tool/moodboard.svg",
+        "motion": "design-systems/glyphs-app-design-tool/motion.json",
+        "motion_presets": "design-systems/glyphs-app-design-tool/motion-presets.css",
         "palette": "design-systems/glyphs-app-design-tool/palette.md",
-        "tokens": "design-systems/glyphs-app-design-tool/tokens.json"
+        "tailwind_theme": "design-systems/glyphs-app-design-tool/tailwind.theme.json",
+        "tokens": "design-systems/glyphs-app-design-tool/tokens.json",
+        "variables_css": "design-systems/glyphs-app-design-tool/variables.css"
       },
       "reference_path": "references/2026-06-03-glyphs-app-design-tool.md",
       "slug": "glyphs-app-design-tool",
@@ -341,8 +453,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/hex-data-workspace/component-styles.md",
         "moodboard": "design-systems/hex-data-workspace/moodboard.svg",
+        "motion": "design-systems/hex-data-workspace/motion.json",
+        "motion_presets": "design-systems/hex-data-workspace/motion-presets.css",
         "palette": "design-systems/hex-data-workspace/palette.md",
-        "tokens": "design-systems/hex-data-workspace/tokens.json"
+        "tailwind_theme": "design-systems/hex-data-workspace/tailwind.theme.json",
+        "tokens": "design-systems/hex-data-workspace/tokens.json",
+        "variables_css": "design-systems/hex-data-workspace/variables.css"
       },
       "reference_path": "references/2026-06-04-hex-data-workspace.md",
       "slug": "hex-data-workspace",
@@ -353,8 +469,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/jacky-winter-gallery/component-styles.md",
         "moodboard": "design-systems/jacky-winter-gallery/moodboard.svg",
+        "motion": "design-systems/jacky-winter-gallery/motion.json",
+        "motion_presets": "design-systems/jacky-winter-gallery/motion-presets.css",
         "palette": "design-systems/jacky-winter-gallery/palette.md",
-        "tokens": "design-systems/jacky-winter-gallery/tokens.json"
+        "tailwind_theme": "design-systems/jacky-winter-gallery/tailwind.theme.json",
+        "tokens": "design-systems/jacky-winter-gallery/tokens.json",
+        "variables_css": "design-systems/jacky-winter-gallery/variables.css"
       },
       "reference_path": "references/2026-06-03-jacky-winter-gallery.md",
       "slug": "jacky-winter-gallery",
@@ -365,8 +485,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/lamborghini-official/component-styles.md",
         "moodboard": "design-systems/lamborghini-official/moodboard.svg",
+        "motion": "design-systems/lamborghini-official/motion.json",
+        "motion_presets": "design-systems/lamborghini-official/motion-presets.css",
         "palette": "design-systems/lamborghini-official/palette.md",
-        "tokens": "design-systems/lamborghini-official/tokens.json"
+        "tailwind_theme": "design-systems/lamborghini-official/tailwind.theme.json",
+        "tokens": "design-systems/lamborghini-official/tokens.json",
+        "variables_css": "design-systems/lamborghini-official/variables.css"
       },
       "reference_path": "references/2026-06-05-lamborghini-official.md",
       "slug": "lamborghini-official",
@@ -377,8 +501,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/land-rover-range-rover-official/component-styles.md",
         "moodboard": "design-systems/land-rover-range-rover-official/moodboard.svg",
+        "motion": "design-systems/land-rover-range-rover-official/motion.json",
+        "motion_presets": "design-systems/land-rover-range-rover-official/motion-presets.css",
         "palette": "design-systems/land-rover-range-rover-official/palette.md",
-        "tokens": "design-systems/land-rover-range-rover-official/tokens.json"
+        "tailwind_theme": "design-systems/land-rover-range-rover-official/tailwind.theme.json",
+        "tokens": "design-systems/land-rover-range-rover-official/tokens.json",
+        "variables_css": "design-systems/land-rover-range-rover-official/variables.css"
       },
       "reference_path": "references/2026-06-05-land-rover-range-rover-official.md",
       "slug": "land-rover-range-rover-official",
@@ -389,8 +517,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/lexus-official/component-styles.md",
         "moodboard": "design-systems/lexus-official/moodboard.svg",
+        "motion": "design-systems/lexus-official/motion.json",
+        "motion_presets": "design-systems/lexus-official/motion-presets.css",
         "palette": "design-systems/lexus-official/palette.md",
-        "tokens": "design-systems/lexus-official/tokens.json"
+        "tailwind_theme": "design-systems/lexus-official/tailwind.theme.json",
+        "tokens": "design-systems/lexus-official/tokens.json",
+        "variables_css": "design-systems/lexus-official/variables.css"
       },
       "reference_path": "references/2026-06-05-lexus-official.md",
       "slug": "lexus-official",
@@ -401,8 +533,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/linear-product-saas/component-styles.md",
         "moodboard": "design-systems/linear-product-saas/moodboard.svg",
+        "motion": "design-systems/linear-product-saas/motion.json",
+        "motion_presets": "design-systems/linear-product-saas/motion-presets.css",
         "palette": "design-systems/linear-product-saas/palette.md",
-        "tokens": "design-systems/linear-product-saas/tokens.json"
+        "tailwind_theme": "design-systems/linear-product-saas/tailwind.theme.json",
+        "tokens": "design-systems/linear-product-saas/tokens.json",
+        "variables_css": "design-systems/linear-product-saas/variables.css"
       },
       "reference_path": "references/2026-06-03-linear-product-saas.md",
       "slug": "linear-product-saas",
@@ -413,8 +549,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/livesurface-product-software/component-styles.md",
         "moodboard": "design-systems/livesurface-product-software/moodboard.svg",
+        "motion": "design-systems/livesurface-product-software/motion.json",
+        "motion_presets": "design-systems/livesurface-product-software/motion-presets.css",
         "palette": "design-systems/livesurface-product-software/palette.md",
-        "tokens": "design-systems/livesurface-product-software/tokens.json"
+        "tailwind_theme": "design-systems/livesurface-product-software/tailwind.theme.json",
+        "tokens": "design-systems/livesurface-product-software/tokens.json",
+        "variables_css": "design-systems/livesurface-product-software/variables.css"
       },
       "reference_path": "references/2026-06-03-livesurface-product-software.md",
       "slug": "livesurface-product-software",
@@ -425,8 +565,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/lucid-motors-official/component-styles.md",
         "moodboard": "design-systems/lucid-motors-official/moodboard.svg",
+        "motion": "design-systems/lucid-motors-official/motion.json",
+        "motion_presets": "design-systems/lucid-motors-official/motion-presets.css",
         "palette": "design-systems/lucid-motors-official/palette.md",
-        "tokens": "design-systems/lucid-motors-official/tokens.json"
+        "tailwind_theme": "design-systems/lucid-motors-official/tailwind.theme.json",
+        "tokens": "design-systems/lucid-motors-official/tokens.json",
+        "variables_css": "design-systems/lucid-motors-official/variables.css"
       },
       "reference_path": "references/2026-06-05-lucid-motors-official.md",
       "slug": "lucid-motors-official",
@@ -437,8 +581,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/lunchbox-restaurant-commerce-saas/component-styles.md",
         "moodboard": "design-systems/lunchbox-restaurant-commerce-saas/moodboard.svg",
+        "motion": "design-systems/lunchbox-restaurant-commerce-saas/motion.json",
+        "motion_presets": "design-systems/lunchbox-restaurant-commerce-saas/motion-presets.css",
         "palette": "design-systems/lunchbox-restaurant-commerce-saas/palette.md",
-        "tokens": "design-systems/lunchbox-restaurant-commerce-saas/tokens.json"
+        "tailwind_theme": "design-systems/lunchbox-restaurant-commerce-saas/tailwind.theme.json",
+        "tokens": "design-systems/lunchbox-restaurant-commerce-saas/tokens.json",
+        "variables_css": "design-systems/lunchbox-restaurant-commerce-saas/variables.css"
       },
       "reference_path": "references/2026-06-03-lunchbox-restaurant-commerce-saas.md",
       "slug": "lunchbox-restaurant-commerce-saas",
@@ -449,8 +597,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/making-software-editorial-tooling/component-styles.md",
         "moodboard": "design-systems/making-software-editorial-tooling/moodboard.svg",
+        "motion": "design-systems/making-software-editorial-tooling/motion.json",
+        "motion_presets": "design-systems/making-software-editorial-tooling/motion-presets.css",
         "palette": "design-systems/making-software-editorial-tooling/palette.md",
-        "tokens": "design-systems/making-software-editorial-tooling/tokens.json"
+        "tailwind_theme": "design-systems/making-software-editorial-tooling/tailwind.theme.json",
+        "tokens": "design-systems/making-software-editorial-tooling/tokens.json",
+        "variables_css": "design-systems/making-software-editorial-tooling/variables.css"
       },
       "reference_path": "references/2026-06-03-making-software-editorial-tooling.md",
       "slug": "making-software-editorial-tooling",
@@ -461,8 +613,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/maserati-official/component-styles.md",
         "moodboard": "design-systems/maserati-official/moodboard.svg",
+        "motion": "design-systems/maserati-official/motion.json",
+        "motion_presets": "design-systems/maserati-official/motion-presets.css",
         "palette": "design-systems/maserati-official/palette.md",
-        "tokens": "design-systems/maserati-official/tokens.json"
+        "tailwind_theme": "design-systems/maserati-official/tailwind.theme.json",
+        "tokens": "design-systems/maserati-official/tokens.json",
+        "variables_css": "design-systems/maserati-official/variables.css"
       },
       "reference_path": "references/2026-06-05-maserati-official.md",
       "slug": "maserati-official",
@@ -473,8 +629,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/mclaren-official/component-styles.md",
         "moodboard": "design-systems/mclaren-official/moodboard.svg",
+        "motion": "design-systems/mclaren-official/motion.json",
+        "motion_presets": "design-systems/mclaren-official/motion-presets.css",
         "palette": "design-systems/mclaren-official/palette.md",
-        "tokens": "design-systems/mclaren-official/tokens.json"
+        "tailwind_theme": "design-systems/mclaren-official/tailwind.theme.json",
+        "tokens": "design-systems/mclaren-official/tokens.json",
+        "variables_css": "design-systems/mclaren-official/variables.css"
       },
       "reference_path": "references/2026-06-05-mclaren-official.md",
       "slug": "mclaren-official",
@@ -485,8 +645,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/mercury-financial-dashboard/component-styles.md",
         "moodboard": "design-systems/mercury-financial-dashboard/moodboard.svg",
+        "motion": "design-systems/mercury-financial-dashboard/motion.json",
+        "motion_presets": "design-systems/mercury-financial-dashboard/motion-presets.css",
         "palette": "design-systems/mercury-financial-dashboard/palette.md",
-        "tokens": "design-systems/mercury-financial-dashboard/tokens.json"
+        "tailwind_theme": "design-systems/mercury-financial-dashboard/tailwind.theme.json",
+        "tokens": "design-systems/mercury-financial-dashboard/tokens.json",
+        "variables_css": "design-systems/mercury-financial-dashboard/variables.css"
       },
       "reference_path": "references/2026-06-04-mercury-financial-dashboard.md",
       "slug": "mercury-financial-dashboard",
@@ -497,8 +661,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/mezmo-observability-saas/component-styles.md",
         "moodboard": "design-systems/mezmo-observability-saas/moodboard.svg",
+        "motion": "design-systems/mezmo-observability-saas/motion.json",
+        "motion_presets": "design-systems/mezmo-observability-saas/motion-presets.css",
         "palette": "design-systems/mezmo-observability-saas/palette.md",
-        "tokens": "design-systems/mezmo-observability-saas/tokens.json"
+        "tailwind_theme": "design-systems/mezmo-observability-saas/tailwind.theme.json",
+        "tokens": "design-systems/mezmo-observability-saas/tokens.json",
+        "variables_css": "design-systems/mezmo-observability-saas/variables.css"
       },
       "reference_path": "references/2026-06-03-mezmo-observability-saas.md",
       "slug": "mezmo-observability-saas",
@@ -509,8 +677,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/middle-name-agency-studio/component-styles.md",
         "moodboard": "design-systems/middle-name-agency-studio/moodboard.svg",
+        "motion": "design-systems/middle-name-agency-studio/motion.json",
+        "motion_presets": "design-systems/middle-name-agency-studio/motion-presets.css",
         "palette": "design-systems/middle-name-agency-studio/palette.md",
-        "tokens": "design-systems/middle-name-agency-studio/tokens.json"
+        "tailwind_theme": "design-systems/middle-name-agency-studio/tailwind.theme.json",
+        "tokens": "design-systems/middle-name-agency-studio/tokens.json",
+        "variables_css": "design-systems/middle-name-agency-studio/variables.css"
       },
       "reference_path": "references/2026-06-03-middle-name-agency-studio.md",
       "slug": "middle-name-agency-studio",
@@ -521,8 +693,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/notion-workspace-product/component-styles.md",
         "moodboard": "design-systems/notion-workspace-product/moodboard.svg",
+        "motion": "design-systems/notion-workspace-product/motion.json",
+        "motion_presets": "design-systems/notion-workspace-product/motion-presets.css",
         "palette": "design-systems/notion-workspace-product/palette.md",
-        "tokens": "design-systems/notion-workspace-product/tokens.json"
+        "tailwind_theme": "design-systems/notion-workspace-product/tailwind.theme.json",
+        "tokens": "design-systems/notion-workspace-product/tokens.json",
+        "variables_css": "design-systems/notion-workspace-product/variables.css"
       },
       "reference_path": "references/2026-06-03-notion-workspace-product.md",
       "slug": "notion-workspace-product",
@@ -533,8 +709,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/observable-data-platform/component-styles.md",
         "moodboard": "design-systems/observable-data-platform/moodboard.svg",
+        "motion": "design-systems/observable-data-platform/motion.json",
+        "motion_presets": "design-systems/observable-data-platform/motion-presets.css",
         "palette": "design-systems/observable-data-platform/palette.md",
-        "tokens": "design-systems/observable-data-platform/tokens.json"
+        "tailwind_theme": "design-systems/observable-data-platform/tailwind.theme.json",
+        "tokens": "design-systems/observable-data-platform/tokens.json",
+        "variables_css": "design-systems/observable-data-platform/variables.css"
       },
       "reference_path": "references/2026-06-04-observable-data-platform.md",
       "slug": "observable-data-platform",
@@ -545,8 +725,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/oma/component-styles.md",
         "moodboard": "design-systems/oma/moodboard.svg",
+        "motion": "design-systems/oma/motion.json",
+        "motion_presets": "design-systems/oma/motion-presets.css",
         "palette": "design-systems/oma/palette.md",
-        "tokens": "design-systems/oma/tokens.json"
+        "tailwind_theme": "design-systems/oma/tailwind.theme.json",
+        "tokens": "design-systems/oma/tokens.json",
+        "variables_css": "design-systems/oma/variables.css"
       },
       "reference_path": "references/2026-06-08-oma.md",
       "slug": "oma",
@@ -557,8 +741,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/ossa-wine-ecommerce/component-styles.md",
         "moodboard": "design-systems/ossa-wine-ecommerce/moodboard.svg",
+        "motion": "design-systems/ossa-wine-ecommerce/motion.json",
+        "motion_presets": "design-systems/ossa-wine-ecommerce/motion-presets.css",
         "palette": "design-systems/ossa-wine-ecommerce/palette.md",
-        "tokens": "design-systems/ossa-wine-ecommerce/tokens.json"
+        "tailwind_theme": "design-systems/ossa-wine-ecommerce/tailwind.theme.json",
+        "tokens": "design-systems/ossa-wine-ecommerce/tokens.json",
+        "variables_css": "design-systems/ossa-wine-ecommerce/variables.css"
       },
       "reference_path": "references/2026-06-03-ossa-wine-ecommerce.md",
       "slug": "ossa-wine-ecommerce",
@@ -569,8 +757,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/overpass-software-platform/component-styles.md",
         "moodboard": "design-systems/overpass-software-platform/moodboard.svg",
+        "motion": "design-systems/overpass-software-platform/motion.json",
+        "motion_presets": "design-systems/overpass-software-platform/motion-presets.css",
         "palette": "design-systems/overpass-software-platform/palette.md",
-        "tokens": "design-systems/overpass-software-platform/tokens.json"
+        "tailwind_theme": "design-systems/overpass-software-platform/tailwind.theme.json",
+        "tokens": "design-systems/overpass-software-platform/tokens.json",
+        "variables_css": "design-systems/overpass-software-platform/variables.css"
       },
       "reference_path": "references/2026-06-03-overpass-software-platform.md",
       "slug": "overpass-software-platform",
@@ -581,8 +773,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/pagani-official/component-styles.md",
         "moodboard": "design-systems/pagani-official/moodboard.svg",
+        "motion": "design-systems/pagani-official/motion.json",
+        "motion_presets": "design-systems/pagani-official/motion-presets.css",
         "palette": "design-systems/pagani-official/palette.md",
-        "tokens": "design-systems/pagani-official/tokens.json"
+        "tailwind_theme": "design-systems/pagani-official/tailwind.theme.json",
+        "tokens": "design-systems/pagani-official/tokens.json",
+        "variables_css": "design-systems/pagani-official/variables.css"
       },
       "reference_path": "references/2026-06-05-pagani-official.md",
       "slug": "pagani-official",
@@ -593,8 +789,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/patek-philippe-official/component-styles.md",
         "moodboard": "design-systems/patek-philippe-official/moodboard.svg",
+        "motion": "design-systems/patek-philippe-official/motion.json",
+        "motion_presets": "design-systems/patek-philippe-official/motion-presets.css",
         "palette": "design-systems/patek-philippe-official/palette.md",
-        "tokens": "design-systems/patek-philippe-official/tokens.json"
+        "tailwind_theme": "design-systems/patek-philippe-official/tailwind.theme.json",
+        "tokens": "design-systems/patek-philippe-official/tokens.json",
+        "variables_css": "design-systems/patek-philippe-official/variables.css"
       },
       "reference_path": "references/2026-06-05-patek-philippe-official.md",
       "slug": "patek-philippe-official",
@@ -605,8 +805,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/patrick-mason-studio-portfolio/component-styles.md",
         "moodboard": "design-systems/patrick-mason-studio-portfolio/moodboard.svg",
+        "motion": "design-systems/patrick-mason-studio-portfolio/motion.json",
+        "motion_presets": "design-systems/patrick-mason-studio-portfolio/motion-presets.css",
         "palette": "design-systems/patrick-mason-studio-portfolio/palette.md",
-        "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json"
+        "tailwind_theme": "design-systems/patrick-mason-studio-portfolio/tailwind.theme.json",
+        "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json",
+        "variables_css": "design-systems/patrick-mason-studio-portfolio/variables.css"
       },
       "reference_path": "references/2026-06-03-patrick-mason-studio-portfolio.md",
       "slug": "patrick-mason-studio-portfolio",
@@ -617,8 +821,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/pitch-interactive-data-studio/component-styles.md",
         "moodboard": "design-systems/pitch-interactive-data-studio/moodboard.svg",
+        "motion": "design-systems/pitch-interactive-data-studio/motion.json",
+        "motion_presets": "design-systems/pitch-interactive-data-studio/motion-presets.css",
         "palette": "design-systems/pitch-interactive-data-studio/palette.md",
-        "tokens": "design-systems/pitch-interactive-data-studio/tokens.json"
+        "tailwind_theme": "design-systems/pitch-interactive-data-studio/tailwind.theme.json",
+        "tokens": "design-systems/pitch-interactive-data-studio/tokens.json",
+        "variables_css": "design-systems/pitch-interactive-data-studio/variables.css"
       },
       "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
       "slug": "pitch-interactive-data-studio",
@@ -629,8 +837,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/pitch-presentation-workspace/component-styles.md",
         "moodboard": "design-systems/pitch-presentation-workspace/moodboard.svg",
+        "motion": "design-systems/pitch-presentation-workspace/motion.json",
+        "motion_presets": "design-systems/pitch-presentation-workspace/motion-presets.css",
         "palette": "design-systems/pitch-presentation-workspace/palette.md",
-        "tokens": "design-systems/pitch-presentation-workspace/tokens.json"
+        "tailwind_theme": "design-systems/pitch-presentation-workspace/tailwind.theme.json",
+        "tokens": "design-systems/pitch-presentation-workspace/tokens.json",
+        "variables_css": "design-systems/pitch-presentation-workspace/variables.css"
       },
       "reference_path": "references/2026-06-04-pitch-presentation-workspace.md",
       "slug": "pitch-presentation-workspace",
@@ -641,8 +853,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/plausible-analytics-live-dashboard/component-styles.md",
         "moodboard": "design-systems/plausible-analytics-live-dashboard/moodboard.svg",
+        "motion": "design-systems/plausible-analytics-live-dashboard/motion.json",
+        "motion_presets": "design-systems/plausible-analytics-live-dashboard/motion-presets.css",
         "palette": "design-systems/plausible-analytics-live-dashboard/palette.md",
-        "tokens": "design-systems/plausible-analytics-live-dashboard/tokens.json"
+        "tailwind_theme": "design-systems/plausible-analytics-live-dashboard/tailwind.theme.json",
+        "tokens": "design-systems/plausible-analytics-live-dashboard/tokens.json",
+        "variables_css": "design-systems/plausible-analytics-live-dashboard/variables.css"
       },
       "reference_path": "references/2026-06-04-plausible-analytics-live-dashboard.md",
       "slug": "plausible-analytics-live-dashboard",
@@ -653,8 +869,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/railway-developer-platform/component-styles.md",
         "moodboard": "design-systems/railway-developer-platform/moodboard.svg",
+        "motion": "design-systems/railway-developer-platform/motion.json",
+        "motion_presets": "design-systems/railway-developer-platform/motion-presets.css",
         "palette": "design-systems/railway-developer-platform/palette.md",
-        "tokens": "design-systems/railway-developer-platform/tokens.json"
+        "tailwind_theme": "design-systems/railway-developer-platform/tailwind.theme.json",
+        "tokens": "design-systems/railway-developer-platform/tokens.json",
+        "variables_css": "design-systems/railway-developer-platform/variables.css"
       },
       "reference_path": "references/2026-06-04-railway-developer-platform.md",
       "slug": "railway-developer-platform",
@@ -665,8 +885,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/raycast-productivity/component-styles.md",
         "moodboard": "design-systems/raycast-productivity/moodboard.svg",
+        "motion": "design-systems/raycast-productivity/motion.json",
+        "motion_presets": "design-systems/raycast-productivity/motion-presets.css",
         "palette": "design-systems/raycast-productivity/palette.md",
-        "tokens": "design-systems/raycast-productivity/tokens.json"
+        "tailwind_theme": "design-systems/raycast-productivity/tailwind.theme.json",
+        "tokens": "design-systems/raycast-productivity/tokens.json",
+        "variables_css": "design-systems/raycast-productivity/variables.css"
       },
       "reference_path": "references/2026-06-04-raycast-productivity.md",
       "slug": "raycast-productivity",
@@ -677,8 +901,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/reflect-notes-interface/component-styles.md",
         "moodboard": "design-systems/reflect-notes-interface/moodboard.svg",
+        "motion": "design-systems/reflect-notes-interface/motion.json",
+        "motion_presets": "design-systems/reflect-notes-interface/motion-presets.css",
         "palette": "design-systems/reflect-notes-interface/palette.md",
-        "tokens": "design-systems/reflect-notes-interface/tokens.json"
+        "tailwind_theme": "design-systems/reflect-notes-interface/tailwind.theme.json",
+        "tokens": "design-systems/reflect-notes-interface/tokens.json",
+        "variables_css": "design-systems/reflect-notes-interface/variables.css"
       },
       "reference_path": "references/2026-06-04-reflect-notes-interface.md",
       "slug": "reflect-notes-interface",
@@ -689,8 +917,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/rekki-food-service-app/component-styles.md",
         "moodboard": "design-systems/rekki-food-service-app/moodboard.svg",
+        "motion": "design-systems/rekki-food-service-app/motion.json",
+        "motion_presets": "design-systems/rekki-food-service-app/motion-presets.css",
         "palette": "design-systems/rekki-food-service-app/palette.md",
-        "tokens": "design-systems/rekki-food-service-app/tokens.json"
+        "tailwind_theme": "design-systems/rekki-food-service-app/tailwind.theme.json",
+        "tokens": "design-systems/rekki-food-service-app/tokens.json",
+        "variables_css": "design-systems/rekki-food-service-app/variables.css"
       },
       "reference_path": "references/2026-06-03-rekki-food-service-app.md",
       "slug": "rekki-food-service-app",
@@ -701,8 +933,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/render-cloud-platform/component-styles.md",
         "moodboard": "design-systems/render-cloud-platform/moodboard.svg",
+        "motion": "design-systems/render-cloud-platform/motion.json",
+        "motion_presets": "design-systems/render-cloud-platform/motion-presets.css",
         "palette": "design-systems/render-cloud-platform/palette.md",
-        "tokens": "design-systems/render-cloud-platform/tokens.json"
+        "tailwind_theme": "design-systems/render-cloud-platform/tailwind.theme.json",
+        "tokens": "design-systems/render-cloud-platform/tokens.json",
+        "variables_css": "design-systems/render-cloud-platform/variables.css"
       },
       "reference_path": "references/2026-06-04-render-cloud-platform.md",
       "slug": "render-cloud-platform",
@@ -713,8 +949,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/retool-internal-tools/component-styles.md",
         "moodboard": "design-systems/retool-internal-tools/moodboard.svg",
+        "motion": "design-systems/retool-internal-tools/motion.json",
+        "motion_presets": "design-systems/retool-internal-tools/motion-presets.css",
         "palette": "design-systems/retool-internal-tools/palette.md",
-        "tokens": "design-systems/retool-internal-tools/tokens.json"
+        "tailwind_theme": "design-systems/retool-internal-tools/tailwind.theme.json",
+        "tokens": "design-systems/retool-internal-tools/tokens.json",
+        "variables_css": "design-systems/retool-internal-tools/variables.css"
       },
       "reference_path": "references/2026-06-04-retool-internal-tools.md",
       "slug": "retool-internal-tools",
@@ -725,8 +965,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/roman-and-williams/component-styles.md",
         "moodboard": "design-systems/roman-and-williams/moodboard.svg",
+        "motion": "design-systems/roman-and-williams/motion.json",
+        "motion_presets": "design-systems/roman-and-williams/motion-presets.css",
         "palette": "design-systems/roman-and-williams/palette.md",
-        "tokens": "design-systems/roman-and-williams/tokens.json"
+        "tailwind_theme": "design-systems/roman-and-williams/tailwind.theme.json",
+        "tokens": "design-systems/roman-and-williams/tokens.json",
+        "variables_css": "design-systems/roman-and-williams/variables.css"
       },
       "reference_path": "references/2026-06-08-roman-and-williams.md",
       "slug": "roman-and-williams",
@@ -737,8 +981,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
         "moodboard": "design-systems/rows-spreadsheet-dashboard/moodboard.svg",
+        "motion": "design-systems/rows-spreadsheet-dashboard/motion.json",
+        "motion_presets": "design-systems/rows-spreadsheet-dashboard/motion-presets.css",
         "palette": "design-systems/rows-spreadsheet-dashboard/palette.md",
-        "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json"
+        "tailwind_theme": "design-systems/rows-spreadsheet-dashboard/tailwind.theme.json",
+        "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json",
+        "variables_css": "design-systems/rows-spreadsheet-dashboard/variables.css"
       },
       "reference_path": "references/2026-06-04-rows-spreadsheet-dashboard.md",
       "slug": "rows-spreadsheet-dashboard",
@@ -749,8 +997,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/snohetta-architecture-studio/component-styles.md",
         "moodboard": "design-systems/snohetta-architecture-studio/moodboard.svg",
+        "motion": "design-systems/snohetta-architecture-studio/motion.json",
+        "motion_presets": "design-systems/snohetta-architecture-studio/motion-presets.css",
         "palette": "design-systems/snohetta-architecture-studio/palette.md",
-        "tokens": "design-systems/snohetta-architecture-studio/tokens.json"
+        "tailwind_theme": "design-systems/snohetta-architecture-studio/tailwind.theme.json",
+        "tokens": "design-systems/snohetta-architecture-studio/tokens.json",
+        "variables_css": "design-systems/snohetta-architecture-studio/variables.css"
       },
       "reference_path": "references/2026-06-03-snohetta-architecture-studio.md",
       "slug": "snohetta-architecture-studio",
@@ -761,8 +1013,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/stripe-product-platform/component-styles.md",
         "moodboard": "design-systems/stripe-product-platform/moodboard.svg",
+        "motion": "design-systems/stripe-product-platform/motion.json",
+        "motion_presets": "design-systems/stripe-product-platform/motion-presets.css",
         "palette": "design-systems/stripe-product-platform/palette.md",
-        "tokens": "design-systems/stripe-product-platform/tokens.json"
+        "tailwind_theme": "design-systems/stripe-product-platform/tailwind.theme.json",
+        "tokens": "design-systems/stripe-product-platform/tokens.json",
+        "variables_css": "design-systems/stripe-product-platform/variables.css"
       },
       "reference_path": "references/2026-06-03-stripe-product-platform.md",
       "slug": "stripe-product-platform",
@@ -773,8 +1029,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/supabase-developer-platform/component-styles.md",
         "moodboard": "design-systems/supabase-developer-platform/moodboard.svg",
+        "motion": "design-systems/supabase-developer-platform/motion.json",
+        "motion_presets": "design-systems/supabase-developer-platform/motion-presets.css",
         "palette": "design-systems/supabase-developer-platform/palette.md",
-        "tokens": "design-systems/supabase-developer-platform/tokens.json"
+        "tailwind_theme": "design-systems/supabase-developer-platform/tailwind.theme.json",
+        "tokens": "design-systems/supabase-developer-platform/tokens.json",
+        "variables_css": "design-systems/supabase-developer-platform/variables.css"
       },
       "reference_path": "references/2026-06-04-supabase-developer-platform.md",
       "slug": "supabase-developer-platform",
@@ -785,8 +1045,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/tag-heuer-official/component-styles.md",
         "moodboard": "design-systems/tag-heuer-official/moodboard.svg",
+        "motion": "design-systems/tag-heuer-official/motion.json",
+        "motion_presets": "design-systems/tag-heuer-official/motion-presets.css",
         "palette": "design-systems/tag-heuer-official/palette.md",
-        "tokens": "design-systems/tag-heuer-official/tokens.json"
+        "tailwind_theme": "design-systems/tag-heuer-official/tailwind.theme.json",
+        "tokens": "design-systems/tag-heuer-official/tokens.json",
+        "variables_css": "design-systems/tag-heuer-official/variables.css"
       },
       "reference_path": "references/2026-06-05-tag-heuer-official.md",
       "slug": "tag-heuer-official",
@@ -797,8 +1061,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/teenage-engineering-hardware-brand/component-styles.md",
         "moodboard": "design-systems/teenage-engineering-hardware-brand/moodboard.svg",
+        "motion": "design-systems/teenage-engineering-hardware-brand/motion.json",
+        "motion_presets": "design-systems/teenage-engineering-hardware-brand/motion-presets.css",
         "palette": "design-systems/teenage-engineering-hardware-brand/palette.md",
-        "tokens": "design-systems/teenage-engineering-hardware-brand/tokens.json"
+        "tailwind_theme": "design-systems/teenage-engineering-hardware-brand/tailwind.theme.json",
+        "tokens": "design-systems/teenage-engineering-hardware-brand/tokens.json",
+        "variables_css": "design-systems/teenage-engineering-hardware-brand/variables.css"
       },
       "reference_path": "references/2026-06-03-teenage-engineering-hardware-brand.md",
       "slug": "teenage-engineering-hardware-brand",
@@ -809,8 +1077,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/the-pudding-data-stories/component-styles.md",
         "moodboard": "design-systems/the-pudding-data-stories/moodboard.svg",
+        "motion": "design-systems/the-pudding-data-stories/motion.json",
+        "motion_presets": "design-systems/the-pudding-data-stories/motion-presets.css",
         "palette": "design-systems/the-pudding-data-stories/palette.md",
-        "tokens": "design-systems/the-pudding-data-stories/tokens.json"
+        "tailwind_theme": "design-systems/the-pudding-data-stories/tailwind.theme.json",
+        "tokens": "design-systems/the-pudding-data-stories/tokens.json",
+        "variables_css": "design-systems/the-pudding-data-stories/variables.css"
       },
       "reference_path": "references/2026-06-04-the-pudding-data-stories.md",
       "slug": "the-pudding-data-stories",
@@ -821,8 +1093,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/tines-automation-platform/component-styles.md",
         "moodboard": "design-systems/tines-automation-platform/moodboard.svg",
+        "motion": "design-systems/tines-automation-platform/motion.json",
+        "motion_presets": "design-systems/tines-automation-platform/motion-presets.css",
         "palette": "design-systems/tines-automation-platform/palette.md",
-        "tokens": "design-systems/tines-automation-platform/tokens.json"
+        "tailwind_theme": "design-systems/tines-automation-platform/tailwind.theme.json",
+        "tokens": "design-systems/tines-automation-platform/tokens.json",
+        "variables_css": "design-systems/tines-automation-platform/variables.css"
       },
       "reference_path": "references/2026-06-04-tines-automation-platform.md",
       "slug": "tines-automation-platform",
@@ -833,8 +1109,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/tinybird-analytics-infrastructure/component-styles.md",
         "moodboard": "design-systems/tinybird-analytics-infrastructure/moodboard.svg",
+        "motion": "design-systems/tinybird-analytics-infrastructure/motion.json",
+        "motion_presets": "design-systems/tinybird-analytics-infrastructure/motion-presets.css",
         "palette": "design-systems/tinybird-analytics-infrastructure/palette.md",
-        "tokens": "design-systems/tinybird-analytics-infrastructure/tokens.json"
+        "tailwind_theme": "design-systems/tinybird-analytics-infrastructure/tailwind.theme.json",
+        "tokens": "design-systems/tinybird-analytics-infrastructure/tokens.json",
+        "variables_css": "design-systems/tinybird-analytics-infrastructure/variables.css"
       },
       "reference_path": "references/2026-06-04-tinybird-analytics-infrastructure.md",
       "slug": "tinybird-analytics-infrastructure",
@@ -845,8 +1125,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/typeform-product-forms-saas/component-styles.md",
         "moodboard": "design-systems/typeform-product-forms-saas/moodboard.svg",
+        "motion": "design-systems/typeform-product-forms-saas/motion.json",
+        "motion_presets": "design-systems/typeform-product-forms-saas/motion-presets.css",
         "palette": "design-systems/typeform-product-forms-saas/palette.md",
-        "tokens": "design-systems/typeform-product-forms-saas/tokens.json"
+        "tailwind_theme": "design-systems/typeform-product-forms-saas/tailwind.theme.json",
+        "tokens": "design-systems/typeform-product-forms-saas/tokens.json",
+        "variables_css": "design-systems/typeform-product-forms-saas/variables.css"
       },
       "reference_path": "references/2026-06-03-typeform-product-forms-saas.md",
       "slug": "typeform-product-forms-saas",
@@ -857,8 +1141,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/ulysse-nardin-official/component-styles.md",
         "moodboard": "design-systems/ulysse-nardin-official/moodboard.svg",
+        "motion": "design-systems/ulysse-nardin-official/motion.json",
+        "motion_presets": "design-systems/ulysse-nardin-official/motion-presets.css",
         "palette": "design-systems/ulysse-nardin-official/palette.md",
-        "tokens": "design-systems/ulysse-nardin-official/tokens.json"
+        "tailwind_theme": "design-systems/ulysse-nardin-official/tailwind.theme.json",
+        "tokens": "design-systems/ulysse-nardin-official/tokens.json",
+        "variables_css": "design-systems/ulysse-nardin-official/variables.css"
       },
       "reference_path": "references/2026-06-05-ulysse-nardin-official.md",
       "slug": "ulysse-nardin-official",
@@ -869,8 +1157,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/uncut-typography-resource/component-styles.md",
         "moodboard": "design-systems/uncut-typography-resource/moodboard.svg",
+        "motion": "design-systems/uncut-typography-resource/motion.json",
+        "motion_presets": "design-systems/uncut-typography-resource/motion-presets.css",
         "palette": "design-systems/uncut-typography-resource/palette.md",
-        "tokens": "design-systems/uncut-typography-resource/tokens.json"
+        "tailwind_theme": "design-systems/uncut-typography-resource/tailwind.theme.json",
+        "tokens": "design-systems/uncut-typography-resource/tokens.json",
+        "variables_css": "design-systems/uncut-typography-resource/variables.css"
       },
       "reference_path": "references/2026-06-03-uncut-typography-resource.md",
       "slug": "uncut-typography-resource",
@@ -881,8 +1173,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/usps-delivers-generational-report/component-styles.md",
         "moodboard": "design-systems/usps-delivers-generational-report/moodboard.svg",
+        "motion": "design-systems/usps-delivers-generational-report/motion.json",
+        "motion_presets": "design-systems/usps-delivers-generational-report/motion-presets.css",
         "palette": "design-systems/usps-delivers-generational-report/palette.md",
-        "tokens": "design-systems/usps-delivers-generational-report/tokens.json"
+        "tailwind_theme": "design-systems/usps-delivers-generational-report/tailwind.theme.json",
+        "tokens": "design-systems/usps-delivers-generational-report/tokens.json",
+        "variables_css": "design-systems/usps-delivers-generational-report/variables.css"
       },
       "reference_path": "references/2026-06-03-usps-delivers-generational-report.md",
       "slug": "usps-delivers-generational-report",
@@ -893,8 +1189,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/valentino-official/component-styles.md",
         "moodboard": "design-systems/valentino-official/moodboard.svg",
+        "motion": "design-systems/valentino-official/motion.json",
+        "motion_presets": "design-systems/valentino-official/motion-presets.css",
         "palette": "design-systems/valentino-official/palette.md",
-        "tokens": "design-systems/valentino-official/tokens.json"
+        "tailwind_theme": "design-systems/valentino-official/tailwind.theme.json",
+        "tokens": "design-systems/valentino-official/tokens.json",
+        "variables_css": "design-systems/valentino-official/variables.css"
       },
       "reference_path": "references/2026-06-05-valentino-official.md",
       "slug": "valentino-official",
@@ -905,8 +1205,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/vercel-developer-platform/component-styles.md",
         "moodboard": "design-systems/vercel-developer-platform/moodboard.svg",
+        "motion": "design-systems/vercel-developer-platform/motion.json",
+        "motion_presets": "design-systems/vercel-developer-platform/motion-presets.css",
         "palette": "design-systems/vercel-developer-platform/palette.md",
-        "tokens": "design-systems/vercel-developer-platform/tokens.json"
+        "tailwind_theme": "design-systems/vercel-developer-platform/tailwind.theme.json",
+        "tokens": "design-systems/vercel-developer-platform/tokens.json",
+        "variables_css": "design-systems/vercel-developer-platform/variables.css"
       },
       "reference_path": "references/2026-06-03-vercel-developer-platform.md",
       "slug": "vercel-developer-platform",
@@ -917,8 +1221,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/viens-la-travel-hospitality/component-styles.md",
         "moodboard": "design-systems/viens-la-travel-hospitality/moodboard.svg",
+        "motion": "design-systems/viens-la-travel-hospitality/motion.json",
+        "motion_presets": "design-systems/viens-la-travel-hospitality/motion-presets.css",
         "palette": "design-systems/viens-la-travel-hospitality/palette.md",
-        "tokens": "design-systems/viens-la-travel-hospitality/tokens.json"
+        "tailwind_theme": "design-systems/viens-la-travel-hospitality/tailwind.theme.json",
+        "tokens": "design-systems/viens-la-travel-hospitality/tokens.json",
+        "variables_css": "design-systems/viens-la-travel-hospitality/variables.css"
       },
       "reference_path": "references/2026-06-03-viens-la-travel-hospitality.md",
       "slug": "viens-la-travel-hospitality",
@@ -929,8 +1237,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/visual-cinnamon-data-art/component-styles.md",
         "moodboard": "design-systems/visual-cinnamon-data-art/moodboard.svg",
+        "motion": "design-systems/visual-cinnamon-data-art/motion.json",
+        "motion_presets": "design-systems/visual-cinnamon-data-art/motion-presets.css",
         "palette": "design-systems/visual-cinnamon-data-art/palette.md",
-        "tokens": "design-systems/visual-cinnamon-data-art/tokens.json"
+        "tailwind_theme": "design-systems/visual-cinnamon-data-art/tailwind.theme.json",
+        "tokens": "design-systems/visual-cinnamon-data-art/tokens.json",
+        "variables_css": "design-systems/visual-cinnamon-data-art/variables.css"
       },
       "reference_path": "references/2026-06-04-visual-cinnamon-data-art.md",
       "slug": "visual-cinnamon-data-art",
@@ -941,8 +1253,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/visual-journal-editorial/component-styles.md",
         "moodboard": "design-systems/visual-journal-editorial/moodboard.svg",
+        "motion": "design-systems/visual-journal-editorial/motion.json",
+        "motion_presets": "design-systems/visual-journal-editorial/motion-presets.css",
         "palette": "design-systems/visual-journal-editorial/palette.md",
-        "tokens": "design-systems/visual-journal-editorial/tokens.json"
+        "tailwind_theme": "design-systems/visual-journal-editorial/tailwind.theme.json",
+        "tokens": "design-systems/visual-journal-editorial/tokens.json",
+        "variables_css": "design-systems/visual-journal-editorial/variables.css"
       },
       "reference_path": "references/2026-06-03-visual-journal-editorial.md",
       "slug": "visual-journal-editorial",
@@ -953,8 +1269,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/viviens-creative-talent/component-styles.md",
         "moodboard": "design-systems/viviens-creative-talent/moodboard.svg",
+        "motion": "design-systems/viviens-creative-talent/motion.json",
+        "motion_presets": "design-systems/viviens-creative-talent/motion-presets.css",
         "palette": "design-systems/viviens-creative-talent/palette.md",
-        "tokens": "design-systems/viviens-creative-talent/tokens.json"
+        "tailwind_theme": "design-systems/viviens-creative-talent/tailwind.theme.json",
+        "tokens": "design-systems/viviens-creative-talent/tokens.json",
+        "variables_css": "design-systems/viviens-creative-talent/variables.css"
       },
       "reference_path": "references/2026-06-03-viviens-creative-talent.md",
       "slug": "viviens-creative-talent",
@@ -965,8 +1285,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/wam-architecture-studio/component-styles.md",
         "moodboard": "design-systems/wam-architecture-studio/moodboard.svg",
+        "motion": "design-systems/wam-architecture-studio/motion.json",
+        "motion_presets": "design-systems/wam-architecture-studio/motion-presets.css",
         "palette": "design-systems/wam-architecture-studio/palette.md",
-        "tokens": "design-systems/wam-architecture-studio/tokens.json"
+        "tailwind_theme": "design-systems/wam-architecture-studio/tailwind.theme.json",
+        "tokens": "design-systems/wam-architecture-studio/tokens.json",
+        "variables_css": "design-systems/wam-architecture-studio/variables.css"
       },
       "reference_path": "references/2026-06-03-wam-architecture-studio.md",
       "slug": "wam-architecture-studio",
@@ -977,8 +1301,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-accessgrid-pricing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-accessgrid-pricing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-accessgrid-pricing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-accessgrid-pricing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-accessgrid-pricing-page/palette.md",
-        "tokens": "design-systems/webinspoo-accessgrid-pricing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-accessgrid-pricing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-accessgrid-pricing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-accessgrid-pricing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-accessgrid-pricing-page.md",
       "slug": "webinspoo-accessgrid-pricing-page",
@@ -989,8 +1317,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-airmee-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-airmee-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-airmee-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-airmee-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-airmee-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-airmee-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-airmee-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-airmee-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-airmee-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-airmee-landing-page.md",
       "slug": "webinspoo-airmee-landing-page",
@@ -1001,8 +1333,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-bevel-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-bevel-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-bevel-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-bevel-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-bevel-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-bevel-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-bevel-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-bevel-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-bevel-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-bevel-landing-page.md",
       "slug": "webinspoo-bevel-landing-page",
@@ -1013,8 +1349,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-braintrust-pricing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-braintrust-pricing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-braintrust-pricing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-braintrust-pricing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-braintrust-pricing-page/palette.md",
-        "tokens": "design-systems/webinspoo-braintrust-pricing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-braintrust-pricing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-braintrust-pricing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-braintrust-pricing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-braintrust-pricing-page.md",
       "slug": "webinspoo-braintrust-pricing-page",
@@ -1025,8 +1365,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-browserbase-pricing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-browserbase-pricing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-browserbase-pricing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-browserbase-pricing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-browserbase-pricing-page/palette.md",
-        "tokens": "design-systems/webinspoo-browserbase-pricing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-browserbase-pricing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-browserbase-pricing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-browserbase-pricing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-browserbase-pricing-page.md",
       "slug": "webinspoo-browserbase-pricing-page",
@@ -1037,8 +1381,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-cloudflare-pricing-pattern/component-styles.md",
         "moodboard": "design-systems/webinspoo-cloudflare-pricing-pattern/moodboard.svg",
+        "motion": "design-systems/webinspoo-cloudflare-pricing-pattern/motion.json",
+        "motion_presets": "design-systems/webinspoo-cloudflare-pricing-pattern/motion-presets.css",
         "palette": "design-systems/webinspoo-cloudflare-pricing-pattern/palette.md",
-        "tokens": "design-systems/webinspoo-cloudflare-pricing-pattern/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-cloudflare-pricing-pattern/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-cloudflare-pricing-pattern/tokens.json",
+        "variables_css": "design-systems/webinspoo-cloudflare-pricing-pattern/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-cloudflare-pricing-pattern.md",
       "slug": "webinspoo-cloudflare-pricing-pattern",
@@ -1049,8 +1397,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-exa-ai-pricing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-exa-ai-pricing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-exa-ai-pricing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-exa-ai-pricing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-exa-ai-pricing-page/palette.md",
-        "tokens": "design-systems/webinspoo-exa-ai-pricing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-exa-ai-pricing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-exa-ai-pricing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-exa-ai-pricing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-exa-ai-pricing-page.md",
       "slug": "webinspoo-exa-ai-pricing-page",
@@ -1061,8 +1413,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-expenseai-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-expenseai-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-expenseai-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-expenseai-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-expenseai-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-expenseai-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-expenseai-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-expenseai-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-expenseai-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-expenseai-landing-page.md",
       "slug": "webinspoo-expenseai-landing-page",
@@ -1073,8 +1429,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-mistral-ai-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-mistral-ai-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-mistral-ai-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-mistral-ai-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-mistral-ai-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-mistral-ai-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-mistral-ai-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-mistral-ai-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-mistral-ai-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-mistral-ai-landing-page.md",
       "slug": "webinspoo-mistral-ai-landing-page",
@@ -1085,8 +1445,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-poolside-ai-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-poolside-ai-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-poolside-ai-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-poolside-ai-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-poolside-ai-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-poolside-ai-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-poolside-ai-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-poolside-ai-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-poolside-ai-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-poolside-ai-landing-page.md",
       "slug": "webinspoo-poolside-ai-landing-page",
@@ -1097,8 +1461,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-rerun-developer-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-rerun-developer-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-rerun-developer-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-rerun-developer-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-rerun-developer-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-rerun-developer-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-rerun-developer-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-rerun-developer-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-rerun-developer-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-rerun-developer-landing-page.md",
       "slug": "webinspoo-rerun-developer-landing-page",
@@ -1109,8 +1477,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-unkey-pricing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-unkey-pricing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-unkey-pricing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-unkey-pricing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-unkey-pricing-page/palette.md",
-        "tokens": "design-systems/webinspoo-unkey-pricing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-unkey-pricing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-unkey-pricing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-unkey-pricing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-unkey-pricing-page.md",
       "slug": "webinspoo-unkey-pricing-page",
@@ -1121,8 +1493,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/webinspoo-weav-saas-landing-page/component-styles.md",
         "moodboard": "design-systems/webinspoo-weav-saas-landing-page/moodboard.svg",
+        "motion": "design-systems/webinspoo-weav-saas-landing-page/motion.json",
+        "motion_presets": "design-systems/webinspoo-weav-saas-landing-page/motion-presets.css",
         "palette": "design-systems/webinspoo-weav-saas-landing-page/palette.md",
-        "tokens": "design-systems/webinspoo-weav-saas-landing-page/tokens.json"
+        "tailwind_theme": "design-systems/webinspoo-weav-saas-landing-page/tailwind.theme.json",
+        "tokens": "design-systems/webinspoo-weav-saas-landing-page/tokens.json",
+        "variables_css": "design-systems/webinspoo-weav-saas-landing-page/variables.css"
       },
       "reference_path": "references/2026-06-03-webinspoo-weav-saas-landing-page.md",
       "slug": "webinspoo-weav-saas-landing-page",
@@ -1133,8 +1509,12 @@
       "design_system_paths": {
         "component_styles": "design-systems/wiz-cybersecurity-saas/component-styles.md",
         "moodboard": "design-systems/wiz-cybersecurity-saas/moodboard.svg",
+        "motion": "design-systems/wiz-cybersecurity-saas/motion.json",
+        "motion_presets": "design-systems/wiz-cybersecurity-saas/motion-presets.css",
         "palette": "design-systems/wiz-cybersecurity-saas/palette.md",
-        "tokens": "design-systems/wiz-cybersecurity-saas/tokens.json"
+        "tailwind_theme": "design-systems/wiz-cybersecurity-saas/tailwind.theme.json",
+        "tokens": "design-systems/wiz-cybersecurity-saas/tokens.json",
+        "variables_css": "design-systems/wiz-cybersecurity-saas/variables.css"
       },
       "reference_path": "references/2026-06-03-wiz-cybersecurity-saas.md",
       "slug": "wiz-cybersecurity-saas",

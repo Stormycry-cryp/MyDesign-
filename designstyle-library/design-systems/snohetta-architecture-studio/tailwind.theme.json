@@ -1,0 +1,23 @@
+{
+  "theme": {
+    "extend": {
+      "borderRadius": {
+        "ds-component": "16px"
+      },
+      "colors": {
+        "background": "#ffffff",
+        "deep-accent": "#302010",
+        "foreground": "#101010",
+        "foreground-2": "#606060",
+        "foreground-3": "#000000",
+        "neutral-surface": "#808080",
+        "neutral-surface-2": "#a0a0a0",
+        "neutral-surface-3": "#e0e0e0",
+        "neutral-surface-4": "#c0c0c0",
+        "neutral-surface-5": "#949494",
+        "supporting-color": "#b0a070",
+        "supporting-color-2": "#a08060"
+      }
+    }
+  }
+}

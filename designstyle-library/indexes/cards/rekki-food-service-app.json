@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-rekki-food-service-app-component-styles.json",
+  "component_json_path": "assets/2026-06-11-rekki-food-service-app-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/rekki-food-service-app/component-styles.md",
     "moodboard": "design-systems/rekki-food-service-app/moodboard.svg",
+    "motion": "design-systems/rekki-food-service-app/motion.json",
+    "motion_presets": "design-systems/rekki-food-service-app/motion-presets.css",
     "palette": "design-systems/rekki-food-service-app/palette.md",
-    "tokens": "design-systems/rekki-food-service-app/tokens.json"
+    "tailwind_theme": "design-systems/rekki-food-service-app/tailwind.theme.json",
+    "tokens": "design-systems/rekki-food-service-app/tokens.json",
+    "variables_css": "design-systems/rekki-food-service-app/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/rekki-food-service-app/assets.md",
@@ -35,6 +39,52 @@
     "scene": "dimensions/rekki-food-service-app/scene.md",
     "type_copy": "dimensions/rekki-food-service-app/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 210x118; 90x97; 210x118; 90x97; 210x118; 90x97; 1300x448; 1192x672; 1192x672; 1192x672.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 6px; 2px; 59px; 38px 38px 0px 0px; 30px 30px 0px 0px; 14px 14px 0px 0px; 59px; 24px; 24px; 24px; 8px; 8px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 210:118; 90:97; 210:118; 90:97; 210:118; 90:97; 1300:448; 1192:672; 1192:672; 1192:672",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 6px; 2px; 59px; 38px 38px 0px 0px; 30px 30px 0px 0px; 14px 14px 0px 0px; 59px; 24px; 24px; 24px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "form hover motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "form focus motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

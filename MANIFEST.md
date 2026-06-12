@@ -1,7 +1,7 @@
 # Manifest
 
-Version: v0.2.7
-Date: 2026-06-08
+Version: v0.2.8-progressive-motion-apply-pack
+Date: 2026-06-12
 
 ## Skills
 
@@ -11,18 +11,18 @@ Date: 2026-06-08
 
 ## Library Contents
 
-- `designstyle-library/references`: 92 active Markdown references.
-- `designstyle-library/references-excluded`: 9 excluded references preserved outside active retrieval.
-- `designstyle-library/screenshots`: 92 active desktop evidence screenshots, one per active reference.
-- `designstyle-library/screenshots-excluded`: 9 excluded screenshots preserved as exclusion evidence.
-- `designstyle-library/assets`: 92 retained component-style JSON evidence files. Raw DOM snapshots are not stored in the default library.
+- `designstyle-library/references`: 95 active Markdown references.
+- `designstyle-library/references-excluded`: 10 excluded references preserved outside active retrieval.
+- `designstyle-library/screenshots`: 95 active desktop evidence screenshots, one per active reference.
+- `designstyle-library/screenshots-excluded`: 10 excluded screenshots preserved as exclusion evidence.
+- `designstyle-library/assets`: 95 retained component-style JSON evidence files. Raw DOM snapshots are not stored in the default library.
 - `designstyle-library/assets-excluded`: 12 excluded evidence captures preserved outside active retrieval, including 9 component-style JSON files and 3 blocked Arc Browser raw/challenge artifacts.
 - `designstyle-library/reviews`: candidate reviews, batch reports, capture evidence JSON, scoring reports, motion code probe JSON.
-- `designstyle-library/indexes`: manual indexes plus generated `manifest.json`, `facets.json`, and 92 L1 card JSON files.
+- `designstyle-library/indexes`: manual indexes plus generated `manifest.json`, `facets.json`, and 95 L1 card JSON files.
 - `designstyle-library/indexes/cards-excluded`: 9 excluded L1 cards.
-- `designstyle-library/dimensions`: 644 L2 dimension summaries, 7 per active reference.
+- `designstyle-library/dimensions`: 665 L2 dimension summaries, 7 per active reference.
 - `designstyle-library/dimensions-excluded`: 63 excluded L2 dimension summaries.
-- `designstyle-library/design-systems`: 92 retained design-system packs, 1 per active reference, each with `tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md`.
+- `designstyle-library/design-systems`: 95 retained design-system packs, 1 per active reference, each with `tokens.json`, `palette.md`, `moodboard.svg`, `component-styles.md`, `motion.json`, `variables.css`, `tailwind.theme.json`, and `motion-presets.css`.
 - `designstyle-library/design-systems-excluded`: 9 excluded design-system packs.
 
 ## Highlights
@@ -48,17 +48,31 @@ Date: 2026-06-08
 - Use-side retrieval: `use-designstyle` search can print design-system paths and excerpts with `--design-system`; `--matrix` shows retained design-system paths.
 - Component hygiene: common CSS values such as `9999px` pill radii are preserved, while abnormal browser-computed scientific-notation values are filtered from raw JSON, references, dimensions, and generated design-system artifacts.
 - Raw-evidence hygiene: raw DOM is captured only to external temp storage during add/refresh workflows; it is recaptured from the source URL when L0-L3 plus retained screenshots/component JSON are insufficient.
+- Structured motion: `add-designstyle` now writes `motion.json` with selector role, trigger, property, duration, delay, easing, description, source, reduced-motion status, and missing markers instead of copying old CSS walls. Reusable `items` are complete-only; incomplete parsed evidence is retained under `omitted_incomplete` with `missing_fields`.
+- Recapture sample: 14 of 16 recaptured references have reusable motion items with complete required fields and no active noise/truncation; Bauhaus and Hex remain explicit gaps.
+- Apply Pack generation: every active design-system pack now includes `variables.css`, `tailwind.theme.json`, and `motion-presets.css` derived from the evidence/apply token layer.
+- Style DNA: L1 cards include measurable DNA decisions for retrieval and comparison; unresolved values remain explicit rather than inferred.
+- Use-side comparison: `compare_against_reference.py` writes an Apply Pack section, screenshot evidence paths, DNA checklist, and iteration log for generated-vs-reference review.
+- Quality baseline restored: the 2026-06-12 final quality score average is 91.6/100, above the historical 91.3 target, after real low-score recapture, L3 backfill, and generated-layer backfill.
+- Search regression: `run_search_regression.py` covers 15 structured queries, including motion-term cross-scene pollution cases; current result is 15/15 top3 hits and wrong top1 = 0.
+- Blind E2E evidence: `run_blind_e2e.py` covers dashboard, luxury landing, and docs-site scenes; each case writes a direction plan, copied Apply Pack, generated fixture screenshots for immediate-load/post-animation/hover/mobile/reduced-motion, comparison report, aesthetic probe score, DNA checklist, and iteration log.
 
 ## Verification
 
-Validated locally before release:
+Validated locally for this v0.2.8 snapshot:
 
-- `python3 -m unittest test_progressive_library.py`: 12 tests passed.
-- `build_progressive_reference.py --library designstyle-library --all`: 92 cards and 644 dimensions written.
-- `validate_progressive_library.py --library designstyle-library --json`: 92 cards, 0 invalid, 0 errors.
-- `clean_reference_noise.py --library designstyle-library --check`: no abnormal scientific-notation `px` values remain in active reference text artifacts.
-- `search_references.py "skincare product detail clinical formula product grid" --library designstyle-library --matrix --explain-selection`: search output includes selected reasons, rejected reasons, category/page fit, coverage hints, dimension paths, and design-system paths.
-- `validate_references.py --library designstyle-library --json`: 92 invalid under the new stricter L3 reference validator because historical references do not yet contain the new `Reference Text And Copy Grammar` and `Style Tokens And Surface Grammar` sections. The L1/L2/design-system derived layers are valid; L3 backfill remains a known follow-up.
+- `python3 -m unittest skills.add-designstyle.tests.test_progressive_library -q`: 40 tests passed.
+- `python3 -m py_compile skills/add-designstyle/scripts/*.py skills/use-designstyle/scripts/*.py`: passed.
+- `backfill_progressive_library.py --library designstyle-library`: 95 planned, status ok, partial 0.
+- `validate_progressive_library.py --library designstyle-library --json`: valid true, 95 cards, 0 invalid, 0 errors.
+- `clean_reference_noise.py --library designstyle-library --check`: passed with no active truncated CSS, autofill/consent/cookie/captcha noise, or abnormal scientific-notation `px` values.
+- `score_reference_quality.py --library designstyle-library --json-output designstyle-library/reviews/2026-06-12-final2-design-system-quality-scores.json --markdown-output designstyle-library/reviews/2026-06-12-final2-design-system-quality-scores.md`: 95 references, average 91.6, median 92, range 67-100, blocked/security 0, scientific-notation px 0.
+- Recaptured motion sample audit: 16 sampled references, 14 with reusable complete motion items, 0 active noise/truncation in reusable items; Bauhaus and Hex preserve incomplete/missing motion evidence without fabricated values.
+- Blank Vite/Tailwind Apply Pack smoke at `/tmp/designstyle-vite-tailwind-smoke.toJQNv`: imported Plausible's generated `variables.css` and `motion-presets.css`, loaded generated `tailwind.theme.json` from `tailwind.config.cjs`, and `npm run build` passed with `tailwind-theme-ok 12` plus Vite production assets.
+- `search_references.py "dashboard analytics table components hover transition" --library designstyle-library --need "motion:L2,palette:dark,scene:dashboard" --matrix --explain-selection`: dashboard references ranked first and output borrowable/not-borrowable dimensions.
+- `run_search_regression.py --library designstyle-library --json-output designstyle-library/reviews/2026-06-12-final2-search-regression.json`: 15 queries, top3 rate 1.0, wrong top1 0, passed true.
+- `run_blind_e2e.py --library designstyle-library --output-dir designstyle-library/reviews/2026-06-12-final2-blind-e2e`: 3 cases passed; dashboard selected Plausible (probe 84), luxury selected Bentley (probe 78), docs selected Vercel (probe 84), each with DNA pass rate 1.0, motion traceability true, and five required QA screenshots.
+- `compare_against_reference.py --library designstyle-library --card designstyle-library/indexes/cards/plausible-analytics-live-dashboard.json --generated designstyle-library/screenshots/plausible-analytics-live-dashboard-desktop.png --state first-viewport --output /tmp/designstyle-compare-smoke.md`: generated comparison report with screenshot evidence, Apply Pack paths, DNA checklist, and iteration log.
+- `validate_references.py --library designstyle-library --json`: 95 total L3 references, 95 valid, 0 invalid under the stricter L3 validator.
 - Blocked-page scan: Cloudflare/security challenge-page signatures are absent from active references, retained component JSON, active design-system artifacts, and active dimensions.
-- Raw/reference/design-system noise scan: abnormal scientific-notation `px` values are not present in active retained artifacts.
-- `designstyle-library/reviews/2026-06-04-per-reference-design-system-quality-scores.md`: historical per-reference design-system quality report for the pre-luxury baseline; a fresh 92-reference score report has not been regenerated.
+- Raw/reference/design-system noise scan: truncated CSS walls, autofill/consent/cookie/captcha style noise, and abnormal scientific-notation `px` values are not present in active retained artifacts.

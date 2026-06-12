@@ -1,0 +1,932 @@
+{
+  "checked_urls": [
+    "https://uncut.wtf/assets/css/main.css?v=1777584497",
+    "https://static.cloudflareinsights.com/beacon.min.js",
+    "https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js"
+  ],
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleY(1) -> scaleY(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发",
+      "duration_ms": 2500,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "scaleY(1)",
+      "id": "motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleY(1)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scaleY(0.95)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "transform": "scaleY(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".breathe",
+      "selector_role": "component",
+      "snippet": ".breathe { animation: breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "scaleY(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，1000ms missing，load 触发",
+      "duration_ms": 1000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-animation-1000-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "visibility": "hidden"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".blinker",
+      "selector_role": "component",
+      "snippet": ".blinker { animation: blinker 1s step-start infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn",
+      "selector_role": "button",
+      "snippet": ".btn { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn--header",
+      "selector_role": "button",
+      "snippet": ".btn--header { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".category__count",
+      "selector_role": "component",
+      "snippet": ".category__count { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：transform missing -> scale(1) rotate(-15deg)，300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "from": "missing",
+      "id": "motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".newcat::before",
+      "selector_role": "component",
+      "snippet": ".newcat::before { transition: transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "scale(1) rotate(-15deg)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation missing -> scale(1) rotate(-15deg)，1000ms missing，load 触发",
+      "duration_ms": 1000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-animation-1000-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "visibility": "hidden"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".newcat::before",
+      "selector_role": "component",
+      "snippet": ".newcat::before { animation: blinker 1s step-start infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "scale(1) rotate(-15deg)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".countcount",
+      "selector_role": "component",
+      "snippet": ".countcount { transition: transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".togglethinghy",
+      "selector_role": "component",
+      "snippet": ".togglethinghy { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-300-ease",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".togglethinghy::before",
+      "selector_role": "component",
+      "snippet": ".togglethinghy::before { transition: transform .3s ease; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".toggle_label",
+      "selector_role": "component",
+      "snippet": ".toggle_label { transition: color .3s ease; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 400,
+      "description": "组件load：animation rotate(0deg) translateX(100%) -> rotate(0deg) translateX(-100%)，6000ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发",
+      "duration_ms": 6000,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "rotate(0deg) translateX(100%)",
+      "id": "motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg) translateX(100%)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "rotate(10deg) translateX(0%)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "transform": "rotate(0deg) translateX(-100%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".search-results:empty::after",
+      "selector_role": "component",
+      "snippet": ".search-results:empty::after { animation: swingAcross 6s .4s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite backwards; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "rotate(0deg) translateX(-100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scale(0) translateY(0.5rem) rotate(-45deg) skew(15deg, 15deg) -> 0，2750ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发",
+      "duration_ms": 2750,
+      "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "from": "scale(0) translateY(0.5rem) rotate(-45deg) skew(15deg, 15deg)",
+      "id": "motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(0) translateY(0.5rem) rotate(-45deg) skew(15deg, 15deg)"
+          }
+        },
+        {
+          "step": "40%",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(1) rotate(0deg)"
+          }
+        },
+        {
+          "step": "65%",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(1.2) rotate(-3deg) translateY(-0.5rem)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".font-page__authors::before",
+      "selector_role": "component",
+      "snippet": ".font-page__authors::before { animation: popAndFade 2.75s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite backwards; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scale(0) translateY(1rem) rotate(45deg) skew(15deg, 15deg) -> 0，2750ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发",
+      "duration_ms": 2750,
+      "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "from": "scale(0) translateY(1rem) rotate(45deg) skew(15deg, 15deg)",
+      "id": "motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(0) translateY(1rem) rotate(45deg) skew(15deg, 15deg)"
+          }
+        },
+        {
+          "step": "40%",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(1) rotate(0deg)"
+          }
+        },
+        {
+          "step": "65%",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(1.2) rotate(2deg) translateY(-0.75rem)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "opacity": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".font-page__authors::after",
+      "selector_role": "component",
+      "snippet": ".font-page__authors::after { animation: popAndFadeAlternate 2.75s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite backwards; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，6000ms missing，load 触发",
+      "duration_ms": 6000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-animation-6000-missing",
+      "keyframes": [
+        {
+          "step": "20%,76%",
+          "values": {
+            "display": "block"
+          }
+        },
+        {
+          "step": "22%,78%,82%",
+          "values": {
+            "display": "none"
+          }
+        },
+        {
+          "step": "24%,80%,84%",
+          "values": {
+            "display": "block"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".font-license__dummy-eyes",
+      "selector_role": "component",
+      "snippet": ".font-license__dummy-eyes { animation: rapidBlink 6s step-start infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translate(0, 0) -> translate(-1%, -2%)，7000ms cubic-bezier(1, 0, 0, 1)，load 触发",
+      "duration_ms": 7000,
+      "easing": "cubic-bezier(1, 0, 0, 1)",
+      "from": "translate(0, 0)",
+      "id": "motion-component-load-animation-7000-cubic-bezier-1-0-0-1",
+      "keyframes": [
+        {
+          "step": "0%,100%",
+          "values": {
+            "transform": "translate(0, 0)"
+          }
+        },
+        {
+          "step": "20%",
+          "values": {
+            "transform": "translate(-2%, 0.5%)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "translate(0.5%, -1%)"
+          }
+        },
+        {
+          "step": "70%",
+          "values": {
+            "transform": "translate(3%, 2%)"
+          }
+        },
+        {
+          "step": "90%",
+          "values": {
+            "transform": "translate(-1%, -2%)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".font-license__dummy-eye",
+      "selector_role": "component",
+      "snippet": ".font-license__dummy-eye { animation: jitter 7s cubic-bezier(1, 0, 0, 1) infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "translate(-1%, -2%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 1000,
+      "description": "组件load：animation，5000ms missing，load 触发",
+      "duration_ms": 5000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-animation-5000-missing",
+      "keyframes": [],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".font-license__dummy-eye:first-child",
+      "selector_role": "component",
+      "snippet": ".font-license__dummy-eye:first-child { animation: missing 5s missing 1s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 300,
+      "description": "组件load：box-shadow，300ms cubic-bezier(0.215, 0.61, 0.355, 1)，load 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "from": "missing",
+      "id": "motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont",
+      "selector_role": "component",
+      "snippet": ".door-cont { transition: box-shadow .3s cubic-bezier(0.215, 0.61, 0.355, 1) .3s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 200,
+      "description": "组件load：animation 0 -> 1，150ms linear，load 触发",
+      "duration_ms": 150,
+      "easing": "linear",
+      "from": "0",
+      "id": "motion-component-load-animation-150-linear",
+      "keyframes": [
+        {
+          "step": "from",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont",
+      "selector_role": "component",
+      "snippet": ".door-cont { animation: fadedoor .15s .2s linear backwards; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：box-shadow，300ms cubic-bezier(0.215, 0.61, 0.355, 1)，hover 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+      "from": "missing",
+      "id": "motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont:hover",
+      "selector_role": "component",
+      "snippet": ".door-cont:hover { transition: box-shadow .3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 100,
+      "description": "组件state-change：transform missing -> perspective(20rem) rotateY(0deg)，300ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont__door",
+      "selector_role": "component",
+      "snippet": ".door-cont__door { transition: transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955) .1s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "perspective(20rem) rotateY(0deg)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 100,
+      "description": "组件state-change：box-shadow missing -> perspective(20rem) rotateY(0deg)，300ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont__door",
+      "selector_role": "component",
+      "snippet": ".door-cont__door { transition: box-shadow .3s cubic-bezier(0.25, 0.46, 0.45, 0.94) .1s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "perspective(20rem) rotateY(0deg)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：transform missing -> perspective(20rem) rotateY(-50deg)，300ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，hover 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "missing",
+      "id": "motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont:hover .door-cont__door",
+      "selector_role": "component",
+      "snippet": ".door-cont:hover .door-cont__door { transition: transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "perspective(20rem) rotateY(-50deg)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 100,
+      "description": "组件hover：box-shadow missing -> perspective(20rem) rotateY(-50deg)，300ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，hover 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "from": "missing",
+      "id": "motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont:hover .door-cont__door",
+      "selector_role": "component",
+      "snippet": ".door-cont:hover .door-cont__door { transition: box-shadow .3s cubic-bezier(0.25, 0.46, 0.45, 0.94) .1s; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "perspective(20rem) rotateY(-50deg)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateX(-200%) scaleX(2.5)，300ms cubic-bezier(0.6, 0.04, 0.98, 0.335)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.6, 0.04, 0.98, 0.335)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont__dude",
+      "selector_role": "component",
+      "snippet": ".door-cont__dude { transition: transform .3s cubic-bezier(0.6, 0.04, 0.98, 0.335); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "translateX(-200%) scaleX(2.5)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleY(1) scaleX(1) -> scaleY(1) scaleX(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发",
+      "duration_ms": 2500,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "scaleY(1) scaleX(1)",
+      "id": "motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleY(1) scaleX(1)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scaleY(0.97) scaleX(1.05)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "transform": "scaleY(1) scaleX(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont__dude img",
+      "selector_role": "component",
+      "snippet": ".door-cont__dude img { animation: pulsate 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "scaleY(1) scaleX(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 150,
+      "description": "组件hover：transform missing -> translate(0%) scaleX(1)，400ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发",
+      "duration_ms": 400,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont:hover .door-cont__dude",
+      "selector_role": "component",
+      "snippet": ".door-cont:hover .door-cont__dude { transition: transform .4s .15s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "translate(0%) scaleX(1)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 100,
+      "description": "组件state-change：opacity，300ms linear，state-change 触发",
+      "duration_ms": 300,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-linear",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dooroverlay",
+      "selector_role": "component",
+      "snippet": ".dooroverlay { transition: opacity .3s .1s linear; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：all，missingms missing，hover 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-hover-all-missing-missing",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".door-cont:hover .dooroverlay",
+      "selector_role": "component",
+      "snippet": ".door-cont:hover .dooroverlay { transition-property: all; transition-duration: missing; transition-timing-function: missing; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleY(1) -> scaleY(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发",
+      "duration_ms": 2500,
+      "easing": "cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "from": "scaleY(1)",
+      "id": "motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleY(1)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scaleY(0.95)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "transform": "scaleY(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__avatar-image img",
+      "selector_role": "component",
+      "snippet": ".chatbot__avatar-image img { animation: breathe 2.5s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "scaleY(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，1000ms missing，load 触发",
+      "duration_ms": 1000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-load-animation-1000-missing",
+      "keyframes": [
+        {
+          "step": "50%",
+          "values": {
+            "visibility": "hidden"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__status-indicator::after",
+      "selector_role": "component",
+      "snippet": ".chatbot__status-indicator::after { animation: blinker 1s step-start infinite; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translateY(1rem)，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__message",
+      "selector_role": "component",
+      "snippet": ".chatbot__message { transition: opacity .3s ease; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "translateY(1rem)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateY(1rem)，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-300-ease",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__message",
+      "selector_role": "component",
+      "snippet": ".chatbot__message { transition: transform .3s ease; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "translateY(1rem)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-300-ease",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__feedback-button",
+      "selector_role": "button",
+      "snippet": ".chatbot__feedback-button { transition: background-color .3s ease; }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：transform，300ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".chatbot__feedback-button-icon",
+      "selector_role": "button",
+      "snippet": ".chatbot__feedback-button-icon { transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn-qa",
+      "selector_role": "button",
+      "snippet": ".btn-qa { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn-done",
+      "selector_role": "button",
+      "snippet": ".btn-done { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }",
+      "source": "https://uncut.wtf/assets/css/main.css?v=1777584497",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgba(158, 158, 158, 0.973)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发；样本 Search",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgba(158, 158, 158, 0.973)\", \"border\": \"1px solid rgba(0, 0, 0, 0)\", \"borderBottom\": \"1px solid rgba(0, 0, 0, 0)\", \"borderLeft\": \"1px solid rgba(0, 0, 0, 0)\", \"borderRight\": \"1px solid rgba(0, 0, 0, 0)\", \"borderTop\": \"1px solid rgba(0, 0, 0, 0)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(158, 158, 158, 0.973)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgba(158, 158, 158, 0.984)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，focus 触发；样本 Search",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgba(158, 158, 158, 0.984)\", \"border\": \"1px solid rgba(0, 0, 0, 0)\", \"borderBottom\": \"1px solid rgba(0, 0, 0, 0)\", \"borderLeft\": \"1px solid rgba(0, 0, 0, 0)\", \"borderRight\": \"1px solid rgba(0, 0, 0, 0)\", \"borderTop\": \"1px solid rgba(0, 0, 0, 0)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(158, 158, 158, 0.984)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：backgroundColor missing -> rgb(158, 158, 158)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发；样本 How can I help?",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(158, 158, 158)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(158, 158, 158)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：backgroundColor missing -> rgb(158, 158, 158)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，focus 触发；样本 How can I help?",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "from": "missing",
+      "id": "motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1",
+      "keyframes": [],
+      "property": "backgroundColor",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"backgroundColor\": \"rgb(158, 158, 158)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(158, 158, 158)",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "uncut-typography-resource",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": [
+    "https://uncut.wtf/assets/css/main.css?v=1777584497"
+  ]
+}

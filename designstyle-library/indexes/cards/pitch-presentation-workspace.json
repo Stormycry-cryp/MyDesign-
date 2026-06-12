@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/pitch-presentation-workspace/component-styles.md",
     "moodboard": "design-systems/pitch-presentation-workspace/moodboard.svg",
+    "motion": "design-systems/pitch-presentation-workspace/motion.json",
+    "motion_presets": "design-systems/pitch-presentation-workspace/motion-presets.css",
     "palette": "design-systems/pitch-presentation-workspace/palette.md",
-    "tokens": "design-systems/pitch-presentation-workspace/tokens.json"
+    "tailwind_theme": "design-systems/pitch-presentation-workspace/tailwind.theme.json",
+    "tokens": "design-systems/pitch-presentation-workspace/tokens.json",
+    "variables_css": "design-systems/pitch-presentation-workspace/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/pitch-presentation-workspace/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/pitch-presentation-workspace/scene.md",
     "type_copy": "dimensions/pitch-presentation-workspace/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1700x884; 1897x1920; 1920x1080; 1200x675; 1920x1080; 1920x1080; 1200x675; 1200x675; 1920x1080; 1200x675.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1700:884; 1897:1920; 1920:1080; 1200:675; 1920:1080; 1920:1080; 1200:675; 1200:675; 1920:1080; 1200:675",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

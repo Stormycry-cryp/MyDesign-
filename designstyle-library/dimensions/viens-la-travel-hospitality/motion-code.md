@@ -1,42 +1,44 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: den=false]::after{clip-path:inset(0 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.body_1 [data-surrounded],.surrounded_smaller [data-surrounded]{margin:0 .7rem}.b, data-surrounded="#5f45f2"][aria-hidden=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"]{color:rgba(var(--purple),1)}[data-surrounded="#ffe375"]::before{background:rgba(var, sition:absolute;bottom:-5px;height:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link::after{width:0}.t-link:hover::after{width:100%}body{cursor:url(../../../../.
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: (2),f=t(14);(function(){var u,d;typeof window!="undefined"&&(u=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(v){window.setTimeo, of window!="undefined"&&(u=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(v){window.setTimeout(function(){v(r.now())},1e3/60)},d
-  - Timing/easing: 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.body_1 [data-surrounded],.surrounded_smaller [data-surrounded]{margin:0 .7rem}., n=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"]{color:rgba(var(--purple),1)}[data-surrounded="#ffe375"]::before{background:rgba(va, ght:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link::after{width:0}.t-link:hover::after{width:100%}body{cursor:url(../../../../, lux_large:129rem;--timing:0.5s;--timing_short:0.2s;--timing_long:2s;--ease:.25,0,.25,1;--ease_alt:.25,0,.25,1;--ease_in:.75,0,.75,1;--ease_in_alt:.53,.03,1,.56;--ease_out:.17,.67,.43,1.01;--ease_out_alt:., e_in_out:.61,0,.25,.99;--focus:4px solid rgba(var(--text));--gradient:linear-gradient(180deg, rgba(var(--wheat), 0) 50%, rgba(var(--wheat), 1) 100%);--laptop:1440px;--tablet:768px;--phone:464px;--phone_smal
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: den=false]::after{clip-path:inset(0 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.; data-surrounded="#5f45f2"][aria-hidden=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"; sition:absolute;bottom:-5px;height:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link:; var(--font_slant),"wdth" var(--font_width),"wght" var(--font_weight);transition:box-shadow var(--timing) cubic-bezier(var(--ease));will-change:box-shadow}.button[full]{width:100%}.; ]{width:100%}.button[active=true]{background:transparent}.button-text{transition:none var(--timing) cubic-bezier(var(--ease));transition-property:transform,opacity,visibility;will-; lex;flex-wrap:wrap;column-gap:1rem;align-items:center}.icon_text-icon{animation:hint 2s infinite}.icon_text-text{margin-top:.3em}@keyframes hint{0%{transform:translateY(-.3rem)}50%; height:60%;border-radius:99px;background:#fff;transform-origin:bottom;animation:none}.sound_button-slash{position:absolute;width:26px;height:3px;border-radius:99px;background:#fff;; -events:none}.sound_button[aria-pressed=true] .sound_button-bars span{animation:eq 900ms ease-in-out infinite}.sound_button[aria-pressed=true] .sound_button-bars span:nth-child(2){
-  - Public CSS/JS probe keywords: animation, easing, gsap, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: den=false]::after{clip-path:inset(0 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.; data-surrounded="#5f45f2"][aria-hidden=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"; sition:absolute;bottom:-5px;height:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link:; var(--font_slant),"wdth" var(--font_width),"wght" var(--font_weight);transition:box-shadow var(--timing) cubic-bezier(var(--ease));will-change:box-shadow}.button[full]{width:100%}.; ]{width:100%}.button[active=true]{background:transparent}.button-text{transition:none var(--timing) cubic-bezier(var(--ease));transition-property:transform,opacity,visibility;will-; lex;flex-wrap:wrap;column-gap:1rem;align-items:center}.icon_text-icon{animation:hint 2s infinite}.icon_text-text{margin-top:.3em}@keyframes hint{0%{transform:translateY(-.3rem)}50%; height:60%;border-radius:99px;background:#fff;transform-origin:bottom;animation:none}.sound_button-slash{position:absolute;width:26px;height:3px;border-radius:99px;background:#fff;; -events:none}.sound_button[aria-pressed=true] .sound_button-bars span{animation:eq 900ms ease-in-out infinite}.sound_button[aria-pressed=true] .sound_button-bars span:nth-child(2){; .sound_button[aria-pressed=true] .sound_button-bars span:nth-child(2){animation-delay:120ms}.sound_button[aria-pressed=true] .sound_button-bars span:nth-child(3){animation-delay:24; .sound_button[aria-pressed=true] .sound_button-bars span:nth-child(3){animation-delay:240ms}.sound_button[aria-pressed=false] .sound_button-slash{opacity:0}.sound_button[aria-press
-  - Exact motion parameters: den=false]::after{clip-path:inset(0 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.; data-surrounded="#5f45f2"][aria-hidden=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"; sition:absolute;bottom:-5px;height:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link:; lex;flex-wrap:wrap;column-gap:1rem;align-items:center}.icon_text-icon{animation:hint 2s infinite}.icon_text-text{margin-top:.3em}@keyframes hint{0%{transform:translateY(-.3rem)}50%; height:60%;border-radius:99px;background:#fff;transform-origin:bottom;animation:none}.sound_button-slash{position:absolute;width:26px;height:3px;border-radius:99px;background:#fff;; -events:none}.sound_button[aria-pressed=true] .sound_button-bars span{animation:eq 900ms ease-in-out infinite}.sound_button[aria-pressed=true] .sound_button-bars span:nth-child(2){; 0% 0 0 round var(--radius_small));transition:clip-path var(--timing) cubic-bezier(var(--ease));will-change:clip-path}.body_2 [data-surrounded],.body_1 [data-surrounded],.surrounded; n=false]{color:rgb(var(--white));transition:color var(--timing_short) cubic-bezier(var(--ease_in));will-change:color}[data-surrounded="#ffe375"]{color:rgba(var(--purple),1)}[data-s; ght:2px;background:currentColor;left:0;transition:width var(--timing) cubic-bezier(var(--ease));will-change:width}.t-link::before{opacity:.5}.t-link::after{width:0}.t-link:hover::a; ;z-index:-1;right:-.3em;bottom:.3rem;background:rgba(var(--purple),1);transform:rotate(-1deg);clip-path:inset(0 100% 0 0 round var(--radius_small))}[data-surrounded]::after{mix-ble
-  - JavaScript/runtime motion evidence: (2),f=t(14);(function(){var u,d;typeof window!="undefined"&&(u=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAn; of window!="undefined"&&(u=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(v){window.set; .requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(v){window.setTimeout(function(){v(r.now())},1e; ebkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAnimationFrame||function(v){window.setTimeout(function(){v(r.now())},1e3/60)},d=window.cancelAnimationF; ),o=t(0);(function(){var a,l;if(typeof window!="undefined"&&(a=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.msRequestAn; {return console.warn("Invalid property",e,"set to",t,"Missing plugin? gsap.registerPlugin()")},"_missingPlugin"),wu=h(function(e,t){return!t&&console.warn(e)},"_warn"),Qg=h(functio; s<0&&Lu(e,e._tTime),e},"_addToTimeline"),o0=h(function(e,t){return(_i.ScrollTrigger||Cu("scrollTrigger",t))&&_i.ScrollTrigger.create(t,e)},"_scrollTrigger"),a0=h(function(e,t,n,i,r; ,e},"_addToTimeline"),o0=h(function(e,t){return(_i.ScrollTrigger||Cu("scrollTrigger",t))&&_i.ScrollTrigger.create(t,e)},"_scrollTrigger"),a0=h(function(e,t,n,i,r){if(Zd(e,t,r),!e._
-  - Stylesheet evidence: https://viens-la.com/wp-content/cache/min/1/wp-content/themes/front/build/app.min.css?ver=1775239358; https://viens-la.com/wp-content/cache/min/1/vaj7kux.css?ver=1775239358; https://www.googletagmanager.com/gtag/js?id=G-3T742KK9NJ&cx=c&gtm=4e6621; https://viens-la.com/wp-content/cache/min/1/wp-content/plugins/weglot/dist/front-js.js?ver=1775239358; https://viens-la.com/wp-content/themes/front/build/app.min.js?ver=1.0.17; https://www.googletagmanager.com/gtag/js?id=GTM-5QTZJ726
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, request_animation_frame
-  - Public stylesheet/script URLs: https://viens-la.com/wp-content/cache/min/1/wp-content/themes/front/build/app.min.css?ver=1775239358; https://viens-la.com/wp-content/cache/min/1/vaj7kux.css?ver=1775239358; https://www.googletagmanager.com/gtag/js?id=G-3T742KK9NJ&cx=c&gtm=4e6621; https://viens-la.com/wp-content/cache/min/1/wp-content/plugins/weglot/dist/front-js.js?ver=1775239358; https://viens-la.com/wp-content/themes/front/build/app.min.js?ver=1.0.17; https://www.googletagmanager.com/gtag/js?id=GTM-5QTZJ726
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-viens-la-travel-hospitality-component-styles.json`
-  - Asset CDN and media loading patterns: https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/shapes/circle.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/guide.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg; https://viens-la.com/wp-content/themes/front/assets/svgs/icons/arrow-right.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 4; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | hover | backgroundColor | 500ms | 0ms | cubic-bezier(0.25, 0, 0.25, 1) | 按钮hover：backgroundColor rgb(255, 227, 117) -> rgba(0, 0, 0, 0)，500ms cubic-bezier(0.25, 0, 0.25, 1)，hover 触发；样本 DÉCOUVRIR LA VIDÉO DES 15 ANS |
+| button | focus | backgroundColor | 500ms | 0ms | cubic-bezier(0.25, 0, 0.25, 1) | 按钮focus：backgroundColor rgb(255, 227, 117) -> rgba(0, 0, 0, 0)，500ms cubic-bezier(0.25, 0, 0.25, 1)，focus 触发；样本 DÉCOUVRIR LA VIDÉO DES 15 ANS |
+| button | hover | opacity | 500ms | 0ms | cubic-bezier(0.25, 0, 0.25, 1) | 按钮hover：opacity 1 -> 0.124922，500ms cubic-bezier(0.25, 0, 0.25, 1)，hover 触发；样本 DÉCOUVRIR LA VIDÉO DES 15 ANS |
+| button | focus | opacity | 500ms | 0ms | cubic-bezier(0.25, 0, 0.25, 1) | 按钮focus：opacity 1 -> 0.10201，500ms cubic-bezier(0.25, 0, 0.25, 1)，focus 触发；样本 DÉCOUVRIR LA VIDÉO DES 15 ANS |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0)", "transition": "box-shadow 0.5s cubic-bezier(0.25, 0, 0.25, 1)"}
+```
+
+### motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0)", "transition": "box-shadow 0.5s cubic-bezier(0.25, 0, 0.25, 1)"}
+```
+
+### motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1
+
+```css
+{"opacity": "0.124922", "transition": "opacity 0.5s cubic-bezier(0.25, 0, 0.25, 1)"}
+```
+
+### motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1
+
+```css
+{"opacity": "0.10201", "transition": "opacity 0.5s cubic-bezier(0.25, 0, 0.25, 1)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

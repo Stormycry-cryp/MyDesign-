@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/visual-cinnamon-data-art/component-styles.md",
     "moodboard": "design-systems/visual-cinnamon-data-art/moodboard.svg",
+    "motion": "design-systems/visual-cinnamon-data-art/motion.json",
+    "motion_presets": "design-systems/visual-cinnamon-data-art/motion-presets.css",
     "palette": "design-systems/visual-cinnamon-data-art/palette.md",
-    "tokens": "design-systems/visual-cinnamon-data-art/tokens.json"
+    "tailwind_theme": "design-systems/visual-cinnamon-data-art/tailwind.theme.json",
+    "tokens": "design-systems/visual-cinnamon-data-art/tokens.json",
+    "variables_css": "design-systems/visual-cinnamon-data-art/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/visual-cinnamon-data-art/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/visual-cinnamon-data-art/scene.md",
     "type_copy": "dimensions/visual-cinnamon-data-art/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5442}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 207x150; 512x512; 1200x800; 1200x800; 1200x800; 1200x800; 1200x800; 1200x800; 1080x720; 1200x800.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5442}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 207:150; 512:512; 1200:800; 1200:800; 1200:800; 1200:800; 1200:800; 1200:800; 1080:720; 1200:800",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "navigation hover motion uses 200ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 200ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json",
+  "component_json_path": "assets/2026-06-12-teenage-engineering-hardware-brand-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/teenage-engineering-hardware-brand/component-styles.md",
     "moodboard": "design-systems/teenage-engineering-hardware-brand/moodboard.svg",
+    "motion": "design-systems/teenage-engineering-hardware-brand/motion.json",
+    "motion_presets": "design-systems/teenage-engineering-hardware-brand/motion-presets.css",
     "palette": "design-systems/teenage-engineering-hardware-brand/palette.md",
-    "tokens": "design-systems/teenage-engineering-hardware-brand/tokens.json"
+    "tailwind_theme": "design-systems/teenage-engineering-hardware-brand/tailwind.theme.json",
+    "tokens": "design-systems/teenage-engineering-hardware-brand/tokens.json",
+    "variables_css": "design-systems/teenage-engineering-hardware-brand/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/teenage-engineering-hardware-brand/assets.md",
@@ -35,6 +39,44 @@
     "scene": "dimensions/teenage-engineering-hardware-brand/scene.md",
     "type_copy": "dimensions/teenage-engineering-hardware-brand/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1411x1764; 469x469; 938x938; 1411x1764; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11515}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1411:1764; 469:469; 938:938; 1411:1764; 1440:1800; 1:1",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "component load motion uses 250ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms ease-in",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

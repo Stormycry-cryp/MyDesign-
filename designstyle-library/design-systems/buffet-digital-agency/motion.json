@@ -1,0 +1,34 @@
+{
+  "items": [],
+  "missing": [
+    "motion-buffet-digital-agency-fallback lacks selector"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "Motion evidence was summarized from the L3 reference because structured motion JSON was missing.",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-buffet-digital-agency-fallback",
+      "keyframes": [],
+      "missing_fields": [
+        "selector"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "missing",
+      "selector_role": "component",
+      "snippet": "",
+      "source": "L3 Motion Code And Runtime Evidence",
+      "to": "translate(-50%,-50%)",
+      "trigger": "hover"
+    }
+  ],
+  "reference_path": "references/2026-06-03-buffet-digital-agency.md",
+  "slug": "buffet-digital-agency",
+  "source_motion_path": "assets/2026-06-12-buffet-digital-agency-motion.json",
+  "source_urls": [],
+  "title": "Buffet Digital Agency"
+}

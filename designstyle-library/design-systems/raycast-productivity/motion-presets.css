@@ -1,0 +1,235 @@
+.ds-motion-motion-component-load-animation-2000-ease-in-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-2000-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-2000-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-2000-ease-in-out-easing);
+  transform: translateX(-100%);
+}
+
+.ds-motion-motion-button-state-change-box-shadow-200-ease-in-out {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-button-state-change-box-shadow-200-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-box-shadow-200-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-box-shadow-200-ease-in-out-easing);
+}
+
+.ds-motion-motion-button-state-change-transform-100-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-button-state-change-transform-100-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-transform-100-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-transform-100-ease-in-out-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1-easing);
+  transform: translate(-50%,calc(-50% - 50px));
+}
+
+.ds-motion-motion-component-state-change-width-300-ease {
+  transition-property: width;
+  transition-duration: var(--ds-motion-motion-component-state-change-width-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-width-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-width-300-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-400-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-400-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-400-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-400-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-all-300-ease {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-component-state-change-all-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-all-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-all-300-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-color-300-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-state-change-color-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-color-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-color-300-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-200-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-200-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-150-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-150-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-150-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-150-ease-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-150-ease {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-150-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-150-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-150-ease-easing);
+}
+
+.ds-motion-motion-component-load-animation-300-ease {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-300-ease-easing);
+  transform: scale(1);
+}
+
+.ds-motion-motion-component-load-animation-1500-cubic-bezier-455-03-515-955 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-1500-cubic-bezier-455-03-515-955-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-1500-cubic-bezier-455-03-515-955-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-1500-cubic-bezier-455-03-515-955-easing);
+  transform: 1;
+}
+
+.ds-motion-motion-component-state-change-box-shadow-200-ease-in-out {
+  transition-property: box-shadow;
+  transition-duration: var(--ds-motion-motion-component-state-change-box-shadow-200-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-box-shadow-200-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-box-shadow-200-ease-in-out-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96-easing);
+  transform: none;
+}
+
+.ds-motion-motion-component-state-change-transform-600-cubic-bezier-4-0-22-96 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-600-cubic-bezier-4-0-22-96-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-600-cubic-bezier-4-0-22-96-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-600-cubic-bezier-4-0-22-96-easing);
+  transform: none;
+}
+
+.ds-motion-motion-hero-state-change-all-200-ease {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-hero-state-change-all-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-hero-state-change-all-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-hero-state-change-all-200-ease-easing);
+  transform: translateZ(0);
+}
+
+.ds-motion-motion-hero-viewport-animation-3000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-hero-viewport-animation-3000-linear-duration);
+  transition-delay: var(--ds-motion-motion-hero-viewport-animation-3000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-hero-viewport-animation-3000-linear-easing);
+}
+
+.ds-motion-motion-component-state-change-text-underline-offset-100-ease-out {
+  transition-property: text-underline-offset;
+  transition-duration: var(--ds-motion-motion-component-state-change-text-underline-offset-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-text-underline-offset-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-text-underline-offset-100-ease-out-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-200-ease-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-200-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-200-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-200-ease-out-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-400-ease-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-400-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-400-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-400-ease-out-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-100-ease-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-100-ease-out-easing);
+  transform: translateZ(0);
+}
+
+.ds-motion-motion-component-load-animation-1000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-1000-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-1000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-1000-linear-easing);
+  transform: rotate(1turn);
+}
+
+.ds-motion-motion-navigation-state-change-all-200-ease-in-out {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-all-200-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-all-200-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-all-200-ease-in-out-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1-easing);
+  transform: translateY(-37px) translateZ(0);
+}
+
+.ds-motion-motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-easing);
+  transform: rgb(252, 252, 252);
+}
+
+.ds-motion-motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out-easing);
+  transform: rgb(252, 252, 252);
+}
+
+.ds-motion-motion-form-hover-style-300-ease-ease {
+  transition-property: style;
+  transition-duration: var(--ds-motion-motion-form-hover-style-300-ease-ease-duration);
+  transition-delay: var(--ds-motion-motion-form-hover-style-300-ease-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-form-hover-style-300-ease-ease-easing);
+}
+
+.ds-motion-motion-form-focus-style-300-ease-ease {
+  transition-property: style;
+  transition-duration: var(--ds-motion-motion-form-focus-style-300-ease-ease-duration);
+  transition-delay: var(--ds-motion-motion-form-focus-style-300-ease-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-form-focus-style-300-ease-ease-easing);
+}
+
+.ds-motion-motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out {
+  transition-property: style;
+  transition-duration: var(--ds-motion-motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out-easing);
+}
+
+.ds-motion-motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out {
+  transition-property: style;
+  transition-duration: var(--ds-motion-motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

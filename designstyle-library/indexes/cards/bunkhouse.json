@@ -20,8 +20,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/bunkhouse/component-styles.md",
     "moodboard": "design-systems/bunkhouse/moodboard.svg",
+    "motion": "design-systems/bunkhouse/motion.json",
+    "motion_presets": "design-systems/bunkhouse/motion-presets.css",
     "palette": "design-systems/bunkhouse/palette.md",
-    "tokens": "design-systems/bunkhouse/tokens.json"
+    "tailwind_theme": "design-systems/bunkhouse/tailwind.theme.json",
+    "tokens": "design-systems/bunkhouse/tokens.json",
+    "variables_css": "design-systems/bunkhouse/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/bunkhouse/assets.md",
@@ -32,6 +36,36 @@
     "scene": "dimensions/bunkhouse/scene.md",
     "type_copy": "dimensions/bunkhouse/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6401}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 2855x988; 800x173; 0x0; 0x0; 0x0; 0x0; 2560x1707; 497x628; 1333x2000; 1920x1605.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6401}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 2855:988; 800:173; 2560:1707; 497:628; 1333:2000; 1920:1605; 1000:1300; 1920:1080; 1143:1254; 194:71",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "button hover motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -40,15 +74,14 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "weak",
+    "motion_code": "strong",
     "screenshot": "strong",
     "type_copy": "strong"
   },
   "missing_evidence": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
-    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.",
-    "motion/code evidence is weak"
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "motion_tags": [
     "subtle-scroll",

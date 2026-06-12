@@ -1,42 +1,205 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy, acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter ., ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: =t.HTMLPictureElement,a=t.addEventListener.bind(t),u=t.setTimeout,c=t.requestAnimationFrame||u,l=t.requestIdleCallback,f=/^picture$/i,h=["load","error","lazyincluded","_lazyloaded"],d={},p=Array.prototype.forEach,v=functi, .getAttribute("data-expand")&&!u.autoplay)try{u.play()}catch(t){}else requestAnimationFrame((function(){u.setAttribute("data-expand","-10"),n.aC(u,n.cfg.lazyClass)}));(e=u.getAttribute("data-link"))&&s(e,!0),(e=u.getAttri
-  - Timing/easing: rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-, linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);backgr, r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);backg, -gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,currentColor);background-po, near-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,currentColor);background-position:0 100%;background-repeat:repeat-x;background-size:1px 1px}.db{dis
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; e;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-tr; s ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter .15s ease;-o; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func
-  - Public CSS/JS probe keywords: animation, easing, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; e;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-tr; s ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter .15s ease;-o; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func; rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,curr; linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0; r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor ; -gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,c
-  - Exact motion parameters: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func; rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,curr; linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0; r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor ; ity-prev-next-button{top:50%;width:44px;height:44px;border-radius:50%;transform:translateY(-50%)}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right; (0,0,0,.1)}::-moz-selection{background:rgba(0,0,0,.1)}.uppercase{text-transform:uppercase}.uppercase .lowercase{text-transform:lowercase}.text-center{text-align:center}.text-left{t; ,0,.1)}.uppercase{text-transform:uppercase}.uppercase .lowercase{text-transform:lowercase}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.fs
-  - JavaScript/runtime motion evidence: =t.HTMLPictureElement,a=t.addEventListener.bind(t),u=t.setTimeout,c=t.requestAnimationFrame||u,l=t.requestIdleCallback,f=/^picture$/i,h=["load","error","lazyincluded","_lazyloaded"; .getAttribute("data-expand")&&!u.autoplay)try{u.play()}catch(t){}else requestAnimationFrame((function(){u.setAttribute("data-expand","-10"),n.aC(u,n.cfg.lazyClass)}));(e=u.getAttri; s(),this.positionSlider(),this.settle(t),this.isAnimating){var e=this;requestAnimationFrame((function(){e.animate()}))}},positionSlider:function(){var t=this.x;this.options.wrapAro
-  - Stylesheet evidence: https://developments.media/assets/fonts.css?v=1618395708; https://developments.media/assets/build/index.css?v=1774634291; https://developments.media/assets/build/vendor/modernizr-bundle.js?v=1774634291; https://www.googletagmanager.com/gtag/js?id=G-CX3GZK35H4; https://developments.media/assets/build/bundle.js?v=1774634291
-  - Interpreted motion tags: transition, hover, video, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://developments.media/assets/fonts.css?v=1618395708; https://developments.media/assets/build/index.css?v=1774634291; https://developments.media/assets/build/vendor/modernizr-bundle.js?v=1774634291; https://www.googletagmanager.com/gtag/js?id=G-CX3GZK35H4; https://developments.media/assets/build/bundle.js?v=1774634291
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-developments-media-production-component-styles.json`
-  - Asset CDN and media loading patterns: data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-1024x.jpg; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 4; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | opacity | 0ms | 0ms | ease | 组件state-change：opacity，0ms ease，state-change 触发 |
+| component | state-change | opacity | 0ms | 0ms | ease | 组件state-change：opacity，0ms ease，state-change 触发 |
+| component | state-change | filter | 150ms | 0ms | ease | 组件state-change：filter，150ms ease，state-change 触发 |
+| component | state-change | opacity | 100ms | 0ms | ease | 组件state-change：opacity，100ms ease，state-change 触发 |
+| component | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 组件state-change：transform，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| component | state-change | opacity | 80ms | 0ms | ease | 组件state-change：opacity，80ms ease，state-change 触发 |
+| component | state-change | opacity | 80ms | 0ms | ease | 组件state-change：opacity，80ms ease，state-change 触发 |
+| component | state-change | opacity | 80ms | 0ms | ease | 组件state-change：opacity，80ms ease，state-change 触发 |
+| navigation | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 导航state-change：transform，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| navigation | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 导航state-change：transform missing -> rotate(-90deg) translate3d(-100%,0,0)，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| navigation | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 导航state-change：transform missing -> translate3d(-100%,0,0)，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| navigation | state-change | opacity | 150ms | 0ms | ease | 导航state-change：opacity，150ms ease，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease | 组件state-change：opacity，150ms ease，state-change 触发 |
+| overlay | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 浮层state-change：transform missing -> translate3d(100%,0,0)，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| component | state-change | transform | 450ms | 0ms | cubic-bezier(.77,0,.175,1) | 组件state-change：transform，450ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| button | hover | backgroundColor | 450ms | 0ms | cubic-bezier(0.77, 0, 0.175, 1) | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，450ms cubic-bezier(0.77, 0, 0.175, 1)，hover 触发；样本 ds-button-1 |
+| button | focus | backgroundColor | 450ms | 0ms | cubic-bezier(0.77, 0, 0.175, 1) | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，450ms cubic-bezier(0.77, 0, 0.175, 1)，focus 触发；样本 ds-button-1 |
+| button | hover | backgroundColor | 0ms | 0ms | ease | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，hover 触发；样本 REFERENCES |
+| button | focus | backgroundColor | 0ms | 0ms | ease | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，focus 触发；样本 REFERENCES |
+| button | hover | backgroundColor | 0ms | 0ms | ease | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，hover 触发；样本 DEVELOPMENT |
+| button | focus | backgroundColor | 0ms | 0ms | ease | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，focus 触发；样本 DEVELOPMENT |
+| button | hover | backgroundColor | 0ms | 0ms | ease | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，hover 触发；样本 STRATEGY |
+| button | focus | backgroundColor | 0ms | 0ms | ease | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，focus 触发；样本 STRATEGY |
+| button | hover | backgroundColor | 0ms | 0ms | ease | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，hover 触发；样本 ADVICE |
+| button | focus | backgroundColor | 0ms | 0ms | ease | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，focus 触发；样本 ADVICE |
+| button | hover | backgroundColor | 0ms | 0ms | ease | 按钮hover：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，hover 触发；样本 MANAGEMENT |
+| button | focus | backgroundColor | 0ms | 0ms | ease | 按钮focus：backgroundColor missing -> rgb(0, 0, 0)，0ms ease，focus 触发；样本 MANAGEMENT |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-developments-media-production-motion.json
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-component-state-change-opacity-0-ease
+
+```css
+.lazy { transition: opacity 0ms ease; }
+```
+
+### motion-component-state-change-opacity-0-ease
+
+```css
+.lazy.no-fade { transition: opacity 0ms ease; }
+```
+
+### motion-component-state-change-filter-150-ease
+
+```css
+.lazy-blur { transition: filter .15s ease; }
+```
+
+### motion-component-state-change-opacity-100-ease
+
+```css
+.responsive-image.with-placeholder .placeholder { transition: opacity .1s ease; }
+```
+
+### motion-component-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+#container { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-component-state-change-opacity-80-ease
+
+```css
+#excerpts--list { transition: opacity 80ms ease; }
+```
+
+### motion-component-state-change-opacity-80-ease
+
+```css
+#interview--content { transition: opacity 80ms ease; }
+```
+
+### motion-component-state-change-opacity-80-ease
+
+```css
+#interviews { transition: opacity 80ms ease; }
+```
+
+### motion-navigation-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+#menu-toggle { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-navigation-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+#menu-toggle-tooltip { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-navigation-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+#menu { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-navigation-state-change-opacity-150-ease
+
+```css
+#menu-overlay { transition: opacity .15s ease; }
+```
+
+### motion-component-state-change-opacity-150-ease
+
+```css
+[g-component=Interview] [g-ref=overlay] { transition: opacity .15s ease; }
+```
+
+### motion-overlay-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+[g-component=Interview] [g-ref=drawer] { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-component-state-change-transform-450-cubic-bezier-77-0-175-1
+
+```css
+.block--question__topics { transition: transform .45s cubic-bezier(.77,0,.175,1); }
+```
+
+### motion-button-hover-backgroundcolor-450-cubic-bezier-0-77-0-0-175-1
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-450-cubic-bezier-0-77-0-0-175-1
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-hover-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-hover-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-hover-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-hover-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-hover-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
+
+### motion-button-focus-backgroundcolor-0-ease
+
+```css
+{"backgroundColor": "rgb(0, 0, 0)", "color": "rgb(255, 255, 255)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

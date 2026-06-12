@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 18, document height 9556.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -22,7 +23,7 @@
 - button Resources [ ] | rect=123.3x72@815.7,0 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - a Sign in | rect=67.2x24@1186.6,24 | display=flex; position=static; color=rgb(39, 247, 149); border=0px solid rgb(39, 247, 149); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
 - a Sign up | rect=115.2x40@1269.8,16 | display=flex; position=static; color=rgb(10, 10, 10); backgroundColor=rgb(39, 247, 149); border=0px solid rgb(10, 10, 10); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; padding=8px 24px; transition=0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
-- a Try for free | rect=163.2x56@552.5,365 | display=flex; position=static; color=rgb(10, 10, 10); backgroundColor=rgb(39, 247, 149); border=0px solid rgb(10, 10, 10); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; padding=16px 24px; transition=0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
+- a Try for free | rect=163.2x56@552.5,374 | display=flex; position=static; color=rgb(10, 10, 10); backgroundColor=rgb(39, 247, 149); border=0px solid rgb(10, 10, 10); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; padding=16px 24px; transition=0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
 
 ### Content Samples
 - Close announcement
@@ -45,8 +46,8 @@
 - a Pricing | rect=67.2x72@630.1,0 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Docs | rect=38.4x72@737.3,0 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - span [ ] | rect=27.2x24@911.7,24 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- 4px; 4px; 4px; 4px; 4px; 4px; 8px; 8px; 4px; 4px; 4px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 4px; 4px; 4px; 4px; 4px; 8px; 8px; 4px; 4px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Read the announcement
@@ -89,8 +90,8 @@
 - svg [object SVGAnimatedString] | rect=8x8@572.5,32 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=default
 - svg [object SVGAnimatedString] | rect=8x8@921.3,32 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=default
 - img unlabeled | rect=436x729.7@0,72 | display=block; position=static; border=0px solid rgba(0, 0, 0, 0); fontFamily="Roboto Mono", "Roboto Mono Fallback", monospace; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- svg [object SVGAnimatedString] | rect=99.2x32@398.3,616.3 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=Roboto, "Roboto Fallback"; fontSize=24px; fontWeight=400; letterSpacing=-0.32px; lineHeight=32px; padding=0px 0px 1px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- img w-14 h-14 rounded-full | rect=56x56@572.9,875 | display=block; position=static; border=0px solid rgba(0, 0, 0, 0); borderRadius=filtered abnormal computed value; fontFamily=Roboto, "Roboto Fallback"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=99.2x32@398.3,625.3 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=Roboto, "Roboto Fallback"; fontSize=24px; fontWeight=400; letterSpacing=-0.32px; lineHeight=32px; padding=0px 0px 1px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- img w-14 h-14 rounded-full | rect=56x56@572.9,884 | display=block; position=static; border=0px solid rgba(0, 0, 0, 0); borderRadius=filtered abnormal computed value; fontFamily=Roboto, "Roboto Fallback"; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 
 ### Content Samples
 - None recorded.

@@ -1,0 +1,32 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-accent: #ffb010;
+  --ds-color-accent-2: #ffa030;
+  --ds-color-accent-3: #e090ff;
+  --ds-color-neutral-surface: #e0f0f0;
+  --ds-color-accent-4: #ffd040;
+  --ds-color-accent-5: #4030d0;
+  --ds-color-accent-6: #ff8000;
+  --ds-color-accent-7: #ff90c0;
+  --ds-color-accent-8: #ffa0a0;
+  --ds-color-foreground: #000000;
+  --ds-color-accent-9: #533afd;
+  --ds-spacing-component: 10px 16px;
+  --ds-radius-component: 6px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-duration: 240ms;
+  --ds-motion-motion-navigation-hover-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-delay: 0ms;
+  --ds-motion-motion-navigation-hover-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-easing: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  --ds-motion-motion-navigation-focus-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-duration: 240ms;
+  --ds-motion-motion-navigation-focus-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-delay: 0ms;
+  --ds-motion-motion-navigation-focus-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95-easing: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-duration: 300ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-delay: 0ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-easing: cubic-bezier(0.25, 1, 0.5, 1);
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-duration: 300ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-delay: 0ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1-easing: cubic-bezier(0.25, 1, 0.5, 1);
+  --ds-motion-motion-card-state-change-opacity-150-linear-duration: 150ms;
+  --ds-motion-motion-card-state-change-opacity-150-linear-delay: 0ms;
+  --ds-motion-motion-card-state-change-opacity-150-linear-easing: linear;
+}

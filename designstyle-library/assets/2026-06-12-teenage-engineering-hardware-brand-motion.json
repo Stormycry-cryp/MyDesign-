@@ -1,0 +1,181 @@
+{
+  "checked_urls": [
+    "https://teenage.engineering/assets/root.QSqwWqQS.css",
+    "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+    "https://teenage.engineering/assets/form.DWmR17wv.css",
+    "https://teenage.engineering/assets/block.2tPiDhcW.css",
+    "https://teenage.engineering/assets/flex.C4wW179p.css",
+    "https://teenage.engineering/assets/button.B8x4Racb.css",
+    "https://teenage.engineering/assets/container.dVm2W4Ta.css",
+    "https://teenage.engineering/assets/grid.BPtO4oiR.css",
+    "https://teenage.engineering/assets/image.B2cBDLbL.css",
+    "https://teenage.engineering/assets/spinner.CDDf_qcL.css",
+    "https://teenage.engineering/assets/error-page.8k_twQst.css",
+    "https://teenage.engineering/assets/link.vCOxmn-l.css"
+  ],
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scale(1) -> scale(1)，250ms ease-in-out，load 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "scale(1)",
+      "id": "motion-component-load-animation-250-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scale(1)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scale(1.25)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scale(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".bag-animation",
+      "selector_role": "component",
+      "snippet": ".bag-animation { animation: .25s ease-in-out alternate bulge; }",
+      "source": "https://teenage.engineering/assets/root.QSqwWqQS.css",
+      "to": "scale(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-200-missing",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": "._message_1yt6t_1",
+      "selector_role": "component",
+      "snippet": "._message_1yt6t_1 { transition: box-shadow .2s; }",
+      "source": "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，200ms ease-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "._message_1yt6t_1",
+      "selector_role": "component",
+      "snippet": "._message_1yt6t_1 { transition: transform .2s ease-out; }",
+      "source": "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，200ms ease-in，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-200-ease-in",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "._message_1yt6t_1[data-state=entering]",
+      "selector_role": "component",
+      "snippet": "._message_1yt6t_1[data-state=entering] { transition: transform .2s ease-in; }",
+      "source": "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，250ms missing，state-change 触发",
+      "duration_ms": 250,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-250-missing",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "._add_1lf02_73",
+      "selector_role": "component",
+      "snippet": "._add_1lf02_73 { transition: transform .25s; }",
+      "source": "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，150ms missing，state-change 触发",
+      "duration_ms": 150,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-150-missing",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": "._add_1lf02_73",
+      "selector_role": "component",
+      "snippet": "._add_1lf02_73 { transition: opacity .15s; }",
+      "source": "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(0) -> rotate(360deg)，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "rotate(0)",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(360deg)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": "._spinner_hiku9_11:after",
+      "selector_role": "component",
+      "snippet": "._spinner_hiku9_11:after { animation: 1s linear infinite _load_hiku9_1; }",
+      "source": "https://teenage.engineering/assets/spinner.CDDf_qcL.css",
+      "to": "rotate(360deg)",
+      "trigger": "load"
+    }
+  ],
+  "missing": [],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "teenage-engineering-hardware-brand",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": [
+    "https://teenage.engineering/assets/root.QSqwWqQS.css",
+    "https://teenage.engineering/assets/app-context.Dq8eP25W.css",
+    "https://teenage.engineering/assets/spinner.CDDf_qcL.css"
+  ]
+}

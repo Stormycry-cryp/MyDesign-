@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 none observed; H2 Emissions Summary; All Emissions; navigation none observed
+  - Sentence rhythm: 108 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Explore map - Climate TRACE | Climate TRACE; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.climatetrace.org/explore#admin=&gas=co2e&year=2025&timeframe=100&sector=&asset=
   - Page title: Explore map - Climate TRACE | Climate TRACE
@@ -20,7 +26,6 @@
   - Navigation samples: none observed
   - Images observed: none observed
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Enter a geographic area or owner name. Sectors 2025 CO2e 100 YR 20 YR © Mapbox Improve this map | © Mapbox © OpenStreetMap Improve this map Cities Legend How to use © 2026 Climate TRACE Emissions Summary 2025: All Sectors (2025年1月 - 2025年12月) 60.4B t CO2e 100y`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

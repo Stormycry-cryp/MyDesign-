@@ -17,7 +17,6 @@
 | `#181818` | foreground | explicit reference or DOM color |  |
 | `#000000` | foreground | explicit reference or DOM color |  |
 | `#f5f5f5` | background | explicit reference or DOM color |  |
-| `#007aff` | accent | explicit reference or DOM color |  |
 | `#202020` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords

@@ -13,7 +13,6 @@
 | `#500010` | deep accent | screenshot pixel sample | 0.0124 |
 | `#ffffff` | background | screenshot pixel sample | 0.0074 |
 | `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0073 |
-| `#5a5a5a` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - artisanal hypercar luxury

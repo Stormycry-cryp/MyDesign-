@@ -12,7 +12,7 @@
 - a APP | rect=26.8x17@42,12327.5 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="NB International Web", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.075px; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a MEMBERSHIP | rect=93.3x17@42,12352.5 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="NB International Web", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.075px; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 14, image count 24, document height 12660.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Header
@@ -51,7 +51,8 @@
 - div The Death of Robin Hood 2026 | rect=1240.8x69@42,603 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="NB International Web", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.075px; lineHeight=25px; transition=opacity 0.2s ease-in-out; transitionDuration=0.2s; transitionTimingFunction=ease-in-out; opacity=1
 - li The Death of Robin Hood 2026 | rect=802.5x68.1@42,603 | display=inline-block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="NB International Web", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.075px; lineHeight=25px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div The Invite 2026 | rect=1240.8x69@42,672 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="NB International Web", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=-0.075px; lineHeight=25px; transition=opacity 0.2s ease-in-out; transitionDuration=0.2s; transitionTimingFunction=ease-in-out; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Backrooms 2026 The Death of Robin Hood 2026 The Invite 2026 Tony 2026 Onslaught 2026 Primetime 2026 SHOP Cap'n Clark's T

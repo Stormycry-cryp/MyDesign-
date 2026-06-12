@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-visual-journal-editorial-component-styles.json`
   - Asset CDN and media loading patterns: https://visualjournal.it/content/home/14_2026/85_noblemachines/1a.jpg; https://visualjournal.it/content/home/14_2026/84_olivera/2.jpg; https://visualjournal.it/content/home/14_2026/83_botnia/1.jpg; https://visualjournal.it/content/home/14_2026/82_themoraine/cover-def.jpg; https://visualjournal.it/content/home/14_2026/81_freesoul/2.jpg; https://visualjournal.it/content/home/14_2026/80_bobbeaute/1.jpg; https://visualjournal.it/content/home/14_2026/79_otsu/1.jpg; https://visualjournal.it/content/home/14_2026/78_tas/6-08.15.14.jpg
 
 ## Inference

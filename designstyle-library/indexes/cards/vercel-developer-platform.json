@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-vercel-developer-platform-component-styles.json",
+  "component_json_path": "assets/2026-06-12-vercel-developer-platform-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/vercel-developer-platform/component-styles.md",
     "moodboard": "design-systems/vercel-developer-platform/moodboard.svg",
+    "motion": "design-systems/vercel-developer-platform/motion.json",
+    "motion_presets": "design-systems/vercel-developer-platform/motion-presets.css",
     "palette": "design-systems/vercel-developer-platform/palette.md",
-    "tokens": "design-systems/vercel-developer-platform/tokens.json"
+    "tailwind_theme": "design-systems/vercel-developer-platform/tailwind.theme.json",
+    "tokens": "design-systems/vercel-developer-platform/tokens.json",
+    "variables_css": "design-systems/vercel-developer-platform/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/vercel-developer-platform/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/vercel-developer-platform/scene.md",
     "type_copy": "dimensions/vercel-developer-platform/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5918}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 300x63; 300x63; 355x38; 355x38; 260x71; 260x71; 280x74; 280x74; 280x57; 280x57.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 6px; 9999px; 6px; 4px; 6px; 4px; 6px; 4px; 6px; 4px; 6px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5918}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 300:63; 300:63; 355:38; 355:38; 260:71; 260:71; 280:74; 280:74; 280:57; 280:57",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 6px; 9999px; 6px; 4px; 6px; 4px; 6px; 4px; 6px; 4px; 6px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "reveal viewport motion uses 5000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 250ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1250ms cubic-bezier(.4, .04, .04, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 350ms cubic-bezier(.16, 1, .3, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 500ms cubic-bezier(.4, .04, .04, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

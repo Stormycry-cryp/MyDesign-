@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-buffet-digital-agency-component-styles.json",
+  "component_json_path": "assets/2026-06-12-buffet-digital-agency-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/buffet-digital-agency/component-styles.md",
     "moodboard": "design-systems/buffet-digital-agency/moodboard.svg",
+    "motion": "design-systems/buffet-digital-agency/motion.json",
+    "motion_presets": "design-systems/buffet-digital-agency/motion-presets.css",
     "palette": "design-systems/buffet-digital-agency/palette.md",
-    "tokens": "design-systems/buffet-digital-agency/tokens.json"
+    "tailwind_theme": "design-systems/buffet-digital-agency/tailwind.theme.json",
+    "tokens": "design-systems/buffet-digital-agency/tokens.json",
+    "variables_css": "design-systems/buffet-digital-agency/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/buffet-digital-agency/assets.md",
@@ -35,6 +39,36 @@
     "scene": "dimensions/buffet-digital-agency/scene.md",
     "type_copy": "dimensions/buffet-digital-agency/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3063}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 245x65; 181x122; 245x65; 1200x675; 1200x675; 1200x675; 1200x675; 1200x675; 1200x675; 1200x675.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 50%; 50%; 50%",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3063}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 245:65; 181:122; 245:65; 1200:675; 1200:675; 1200:675; 1200:675; 1200:675; 1200:675; 1200:675",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 50%; 50%; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -43,7 +77,7 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "strong",
+    "motion_code": "medium",
     "screenshot": "strong",
     "type_copy": "strong"
   },

@@ -4,7 +4,7 @@
 - Components:
   - Navigation: Home; Boomer; Gen X; Millennial; Gen Z; About; Summary; Download as PDF
   - Buttons/links: Menu; Start Exploring
-  - Computed component styles: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
+  - Computed component styles: `assets/2026-06-11-usps-delivers-generational-report-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-usps-delivers-generational-report-component-styles.json`
   - Asset CDN and media loading patterns: https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/media/logo.svg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/timeline_arrow_r.png; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_bg.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide1.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide2.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide3.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide4.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_top.gif
 
 ## Inference

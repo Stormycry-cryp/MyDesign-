@@ -17,12 +17,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-mercury-financial-dashboard-component-styles.json",
+  "component_json_path": "assets/2026-06-11-mercury-financial-dashboard-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/mercury-financial-dashboard/component-styles.md",
     "moodboard": "design-systems/mercury-financial-dashboard/moodboard.svg",
+    "motion": "design-systems/mercury-financial-dashboard/motion.json",
+    "motion_presets": "design-systems/mercury-financial-dashboard/motion-presets.css",
     "palette": "design-systems/mercury-financial-dashboard/palette.md",
-    "tokens": "design-systems/mercury-financial-dashboard/tokens.json"
+    "tailwind_theme": "design-systems/mercury-financial-dashboard/tailwind.theme.json",
+    "tokens": "design-systems/mercury-financial-dashboard/tokens.json",
+    "variables_css": "design-systems/mercury-financial-dashboard/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/mercury-financial-dashboard/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/mercury-financial-dashboard/scene.md",
     "type_copy": "dimensions/mercury-financial-dashboard/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13147}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 3840x1440; 3840x1440; 3840x1440; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 4px; 40px; 40px; 40px; 40px; 40px; 40px; 32px; 32px; 32px; 12px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 13147}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 3840:1440; 3840:1440; 3840:1440; 24:16; 24:16; 24:24; 19:24; 24:24; 19:24; 24:16",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 4px; 40px; 40px; 40px; 40px; 40px; 40px; 32px; 32px; 32px; 12px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "reveal viewport motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 150ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 4500ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1500ms cubic-bezier(.05,.2,.35,1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

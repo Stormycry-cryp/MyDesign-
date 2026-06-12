@@ -12,7 +12,7 @@
 - a Grid | rect=42.5x35.6@599.3,18.2 | display=flex; position=static; color=rgba(36, 36, 36, 0.64); border=0px none rgba(36, 36, 36, 0.64); borderRadius=4px; fontFamily=Inter, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=-0.42px; lineHeight=19.6px; padding=8px; transition=color 0.15s, background-color 0.15s; transitionDuration=0.15s, 0.15s; transitionTimingFunction=ease, ease
 - a Flat | rect=38.8x35.6@649.8,18.2 | display=flex; position=static; color=rgba(36, 36, 36, 0.64); border=0px none rgba(36, 36, 36, 0.64); borderRadius=4px; fontFamily=Inter, sans-serif; fontSize=14px; fontWeight=500; letterSpacing=-0.42px; lineHeight=19.6px; padding=8px; transition=color 0.15s, background-color 0.15s; transitionDuration=0.15s, 0.15s; transitionTimingFunction=ease, ease
 - navigation count 12, image count 27, document height 2860.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Typographic Small Type Illustrative Grid Flat Animated Cards Bright Dark See all Start a project Submit
@@ -57,8 +57,8 @@
 - div Flat | rect=38.8x35.6@649.8,18.2 | display=block; position=static; color=rgb(36, 36, 36); border=0px none rgb(36, 36, 36); fontFamily=Inter, sans-serif; fontSize=18px; fontWeight=400; letterSpacing=-0.54px; lineHeight=25.2px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Animated | rect=76.4x35.6@696.6,18.2 | display=block; position=static; color=rgb(36, 36, 36); border=0px none rgb(36, 36, 36); fontFamily=Inter, sans-serif; fontSize=18px; fontWeight=400; letterSpacing=-0.54px; lineHeight=25.2px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Cards | rect=53.5x35.6@781,18.2 | display=block; position=static; color=rgb(36, 36, 36); border=0px none rgb(36, 36, 36); fontFamily=Inter, sans-serif; fontSize=18px; fontWeight=400; letterSpacing=-0.54px; lineHeight=25.2px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 1600px; 1600px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 1600px; 1600px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Typographic Small Type Illustrative Grid Flat Animated Cards Bright Dark

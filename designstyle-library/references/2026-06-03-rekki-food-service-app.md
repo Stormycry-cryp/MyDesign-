@@ -30,6 +30,17 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 210x118; 90x97; 210x118; 90x97; 210x118; 90x97; 1300x448; 1192x672; 1192x672; 1192x672.; source: Layout Geometry And Spacing
+- Observed border radii: 6px; 2px; 59px; 38px 38px 0px 0px; 30px 30px 0px 0px; 14px 14px 0px 0px; 59px; 24px; 24px; 24px; 8px; 8px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}; source: Dimension And Ratio System
+- Observed media ratios: 210:118; 90:97; 210:118; 90:97; 210:118; 90:97; 1300:448; 1192:672; 1192:672; 1192:672; source: Dimension And Ratio System
+- navigation hover motion uses 0ms ease; source: motion.json
+- navigation focus motion uses 0ms ease; source: motion.json
+- form hover motion uses 0ms ease; source: motion.json
+- form focus motion uses 0ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://rekki.com/
 - Page title: REKKI — We make wholesale operations smarter so you can serve better
@@ -60,6 +71,12 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Office robots built for wholesale distributors; Scale your business without growing costs; H2 GET STARTED; navigation For Customer Service; For Sales; For Chefs; Company; BOOK A DEMO; GET A DEMO
+- Sentence rhythm: 103 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title REKKI — We make wholesale operations smarter so you can serve better; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgba(255, 255, 255, 0.52):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgba(255, 255, 255, 0.52):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgba(255, 255, 255, 0.52):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgba(255, 255, 255, 0.52):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(0, 99, 225); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); HEADER:rgb(0, 0, 0):rgba(0, 0, 0, 0); H1:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgba(255, 255, 255, 0.52):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(0, 99, 225)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +88,12 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 - Media/card aspect stability: image natural sizes include 210x118; 90x97; 210x118; 90x97; 210x118; 90x97; 1300x448; 1192x672; 1192x672; 1192x672.
 - Observed border radii: 6px; 2px; 59px; 38px 38px 0px 0px; 30px 30px 0px 0px; 14px 14px 0px 0px; 59px; 24px; 24px; 24px; 8px; 8px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 6px; 2px; 59px; 38px 38px 0px 0px; 30px 30px 0px 0px; 14px 14px 0px 0px; 59px; 24px; 24px; 24px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3981}
 - Observed media ratios: 210:118; 90:97; 210:118; 90:97; 210:118; 90:97; 1300:448; 1192:672; 1192:672; 1192:672
@@ -90,22 +113,22 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-rekki-food-service-app-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-11-rekki-food-service-app-component-styles.json`
 - Asset CDN and media loading patterns: https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/KoooaDsalKcX7sZXFG32BUutyos.png?scale-down-to=2048&width=3534&height=1220; https://framerusercontent.com/images/KqIdmGels2UCfzWzP2umF8u9OqE.png?scale-down-to=2048&width=3104&height=1752
 
 ## Motion
-- Page transitions: =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},yt=j.create(a),bt=({click:e,height:t,id:n,width:r,...i})=>({..., =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},jt=j.create(a),Mt={App:`QYLFEQjYc`,GrowthAI:`Q_xkEj5rS`,InboxAI, =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},qt=j.create(a),Jt={App:`rb_bmi95i`,InboxAI:`uRSlKspd3`,Marketpl
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:", q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:"setHandler",value:functi
-- Timing/easing: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1, t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1Branch+Metrics+API\n1Brea, eX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:0,duration:0,ease:[.44,0,.56,1],type:`tween`}},Bi=({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringi, top: 0px; z-index: 3; }`,`.framer-aEiZg .framer-srdv3h { background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.93) 11.771166324615479%, rgba(0, 0, 0, 0.85) 21.315133571624756%, rgba(0, 0, 0, 0.77, {children:[b(j.div,{animate:{opacity:1,transition:{delay:0,duration:0,ease:[.5,0,.88,.77],type:`tween`}},className:`${R(E,`framer-1q00j1j`)} hidden-ezzi6f`,exit:{opacity:0,transition:{delay:0,duration:0,e
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},yt=j.create(a),bt=({click:e,hei; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},jt=j.create(a),Mt={App:`QYLFEQj; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},qt=j.create(a),Jt={App:`rb_bmi9; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},cn=j.create(a),ln={"Variant 3":; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},xn=j.create(a),Sn=({height:e,ho
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: easing, request_animation_frame, transition
-- Public CSS/JS motion snippets: =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},yt=j.create(a),bt=({click:e,hei; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},jt=j.create(a),Mt={App:`QYLFEQj; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},qt=j.create(a),Jt={App:`rb_bmi9; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},cn=j.create(a),ln={"Variant 3":; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},xn=j.create(a),Sn=({height:e,ho; e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n; eX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:0,duration:0,ease:[.44,0,.56,1],type:`tween`}},Bi=({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,tran; top: 0px; z-index: 3; }`,`.framer-aEiZg .framer-srdv3h { background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.93) 11.771166324615479%, rgba(0, 0, 0, 0.85) 21.31513357162; {children:[b(j.div,{animate:{opacity:1,transition:{delay:0,duration:0,ease:[.5,0,.88,.77],type:`tween`}},className:`${R(E,`framer-1q00j1j`)} hidden-ezzi6f`,exit:{opacity:0,transiti
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},yt=j.create(a),bt=({click:e,hei; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},jt=j.create(a),Mt={App:`QYLFEQj; =({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,transition:r}),[JSON.stringify(r)]);return b(M.Provider,{value:i,children:t})},qt=j.create(a),Jt={App:`rb_bmi9; e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n; eX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:0,duration:0,ease:[.44,0,.56,1],type:`tween`}},Bi=({value:e,children:t})=>{let n=v(M),r=e??n.transition,i=s(()=>({...n,tran
-- JavaScript/runtime motion evidence: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(; unction _(t=!1){return new Promise(e=>{if(te.add(e),!document.hidden){requestAnimationFrame(()=>{let o=()=>{te.delete(e),e()};t?ht?I.yield().then(o):_e?I.postTask(o):o():_e?I.postT
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://cdn.snitcher.com/releases/latest/radar.min.js; https://connect.facebook.net/signals/config/933135673737303?v=2.9.331&r=stable&domain=rekki.com&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105%2C208%; https://connect.facebook.net/en_US/fbevents.js; https://www.google-analytics.com/analytics.js; https://snid.snitcher.com/8434147.js; https://www.redditstatic.com/ads/pixel.js; https://www.googletagmanager.com/gtag/js?id=G-9W2WZTLM6J&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtm.js?id=GTM-PJBLFKQ
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +136,7 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 ## Interaction And Components
 - Navigation: For Customer Service; For Sales; For Chefs; Company; BOOK A DEMO; GET A DEMO
 - Buttons/links: none observed
-- Computed component styles: `assets/2026-06-04-rekki-food-service-app-component-styles.json`
+- Computed component styles: `assets/2026-06-11-rekki-food-service-app-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +165,4 @@ Rekki Food Service App is captured as a food-service, app, marketplace, b2b refe
 - Reuse value: useful for homepage food service app if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-11-rekki-food-service-app-motion.json`

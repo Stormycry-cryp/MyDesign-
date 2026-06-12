@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(27, 27, 27):rgba(0, 0, 0, 0); HEADER:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); H1:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); SECTION:rgb(27, 27, 27):rgba(0, 0, 0, 0); P:rgb(172, 172, 172):rgba(0, 0, 0, 0); H1:rgb(27, 27, 27):rgba(0, 0, 0, 0); P:rgb(27, 27, 27):rgba(0, 0, 0, 0); A:rgb(27, 27, 27):rgba(0, 0, 0, 0); P:rgb(22, 156, 185):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `DATA·VIZ DATA·ART CHART ABOUT CONTACT BLOG ARE YOU LOOKING FOR Unique & Beautiful Data Visualizations and Data Art to make an impact, tell a story, evoke emotions, and more? GET IN TOUCH! ⌄ more to see down here ⌄ client Google Trends client Scientific America`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -1,0 +1,1096 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(1turn) -> rotate(1turn)，2000ms linear，load 触发",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "from": "rotate(1turn)",
+      "id": "motion-component-load-animation-2000-linear",
+      "keyframes": [
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".lvhzxbp",
+      "selector_role": "component",
+      "snippet": ".lvhzxbp { animation: LoadingIndicatorSpin-lvhzxbp 2s linear infinite; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "rotate(1turn)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，1450ms ease-in-out，load 触发",
+      "duration_ms": 1450,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-load-animation-1450-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "stroke-dasharray": "1,200",
+            "stroke-dashoffset": "0"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "stroke-dasharray": "90,200",
+            "stroke-dashoffset": "-35px"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "stroke-dashoffset": "-128px"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".lvhzxbp circle",
+      "selector_role": "component",
+      "snippet": ".lvhzxbp circle { animation: LoadingIndicatorRingStretch-lvhzxbp 1.45s ease-in-out infinite; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateY(0)，250ms ease，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-250-ease",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "html[data-has-intercom-banner]:after",
+      "selector_role": "component",
+      "snippet": "html[data-has-intercom-banner]:after { transition: transform .25s ease 0s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translateY(0)，250ms ease，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": "html[data-has-intercom-banner]:after",
+      "selector_role": "component",
+      "snippet": "html[data-has-intercom-banner]:after { transition: opacity .25s ease 0s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateY(0)，250ms ease，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-250-ease",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "html[data-has-intercom-banner]:before",
+      "selector_role": "component",
+      "snippet": "html[data-has-intercom-banner]:before { transition: transform .25s ease 0s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translateY(0)，250ms ease，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": "html[data-has-intercom-banner]:before",
+      "selector_role": "component",
+      "snippet": "html[data-has-intercom-banner]:before { transition: opacity .25s ease 0s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，600ms cubic-bezier(.075,.82,.165,1)，state-change 触发",
+      "duration_ms": 600,
+      "easing": "cubic-bezier(.075,.82,.165,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-600-cubic-bezier-075-82-165-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".s1xyphoy",
+      "selector_role": "component",
+      "snippet": ".s1xyphoy { transition: transform .6s cubic-bezier(.075,.82,.165,1); }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，167ms cubic-bezier(.33,0,0,1)，state-change 触发",
+      "duration_ms": 167,
+      "easing": "cubic-bezier(.33,0,0,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-167-cubic-bezier-33-0-0-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".i18lchxu",
+      "selector_role": "component",
+      "snippet": ".i18lchxu { transition: transform 167ms cubic-bezier(.33,0,0,1); }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "missing": [
+    "motion-component-state-change-opacity-750-missing lacks easing",
+    "motion-component-load-animation-100-missing lacks easing",
+    "motion-component-state-change-opacity-100-missing lacks easing",
+    "motion-component-hover-all-75-missing lacks easing",
+    "motion-component-load-animation-300-missing lacks easing",
+    "motion-component-load-animation-3000-missing lacks easing",
+    "motion-component-state-change-var-s1c3jptw-8-missing-missing lacks duration_ms",
+    "motion-component-state-change-var-s1c3jptw-8-missing-missing lacks easing",
+    "motion-reveal-viewport-animation-500-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-button-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-opacity-100-missing lacks easing",
+    "motion-component-state-change-opacity-100-missing lacks easing",
+    "motion-component-state-change-opacity-100-missing lacks easing",
+    "motion-component-state-change-top-250-missing lacks easing",
+    "motion-component-state-change-all-50-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-50-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-0-missing lacks easing",
+    "motion-component-state-change-opacity-100-missing lacks easing",
+    "motion-component-state-change-background-color-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-50-missing lacks easing",
+    "motion-navigation-state-change-transform-100-missing lacks easing",
+    "motion-component-state-change-transform-100-missing lacks easing",
+    "motion-component-state-change-opacity-200-missing lacks easing",
+    "motion-component-state-change-transform-0-missing lacks easing",
+    "motion-component-state-change-opacity-500-missing lacks easing",
+    "motion-component-state-change-transform-0-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-all-100-missing lacks easing",
+    "motion-component-state-change-top-250-missing lacks easing",
+    "motion-component-state-change-max-height-250-missing lacks easing",
+    "motion-component-state-change-transform-100-missing lacks easing",
+    "motion-component-state-change-transform-100-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，750ms missing，state-change 触发",
+      "duration_ms": 750,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-750-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".cwld7r8",
+      "selector_role": "component",
+      "snippet": ".cwld7r8 { transition: opacity .75s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 1，100ms missing，load 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-component-load-animation-100-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".l110i3bh",
+      "selector_role": "component",
+      "snippet": ".l110i3bh { animation: LoadingIndicatorWrapperEnter-l110i3bh .1s missing var(--l110i3bh-4); }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".al3cura:before",
+      "selector_role": "component",
+      "snippet": ".al3cura:before { transition: opacity .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件hover：all missing -> scale(1)，75ms missing，hover 触发",
+      "duration_ms": 75,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-hover-all-75-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".al3cura:hover:before",
+      "selector_role": "component",
+      "snippet": ".al3cura:hover:before { transition: 75ms; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "scale(1)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translateY(6px) -> translateY(0)，300ms missing，load 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "translateY(6px)",
+      "id": "motion-component-load-animation-300-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(6px)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".v1vs1w7x",
+      "selector_role": "component",
+      "snippet": ".v1vs1w7x { animation: ViewEnter-v1vs1w7x .3s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translate(-2px,-2px) -> translate(-2px,-2px)，3000ms missing，load 触发",
+      "duration_ms": 3000,
+      "easing": "missing",
+      "from": "translate(-2px,-2px)",
+      "id": "motion-component-load-animation-3000-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(-2px,-2px)"
+          }
+        },
+        {
+          "step": "25%",
+          "values": {
+            "transform": "translate(2px,-2px)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "translate(2px,2px)"
+          }
+        },
+        {
+          "step": "75%",
+          "values": {
+            "transform": "translate(-2px,2px)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translate(-2px,-2px)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".md7s272",
+      "selector_role": "component",
+      "snippet": ".md7s272 { animation: MagnifierMove-md7s272 3s infinite; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translate(-2px,-2px)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：var(--s1c3jptw-8)，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-var-s1c3jptw-8-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "var(--s1c3jptw-8)",
+      "reduced_motion": "missing",
+      "selector": ".s1c3jptw img",
+      "selector_role": "component",
+      "snippet": ".s1c3jptw img { transition: var(--s1c3jptw-8); }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation scale(1.5) -> scale(1)，500ms missing，viewport 触发",
+      "duration_ms": 500,
+      "easing": "missing",
+      "from": "scale(1.5)",
+      "id": "motion-reveal-viewport-animation-500-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(1.5)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".gldue5j.ready.animateIn",
+      "selector_role": "reveal",
+      "snippet": ".gldue5j.ready.animateIn { animation: GradientBorderWrapEnter-gldue5j .5s forwards; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "scale(1)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".v17bgqp6>*",
+      "selector_role": "component",
+      "snippet": ".v17bgqp6>* { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".g186dmjs button",
+      "selector_role": "button",
+      "snippet": ".g186dmjs button { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".p1aqtson",
+      "selector_role": "component",
+      "snippet": ".p1aqtson { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".mhl4efu svg",
+      "selector_role": "component",
+      "snippet": ".mhl4efu svg { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".m1imk8mu svg",
+      "selector_role": "component",
+      "snippet": ".m1imk8mu svg { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".n1ugx7rw",
+      "selector_role": "component",
+      "snippet": ".n1ugx7rw { transition: opacity .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".n1c9p1z4",
+      "selector_role": "component",
+      "snippet": ".n1c9p1z4 { transition: opacity .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".n1c9p1z4:before",
+      "selector_role": "component",
+      "snippet": ".n1c9p1z4:before { transition: opacity .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：top，250ms missing，state-change 触发",
+      "duration_ms": 250,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-top-250-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "top",
+      "reduced_motion": "missing",
+      "selector": ".s1fu9p80",
+      "selector_role": "component",
+      "snippet": ".s1fu9p80 { transition: top .25s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateY(8px)，50ms missing，state-change 触发",
+      "duration_ms": 50,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-50-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".sfseyc8",
+      "selector_role": "component",
+      "snippet": ".sfseyc8 { transition: .05s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(8px)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateY(0)，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".s1fh1t8s.force-visible",
+      "selector_role": "component",
+      "snippet": ".s1fh1t8s.force-visible { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateY(-1em)，50ms missing，state-change 触发",
+      "duration_ms": 50,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-50-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".spzay5d",
+      "selector_role": "component",
+      "snippet": ".spzay5d { transition: .05s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(-1em)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".withArrow .c1gg074s svg.arrow",
+      "selector_role": "component",
+      "snippet": ".withArrow .c1gg074s svg.arrow { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，0ms missing，state-change 触发",
+      "duration_ms": 0,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-0-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".sv09uep",
+      "selector_role": "component",
+      "snippet": ".sv09uep { transition: 0s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".bq638be",
+      "selector_role": "component",
+      "snippet": ".bq638be { transition: opacity .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".t1y3zycj",
+      "selector_role": "component",
+      "snippet": ".t1y3zycj { transition: background-color .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".t1y3zycj:before",
+      "selector_role": "component",
+      "snippet": ".t1y3zycj:before { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".sbo4wjz svg",
+      "selector_role": "component",
+      "snippet": ".sbo4wjz svg { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".ixrndjx.lazy",
+      "selector_role": "component",
+      "snippet": ".ixrndjx.lazy { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateY(100%)，50ms missing，state-change 触发",
+      "duration_ms": 50,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-50-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".t1gifzzv",
+      "selector_role": "component",
+      "snippet": ".t1gifzzv { transition: .05s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateY(100%)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：transform missing -> rotate(0)，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-navigation-state-change-transform-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".hypxbvv nav details svg",
+      "selector_role": "navigation",
+      "snippet": ".hypxbvv nav details svg { transition: transform .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "rotate(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> rotate(0)，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".t1rgmgme details .ChevronIconDown",
+      "selector_role": "component",
+      "snippet": ".t1rgmgme details .ChevronIconDown { transition: transform .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "rotate(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translate3d(-100%,0,0)，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".s1vbo3a7",
+      "selector_role": "component",
+      "snippet": ".s1vbo3a7 { transition: opacity .2s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translate3d(-100%,0,0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 200,
+      "description": "组件state-change：transform missing -> translate3d(-100%,0,0)，0ms missing，state-change 触发",
+      "duration_ms": 0,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-0-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".s1vbo3a7",
+      "selector_role": "component",
+      "snippet": ".s1vbo3a7 { transition: transform 0s .2s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translate3d(-100%,0,0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 500,
+      "description": "组件state-change：opacity missing -> translateZ(0)，500ms missing，state-change 触发",
+      "duration_ms": 500,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-500-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".s1vbo3a7.SiteSidebarAside--open",
+      "selector_role": "component",
+      "snippet": ".s1vbo3a7.SiteSidebarAside--open { transition: opacity .5s .5s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 500,
+      "description": "组件state-change：transform missing -> translateZ(0)，0ms missing，state-change 触发",
+      "duration_ms": 0,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-0-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".s1vbo3a7.SiteSidebarAside--open",
+      "selector_role": "component",
+      "snippet": ".s1vbo3a7.SiteSidebarAside--open { transition: transform 0s .5s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".i1661ep0",
+      "selector_role": "component",
+      "snippet": ".i1661ep0 { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".cqp80eq",
+      "selector_role": "component",
+      "snippet": ".cqp80eq { transition: .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：top，250ms missing，state-change 触发",
+      "duration_ms": 250,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-top-250-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "top",
+      "reduced_motion": "missing",
+      "selector": ".cyecyu6",
+      "selector_role": "component",
+      "snippet": ".cyecyu6 { transition: top .25s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：max-height，250ms missing，state-change 触发",
+      "duration_ms": 250,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-max-height-250-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "max-height",
+      "reduced_motion": "missing",
+      "selector": ".cyecyu6",
+      "selector_role": "component",
+      "snippet": ".cyecyu6 { transition: max-height .25s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".w11g5odq b",
+      "selector_role": "component",
+      "snippet": ".w11g5odq b { transition: transform .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，100ms missing，state-change 触发",
+      "duration_ms": 100,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-100-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".w11g5odq:before",
+      "selector_role": "component",
+      "snippet": ".w11g5odq:before { transition: transform .1s; }",
+      "source": "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "reference_path": "references/2026-06-04-tines-automation-platform.md",
+  "slug": "tines-automation-platform",
+  "source_motion_path": "assets/2026-06-12-tines-automation-platform-motion.json",
+  "source_urls": [
+    "https://www.tines.com/static/css/styles.3ba091ff2f65d11166a2.css"
+  ],
+  "title": "Tines Automation Platform"
+}

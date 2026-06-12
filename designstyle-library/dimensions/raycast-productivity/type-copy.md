@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Raycast Platform Acceptable Use Policy (including Platform Terms of Use); H2 PLEASE READ THESE PLATFORM TERMS OF USE CAREFULLY; PLEASE READ THESE TERMS CAREFULLY BEFORE USING THE PLATFORM; Acceptable Use; How we protect you from illegal content; navigation none observed
+  - Sentence rhythm: 101 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Raycast - Your shortcut to everything; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.raycast.com/aup
   - Page title: Raycast - Your shortcut to everything
@@ -20,7 +26,6 @@
   - Navigation samples: none observed
   - Images observed: image 828x828 https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Store Pro AI iOS Windows Teams Developers Blog Pricing Log in Download Raycast Platform Acceptable Use Policy (including Platform Terms of Use) Last Updated: Nov 7, 2025 PLEASE READ THESE PLATFORM TERMS OF USE CAREFULLY We are Raycast Technologies Ltd. (tradin`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

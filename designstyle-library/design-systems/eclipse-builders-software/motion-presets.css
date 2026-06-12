@@ -1,0 +1,45 @@
+.ds-motion-motion-navigation-hover-opacity-200-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-navigation-hover-opacity-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-opacity-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-opacity-200-ease-easing);
+  transform: 0.737904;
+}
+
+.ds-motion-motion-navigation-focus-opacity-200-ease {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-navigation-focus-opacity-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-opacity-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-opacity-200-ease-easing);
+  transform: 0.723282;
+}
+
+.ds-motion-motion-navigation-hover-color-200-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-hover-color-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-color-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-color-200-ease-easing);
+  transform: rgb(161, 254, 160);
+}
+
+.ds-motion-motion-navigation-focus-color-200-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-focus-color-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-color-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-color-200-ease-easing);
+  transform: rgb(161, 254, 160);
+}
+
+.ds-motion-motion-component-state-change-transform-300-ease-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-300-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-300-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-300-ease-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

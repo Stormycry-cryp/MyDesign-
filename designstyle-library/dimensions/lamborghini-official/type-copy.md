@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 URUS SE TETTONERO CAPSULE; H2 LAMBORGHINI; INSPIRING FUTURE SINCE 1963; TEMERARIO; navigation DEALERSHIPS; BEYOND; MUSEUM; STORE; NEWS; Design; Sustainability; History; Financial services; Warranty extension; Driving Programs; Lounge
+  - Sentence rhythm: 95 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Automobili Lamborghini - Official Website | Lamborghini.com; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.lamborghini.com/en-en
   - Page title: Automobili Lamborghini - Official Website | Lamborghini.com
@@ -20,7 +26,6 @@
   - Navigation samples: DEALERSHIPS; BEYOND; MUSEUM; STORE; NEWS; Design; Sustainability; History; Financial services; Warranty extension; Driving Programs; Lounge
   - Images observed: Logo Lamborghini 70x72 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/logos/2024/03_26/logo_header_01.svg; Automobili Lamborghini - Official Website | Lamborghini.com 3000x2000 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/homepage/slider/2026/05_09/hero-optim.jpg; Automobili Lamborghini - Official Website | Lamborghini.com 0x0 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/loghi/temerario/temerario_center_light; Temerario 0x0 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/homepage/models/temerario/familyChooser-Temerario_0.png; Automobili Lamborghini - Official Website | Lamborghini.com 0x0 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/loghi/urus/urus_center_light.svg; Automobili Lamborghini - Official Website | Lamborghini.com 0x0 https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/0_facelift_2025/homepage/models/urus/models_urus_se.pn; image 1x1 data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7; image 1x1 data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
   - Video observed: blob:https://www.lamborghini.com/78630bc7-bb27-45f7-8673-4d62c03b4459; blob:https://www.lamborghini.com/87a2769c-932b-4b56-ab23-a9867b9342f4
-  - Overlays or fixed elements: clicked common overlay buttons Accept all cookies; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Skip to main content MENU MODELS OWNERSHIP DEALERSHIPS BEYOND COMPANY MOTORSPORT MUSEUM STORE NEWS Design Sustainability History Financial services Warranty extension Driving Programs Lounge Club Podcast LANGUAGES Text size Allow animations URUS SE TETTONERO C`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

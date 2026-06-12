@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
     "moodboard": "design-systems/rows-spreadsheet-dashboard/moodboard.svg",
+    "motion": "design-systems/rows-spreadsheet-dashboard/motion.json",
+    "motion_presets": "design-systems/rows-spreadsheet-dashboard/motion-presets.css",
     "palette": "design-systems/rows-spreadsheet-dashboard/palette.md",
-    "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json"
+    "tailwind_theme": "design-systems/rows-spreadsheet-dashboard/tailwind.theme.json",
+    "tokens": "design-systems/rows-spreadsheet-dashboard/tokens.json",
+    "variables_css": "design-systems/rows-spreadsheet-dashboard/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/rows-spreadsheet-dashboard/assets.md",
@@ -33,6 +37,52 @@
     "scene": "dimensions/rows-spreadsheet-dashboard/scene.md",
     "type_copy": "dimensions/rows-spreadsheet-dashboard/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 5984x3072; 6001x3072; 1436x1288; 1255x456; 684x588; 684x588; 2853x2382; 0x0; 150x150; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 8px; 8px; 2px; 2px; 50%; 12px; 12px; 12px; 12px; 8px; 8px; 8px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5932}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 5984:3072; 6001:3072; 1436:1288; 1255:456; 684:588; 684:588; 2853:2382; 150:150; 80:80; 80:80",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 8px; 8px; 2px; 2px; 50%; 12px; 12px; 12px; 12px; 8px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

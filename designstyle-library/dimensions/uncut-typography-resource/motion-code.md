@@ -1,42 +1,267 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(0.95)}}@keyframes breathe{0%{t, elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover: hover){.btn:hover,.btn--header:hover{background-color:, elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;overflow:hidden}@media screen and (max-width: 800px){.c
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: ":e>t[0]?"needs-improvement":"good"}(t.value,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",fun, alue,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",function(){"hidden"===document.visibilitySt
-  - Timing/easing: splay:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-events:none;position:relative;z-index:1}@media(hover: hover){., :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover: hover){.btn:hover,.btn--header:hover{background-color:, :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;overflow:hidden}@media screen and (max-width: 800px){.c, 13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(-15deg)}.newcat:nth-child(2)::before{transform:scale(1) rotate(16deg);right:calc(4r, 0%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:translateY(calc(-3rem + 2px))}@media screen and (max-width: 800px){.countcount{height:cal
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; te;background-color:#09bd13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(; ign-items:center;width:100%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:transl; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; te;background-color:#09bd13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(; ign-items:center;width:100%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:transl; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta; reathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-events:none;position:relative;z-index:1}@media(hover: hover){; -index:1}@media(hover: hover){.btn:hover .blinker,.btn:hover .blinker{animation:none}}@font-face{font-family:"UncutSansWeb";src:url("/assets/fonts/UncutSans-Regular.woff2?v=1.3.4op
-  - Exact motion parameters: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta; splay:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-eve; :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover:; :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;; important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(0.95)}}@keyframes breathe{0%{transform:scaleY(1)}50%{transform:scaleY(0
-  - JavaScript/runtime motion evidence: ":e>t[0]?"needs-improvement":"good"}(t.value,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){documen; alue,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",fu; -t)*a)}).join(",")})`)(b.start,b.end,r)),Object.assign(e.style,d),o<1?requestAnimationFrame(l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFra; d),o<1?requestAnimationFrame(l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFrame(l)})}):Promise.resolve()},d=matchMedia("(prefers-reduced-mot; (l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFrame(l)})}):Promise.resolve()},d=matchMedia("(prefers-reduced-motion: reduce)").matches?"auto
-  - Stylesheet evidence: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
-  - Asset CDN and media loading patterns: https://uncut.wtf/assets/images/tanklager.svg; https://uncut.wtf/assets/images/opening-hours-sans.svg; https://uncut.wtf/assets/images/lt-institute.svg; https://uncut.wtf/assets/images/geist.svg; https://uncut.wtf/assets/images/berlin-grotesk.svg; https://uncut.wtf/assets/images/hedvig-letters-sans.svg; https://uncut.wtf/assets/images/liga-sans.svg; https://uncut.wtf/assets/images/overused-grotesk.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 2; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 2500ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件load：animation scaleY(1) -> scaleY(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发 |
+| button | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| button | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| component | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 组件state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| component | load | transform | 300ms | 0ms | cubic-bezier(0.785, 0.135, 0.15, 0.86) | 组件load：transform missing -> scale(1) rotate(-15deg)，300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(0.785, 0.135, 0.15, 0.86) | 组件state-change：transform，300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，state-change 触发 |
+| component | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 组件state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | ease | 组件state-change：transform，300ms ease，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | load | animation | 6000ms | 400ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件load：animation rotate(0deg) translateX(100%) -> rotate(0deg) translateX(-100%)，6000ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发 |
+| component | load | animation | 2750ms | 0ms | cubic-bezier(0.785, 0.135, 0.15, 0.86) | 组件load：animation scale(0) translateY(0.5rem) rotate(-45deg) skew(15deg, 15deg) -> 0，2750ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发 |
+| component | load | animation | 2750ms | 0ms | cubic-bezier(0.785, 0.135, 0.15, 0.86) | 组件load：animation scale(0) translateY(1rem) rotate(45deg) skew(15deg, 15deg) -> 0，2750ms cubic-bezier(0.785, 0.135, 0.15, 0.86)，load 触发 |
+| component | load | animation | 7000ms | 0ms | cubic-bezier(1, 0, 0, 1) | 组件load：animation translate(0, 0) -> translate(-1%, -2%)，7000ms cubic-bezier(1, 0, 0, 1)，load 触发 |
+| component | load | box-shadow | 300ms | 300ms | cubic-bezier(0.215, 0.61, 0.355, 1) | 组件load：box-shadow，300ms cubic-bezier(0.215, 0.61, 0.355, 1)，load 触发 |
+| component | load | animation | 150ms | 200ms | linear | 组件load：animation 0 -> 1，150ms linear，load 触发 |
+| component | hover | box-shadow | 300ms | 0ms | cubic-bezier(0.215, 0.61, 0.355, 1) | 组件hover：box-shadow，300ms cubic-bezier(0.215, 0.61, 0.355, 1)，hover 触发 |
+| component | state-change | transform | 300ms | 100ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件state-change：transform missing -> perspective(20rem) rotateY(0deg)，300ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 100ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 组件state-change：box-shadow missing -> perspective(20rem) rotateY(0deg)，300ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| component | hover | transform | 300ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件hover：transform missing -> perspective(20rem) rotateY(-50deg)，300ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，hover 触发 |
+| component | hover | box-shadow | 300ms | 100ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 组件hover：box-shadow missing -> perspective(20rem) rotateY(-50deg)，300ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，hover 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(0.6, 0.04, 0.98, 0.335) | 组件state-change：transform missing -> translateX(-200%) scaleX(2.5)，300ms cubic-bezier(0.6, 0.04, 0.98, 0.335)，state-change 触发 |
+| component | load | animation | 2500ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件load：animation scaleY(1) scaleX(1) -> scaleY(1) scaleX(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发 |
+| component | hover | transform | 400ms | 150ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 组件hover：transform missing -> translate(0%) scaleX(1)，400ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发 |
+| component | state-change | opacity | 300ms | 100ms | linear | 组件state-change：opacity，300ms linear，state-change 触发 |
+| component | load | animation | 2500ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 组件load：animation scaleY(1) -> scaleY(1)，2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，load 触发 |
+| component | state-change | opacity | 300ms | 0ms | ease | 组件state-change：opacity missing -> translateY(1rem)，300ms ease，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | ease | 组件state-change：transform missing -> translateY(1rem)，300ms ease，state-change 触发 |
+| button | state-change | background-color | 300ms | 0ms | ease | 按钮state-change：background-color，300ms ease，state-change 触发 |
+| button | state-change | transform | 300ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮state-change：transform，300ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| button | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| button | state-change | background-color | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮state-change：background-color，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，state-change 触发 |
+| button | hover | backgroundColor | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮hover：backgroundColor missing -> rgba(158, 158, 158, 0.973)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发；样本 Search |
+| button | focus | backgroundColor | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮focus：backgroundColor missing -> rgba(158, 158, 158, 0.984)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，focus 触发；样本 Search |
+| button | hover | backgroundColor | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮hover：backgroundColor missing -> rgb(158, 158, 158)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，hover 触发；样本 How can I help? |
+| button | focus | backgroundColor | 200ms | 0ms | cubic-bezier(0.075, 0.82, 0.165, 1) | 按钮focus：backgroundColor missing -> rgb(158, 158, 158)，200ms cubic-bezier(0.075, 0.82, 0.165, 1)，focus 触发；样本 How can I help? |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-uncut-typography-resource-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-load-animation-1000-missing lacks easing
+- motion-component-load-animation-1000-missing lacks easing
+- motion-component-load-animation-6000-missing lacks easing
+- motion-component-load-animation-5000-missing lacks easing
+- motion-component-hover-all-missing-missing lacks duration_ms
+- motion-component-hover-all-missing-missing lacks easing
+- motion-component-load-animation-1000-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.breathe { animation: breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }
+```
+
+### motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.btn { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.btn--header { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.category__count { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-component-load-transform-300-cubic-bezier-0-785-0-135-0-15-0-86
+
+```css
+.newcat::before { transition: transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-0-785-0-135-0-15-0-86
+
+```css
+.countcount { transition: transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+```
+
+### motion-component-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.togglethinghy { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-component-state-change-transform-300-ease
+
+```css
+.togglethinghy::before { transition: transform .3s ease; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.toggle_label { transition: color .3s ease; }
+```
+
+### motion-component-load-animation-6000-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.search-results:empty::after { animation: swingAcross 6s .4s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite backwards; }
+```
+
+### motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86
+
+```css
+.font-page__authors::before { animation: popAndFade 2.75s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite backwards; }
+```
+
+### motion-component-load-animation-2750-cubic-bezier-0-785-0-135-0-15-0-86
+
+```css
+.font-page__authors::after { animation: popAndFadeAlternate 2.75s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite backwards; }
+```
+
+### motion-component-load-animation-7000-cubic-bezier-1-0-0-1
+
+```css
+.font-license__dummy-eye { animation: jitter 7s cubic-bezier(1, 0, 0, 1) infinite; }
+```
+
+### motion-component-load-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1
+
+```css
+.door-cont { transition: box-shadow .3s cubic-bezier(0.215, 0.61, 0.355, 1) .3s; }
+```
+
+### motion-component-load-animation-150-linear
+
+```css
+.door-cont { animation: fadedoor .15s .2s linear backwards; }
+```
+
+### motion-component-hover-box-shadow-300-cubic-bezier-0-215-0-61-0-355-1
+
+```css
+.door-cont:hover { transition: box-shadow .3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s; }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.door-cont__door { transition: transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955) .1s; }
+```
+
+### motion-component-state-change-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.door-cont__door { transition: box-shadow .3s cubic-bezier(0.25, 0.46, 0.45, 0.94) .1s; }
+```
+
+### motion-component-hover-transform-300-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.door-cont:hover .door-cont__door { transition: transform .3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+```
+
+### motion-component-hover-box-shadow-300-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.door-cont:hover .door-cont__door { transition: box-shadow .3s cubic-bezier(0.25, 0.46, 0.45, 0.94) .1s; }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-0-6-0-04-0-98-0-335
+
+```css
+.door-cont__dude { transition: transform .3s cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+```
+
+### motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.door-cont__dude img { animation: pulsate 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }
+```
+
+### motion-component-hover-transform-400-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.door-cont:hover .door-cont__dude { transition: transform .4s .15s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-component-state-change-opacity-300-linear
+
+```css
+.dooroverlay { transition: opacity .3s .1s linear; }
+```
+
+### motion-component-load-animation-2500-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.chatbot__avatar-image img { animation: breathe 2.5s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }
+```
+
+### motion-component-state-change-opacity-300-ease
+
+```css
+.chatbot__message { transition: opacity .3s ease; }
+```
+
+### motion-component-state-change-transform-300-ease
+
+```css
+.chatbot__message { transition: transform .3s ease; }
+```
+
+### motion-button-state-change-background-color-300-ease
+
+```css
+.chatbot__feedback-button { transition: background-color .3s ease; }
+```
+
+### motion-button-state-change-transform-300-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.chatbot__feedback-button-icon { transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.btn-qa { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-button-state-change-background-color-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+.btn-done { transition: background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+```
+
+### motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+{"backgroundColor": "rgba(158, 158, 158, 0.973)", "border": "1px solid rgba(0, 0, 0, 0)", "borderBottom": "1px solid rgba(0, 0, 0, 0)", "borderLeft": "1px solid rgba(0, 0, 0, 0)", "borderRight": "1px solid rgba(0, 0, 0, 0)", "borderTop": "1px solid rgba(0, 0, 0, 0)"}
+```
+
+### motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+{"backgroundColor": "rgba(158, 158, 158, 0.984)", "border": "1px solid rgba(0, 0, 0, 0)", "borderBottom": "1px solid rgba(0, 0, 0, 0)", "borderLeft": "1px solid rgba(0, 0, 0, 0)", "borderRight": "1px solid rgba(0, 0, 0, 0)", "borderTop": "1px solid rgba(0, 0, 0, 0)"}
+```
+
+### motion-button-hover-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+{"backgroundColor": "rgb(158, 158, 158)"}
+```
+
+### motion-button-focus-backgroundcolor-200-cubic-bezier-0-075-0-82-0-165-1
+
+```css
+{"backgroundColor": "rgb(158, 158, 158)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

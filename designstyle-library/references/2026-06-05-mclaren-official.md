@@ -30,6 +30,19 @@ McLaren Official is captured as a luxury automotive, supercar brand reference fo
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9751}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 0x0; 1512x704; 7370x5896; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.; source: Layout Geometry And Spacing
+- Observed border radii: 9999px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9751}; source: Dimension And Ratio System
+- Observed media ratios: 1512:704; 7370:5896; source: Dimension And Ratio System
+- component state-change motion uses 300ms ease; source: motion.json
+- component load motion uses 400ms ease-in-out; source: motion.json
+- component load motion uses 300ms ease; source: motion.json
+- navigation state-change motion uses 300ms ease; source: motion.json
+- navigation load motion uses 200ms ease; source: motion.json
+- navigation state-change motion uses 350ms cubic-bezier(.4,0,.2,1); source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://cars.mclaren.com/us_en
 - Page title: McLaren Automotive - Official Global Website
@@ -60,6 +73,12 @@ McLaren Official is captured as a luxury automotive, supercar brand reference fo
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 ARTURA 1000GP; MCL-HY GTR; EDITION; JC96; H2 NAT BOWEN; THE FULL FORCE OF McLAREN; FIVE WITH LANDO; BEHIND THE WHEEL OF THE McLAREN ARTURA; JOIN THE McLAREN FAMILY; LATEST NEWS; navigation FIND A RETAILER; Racing
+- Sentence rhythm: 102 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title McLaren Automotive - Official Global Website; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(24, 28, 32):rgba(0, 0, 0, 0); HEADER:rgb(24, 28, 32):rgb(255, 255, 255); BUTTON:rgb(54, 63, 68):rgba(0, 0, 0, 0); BUTTON:rgb(157, 168, 174):rgba(0, 0, 0, 0); A:rgb(24, 28, 32):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); BUTTON:rgb(120, 131, 138):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(120, 131, 138):rgba(0, 0, 0, 0); P:rgba(0, 0, 0, 0):rgba(0, 0, 0, 0); P:rgb(120, 131, 138):rgba(0, 0, 0, 0); A:rgb(87, 98, 105):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +90,12 @@ McLaren Official is captured as a luxury automotive, supercar brand reference fo
 - Media/card aspect stability: image natural sizes include 0x0; 1512x704; 7370x5896; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
 - Observed border radii: 9999px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 9999px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons USA; McLAREN.COM / AUTOMOTIVE; MODELS; MSO; OWNERSHIP; EXPERIENCES; ABOUT; PRE-OWNED; 01; 02; 03; 04; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9751}
 - Observed media ratios: 1512:704; 7370:5896
@@ -86,34 +111,32 @@ McLaren Official is captured as a luxury automotive, supercar brand reference fo
 
 ## Code Surface
 - Framework/runtime hints: intersection, swiper
-- Public stylesheet/script URLs: https://cdn.plyr.io/3.7.8/plyr.css; https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap; https://cars.mclaren.com/assets/index-BOmZ3I7K.css; https://cars.mclaren.com/assets/plyr-JIUNXpB2.css; https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js?did=55d255c2-aeea-44af-8cd0-c6cf18323f83; https://www.googletagmanager.com/gtm.js?id=GTM-NMKLLLLQ; https://cars.mclaren.com/assets/index-Cf4dXNTm.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://cars.mclaren.com/us_en` when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-05-mclaren-official-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-mclaren-official-component-styles.json`
 - Asset CDN and media loading patterns: https://cars-assets-production.mclaren.com/3805/united-states.webp; https://cars-assets-production.mclaren.com/5505/Hero-Artura-1000GP.jpg; https://cars-assets-production.mclaren.com/5518/1000GP-Home-Slider-Mobile.jpg; https://cars-assets-production.mclaren.com/5515/Hero-Mobile-Artura-1000GP.jpg; https://cars-assets-production.mclaren.com/5418/McLaren_PE_Track_Thumbnail.png; https://cars-assets-production.mclaren.com/5373/mclaren-artura-mcl39-carousel-thumbnail.jpg; https://cars-assets-production.mclaren.com/5375/mclaren-mso-nat-bowen-carousel-thumbnail.jpg; https://cars-assets-production.mclaren.com/5376/mclaren-750s-jc96-carousel-thumbnail.jpg
-
+- Public stylesheet/script URLs: https://cdn.plyr.io/3.7.8/plyr.css; https://cars.mclaren.com/assets/index-BOmZ3I7K.css; https://cars.mclaren.com/assets/plyr-JIUNXpB2.css
 ## Motion
-- Page transitions: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: ,t==="viewport"){let M=_=>{_.forEach(T=>{f(T.isIntersecting)})},N=new IntersectionObserver(M,{threshold:.5});return y.current&&N.observe(y.current),()=>{N.disconnect()}}},[t]),w.useEffect(()=>{if(i){let M=setTimeout(()=>
-- Timing/easing: th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;padding:var(--plyr-control-sp, ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, -plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt, tion:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr__menu .plyr__control[aria-expanded=true] .plyr__
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, swiper, transform, transition
-- Public CSS/JS motion snippets: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small, 13p; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background, rgba(255, 255, 255,
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inh; ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;paddi; ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-s; yr-progress-loading-size,25px) 0}}@keyframes plyr-popup{0%{opacity:.5;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes plyr-fade-in{0%{opacity:0}to{opaci
-- JavaScript/runtime motion evidence: ,t==="viewport"){let M=_=>{_.forEach(T=>{f(T.isIntersecting)})},N=new IntersectionObserver(M,{threshold:.5});return y.current&&N.observe(y.current),()=>{N.disconnect()}}},[t]),w.us; mat("woff2");font-weight:700;font-style:normal}@font-face{font-family:swiper-icons;src:url(data:application/font-woff;charset=utf-8;base64,\ d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAA; gYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA);font-weight:400;font-style:normal}.swiper-button-prev,.swiper-button-next{position:absolute;top:var(--swiper-navigation-top-offset, 50%);width:ca; hGA0AO8EFTQAA);font-weight:400;font-style:normal}.swiper-button-prev,.swiper-button-next{position:absolute;top:var(--swiper-navigation-top-offset, 50%);width:calc(var(--swiper-navi; l}.swiper-button-prev,.swiper-button-next{position:absolute;top:var(--swiper-navigation-top-offset, 50%);width:calc(var(--swiper-navigation-size) / 44 * 27);height:var(--swiper-nav; bsolute;top:var(--swiper-navigation-top-offset, 50%);width:calc(var(--swiper-navigation-size) / 44 * 27);height:var(--swiper-navigation-size);margin-top:calc(0px - var(--swiper-nav
-- Stylesheet evidence: https://cdn.plyr.io/3.7.8/plyr.css; https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap; https://cars.mclaren.com/assets/index-BOmZ3I7K.css; https://cars.mclaren.com/assets/plyr-JIUNXpB2.css; https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js?did=55d255c2-aeea-44af-8cd0-c6cf18323f83; https://www.googletagmanager.com/gtm.js?id=GTM-NMKLLLLQ; https://cars.mclaren.com/assets/index-Cf4dXNTm.js
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Interpreted motion tags: hero media, scroll storytelling, hover states
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
 
 ## Interaction And Components
 - Navigation: FIND A RETAILER; Racing
 - Buttons/links: USA; McLAREN.COM / AUTOMOTIVE; MODELS; MSO; OWNERSHIP; EXPERIENCES; ABOUT; PRE-OWNED; 01; 02; 03; 04
-- Computed component styles: `assets/2026-06-05-mclaren-official-component-styles.json`
+- Computed component styles: `assets/2026-06-12-mclaren-official-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +165,4 @@ McLaren Official is captured as a luxury automotive, supercar brand reference fo
 - Reuse value: useful for official brand homepage if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-mclaren-official-motion.json`

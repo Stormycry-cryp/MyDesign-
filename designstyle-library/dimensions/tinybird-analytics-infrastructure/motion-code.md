@@ -1,42 +1,336 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: stCea__Button--corners span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lstCea__Button--corners:after,.Button-module__lstCea_, r(--primary);opacity:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:none;border-right:none;top:-.25rem;left:-.25rem}.B, r(--gray-900);z-index:10;flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:translate(100%)}.Code-module__gqa1sa__outputPanel.Code-mod
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: dElements.delete(t);this.observer.unobserve(t)}}))};this.observer=new IntersectionObserver(this.handleIntersection,{threshold:.5});this.observedElements=new Map}onElementAppear(e){const t=this.observedElements.get(e);t&&, isPreview&&1===e.configs.size){this.createPreviewOverlayInteractive();requestAnimationFrame((()=>{this.configModel.previewConfig&&this.openOverlay(this.configModel.previewConfig.contentModelId)}))}else if(0===t.configs.si, }));else if(e.templateConfig){this.createTemplateOverlayInteractive();requestAnimationFrame((()=>{this.openOverlay(Le)}))}else{e.configs.size>t.configs.size&&this.createOverlayInteractivesWithNoAudience();if(this.triggere
-  - Timing/easing: ers span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lstCea__Button--corners:after,.Button-module__lstCea_, y:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:none;border-right:none;top:-.25rem;left:-.25rem}.B, flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:translate(100%)}.Code-module__gqa1sa__outputPanel.Code-mod, border:1px solid #fff;width:.375rem;height:.375rem;transition:all .3s ease-in-out;position:absolute}.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage:before{border-bottom:none;border-right:none;top:-.5re, dule__Sx4_iW__accordionContent{max-height:0;transition:max-height .3s ease-out,opacity .2s ease-out .1s;overflow:hidden}.Accordion-module__Sx4_iW__accordionDetails:not([open]) .Accordion-module__Sx4_iW__accor
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: stCea__Button--corners span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lst; r(--primary);opacity:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:; r(--gray-900);z-index:10;flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:tr; --gray-600);cursor:pointer;border-radius:50%;width:.5rem;height:.5rem;transition:background .2s}.style-module__p8r5Wq__wrapper .swiper-pagination-bullet-active{background:var(--pri; nts:none;z-index:1;border:1px solid #fff;width:.375rem;height:.375rem;transition:all .3s ease-in-out;position:absolute}.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage:bef; tton--corners:hover span:after{opacity:1;width:.375rem;height:.375rem;animation:none} .Code-module__gqa1sa__code{font-size:.875rem;font-family:var(--font-mono);white-space:pre;bord; TeamTableRowImage:hover>span:after{opacity:1;width:.5rem;height:.5rem;animation:none} .styles-module__GqOd0q__wrapper{font-size:var(--text-body-1,18px);line-height:var(--tw-leading; ,.swiper-watch-progress .swiper-slide-visible) .swiper-lazy-preloader{animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, swiper, transform, transition
-  - Public CSS/JS motion snippets: stCea__Button--corners span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lst; r(--primary);opacity:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:; r(--gray-900);z-index:10;flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:tr; --gray-600);cursor:pointer;border-radius:50%;width:.5rem;height:.5rem;transition:background .2s}.style-module__p8r5Wq__wrapper .swiper-pagination-bullet-active{background:var(--pri; nts:none;z-index:1;border:1px solid #fff;width:.375rem;height:.375rem;transition:all .3s ease-in-out;position:absolute}.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage:bef; tton--corners:hover span:after{opacity:1;width:.375rem;height:.375rem;animation:none} .Code-module__gqa1sa__code{font-size:.875rem;font-family:var(--font-mono);white-space:pre;bord; TeamTableRowImage:hover>span:after{opacity:1;width:.5rem;height:.5rem;animation:none} .styles-module__GqOd0q__wrapper{font-size:var(--text-body-1,18px);line-height:var(--tw-leading; ,.swiper-watch-progress .swiper-slide-visible) .swiper-lazy-preloader{animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; var(--tw-skew-y,)}.animate-\[slide_0\.25s_ease-in-out_reverse_both\]{animation:.25s ease-in-out reverse both slide}.animate-caret-blink{animation:var(--animate-caret-blink)}.animat; \]{animation:.25s ease-in-out reverse both slide}.animate-caret-blink{animation:var(--animate-caret-blink)}.animate-home-logos{animation:var(--animate-home-logos)}.animate-ping{ani
-  - Exact motion parameters: stCea__Button--corners span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lst; r(--primary);opacity:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:; r(--gray-900);z-index:10;flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:tr; tton--corners:hover span:after{opacity:1;width:.375rem;height:.375rem;animation:none} .Code-module__gqa1sa__code{font-size:.875rem;font-family:var(--font-mono);white-space:pre;bord; TeamTableRowImage:hover>span:after{opacity:1;width:.5rem;height:.5rem;animation:none} .styles-module__GqOd0q__wrapper{font-size:var(--text-body-1,18px);line-height:var(--tw-leading; ,.swiper-watch-progress .swiper-slide-visible) .swiper-lazy-preloader{animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; ers span{justify-content:center;align-items:center;transition:all .3s ease-in-out;display:flex}.Button-module__lstCea__Button--corners:before,.Button-module__lstCea__Button--corner; y:0;pointer-events:none;z-index:1;width:0;height:0;transition:all .3s ease-in-out;position:absolute}.Button-module__lstCea__Button--corners:before{border-bottom:none;border-right:n; flex-direction:column;width:100%;height:100%;transition:transform .3s ease-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:translate(100%)}.Code-modul; e-in-out;display:flex;position:absolute;top:0;right:0;overflow:hidden;transform:translate(100%)}.Code-module__gqa1sa__outputPanel.Code-module__gqa1sa__open{transform:translate(0)}.
-  - JavaScript/runtime motion evidence: dElements.delete(t);this.observer.unobserve(t)}}))};this.observer=new IntersectionObserver(this.handleIntersection,{threshold:.5});this.observedElements=new Map}onElementAppear(e){; isPreview&&1===e.configs.size){this.createPreviewOverlayInteractive();requestAnimationFrame((()=>{this.configModel.previewConfig&&this.openOverlay(this.configModel.previewConfig.co; }));else if(e.templateConfig){this.createTemplateOverlayInteractive();requestAnimationFrame((()=>{this.openOverlay(Le)}))}else{e.configs.size>t.configs.size&&this.createOverlayInte; t(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==Qe.push(t)&&Je===_e.requestAnimationFrame||((Je=_e.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),ht&&canc; H.__h.length&&(1!==Qe.push(t)&&Je===_e.requestAnimationFrame||((Je=_e.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),ht&&cancelAnimationFrame(t),setTimeout(; ht&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);ht&&(t=requestAnimationFrame(n))})(lt)),qe=null},_e.__c=function(e,t){t.some((function(e){try{e.__h.forEach(dt),e.__h; dule__p8r5Wq__wrapper{overflow:hidden}.style-module__p8r5Wq__wrapper .swiper{overflow:visible}.style-module__p8r5Wq__wrapper .swiper-pagination{justify-content:center;gap:.5rem;mar; 5Wq__wrapper .swiper{overflow:visible}.style-module__p8r5Wq__wrapper .swiper-pagination{justify-content:center;gap:.5rem;margin-top:1.5rem;display:flex;position:relative}.style-mod
-  - Stylesheet evidence: https://www.tinybird.co/_next/static/chunks/0g6y_7shgf1eg.css; https://www.tinybird.co/_next/static/chunks/0etuyj-t-~ly0.css; https://www.tinybird.co/_next/static/chunks/0dy-_q_jexz7a.css; https://js-eu1.hsadspixel.net/pixels.js; https://js-eu1.hubspot.com/web-interactives-embed.js; https://js-eu1.hs-banner.com/v2/25625634/banner.js; https://js-eu1.hs-analytics.net/analytics/1780560300000/25625634.js; https://static.ads-twitter.com/uwt.js
-  - Interpreted motion tags: restrained, hover-microinteraction
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame, swiper
-  - Public stylesheet/script URLs: https://www.tinybird.co/_next/static/chunks/0g6y_7shgf1eg.css; https://www.tinybird.co/_next/static/chunks/0etuyj-t-~ly0.css; https://www.tinybird.co/_next/static/chunks/0dy-_q_jexz7a.css; https://js-eu1.hsadspixel.net/pixels.js; https://js-eu1.hubspot.com/web-interactives-embed.js; https://js-eu1.hs-banner.com/v2/25625634/banner.js; https://js-eu1.hs-analytics.net/analytics/1780560300000/25625634.js; https://static.ads-twitter.com/uwt.js; https://js.hs-scripts.com/25625634.js; https://www.googletagmanager.com/gtag/js?id=G-49QBCNRFK1&cx=c&gtm=4e6621
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-tinybird-analytics-infrastructure-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.tinybird.co/_next/static/media/bars.0j9dyi-1-vrts.png; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjordi.0s5noctszsjg2.jpg&w=96&q=75; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplay.0az.d~~68i7zh.png&w=128&q=75; https://www.tinybird.co/_next/static/media/diagram.0wtq0tdq_g-4l.png; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarc-lou.04k7~msvvy~8n.png&w=640&q=75; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fguy.0rzrck1mpv9g..jpg&w=256&q=75; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjarred.0wx937n~trqqn.jpeg&w=640&q=75; https://www.tinybird.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsteven.0ta3kmdjy~xva.png&w=256&q=75
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 18 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | state-change | all | 300ms | 0ms | ease-in-out | 按钮state-change：all，300ms ease-in-out，state-change 触发 |
+| button | state-change | all | 300ms | 0ms | ease-in-out | 按钮state-change：all，300ms ease-in-out，state-change 触发 |
+| button | state-change | all | 300ms | 0ms | ease-in-out | 按钮state-change：all，300ms ease-in-out，state-change 触发 |
+| button | state-change | all | 300ms | 0ms | ease-in-out | 按钮state-change：all，300ms ease-in-out，state-change 触发 |
+| button | state-change | all | 300ms | 0ms | ease-in-out | 按钮state-change：all，300ms ease-in-out，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | ease-in-out | 组件state-change：transform missing -> translate(100%)，300ms ease-in-out，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease-in-out | 组件state-change：all，300ms ease-in-out，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease-in-out | 组件state-change：all，300ms ease-in-out，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease-in-out | 组件state-change：all，300ms ease-in-out，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease-in-out | 组件state-change：all，300ms ease-in-out，state-change 触发 |
+| component | state-change | max-height | 300ms | 0ms | ease-out | 组件state-change：max-height，300ms ease-out，state-change 触发 |
+| component | state-change | opacity | 200ms | 100ms | ease-out | 组件state-change：opacity，200ms ease-out，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease-out | 组件state-change：opacity，150ms ease-out，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，1000ms linear，load 触发 |
+| reveal | viewport | animation | 250ms | 0ms | ease-in-out | 入场元素viewport：animation translate(0) -> translate(-100%)，250ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 50000ms | 0ms | linear | 入场元素viewport：animation translate(0) -> translate(-100%)，50000ms linear，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(0, 0, .2, 1) | 入场元素viewport：animation scale(2) -> scale(2)，1000ms cubic-bezier(0, 0, .2, 1)，viewport 触发 |
+| reveal | viewport | animation | 2000ms | 0ms | cubic-bezier(.4, 0, .6, 1) | 入场元素viewport：animation .5 -> .5，2000ms cubic-bezier(.4, 0, .6, 1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | linear | 入场元素viewport：animation rotate(360deg) -> rotate(360deg)，1000ms linear，viewport 触发 |
+| component | state-change | color | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：color，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | background-color | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：background-color，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | border-color | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：border-color，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | outline-color | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：outline-color，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | text-decoration-color | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：text-decoration-color，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | fill | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：fill，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | stroke | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：stroke，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | --tw-gradient-from | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：--tw-gradient-from，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | --tw-gradient-via | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：--tw-gradient-via，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | --tw-gradient-to | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：--tw-gradient-to，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | opacity | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：opacity，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | box-shadow | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：box-shadow，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | transform | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：transform，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | translate | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：translate，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | scale | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：scale，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | rotate | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：rotate，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | filter | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：filter，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | -webkit-backdrop-filter | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：-webkit-backdrop-filter，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | backdrop-filter | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：backdrop-filter，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | display | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：display，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| component | state-change | content-visibility | 100ms | 0ms | cubic-bezier(.4, 0, .2, 1) | 组件state-change：content-visibility，100ms cubic-bezier(.4, 0, .2, 1)，state-change 触发 |
+| button | hover | color | 0ms | 0ms | ease | 按钮hover：color missing -> rgb(39, 247, 149)，0ms ease，hover 触发；样本 Product [ ] |
+| button | focus | color | 0ms | 0ms | ease | 按钮focus：color missing -> rgb(39, 247, 149)，0ms ease，focus 触发；样本 Product [ ] |
+| button | hover | color | 0ms | 0ms | ease | 按钮hover：color missing -> rgb(39, 247, 149)，0ms ease，hover 触发；样本 Resources [ ] |
+| button | focus | color | 0ms | 0ms | ease | 按钮focus：color missing -> rgb(39, 247, 149)，0ms ease，focus 触发；样本 Resources [ ] |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-tinybird-analytics-infrastructure-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-background-200-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-height-missing-missing lacks duration_ms
+- motion-component-state-change-height-missing-missing lacks easing
+- motion-component-state-change-all-missing-ease-out lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+- motion-reveal-viewport-animation-1000-missing lacks easing
+
+## Snippet Appendix
+### motion-button-state-change-all-300-ease-in-out
+
+```css
+.Button-module__lstCea__Button--corners span { transition: all .3s ease-in-out; }
+```
+
+### motion-button-state-change-all-300-ease-in-out
+
+```css
+.Button-module__lstCea__Button--corners:before { transition: all .3s ease-in-out; }
+```
+
+### motion-button-state-change-all-300-ease-in-out
+
+```css
+.Button-module__lstCea__Button--corners:after { transition: all .3s ease-in-out; }
+```
+
+### motion-button-state-change-all-300-ease-in-out
+
+```css
+.Button-module__lstCea__Button--corners span:before { transition: all .3s ease-in-out; }
+```
+
+### motion-button-state-change-all-300-ease-in-out
+
+```css
+.Button-module__lstCea__Button--corners span:after { transition: all .3s ease-in-out; }
+```
+
+### motion-component-state-change-transform-300-ease-in-out
+
+```css
+.Code-module__gqa1sa__outputPanel { transition: transform .3s ease-in-out; }
+```
+
+### motion-component-state-change-all-300-ease-in-out
+
+```css
+.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage:before { transition: all .3s ease-in-out; }
+```
+
+### motion-component-state-change-all-300-ease-in-out
+
+```css
+.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage:after { transition: all .3s ease-in-out; }
+```
+
+### motion-component-state-change-all-300-ease-in-out
+
+```css
+.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage>span:before { transition: all .3s ease-in-out; }
+```
+
+### motion-component-state-change-all-300-ease-in-out
+
+```css
+.AboutTeamTableRow-module__-4fLtq__AboutTeamTableRowImage>span:after { transition: all .3s ease-in-out; }
+```
+
+### motion-component-state-change-max-height-300-ease-out
+
+```css
+.Accordion-module__Sx4_iW__accordionContent { transition: max-height .3s ease-out; }
+```
+
+### motion-component-state-change-opacity-200-ease-out
+
+```css
+.Accordion-module__Sx4_iW__accordionContent { transition: opacity .2s ease-out .1s; }
+```
+
+### motion-component-state-change-opacity-150-ease-out
+
+```css
+.Accordion-module__Sx4_iW__accordionDetails:not([open]) .Accordion-module__Sx4_iW__accordionContent { transition: opacity .15s ease-out; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+:is(.swiper:not(.swiper-watch-progress),.swiper-watch-progress .swiper-slide-visible) .swiper-lazy-preloader { animation: 1s linear infinite swiper-preloader-spin; }
+```
+
+### motion-reveal-viewport-animation-250-ease-in-out
+
+```css
+.animate-\[slide_0\.25s_ease-in-out_reverse_both\] { animation: .25s ease-in-out reverse both slide; }
+```
+
+### motion-reveal-viewport-animation-50000-linear
+
+```css
+.animate-home-logos { animation: slide 50s linear infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1
+
+```css
+.animate-ping { animation: ping 1s cubic-bezier(0, 0, .2, 1) infinite; }
+```
+
+### motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1
+
+```css
+.animate-pulse { animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-linear
+
+```css
+.animate-spin { animation: spin 1s linear infinite; }
+```
+
+### motion-component-state-change-color-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: color; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-background-color-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: background-color; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-border-color-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: border-color; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-outline-color-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: outline-color; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-text-decoration-color-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: text-decoration-color; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-fill-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: fill; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-stroke-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: stroke; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-tw-gradient-from-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-from; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-tw-gradient-via-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-via; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-tw-gradient-to-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-to; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-opacity-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: opacity; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-box-shadow-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: box-shadow; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-transform-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: transform; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-translate-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: translate; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-scale-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: scale; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-rotate-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: rotate; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-filter-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: filter; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-webkit-backdrop-filter-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: -webkit-backdrop-filter; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-backdrop-filter-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: backdrop-filter; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-display-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: display; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-component-state-change-content-visibility-100-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: content-visibility; transition-duration: .1s); transition-timing-function: cubic-bezier(.4, 0, .2, 1)); }
+```
+
+### motion-button-hover-color-0-ease
+
+```css
+{"border": "0px solid rgb(39, 247, 149)", "borderBottom": "0px solid rgb(39, 247, 149)", "borderLeft": "0px solid rgb(39, 247, 149)", "borderRight": "0px solid rgb(39, 247, 149)", "borderTop": "0px solid rgb(39, 247, 149)", "color": "rgb(39, 247, 149)"}
+```
+
+### motion-button-focus-color-0-ease
+
+```css
+{"border": "0px solid rgb(39, 247, 149)", "borderBottom": "0px solid rgb(39, 247, 149)", "borderLeft": "0px solid rgb(39, 247, 149)", "borderRight": "0px solid rgb(39, 247, 149)", "borderTop": "0px solid rgb(39, 247, 149)", "color": "rgb(39, 247, 149)"}
+```
+
+### motion-button-hover-color-0-ease
+
+```css
+{"border": "0px solid rgb(39, 247, 149)", "borderBottom": "0px solid rgb(39, 247, 149)", "borderLeft": "0px solid rgb(39, 247, 149)", "borderRight": "0px solid rgb(39, 247, 149)", "borderTop": "0px solid rgb(39, 247, 149)", "color": "rgb(39, 247, 149)"}
+```
+
+### motion-button-focus-color-0-ease
+
+```css
+{"border": "0px solid rgb(39, 247, 149)", "borderBottom": "0px solid rgb(39, 247, 149)", "borderLeft": "0px solid rgb(39, 247, 149)", "borderRight": "0px solid rgb(39, 247, 149)", "borderTop": "0px solid rgb(39, 247, 149)", "color": "rgb(39, 247, 149)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

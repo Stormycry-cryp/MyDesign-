@@ -1,0 +1,23 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "background": "#ffffff",
+        "deep-accent": "#203040",
+        "foreground": "#000000",
+        "foreground-2": "#202020",
+        "foreground-3": "#404040",
+        "neutral-surface": "#d0e0e0",
+        "neutral-surface-2": "#707070",
+        "neutral-surface-3": "#808080",
+        "supporting-color": "#b0c0d0",
+        "supporting-color-2": "#90b0c0",
+        "supporting-color-3": "#6090b0",
+        "supporting-color-4": "#4080a0"
+      },
+      "spacing": {
+        "ds-component": "0px 30px 10px 0px"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+:root {
+  --ds-color-neutral-surface: #f0f0f0;
+  --ds-color-accent: #30a0c0;
+  --ds-color-accent-2: #40c0c0;
+  --ds-color-accent-3: #2080c0;
+  --ds-color-foreground: #202020;
+  --ds-color-deep-accent: #502010;
+  --ds-color-supporting-color: #f0e0d0;
+  --ds-color-supporting-color-2: #a04010;
+  --ds-color-supporting-color-3: #803010;
+  --ds-color-supporting-color-4: #e0c0b0;
+  --ds-color-foreground-2: #404040;
+  --ds-color-accent-4: #27ccc1;
+  --ds-spacing-component: 27px 18px 36px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-linear-duration: 200ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-linear-delay: 0ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-200-linear-easing: linear;
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-linear-duration: 200ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-linear-delay: 0ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-200-linear-easing: linear;
+  --ds-motion-motion-button-hover-color-150-ease-duration: 150ms;
+  --ds-motion-motion-button-hover-color-150-ease-delay: 0ms;
+  --ds-motion-motion-button-hover-color-150-ease-easing: ease;
+  --ds-motion-motion-button-focus-color-150-ease-duration: 150ms;
+  --ds-motion-motion-button-focus-color-150-ease-delay: 0ms;
+  --ds-motion-motion-button-focus-color-150-ease-easing: ease;
+}

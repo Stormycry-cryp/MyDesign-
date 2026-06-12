@@ -4,7 +4,7 @@
 - Components:
   - Navigation: none observed
   - Buttons/links: Download
-  - Computed component styles: `assets/2026-06-04-raycast-productivity-component-styles.json`
+  - Computed component styles: `assets/2026-06-12-raycast-productivity-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-raycast-productivity-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-raycast-productivity-component-styles.json`
   - Asset CDN and media loading patterns: https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
 
 ## Inference

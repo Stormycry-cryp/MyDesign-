@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-counter-forms-typography-resource-component-styles.json",
+  "component_json_path": "assets/2026-06-12-counter-forms-typography-resource-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/counter-forms-typography-resource/component-styles.md",
     "moodboard": "design-systems/counter-forms-typography-resource/moodboard.svg",
+    "motion": "design-systems/counter-forms-typography-resource/motion.json",
+    "motion_presets": "design-systems/counter-forms-typography-resource/motion-presets.css",
     "palette": "design-systems/counter-forms-typography-resource/palette.md",
-    "tokens": "design-systems/counter-forms-typography-resource/tokens.json"
+    "tailwind_theme": "design-systems/counter-forms-typography-resource/tailwind.theme.json",
+    "tokens": "design-systems/counter-forms-typography-resource/tokens.json",
+    "variables_css": "design-systems/counter-forms-typography-resource/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/counter-forms-typography-resource/assets.md",
@@ -35,6 +39,52 @@
     "scene": "dimensions/counter-forms-typography-resource/scene.md",
     "type_copy": "dimensions/counter-forms-typography-resource/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 660x414; 660x449; 660x380; 660x470; 660x429; 920x506; 660x445; 567x567; 567x567.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 660:414; 660:449; 660:380; 660:470; 660:429; 920:506; 660:445; 567:567; 567:567",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component state-change motion uses 150ms cubic-bezier(.4,0,.2,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 100ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

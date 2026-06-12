@@ -17,12 +17,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-tinybird-analytics-infrastructure-component-styles.json",
+  "component_json_path": "assets/2026-06-12-tinybird-analytics-infrastructure-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/tinybird-analytics-infrastructure/component-styles.md",
     "moodboard": "design-systems/tinybird-analytics-infrastructure/moodboard.svg",
+    "motion": "design-systems/tinybird-analytics-infrastructure/motion.json",
+    "motion_presets": "design-systems/tinybird-analytics-infrastructure/motion-presets.css",
     "palette": "design-systems/tinybird-analytics-infrastructure/palette.md",
-    "tokens": "design-systems/tinybird-analytics-infrastructure/tokens.json"
+    "tailwind_theme": "design-systems/tinybird-analytics-infrastructure/tailwind.theme.json",
+    "tokens": "design-systems/tinybird-analytics-infrastructure/tokens.json",
+    "variables_css": "design-systems/tinybird-analytics-infrastructure/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/tinybird-analytics-infrastructure/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/tinybird-analytics-infrastructure/scene.md",
     "type_copy": "dimensions/tinybird-analytics-infrastructure/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1425, 'docH': 9556}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 717x1200; 96x97; 111x111; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 4px; 4px; 4px; 4px; 4px; 4px; 8px; 8px; 4px; 4px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1425, 'docH': 9556}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 717:1200; 96:97; 111:111",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 4px; 4px; 4px; 4px; 4px; 4px; 8px; 8px; 4px; 4px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 150ms ease-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

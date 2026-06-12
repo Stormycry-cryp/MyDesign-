@@ -1,0 +1,26 @@
+:root {
+  --ds-color-neutral-surface: #f0f0f0;
+  --ds-color-foreground: #101010;
+  --ds-color-neutral-surface-2: #d0d0d0;
+  --ds-color-supporting-color: #e0b0b0;
+  --ds-color-supporting-color-2: #90c0d0;
+  --ds-color-supporting-color-3: #d0e0f0;
+  --ds-color-supporting-color-4: #f0d0a0;
+  --ds-color-neutral-surface-3: #808080;
+  --ds-color-supporting-color-5: #7060b0;
+  --ds-color-supporting-color-6: #6090a0;
+  --ds-color-deep-accent: #0a090c;
+  --ds-color-background: #f4f4f4;
+  --ds-spacing-component: 5px 0px;
+  --ds-radius-component: 8px;
+  --ds-shadow-component: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+  --ds-motion-motion-component-load-animation-800-linear-duration: 800ms;
+  --ds-motion-motion-component-load-animation-800-linear-delay: 0ms;
+  --ds-motion-motion-component-load-animation-800-linear-easing: linear;
+  --ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-duration: 100ms;
+  --ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-easing: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  --ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-duration: 100ms;
+  --ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-easing: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}

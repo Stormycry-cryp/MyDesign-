@@ -9,6 +9,7 @@
 - a Jacky Winter Gallery | rect=182.3x24@628.8,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Contact | rect=72.3x24@1343.7,19.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.3s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
 - navigation count 4, image count 19, document height 11796.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -52,8 +53,8 @@
 - div carousel-slide__image aspect-[0.8/1] h-full w-full cursor-pointer | rect=589.3x736.7@484,213.2 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); boxShadow=rgba(0, 0, 0, 0.25) 0px 0px 50px 10px; fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div PAST SHOW | rect=565.3x93@508,949.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; padding=20px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div PAST SHOW | rect=151.5x35@921.9,969.8 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=MessinaSans, "MessinaSans Fallback", sans-serif; fontSize=20px; fontWeight=400; letterSpacing=-0.4px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING PAST SHOW ALL PAST SHOWS NOW SHOWING PAST SHOW ALL PAST SHOWS

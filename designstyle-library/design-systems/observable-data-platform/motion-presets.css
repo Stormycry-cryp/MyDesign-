@@ -1,0 +1,213 @@
+.ds-motion-motion-component-state-change-color-150-ease-in {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-state-change-color-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-color-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-color-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-active-color-150-ease-in {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-active-color-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-active-color-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-active-color-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-focus-color-150-ease-in {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-focus-color-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-focus-color-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-focus-color-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-hover-color-150-ease-in {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-hover-color-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-color-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-color-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-150-ease-in {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-focus-opacity-150-ease-in {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-focus-opacity-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-focus-opacity-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-focus-opacity-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-hover-opacity-150-ease-in {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-hover-opacity-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-hover-opacity-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-hover-opacity-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-active-opacity-150-ease-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-active-opacity-150-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-active-opacity-150-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-active-opacity-150-ease-out-easing);
+}
+
+.ds-motion-motion-component-active-opacity-150-ease-in {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-active-opacity-150-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-component-active-opacity-150-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-component-active-opacity-150-ease-in-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-250-ease-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-250-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-250-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-250-ease-out-easing);
+  transform: translateZ(0);
+}
+
+.ds-motion-motion-component-state-change-transform-250-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-250-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-250-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-250-ease-in-out-easing);
+  transform: translateZ(0);
+}
+
+.ds-motion-motion-component-state-change-all-500-cubic-bezier-165-84-44-1 {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-component-state-change-all-500-cubic-bezier-165-84-44-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-all-500-cubic-bezier-165-84-44-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-all-500-cubic-bezier-165-84-44-1-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-500-cubic-bezier-165-84-44-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-165-84-44-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-165-84-44-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-165-84-44-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-background-color-150-ease-in-out {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-background-color-150-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-background-color-150-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-background-color-150-ease-in-out-easing);
+}
+
+.ds-motion-motion-reveal-focus-background-color-150-ease-in-out {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-reveal-focus-background-color-150-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-focus-background-color-150-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-focus-background-color-150-ease-in-out-easing);
+}
+
+.ds-motion-motion-reveal-hover-background-color-150-ease-in-out {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-reveal-hover-background-color-150-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-hover-background-color-150-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-hover-background-color-150-ease-in-out-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-150-cubic-bezier-165-84-44-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-165-84-44-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-165-84-44-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-165-84-44-1-easing);
+}
+
+.ds-motion-motion-component-state-change-height-150-cubic-bezier-4-0-2-1 {
+  transition-property: height;
+  transition-duration: var(--ds-motion-motion-component-state-change-height-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-height-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-height-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-all-150-cubic-bezier-4-0-2-1 {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-component-state-change-all-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-all-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-all-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-color-150-cubic-bezier-4-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-component-state-change-color-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-color-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-color-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1 {
+  transition-property: background-color;
+  transition-duration: var(--ds-motion-motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1 {
+  transition-property: border-color;
+  transition-duration: var(--ds-motion-motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1 {
+  transition-property: text-decoration-color;
+  transition-duration: var(--ds-motion-motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-fill-150-cubic-bezier-4-0-2-1 {
+  transition-property: fill;
+  transition-duration: var(--ds-motion-motion-component-state-change-fill-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-fill-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-fill-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1 {
+  transition-property: stroke;
+  transition-duration: var(--ds-motion-motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-150-cubic-bezier-4-0-2-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-150-cubic-bezier-4-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-150-cubic-bezier-4-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-150-cubic-bezier-4-0-2-1-easing);
+}
+
+.ds-motion-motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out-easing);
+  transform: rgb(54, 54, 54);
+}
+
+.ds-motion-motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out-easing);
+  transform: rgb(54, 54, 54);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

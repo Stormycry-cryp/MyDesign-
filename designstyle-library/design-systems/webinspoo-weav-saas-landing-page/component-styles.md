@@ -12,7 +12,7 @@
 - a Html to Figma | rect=99.8x19@463.3,94 | display=inline; position=static; color=lab(84.9837 0.601262 -2.17986); border=0px solid lab(15.204 0 -0.00000596046); fontFamily=sanss; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Login | rect=34.8x20@1236.8,94 | display=block; position=static; color=rgb(255, 255, 255); border=0px solid lab(15.204 0 -0.00000596046); fontFamily=sanss; fontSize=14px; fontWeight=500; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 7, image count 40, document height 9670.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Logos OG images Blog Templates Html to Figma Login Sign up
@@ -57,7 +57,8 @@
 - div flex items-center gap-3 | rect=43x80@32,64 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid lab(15.204 0 -0.00000596046); fontFamily=sanss; fontSize=16px; fontWeight=400; lineHeight=24px; gap=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Logos OG images Blog Templates Html to Figma | rect=456.1x24@107,92 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid lab(15.204 0 -0.00000596046); fontFamily=sanss; fontSize=16px; fontWeight=400; lineHeight=24px; gap=32px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Login Sign up | rect=196.2x40@1211.8,84 | display=flex; position=static; color=rgb(255, 255, 255); border=0px solid lab(15.204 0 -0.00000596046); fontFamily=sanss; fontSize=16px; fontWeight=400; lineHeight=24px; gap=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- missing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Convert HTML to Figma with our new extension | Get extension ›

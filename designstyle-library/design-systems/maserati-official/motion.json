@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：color rgb(0, 0, 0) -> rgb(226, 226, 226)，500ms ease，hover 触发；样本 DISCOVER MORE",
+      "duration_ms": 500,
+      "easing": "ease",
+      "from": "rgb(0, 0, 0)",
+      "id": "motion-button-hover-color-500-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-6\"]",
+      "selector_role": "button",
+      "snippet": "{\"color\": \"rgb(226, 226, 226)\", \"transition\": \"0.5s\"}",
+      "source": "component-styles interaction evidence",
+      "to": "rgb(226, 226, 226)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：color rgb(0, 0, 0) -> rgb(231, 231, 231)，500ms ease，focus 触发；样本 DISCOVER MORE",
+      "duration_ms": 500,
+      "easing": "ease",
+      "from": "rgb(0, 0, 0)",
+      "id": "motion-button-focus-color-500-ease",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-6\"]",
+      "selector_role": "button",
+      "snippet": "{\"color\": \"rgb(231, 231, 231)\", \"transition\": \"0.5s\"}",
+      "source": "component-styles interaction evidence",
+      "to": "rgb(231, 231, 231)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：boxShadow none -> rgba(0, 0, 0, 0) 0px 0px 0px 0px，500ms ease，focus 触发；样本 BUILD YOUR OWN",
+      "duration_ms": 500,
+      "easing": "ease",
+      "from": "none",
+      "id": "motion-button-focus-boxshadow-500-ease",
+      "keyframes": [],
+      "property": "boxShadow",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-8\"]",
+      "selector_role": "button",
+      "snippet": "{\"boxShadow\": \"rgba(0, 0, 0, 0) 0px 0px 0px 0px\", \"transition\": \"0.5s\"}",
+      "source": "component-styles interaction evidence",
+      "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [],
+  "noise_filtered": [],
+  "omitted_incomplete": [],
+  "reference_path": "references/2026-06-05-maserati-official.md",
+  "slug": "maserati-official",
+  "source_motion_path": "missing",
+  "source_urls": [],
+  "title": "Maserati Official"
+}

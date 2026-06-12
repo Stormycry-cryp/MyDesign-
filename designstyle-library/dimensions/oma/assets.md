@@ -19,14 +19,13 @@
   - Navigation samples: OMA; OFFICE; WORK; SEARCH
   - Images observed: one full-bleed city/building hero image with tree silhouettes foregrounding the frame
   - Video observed: missing
-  - Overlays or fixed elements: no cookie wall or modal contamination in the accepted probe screenshot
 - Asset loading:
   - Framework/runtime hints: missing evidence from the successful probe beyond rendered DOM output
   - Public stylesheet/script URLs: missing evidence; formal capture timed out before resource sampling became reliable
   - CSS variables/tokens observed: missing evidence
   - Layout primitives observed: image-first hero with overlayed absolute-position slabs inferred from the screenshot
   - Component or class naming clues: missing evidence
-  - Component computed-style evidence: `assets/2026-06-08-oma-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-oma-component-styles.json`
   - Asset CDN and media loading patterns: missing evidence
 
 ## Inference

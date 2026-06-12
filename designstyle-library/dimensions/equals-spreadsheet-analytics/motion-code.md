@@ -1,42 +1,93 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: or:var(--accent-background);box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-unica);font-size:16px;font-weight:400;line-height:22px;text-decoration:none;curs, ,0,.1),0 2px 8px -2px rgba(0,0,0,.05),0 2px 10px -4px rgba(0,0,0,.14);transition:box-shadow .1s ease-out;overflow:hidden}.email-capture-group--full-width{width:100%}.email-capture-group:hover{box-shadow:0 0 0 .5px rgba(0,0,0,.18),0 2p, capture-group__input{width:220px;padding:8px 16px;padding-right:108px;transition:width .15s ease-out}.email-capture-group--skinny .email-capture-group__input:focus,.email-capture-group--skinny .email-capture-group__input:not(:plac
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: querySelectorAll("[data-animate-on-scroll]");if(e.length){const t=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(e.target.classList.add("mockups--animating"),t.unobserve(e.target))})},{threshold:.3});e.for, lectorAll(".mockup-analyst__chat--animated");if(e.length){const t=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(setTimeout(()=>{e.target.classList.add("animate-in")},300),t.unobserve(e.target))})},{thresh
-  - Timing/easing: ap:10px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(180deg,rgba(0,0,0,0) 75%,rgba(0,0,0,.04) 100%);background-color:var(--accent-background);box-shadow:0 2px 4px -2px rgba(, );box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-unica);font-size:16px;font-weight:400;line-height:22px;te, -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-unica);font-size:16px;font-weight:400;line-height:22px;text-decoration:none;curs, (0,0,0,.05),0 2px 10px -4px rgba(0,0,0,.14);transition:box-shadow .1s ease-out;overflow:hidden}.email-capture-group--full-width{width:100%}.email-capture-group:hover{box-shadow:0 0 0 .5px rgba(0,0,0,.18),0 2p, idth:220px;padding:8px 16px;padding-right:108px;transition:width .15s ease-out}.email-capture-group--skinny .email-capture-group__input:focus,.email-capture-group--skinny .email-capture-group__input:not(:plac
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: or:var(--accent-background);box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-; ,0,.1),0 2px 8px -2px rgba(0,0,0,.05),0 2px 10px -4px rgba(0,0,0,.14);transition:box-shadow .1s ease-out;overflow:hidden}.email-capture-group--full-width{width:100%}.email-capture-; capture-group__input{width:220px;padding:8px 16px;padding-right:108px;transition:width .15s ease-out}.email-capture-group--skinny .email-capture-group__input:focus,.email-capture-g; #fff;padding:12px 18px;border-radius:60px;border:none;box-shadow:none;transition:background-color .15s ease-out}.email-capture-group__button.button:hover{background-color:color-mix; lor:var(--brand-black);font-size:14px;text-decoration:none;opacity:.6;transition:opacity .1s ease-out}.footer__bottom-links a:hover{opacity:1;text-decoration:underline}.footer__lin; low:hidden;flex-shrink:0}.mockups--animating .mockup-writeback__table{animation:writebackTableBorder 5s ease .5s forwards}@keyframes writebackTableBorder{0%,30%{box-shadow:0 0 0 1p; tion:relative}.mockups--animating .mockup-writeback__column--animated{animation:writebackColumnExpand 5s cubic-bezier(.22,1,.36,1) .5s forwards}.mockup-writeback__column--animated:; ity:1}.mockups--animating .mockup-writeback__column--animated::before{animation:writebackBorderFadeIn 5s ease .5s forwards}@keyframes writebackBorderFadeIn{0%,100%{opacity:1}}.mock
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: or:var(--accent-background);box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-; ,0,.1),0 2px 8px -2px rgba(0,0,0,.05),0 2px 10px -4px rgba(0,0,0,.14);transition:box-shadow .1s ease-out;overflow:hidden}.email-capture-group--full-width{width:100%}.email-capture-; capture-group__input{width:220px;padding:8px 16px;padding-right:108px;transition:width .15s ease-out}.email-capture-group--skinny .email-capture-group__input:focus,.email-capture-g; #fff;padding:12px 18px;border-radius:60px;border:none;box-shadow:none;transition:background-color .15s ease-out}.email-capture-group__button.button:hover{background-color:color-mix; lor:var(--brand-black);font-size:14px;text-decoration:none;opacity:.6;transition:opacity .1s ease-out}.footer__bottom-links a:hover{opacity:1;text-decoration:underline}.footer__lin; low:hidden;flex-shrink:0}.mockups--animating .mockup-writeback__table{animation:writebackTableBorder 5s ease .5s forwards}@keyframes writebackTableBorder{0%,30%{box-shadow:0 0 0 1p; tion:relative}.mockups--animating .mockup-writeback__column--animated{animation:writebackColumnExpand 5s cubic-bezier(.22,1,.36,1) .5s forwards}.mockup-writeback__column--animated:; ity:1}.mockups--animating .mockup-writeback__column--animated::before{animation:writebackBorderFadeIn 5s ease .5s forwards}@keyframes writebackBorderFadeIn{0%,100%{opacity:1}}.mock; .mockup-writeback__column--animated .mockup-writeback__header-cell>*{animation:writebackHeaderFadeIn 5s cubic-bezier(.22,1,.36,1) .5s forwards}.mockup-writeback__column--animated .; writeback__column--animated .mockup-writeback__cell:nth-child(1) span{animation:writebackValueIn1 5s cubic-bezier(.34,1.2,.64,1) .5s forwards}.mockups--animating .mockup-writeback_
-  - Exact motion parameters: or:var(--accent-background);box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-; ,0,.1),0 2px 8px -2px rgba(0,0,0,.05),0 2px 10px -4px rgba(0,0,0,.14);transition:box-shadow .1s ease-out;overflow:hidden}.email-capture-group--full-width{width:100%}.email-capture-; capture-group__input{width:220px;padding:8px 16px;padding-right:108px;transition:width .15s ease-out}.email-capture-group--skinny .email-capture-group__input:focus,.email-capture-g; low:hidden;flex-shrink:0}.mockups--animating .mockup-writeback__table{animation:writebackTableBorder 5s ease .5s forwards}@keyframes writebackTableBorder{0%,30%{box-shadow:0 0 0 1p; tion:relative}.mockups--animating .mockup-writeback__column--animated{animation:writebackColumnExpand 5s cubic-bezier(.22,1,.36,1) .5s forwards}.mockup-writeback__column--animated:; ity:1}.mockups--animating .mockup-writeback__column--animated::before{animation:writebackBorderFadeIn 5s ease .5s forwards}@keyframes writebackBorderFadeIn{0%,100%{opacity:1}}.mock; ap:10px;border-radius:8px;border:1px solid rgba(0,0,0,.15);background:linear-gradient(180deg,rgba(0,0,0,0) 75%,rgba(0,0,0,.04) 100%);background-color:var(--accent-background);box-s; );box-shadow:0 2px 4px -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-unica);font-size:16px;font; -2px rgba(0,0,0,.18);transition:box-shadow .2s ease-in-out,border .2s ease-in-out;color:var(--accent-color);font-family:var(--font-unica);font-size:16px;font-weight:400;line-height; -size:14px;font-weight:400;line-height:24px;letter-spacing:.02em;text-transform:uppercase}.text-large{font-family:var(--font-unica);font-size:24px;font-weight:400;line-height:32px}
-  - JavaScript/runtime motion evidence: querySelectorAll("[data-animate-on-scroll]");if(e.length){const t=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(e.target.classList.add("mockups--animating"),t.unobs; lectorAll(".mockup-analyst__chat--animated");if(e.length){const t=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(setTimeout(()=>{e.target.classList.add("animate-in"); s(){var t,a=document.querySelectorAll("[data-build-card]");a.length&&"IntersectionObserver"in window&&(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matc; window.matchMedia("(prefers-reduced-motion: reduce)").matches||(t=new IntersectionObserver(function(e){e.forEach(function(t){var e,n=t.target.querySelector("video");n&&(t.isInterse
-  - Stylesheet evidence: https://equals.com/main-31418c658b.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://widget.intercom.io/widget/gghxukmi; https://www.googletagmanager.com/gtag/js?id=AW-11219996260&cx=c&gtm=4e6621h1; https://b2bjsstore.s3.us-west-2.amazonaws.com/b/4O7Z0HJ103NX/4O7Z0HJ103NX.js.gz; https://tag.unifyintent.com/v1/Rp1n4jApn7fF57y7f4tq8X/script.js; https://www.googletagmanager.com/gtag/js?id=G-9W105WVF7E; https://equals.com/js/free-email-domains-f576ae57be.js
-  - Interpreted motion tags: restrained, scroll-reveal
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection
-  - Public stylesheet/script URLs: https://equals.com/main-31418c658b.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://widget.intercom.io/widget/gghxukmi; https://www.googletagmanager.com/gtag/js?id=AW-11219996260&cx=c&gtm=4e6621h1; https://b2bjsstore.s3.us-west-2.amazonaws.com/b/4O7Z0HJ103NX/4O7Z0HJ103NX.js.gz; https://tag.unifyintent.com/v1/Rp1n4jApn7fF57y7f4tq8X/script.js; https://www.googletagmanager.com/gtag/js?id=G-9W105WVF7E; https://equals.com/js/free-email-domains-f576ae57be.js; https://import-cdn.default.com/sdk.js; https://equals.com/js/main-d5c667bd8f.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-equals-spreadsheet-analytics-component-styles.json`
-  - Asset CDN and media loading patterns: https://equals.com/images/home/hero-bg-228b623ac2.png; https://equals.com/images/logos/notion-e34afe301c.svg; https://equals.com/images/logos/intercom-f2589730e1.svg; https://equals.com/images/logos/pylon-26ade939f4.svg; https://equals.com/images/logos/11x-8f61da2197.svg; https://equals.com/images/logos/descript-03c4c41bbc.svg; https://equals.com/images/logos/bland-ae5101b8c7.svg; https://equals.com/images/logos/cursor-8a05fda75c.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 9; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | state-change | textDecoration | 100ms | 0ms | ease-out | 按钮state-change：textDecoration missing -> missing，100ms ease-out，state-change 触发；样本 Use cases |
+| button | state-change | backgroundColor | 150ms | 0ms | ease-out | 按钮state-change：backgroundColor rgb(176, 116, 206) -> missing，150ms ease-out，state-change 触发；样本 Get a demo |
+| button | state-change | backgroundColor | 150ms | 0ms | ease-out | 按钮state-change：backgroundColor rgb(176, 116, 206) -> missing，150ms ease-out，state-change 触发；样本 Get a demo |
+| button | state-change | opacity | 200ms | 0ms | ease-out | 按钮state-change：opacity 1 -> missing，200ms ease-out，state-change 触发；样本 RevOps Analyst at a Series C startup Build a daily pipeline pacing chart, create |
+| button | state-change | opacity | 200ms | 0ms | ease-out | 按钮state-change：opacity 0.55 -> missing，200ms ease-out，state-change 触发；样本 Founder at a Series A startup Build a weekly ARR dashboard with the key metrics  |
+| button | state-change | opacity | 200ms | 0ms | ease-out | 按钮state-change：opacity 0.55 -> missing，200ms ease-out，state-change 触发；样本 Head of RevOps at an AI company Which customers are dragging our AI margin into  |
+| button | state-change | backgroundColor | 150ms | 0ms | ease-out | 按钮state-change：backgroundColor rgb(176, 116, 206) -> missing，150ms ease-out，state-change 触发；样本 Get a demo |
+| form | state-change | boxShadow | 100ms | 0ms | ease-out | 表单state-change：boxShadow rgba(0, 0, 0, 0.18) 0px 0px 0px 0.5px -> missing，100ms ease-out，state-change 触发；样本 Get a demo |
+| form | state-change | width | 150ms | 0ms | ease-out | 表单state-change：width missing -> missing，150ms ease-out，state-change 触发；样本 ds-form-1 |
+| form | state-change | boxShadow | 100ms | 0ms | ease-out | 表单state-change：boxShadow rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.05) 0px 2px 8px -2px, rgba(0, 0, 0, 0.14) 0px 2px 10px -4px -> missing，100ms ease-out，state-change 触发；样本 Get a demo |
+| form | state-change | boxShadow | 100ms | 0ms | ease-out | 表单state-change：boxShadow rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.05) 0px 2px 8px -2px, rgba(0, 0, 0, 0.14) 0px 2px 10px -4px -> missing，100ms ease-out，state-change 触发；样本 Get a demo |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-state-change-textdecoration-100-ease-out
+
+```css
+{"transition": "text-decoration 0.1s ease-out"}
+```
+
+### motion-button-state-change-backgroundcolor-150-ease-out
+
+```css
+{"transition": "background-color 0.15s ease-out"}
+```
+
+### motion-button-state-change-backgroundcolor-150-ease-out
+
+```css
+{"transition": "background-color 0.15s ease-out"}
+```
+
+### motion-button-state-change-opacity-200-ease-out
+
+```css
+{"transition": "opacity 0.2s ease-out"}
+```
+
+### motion-button-state-change-opacity-200-ease-out
+
+```css
+{"transition": "opacity 0.2s ease-out"}
+```
+
+### motion-button-state-change-opacity-200-ease-out
+
+```css
+{"transition": "opacity 0.2s ease-out"}
+```
+
+### motion-button-state-change-backgroundcolor-150-ease-out
+
+```css
+{"transition": "background-color 0.15s ease-out"}
+```
+
+### motion-form-state-change-boxshadow-100-ease-out
+
+```css
+{"transition": "box-shadow 0.1s ease-out"}
+```
+
+### motion-form-state-change-width-150-ease-out
+
+```css
+{"transition": "width 0.15s ease-out"}
+```
+
+### motion-form-state-change-boxshadow-100-ease-out
+
+```css
+{"transition": "box-shadow 0.1s ease-out"}
+```
+
+### motion-form-state-change-boxshadow-100-ease-out
+
+```css
+{"transition": "box-shadow 0.1s ease-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

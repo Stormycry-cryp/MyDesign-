@@ -30,6 +30,18 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 294x33; 10x20; 1184x1400; 771x1178; 771x1178; 771x1178; 771x1178; 1184x1400; 1184x1400; 1184x1400.; source: Layout Geometry And Spacing
+- Observed border radii: 5px; 5px; 5px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}; source: Dimension And Ratio System
+- Observed media ratios: 294:33; 10:20; 1184:1400; 771:1178; 771:1178; 771:1178; 771:1178; 1184:1400; 1184:1400; 1184:1400; source: Dimension And Ratio System
+- component state-change motion uses 150ms linear; source: motion.json
+- component load motion uses 1000ms ease-in-out; source: motion.json
+- navigation state-change motion uses 250ms ease; source: motion.json
+- button hover motion uses 150ms linear; source: motion.json
+- button focus motion uses 150ms linear; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.uspsdelivers.com/2020-2021-generational-research-report/
 - Page title: The 2020-2021 USPS Generational Study | USPS Delivers
@@ -60,6 +72,12 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 A USPS® Generational Study; H2 4000 Consumers 4 Generations; navigation Home; Boomer; Gen X; Millennial; Gen Z; About; Summary; Download as PDF
+- Sentence rhythm: 93 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title The 2020-2021 USPS Generational Study | USPS Delivers; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(32, 32, 32):rgba(0, 0, 0, 0); HEADER:rgb(32, 32, 32):rgb(255, 255, 255); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(53, 115, 177):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgba(0, 0, 0, 0); A:rgb(32, 32, 32):rgb(255, 255, 255); H1:rgb(32, 32, 32):rgba(0, 0, 0, 0); H2:rgb(32, 32, 32):rgba(0, 0, 0, 0); H3:rgb(32, 32, 32):rgba(0, 0, 0, 0); BUTTON:rgb(32, 32, 32):rgb(255, 255, 255)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +89,12 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 - Media/card aspect stability: image natural sizes include 294x33; 10x20; 1184x1400; 771x1178; 771x1178; 771x1178; 771x1178; 1184x1400; 1184x1400; 1184x1400.
 - Observed border radii: 5px; 5px; 5px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 5px; 5px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Menu; Start Exploring; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}
 - Observed media ratios: 294:33; 10:20; 1184:1400; 771:1178; 771:1178; 771:1178; 771:1178; 1184:1400; 1184:1400; 1184:1400
@@ -90,20 +114,19 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-11-usps-delivers-generational-report-component-styles.json`
 - Asset CDN and media loading patterns: https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/media/logo.svg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/timeline_arrow_r.png; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_bg.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide1.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide2.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide3.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide4.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_top.gif
 
 ## Motion
-- Page transitions: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-, ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[dat, ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-ao
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: .aos-animate{pointer-events:auto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-e, uto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-eas, r],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-, on:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-ao, ,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; os][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{trans; data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="100"].aos-animate,body[data-aos-delay="100"] [data-ao; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-- Public CSS/JS motion snippets: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; os][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{trans; data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="100"].aos-animate,body[data-aos-delay="100"] [data-ao; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an; on-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-coun; -direction,normal);animation-duration:var(--fa-animation-duration,1s);animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-timing-function:var(--fa-anim
 - Exact motion parameters: -aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transi; ][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos]; ay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{t; ull-right{float:right;margin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-dir; argin-left:var(--fa-pull-margin,.3em)}.fa-beat{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animatio; t{animation-name:fa-beat;animation-delay:var(--fa-animation-delay,0s);animation-direction:var(--fa-animation-direction,normal);animation-duration:var(--fa-animation-duration,1s);an; .aos-animate{pointer-events:auto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data; uto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easi; r],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]; no-js) [data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;-webkit-transform:none;transform:none}html:not(.no-js) [data-aos=fade-up]{-webkit-transform:translate3d(0,100px,0);tra
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/slick.css; https://www.uspsdelivers.com/2020-2021-generational-research-report/css/vendor/hamburgers.min.css; https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css; https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css; https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/style.css
@@ -113,7 +136,7 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 ## Interaction And Components
 - Navigation: Home; Boomer; Gen X; Millennial; Gen Z; About; Summary; Download as PDF
 - Buttons/links: Menu; Start Exploring
-- Computed component styles: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
+- Computed component styles: `assets/2026-06-11-usps-delivers-generational-report-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +165,4 @@ USPS Delivers Generational Report is captured as a report, data, editorial, rese
 - Reuse value: useful for longform report data editorial page if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-11-usps-delivers-generational-report-motion.json`

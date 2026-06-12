@@ -30,6 +30,19 @@ Pagani Official is captured as a luxury automotive, hypercar brand reference for
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 0x0; 18x18; 18x18; 1440x810; 950x350; 1440x810; 178x63; 1440x810; 1440x810; 1440x810.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}; source: Dimension And Ratio System
+- Observed media ratios: 18:18; 18:18; 1440:810; 950:350; 1440:810; 178:63; 1440:810; 1440:810; 1440:810; 1440:810; source: Dimension And Ratio System
+- component load motion uses 1000ms linear; source: motion.json
+- component load motion uses 2000ms linear; source: motion.json
+- component load motion uses 1000ms steps(8); source: motion.json
+- component state-change motion uses 400ms ease; source: motion.json
+- reveal viewport motion uses 2000ms ease-in-out; source: motion.json
+- component state-change motion uses 1000ms cubic-bezier(.4,0,.2,1); source: motion.json
+- component state-change motion uses 1350ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.pagani.com/
 - Page title: Pagani
@@ -60,6 +73,12 @@ Pagani Official is captured as a luxury automotive, hypercar brand reference for
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 ACT THREE, SCENE TWO: PAGANI UTOPIA ROADSTER.; H2 DISCOVER MORE | PRESS RELEASE; navigation HOME; HISTORY; HYPERCARS; DEALERS; ARTE IN PISTA; PAGANI OFFICINA; VISIT US; CONTACT; JOB & STAGE OPPORTUNITIES; PRESS ROOM; CALENDARIO PAGANI; PAGANI STORE
+- Sentence rhythm: 104 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Pagani; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(255, 255, 255):rgb(0, 0, 0); HEADER:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0.4); SECTION:rgb(255, 255, 255):rgb(0, 0, 0); H1:rgb(255, 255, 255):rgba(0, 0, 0, 0); H2:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); SECTION:rgb(255, 255, 255):rgb(0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0.4); SECTION:rgb(255, 255, 255):rgb(0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +90,12 @@ Pagani Official is captured as a luxury automotive, hypercar brand reference for
 - Media/card aspect stability: image natural sizes include 0x0; 18x18; 18x18; 1440x810; 950x350; 1440x810; 178x63; 1440x810; 1440x810; 1440x810.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons PAST; PRESENT; FUTURE; BACK TO HISTORY OF A DREAM; BACK TO HISTORY OF A DREAM; BACK TO HISTORY OF A DREAM; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
 - Observed media ratios: 18:18; 18:18; 1440:810; 950:350; 1440:810; 178:63; 1440:810; 1440:810; 1440:810; 1440:810
@@ -86,34 +111,30 @@ Pagani Official is captured as a luxury automotive, hypercar brand reference for
 
 ## Code Surface
 - Framework/runtime hints: no direct runtime hint found
-- Public stylesheet/script URLs: https://www.pagani.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4; https://www.pagani.com/app/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6; https://www.pagani.com/app/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1; https://www.pagani.com/app/themes/pagani/assets/styles/vendors.css?ver=6.9.4; https://www.pagani.com/app/themes/pagani/assets/styles/main.css?ver=1.2.6; https://www.pagani.com/app/themes/pagani/assets/styles/puro.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/job.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/override.css?ver=6.9.4; https://consentcdn.cookiebot.com/consentconfig/966c7ba9-6f88-4664-80db-dbd8a2ce5bb8/state.js; https://consent.cookiebot.com/Scripts/widgetIcon.min.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.pagani.com/` when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-05-pagani-official-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-pagani-official-component-styles.json`
 - Asset CDN and media loading patterns: data:,; data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF; data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF; https://www.pagani.com/app/uploads/2024/07/Pagani-Utopia-Roadster-Home-1440x810-1.png; https://www.pagani.com/app/uploads/2024/07/Utopia-Roadster-WEB-Logo-1.png; https://www.pagani.com/app/uploads/2016/11/home-history-2.jpg; https://www.pagani.com/app/themes/pagani/assets/images/signature-white.png; https://www.pagani.com/app/uploads/2016/11/02-la-sfida@05x-2.jpg
-
+- Public stylesheet/script URLs: https://www.pagani.com/app/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6; https://www.pagani.com/app/themes/pagani/assets/styles/vendors.css?ver=7.0; https://www.pagani.com/app/themes/pagani/assets/styles/main.css?ver=1.2.6; https://www.pagani.com/app/themes/pagani/assets/styles/job.css?ver=1.2
 ## Motion
-- Page transitions: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-ou, >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;fon, 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: reference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-ou, ing .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;fon, ry:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,#000000b3,#0000004d 70%,#0000);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;ov, e{backdrop-filter:blur(3px);content:"";height:100%;-webkit-mask-image:linear-gradient(0deg,#000 20%,#0000);mask-image:linear-gradient(0deg,#000 20%,#0000);max-height:40%;pointer-events:none}.wp-block-galler, 0%;-webkit-mask-image:linear-gradient(0deg,#000 20%,#0000);mask-image:linear-gradient(0deg,#000 20%,#0000);max-height:40%;pointer-events:none}.wp-block-gallery.has-nested-images figure.wp-block-image figcap
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; p-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:; h__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn
 - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-- Public CSS/JS motion snippets: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; p-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:; h__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn; mation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not; ty .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation
-- Exact motion parameters: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn; reference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transit; ing .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;; ry:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,#000000b3,#0000004d 70%,#0000);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;m; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transform:rotate(45deg)}@media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://www.pagani.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4; https://www.pagani.com/app/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6; https://www.pagani.com/app/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1; https://www.pagani.com/app/themes/pagani/assets/styles/vendors.css?ver=6.9.4; https://www.pagani.com/app/themes/pagani/assets/styles/main.css?ver=1.2.6; https://www.pagani.com/app/themes/pagani/assets/styles/puro.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/job.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/override.css?ver=6.9.4
 - Interpreted motion tags: hero media, scroll storytelling, hover states
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-
+- Exact motion parameters: component load animation 1000ms linear; component load animation 2000ms linear; component load animation 1000ms steps(8); component state-change opacity 400ms ease; component state-change visibility 400ms ease; reveal viewport opacity 2000ms ease-in-out; component state-change transform 1000ms cubic-bezier(.4,0,.2,1); component state-change opacity 1350ms ease
 ## Interaction And Components
 - Navigation: HOME; HISTORY; HYPERCARS; DEALERS; ARTE IN PISTA; PAGANI OFFICINA; VISIT US; CONTACT; JOB & STAGE OPPORTUNITIES; PRESS ROOM; CALENDARIO PAGANI; PAGANI STORE; LEGAL & COMPLIANCE; INSTAGRAM; FACEBOOK; X
 - Buttons/links: PAST; PRESENT; FUTURE; BACK TO HISTORY OF A DREAM; BACK TO HISTORY OF A DREAM; BACK TO HISTORY OF A DREAM
-- Computed component styles: `assets/2026-06-05-pagani-official-component-styles.json`
+- Computed component styles: `assets/2026-06-12-pagani-official-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +163,4 @@ Pagani Official is captured as a luxury automotive, hypercar brand reference for
 - Reuse value: useful for official brand homepage if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-pagani-official-motion.json`

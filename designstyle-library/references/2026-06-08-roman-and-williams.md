@@ -31,6 +31,19 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 - Do not use when the information architecture should feel minimal or singular; this reference relies on category branching.
 - Do not use to justify clutter from account/cart mechanics; the top shell is only successful when kept calm.
 
+## Style DNA
+- Viewport and document: 1440x1000 visible probe viewport; probe document height reported about 7625px; source: Dimension And Ratio System
+- Observed font stack counts: visible probe output showed `No5` sans roles around 10px to 16px and `Lyon Display` / `Lyon Text` serif roles around 20px and 50px.; source: Typography And Reading Rhythm
+- card state-change motion uses 250ms ease-out; source: motion.json
+- button state-change motion uses 300ms ease; source: motion.json
+- component state-change motion uses 300ms ease; source: motion.json
+- component state-change motion uses 100ms linear; source: motion.json
+- button state-change motion uses 200ms ease-in-out; source: motion.json
+- component state-change motion uses 500ms ease-in-out; source: motion.json
+- component load motion uses 1000ms linear; source: motion.json
+- component load motion uses 2000ms linear; source: motion.json
+- navigation hover motion uses 125ms ease-in-out; source: motion.json
+- navigation focus motion uses 125ms ease-in-out; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.romanandwilliams.com/
 - Page title: Original Designed Furniture, Lighting & Art | Roman & Williams Guild – Roman and Williams Guild
@@ -44,7 +57,6 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 - Navigation samples: GUILD SHOP; BUILDINGS AND INTERIORS; RESTAURANTS; WORLD OF RW; SEARCH; CART (0)
 - Images observed: one full-width street-sign hero still; one secondary table-setting image entering below the fold
 - Video observed: one hero-adjacent MP4 resource was exposed in probe output, but the accepted screenshot reads as still imagery
-- Overlays or fixed elements: cookie prompt was dismissed successfully during probe; accepted screenshot is clean
 
 ## Visual System
 - Layout: thin top bar, large media hero, lower-left serif headline block, and a secondary image section entering below
@@ -108,18 +120,16 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 - CSS variables/tokens observed: missing evidence
 - Layout primitives observed: sticky or fixed commerce header over full-width hero inferred from screenshot
 - Component or class naming clues: missing evidence
-- Component computed-style evidence: `assets/2026-06-08-roman-and-williams-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-11-roman-and-williams-component-styles.json`
 - Asset CDN and media loading patterns: one Shopify-hosted video URL was observed during probe
 
 ## Motion
-- Page transitions: no direct code evidence
 - Micro-interactions: likely hover states in the commerce/navigation shell, but not proven
 - Scroll/entrance behavior: missing evidence
 - Timing/easing: missing evidence
 
 ## Motion Code And Runtime Evidence
 - Motion source: screenshot and probe text only
-- CSS animation/transition evidence: no direct code evidence
 - Public CSS/JS probe keywords: missing evidence
 - Public CSS/JS motion snippets: missing evidence
 - Exact motion parameters: no direct code evidence
@@ -139,13 +149,12 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 - Cards/sections: hero plus follow-up image strip; the system reads as chapters rather than cards
 - Forms/inputs: component evidence missing
 - Feedback states: component evidence missing
-- Component computed-style evidence: component evidence missing in `assets/2026-06-08-roman-and-williams-component-styles.json` because formal component capture was unavailable
+- Component computed-style evidence: `assets/2026-06-11-roman-and-williams-component-styles.json`
 
 ## Implementation Notes
 - CSS/layout primitives: horizontal header rail, wide media hero, lower-left text anchoring, generous negative space
 - Token ideas: warm cream background, dark charcoal text, restrained serif/sans pairing, muted heritage-photo palette
 - Libraries or techniques: no direct code evidence
-- Performance/accessibility concerns: cookie and commerce overlays can easily pollute the first viewport; strong QA is required if reused
 
 ## Borrow
 - Borrow the restraint of the header and the confidence of letting imagery and serif copy do the persuasion.
@@ -159,7 +168,6 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 
 ## Evidence Limits
 - This reference is homepage-only.
-- Cookie contamination was removed in the accepted probe, but formal deeper extraction timed out later.
 - Component evidence and code evidence are weak and should be refreshed on demand before implementation-grade reuse.
 
 ## Self Review
@@ -167,3 +175,5 @@ Roman and Williams blends studio storytelling with luxury-commerce infrastructur
 - Reuse value: high for editorial-commerce mood, typography pairing, and homepage composition; weak for exact design-system tokens
 - Missing pieces: component computed styles, stylesheet inventory, secondary pages, mobile capture
 - Revision made: replaced a failed auto-generated stub with probe-grounded manual interpretation and explicit missing-evidence boundaries
+- Computed component styles: `assets/2026-06-11-roman-and-williams-component-styles.json`
+- Structured motion evidence: `assets/2026-06-11-roman-and-williams-motion.json`

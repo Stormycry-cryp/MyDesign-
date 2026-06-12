@@ -1,42 +1,128 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: rapper[data-v-ea99d2f9]{height:100%;opacity:0;transform:translateZ(0);transition:opacity .5s;width:100%}.hero.is-loaded .hero-wrapper[data-v-ea99d2f9]{opacity:1}.hero video[data-v-ea99d2f9]{height:100%;-o-object-fit:cover;, 0;opacity:1;position:absolute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cursor:pointer;display:flex;justify-content:center;line-height:0;posi, bp-3";margin-bottom:5px}}img[data-v-ee8f4019]{display:block;opacity:0;transition:opacity .2s;width:100%}img.has-placeholder.lazyloaded[data-v-ee8f4019],img:not(.has-placeholder).lazyloaded[data-v-ee8f4019]{opacity:1}.atom-
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: solute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cursor:pointer;display:flex;justify-content:center;line-height:0;posi, 65;pointer-events:none;position:absolute;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);width:100%;z-index:1}.atom-video__hover-cue.is-playing[data-v-826e8a30]{opacity:0}.atom-video__audio[data-v-826e8a30],.atom-video, t:20px;padding:3px 10px;text-transform:uppercase;transition:color .3s ease,background-color .3s ease,border-color .3s ease,opacity .3s ease;z-index:3}.asset-button:hover{background:#000;color:#fff}.asset-, xt-transform:uppercase;transition:color .3s ease,background-color .3s ease,border-color .3s ease,opacity .3s ease;z-index:3}.asset-button:hover{background:#000;color:#fff}.asset-button svg{height:12px;mar, ;transition:color .3s ease,background-color .3s ease,border-color .3s ease,opacity .3s ease;z-index:3}.asset-button:hover{background:#000;color:#fff}.asset-button svg{height:12px;margin:0;width:12px}.Asse
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: rapper[data-v-ea99d2f9]{height:100%;opacity:0;transform:translateZ(0);transition:opacity .5s;width:100%}.hero.is-loaded .hero-wrapper[data-v-ea99d2f9]{opacity:1}.hero video[data-v-; 0;opacity:1;position:absolute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cur; bp-3";margin-bottom:5px}}img[data-v-ee8f4019]{display:block;opacity:0;transition:opacity .2s;width:100%}img.has-placeholder.lazyloaded[data-v-ee8f4019],img:not(.has-placeholder).la; data-v-620bbac1] svg polygon,.atom-icon[data-v-620bbac1] svg polyline{transition:stroke .5s,fill .5s}.atom-video__audio[data-v-826e8a30]{padding:9px 15px 10.5px}@media (min-width:1; isplay:none}.atom-video .atom-video__video[data-v-826e8a30]{opacity:0;transition:opacity var(--animation-asset-duration);transition-delay:var(--animation-asset-delay);transition-ti; lor-cycle-pastel)!important}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0; rtant}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top; -v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top:0;width:100%;z-index:0}.Asset.is-l
-  - Public CSS/JS probe keywords: animation, easing, keyframes, swiper, transform, transition
-  - Public CSS/JS motion snippets: rapper[data-v-ea99d2f9]{height:100%;opacity:0;transform:translateZ(0);transition:opacity .5s;width:100%}.hero.is-loaded .hero-wrapper[data-v-ea99d2f9]{opacity:1}.hero video[data-v-; 0;opacity:1;position:absolute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cur; bp-3";margin-bottom:5px}}img[data-v-ee8f4019]{display:block;opacity:0;transition:opacity .2s;width:100%}img.has-placeholder.lazyloaded[data-v-ee8f4019],img:not(.has-placeholder).la; data-v-620bbac1] svg polygon,.atom-icon[data-v-620bbac1] svg polyline{transition:stroke .5s,fill .5s}.atom-video__audio[data-v-826e8a30]{padding:9px 15px 10.5px}@media (min-width:1; isplay:none}.atom-video .atom-video__video[data-v-826e8a30]{opacity:0;transition:opacity var(--animation-asset-duration);transition-delay:var(--animation-asset-delay);transition-ti; lor-cycle-pastel)!important}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0; rtant}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top; -v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top:0;width:100%;z-index:0}.Asset.is-l; th:100%;z-index:0}.Asset.is-loaded .Asset__inner__bg[data-v-7d0a79e4]{animation:none}@media (hover:hover){.Asset .subscribe-swap:hover .swap-cell--pro[data-v-7d0a79e4]{grid-templat; a79e4] figure{height:50%;padding-bottom:50%}}.loader[data-v-f336a3ee]{animation:spin-f336a3ee 1s linear infinite}@keyframes spin-f336a3ee{0%{transform:rotate(0)}to{transform:rotate
-  - Exact motion parameters: rapper[data-v-ea99d2f9]{height:100%;opacity:0;transform:translateZ(0);transition:opacity .5s;width:100%}.hero.is-loaded .hero-wrapper[data-v-ea99d2f9]{opacity:1}.hero video[data-v-; 0;opacity:1;position:absolute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cur; bp-3";margin-bottom:5px}}img[data-v-ee8f4019]{display:block;opacity:0;transition:opacity .2s;width:100%}img.has-placeholder.lazyloaded[data-v-ee8f4019],img:not(.has-placeholder).la; lor-cycle-pastel)!important}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0; rtant}.Asset .Asset__inner__bg[data-v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top; -v-7d0a79e4]{animation-duration:1s;animation-iteration-count:infinite;animation-name:bg-color-pulse;aspect-ratio:1/1;left:0;position:absolute;top:0;width:100%;z-index:0}.Asset.is-l; solute;right:-3.5em;text-decoration:none;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);z-index:2}.close-button[data-v-e4c2ff32]{align-items:center;cursor:pointer;display:fle; 65;pointer-events:none;position:absolute;top:0;transition:opacity .5s cubic-bezier(.5,0,.5,1);width:100%;z-index:1}.atom-video__hover-cue.is-playing[data-v-826e8a30]{opacity:0}.ato; t:20px;padding:3px 10px;text-transform:uppercase;transition:color .3s ease,background-color .3s ease,border-color .3s ease,opacity .3s ease;z-index:3}.asset-button:hover{background; ;z-index:2}.hero .hero-wrapper[data-v-ea99d2f9]{height:100%;opacity:0;transform:translateZ(0);transition:opacity .5s;width:100%}.hero.is-loaded .hero-wrapper[data-v-ea99d2f9]{opaci
-  - JavaScript/runtime motion evidence: v-69b22fe6]{width:100%}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-slide{display:flex;justify-content:center}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-paginat; justify-content:center}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-pagination{bottom:15px;color:#fff;position:absolute}.modal-surface__body__swiper[data-v-69b22fe6] .swip; #fff;position:absolute}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-pagination .swiper-pagination-bullet{background-color:#fff;border:1px solid #fff;height:6px;opacity:1;w; ute}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-pagination .swiper-pagination-bullet{background-color:#fff;border:1px solid #fff;height:6px;opacity:1;width:6px}.modal-sur; px;opacity:1;width:6px}.modal-surface__body__swiper[data-v-69b22fe6] .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:transparent}.moda
-  - Stylesheet evidence: https://www.livesurface.com/_nuxt/entry.Bhd9AIm6.css; https://www.livesurface.com/_nuxt/Modal.DutWAsjD.css; https://www.livesurface.com/_nuxt/Loader.BhV--E4b.css; https://www.livesurface.com/_nuxt/swiper.CVq14Nx5.css; https://www.livesurface.com/_nuxt/AtomDropdown.B6k2X5x_.css; https://www.livesurface.com/_nuxt/FieldResponse.DPFH7vsn.css; https://www.livesurface.com/_nuxt/mainContent.CKsAyuk6.css; https://www.livesurface.com/_nuxt/SurfacesGrid.DA7Ln4gY.css
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: swiper
-  - Public stylesheet/script URLs: https://www.livesurface.com/_nuxt/entry.Bhd9AIm6.css; https://www.livesurface.com/_nuxt/Modal.DutWAsjD.css; https://www.livesurface.com/_nuxt/Loader.BhV--E4b.css; https://www.livesurface.com/_nuxt/swiper.CVq14Nx5.css; https://www.livesurface.com/_nuxt/AtomDropdown.B6k2X5x_.css; https://www.livesurface.com/_nuxt/FieldResponse.DPFH7vsn.css; https://www.livesurface.com/_nuxt/mainContent.CKsAyuk6.css; https://www.livesurface.com/_nuxt/SurfacesGrid.DA7Ln4gY.css; https://www.livesurface.com/_nuxt/default.BRDYksKs.css; https://www.google-analytics.com/analytics.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-livesurface-product-software-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.craft.livesurface.com/LiveSurface/Static/_placeholder/Store-UI-Wide.jpg; https://cdn.craft.livesurface.com/LiveSurface/SurfacesArtwork/_placeholder/Materials-Book-5220-0-Small.jpeg; https://cdn.craft.livesurface.com/LiveSurface/SurfacesArtwork/_placeholder/Materials-Book-5220-4-Small.jpeg; https://cdn.craft.livesurface.com/LiveSurface/SurfacesArtwork/_placeholder/Materials-Book-5220-3-Small.jpeg; https://cdn.craft.livesurface.com/LiveSurface/Materials/_placeholder/Material-Fabric-Big.jpg; https://cdn.craft.livesurface.com/LiveSurface/Materials/_placeholder/Material-Bumpy.jpg; https://cdn.craft.livesurface.com/LiveSurface/Materials/_placeholder/Material-Fluorescent.jpg; https://cdn.craft.livesurface.com/LiveSurface/Materials/_placeholder/Material-Glossy.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 9 and scripts 6; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | color | 500ms | 0ms | cubic-bezier(0.5, 0, 0.5, 1) | 导航hover：color rgb(255, 255, 255) -> rgb(255, 169, 129)，500ms cubic-bezier(0.5, 0, 0.5, 1)，hover 触发；样本 LiveSurface |
+| navigation | focus | color | 500ms | 0ms | cubic-bezier(0.5, 0, 0.5, 1) | 导航focus：color rgb(255, 255, 255) -> rgb(255, 169, 129)，500ms cubic-bezier(0.5, 0, 0.5, 1)，focus 触发；样本 LiveSurface |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 169, 129)，250ms ease，hover 触发；样本 Home |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 169, 129)，250ms ease，focus 触发；样本 Home |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，hover 触发；样本 Surfaces |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，focus 触发；样本 Surfaces |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，hover 触发；样本 Apps |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 183, 150)，250ms ease，focus 触发；样本 Apps |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 189, 159)，250ms ease，hover 触发；样本 Plans |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 184, 150)，250ms ease，focus 触发；样本 Plans |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，hover 触发；样本 Learn |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，focus 触发；样本 Learn |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 189, 158)，250ms ease，hover 触发；样本 Account |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 183, 150)，250ms ease，focus 触发；样本 Account |
+| navigation | hover | color | 250ms | 0ms | ease | 导航hover：color rgb(255, 255, 255) -> rgb(255, 169, 129)，250ms ease，hover 触发；样本 Download |
+| navigation | focus | color | 250ms | 0ms | ease | 导航focus：color rgb(255, 255, 255) -> rgb(255, 169, 129)，250ms ease，focus 触发；样本 Download |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-color-500-cubic-bezier-0-5-0-0-5-1
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1)"}
+```
+
+### motion-navigation-focus-color-500-cubic-bezier-0-5-0-0-5-1
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1)"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 183, 150)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 159)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 184, 150)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 189, 158)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 183, 150)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-hover-color-250-ease
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "color 0.25s"}
+```
+
+### motion-navigation-focus-color-250-ease
+
+```css
+{"color": "rgb(255, 169, 129)", "transition": "color 0.25s"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

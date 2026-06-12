@@ -1,0 +1,22 @@
+.ds-motion-motion-navigation-hover-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-hover-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-easing);
+  transform: rgba(255, 255, 255, 0.08);
+}
+
+.ds-motion-motion-navigation-focus-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-focus-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-backgroundcolor-100-cubic-bezier-0-25-0-46-0-45-0-94-easing);
+  transform: rgba(255, 255, 255, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

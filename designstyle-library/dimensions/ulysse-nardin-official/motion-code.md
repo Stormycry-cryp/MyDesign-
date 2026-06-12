@@ -1,42 +1,72 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.swiper-android .swipe, 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.swiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translateZ(0)}.swiper-ho, }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight,.swiper-autoheight .swiper-slide{height:auto}.sw
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(270deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(90deg,rgba(0, rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(0deg,rgba(0,0,0, ),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(180deg,rgba(0, gba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;ma, h-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@k
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; th:var(--swiper-navigation-size);height:var(--swiper-navigation-size);transition:background-color .3s cubic-bezier(0,0,.2,1);border-radius:1000px;top:auto;bottom:3px}.swiper-with-c; -preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opa; }.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-be
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Public CSS/JS motion snippets: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; th:var(--swiper-navigation-size);height:var(--swiper-navigation-size);transition:background-color .3s cubic-bezier(0,0,.2,1);border-radius:1000px;top:auto;bottom:3px}.swiper-with-c; -preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opa; }.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-be; e-out .5s ease-in-out}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes scrolling-left{0%{transform:translateZ(0)}to{tr; slateZ(0)}to{transform:translate3d(-50%,0,0)}}.animate-scrolling-left{animation:scrolling-left 40s linear infinite}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animati
-  - Exact motion parameters: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; -preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opa; }.animate-fade-in{animation:fade-in .5s ease-in-out}.animate-fade-out{animation:fade-out .5s ease-in-out}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-be; rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(270deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:li; rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linea; ),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:lin; wiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translateZ(0)}.swiper-horizontal{touch-action:pan-y}.swiper-vertical{touch-action:pan-x}.swiper-slid
-  - JavaScript/runtime motion evidence: @font-face{font-family:swiper-icons;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNA; 0AO8EFTQAA") format("woff");font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}:host{position:relative;display:block;margin-left:auto;margin-right:auto;z-index:1}; :relative;display:block;margin-left:auto;margin-right:auto;z-index:1}.swiper{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:; ve;overflow:hidden;list-style:none;padding:0;z-index:1;display:block}.swiper-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%; n;list-style:none;padding:0;z-index:1;display:block}.swiper-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;displa
-  - Stylesheet evidence: https://www.ulysse-nardin.com/_next/static/css/8a350a26856f95ce.css; https://www.ulysse-nardin.com/_next/static/css/57f604062a4a04c6.css; https://www.ulysse-nardin.com/_next/static/css/5e8f2f09f6befff1.css; https://www.ulysse-nardin.com/_next/static/css/ed8c27a7a8c07a8a.css; https://www.ulysse-nardin.com/_next/static/css/7ce9a80aa490a2e9.css; https://www.ulysse-nardin.com/_next/static/css/bbe21c7da74ddccb.css; https://www.ulysse-nardin.com/_next/static/css/aaf2eb39d01c9cc6.css; https://www.ulysse-nardin.com/_next/static/css/e6306a47adc5e5c9.css
-  - Interpreted motion tags: hero media, hover states, menu transitions
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: swiper
-  - Public stylesheet/script URLs: https://www.ulysse-nardin.com/_next/static/css/8a350a26856f95ce.css; https://www.ulysse-nardin.com/_next/static/css/57f604062a4a04c6.css; https://www.ulysse-nardin.com/_next/static/css/5e8f2f09f6befff1.css; https://www.ulysse-nardin.com/_next/static/css/ed8c27a7a8c07a8a.css; https://www.ulysse-nardin.com/_next/static/css/7ce9a80aa490a2e9.css; https://www.ulysse-nardin.com/_next/static/css/bbe21c7da74ddccb.css; https://www.ulysse-nardin.com/_next/static/css/aaf2eb39d01c9cc6.css; https://www.ulysse-nardin.com/_next/static/css/e6306a47adc5e5c9.css; https://www.ulysse-nardin.com/_next/static/css/2e85c571399b9690.css; https://www.ulysse-nardin.com/_next/static/css/23a81e2004653821.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.ulysse-nardin.com/en-us` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-ulysse-nardin-official-component-styles.json`
-  - Asset CDN and media loading patterns: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FDSC08511_2.jpg&w=742&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F2403-500-3A-3B-features-2.jpg&w=2400&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F1725-400-3A-3A-features-2.jpg&w=2400&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F1183-170-2B-3A-features-1.jpg&w=2400&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F1183-310LE-3AE-175-1B-features-3.jpg&w=2400&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F2403-500-3A-3B-features-2.jpg&w=2400&q=75; https://www.ulysse-nardin.com/_next/image?url=https%3A%2F%2Fapi.ulysse-nardin.com%2Fmedia%2Fwysiwyg%2FHomepage%2FCollections%2F1725-400-3A-3A-features-2.jpg&w=2400&q=75
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 18 and scripts 22; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | color | 300ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 导航hover：color rgb(255, 255, 255) -> rgb(0, 16, 56)，300ms cubic-bezier(0, 0, 0.2, 1)，hover 触发；样本 Watches About Us Services Boutiques |
+| navigation | focus | color | 300ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 导航focus：color rgb(255, 255, 255) -> rgb(0, 16, 56)，300ms cubic-bezier(0, 0, 0.2, 1)，focus 触发；样本 Watches About Us Services Boutiques |
+| button | hover | color | 200ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 按钮hover：color rgb(255, 255, 255) -> rgb(27, 41, 77)，200ms cubic-bezier(0, 0, 0.2, 1)，hover 触发；样本 Watches |
+| button | focus | color | 200ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 按钮focus：color rgb(255, 255, 255) -> rgb(27, 41, 77)，200ms cubic-bezier(0, 0, 0.2, 1)，focus 触发；样本 Watches |
+| button | hover | color | 200ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 按钮hover：color rgb(255, 255, 255) -> rgb(0, 16, 56)，200ms cubic-bezier(0, 0, 0.2, 1)，hover 触发；样本 About Us |
+| button | focus | color | 200ms | 0ms | cubic-bezier(0, 0, 0.2, 1) | 按钮focus：color rgb(255, 255, 255) -> rgb(0, 16, 56)，200ms cubic-bezier(0, 0, 0.2, 1)，focus 触发；样本 About Us |
+| button | state-change | color | 300ms | 0ms | linear | 按钮state-change：color rgb(255, 255, 255) -> missing，300ms linear，state-change 触发；样本 Explore the universe |
+| button | state-change | color | 300ms | 0ms | linear | 按钮state-change：color rgb(0, 0, 0) -> missing，300ms linear，state-change 触发；样本 Find a store |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-color-300-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(0, 16, 56)", "transition": "--header-background-color 0.3s cubic-bezier(0, 0, 0.2, 1), --header-text-color 0.3s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-color-300-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(0, 16, 56)", "transition": "--header-background-color 0.3s cubic-bezier(0, 0, 0.2, 1), --header-text-color 0.3s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-button-hover-color-200-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(27, 41, 77)", "transition": "0.2s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-button-focus-color-200-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(27, 41, 77)", "transition": "0.2s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-button-hover-color-200-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(0, 16, 56)", "transition": "0.2s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-button-focus-color-200-cubic-bezier-0-0-0-2-1
+
+```css
+{"color": "rgb(0, 16, 56)", "transition": "0.2s cubic-bezier(0, 0, 0.2, 1)"}
+```
+
+### motion-button-state-change-color-300-linear
+
+```css
+{"transition": "color 0.3s linear, border 0.2s linear, background-position 0.3s linear"}
+```
+
+### motion-button-state-change-color-300-linear
+
+```css
+{"transition": "color 0.3s linear, border 0.2s linear, background-position 0.3s linear"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

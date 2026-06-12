@@ -1,42 +1,310 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: l,once:!0},t&&(this.options={...this.options,...t}),this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:t.rootMargin,threshold:t.threshold}),this.app=t.app||null,this}add(t,o){this.disconnec, ,$!==void 0&&(document.body.style.overflow=$,$=void 0)},Oe=()=>window.requestAnimationFrame(()=>{const e=document.documentElement,t=document.body;if(L===void 0){I={...e.style},L={...t.style};const{scrollY:o,scrollX:n,inne, t.style.height="auto",t.style.overflow="hidden",setTimeout(()=>window.requestAnimationFrame(()=>{const u=i-window.innerHeight;u&&o>=i&&(t.style.top=-(o+u)+"px")}),300)}}),ke=()=>{if(L!==void 0){const e=-parseInt(document.
-  - Timing/easing: th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;padding:var(--plyr-control-sp, ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, -plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt, tion:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr__menu .plyr__control[aria-expanded=true] .plyr__
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000
-  - Public CSS/JS probe keywords: animation, easing, gsap, intersection, keyframes, request_animation_frame, swiper, transform, transition
-  - Public CSS/JS motion snippets: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; 0000 0,#0000 70%,#000000bf 0) 50%/100% 8%;background-repeat:no-repeat;animation:l23 1s infinite steps(12)}.loader.is-small{width:20px}.loader:before,.loader:after{content:"";grid-a; r,.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff
-  - Exact motion parameters: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inh; ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;paddi; ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-s; yr-progress-loading-size,25px) 0}}@keyframes plyr-popup{0%{opacity:.5;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes plyr-fade-in{0%{opacity:0}to{opaci
-  - JavaScript/runtime motion evidence: l,once:!0},t&&(this.options={...this.options,...t}),this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:t.rootMargin,threshold:t.threshold}),this.app=; ,$!==void 0&&(document.body.style.overflow=$,$=void 0)},Oe=()=>window.requestAnimationFrame(()=>{const e=document.documentElement,t=document.body;if(L===void 0){I={...e.style},L={.; t.style.height="auto",t.style.overflow="hidden",setTimeout(()=>window.requestAnimationFrame(()=>{const u=i-window.innerHeight;u&&o>=i&&(t.style.top=-(o+u)+"px")}),300)}}),ke=()=>{i; ("error",e=>{w.emit("error",e)});let W=!1,Y=!1;function Ve(){W||(W=!0,requestAnimationFrame(()=>{w.emit("scroll",window.scrollY),W=!1}))}window.addEventListener("scroll",Ve);functi; ),W=!1}))}window.addEventListener("scroll",Ve);function He(){Y||(Y=!0,requestAnimationFrame(()=>{w.emit("resize"),Y=!1}))}window.addEventListener("resize",He);var U={exports:{}},Ne; 0:o.getBoundingClientRect())||null;if(n){const i=n.top+window.scrollY;requestAnimationFrame(()=>{document.documentElement.scrollTo({top:Math.abs(i),behavior:t?"auto":"smooth"})})}}; efine(o.component,o)})};let S,G,j;const me=[],ve=[];E(async()=>{const{gsap:e,ScrollTrigger:t,ScrollToPlugin:o}=await import("./gsap-BB26Ig6N.js");return{gsap:e,ScrollTrigger:t,Scro; .component,o)})};let S,G,j;const me=[],ve=[];E(async()=>{const{gsap:e,ScrollTrigger:t,ScrollToPlugin:o}=await import("./gsap-BB26Ig6N.js");return{gsap:e,ScrollTrigger:t,ScrollToPlu
-  - Stylesheet evidence: https://benvenusa.com/dist/style-tapx92vm.css; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://benvenusa.com/dist/app-CDMiyme9.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, intersection, request_animation_frame, swiper
-  - Public stylesheet/script URLs: https://benvenusa.com/dist/style-tapx92vm.css; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://benvenusa.com/dist/app-CDMiyme9.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-benvenusa-food-wine-component-styles.json`
-  - Asset CDN and media loading patterns: https://benvenusa.com/media/home.jpg; https://benvenusa.com/media_optimised/Maugeri/Family-pic.jpg/1800/Family-pic.webp; https://benvenusa.com/media_optimised/Lazzaro/Lazzaro-thumbnail.png/1800/Lazzaro-thumbnail.webp; https://benvenusa.com/media_optimised/Doro_Princic_Fabrice_Gallina_2024-7053_2025-03-12-034754_pqvc.jpg/800/Doro_Princic_Fabrice_Gallina_2024-7053_2025-03-12-034754_pqvc.webp; https://benvenusa.com/media_optimised/Doro_Princic_Fabrice_Gallina_2024-7053.jpg/1800/Doro_Princic_Fabrice_Gallina_2024-7053.webp; https://benvenusa.com/media_optimised/Due_del_Monte_Fabrice_Gallina_2024-3341.jpg/1800/Due_del_Monte_Fabrice_Gallina_2024-3341.webp; https://benvenusa.com/media_optimised/hedele/Hedele_Fabrice_Gallina_2024-3653.jpg/1800/Hedele_Fabrice_Gallina_2024-3653.webp; https://benvenusa.com/media_optimised/Ronc_Platat_Fabrice_Gallina_2024-3395.jpg/800/Ronc_Platat_Fabrice_Gallina_2024-3395.webp
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, intersection, keyframes, request_animation_frame, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 22 and scripts 3; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | load | transform | 400ms | 0ms | ease-in-out | 组件load：transform，400ms ease-in-out，load 触发 |
+| component | load | animation | 300ms | 0ms | ease | 组件load：animation 0 -> 1，300ms ease，load 触发 |
+| component | state-change | all | 300ms | 0ms | ease | 组件state-change：all，300ms ease，state-change 触发 |
+| navigation | state-change | transform | 300ms | 0ms | ease | 导航state-change：transform，300ms ease，state-change 触发 |
+| navigation | load | animation | 200ms | 0ms | ease | 导航load：animation translateY(10px) -> translateY(0)，200ms ease，load 触发 |
+| navigation | state-change | height | 350ms | 0ms | cubic-bezier(.4,0,.2,1) | 导航state-change：height，350ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| navigation | state-change | width | 350ms | 0ms | cubic-bezier(.4,0,.2,1) | 导航state-change：width，350ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| card | state-change | all | 300ms | 0ms | ease | 卡片state-change：all，300ms ease，state-change 触发 |
+| card | state-change | transform | 300ms | 0ms | ease | 卡片state-change：transform missing -> translateY(-50%) scale(0)，300ms ease，state-change 触发 |
+| card | state-change | opacity | 300ms | 0ms | ease | 卡片state-change：opacity missing -> translateY(-50%) scale(0)，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | all | 200ms | 0ms | ease | 组件state-change：all，200ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | all | 200ms | 0ms | ease | 组件state-change：all，200ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | all | 200ms | 0ms | ease | 组件state-change：all，200ms ease，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | ease | 组件state-change：opacity，200ms ease，state-change 触发 |
+| component | state-change | transform | 200ms | 100ms | ease | 组件state-change：transform missing -> translate(-50%,10px) scale(.8)，200ms ease，state-change 触发 |
+| component | state-change | opacity | 200ms | 100ms | ease | 组件state-change：opacity missing -> translate(-50%,10px) scale(.8)，200ms ease，state-change 触发 |
+| component | state-change | width | 200ms | 0ms | ease | 组件state-change：width，200ms ease，state-change 触发 |
+| component | state-change | width | 200ms | 0ms | ease | 组件state-change：width，200ms ease，state-change 触发 |
+| component | state-change | width | 200ms | 0ms | ease | 组件state-change：width，200ms ease，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation，1000ms linear，load 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease-in-out | 组件state-change：opacity，400ms ease-in-out，state-change 触发 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform，400ms ease-in-out，state-change 触发 |
+| component | state-change | transform | 200ms | 100ms | ease | 组件state-change：transform missing -> translateY(10px) scale(.8)，200ms ease，state-change 触发 |
+| component | state-change | opacity | 200ms | 100ms | ease | 组件state-change：opacity missing -> translateY(10px) scale(.8)，200ms ease，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | ease | 组件state-change：opacity，300ms ease，state-change 触发 |
+| component | state-change | opacity | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 1000ms | 200ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，1000ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 1000ms | 200ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，1000ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform missing -> translateY(100vh)，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 700ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform missing -> translateY(-100%)，700ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 700ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform missing -> translateY(100vh)，700ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-benvenusa-food-wine-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-all-300-missing lacks easing
+- motion-component-state-change-none-important-missing-missing lacks duration_ms
+- motion-component-state-change-none-important-missing-missing lacks easing
+- motion-component-state-change-all-0-missing lacks easing
+- motion-component-state-change-all-0-missing lacks easing
+- motion-component-state-change-all-0-missing lacks easing
+- motion-component-state-change-all-0-missing lacks easing
+- motion-component-state-change-all-0-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+charset "UTF-8";.plyr { transition: box-shadow .3s ease; }
+```
+
+### motion-component-load-transform-400-ease-in-out
+
+```css
+.plyr__captions { transition: transform .4s ease-in-out; }
+```
+
+### motion-component-load-animation-300-ease
+
+```css
+.plyr__captions { animation: plyr-fade-in .3s ease; }
+```
+
+### motion-component-state-change-all-300-ease
+
+```css
+.plyr__control { transition: all .3s ease; }
+```
+
+### motion-navigation-state-change-transform-300-ease
+
+```css
+.plyr__menu .plyr__control svg { transition: transform .3s ease; }
+```
+
+### motion-navigation-load-animation-200-ease
+
+```css
+.plyr__menu__container { animation: plyr-popup .2s ease; }
+```
+
+### motion-navigation-state-change-height-350-cubic-bezier-4-0-2-1
+
+```css
+.plyr__menu__container>div { transition: height .35s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-navigation-state-change-width-350-cubic-bezier-4-0-2-1
+
+```css
+.plyr__menu__container>div { transition: width .35s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-card-state-change-all-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:before { transition: all .3s ease; }
+```
+
+### motion-card-state-change-transform-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:after { transition: transform .3s ease; }
+```
+
+### motion-card-state-change-opacity-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:after { transition: opacity .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range] { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-webkit-slider-runnable-track { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-all-200-ease
+
+```css
+.plyr--full-ui input[type=range]::-webkit-slider-thumb { transition: all .2s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-moz-range-track { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-all-200-ease
+
+```css
+.plyr--full-ui input[type=range]::-moz-range-thumb { transition: all .2s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-ms-fill-upper { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-ms-track { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-ms-fill-lower { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-all-200-ease
+
+```css
+.plyr--full-ui input[type=range]::-ms-thumb { transition: all .2s ease; }
+```
+
+### motion-component-state-change-opacity-200-ease
+
+```css
+.plyr__poster { transition: opacity .2s ease; }
+```
+
+### motion-component-state-change-transform-200-ease
+
+```css
+.plyr__tooltip { transition: transform .2s ease .1s; }
+```
+
+### motion-component-state-change-opacity-200-ease
+
+```css
+.plyr__tooltip { transition: opacity .2s ease .1s; }
+```
+
+### motion-component-state-change-width-200-ease
+
+```css
+.plyr__progress__buffer::-webkit-progress-value { transition: width .2s ease; }
+```
+
+### motion-component-state-change-width-200-ease
+
+```css
+.plyr__progress__buffer::-moz-progress-bar { transition: width .2s ease; }
+```
+
+### motion-component-state-change-width-200-ease
+
+```css
+.plyr__progress__buffer::-ms-fill { transition: width .2s ease; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+.plyr--loading .plyr__progress__buffer { animation: plyr-progress 1s linear infinite; }
+```
+
+### motion-component-state-change-opacity-400-ease-in-out
+
+```css
+.plyr--video .plyr__controls { transition: opacity .4s ease-in-out; }
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+.plyr--video .plyr__controls { transition: transform .4s ease-in-out; }
+```
+
+### motion-component-state-change-transform-200-ease
+
+```css
+.plyr__preview-thumb { transition: transform .2s ease .1s; }
+```
+
+### motion-component-state-change-opacity-200-ease
+
+```css
+.plyr__preview-thumb { transition: opacity .2s ease .1s; }
+```
+
+### motion-component-state-change-opacity-300-ease
+
+```css
+.plyr__preview-scrubbing { transition: opacity .3s ease; }
+```
+
+### motion-component-state-change-opacity-500-cubic-bezier-4-0-2-1
+
+```css
+.transition-page-hide { transition-property: opacity; transition-duration: .5s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-500-cubic-bezier-4-0-2-1
+
+```css
+.transition-slide-up { transition-property: transform; transition-duration: .5s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-500-cubic-bezier-4-0-2-1
+
+```css
+.transition-slide-down { transition-property: transform; transition-duration: .5s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-500-cubic-bezier-4-0-2-1
+
+```css
+.transition-slide-down-md { transition-property: opacity; transition-duration: .5s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-1000-cubic-bezier-4-0-2-1
+
+```css
+.about-top { transition-property: transform; transition-duration: 1s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-1000-cubic-bezier-4-0-2-1
+
+```css
+.about-bottom { transition-property: transform; transition-duration: 1s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-500-cubic-bezier-4-0-2-1
+
+```css
+.transition-to-about .barba-container:not(.to-load) .two-cols-slide { transition-property: transform; transition-duration: .5s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-700-cubic-bezier-4-0-2-1
+
+```css
+.transition-from-about .barba-container:not(.to-load) .about-top { transition-property: transform; transition-duration: .7s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-700-cubic-bezier-4-0-2-1
+
+```css
+.transition-from-about .barba-container:not(.to-load) .about-bottom { transition-property: transform; transition-duration: .7s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

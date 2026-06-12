@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-uncut-typography-resource-component-styles.json",
+  "component_json_path": "assets/2026-06-12-uncut-typography-resource-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/uncut-typography-resource/component-styles.md",
     "moodboard": "design-systems/uncut-typography-resource/moodboard.svg",
+    "motion": "design-systems/uncut-typography-resource/motion.json",
+    "motion_presets": "design-systems/uncut-typography-resource/motion-presets.css",
     "palette": "design-systems/uncut-typography-resource/palette.md",
-    "tokens": "design-systems/uncut-typography-resource/tokens.json"
+    "tailwind_theme": "design-systems/uncut-typography-resource/tailwind.theme.json",
+    "tokens": "design-systems/uncut-typography-resource/tokens.json",
+    "variables_css": "design-systems/uncut-typography-resource/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/uncut-typography-resource/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/uncut-typography-resource/scene.md",
     "type_copy": "dimensions/uncut-typography-resource/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "Stylesheet evidence: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js",
+      "evidence_source": "Motion Code And Runtime Evidence"
+    },
+    {
+      "decision": "component load motion uses 2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 200ms cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms cubic-bezier(0.075, 0.82, 0.165, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

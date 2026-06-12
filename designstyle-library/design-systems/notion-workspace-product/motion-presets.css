@@ -1,0 +1,50 @@
+.ds-motion-motion-navigation-hover-backgroundcolor-150-ease {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-hover-backgroundcolor-150-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-backgroundcolor-150-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-backgroundcolor-150-ease-easing);
+  transform: rgba(255, 255, 255, 0.047);
+}
+
+.ds-motion-motion-navigation-focus-backgroundcolor-150-ease {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-focus-backgroundcolor-150-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-backgroundcolor-150-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-backgroundcolor-150-ease-easing);
+  transform: rgba(255, 255, 255, 0.05);
+}
+
+.ds-motion-motion-navigation-state-change-boxshadow-200-ease-in {
+  transition-property: boxShadow;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-easing);
+}
+
+.ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-easing);
+}
+
+.ds-motion-motion-button-state-change-backgroundcolor-200-ease-in {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-easing);
+}
+
+.ds-motion-motion-card-state-change-backgroundcolor-200-ease-in {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -1,42 +1,191 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: lobalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globalnav-placeholder{height:44px}@media (max-width: 833px){.globalnav-plac, y:0;top:0;right:0;bottom:0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .globalnav-curtain,#globalnav.globalheader-dark .globalnav-curtain,.globalheader-dark .globalnav-curtai, lnav-with-flyout-open~.globalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.glo
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: s");n.init=function(e){var t=e.element;r.state.engagementObserver=new IntersectionObserver(i.onEngaged),r.state.engagementObserver.observe(t)}},{"./config.js":72,"./onEngaged.js":76}],76:[function(e,t,n){"use strict";Obj, at(-1*e-1,"px 0px 0px 0px");this.io&&this.io.disconnect(),this.io=new IntersectionObserver((function(e){e.forEach((function(e){var i=e.boundingClientRect.top,n=e.isIntersecting;t._updatePosition(!(i>0&&n))}))}),{rootMarg, tics-section-engagement",t),r.addSection(e),r.initializeSection(e)})),requestAnimationFrame((()=>{r.refreshMetrics()})))},endEnhancedElementTracking:function(){const e=Array.from(document.querySelectorAll("[data-analytics, s(e);var t=e.__c;t&&t.__H&&(t.__H.__h.length&&(bs.push(t)!==1&&vs===M.requestAnimationFrame||((vs=M.requestAnimationFrame)||Jn)(Yn)),t.__H.__.forEach(function(s){s.i&&(s.__H=s.i),s.__V!==_t&&(s.__=s.__V),s.i=void 0,s.__V=
-  - Timing/easing: :0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .globalnav-curtain,#globalnav.globalheader-dark .globalnav-curtain,., lobalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!imp, lnav-background);transition:background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-animating .globalnav-content{transition:height var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 8, g .globalnav-content{transition:height var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms,background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-with-flyout-open .globalnav-cont, ubic-bezier(.4,0,.6,1) 80ms,background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-with-flyout-open .globalnav-content{height:calc(100vh - var(--globalnav-preceding-element-height, 0px))
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: lobalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globalnav-placeholder{height:4; y:0;top:0;right:0;bottom:0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .; lnav-with-flyout-open~.globalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transiti; obalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.globalnav-with-flyout-open:not(.globalnav-animating)~.glo; e;top:0;width:100%;height:100%;background:var(--globalnav-background);transition:background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-animati; k-transitions *:before,#globalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globa; .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.globalnav-with-flyout-open:not(.g; ty:0;color:var(--r-globalnav-color-secondary);transform-origin:center;animation:globalnav-chevron-hover-off .24s cubic-bezier(.4,0,.6,1) both}#globalnav .globalnav-link-chevron svg
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: lobalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globalnav-placeholder{height:4; y:0;top:0;right:0;bottom:0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .; lnav-with-flyout-open~.globalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transiti; obalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.globalnav-with-flyout-open:not(.globalnav-animating)~.glo; e;top:0;width:100%;height:100%;background:var(--globalnav-background);transition:background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-animati; k-transitions *:before,#globalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globa; .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.globalnav-with-flyout-open:not(.g; ty:0;color:var(--r-globalnav-color-secondary);transform-origin:center;animation:globalnav-chevron-hover-off .24s cubic-bezier(.4,0,.6,1) both}#globalnav .globalnav-link-chevron svg; teZ(0)}#globalnav.globalnav-with-submenu-open .globalnav-link-chevron{animation:globalnav-chevron-hover-off .24s cubic-bezier(.4,0,.6,1) both}#globalnav.globalnav-submenus-disabled; on{visibility:visible;transition:visibility .24s step-start;opacity:1;animation:globalnav-chevron-slide-in-hover .24s cubic-bezier(.4,0,.6,1) both}.globalnav-with-submenu-open #glo
-  - Exact motion parameters: lobalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globalnav-placeholder{height:4; y:0;top:0;right:0;bottom:0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .; lnav-with-flyout-open~.globalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transiti; k-transitions *:before,#globalnav.globalnav-block-transitions *:after{animation:none!important;transition:none!important}.globalnav-hidden,.globalnav-svg-symbol{display:none}.globa; .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{animation:none!important;transition:none!important}@media (max-width: 833px){.globalnav-with-flyout-open:not(.g; ty:0;color:var(--r-globalnav-color-secondary);transform-origin:center;animation:globalnav-chevron-hover-off .24s cubic-bezier(.4,0,.6,1) both}#globalnav .globalnav-link-chevron svg; :0;left:0;width:100%;height:100%;z-index:9998;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-end 80ms}#globalnav.globalnav-dark .globalnav-curtain,#globa; lobalnav-curtain{opacity:1;visibility:visible;transition:opacity .32s cubic-bezier(.4,0,.6,1) 80ms,visibility .32s step-start 80ms}.globalnav-block-transitions~.globalnav-curtain{a; lnav-background);transition:background var(--r-globalnav-flyout-rate) cubic-bezier(.4,0,.6,1) 80ms}#globalnav.globalnav-animating .globalnav-content{transition:height var(--r-globa; focus-visible .globalnav-submenu-button-icon{margin-top:1px;opacity:1;transform:scaleY(-1)}@media (max-width: 833px){#globalnav .globalnav-item{width:auto;height:auto;transition:co
-  - JavaScript/runtime motion evidence: s");n.init=function(e){var t=e.element;r.state.engagementObserver=new IntersectionObserver(i.onEngaged),r.state.engagementObserver.observe(t)}},{"./config.js":72,"./onEngaged.js":7; at(-1*e-1,"px 0px 0px 0px");this.io&&this.io.disconnect(),this.io=new IntersectionObserver((function(e){e.forEach((function(e){var i=e.boundingClientRect.top,n=e.isIntersecting;t._; tics-section-engagement",t),r.addSection(e),r.initializeSection(e)})),requestAnimationFrame((()=>{r.refreshMetrics()})))},endEnhancedElementTracking:function(){const e=Array.from(d; s(e);var t=e.__c;t&&t.__H&&(t.__H.__h.length&&(bs.push(t)!==1&&vs===M.requestAnimationFrame||((vs=M.requestAnimationFrame)||Jn)(Yn)),t.__H.__.forEach(function(s){s.i&&(s.__H=s.i),s; __H.__h.length&&(bs.push(t)!==1&&vs===M.requestAnimationFrame||((vs=M.requestAnimationFrame)||Jn)(Yn)),t.__H.__.forEach(function(s){s.i&&(s.__H=s.i),s.__V!==_t&&(s.__=s.__V),s.i=vo; {vt(n)}catch(a){t=a}}),s.__H=void 0,t&&M.__e(t,s.__v))};var Ms=typeof requestAnimationFrame=="function";function Jn(e){var t,s=function(){clearTimeout(n),Ms&&cancelAnimationFrame(t; Ms&&cancelAnimationFrame(t),setTimeout(e)},n=setTimeout(s,100);Ms&&(t=requestAnimationFrame(s))}function vt(e){var t=q,s=e.__c;typeof s=="function"&&(e.__c=void 0,s()),q=t}function
-  - Stylesheet evidence: https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css; https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css; https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css; https://www.apple.com/v/apple-vision-pro/k/built/styles/overview.built.css; https://www.apple.com/ac/ac-films/7.4.1/styles/modal.css; https://www.apple.com/v/apple-vision-pro/k/built/scripts/head.built.js; https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js; https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js
-  - Interpreted motion tags: transition, scroll, video
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.css; https://www.apple.com/ac/globalfooter/8/en_US/styles/ac-globalfooter.built.css; https://www.apple.com/ac/localnav/9/styles/ac-localnav.built.css; https://www.apple.com/v/apple-vision-pro/k/built/styles/overview.built.css; https://www.apple.com/ac/ac-films/7.4.1/styles/modal.css; https://www.apple.com/v/apple-vision-pro/k/built/scripts/head.built.js; https://www.apple.com/api-www/global-elements/global-header/v1/assets/globalheader.umd.js; https://www.apple.com/metrics/ac-analytics/2.29.1/scripts/ac-analytics.js; https://www.apple.com/ac/localnav/9/scripts/ac-localnav.built.js; https://www.apple.com/ac/globalfooter/8/en_US/scripts/ac-globalfooter.built.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-apple-vision-pro-product-story-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.apple.com/v/apple-vision-pro/k/images/overview/hero/hero__cvgr5aj1ttsi_large.jpg; https://www.apple.com/v/apple-vision-pro/k/images/overview/design/design_startframe__dai1v974k24i_large.jpg; https://www.apple.com/v/apple-vision-pro/k/images/overview/shared/quicklook_placeholder__eu3anwy8icae_large.jpg; data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 10; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Apple |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.89)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Apple |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Store |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.906)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Store |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Mac |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Mac |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 iPad |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 iPad |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 iPhone |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.87)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 iPhone |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Watch |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Watch |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Vision |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Vision |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 AirPods |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.87)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 AirPods |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.86)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 TV & Home |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 TV & Home |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Entertainment |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Entertainment |
+| navigation | hover | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航hover：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.855)，320ms cubic-bezier(0.4, 0, 0.6, 1)，hover 触发；样本 Accessories |
+| navigation | focus | color | 320ms | 0ms | cubic-bezier(0.4, 0, 0.6, 1) | 导航focus：color rgba(0, 0, 0, 0.8) -> rgba(0, 0, 0, 0.875)，320ms cubic-bezier(0.4, 0, 0.6, 1)，focus 触发；样本 Accessories |
+| button | state-change | opacity | 100ms | 0ms | linear | 按钮state-change：opacity 0 -> missing，100ms linear，state-change 触发；样本 Intro to Apple Vision Pro animation, loading |
+| button | state-change | opacity | 100ms | 0ms | linear | 按钮state-change：opacity 0 -> missing，100ms linear，state-change 触发；样本 Design innovation animation, loading |
+| button | state-change | opacity | 100ms | 0ms | linear | 按钮state-change：opacity 0 -> missing，100ms linear，state-change 触发；样本 Dual-function Fit Dial animation, loading |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.89)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.906)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.87)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.87)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.86)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.855)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1
+
+```css
+{"color": "rgba(0, 0, 0, 0.875)", "transition": "color 0.32s cubic-bezier(0.4, 0, 0.6, 1)"}
+```
+
+### motion-button-state-change-opacity-100-linear
+
+```css
+{"transition": "opacity 0.1s linear, transform 0.2s"}
+```
+
+### motion-button-state-change-opacity-100-linear
+
+```css
+{"transition": "opacity 0.1s linear, transform 0.2s"}
+```
+
+### motion-button-state-change-opacity-100-linear
+
+```css
+{"transition": "opacity 0.1s linear, transform 0.2s"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

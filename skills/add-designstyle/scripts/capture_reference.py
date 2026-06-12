@@ -28,6 +28,13 @@ MOTION_PATTERNS = {
     "swiper": re.compile(r"\bswiper\b|swiper-wrapper|new\s+Swiper", re.I),
 }
 
+MOTION_NOISE_RE = re.compile(
+    r"autofill|captcha|consent|cookie|cookielaw|hs-banner|hs-modal|onetrust|ot-sdk|otsdk|privacy|recaptcha",
+    re.I,
+)
+CSS_DURATION_RE = re.compile(r"(?<![\w.-])(\d*\.?\d+)(ms|s)(?![\w-])", re.I)
+CSS_EASING_RE = re.compile(r"cubic-bezier\([^)]+\)|steps\([^)]+\)|\b(?:ease-in-out|ease-in|ease-out|linear|ease)\b", re.I)
+
 BLOCKED_PATTERNS = [
     re.compile(r"attention required!\s*\|\s*cloudflare", re.I),
     re.compile(r"cloudflare ray id", re.I),
@@ -147,6 +154,526 @@ COMPONENT_CAPTURE_JS = """
   };
 }
 """ % json.dumps(COMPONENT_STYLE_KEYS)
+
+
+def split_selector_list(selector: str) -> list[str]:
+    selectors: list[str] = []
+    current: list[str] = []
+    depth = 0
+    for char in selector:
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth:
+            depth -= 1
+        if char == "," and depth == 0:
+            item = "".join(current).strip()
+            if item:
+                selectors.append(item)
+            current = []
+        else:
+            current.append(char)
+    item = "".join(current).strip()
+    if item:
+        selectors.append(item)
+    return selectors
+
+
+def iter_css_blocks(css: str, prefix: str) -> list[tuple[str, str, int, int]]:
+    blocks: list[tuple[str, str, int, int]] = []
+    pos = 0
+    lowered = css.lower()
+    prefix_lower = prefix.lower()
+    while True:
+        start = lowered.find(prefix_lower, pos)
+        if start < 0:
+            break
+        name_start = start + len(prefix)
+        brace = css.find("{", name_start)
+        if brace < 0:
+            break
+        name = css[name_start:brace].strip()
+        depth = 1
+        index = brace + 1
+        while index < len(css) and depth:
+            if css[index] == "{":
+                depth += 1
+            elif css[index] == "}":
+                depth -= 1
+            index += 1
+        body = css[brace + 1:index - 1]
+        blocks.append((name, body, start, index))
+        pos = index
+    return blocks
+
+
+def remove_ranges(text: str, ranges: list[tuple[int, int]]) -> str:
+    if not ranges:
+        return text
+    output: list[str] = []
+    pos = 0
+    for start, end in sorted(ranges):
+        output.append(text[pos:start])
+        pos = end
+    output.append(text[pos:])
+    return "".join(output)
+
+
+def parse_declarations(body: str) -> dict[str, str]:
+    declarations: dict[str, str] = {}
+    for part in body.split(";"):
+        if ":" not in part:
+            continue
+        name, value = part.split(":", 1)
+        name = name.strip().lower()
+        value = value.strip()
+        if name and value:
+            declarations[name] = value
+    return declarations
+
+
+def css_variables(css: str) -> dict[str, str]:
+    variables: dict[str, str] = {}
+    for _selector, body in re.findall(r"([^{}@]+)\{([^{}]*)\}", css):
+        declarations = parse_declarations(body)
+        for name, value in declarations.items():
+            if name.startswith("--") and value:
+                variables[name] = value
+    return variables
+
+
+def resolve_css_vars(value: str, variables: dict[str, str]) -> str:
+    resolved = value
+    for _ in range(4):
+        changed = False
+
+        def repl(match: re.Match[str]) -> str:
+            nonlocal changed
+            name = match.group(1).strip()
+            fallback = match.group(2)
+            if name in variables:
+                changed = True
+                return variables[name]
+            if fallback is not None:
+                changed = True
+                return fallback.strip()
+            return match.group(0)
+
+        resolved = re.sub(r"var\(\s*(--[-_\w]+)\s*(?:,\s*([^)]+))?\)", repl, resolved)
+        if not changed:
+            break
+    return resolved
+
+
+def first_duration_ms(value: str) -> int | str:
+    match = CSS_DURATION_RE.search(value)
+    if not match:
+        return "missing"
+    number = float(match.group(1))
+    return int(round(number * 1000)) if match.group(2).lower() == "s" else int(round(number))
+
+
+def second_duration_ms(value: str) -> int:
+    matches = CSS_DURATION_RE.findall(value)
+    if len(matches) < 2:
+        return 0
+    number = float(matches[1][0])
+    return int(round(number * 1000)) if matches[1][1].lower() == "s" else int(round(number))
+
+
+def first_easing(value: str) -> str:
+    match = CSS_EASING_RE.search(value)
+    return match.group(0) if match else "missing"
+
+
+def transition_property(value: str) -> str:
+    first = value.split(",", 1)[0].strip()
+    token = first.split()[0] if first.split() else ""
+    if not token or CSS_DURATION_RE.fullmatch(token) or CSS_EASING_RE.fullmatch(token):
+        return "all"
+    return token
+
+
+def split_css_list(value: str) -> list[str]:
+    parts: list[str] = []
+    current: list[str] = []
+    depth = 0
+    for char in value:
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth:
+            depth -= 1
+        if char == "," and depth == 0:
+            item = "".join(current).strip()
+            if item:
+                parts.append(item)
+            current = []
+        else:
+            current.append(char)
+    item = "".join(current).strip()
+    if item:
+        parts.append(item)
+    return parts
+
+
+def css_list_value(values: list[str], index: int, default: str = "missing") -> str:
+    if not values:
+        return default
+    if index < len(values):
+        return values[index]
+    return values[-1]
+
+
+def transition_items(
+    selector: str,
+    role: str,
+    trigger: str,
+    declarations: dict[str, str],
+    variables: dict[str, str],
+    source_url: str,
+    reduced_selectors: set[str],
+) -> list[dict[str, object]]:
+    items: list[dict[str, object]] = []
+    transform_to = resolve_css_vars(declarations.get("transform", "missing"), variables)
+    if "transition" in declarations:
+        for entry in split_css_list(resolve_css_vars(declarations["transition"], variables)):
+            if not entry or entry == "none" or MOTION_NOISE_RE.search(entry):
+                continue
+            item = {
+                "selector": selector,
+                "selector_role": role,
+                "trigger": trigger,
+                "property": transition_property(entry),
+                "from": "missing",
+                "to": transform_to,
+                "duration_ms": first_duration_ms(entry),
+                "delay_ms": second_duration_ms(entry),
+                "easing": first_easing(entry),
+                "keyframes": [],
+                "reduced_motion": "reduce disables animation/transition" if reduced_selectors else "missing",
+                "source": source_url,
+                "snippet": f"{selector} {{ transition: {entry}; }}",
+            }
+            item["description"] = description_for_motion(item)
+            item["id"] = motion_id(item)
+            items.append(item)
+        return items
+
+    longhand_keys = {"transition-property", "transition-duration", "transition-delay", "transition-timing-function"}
+    if not any(key in declarations for key in longhand_keys):
+        return []
+    properties = split_css_list(resolve_css_vars(declarations.get("transition-property", "all"), variables))
+    durations = split_css_list(resolve_css_vars(declarations.get("transition-duration", "missing"), variables))
+    delays = split_css_list(resolve_css_vars(declarations.get("transition-delay", "0ms"), variables))
+    easings = split_css_list(resolve_css_vars(declarations.get("transition-timing-function", "missing"), variables))
+    count = max(len(properties), len(durations), len(delays), len(easings), 1)
+    for index in range(count):
+        prop = css_list_value(properties, index, "all")
+        duration_value = css_list_value(durations, index)
+        easing_value = css_list_value(easings, index)
+        if prop == "none":
+            continue
+        item = {
+            "selector": selector,
+            "selector_role": role,
+            "trigger": trigger,
+            "property": prop,
+            "from": "missing",
+            "to": transform_to,
+            "duration_ms": first_duration_ms(duration_value),
+            "delay_ms": first_duration_ms(css_list_value(delays, index, "0ms")) if css_list_value(delays, index, "0ms") != "0ms" else 0,
+            "easing": first_easing(easing_value),
+            "keyframes": [],
+            "reduced_motion": "reduce disables animation/transition" if reduced_selectors else "missing",
+            "source": source_url,
+            "snippet": f"{selector} {{ transition-property: {prop}; transition-duration: {duration_value}; transition-timing-function: {easing_value}; }}",
+        }
+        item["description"] = description_for_motion(item)
+        item["id"] = motion_id(item)
+        items.append(item)
+    return items
+
+
+def animation_items(
+    selector: str,
+    role: str,
+    trigger: str,
+    declarations: dict[str, str],
+    variables: dict[str, str],
+    keyframes: dict[str, list[dict[str, str]]],
+    source_url: str,
+    reduced_selectors: set[str],
+    noisy_keyframes: set[str] | None = None,
+) -> list[dict[str, object]]:
+    items: list[dict[str, object]] = []
+    known = set(keyframes)
+    noisy_keyframes = noisy_keyframes or set()
+    values: list[tuple[str, str]] = []
+    if "animation" in declarations:
+        values.extend(("animation", entry) for entry in split_css_list(resolve_css_vars(declarations["animation"], variables)))
+    elif any(key.startswith("animation-") for key in declarations):
+        name = resolve_css_vars(declarations.get("animation-name", "missing"), variables)
+        duration = resolve_css_vars(declarations.get("animation-duration", "missing"), variables)
+        timing = resolve_css_vars(declarations.get("animation-timing-function", "missing"), variables)
+        delay = resolve_css_vars(declarations.get("animation-delay", "0ms"), variables)
+        values.append(("animation", f"{name} {duration} {timing} {delay}"))
+    for prop_name, value in values:
+        if not value or value == "none" or MOTION_NOISE_RE.search(value):
+            continue
+        keyframe_name = animation_name(value, known)
+        if keyframe_name in noisy_keyframes:
+            continue
+        item: dict[str, object] = {
+            "selector": selector,
+            "selector_role": role,
+            "trigger": trigger if trigger != "state-change" else "load",
+            "property": "animation",
+            "from": "missing",
+            "to": declarations.get("transform", "missing"),
+            "duration_ms": first_duration_ms(value),
+            "delay_ms": second_duration_ms(value),
+            "easing": first_easing(value),
+            "keyframes": keyframes.get(keyframe_name, []),
+            "reduced_motion": "reduce disables animation/transition" if reduced_selectors else "missing",
+            "source": source_url,
+            "snippet": f"{selector} {{ {prop_name}: {value}; }}",
+        }
+        if item["keyframes"]:
+            first = item["keyframes"][0].get("values", {})
+            last = item["keyframes"][-1].get("values", {})
+            if isinstance(first, dict):
+                item["from"] = first.get("transform") or first.get("opacity") or "missing"
+            if isinstance(last, dict):
+                item["to"] = last.get("transform") or last.get("opacity") or item["to"]
+        item["description"] = description_for_motion(item)
+        item["id"] = motion_id(item)
+        items.append(item)
+    return items
+
+
+def animation_name(value: str, known_names: set[str]) -> str:
+    for token in re.split(r"\s+", value.replace(",", " ")):
+        cleaned = token.strip()
+        if cleaned in known_names:
+            return cleaned
+    for token in re.split(r"\s+", value.replace(",", " ")):
+        cleaned = token.strip()
+        if not cleaned or CSS_DURATION_RE.fullmatch(cleaned) or CSS_EASING_RE.fullmatch(cleaned):
+            continue
+        if cleaned in {"both", "forwards", "backwards", "none", "infinite", "alternate", "normal", "running"}:
+            continue
+        if re.fullmatch(r"\d+", cleaned):
+            continue
+        return cleaned
+    return "missing"
+
+
+def selector_role(selector: str) -> str:
+    lowered = selector.lower()
+    if any(token in lowered for token in ["button", ".btn", "[role=\"button\"", "[role='button'", "cta"]):
+        return "button"
+    if any(token in lowered for token in ["card", "tile", "item", "article"]):
+        return "card"
+    if any(token in lowered for token in ["nav", "menu", "header"]):
+        return "navigation"
+    if any(token in lowered for token in ["modal", "drawer", "dialog"]):
+        return "overlay"
+    if any(token in lowered for token in ["hero", "headline", "title"]):
+        return "hero"
+    if any(token in lowered for token in ["reveal", "animate", "in-view", "intersect"]):
+        return "reveal"
+    return "component"
+
+
+def motion_trigger(selector: str, declarations: dict[str, str]) -> str:
+    lowered = selector.lower()
+    if ":hover" in lowered:
+        return "hover"
+    if ":focus" in lowered or ":focus-visible" in lowered:
+        return "focus"
+    if ":active" in lowered:
+        return "active"
+    if any(token in lowered for token in ["reveal", "in-view", "intersect", "animate"]):
+        return "viewport"
+    if "animation" in declarations:
+        return "load"
+    return "state-change"
+
+
+def keyframe_steps(body: str) -> list[dict[str, str]]:
+    steps: list[dict[str, str]] = []
+    for match in re.finditer(r"([^{}]+)\{([^{}]*)\}", body):
+        label = " ".join(match.group(1).split())
+        declarations = parse_declarations(match.group(2))
+        if declarations:
+            steps.append({"step": label, "values": declarations})
+    return steps
+
+
+def description_for_motion(item: dict[str, object]) -> str:
+    role_names = {
+        "card": "卡片",
+        "button": "按钮",
+        "navigation": "导航",
+        "hero": "首屏",
+        "overlay": "浮层",
+        "reveal": "入场元素",
+        "component": "组件",
+    }
+    role = role_names.get(str(item.get("selector_role")), "组件")
+    prop = str(item.get("property") or "motion")
+    duration = item.get("duration_ms")
+    easing = item.get("easing") or "missing"
+    trigger = item.get("trigger") or "state-change"
+    start = item.get("from") or "missing"
+    end = item.get("to") or "missing"
+    if start != "missing" or end != "missing":
+        return f"{role}{trigger}：{prop} {start} -> {end}，{duration}ms {easing}，{trigger} 触发"
+    return f"{role}{trigger}：{prop}，{duration}ms {easing}，{trigger} 触发"
+
+
+def motion_id(item: dict[str, object]) -> str:
+    raw = "-".join(str(item.get(key, "")) for key in ["selector_role", "trigger", "property", "duration_ms", "easing"])
+    raw = re.sub(r"[^a-zA-Z0-9]+", "-", raw).strip("-").lower()
+    return f"motion-{raw or 'item'}"
+
+
+def parse_motion_stylesheet(css: str, source_url: str, slug: str = "style-reference") -> dict[str, object]:
+    keyframes: dict[str, list[dict[str, str]]] = {}
+    noisy_keyframes: set[str] = set()
+    remove: list[tuple[int, int]] = []
+    variables = css_variables(css)
+    for name, body, start, end in iter_css_blocks(css, "@keyframes"):
+        if MOTION_NOISE_RE.search(name) or MOTION_NOISE_RE.search(body):
+            noisy_keyframes.add(name)
+        else:
+            keyframes[name] = keyframe_steps(body)
+        remove.append((start, end))
+
+    reduced_selectors: set[str] = set()
+    for media_name, body, start, end in iter_css_blocks(css, "@media"):
+        if "prefers-reduced-motion" in media_name.lower():
+            for selector, declarations_text in re.findall(r"([^{}@]+)\{([^{}]*)\}", body):
+                if "animation" in declarations_text or "transition" in declarations_text:
+                    for item in split_selector_list(selector):
+                        reduced_selectors.add(item.strip())
+        remove.append((start, end))
+
+    normal_css = remove_ranges(css, remove)
+    items: list[dict[str, object]] = []
+    seen: set[tuple[object, ...]] = set()
+    for selector_text, declarations_text in re.findall(r"([^{}@]+)\{([^{}]*)\}", normal_css):
+        if MOTION_NOISE_RE.search(selector_text) or MOTION_NOISE_RE.search(declarations_text):
+            continue
+        declarations = parse_declarations(declarations_text)
+        if not declarations:
+            continue
+        for selector in split_selector_list(selector_text):
+            if MOTION_NOISE_RE.search(selector):
+                continue
+            trigger = motion_trigger(selector, declarations)
+            role = selector_role(selector)
+            parsed_items = transition_items(selector, role, trigger, declarations, variables, source_url, reduced_selectors)
+            parsed_items.extend(animation_items(selector, role, trigger, declarations, variables, keyframes, source_url, reduced_selectors, noisy_keyframes))
+            for item in parsed_items:
+                dedupe = (
+                    item["selector"],
+                    item["property"],
+                    item["duration_ms"],
+                    item["delay_ms"],
+                    item["easing"],
+                    item["to"],
+                )
+                if dedupe in seen:
+                    continue
+                seen.add(dedupe)
+                items.append(item)
+
+    return {
+        "slug": slug,
+        "source": "declaration-level CSS parse",
+        "source_urls": [source_url] if source_url else [],
+        "items": items,
+        "noise_filter": {"enabled": True, "rules": 4},
+    }
+
+
+def role_from_component_category(category: str) -> str:
+    lowered = category.lower()
+    if "button" in lowered:
+        return "button"
+    if "navigation" in lowered:
+        return "navigation"
+    if "card" in lowered:
+        return "card"
+    if "form" in lowered:
+        return "form"
+    return "component"
+
+
+def motion_items_from_interaction_states(component_evidence: dict[str, object], slug: str, source: str) -> list[dict[str, object]]:
+    states = component_evidence.get("stateSamples") if isinstance(component_evidence, dict) else []
+    if not isinstance(states, list):
+        return []
+    items: list[dict[str, object]] = []
+    motion_keys = ["transform", "opacity", "backgroundColor", "color", "borderColor", "boxShadow"]
+    for state in states:
+        if not isinstance(state, dict):
+            continue
+        category = str(state.get("category") or "Component")
+        label = re.sub(r"\s+", " ", str(state.get("text") or state.get("sampleId") or category)).strip()[:80]
+        state_blob = json.dumps(
+            {
+                "category": category,
+                "text": state.get("text"),
+                "sampleId": state.get("sampleId"),
+                "hover_changed": state.get("hover_changed"),
+                "focus_changed": state.get("focus_changed"),
+            },
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        if MOTION_NOISE_RE.search(state_blob):
+            continue
+        role = role_from_component_category(category)
+        for trigger, key in [("hover", "hover_changed"), ("focus", "focus_changed")]:
+            changed = state.get(key)
+            if not isinstance(changed, dict) or not changed:
+                continue
+            before = state.get("before") if isinstance(state.get("before"), dict) else {}
+            property_name = next((name for name in motion_keys if changed.get(name)), "style")
+            transition_duration = str(
+                changed.get("transitionDuration")
+                or changed.get("transition")
+                or before.get("transitionDuration")
+                or before.get("transition")
+                or ""
+            )
+            transition_easing = str(
+                changed.get("transitionTimingFunction")
+                or before.get("transitionTimingFunction")
+                or first_easing(str(changed.get("transition") or before.get("transition") or ""))
+            )
+            duration = first_duration_ms(transition_duration)
+            item: dict[str, object] = {
+                "selector": f"[data-designstyle-sample-id=\"{state.get('sampleId', 'missing')}\"]",
+                "selector_role": role,
+                "trigger": trigger,
+                "property": property_name,
+                "from": "missing",
+                "to": str(changed.get(property_name) or "missing"),
+                "duration_ms": duration,
+                "delay_ms": 0,
+                "easing": transition_easing if transition_easing else "missing",
+                "keyframes": [],
+                "reduced_motion": "missing",
+                "source": source,
+                "snippet": json.dumps({k: v for k, v in changed.items() if v}, ensure_ascii=False, sort_keys=True),
+            }
+            base_description = description_for_motion(item)
+            item["description"] = f"{base_description}；样本 {label}"
+            item["id"] = motion_id(item)
+            items.append(item)
+    return items
 
 
 def slugify(text: str) -> str:
@@ -338,6 +865,7 @@ def capture_interaction_states(page, samples: list[dict], limit: int = 12) -> li
                     "sampleId": sample_id,
                     "category": sample.get("category", ""),
                     "text": sample.get("text", ""),
+                    "before": before,
                     "hover_changed": changed_hover,
                     "focus_changed": changed_focus,
                 }
@@ -526,7 +1054,7 @@ def fallback_extract(dom: str, url: str) -> dict:
 def absolute_url(base: str, value: str) -> str:
     if value.startswith("//"):
         return "https:" + value
-    if value.startswith("http://") or value.startswith("https://"):
+    if value.startswith("http://") or value.startswith("https://") or value.startswith("file://"):
         return value
     parsed = urlparse(base)
     if value.startswith("/"):
@@ -546,11 +1074,26 @@ def fetch_text(url: str, timeout: int = 8) -> str:
         return resp.read(220_000).decode("utf-8", errors="ignore")
 
 
-def collect_motion(urls: list[str], base: str) -> tuple[list[str], dict[str, list[str]]]:
+def is_stylesheet_url(url: str) -> bool:
+    lowered = url.lower().split("?", 1)[0]
+    return lowered.endswith(".css") or "/css/" in lowered or "stylesheet" in lowered
+
+
+def is_motion_noise_url(url: str) -> bool:
+    return bool(MOTION_NOISE_RE.search(url))
+
+
+def collect_motion(urls: list[str], base: str, slug: str) -> tuple[list[str], dict[str, list[str]], dict[str, object]]:
     checked = []
     evidence: dict[str, list[str]] = {}
+    structured_items: list[dict[str, object]] = []
+    structured_sources: list[str] = []
+    seen_structured: set[tuple[object, ...]] = set()
     for url in urls[:12]:
         full = absolute_url(base, url)
+        if is_motion_noise_url(full):
+            continue
+        parse_as_css = is_stylesheet_url(full)
         try:
             text = fetch_text(full)
         except Exception:
@@ -558,6 +1101,27 @@ def collect_motion(urls: list[str], base: str) -> tuple[list[str], dict[str, lis
         if not text:
             continue
         checked.append(full)
+        if parse_as_css:
+            structured = parse_motion_stylesheet(text, full, slug=slug)
+            for item in structured.get("items", []):
+                if not isinstance(item, dict):
+                    continue
+                dedupe = (
+                    item.get("selector"),
+                    item.get("property"),
+                    item.get("duration_ms"),
+                    item.get("delay_ms"),
+                    item.get("easing"),
+                    item.get("to"),
+                )
+                if dedupe in seen_structured:
+                    continue
+                seen_structured.add(dedupe)
+                structured_items.append(item)
+                if len(structured_items) >= 48:
+                    break
+            if structured.get("items"):
+                structured_sources.append(full)
         compact = re.sub(r"\s+", " ", text)
         for name, pattern in MOTION_PATTERNS.items():
             matches = evidence.setdefault(name, [])
@@ -565,12 +1129,22 @@ def collect_motion(urls: list[str], base: str) -> tuple[list[str], dict[str, lis
                 start = max(0, match.start() - 70)
                 end = min(len(compact), match.end() + 130)
                 snippet = compact[start:end].strip()
+                if MOTION_NOISE_RE.search(snippet):
+                    continue
                 if snippet not in matches and len(matches) < 5:
                     matches.append(snippet)
                 if len(matches) >= 5:
                     break
     evidence = {k: v for k, v in evidence.items() if v}
-    return checked, evidence
+    structured_payload = {
+        "slug": slug,
+        "source": "public CSS/JS declaration-level sampling",
+        "source_urls": structured_sources,
+        "items": structured_items,
+        "noise_filter": {"enabled": True, "rules": 4},
+        "missing": [] if structured_items else ["No structured motion declarations found in sampled public CSS/JS resources."],
+    }
+    return checked, evidence, structured_payload
 
 
 def list_values(raw: str) -> list[str]:
@@ -601,6 +1175,115 @@ def summarize_secondary_pages(values: list[dict]) -> str:
         h2 = summarize_list(item.get("h2") or [], 2)
         rows.append(f"{item.get('sourceText') or 'link'} -> {item.get('url')} | title: {item.get('title','')} | h1: {h1} | h2: {h2}")
     return " || ".join(rows)
+
+
+def render_section_block(title: str, lines: list[str]) -> str:
+    body = "\n".join(lines or ["- missing: no measurable evidence captured."])
+    return f"## {title}\n{body}\n"
+
+
+def unique_style_values(samples: object, key: str, limit: int = 4) -> list[str]:
+    if not isinstance(samples, list):
+        return []
+    values: list[str] = []
+    seen: set[str] = set()
+    for sample in samples:
+        if not isinstance(sample, dict):
+            continue
+        styles = sample.get("styles") if isinstance(sample.get("styles"), dict) else {}
+        value = str(styles.get(key) or "").strip()
+        if not value or value.lower() in {"none", "missing", "normal", "auto", "rgba(0, 0, 0, 0)"}:
+            continue
+        if value in seen:
+            continue
+        seen.add(value)
+        values.append(value)
+        if len(values) >= limit:
+            break
+    return values
+
+
+def reference_text_grammar_lines(
+    title: str,
+    page_scope: str,
+    text_sample: str,
+    h1: list,
+    h2: list,
+    nav: list,
+    buttons: list,
+) -> list[str]:
+    sample = " ".join(str(text_sample).split())
+    words = len(sample.split()) if sample else 0
+    sentence_marks = len(re.findall(r"[.!?]", sample))
+    claim_count = len(re.findall(r"\b\d+(?:\.\d+)?%?\b", sample))
+    samples = summarize_list(list(h1) + list(h2) + list(nav) + list(buttons), 10)
+    lines = [
+        f"- H1/H2/nav/CTA samples: {samples}; source: Evidence Snapshot",
+        f"- Sentence rhythm: {words} visible words and {sentence_marks} sentence marks in the sampled copy; source: Visual System",
+        f"- Claim density: {claim_count} numeric claims or percentages in the sampled copy; source: Visual System",
+        f"- Voice and naming: title `{q(title)}` within page scope `{q(page_scope)}`; source: frontmatter + Evidence Snapshot",
+        "- Copy boundaries: use the `When Not To Use` and `Avoid Copying` limits instead of brand names, claims, or exact campaign copy; source: limits sections",
+    ]
+    return lines
+
+
+def style_tokens_surface_lines(
+    colors: list,
+    radii: list,
+    buttons: list,
+    images: list,
+    component_evidence: dict[str, object],
+) -> list[str]:
+    samples = component_evidence.get("samples") if isinstance(component_evidence, dict) else []
+    box_shadows = unique_style_values(samples, "boxShadow", 3)
+    borders = unique_style_values(samples, "border", 3)
+    backgrounds = unique_style_values(samples, "backgroundColor", 3)
+    lines = [
+        f"- Surface/background system: {len(colors)} sampled text/background pairs with {len(backgrounds)} repeated background values; source: Color, Material, And Contrast",
+        f"- Borders/dividers/radii: {len(radii)} radius samples including {summarize_list(radii, 6)}; source: Layout Geometry And Spacing",
+        f"- Shadow/depth/material: {len(box_shadows)} box-shadow samples {summarize_list(box_shadows, 3)}; source: component computed styles",
+        f"- Button/input/control density: {len(buttons)} visible button/link samples and {len(samples) if isinstance(samples, list) else 0} component samples; source: Interaction And Components",
+        f"- Icon/illustration stroke style: {len(images)} image/icon observations and {len(borders)} border samples; source: Assets + component styles",
+    ]
+    return lines[:5]
+
+
+def style_dna_lines(
+    viewport: dict,
+    fonts: list,
+    font_sizes: list,
+    colors: list,
+    radii: list,
+    h1: list,
+    h2: list,
+    nav: list,
+    buttons: list,
+    images: list,
+    checked_urls: list[str],
+    motion_keys: list[str],
+    exact_params: list[str],
+    secondary_pages: list[dict],
+    text_sample: str,
+    overlays_clicked: list,
+) -> list[str]:
+    sample = " ".join(str(text_sample).split())
+    words = len(sample.split()) if sample else 0
+    motion_samples = len([item for item in exact_params if str(item).strip() and "no direct code evidence" not in str(item).lower()])
+    lines = [
+        f"- Viewport and document: {viewport.get('w', 'missing')}x{viewport.get('h', 'missing')} with doc height {viewport.get('docH', 'missing')}; source: viewport",
+        f"- Visible copy: {words} words in the sampled text string; source: Visual System",
+        f"- Heading density: {len(h1)} H1 samples and {len(h2)} H2 samples; source: Evidence Snapshot",
+        f"- Navigation and CTA density: {len(nav)} nav items and {len(buttons)} button/link samples; source: Evidence Snapshot",
+        f"- Typography sample breadth: {len(fonts)} font stacks and {len(font_sizes)} font-size samples; source: Typography And Reading Rhythm",
+        f"- Palette and radius breadth: {len(colors)} color samples and {len(radii)} radius samples; source: Color + Layout Geometry",
+        f"- Media breadth: {len(images)} image or media observations; source: Assets",
+        f"- Motion breadth: {len(motion_keys)} probe keywords and {motion_samples} exact motion snippets; source: Motion Code And Runtime Evidence",
+        f"- Code surface breadth: {len(checked_urls)} stylesheet/script URLs; source: Code Surface",
+        f"- Secondary-page breadth: {len(secondary_pages)} secondary pages inspected; source: Evidence Snapshot",
+        f"- Overlay contamination breadth: {len(overlays_clicked)} overlay buttons dismissed or inspected; source: Evidence Snapshot",
+        f"- Copy boundary note: 0 direct brand-copy reuse; source: limits sections",
+    ]
+    return lines[:12]
 
 
 def main() -> int:
@@ -637,6 +1320,7 @@ def main() -> int:
     raw_dir.mkdir(parents=True, exist_ok=True)
     dom_path = raw_dir / f"{today}-{slug}-dom.html"
     component_path = lib / "assets" / f"{today}-{slug}-component-styles.json"
+    motion_path = lib / "assets" / f"{today}-{slug}-motion.json"
     ok, browser_log, captured_data = capture_with_playwright(
         args.url,
         screenshot,
@@ -670,7 +1354,35 @@ def main() -> int:
     component_path.write_text(json.dumps(component_payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     final_url = data.get("url") or args.url
     resource_urls = (data.get("stylesheets") or []) + (data.get("scripts") or [])
-    checked_urls, motion = collect_motion(resource_urls, final_url)
+    checked_urls, motion, structured_motion = collect_motion(resource_urls, final_url, slug)
+    interaction_motion = motion_items_from_interaction_states(component_evidence, slug, "playwright computed-style interaction diff")
+    if interaction_motion:
+        existing = {
+            (
+                item.get("selector"),
+                item.get("trigger"),
+                item.get("property"),
+                item.get("duration_ms"),
+                item.get("easing"),
+                item.get("to"),
+            )
+            for item in structured_motion.get("items", [])
+            if isinstance(item, dict)
+        }
+        for item in interaction_motion:
+            key = (
+                item.get("selector"),
+                item.get("trigger"),
+                item.get("property"),
+                item.get("duration_ms"),
+                item.get("easing"),
+                item.get("to"),
+            )
+            if key not in existing:
+                structured_motion.setdefault("items", []).append(item)
+                existing.add(key)
+        structured_motion["missing"] = [] if structured_motion.get("items") else structured_motion.get("missing", [])
+    motion_path.write_text(json.dumps(structured_motion, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     motion_keys = sorted(motion)
     exact_params = []
     for key in ["transition", "animation", "easing", "transform", "keyframes"]:
@@ -702,6 +1414,36 @@ def main() -> int:
     text_sample = data.get("textSample") or ""
     overlays_clicked = data.get("overlaysClicked") or []
     secondary_pages = data.get("secondaryPages") or []
+
+    style_dna = render_section_block(
+        "Style DNA",
+        style_dna_lines(
+            viewport,
+            fonts,
+            font_sizes,
+            colors,
+            radii,
+            h1,
+            h2,
+            nav,
+            buttons,
+            images,
+            checked_urls,
+            motion_keys,
+            exact_params,
+            secondary_pages,
+            text_sample,
+            overlays_clicked,
+        ),
+    )
+    reference_text_grammar = render_section_block(
+        "Reference Text And Copy Grammar",
+        reference_text_grammar_lines(title, args.page_scope, text_sample, h1, h2, nav, buttons),
+    )
+    style_tokens_surface = render_section_block(
+        "Style Tokens And Surface Grammar",
+        style_tokens_surface_lines(colors, radii, buttons, images, component_evidence),
+    )
 
     evidence_quality = "visual screenshot plus DOM/style/resource extraction" if ok else f"partial DOM extraction; screenshot failed: {browser_log[:160]}"
     path = Path(args.output_reference).expanduser() if args.output_reference else lib / "references" / f"{today}-{slug}.md"
@@ -743,6 +1485,8 @@ evidence_quality: "{q(evidence_quality)}"
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+{style_dna}
+
 ## Evidence Snapshot
 - Captured URL: {final_url}
 - Page title: {title}
@@ -773,6 +1517,8 @@ evidence_quality: "{q(evidence_quality)}"
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+{reference_text_grammar}
+
 ## Color, Material, And Contrast
 - Observed text colors: {summarize_list(colors, 16)}
 - Observed backgrounds: included in computed color pairs.
@@ -783,6 +1529,8 @@ evidence_quality: "{q(evidence_quality)}"
 - Macro geometry: document size {viewport}.
 - Media/card aspect stability: image natural sizes include {summarize_list([f"{img.get('w',0)}x{img.get('h',0)}" for img in images], 10)}.
 - Observed border radii: {summarize_list(radii, 12)}
+
+{style_tokens_surface}
 
 ## Dimension And Ratio System
 - Viewport and document: {viewport or f"{args.width}x{args.height}"}
@@ -804,6 +1552,7 @@ evidence_quality: "{q(evidence_quality)}"
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `{final_url}` when L0-L3 evidence is insufficient.
 - Component computed-style evidence: `assets/{today}-{slug}-component-styles.json`
+- Structured motion evidence: `assets/{today}-{slug}-motion.json`
 - Asset CDN and media loading patterns: {summarize_list([img.get('src') for img in images], 8)}
 
 ## Motion

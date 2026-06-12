@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：boxShadow missing -> rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px，200ms cubic-bezier(0.87, 0, 0.13, 1)，hover 触发；样本 ?",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "from": "missing",
+      "id": "motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1",
+      "keyframes": [],
+      "property": "boxShadow",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"boxShadow\": \"rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：boxShadow missing -> rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px，200ms cubic-bezier(0.87, 0, 0.13, 1)，focus 触发；样本 ?",
+      "duration_ms": 200,
+      "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+      "from": "missing",
+      "id": "motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1",
+      "keyframes": [],
+      "property": "boxShadow",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"boxShadow\": \"rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [],
+  "noise_filtered": [],
+  "omitted_incomplete": [],
+  "reference_path": "references/2026-06-03-patrick-mason-studio-portfolio.md",
+  "slug": "patrick-mason-studio-portfolio",
+  "source_motion_path": "assets/2026-06-12-patrick-mason-studio-portfolio-motion.json",
+  "source_urls": [],
+  "title": "Patrick Mason Studio Portfolio"
+}

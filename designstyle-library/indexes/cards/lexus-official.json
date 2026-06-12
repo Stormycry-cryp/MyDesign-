@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/lexus-official/component-styles.md",
     "moodboard": "design-systems/lexus-official/moodboard.svg",
+    "motion": "design-systems/lexus-official/motion.json",
+    "motion_presets": "design-systems/lexus-official/motion-presets.css",
     "palette": "design-systems/lexus-official/palette.md",
-    "tokens": "design-systems/lexus-official/tokens.json"
+    "tailwind_theme": "design-systems/lexus-official/tailwind.theme.json",
+    "tokens": "design-systems/lexus-official/tokens.json",
+    "variables_css": "design-systems/lexus-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/lexus-official/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/lexus-official/scene.md",
     "type_copy": "dimensions/lexus-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6097}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 208x150; 22x22; 1920x795; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471; 750x471.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 24px; 20px; 932px; 932px; 9999px; 9999px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6097}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 208:150; 22:22; 1920:795; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471; 750:471",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 24px; 20px; 932px; 932px; 9999px; 9999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -41,15 +83,14 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "weak",
+    "motion_code": "strong",
     "screenshot": "strong",
     "type_copy": "strong"
   },
   "missing_evidence": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
-    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.",
-    "motion/code evidence is weak"
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "motion_tags": [
     "hover states",

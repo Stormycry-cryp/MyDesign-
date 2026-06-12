@@ -1,0 +1,24 @@
+{
+  "theme": {
+    "extend": {
+      "boxShadow": {
+        "ds-component": "rgb(0, 0, 0) 0px 0px 0px 1px inset"
+      },
+      "colors": {
+        "background": "#ffffff",
+        "deep-accent": "#100000",
+        "deep-accent-2": "#403020",
+        "deep-accent-3": "#402000",
+        "deep-accent-4": "#605040",
+        "foreground": "#606060",
+        "foreground-2": "#202020",
+        "foreground-3": "#404040",
+        "neutral-surface": "#c0c0c0",
+        "neutral-surface-2": "#b0b0a0"
+      },
+      "spacing": {
+        "ds-component": "15.68px 10px 11.2px"
+      }
+    }
+  }
+}

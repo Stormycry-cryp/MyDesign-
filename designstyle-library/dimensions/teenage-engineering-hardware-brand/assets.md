@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-teenage-engineering-hardware-brand-component-styles.json`
   - Asset CDN and media loading patterns: https://assets.teenage.engineering/_img/69fb290acbb33728c83adf79_2048.webp; https://assets.teenage.engineering/_img/6a0478c28fa08037d0b1da88_512.webp; https://assets.teenage.engineering/_img/6a048b74e7daa247db147cb4_1024.webp; https://assets.teenage.engineering/_img/6978c061edd4be589c072ea3_2048.webp; https://assets.teenage.engineering/_img/69679fcdc59421146f2da1d5_128.webp; https://assets.teenage.engineering/_img/654e3948255502e470bf2649_128.webp; https://assets.teenage.engineering/_img/65bb545c604563e4f94c9726_128.webp; https://assets.teenage.engineering/_img/691c2c32e6d1b72313eaddae_128.webp
 
 ## Inference

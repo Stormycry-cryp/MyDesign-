@@ -9,6 +9,7 @@
 - a Sign in | rect=45.3x24.7@1132.8,51.6 | display=flex; position=relative; color=rgb(3, 20, 3); border=0px none rgb(3, 20, 3); fontFamily="Onest Variable", Verdana, sans-serif; fontSize=14px; fontWeight=600; lineHeight=14.7px; padding=5px 0px; gap=7px; transition=color 0.25s ease-in-out; transitionDuration=0.25s; transitionTimingFunction=ease-in-out; opacity=1
 - a Get a demo | rect=120.5x40.8@1279.5,43.6 | display=flex; position=static; color=rgb(3, 20, 3); backgroundColor=rgb(149, 193, 207); border=2px solid rgb(149, 193, 207); borderRadius=8px; fontFamily="Onest Variable", Verdana, sans-serif; fontSize=14px; fontWeight=600; lineHeight=16.8px; padding=10px 20px; transition=transform 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out; transitionDuration=0.1s, 0.1s, 0.1s, 0.1s; transitionTimingFunction=ease-in-out, ease-in-out, ease-in-out, ease-in-out
 - navigation count 2, image count 30, document height 6447.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -52,8 +53,9 @@
 - div MEZMO Active Telemetry shapes agent context INGEST 5.6M Raw logs, metrics, traces from 64  | rect=1358x240@41,408.2 | display=block; position=static; color=rgb(3, 20, 3); border=0px none rgb(3, 20, 3); fontFamily="Onest Variable", Verdana, sans-serif; fontSize=16px; fontWeight=300; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div CURATED CONTEXT VIA MCP ↕ YOUR INFRASTRUCTURE | rect=1360x37.5@40,641.2 | display=flex; position=relative; color=rgb(10, 9, 12); border=0px none rgb(10, 9, 12); fontFamily="Onest Variable", Verdana, sans-serif; fontSize=16px; fontWeight=300; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div CURATED CONTEXT VIA MCP ↕ YOUR INFRASTRUCTURE | rect=1360x37.5@40,641.2 | display=flex; position=relative; color=rgb(3, 20, 3); border=1px solid rgba(0, 0, 0, 0); fontFamily="Onest Variable", Verdana, sans-serif; fontSize=16px; fontWeight=300; lineHeight=24px; gap=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 50%; 8px; 8px; 8px; 16px; 4px; 4px; 2px; 2px; 2px; 4px; 4px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; 8px; 8px; 8px; 16px; 4px; 4px; 2px; 2px; 2px; 4px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- 50%; 8px; 8px; 8px; 16px; 4px; 4px; 2px; 2px; 2px; 4px; 4px; source: Layout Geometry And Spacing
 
 ### Content Samples
 - ✨ AURA is the open-source agentic harness for production AI. See how teams are using AURA in production here.✨

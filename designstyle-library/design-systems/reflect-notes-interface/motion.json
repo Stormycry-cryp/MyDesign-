@@ -1,0 +1,38 @@
+{
+  "items": [],
+  "missing": [
+    "motion-reflect-notes-interface-fallback lacks selector",
+    "motion-reflect-notes-interface-fallback lacks property",
+    "motion-reflect-notes-interface-fallback lacks duration_ms"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "Motion evidence was summarized from the L3 reference because structured motion JSON was missing.",
+      "duration_ms": "missing",
+      "easing": "Linear",
+      "from": "missing",
+      "id": "motion-reflect-notes-interface-fallback",
+      "keyframes": [],
+      "missing_fields": [
+        "selector",
+        "property",
+        "duration_ms"
+      ],
+      "property": "missing",
+      "reduced_motion": "missing",
+      "selector": "missing",
+      "selector_role": "component",
+      "snippet": "",
+      "source": "L3 Motion Code And Runtime Evidence",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "reference_path": "references/2026-06-04-reflect-notes-interface.md",
+  "slug": "reflect-notes-interface",
+  "source_motion_path": "assets/2026-06-12-reflect-notes-interface-motion.json",
+  "source_urls": [],
+  "title": "Reflect Notes Interface"
+}

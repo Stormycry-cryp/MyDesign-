@@ -1,42 +1,132 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: kground:#000;border-radius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-ve, s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scrollbar:before{bottom:2px;left:2px;right, bar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scrollbar:before{bottom:2px;left:2px;right:2px;top:2px}.simplebar
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: $/;function schedule(){if(inProgress){if(document.hidden===!1&&window.requestAnimationFrame){window.requestAnimationFrame(schedule)}else{window.setTimeout(schedule,jQuery.fx.interval)} jQuery.fx.tick()}} function createFx, ogress){if(document.hidden===!1&&window.requestAnimationFrame){window.requestAnimationFrame(schedule)}else{window.setTimeout(schedule,jQuery.fx.interval)} jQuery.fx.tick()}} function createFxNow(){window.setTimeout(functi
-  - Timing/easing: .fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps, pin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-sp, ius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simpleba, on-property:all;transition-timing-function:var(--ag-transition-timing,ease);width:var(--ag-overlay-width,100%);z-index:var(--ag-form-z-index,10000)}.age-gate .age-gate-shortcode-inner,.age-gate .age-gate_, p-block-button .wp-block-button__link.loading:after{animation:spin 2s linear infinite;content:"";display:inline-block;font-family:WooCommerce;height:auto;margin-left:.5em;width:auto}.has-5-columns:not(.ali
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: kground:#000;border-radius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s; s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scr; bar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scrollbar:before{bottom; ng:var(--ag-input-padding,.5rem 1rem);text-align:var(--ag-text-align);transition:all .3s;width:100%}.age-gate input[type=text].age-gate-input::-moz-placeholder,.age-gate input[type; ixed);text-align:var(--ag-text-align,center);top:var(--ag-form-top,0);transition-duration:var(--ag-transition-duration,.3s);transition-property:all;transition-timing-function:var(-; ar.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin ; argin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spi; inear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-w
-  - Public CSS/JS probe keywords: animation, easing, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: kground:#000;border-radius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s; s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scr; bar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scrollbar:before{bottom; ng:var(--ag-input-padding,.5rem 1rem);text-align:var(--ag-text-align);transition:all .3s;width:100%}.age-gate input[type=text].age-gate-input::-moz-placeholder,.age-gate input[type; ixed);text-align:var(--ag-text-align,center);top:var(--ag-form-top,0);transition-duration:var(--ag-transition-duration,.3s);transition-property:all;transition-timing-function:var(-; ar.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin ; argin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spi; inear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-w; ear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:; duct-add-to-cart.wp-block-button .wp-block-button__link.loading:after{animation:spin 2s linear infinite;content:"";display:inline-block;font-family:WooCommerce;height:auto;margin-
-  - Exact motion parameters: kground:#000;border-radius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s; s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scr; bar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s}.simplebar-track.simplebar-vertical{top:0;width:11px}.simplebar-scrollbar:before{bottom; ar.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin ; argin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spi; inear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-w; .fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;; pin{-webkit-animation:fa-spin 2s linear infinite;animation:fa-spin 2s linear infinite}.fa-pulse{-webkit-animation:fa-spin 1s steps(8) infinite;animation:fa-spin 1s steps(8) infinit; ius:7px;content:"";opacity:0;position:absolute;transition:opacity .2s linear .5s}.simplebar-scrollbar.simplebar-visible:before{opacity:.5;transition-delay:0s;transition-duration:0s; on:fa-spin 1s steps(8) infinite}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@key
-  - JavaScript/runtime motion evidence: $/;function schedule(){if(inProgress){if(document.hidden===!1&&window.requestAnimationFrame){window.requestAnimationFrame(schedule)}else{window.setTimeout(schedule,jQuery.fx.interv; ogress){if(document.hidden===!1&&window.requestAnimationFrame){window.requestAnimationFrame(schedule)}else{window.setTimeout(schedule,jQuery.fx.interval)} jQuery.fx.tick()}} functi
-  - Stylesheet evidence: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css; https://ossa.wine/wp-content/cache/breeze-minification/css/breeze_ossa-wine-1-358.css?ver=1780471520; https://www.google-analytics.com/analytics.js; https://www.googletagmanager.com/gtag/js?id=UA-213553681-1&cx=c&gtm=4e6621; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-jquery.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-minmax-quantity-for-woocommerce-js-frontend.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-blockui-jquery.blockUI.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-js-cookie-js.cookie.min.js?ver=1780471520
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css; https://ossa.wine/wp-content/cache/breeze-minification/css/breeze_ossa-wine-1-358.css?ver=1780471520; https://www.google-analytics.com/analytics.js; https://www.googletagmanager.com/gtag/js?id=UA-213553681-1&cx=c&gtm=4e6621; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-jquery.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-minmax-quantity-for-woocommerce-js-frontend.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-jquery-blockui-jquery.blockUI.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-js-cookie-js.cookie.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-js-frontend-woocommerce.min.js?ver=1780471520; https://ossa.wine/wp-content/cache/breeze-minification/js/breeze_ossa-wine-1-358-public-js-app.js?ver=1780471520
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-ossa-wine-ecommerce-component-styles.json`
-  - Asset CDN and media loading patterns: https://ossa.wine/wp-content/uploads/2021/11/ossa-tas-logo-horiz-1.png; https://ossa.wine/wp-content/uploads/2022/02/ossa-274A1860-2-2400-1600x1012.jpg; https://ossa.wine/wp-content/uploads/2022/02/20211207_OSSA_Styled_Bottles12859_V2_FA_WithoutVintage_LR-1200x1001.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3788.jpg; https://ossa.wine/wp-content/uploads/2022/05/SSH_0557.jpg; https://ossa.wine/wp-content/uploads/2022/02/SSH_3927-copy.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3800_1.jpg; https://ossa.wine/wp-content/uploads/2022/02/Crop_SSH_3800_2.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 24 and scripts 27; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 2000ms | 0ms | linear | 组件load：animation rotate(0deg) -> rotate(1turn)，2000ms linear，load 触发 |
+| component | load | animation | 1000ms | 0ms | steps(8) | 组件load：animation rotate(0deg) -> rotate(1turn)，1000ms steps(8)，load 触发 |
+| button | load | animation | 2000ms | 0ms | linear | 按钮load：animation，2000ms linear，load 触发 |
+| component | state-change | all | 200ms | 0ms | ease-in-out | 组件state-change：all，200ms ease-in-out，state-change 触发 |
+| button | state-change | color | 250ms | 0ms | ease-in-out | 按钮state-change：color，250ms ease-in-out，state-change 触发 |
+| button | state-change | opacity | 250ms | 0ms | ease-in-out | 按钮state-change：opacity，250ms ease-in-out，state-change 触发 |
+| navigation | state-change | all | 450ms | 0ms | linear | 导航state-change：all missing -> translateY(-102%)，450ms linear，state-change 触发 |
+| navigation | state-change | all | 750ms | 0ms | cubic-bezier(.22,1,.36,1) | 导航state-change：all missing -> translateY(-100vh)，750ms cubic-bezier(.22,1,.36,1)，state-change 触发 |
+| navigation | state-change | all | 750ms | 0ms | cubic-bezier(.22,1,.36,1) | 导航state-change：all missing -> translateY(-100%)，750ms cubic-bezier(.22,1,.36,1)，state-change 触发 |
+| component | state-change | all | 750ms | 0ms | cubic-bezier(.22,1,.36,1) | 组件state-change：all，750ms cubic-bezier(.22,1,.36,1)，state-change 触发 |
+| component | state-change | all | 750ms | 0ms | cubic-bezier(.22,1,.36,1) | 组件state-change：all，750ms cubic-bezier(.22,1,.36,1)，state-change 触发 |
+| component | state-change | all | 750ms | 0ms | ease-in-out | 组件state-change：all missing -> translateY(100vh)，750ms ease-in-out，state-change 触发 |
+| component | state-change | all | 750ms | 0ms | ease-in-out | 组件state-change：all missing -> translateY(100vh)，750ms ease-in-out，state-change 触发 |
+| component | state-change | all | 750ms | 0ms | ease-in-out | 组件state-change：all，750ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 250ms | 0ms | ease-in-out | 组件state-change：opacity，250ms ease-in-out，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-ossa-wine-ecommerce-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-navigation-state-change-none-important-missing-missing lacks duration_ms
+- motion-navigation-state-change-none-important-missing-missing lacks easing
+- motion-navigation-state-change-none-important-missing-missing lacks duration_ms
+- motion-navigation-state-change-none-important-missing-missing lacks easing
+- motion-navigation-state-change-none-important-missing-missing lacks duration_ms
+- motion-navigation-state-change-none-important-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-2000-linear
+
+```css
+.fa-spin { animation: fa-spin 2s linear infinite; }
+```
+
+### motion-component-load-animation-1000-steps-8
+
+```css
+.fa-pulse { animation: fa-spin 1s steps(8) infinite; }
+```
+
+### motion-button-load-animation-2000-linear
+
+```css
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link.loading:after { animation: spin 2s linear infinite; }
+```
+
+### motion-component-state-change-all-200-ease-in-out
+
+```css
+.wc-block-components-notice-banner>.wc-block-components-notice-banner__content .wc-forward { transition: all .2s ease-in-out; }
+```
+
+### motion-button-state-change-color-250-ease-in-out
+
+```css
+.slick-dots li button::before { transition: color 0.25s ease-in-out; }
+```
+
+### motion-button-state-change-opacity-250-ease-in-out
+
+```css
+.slick-dots li button::before { transition: opacity 0.25s ease-in-out; }
+```
+
+### motion-navigation-state-change-all-450-linear
+
+```css
+.menu-drop-holder .menu-drop { transition: all 0.45s linear; }
+```
+
+### motion-navigation-state-change-all-750-cubic-bezier-22-1-36-1
+
+```css
+.mainNav ul li { transition: all 0.75s cubic-bezier(.22,1,.36,1); }
+```
+
+### motion-navigation-state-change-all-750-cubic-bezier-22-1-36-1
+
+```css
+#wine-list-menu { transition: all 0.75s cubic-bezier(.22,1,.36,1); }
+```
+
+### motion-component-state-change-all-750-cubic-bezier-22-1-36-1
+
+```css
+#home-animation .horiz-row { transition: all 0.75s cubic-bezier(.22,1,.36,1); }
+```
+
+### motion-component-state-change-all-750-cubic-bezier-22-1-36-1
+
+```css
+#home-animation .anim-object { transition: all 0.75s cubic-bezier(.22,1,.36,1); }
+```
+
+### motion-component-state-change-all-750-ease-in-out
+
+```css
+.home .home-curtain { transition: all 0.75s ease-in-out; }
+```
+
+### motion-component-state-change-all-750-ease-in-out
+
+```css
+.is-home .home-message { transition: all 0.75s ease-in-out; }
+```
+
+### motion-component-state-change-all-750-ease-in-out
+
+```css
+#homeBlocks { transition: all 0.75s ease-in-out; }
+```
+
+### motion-component-state-change-opacity-250-ease-in-out
+
+```css
+.signup-message.signup-close #signup-overlay { transition: opacity 0.25s ease-in-out; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

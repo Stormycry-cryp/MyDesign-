@@ -12,7 +12,7 @@
 - a Company Company | rect=77.9x41.8@483.6,7.5 | display=inline-flex; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Roobertvf, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=10.4px 8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Pricing Pricing | rect=60.8x41.8@565.7,7.5 | display=inline-flex; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Roobertvf, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=10.4px 8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 24, image count 40, document height 9326.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Back Product Product Use Cases Use Cases Solutions Solutions Resources Resources Company Company Pricing Pricing ⌘ K Log
@@ -57,8 +57,8 @@
 - li Pricing Pricing | rect=64.9x41.8@563.6,7.5 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Roobertvf, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; padding=0px 2.08px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Log in | rect=61x32@1082.5,12.4 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Roobertvf, Arial, sans-serif; fontSize=12.8px; fontWeight=500; lineHeight=19.2px; gap=3.2px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div Log in | rect=61x32@1082.5,12.4 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=8px; fontFamily=Roobertvf, Arial, sans-serif; fontSize=12.8px; fontWeight=500; lineHeight=19.2px; padding=6.4px 12.8px; transition=background-color 0.25s cubic-bezier(0.075, 0.82, 0.165, 1); transitionDuration=0.25s; transitionTimingFunction=cubic-bezier(0.075, 0.82, 0.165, 1); opacity=1
-- 0px 0px 24px 24px; 10px; 4px; 4px; 8px; 12px; 12px; 0px 0px 24px 24px; 8px; 8px; 8px; 8px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 0px 0px 24px 24px; 10px; 4px; 4px; 8px; 12px; 12px; 0px 0px 24px 24px; 8px; 8px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Product

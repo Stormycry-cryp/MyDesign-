@@ -1,0 +1,26 @@
+:root {
+  --ds-color-supporting-color: #907060;
+  --ds-color-supporting-color-2: #a09080;
+  --ds-color-supporting-color-3: #d0c090;
+  --ds-color-neutral-surface: #b0b0b0;
+  --ds-color-deep-accent: #102020;
+  --ds-color-supporting-color-4: #709090;
+  --ds-color-background: #ffffff;
+  --ds-color-neutral-surface-2: #707070;
+  --ds-color-deep-accent-2: #304040;
+  --ds-color-deep-accent-3: #705040;
+  --ds-color-foreground: #000000;
+  --ds-color-foreground-2: #0f0f0f;
+  --ds-spacing-component: normal 12px;
+  --ds-radius-component: 4px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-color-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-button-state-change-color-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-button-state-change-color-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-color-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-card-state-change-color-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-card-state-change-color-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-card-state-change-color-300-ease-in-out-easing: ease-in-out;
+}

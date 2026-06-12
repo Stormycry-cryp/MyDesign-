@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/footer-design-gallery-resource/component-styles.md",
     "moodboard": "design-systems/footer-design-gallery-resource/moodboard.svg",
+    "motion": "design-systems/footer-design-gallery-resource/motion.json",
+    "motion_presets": "design-systems/footer-design-gallery-resource/motion-presets.css",
     "palette": "design-systems/footer-design-gallery-resource/palette.md",
-    "tokens": "design-systems/footer-design-gallery-resource/tokens.json"
+    "tailwind_theme": "design-systems/footer-design-gallery-resource/tailwind.theme.json",
+    "tokens": "design-systems/footer-design-gallery-resource/tokens.json",
+    "variables_css": "design-systems/footer-design-gallery-resource/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/footer-design-gallery-resource/assets.md",
@@ -35,6 +39,44 @@
     "scene": "dimensions/footer-design-gallery-resource/scene.md",
     "type_copy": "dimensions/footer-design-gallery-resource/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2860}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 2028x1352; 16x16; 2028x1352; 16x16; 2028x1352; 16x16; 2028x1352; 16x16; 1440x960; 16x16.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 1600px; 1600px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2860}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 2028:1352; 16:16; 2028:1352; 16:16; 2028:1352; 16:16; 2028:1352; 16:16; 1440:960; 16:16",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 4px; 1600px; 1600px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 150ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

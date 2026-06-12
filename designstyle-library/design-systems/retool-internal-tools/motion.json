@@ -1,0 +1,1061 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: background-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: border-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: text-decoration-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: fill; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle { transition-property: stroke; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，300ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-all-300-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".hypertuneToolbarToggle span",
+      "selector_role": "component",
+      "snippet": ".hypertuneToolbarToggle span { transition-property: all; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scaleX(1) -> scaleX(1)，800ms linear，load 触发",
+      "duration_ms": 800,
+      "easing": "linear",
+      "from": "scaleX(1)",
+      "id": "motion-component-load-animation-800-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scaleX(1)",
+            "transform-origin": "100%"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scaleX(0)",
+            "transform-origin": "100%"
+          }
+        },
+        {
+          "step": "50.01%",
+          "values": {
+            "transform": "scaleX(0)",
+            "transform-origin": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scaleX(1)",
+            "transform-origin": "0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ActionLink-module__4rWgOW__animating:after",
+      "selector_role": "component",
+      "snippet": ".ActionLink-module__4rWgOW__animating:after { animation: ActionLink-module__4rWgOW__slide-out-in .8s linear forwards; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "scaleX(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，800ms linear，load 触发",
+      "duration_ms": 800,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-800-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "100% 100%",
+            "background-size": "100% 1px"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "background-position": "100% 100%",
+            "background-size": "0% 1px"
+          }
+        },
+        {
+          "step": "50.01%",
+          "values": {
+            "background-position": "0 100%",
+            "background-size": "0% 1px"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "0 100%",
+            "background-size": "100% 1px"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ActionArrowLink-module__YdMS6a__animating",
+      "selector_role": "component",
+      "snippet": ".ActionArrowLink-module__YdMS6a__animating { animation: ActionArrowLink-module__YdMS6a__slide-out-in .8s linear forwards; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，2000ms linear，load 触发",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-2000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "0%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "200%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".Badge-module__6_JPlG__badgeAiGradient",
+      "selector_role": "component",
+      "snippet": ".Badge-module__6_JPlG__badgeAiGradient { animation: 2s linear infinite Badge-module__6_JPlG__gradient-shift; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，10000ms linear，load 触发",
+      "duration_ms": 10000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-10000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "0%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "200%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".Badge-module__6_JPlG__badgeAssistGradient",
+      "selector_role": "component",
+      "snippet": ".Badge-module__6_JPlG__badgeAssistGradient { animation: 10s linear infinite Badge-module__6_JPlG__gradient-shift; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，8000ms linear，load 触发",
+      "duration_ms": 8000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-8000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "0%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "400%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".Badge-module__6_JPlG__badgeChromeGradient",
+      "selector_role": "component",
+      "snippet": ".Badge-module__6_JPlG__badgeChromeGradient { animation: 8s linear infinite Badge-module__6_JPlG__chrome-gradient-shift; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，2000ms linear，load 触发",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-2000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-color": "var(--raw-semantic-critical-10)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-color": "var(--raw-semantic-critical-8)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".Badge-module__6_JPlG__bgRedLightPulse",
+      "selector_role": "component",
+      "snippet": ".Badge-module__6_JPlG__bgRedLightPulse { animation: 2s linear infinite alternate Badge-module__6_JPlG__red-light-pulse; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，3000ms linear，load 触发",
+      "duration_ms": 3000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-3000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "200%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "-200%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".PromptAction-module__BVA7-q__textShimmer",
+      "selector_role": "component",
+      "snippet": ".PromptAction-module__BVA7-q__textShimmer { animation: PromptAction-module__BVA7-q__shimmer-text 3s linear infinite; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，3000ms linear，load 触发",
+      "duration_ms": 3000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-3000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "200%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "-200%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".PromptBox-module__bBHQva__placeholder",
+      "selector_role": "component",
+      "snippet": ".PromptBox-module__bBHQva__placeholder { animation: 3s linear infinite PromptBox-module__bBHQva__shimmer-text; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件focus：animation，6000ms linear，focus 触发",
+      "duration_ms": 6000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-focus-animation-6000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "200%"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "-200%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".PromptBox-module__bBHQva__contentUnfocused:not(:focus)",
+      "selector_role": "component",
+      "snippet": ".PromptBox-module__bBHQva__contentUnfocused:not(:focus) { animation: 6s linear infinite PromptBox-module__bBHQva__shimmer-text; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：opacity，400ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 400,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-card-state-change-opacity-400-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".SolutionTile-module__jV1PGW__bg",
+      "selector_role": "card",
+      "snippet": ".SolutionTile-module__jV1PGW__bg { transition: opacity .4s cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：background-color，100ms cubic-bezier(.12,1,.72,1)，state-change 触发",
+      "duration_ms": 100,
+      "easing": "cubic-bezier(.12,1,.72,1)",
+      "from": "missing",
+      "id": "motion-card-state-change-background-color-100-cubic-bezier-12-1-72-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".SolutionTile-module__jV1PGW__bg",
+      "selector_role": "card",
+      "snippet": ".SolutionTile-module__jV1PGW__bg { transition: background-color .1s cubic-bezier(.12,1,.72,1)!important; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translate(0) -> translateX(var(--distance-percentage,-50%))，20000ms linear，load 触发",
+      "duration_ms": 20000,
+      "easing": "linear",
+      "from": "translate(0)",
+      "id": "motion-component-load-animation-20000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translateX(var(--distance-percentage,-50%))"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".LogosMarquee-module__CfCiJq__marqueeForwards",
+      "selector_role": "component",
+      "snippet": ".LogosMarquee-module__CfCiJq__marqueeForwards { animation: 20s linear infinite LogosMarquee-module__CfCiJq__marquee-forwards; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "translateX(var(--distance-percentage,-50%))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translate(0) -> translateX(var(--distance-percentage,-50%))，20000ms linear，load 触发",
+      "duration_ms": 20000,
+      "easing": "linear",
+      "from": "translate(0)",
+      "id": "motion-component-load-animation-20000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translateX(var(--distance-percentage,-50%))"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".LogosMarquee-module__14b_GW__marqueeForwards",
+      "selector_role": "component",
+      "snippet": ".LogosMarquee-module__14b_GW__marqueeForwards { animation: 20s linear infinite LogosMarquee-module__14b_GW__marquee-forwards; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "translateX(var(--distance-percentage,-50%))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper svg",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper path",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper rect",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper circle",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.72,0,.12,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse",
+      "selector_role": "component",
+      "snippet": ".ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，2000ms linear，load 触发",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-2000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-color": "var(--raw-semantic-critical-10)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-color": "var(--raw-semantic-critical-8)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".red-pulse",
+      "selector_role": "component",
+      "snippet": ".red-pulse { animation: 2s linear infinite alternate red-pulse; }",
+      "source": "https://retool.com/_next/static/chunks/1s-ykwqwdxjx_.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform missing -> translate(-.5em)translateY(8%)，300ms ease-in-out，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-300-ease-in-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".NavItemFeaturedCard-module__wQy9cG__titleLink .NavItemFeaturedCard-module__wQy9cG__icon",
+      "selector_role": "card",
+      "snippet": ".NavItemFeaturedCard-module__wQy9cG__titleLink .NavItemFeaturedCard-module__wQy9cG__icon { transition-property: transform; transition-duration: .3s; transition-timing-function: ease-in-out; }",
+      "source": "https://retool.com/_next/static/chunks/1g373cg9cqs1d.css",
+      "to": "translate(-.5em)translateY(8%)",
+      "trigger": "state-change"
+    }
+  ],
+  "missing": [
+    "motion-hero-state-change-color-200-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "首屏state-change：color，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-hero-state-change-color-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".HeadlineIconBlock-module__GEYQ0W__headlineIconBlock span",
+      "selector_role": "hero",
+      "snippet": ".HeadlineIconBlock-module__GEYQ0W__headlineIconBlock span { transition-property: color; transition-duration: .2s; transition-timing-function: missing; }",
+      "source": "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "reference_path": "references/2026-06-04-retool-internal-tools.md",
+  "slug": "retool-internal-tools",
+  "source_motion_path": "assets/2026-06-12-retool-internal-tools-motion.json",
+  "source_urls": [
+    "https://retool.com/_next/static/chunks/3hspgkw-7q0xg.css",
+    "https://retool.com/_next/static/chunks/0xo7bapa-ukbd.css",
+    "https://retool.com/_next/static/chunks/1s-ykwqwdxjx_.css",
+    "https://retool.com/_next/static/chunks/1g373cg9cqs1d.css"
+  ],
+  "title": "Retool Internal Tools"
+}

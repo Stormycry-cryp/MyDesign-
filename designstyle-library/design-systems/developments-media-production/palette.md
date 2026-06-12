@@ -3,14 +3,15 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#ffffff` | background | screenshot pixel sample | 0.9033 |
-| `#000000` | foreground | screenshot pixel sample | 0.071 |
-| `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0022 |
-| `#707070` | neutral surface | screenshot pixel sample | 0.0022 |
-| `#909090` | neutral surface | screenshot pixel sample | 0.0021 |
-| `#404040` | foreground | screenshot pixel sample | 0.002 |
-| `#c0c0c0` | neutral surface | screenshot pixel sample | 0.0017 |
-| `#202020` | foreground | screenshot pixel sample | 0.0013 |
+| `#ffffff` | background | screenshot pixel sample | 0.8943 |
+| `#000000` | foreground | screenshot pixel sample | 0.0694 |
+| `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0057 |
+| `#c0c0c0` | neutral surface | screenshot pixel sample | 0.0036 |
+| `#404040` | foreground | screenshot pixel sample | 0.0024 |
+| `#808080` | neutral surface | screenshot pixel sample | 0.0016 |
+| `#202020` | foreground | screenshot pixel sample | 0.0014 |
+| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0014 |
+| `#606060` | foreground | screenshot pixel sample | 0.0014 |
 
 ## Mood Keywords
 - production-led

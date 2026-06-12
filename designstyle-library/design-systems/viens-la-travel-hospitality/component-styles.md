@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 40, document height 1000.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -45,8 +46,8 @@
 - li Contact | rect=113.8x47.1@938.2,917.4 | display=list-item; position=static; color=rgb(95, 69, 242); border=0px none rgb(95, 69, 242); fontFamily=obviously-variable, sans-serif; fontSize=15px; fontWeight=400; lineHeight=28.125px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=url("https://viens-la.com/wp-content/themes/front/assets/svgs/cursors/cursor.svg"), auto
 - div FR EN | rect=104.6x39.6@1072,920.2 | display=flex; position=static; color=rgb(95, 69, 242); border=0px none rgb(95, 69, 242); fontFamily=obviously-variable, sans-serif; fontSize=15px; fontWeight=400; lineHeight=28.125px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=url("https://viens-la.com/wp-content/themes/front/assets/svgs/cursors/cursor.svg"), auto
 - a FR | rect=54.4x39.6@1072,920.2 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgb(95, 69, 242); border=0px none rgb(255, 255, 255); borderRadius=20px; fontFamily=obviously-variable, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18.6px; padding=12px 18px 9px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
-- 35px; 40px; 40px; 40px; 40px; 40px; 20px; 20px; 1000px; 1000px; 1000px; 1000px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 35px; 40px; 40px; 40px; 40px; 40px; 20px; 20px; 1000px; 1000px; 1000px; 1000px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Accueil Studio Services Réalisations Contact

@@ -30,6 +30,13 @@ Overpass Software Platform is captured as a software, application, platform, b2b
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 1517x2284; 2308x86; 2308x86.; source: Layout Geometry And Spacing
+- Observed border radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}; source: Dimension And Ratio System
+- Observed media ratios: 1517:2284; 2308:86; 2308:86; source: Dimension And Ratio System
 ## Evidence Snapshot
 - Captured URL: https://www.overpass.com/
 - Page title: Build Global Remote Sales & Support Teams | Overpass
@@ -60,6 +67,12 @@ Overpass Software Platform is captured as a software, application, platform, b2b
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Certified; Certified; Certified; H2 Stack your team with reps that crush it; Reimagine your sales team Reimagine your sales team Reimagine your sales team Reimagine your sales team; A new way to hire A new way to hire A new way to hire A new way to hire; Testimonials; Trusted by Trusted by Trusted by Trusted by Trusted by; Frequently Asked Questions; navigation Find a rep; Profile Insights; Assisted Hiring; Payment Facilitation; Lead Generation; About Us; Careers; Sales Academy; Blog; Podcasts; Webinars; Help Center
+- Sentence rhythm: 97 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Build Global Remote Sales & Support Teams | Overpass; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(30, 36, 50):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +84,12 @@ Overpass Software Platform is captured as a software, application, platform, b2b
 - Media/card aspect stability: image natural sizes include 1517x2284; 2308x86; 2308x86.
 - Observed border radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Login; Login; START HIRING; START HIRING; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}
 - Observed media ratios: 1517:2284; 2308:86; 2308:86
@@ -86,34 +105,27 @@ Overpass Software Platform is captured as a software, application, platform, b2b
 
 ## Code Surface
 - Framework/runtime hints: request_animation_frame
-- Public stylesheet/script URLs: https://js.hs-banner.com/v2/4009758/banner.js; https://js.hs-analytics.net/analytics/1780559400000/4009758.js; https://js.hsadspixel.net/pixels.js; https://bat.bing.com/bat.js; https://airtimeux.com/airtime.js; https://bat.bing.com/bat.js; https://cdn.sessionstack.com/sessionstack.js; https://edge.fullstory.com/s/fs.js; https://a.quora.com/qevents.js; https://snap.licdn.com/li.lms-analytics/insight.min.js
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-overpass-software-platform-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-overpass-software-platform-component-styles.json`
 - Asset CDN and media loading patterns: https://www.overpass.com/_nuxt/img/academy-img.e862b43.png; https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86; https://images.prismic.io/overpassprod/72da689a-dc9e-4a76-beee-80e8c5e9063f_banner%403x.png?auto=compress,format&rect=0,0,1610,60&w=2308&h=86
-
+- Public stylesheet/script URLs: missing
 ## Motion
-- Page transitions: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:1.7em;width:1.7em;left, rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{background-color:var(--hs-b, s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14px);color:var(--hs-banner-modal-category-tex
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: e(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(e)},o=setT, H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);at&&(t=requestAni
-- Timing/easing: ff-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:, er-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:1.7em;width:1.7em;left, ground:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{background-color:var(--hs-b, ition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.btn-primary,.btn-primary:hover{box-shadow:0 0 transparent,0 0 transparent,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shado, ition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.btn-outline:hover{--tw-bg-opacity:1;background-color:#fcedef;background-color:rgba(252,237,239,var(--tw-bg-opacity,1))}.btn-outl
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; )}#hs-modal-content #hs-categories-container .hs-category-description{transition:max-height .2s;box-sizing:border-box;overflow:hidden;opacity:0}#hs-modal-content #hs-categories-con; center;line-height:1.25rem;padding-left:1.25rem;padding-right:1.25rem;transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.btn-primar; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translate(var(--hs-banner-translate-x,-50%),
 - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-- Public CSS/JS motion snippets: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; )}#hs-modal-content #hs-categories-container .hs-category-description{transition:max-height .2s;box-sizing:border-box;overflow:hidden;opacity:0}#hs-modal-content #hs-categories-con; center;line-height:1.25rem;padding-left:1.25rem;padding-right:1.25rem;transition-duration:.3s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.btn-primar; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translate(var(--hs-banner-translate-x,-50%),; er-parent #hs-eu-cookie-confirmation.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-eu-cookie-confirmation #hs-eu-cookie-confirmation-inner{display:fl; y:1;transform:translateX(50%) translateY(0)}}.animate-slide-in-bottom{animation:slideInBottom .75s}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linea
-- Exact motion parameters: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translate(var(--hs-banner-translate-x,-50%),; ff-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{p; er-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;heigh; ground:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{bac; :auto;inset:var(--hs-banner-inset,32px 0 auto 50%);z-index:3000000000;transform:translate(var(--hs-banner-translate-x,-50%),200vh);-webkit-transform:translate(var(--hs-banner-trans
-- JavaScript/runtime motion evidence: e(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&canc; H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(; at&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);at&&(t=requestAnimationFrame(n))})(rt)),ze=null},de.__c=function(e,t){t.some((function(e){try{e.__h.forEach(ct),e.__h; ct(e)}catch(e){t=e}})),t&&de.__e(t,n.__v))};var at="function"==typeof requestAnimationFrame;function ct(e){var t=ze,n=e.__c;"function"==typeof n&&(e.__c=void 0,n()),ze=t}function l
-- Stylesheet evidence: https://js.hs-banner.com/v2/4009758/banner.js; https://js.hs-analytics.net/analytics/1780559400000/4009758.js; https://js.hsadspixel.net/pixels.js; https://bat.bing.com/bat.js; https://airtimeux.com/airtime.js; https://bat.bing.com/bat.js; https://cdn.sessionstack.com/sessionstack.js; https://edge.fullstory.com/s/fs.js
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-
+- Exact motion parameters: missing
 ## Interaction And Components
 - Navigation: Find a rep; Profile Insights; Assisted Hiring; Payment Facilitation; Lead Generation; About Us; Careers; Sales Academy; Blog; Podcasts; Webinars; Help Center; Pricing; Find Remote Work; Login; Explore
 - Buttons/links: Login; Login; START HIRING; START HIRING; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW
-- Computed component styles: `assets/2026-06-04-overpass-software-platform-component-styles.json`
+- Computed component styles: `assets/2026-06-12-overpass-software-platform-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +154,4 @@ Overpass Software Platform is captured as a software, application, platform, b2b
 - Reuse value: useful for homepage software platform if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-overpass-software-platform-motion.json`

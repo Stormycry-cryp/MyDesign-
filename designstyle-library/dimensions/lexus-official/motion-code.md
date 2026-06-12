@@ -1,42 +1,44 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: no direct transition evidence found
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","pointerup","pointer, tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","pointerup","pointerdown"];function Sc(i,r, ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseStart>0&&i.respo, ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseStart>0&&i.responseStart<performance.now()
-  - Timing/easing: no direct timing evidence found
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: none observed
-  - Public CSS/JS probe keywords: intersection, request_animation_frame
-  - Public CSS/JS motion snippets: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap; tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","p; ebKitMutationObserver)!==null&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.Mutatio; ll&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.n; tionObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.nodeProperties,i.Node.pro; ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigat; ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseS
-  - Exact motion parameters: no direct code evidence; preserve only visible motion intent
-  - JavaScript/runtime motion evidence: MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap; tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Gi=null,zE=["click","tap","keyup","keydown","p; ebKitMutationObserver)!==null&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.Mutatio; ll&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.n; tionObserver),_w.csIntersectionObserver=ed(_w.IntersectionObserver,gr.IntersectionObserver),_w.csMutationObserver=ed(e,gr.MutationObserver),mn("csNode",ir.nodeProperties,i.Node.pro; ?"poor":a>l[0]?"needs-improvement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigat; ovement":"good")(r.value,t),i(r)))}},dh=i=>{requestAnimationFrame(()=>requestAnimationFrame(()=>i()))},fh=()=>{let i=performance.getEntriesByType("navigation")[0];if(i&&i.responseS
-  - Stylesheet evidence: https://www.lexus.com/etc.clientlibs/lexus/components/core/content/container/v1/container/clientlibs/site.lc-2a6e83bfeea337c34c6d26e7eeb402c1-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/components/container/clientlibs/site.lc-33331d9b97706d3d692938f1ab7579f9-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/clientlibs/lexus-react.lc-44f578454112a6bd5a41eb2aa7f9558f-lc.min.css; https://sc-static.net/scevent.min.js; https://www.googletagmanager.com/gtag/js?id=AW-10999173448; https://www.googletagmanager.com/gtag/js?id=AW-11350348623; https://www.googletagmanager.com/gtag/js?id=DC-1044889; https://t.contentsquare.net/uxa/cd11b5d7d4392.js
-  - Interpreted motion tags: hover states, carousel, scroll reveals
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://www.lexus.com/etc.clientlibs/lexus/components/core/content/container/v1/container/clientlibs/site.lc-2a6e83bfeea337c34c6d26e7eeb402c1-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/components/container/clientlibs/site.lc-33331d9b97706d3d692938f1ab7579f9-lc.min.css; https://www.lexus.com/etc.clientlibs/lexus/clientlibs/lexus-react.lc-44f578454112a6bd5a41eb2aa7f9558f-lc.min.css; https://sc-static.net/scevent.min.js; https://www.googletagmanager.com/gtag/js?id=AW-10999173448; https://www.googletagmanager.com/gtag/js?id=AW-11350348623; https://www.googletagmanager.com/gtag/js?id=DC-1044889; https://t.contentsquare.net/uxa/cd11b5d7d4392.js; https://collector-29698.us.tvsquared.com/tv2track.js; https://p.teads.tv/teads-fellow.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.lexus.com/` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-lexus-official-component-styles.json`
-  - Asset CDN and media loading patterns: data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2027.9.3,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%209.03%20; data:image/svg+xml,%3csvg%20version='1.1'%20id='Layer_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20x='0px'%20y='0px'%20width='21.962px'%20; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:2f2f4a73-d051-434e-be36-5c54975b9dc0/as/lexus-tz-homepage-hero-desktop-1920x795-LEX-TZE-MY27-0023.jpg?width=1920&; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:347d2852-face-42a9-82e3-2302e9da468b/as/Lexus-UX-Hybrid-and-Electric-LEX-USH-MY23-0004-05.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:b9541487-42be-44d2-b810-f7c9142ccac1/as/Lexus-NX-Hybrid-and-Electric-LEX-NXH-MY26-11364.png?width=750&length=471; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:332e01df-3db1-4442-9288-80792de07a1e/as/Lexus-RZ-Hybrid-and-Electric-LEX-RZV-MY26-2848-04.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:20e83ff5-6b44-4867-a089-9d1ab67444a3/as/Lexus-RX-Hybrid-and-Electric-LEX-RXH-MY26-3227-05.png?width=750&length=47; https://delivery.lcom.assetscs.lexus.com/adobe/assets/urn:aaid:aem:9cb6da2d-76b8-463a-95c4-664d5fdc05c2/as/Lexus-TX-Hybrid-and-Electric-LEX-TXG-MY26-1252-04.png?width=750&length=47
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: intersection, request_animation_frame
-  - Performance/accessibility concerns: heavy media count 31 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | hover | backgroundColor | 150ms | 0ms | cubic-bezier(0.335, 0.015, 0.46, 0.995) | 按钮hover：backgroundColor rgb(255, 255, 255) -> rgba(0, 0, 0, 0)，150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)，hover 触发；样本 LEARN MORE |
+| button | focus | backgroundColor | 150ms | 0ms | cubic-bezier(0.335, 0.015, 0.46, 0.995) | 按钮focus：backgroundColor rgb(255, 255, 255) -> rgba(0, 0, 0, 0)，150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)，focus 触发；样本 LEARN MORE |
+| button | hover | backgroundColor | 150ms | 0ms | cubic-bezier(0.335, 0.015, 0.46, 0.995) | 按钮hover：backgroundColor rgb(0, 0, 0) -> rgba(0, 0, 0, 0.016)，150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)，hover 触发；样本 EXPLORE |
+| button | focus | backgroundColor | 150ms | 0ms | cubic-bezier(0.335, 0.015, 0.46, 0.995) | 按钮focus：backgroundColor rgb(0, 0, 0) -> rgba(0, 0, 0, 0)，150ms cubic-bezier(0.335, 0.015, 0.46, 0.995)，focus 触发；样本 EXPLORE |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-hover-backgroundcolor-150-cubic-bezier-0-335-0-015-0-46-0-995
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0)", "transition": "0.15s cubic-bezier(0.335, 0.015, 0.46, 0.995)"}
+```
+
+### motion-button-focus-backgroundcolor-150-cubic-bezier-0-335-0-015-0-46-0-995
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0)", "transition": "0.15s cubic-bezier(0.335, 0.015, 0.46, 0.995)"}
+```
+
+### motion-button-hover-backgroundcolor-150-cubic-bezier-0-335-0-015-0-46-0-995
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0.016)", "transition": "0.15s cubic-bezier(0.335, 0.015, 0.46, 0.995)"}
+```
+
+### motion-button-focus-backgroundcolor-150-cubic-bezier-0-335-0-015-0-46-0-995
+
+```css
+{"backgroundColor": "rgba(0, 0, 0, 0)", "transition": "0.15s cubic-bezier(0.335, 0.015, 0.46, 0.995)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

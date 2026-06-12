@@ -18,12 +18,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-tines-automation-platform-component-styles.json",
+  "component_json_path": "assets/2026-06-12-tines-automation-platform-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/tines-automation-platform/component-styles.md",
     "moodboard": "design-systems/tines-automation-platform/moodboard.svg",
+    "motion": "design-systems/tines-automation-platform/motion.json",
+    "motion_presets": "design-systems/tines-automation-platform/motion-presets.css",
     "palette": "design-systems/tines-automation-platform/palette.md",
-    "tokens": "design-systems/tines-automation-platform/tokens.json"
+    "tailwind_theme": "design-systems/tines-automation-platform/tailwind.theme.json",
+    "tokens": "design-systems/tines-automation-platform/tokens.json",
+    "variables_css": "design-systems/tines-automation-platform/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/tines-automation-platform/assets.md",
@@ -34,6 +38,56 @@
     "scene": "dimensions/tines-automation-platform/scene.md",
     "type_copy": "dimensions/tines-automation-platform/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9154}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 61x63; 40x67; 88x61; 78x75; 1200x630; 160x178; 157x175; 78x68; 336x522; 196x116.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 6.5px; 6.5px; 6.5px; 39px; 13px; 13px; 10px; 13px; 28px; 50%; 50%; 12px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9154}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 61:63; 40:67; 88:61; 78:75; 1200:630; 160:178; 157:175; 78:68; 336:522; 196:116",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 6.5px; 6.5px; 6.5px; 39px; 13px; 13px; 10px; 13px; 28px; 50%; 50%; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1450ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 250ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 600ms cubic-bezier(.075,.82,.165,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 167ms cubic-bezier(.33,0,0,1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

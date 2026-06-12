@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-benvenusa-food-wine-component-styles.json",
+  "component_json_path": "assets/2026-06-12-benvenusa-food-wine-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/benvenusa-food-wine/component-styles.md",
     "moodboard": "design-systems/benvenusa-food-wine/moodboard.svg",
+    "motion": "design-systems/benvenusa-food-wine/motion.json",
+    "motion_presets": "design-systems/benvenusa-food-wine/motion-presets.css",
     "palette": "design-systems/benvenusa-food-wine/palette.md",
-    "tokens": "design-systems/benvenusa-food-wine/tokens.json"
+    "tailwind_theme": "design-systems/benvenusa-food-wine/tailwind.theme.json",
+    "tokens": "design-systems/benvenusa-food-wine/tokens.json",
+    "variables_css": "design-systems/benvenusa-food-wine/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/benvenusa-food-wine/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/benvenusa-food-wine/scene.md",
     "type_copy": "dimensions/benvenusa-food-wine/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2604}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 3456x2182; 1440x959; 1440x960; 0x0; 1440x1074; 1440x960; 1440x960; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2604}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 3456:2182; 1440:959; 1440:960; 1440:1074; 1440:960; 1440:960; 1440:959; 1440:960; 1440:1074",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 400ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation load motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 350ms cubic-bezier(.4,0,.2,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

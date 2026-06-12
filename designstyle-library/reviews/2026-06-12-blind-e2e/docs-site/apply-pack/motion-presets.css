@@ -1,0 +1,114 @@
+.ds-motion-motion-reveal-viewport-animation-5000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-5000-linear-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-5000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-5000-linear-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-250-ease-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-250-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-250-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-250-ease-out-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-350-cubic-bezier-16-1-3-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-350-cubic-bezier-16-1-3-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-350-cubic-bezier-16-1-3-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-350-cubic-bezier-16-1-3-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-0-cubic-bezier-0-0-2-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-0-cubic-bezier-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-0-cubic-bezier-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-0-cubic-bezier-0-0-2-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-10000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-10000-linear-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-10000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-10000-linear-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-500-ease-in-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-500-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-500-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-500-ease-in-out-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-easing);
+}
+
+.ds-motion-motion-component-load-animation-1200-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-1200-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-1200-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-1200-linear-easing);
+  transform: .15;
+}
+
+.ds-motion-motion-component-state-change-opacity-500-cubic-bezier-4-01-165-99 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-4-01-165-99-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-4-01-165-99-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-500-cubic-bezier-4-01-165-99-easing);
+  transform: translateY(24px);
+}
+
+.ds-motion-motion-navigation-state-change-color-90-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-color-90-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-color-90-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-color-90-ease-easing);
+}
+
+.ds-motion-motion-component-load-animation-1500-ease-in-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-1500-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-1500-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-1500-ease-in-out-easing);
+  transform: translate(-50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -7,7 +7,7 @@
   - Cards/sections: hero plus follow-up image strip; the system reads as chapters rather than cards
   - Forms/inputs: component evidence missing
   - Feedback states: component evidence missing
-  - Component computed-style evidence: component evidence missing in `assets/2026-06-08-roman-and-williams-component-styles.json` because formal component capture was unavailable
+  - Component computed-style evidence: `assets/2026-06-11-roman-and-williams-component-styles.json`
 - Component grammar:
   - The header behaves like a quiet commerce utility rail rather than a loud brand statement.
   - The hero carries both brand-world media and the main emotional message.
@@ -18,7 +18,7 @@
   - CSS variables/tokens observed: missing evidence
   - Layout primitives observed: sticky or fixed commerce header over full-width hero inferred from screenshot
   - Component or class naming clues: missing evidence
-  - Component computed-style evidence: `assets/2026-06-08-roman-and-williams-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-roman-and-williams-component-styles.json`
   - Asset CDN and media loading patterns: one Shopify-hosted video URL was observed during probe
 
 ## Inference

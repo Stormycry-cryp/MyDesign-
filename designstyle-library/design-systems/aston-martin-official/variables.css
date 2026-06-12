@@ -1,0 +1,29 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-deep-accent: #006060;
+  --ds-color-foreground: #505050;
+  --ds-color-foreground-2: #202020;
+  --ds-color-neutral-surface: #c0c0c0;
+  --ds-color-neutral-surface-2: #e0e0e0;
+  --ds-color-neutral-surface-3: #a0a0a0;
+  --ds-color-neutral-surface-4: #808080;
+  --ds-color-foreground-3: #000000;
+  --ds-color-supporting-color: #208070;
+  --ds-color-deep-accent-2: #161a11;
+  --ds-color-neutral-surface-5: #efefef;
+  --ds-spacing-component: 0px 16px;
+  --ds-radius-component: 2px;
+  --ds-shadow-component: rgba(0, 64, 58, 0.1) 0px 1px 4px 0px, rgba(0, 64, 58, 0.1) 0px -1px 0px 0px inset;
+  --ds-motion-motion-component-state-change-all-300-ease-in-out-duration: 300ms;
+  --ds-motion-motion-component-state-change-all-300-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-all-300-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-duration: 260ms;
+  --ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-easing: cubic-bezier(.47,0,.745,.715);
+  --ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-duration: 375ms;
+  --ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-easing: cubic-bezier(.39,.575,.565,1);
+  --ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-duration: 900ms;
+  --ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-easing: cubic-bezier(.165,.84,.44,1);
+}

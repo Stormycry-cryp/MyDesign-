@@ -111,6 +111,10 @@ LIST_FIELDS = {
     "avoid_for",
 }
 
+CSS_DURATION_RE = re.compile(r"(?<![\w.-])(\d*\.?\d+)(ms|s)(?![\w-])", re.I)
+CSS_EASING_RE = re.compile(r"cubic-bezier\([^)]+\)|steps\([^)]+\)|\b(?:ease-in-out|ease-in|ease-out|linear|ease)\b", re.I)
+MOTION_STATE_KEYS = ["transform", "opacity", "backgroundColor", "color", "borderColor", "boxShadow", "border", "borderBottom", "borderTop"]
+
 
 def slug_from_reference(path: Path) -> str:
     slug = path.stem
@@ -131,6 +135,14 @@ def parse_list(value: str) -> list[str]:
             inner = value[1:-1]
             return [item.strip().strip("'\"") for item in inner.split(",") if item.strip().strip("'\"")]
     return [value.strip("'\"")]
+
+
+def read_json_dict(path: Path) -> dict[str, object]:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return payload if isinstance(payload, dict) else {}
 
 
 def parse_frontmatter(text: str) -> dict[str, object]:
@@ -489,6 +501,398 @@ def reference_component_evidence_path(text: str, lib: Path) -> Path | None:
     return path if path.is_absolute() else lib / path
 
 
+def reference_motion_evidence_path(text: str, lib: Path) -> Path | None:
+    match = re.search(r"`([^`]+motion\.json)`", text)
+    if not match:
+        return None
+    path = Path(match.group(1))
+    return path if path.is_absolute() else lib / path
+
+
+def fallback_motion_item(text: str, slug: str) -> dict[str, object] | None:
+    evidence = section(text, "Motion Code And Runtime Evidence") or section(text, "Motion")
+    if not evidence:
+        return None
+    duration_match = re.search(r"(\d+(?:\.\d+)?)(ms|s)", evidence)
+    easing_match = re.search(r"cubic-bezier\([^)]+\)|\b(?:ease-in-out|ease-in|ease-out|linear|ease)\b", evidence, re.I)
+    transform_match = re.search(r"(translate[XY]?\([^)]+\)|scale[XY]?\([^)]+\)|rotate\([^)]+\))", evidence)
+    duration_ms: int | str = "missing"
+    if duration_match:
+        value = float(duration_match.group(1))
+        duration_ms = int(round(value * 1000)) if duration_match.group(2).lower() == "s" else int(round(value))
+    selector_role = "component"
+    trigger = "state-change"
+    lowered = evidence.lower()
+    if "hover" in lowered:
+        trigger = "hover"
+    if "card" in lowered:
+        selector_role = "card"
+    return {
+        "id": f"motion-{slug}-fallback",
+        "selector": "missing",
+        "selector_role": selector_role,
+        "trigger": trigger,
+        "property": "transform" if transform_match else "missing",
+        "from": "missing",
+        "to": transform_match.group(1) if transform_match else "missing",
+        "duration_ms": duration_ms,
+        "delay_ms": 0,
+        "easing": easing_match.group(0) if easing_match else "missing",
+        "keyframes": [],
+        "reduced_motion": "missing",
+        "source": "L3 Motion Code And Runtime Evidence",
+        "description": "Motion evidence was summarized from the L3 reference because structured motion JSON was missing.",
+        "snippet": "",
+    }
+
+
+def normalized_noise_filter(value: object) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    result: list[str] = []
+    for item in value:
+        lowered = str(item).lower()
+        if re.search(r"autofill", lowered):
+            label = "browser-fill-rules"
+        elif re.search(r"consent|cookie|onetrust|ot-sdk|hs-banner|hs-modal|recaptcha|captcha", lowered):
+            label = "blocked-overlay-rules"
+        else:
+            label = re.sub(r"[^a-z0-9_-]+", "-", lowered).strip("-") or "filtered-rule"
+        if label not in result:
+            result.append(label)
+    return result
+
+
+MOTION_REQUIRED_FIELDS = ["selector", "selector_role", "trigger", "property", "duration_ms", "delay_ms", "easing", "description", "source"]
+
+
+def missing_motion_fields(item: dict[str, object]) -> list[str]:
+    missing: list[str] = []
+    for field in MOTION_REQUIRED_FIELDS:
+        if item.get(field) in {"", None, "missing"}:
+            missing.append(field)
+    return missing
+
+
+def first_duration_ms(value: str) -> int | str:
+    match = CSS_DURATION_RE.search(value)
+    if not match:
+        return "missing"
+    amount = float(match.group(1))
+    return int(round(amount * 1000)) if match.group(2).lower() == "s" else int(round(amount))
+
+
+def first_easing(value: str) -> str:
+    match = CSS_EASING_RE.search(value)
+    return match.group(0) if match else "missing"
+
+
+def css_property_name(value: str) -> str:
+    parts = value.split("-")
+    return parts[0] + "".join(part[:1].upper() + part[1:] for part in parts[1:])
+
+
+def transition_declaration_parts(transition: str, styles: dict[str, object]) -> tuple[str, int, str] | None:
+    transition_property = str(styles.get("transitionProperty") or "").strip()
+    for part in [item.strip() for item in transition.split(",") if item.strip()]:
+        if is_unusable_component_sample(part):
+            continue
+        duration = first_duration_ms(part)
+        easing = first_easing(part)
+        if not isinstance(duration, int) or duration <= 0 or easing == "missing":
+            continue
+        prop_match = re.match(r"([a-z-]+)\b", part, re.I)
+        prop = prop_match.group(1).lower() if prop_match else transition_property.lower()
+        if not prop or prop in {"all", "none", "z-index", "visibility"}:
+            continue
+        if prop.endswith("-webkit-transform"):
+            prop = "transform"
+        return css_property_name(prop), duration, easing
+    return None
+
+
+def role_from_component_category(category: str) -> str:
+    lowered = category.lower()
+    if "button" in lowered:
+        return "button"
+    if "navigation" in lowered:
+        return "navigation"
+    if "card" in lowered:
+        return "card"
+    if "form" in lowered:
+        return "form"
+    return "component"
+
+
+def motion_item_id(item: dict[str, object]) -> str:
+    raw = "-".join(str(item.get(key, "")) for key in ["selector_role", "trigger", "property", "duration_ms", "easing"])
+    raw = re.sub(r"[^a-zA-Z0-9]+", "-", raw).strip("-").lower()
+    return f"motion-{raw or 'item'}"
+
+
+def motion_description(item: dict[str, object], label: str) -> str:
+    role_names = {
+        "card": "卡片",
+        "button": "按钮",
+        "navigation": "导航",
+        "form": "表单",
+        "component": "组件",
+    }
+    role = role_names.get(str(item.get("selector_role")), "组件")
+    prop = str(item.get("property") or "motion")
+    duration = item.get("duration_ms")
+    easing = item.get("easing") or "missing"
+    trigger = item.get("trigger") or "state-change"
+    start = item.get("from") or "missing"
+    end = item.get("to") or "missing"
+    return f"{role}{trigger}：{prop} {start} -> {end}，{duration}ms {easing}，{trigger} 触发；样本 {label}"
+
+
+def component_transition_motion_items(text: str, lib: Path, slug: str) -> list[dict[str, object]]:
+    path = reference_component_evidence_path(text, lib)
+    if not path or not path.exists():
+        return []
+    payload = read_json_dict(path)
+    evidence = payload.get("component_evidence")
+    if not isinstance(evidence, dict):
+        return []
+    samples = evidence.get("samples")
+    states = evidence.get("stateSamples")
+    if not isinstance(samples, list) or not isinstance(states, list):
+        return []
+    samples_by_id = {
+        sample.get("sampleId"): sample
+        for sample in samples
+        if isinstance(sample, dict) and sample.get("sampleId")
+    }
+    items: list[dict[str, object]] = []
+    seen: set[tuple[object, ...]] = set()
+    samples_with_state_motion: set[object] = set()
+    for state in states:
+        if not isinstance(state, dict) or is_unusable_component_dict(state):
+            continue
+        sample = samples_by_id.get(state.get("sampleId"))
+        if not isinstance(sample, dict) or is_unusable_component_dict(sample):
+            continue
+        styles = sample.get("styles") if isinstance(sample.get("styles"), dict) else {}
+        if not styles:
+            continue
+        before = state.get("before") if isinstance(state.get("before"), dict) else {}
+        category = str(state.get("category") or sample.get("category") or "Component")
+        role = role_from_component_category(category)
+        label = re.sub(r"\s+", " ", str(state.get("text") or sample.get("text") or state.get("sampleId") or category)).strip()[:80]
+        for trigger, key in [("hover", "hover_changed"), ("focus", "focus_changed")]:
+            changed = state.get(key)
+            if not isinstance(changed, dict) or not changed:
+                continue
+            prop = next((name for name in MOTION_STATE_KEYS if changed.get(name)), "")
+            if not prop:
+                continue
+            timing_source = str(
+                changed.get("transition")
+                or before.get("transition")
+                or styles.get("transition")
+                or changed.get("transitionDuration")
+                or before.get("transitionDuration")
+                or styles.get("transitionDuration")
+                or ""
+            )
+            duration = first_duration_ms(timing_source)
+            easing_source = str(
+                changed.get("transitionTimingFunction")
+                or before.get("transitionTimingFunction")
+                or styles.get("transitionTimingFunction")
+                or timing_source
+            )
+            easing = first_easing(easing_source)
+            if not isinstance(duration, int) or duration <= 0 or easing == "missing":
+                continue
+            item: dict[str, object] = {
+                "selector": f"[data-designstyle-sample-id=\"{state.get('sampleId', 'missing')}\"]",
+                "selector_role": role,
+                "trigger": trigger,
+                "property": prop,
+                "from": str(styles.get(prop) or "missing"),
+                "to": str(changed.get(prop) or "missing"),
+                "duration_ms": duration,
+                "delay_ms": 0,
+                "easing": easing,
+                "keyframes": [],
+                "reduced_motion": "missing",
+                "source": "component-styles interaction evidence",
+                "snippet": json.dumps({prop: changed.get(prop), "transition": timing_source}, ensure_ascii=False, sort_keys=True),
+            }
+            item["description"] = motion_description(item, label)
+            item["id"] = motion_item_id(item)
+            dedupe = (item["selector"], item["trigger"], item["property"], item["duration_ms"], item["easing"], item["to"])
+            if dedupe in seen:
+                continue
+            seen.add(dedupe)
+            samples_with_state_motion.add(state.get("sampleId"))
+            items.append(item)
+    for sample in samples:
+        if not isinstance(sample, dict) or is_unusable_component_dict(sample):
+            continue
+        sample_id = sample.get("sampleId")
+        if sample_id in samples_with_state_motion:
+            continue
+        styles = sample.get("styles") if isinstance(sample.get("styles"), dict) else {}
+        transition = str(styles.get("transition") or "").strip()
+        if not transition or transition.lower() in {"all", "none"}:
+            continue
+        parsed = transition_declaration_parts(transition, styles)
+        if not parsed:
+            continue
+        prop, duration, easing = parsed
+        category = str(sample.get("category") or "Component")
+        role = role_from_component_category(category)
+        label = re.sub(r"\s+", " ", str(sample.get("text") or sample.get("ariaLabel") or sample_id or category)).strip()[:80]
+        item = {
+            "selector": f"[data-designstyle-sample-id=\"{sample_id or 'missing'}\"]",
+            "selector_role": role,
+            "trigger": "state-change",
+            "property": prop,
+            "from": str(styles.get(prop) or "missing"),
+            "to": "missing",
+            "duration_ms": duration,
+            "delay_ms": 0,
+            "easing": easing,
+            "keyframes": [],
+            "reduced_motion": "missing",
+            "source": "component-styles transition declaration",
+            "snippet": json.dumps({"transition": transition}, ensure_ascii=False, sort_keys=True),
+        }
+        item["description"] = motion_description(item, label)
+        item["id"] = motion_item_id(item)
+        dedupe = (item["selector"], item["trigger"], item["property"], item["duration_ms"], item["easing"], item["to"])
+        if dedupe in seen:
+            continue
+        seen.add(dedupe)
+        items.append(item)
+    return items
+
+
+def build_motion_system(reference: Path, lib: Path, text: str, meta: dict[str, object]) -> dict[str, object]:
+    slug = slug_from_reference(reference)
+    path = reference_motion_evidence_path(text, lib)
+    payload: dict[str, object] = {}
+    if path and path.exists():
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            payload = {}
+    items = payload.get("items") if isinstance(payload, dict) else None
+    if not isinstance(items, list):
+        items = []
+    if not items:
+        component_items = component_transition_motion_items(text, lib, slug)
+        if component_items:
+            items = component_items
+        else:
+            fallback = fallback_motion_item(text, slug)
+            items = [fallback] if fallback else []
+    normalized_items: list[dict[str, object]] = []
+    omitted_incomplete: list[dict[str, object]] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        normalized = {
+            "id": str(item.get("id") or f"motion-{len(normalized_items) + len(omitted_incomplete) + 1}"),
+            "selector": str(item.get("selector") or "missing"),
+            "selector_role": str(item.get("selector_role") or "missing"),
+            "trigger": str(item.get("trigger") or "missing"),
+            "property": str(item.get("property") or "missing"),
+            "from": str(item.get("from") or "missing"),
+            "to": str(item.get("to") or "missing"),
+            "duration_ms": item.get("duration_ms", "missing"),
+            "delay_ms": item.get("delay_ms", "missing"),
+            "easing": str(item.get("easing") or "missing"),
+            "keyframes": item.get("keyframes") if isinstance(item.get("keyframes"), list) else [],
+            "reduced_motion": str(item.get("reduced_motion") or "missing"),
+            "source": str(item.get("source") or "missing"),
+            "description": str(item.get("description") or "missing"),
+            "snippet": str(item.get("snippet") or ""),
+        }
+        missing_fields = missing_motion_fields(normalized)
+        if missing_fields:
+            omitted = dict(normalized)
+            omitted["missing_fields"] = missing_fields
+            omitted_incomplete.append(omitted)
+            continue
+        normalized_items.append(normalized)
+    source_urls = payload.get("source_urls") if isinstance(payload.get("source_urls"), list) else []
+    missing_notes = [f"{item.get('id', 'motion item')} lacks {field}" for item in omitted_incomplete for field in item.get("missing_fields", [])]
+    return {
+        "slug": slug,
+        "title": str(meta.get("title") or slug),
+        "reference_path": f"references/{reference.name}",
+        "source_motion_path": str(path.relative_to(lib)) if path and path.exists() else "missing",
+        "source_urls": source_urls,
+        "items": normalized_items,
+        "omitted_incomplete": omitted_incomplete,
+        "missing": missing_notes or ([] if normalized_items else ["No complete structured motion evidence could be extracted."]),
+        "noise_filtered": normalized_noise_filter(payload.get("noise_filtered")) if isinstance(payload, dict) else [],
+    }
+
+
+def motion_code_markdown(system: dict[str, object], limits: str) -> str:
+    items = system.get("items") if isinstance(system.get("items"), list) else []
+    if items:
+        rows = []
+        snippets = []
+        missing = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            duration = item.get("duration_ms", "missing")
+            delay = item.get("delay_ms", "missing")
+            duration_text = f"{duration}ms" if isinstance(duration, int) else str(duration)
+            delay_text = f"{delay}ms" if isinstance(delay, int) else str(delay)
+            rows.append(
+                "| {role} | {trigger} | {prop} | {duration} | {delay} | {easing} | {desc} |".format(
+                    role=item.get("selector_role", "missing"),
+                    trigger=item.get("trigger", "missing"),
+                    prop=item.get("property", "missing"),
+                    duration=duration_text,
+                    delay=delay_text,
+                    easing=item.get("easing", "missing"),
+                    desc=str(item.get("description", "missing")).replace("|", "/"),
+                )
+            )
+            if item.get("snippet"):
+                snippets.append(f"### {item.get('id', 'motion')}\n\n```css\n{item.get('snippet')}\n```")
+            for field in ["selector", "property", "duration_ms", "delay_ms", "easing", "trigger"]:
+                if item.get(field) in {"", None, "missing"}:
+                    missing.append(f"{item.get('id', 'motion item')} lacks {field}")
+        missing_text = markdown_list(sorted(set(missing)) or list(system.get("missing") or []))
+        snippet_text = "\n\n".join(snippets) if snippets else "No direct snippet appendix available."
+        rows_text = "\n".join(rows)
+    else:
+        rows_text = "| Missing | Missing | Missing | missing | missing | missing | No structured motion evidence. |"
+        snippet_text = "No direct snippet appendix available."
+        missing_text = markdown_list(list(system.get("missing") or ["No structured motion evidence could be extracted."]))
+    return f"""# Motion And Code
+
+## Observed
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+{rows_text}
+
+## Inference
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: {system.get("source_motion_path", "missing")}
+
+## Missing Evidence
+{missing_text}
+
+## Snippet Appendix
+{snippet_text}
+
+## Do Not Copy
+{clean_value(limits)}
+"""
+
+
 def compact_style(styles: dict[str, object]) -> str:
     keys = [
         "display",
@@ -528,6 +932,8 @@ def compact_sample(sample: dict[str, object]) -> str:
     rect = sample.get("rect") if isinstance(sample.get("rect"), dict) else {}
     styles = sample.get("styles") if isinstance(sample.get("styles"), dict) else {}
     text = str(sample.get("text") or sample.get("ariaLabel") or sample.get("classHint") or "").strip()
+    if is_unusable_component_sample(text):
+        return ""
     text = re.sub(r"\s+", " ", text)[:90] or "unlabeled"
     geometry = ""
     if rect:
@@ -535,6 +941,16 @@ def compact_sample(sample: dict[str, object]) -> str:
     style = compact_style(styles)
     bits = [f"{sample.get('tag', 'node')} {text}", geometry, style]
     return " | ".join(bit for bit in bits if bit)
+
+
+def is_unusable_component_dict(sample: dict[str, object]) -> bool:
+    checks = [
+        sample.get("text"),
+        sample.get("ariaLabel"),
+        sample.get("classHint"),
+        sample.get("sampleId"),
+    ]
+    return any(is_unusable_component_sample(str(value)) for value in checks if value)
 
 
 def component_evidence_summary(text: str, lib: Path) -> dict[str, dict[str, list[str]]]:
@@ -557,7 +973,11 @@ def component_evidence_summary(text: str, lib: Path) -> dict[str, dict[str, list
 
     result: dict[str, dict[str, list[str]]] = {}
     for name in ["Navigation", "Button", "Card", "Form", "Icon"]:
-        matching = [sample for sample in samples if isinstance(sample, dict) and sample.get("category") == name]
+        matching = [
+            sample
+            for sample in samples
+            if isinstance(sample, dict) and sample.get("category") == name and not is_unusable_component_dict(sample)
+        ]
         style_evidence = []
         content_samples = []
         for sample in matching[:8]:
@@ -578,6 +998,8 @@ def component_evidence_summary(text: str, lib: Path) -> dict[str, dict[str, list
     for state in states[:8]:
         if not isinstance(state, dict):
             continue
+        if is_unusable_component_dict(state):
+            continue
         hover = state.get("hover_changed") if isinstance(state.get("hover_changed"), dict) else {}
         focus = state.get("focus_changed") if isinstance(state.get("focus_changed"), dict) else {}
         if not hover and not focus:
@@ -595,6 +1017,8 @@ def component_evidence_summary(text: str, lib: Path) -> dict[str, dict[str, list
 def is_unusable_component_sample(value: str) -> bool:
     lowered = value.lower()
     if re.search(r"\d+(?:\.\d+)?e[+-]\d+", lowered):
+        return True
+    if re.search(r"autofill|consent|cookie|onetrust|ot-sdk|hs-banner|hs-modal|recaptcha|captcha", lowered):
         return True
     return False
 
@@ -735,6 +1159,194 @@ def build_design_system(reference: Path, lib: Path, text: str, meta: dict[str, o
     return system
 
 
+def token_name(value: str, fallback: str) -> str:
+    cleaned = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+    return cleaned or fallback
+
+
+def unique_token_name(base: str, seen: set[str]) -> str:
+    name = base
+    index = 2
+    while name in seen:
+        name = f"{base}-{index}"
+        index += 1
+    seen.add(name)
+    return name
+
+
+def first_style_value(component_styles: dict[str, object], pattern: str) -> str:
+    regex = re.compile(pattern)
+    for values in component_styles.values():
+        if not isinstance(values, dict):
+            continue
+        for line in values.get("style_evidence", []):
+            match = regex.search(str(line))
+            if match:
+                return match.group(1).strip()
+    return "missing"
+
+
+def apply_tokens(system: dict[str, object], motion_system: dict[str, object]) -> dict[str, object]:
+    colors = system.get("palette", {}).get("colors", [])
+    component_styles = system.get("component_styles", {})
+    if not isinstance(component_styles, dict):
+        component_styles = {}
+
+    color_tokens: dict[str, object] = {}
+    seen_colors: set[str] = set()
+    if isinstance(colors, list):
+        for index, item in enumerate(colors[:12], start=1):
+            if not isinstance(item, dict):
+                continue
+            hex_value = str(item.get("hex") or "").strip()
+            if not re.fullmatch(r"#[0-9a-fA-F]{6}", hex_value):
+                continue
+            role = token_name(str(item.get("role") or f"color-{index}"), f"color-{index}")
+            name = unique_token_name(role, seen_colors)
+            color_tokens[name] = {
+                "$type": "color",
+                "$value": hex_value,
+                "$description": f"Source: {item.get('source', 'missing')}",
+            }
+    if not color_tokens:
+        color_tokens["missing"] = {"$type": "color", "$value": "missing", "$description": "No color token could be extracted."}
+
+    radius = first_style_value(component_styles, r"borderRadius=([^;|]+)")
+    spacing = first_style_value(component_styles, r"(?:padding|gap)=([^;|]+)")
+    shadow = first_style_value(component_styles, r"boxShadow=([^;|]+)")
+    font_size = first_style_value(component_styles, r"fontSize=([^;|]+)")
+    font_weight = first_style_value(component_styles, r"fontWeight=([^;|]+)")
+
+    motion_tokens: dict[str, object] = {}
+    for item in motion_system.get("items", []) if isinstance(motion_system.get("items"), list) else []:
+        if not isinstance(item, dict):
+            continue
+        motion_id = token_name(str(item.get("id") or "motion"), "motion")
+        duration = item.get("duration_ms", "missing")
+        delay = item.get("delay_ms", "missing")
+        motion_tokens[motion_id] = {
+            "duration": {
+                "$type": "duration",
+                "$value": f"{duration}ms" if isinstance(duration, int) else "missing",
+            },
+            "delay": {
+                "$type": "duration",
+                "$value": f"{delay}ms" if isinstance(delay, int) else "missing",
+            },
+            "easing": {"$type": "cubicBezier", "$value": str(item.get("easing") or "missing")},
+            "property": {"$type": "string", "$value": str(item.get("property") or "missing")},
+            "trigger": {"$type": "string", "$value": str(item.get("trigger") or "missing")},
+            "transform": {"$type": "string", "$value": str(item.get("to") or "missing")},
+            "$description": str(item.get("description") or "missing"),
+        }
+    if not motion_tokens:
+        motion_tokens["missing"] = {"duration": {"$type": "duration", "$value": "missing"}, "$description": "No motion token could be extracted."}
+
+    return {
+        "color": color_tokens,
+        "type": {
+            "body": {
+                "fontSize": {"$type": "dimension", "$value": font_size},
+                "fontWeight": {"$type": "fontWeight", "$value": font_weight},
+            }
+        },
+        "spacing": {"component": {"$type": "dimension", "$value": spacing}},
+        "radius": {"component": {"$type": "dimension", "$value": radius}},
+        "shadow": {"component": {"$type": "shadow", "$value": shadow}},
+        "motion": motion_tokens,
+    }
+
+
+def design_system_with_apply(system: dict[str, object], motion_system: dict[str, object]) -> dict[str, object]:
+    upgraded = dict(system)
+    upgraded["evidence"] = {
+        **(system.get("evidence", {}) if isinstance(system.get("evidence"), dict) else {}),
+        "palette": system.get("palette", {}),
+        "component_styles": system.get("component_styles", {}),
+        "motion": motion_system,
+    }
+    upgraded["apply"] = apply_tokens(system, motion_system)
+    return upgraded
+
+
+def css_var_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9-]+", "-", name.lower()).strip("-") or "token"
+
+
+def variables_css(system: dict[str, object]) -> str:
+    apply = system.get("apply") if isinstance(system.get("apply"), dict) else {}
+    lines = [":root {"]
+    for name, token in (apply.get("color", {}) if isinstance(apply.get("color"), dict) else {}).items():
+        if isinstance(token, dict):
+            value = token.get("$value", "missing")
+            lines.append(f"  --ds-color-{css_var_name(str(name))}: {value};")
+    for group_name, prefix in [("spacing", "spacing"), ("radius", "radius"), ("shadow", "shadow")]:
+        group = apply.get(group_name)
+        if isinstance(group, dict):
+            for name, token in group.items():
+                if isinstance(token, dict):
+                    lines.append(f"  --ds-{prefix}-{css_var_name(str(name))}: {token.get('$value', 'missing')};")
+    motion = apply.get("motion")
+    if isinstance(motion, dict):
+        for name, token in motion.items():
+            if not isinstance(token, dict):
+                continue
+            duration = token.get("duration", {}).get("$value", "missing") if isinstance(token.get("duration"), dict) else "missing"
+            delay = token.get("delay", {}).get("$value", "missing") if isinstance(token.get("delay"), dict) else "missing"
+            easing = token.get("easing", {}).get("$value", "missing") if isinstance(token.get("easing"), dict) else "missing"
+            lines.append(f"  --ds-motion-{css_var_name(str(name))}-duration: {duration};")
+            lines.append(f"  --ds-motion-{css_var_name(str(name))}-delay: {delay};")
+            lines.append(f"  --ds-motion-{css_var_name(str(name))}-easing: {easing};")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def tailwind_theme(system: dict[str, object]) -> dict[str, object]:
+    apply = system.get("apply") if isinstance(system.get("apply"), dict) else {}
+    colors: dict[str, str] = {}
+    for name, token in (apply.get("color", {}) if isinstance(apply.get("color"), dict) else {}).items():
+        if isinstance(token, dict) and token.get("$value") != "missing":
+            colors[css_var_name(str(name))] = str(token.get("$value"))
+    spacing = apply.get("spacing", {}).get("component", {}).get("$value", "missing") if isinstance(apply.get("spacing"), dict) else "missing"
+    radius = apply.get("radius", {}).get("component", {}).get("$value", "missing") if isinstance(apply.get("radius"), dict) else "missing"
+    shadow = apply.get("shadow", {}).get("component", {}).get("$value", "missing") if isinstance(apply.get("shadow"), dict) else "missing"
+    extend: dict[str, object] = {"colors": colors}
+    if spacing != "missing":
+        extend["spacing"] = {"ds-component": spacing}
+    if radius != "missing":
+        extend["borderRadius"] = {"ds-component": radius}
+    if shadow != "missing":
+        extend["boxShadow"] = {"ds-component": shadow}
+    return {"theme": {"extend": extend}}
+
+
+def motion_presets_css(system: dict[str, object]) -> str:
+    apply = system.get("apply") if isinstance(system.get("apply"), dict) else {}
+    motion = apply.get("motion") if isinstance(apply.get("motion"), dict) else {}
+    blocks: list[str] = []
+    for name, token in motion.items():
+        if not isinstance(token, dict) or name == "missing":
+            continue
+        class_name = css_var_name(str(name))
+        prop = token.get("property", {}).get("$value", "all") if isinstance(token.get("property"), dict) else "all"
+        transform = token.get("transform", {}).get("$value", "missing") if isinstance(token.get("transform"), dict) else "missing"
+        lines = [
+            f".ds-motion-{class_name} {{",
+            f"  transition-property: {prop if prop != 'missing' else 'all'};",
+            f"  transition-duration: var(--ds-motion-{class_name}-duration);",
+            f"  transition-delay: var(--ds-motion-{class_name}-delay);",
+            f"  transition-timing-function: var(--ds-motion-{class_name}-easing);",
+        ]
+        if transform != "missing":
+            lines.append(f"  transform: {transform};")
+        lines.extend(["}", ""])
+        blocks.append("\n".join(lines))
+    if not blocks:
+        blocks.append("/* missing: no motion presets could be generated from evidence */\n")
+    blocks.append("@media (prefers-reduced-motion: reduce) {\n  [class*=\"ds-motion-\"] {\n    transition-duration: 0ms !important;\n    animation-duration: 0ms !important;\n  }\n}\n")
+    return "\n".join(blocks)
+
+
 def palette_markdown(system: dict[str, object]) -> str:
     colors = system.get("palette", {}).get("colors", [])
     rows = "\n".join(
@@ -861,7 +1473,49 @@ def card_missing_evidence(strength: dict[str, str], design_system: dict[str, obj
     return sorted(set(missing))
 
 
-def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_system: dict[str, object]) -> dict[str, object]:
+def measurable_style_dna(text: str, meta: dict[str, object], motion_system: dict[str, object], limit: int = 12) -> list[dict[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    section_sources = [
+        "Layout Geometry And Spacing",
+        "Dimension And Ratio System",
+        "Typography And Reading Rhythm",
+        "Style Tokens And Surface Grammar",
+        "Color, Material, And Contrast",
+        "Motion Code And Runtime Evidence",
+    ]
+    for source in section_sources:
+        for line in section_lines(text, source):
+            if re.search(r"\d", line) and len(line) <= 220:
+                candidates.append((line, source))
+    for item in motion_system.get("items", []) if isinstance(motion_system.get("items"), list) else []:
+        if not isinstance(item, dict):
+            continue
+        duration = item.get("duration_ms", "missing")
+        easing = item.get("easing", "missing")
+        trigger = item.get("trigger", "missing")
+        role = item.get("selector_role", "component")
+        if duration != "missing":
+            candidates.append((f"{role} {trigger} motion uses {duration}ms {easing}", "motion.json"))
+    page_scope = str(meta.get("page_scope") or "")
+    if page_scope and re.search(r"\d", page_scope):
+        candidates.append((f"Page scope contains measured qualifier: {page_scope}", "frontmatter.page_scope"))
+
+    dna: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for decision, source in candidates:
+        decision = " ".join(decision.split()).strip("- ")
+        if not decision or decision.lower() in seen:
+            continue
+        if not re.search(r"\d", decision):
+            continue
+        seen.add(decision.lower())
+        dna.append({"decision": decision, "evidence_source": source})
+        if len(dna) >= limit:
+            break
+    return dna
+
+
+def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_system: dict[str, object], motion_system: dict[str, object]) -> dict[str, object]:
     text = reference.read_text(encoding="utf-8", errors="ignore")
     meta = parse_frontmatter(text)
     slug = slug_from_reference(reference)
@@ -892,6 +1546,7 @@ def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_sy
         "avoid_for": list(meta.get("avoid_for") or []),
         "evidence_strength": strength,
         "missing_evidence": card_missing_evidence(strength, design_system),
+        "dna": measurable_style_dna(text, meta, motion_system),
         "component_json_path": component_json_path(text, slug),
         "dimension_paths": {
             "scene": f"dimensions/{slug}/scene.md",
@@ -905,6 +1560,10 @@ def build_card(reference: Path, lib: Path, dimensions: dict[str, str], design_sy
         "design_system_paths": {
             "tokens": f"design-systems/{slug}/tokens.json",
             "palette": f"design-systems/{slug}/palette.md",
+            "motion": f"design-systems/{slug}/motion.json",
+            "variables_css": f"design-systems/{slug}/variables.css",
+            "tailwind_theme": f"design-systems/{slug}/tailwind.theme.json",
+            "motion_presets": f"design-systems/{slug}/motion-presets.css",
             "moodboard": f"design-systems/{slug}/moodboard.svg",
             "component_styles": f"design-systems/{slug}/component-styles.md",
         },
@@ -926,13 +1585,17 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def build_outputs(reference: Path, lib: Path) -> tuple[dict[str, object], dict[str, str], dict[str, object]]:
+def build_outputs(reference: Path, lib: Path) -> tuple[dict[str, object], dict[str, str], dict[str, object], dict[str, object]]:
     text = reference.read_text(encoding="utf-8", errors="ignore")
     meta = parse_frontmatter(text)
     dimensions = {name: dimension_markdown(name, text, meta) for name in DIMENSIONS}
     design_system = build_design_system(reference, lib, text, meta)
-    card = build_card(reference, lib, dimensions, design_system)
-    return card, dimensions, design_system
+    motion_system = build_motion_system(reference, lib, text, meta)
+    design_system = design_system_with_apply(design_system, motion_system)
+    limits = section(text, "Avoid Copying") or "Brand identity, proprietary assets, product names, claims, and exact copy."
+    dimensions["motion_code"] = motion_code_markdown(motion_system, limits)
+    card = build_card(reference, lib, dimensions, design_system, motion_system)
+    return card, dimensions, design_system, motion_system
 
 
 def update_indexes(lib: Path) -> None:
@@ -980,7 +1643,7 @@ def main() -> int:
     for ref in refs:
         if not ref.exists():
             raise SystemExit(f"Reference not found: {ref}")
-        card, dimensions, design_system = build_outputs(ref, lib)
+        card, dimensions, design_system, motion_system = build_outputs(ref, lib)
         cards.append(card)
         planned_dimensions += len(dimensions)
         if args.dry_run:
@@ -995,6 +1658,10 @@ def main() -> int:
         system_dir = lib / "design-systems" / slug
         system_dir.mkdir(parents=True, exist_ok=True)
         write_json(system_dir / "tokens.json", design_system)
+        write_json(system_dir / "motion.json", motion_system)
+        (system_dir / "variables.css").write_text(variables_css(design_system), encoding="utf-8")
+        write_json(system_dir / "tailwind.theme.json", tailwind_theme(design_system))
+        (system_dir / "motion-presets.css").write_text(motion_presets_css(design_system), encoding="utf-8")
         (system_dir / "palette.md").write_text(palette_markdown(design_system), encoding="utf-8")
         (system_dir / "component-styles.md").write_text(component_markdown(design_system), encoding="utf-8")
         (system_dir / "moodboard.svg").write_text(moodboard_svg(design_system), encoding="utf-8")

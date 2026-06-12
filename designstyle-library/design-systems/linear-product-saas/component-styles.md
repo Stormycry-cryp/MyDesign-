@@ -12,7 +12,7 @@
 - a Contact | rect=72.3x32@1111.2,20 | display=flex; position=relative; color=rgb(138, 143, 152); border=0px none rgb(138, 143, 152); borderRadius=9999px; fontFamily="Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=13px; fontWeight=400; lineHeight=19.5px; padding=0px 12px; transition=color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94), background 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.1s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1
 - a Log in | rect=61.6x32@1218.5,20 | display=flex; position=relative; color=rgb(138, 143, 152); border=0px none rgb(138, 143, 152); borderRadius=9999px; fontFamily="Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=13px; fontWeight=400; lineHeight=19.5px; padding=0px 12px; transition=color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94), background 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94); transitionDuration=0.1s; transitionTimingFunction=cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity=1
 - navigation count 6, image count 31, document height 10781.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Resources Customers Pricing Now Contact Log in Sign up
@@ -57,8 +57,8 @@
 - li Customers | rect=90.7x32@901.8,20 | display=grid; position=static; color=rgb(247, 248, 248); border=0px none rgb(247, 248, 248); fontFamily="Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Pricing | rect=66.7x32@992.5,20 | display=grid; position=static; color=rgb(247, 248, 248); border=0px none rgb(247, 248, 248); fontFamily="Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Now | rect=52x32@1059.2,20 | display=grid; position=static; color=rgb(247, 248, 248); border=0px none rgb(247, 248, 248); fontFamily="Inter Variable", "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 6px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 50%; 6px; 6px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 6px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 50%; 6px; 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Resources Customers Pricing Now Contact Log in Sign up

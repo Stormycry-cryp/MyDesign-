@@ -1,0 +1,57 @@
+.ds-motion-motion-navigation-hover-opacity-300-ease-in-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-navigation-hover-opacity-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-opacity-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-opacity-300-ease-in-out-easing);
+  transform: 0.92142;
+}
+
+.ds-motion-motion-navigation-focus-opacity-300-ease-in-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-navigation-focus-opacity-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-opacity-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-opacity-300-ease-in-out-easing);
+  transform: 0.899633;
+}
+
+.ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-backgroundcolor-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-navigation-state-change-color-300-ease-in-out {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-navigation-state-change-background-300-ease-in-out {
+  transition-property: background;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-background-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-background-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-background-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-button-state-change-opacity-300-ease-in-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-state-change-opacity-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-opacity-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-opacity-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-button-state-change-background-300-ease-in-out {
+  transition-property: background;
+  transition-duration: var(--ds-motion-motion-button-state-change-background-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-background-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-background-300-ease-in-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

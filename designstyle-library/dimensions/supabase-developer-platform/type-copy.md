@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Acceptable Use Policy#; H2 1. General Prohibitions#; 2. Artificial Intelligence and Content Manipulation#; 3. Security and Network Integrity#; 4. Account and Message Abuse#; 5. Financial Crime and Regulated Goods#; 6. Monitoring and Enforcement#; navigation Pricing; Docs; Blog; 103.4K; Sign in; Start your project
+  - Sentence rhythm: 100 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Acceptable Use Policy | Supabase; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://supabase.com/aup
   - Page title: Acceptable Use Policy | Supabase
@@ -20,7 +26,6 @@
   - Navigation samples: Pricing; Docs; Blog; 103.4K; Sign in; Start your project
   - Images observed: none observed
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Product Developers Solutions Pricing Docs Blog 103.4K Sign in Start your project Acceptable Use Policy# Last Modified: 1 June 2026 This Acceptable Use Policy (this \"Policy\") describes prohibited uses of the web services offered by Supabase, Inc. and its affili`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -1,0 +1,26 @@
+:root {
+  --ds-color-accent: #ffb080;
+  --ds-color-foreground: #000000;
+  --ds-color-deep-accent: #604030;
+  --ds-color-accent-2: #d09070;
+  --ds-color-deep-accent-2: #201010;
+  --ds-color-deep-accent-3: #403020;
+  --ds-color-supporting-color: #805040;
+  --ds-color-supporting-color-2: #a07050;
+  --ds-color-background: #ffffff;
+  --ds-spacing-component: 150px 0px 0px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-color-500-cubic-bezier-0-5-0-0-5-1-duration: 500ms;
+  --ds-motion-motion-navigation-hover-color-500-cubic-bezier-0-5-0-0-5-1-delay: 0ms;
+  --ds-motion-motion-navigation-hover-color-500-cubic-bezier-0-5-0-0-5-1-easing: cubic-bezier(0.5, 0, 0.5, 1);
+  --ds-motion-motion-navigation-focus-color-500-cubic-bezier-0-5-0-0-5-1-duration: 500ms;
+  --ds-motion-motion-navigation-focus-color-500-cubic-bezier-0-5-0-0-5-1-delay: 0ms;
+  --ds-motion-motion-navigation-focus-color-500-cubic-bezier-0-5-0-0-5-1-easing: cubic-bezier(0.5, 0, 0.5, 1);
+  --ds-motion-motion-navigation-hover-color-250-ease-duration: 250ms;
+  --ds-motion-motion-navigation-hover-color-250-ease-delay: 0ms;
+  --ds-motion-motion-navigation-hover-color-250-ease-easing: ease;
+  --ds-motion-motion-navigation-focus-color-250-ease-duration: 250ms;
+  --ds-motion-motion-navigation-focus-color-250-ease-delay: 0ms;
+  --ds-motion-motion-navigation-focus-color-250-ease-easing: ease;
+}

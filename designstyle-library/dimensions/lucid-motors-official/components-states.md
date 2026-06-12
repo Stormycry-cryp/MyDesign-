@@ -15,7 +15,6 @@
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://lucidmotors.com/` when L0-L3 evidence is insufficient.
   - Component computed-style evidence: `assets/2026-06-05-lucid-motors-official-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.cookielaw.org/logos/dd23153e-c583-47e6-9054-4ed77b637cb4/d4014dd7-e329-41cb-a78c-5ca8b5dd1e30/492ffc66-93c9-42ab-9dce-2b54c6e7fd65/Logo-Lucid-light.png; https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
 
 ## Inference
 - Borrow:

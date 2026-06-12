@@ -13,9 +13,9 @@
 | `#707070` | neutral surface | screenshot pixel sample | 0.0175 |
 | `#304040` | deep accent | screenshot pixel sample | 0.0138 |
 | `#705040` | deep accent | screenshot pixel sample | 0.0099 |
+| `#000000` | foreground | explicit reference or DOM color |  |
 | `#0f0f0f` | foreground | explicit reference or DOM color |  |
 | `#d7be96` | supporting color | explicit reference or DOM color |  |
-| `#000000` | foreground | explicit reference or DOM color |  |
 | `#0000ee` | accent | explicit reference or DOM color |  |
 
 ## Mood Keywords

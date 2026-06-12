@@ -1,42 +1,156 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #0000001a;visibility:visible!importan, pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{background-color:#fff}.w-slider-dot:focus{outline:none;box-shadow:0, sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: gClientRect(),E=i*f;l>0&&l<=E&&(m=!0,await V(e,a,s),m=!1)},100),u=new IntersectionObserver(f=>{for(let{isIntersecting:l}of f)window[l?"addEventListener":"removeEventListener"]("scroll",p)}),d=()=>{window.removeEventListe, gle|show|hide)$/,at=/queueHooks$/;function st(){nt&&(!1===E.hidden&&C.requestAnimationFrame?C.requestAnimationFrame(st):C.setTimeout(st,S.fx.interval),S.fx.tick())}function ut(){return C.setTimeout(function(){tt=void 0}),, ueHooks$/;function st(){nt&&(!1===E.hidden&&C.requestAnimationFrame?C.requestAnimationFrame(st):C.setTimeout(st,S.fx.interval),S.fx.tick())}function ut(){return C.setTimeout(function(){tt=void 0}),tt=Date.now()}function l
-  - Timing/easing: dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid #0000;border-bottom-color:, {padding-left:1.25rem}.nav_middle-gradient{z-index:0;background-image:linear-gradient(90deg,#fff0,#fff 25%,#fff);width:6.75rem;height:90%;padding-bottom:0;padding-right:0;display:block;position:absolute;ins, lute;inset:auto 0% 0% auto}.nav_middle-gradient.left{background-image:linear-gradient(270deg,#fff0,#fff);width:1.25rem;left:0%;right:auto}.footer{border-top:1px solid var(--grey);flex-direction:column;align, .elem.nodeType&&e.elem.parentNode&&(e.elem[e.prop]=e.now)}},S.easing={linear:function(e){return e},swing:function(e){return.5-Math.cos(e*Math.PI)/2},_default:"swing"},S.fx=et.prototype.init,S.fx.step={};var, (f.init)||(f.init=s),c},c.open(u)}}("prototype",{}.hasOwnProperty),h={ease:["ease",function(t,e,n,i){var r=(t/=i)*t,o=r*t;return e+n*(-2.75*o*r+11*r*r+-15.5*o+8*r+.25*t)}],"ease-in":["ease-in",function(t,
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; padding:.8125rem 1rem;font-size:.875rem;font-weight:600;line-height:1;transition:color .15s,background-color .15s;display:flex}.button:hover{text-decoration:none}.button.primary{ba; 2f2}.button.tertiary.sponsored{color:#ffd9d9;background-color:#5928e5;transition:letter-spacing .15s,color .15s,background-color .15s}.button-arrow{flex-direction:column;justify-co; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; sync()=>{let{fsAttributes:e}=window;e.animation||(e.animation={});let{animation:t}=e;if(t.import)return t.import;try{return t.import=import(ot),t.import}catch(o){A.alert(`${o}`,"er; dth:479px){.w-tab-link{display:block}}.w-ix-emptyfix:after{content:""}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.w-dyn-empty{background-color:#ddd;padding
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; padding:.8125rem 1rem;font-size:.875rem;font-weight:600;line-height:1;transition:color .15s,background-color .15s;display:flex}.button:hover{text-decoration:none}.button.primary{ba; 2f2}.button.tertiary.sponsored{color:#ffd9d9;background-color:#5928e5;transition:letter-spacing .15s,color .15s,background-color .15s}.button-arrow{flex-direction:column;justify-co; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; sync()=>{let{fsAttributes:e}=window;e.animation||(e.animation={});let{animation:t}=e;if(t.import)return t.import;try{return t.import=import(ot),t.import}catch(o){A.alert(`${o}`,"er; dth:479px){.w-tab-link{display:block}}.w-ix-emptyfix:after{content:""}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.w-dyn-empty{background-color:#ddd;padding; dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid ; {padding-left:1.25rem}.nav_middle-gradient{z-index:0;background-image:linear-gradient(90deg,#fff0,#fff 25%,#fff);width:6.75rem;height:90%;padding-bottom:0;padding-right:0;display:b
-  - Exact motion parameters: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; sync()=>{let{fsAttributes:e}=window;e.animation||(e.animation={});let{animation:t}=e;if(t.import)return t.import;try{return t.import=import(ot),t.import}catch(o){A.alert(`${o}`,"er; dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid ; {padding-left:1.25rem}.nav_middle-gradient{z-index:0;background-image:linear-gradient(90deg,#fff0,#fff 25%,#fff);width:6.75rem;height:90%;padding-bottom:0;padding-right:0;display:b; lute;inset:auto 0% 0% auto}.nav_middle-gradient.left{background-image:linear-gradient(270deg,#fff0,#fff);width:1.25rem;left:0%;right:auto}.footer{border-top:1px solid var(--grey);f; erit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset]{-webkit-appearance:button;cursor:pointer}butto; lass^=w-icon-],[class*=\ w-icon-]{speak:none;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-wei
-  - JavaScript/runtime motion evidence: gClientRect(),E=i*f;l>0&&l<=E&&(m=!0,await V(e,a,s),m=!1)},100),u=new IntersectionObserver(f=>{for(let{isIntersecting:l}of f)window[l?"addEventListener":"removeEventListener"]("scr; gle|show|hide)$/,at=/queueHooks$/;function st(){nt&&(!1===E.hidden&&C.requestAnimationFrame?C.requestAnimationFrame(st):C.setTimeout(st,S.fx.interval),S.fx.tick())}function ut(){re; ueHooks$/;function st(){nt&&(!1===E.hidden&&C.requestAnimationFrame?C.requestAnimationFrame(st):C.setTimeout(st,S.fx.interval),S.fx.tick())}function ut(){return C.setTimeout(functi; -back"][0],!L.style[S])for(var q in d)h[q][0]=d[q]}var j=e.frame=(s=f.requestAnimationFrame||f.webkitRequestAnimationFrame||f.mozRequestAnimationFrame||f.oRequestAnimationFrame||f.; q in d)h[q][0]=d[q]}var j=e.frame=(s=f.requestAnimationFrame||f.webkitRequestAnimationFrame||f.mozRequestAnimationFrame||f.oRequestAnimationFrame||f.msRequestAnimationFrame)&&T.bin; frame=(s=f.requestAnimationFrame||f.webkitRequestAnimationFrame||f.mozRequestAnimationFrame||f.oRequestAnimationFrame||f.msRequestAnimationFrame)&&T.bind?s.bind(f):function(t){f.se
-  - Stylesheet evidence: https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/css/footer-design-eab6e0.shared.da9a863a6.min.css; https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700; https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js; https://app.humblytics.com/hmbl.min.js?id=6acafb3; https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js; https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsstatic@1/cmsstatic.js; https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64fe0870e6e4f3a42a145c1c; https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/js/footer-design-eab6e0.schunk.36b8fb49256177c8.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/css/footer-design-eab6e0.shared.da9a863a6.min.css; https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700; https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js; https://app.humblytics.com/hmbl.min.js?id=6acafb3; https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js; https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsstatic@1/cmsstatic.js; https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64fe0870e6e4f3a42a145c1c; https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/js/footer-design-eab6e0.schunk.36b8fb49256177c8.js; https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/js/footer-design-eab6e0.schunk.08779b17d1882f59.js; https://cdn.prod.website-files.com/64fe0870e6e4f3a42a145c1c/js/footer-design-eab6e0.schunk.0844adf16d1e8fb7.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-footer-design-gallery-resource-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.prod.website-files.com/64fe1f9c06690a6cee3471ec/6a1eeed39dec517f77b6b6e2_rsquare-thumbnail.avif; https://www.google.com/s2/favicons?domain=https://www.rsquare.work/&size=32; https://cdn.prod.website-files.com/64fe1f9c06690a6cee3471ec/6a1d9b75c7584fa2e6b017a5_think-social-thumbnail.avif; https://www.google.com/s2/favicons?domain=https://thinksocial.co.in/&size=32; https://cdn.prod.website-files.com/64fe1f9c06690a6cee3471ec/6a19b77c09bbdf4db76bccca_yavorovskyiartem-thumbnail.avif; https://www.google.com/s2/favicons?domain=https://yavorovskyiartem.com/&size=32; https://cdn.prod.website-files.com/64fe1f9c06690a6cee3471ec/6a187e44669dd17c08fc8c86_sui-thumbnail.avif; https://www.google.com/s2/favicons?domain=https://www.sui.io/&size=32
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 27 and scripts 9; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | opacity | 150ms | 0ms | ease | 导航hover：opacity 1 -> 0.612226，150ms ease，hover 触发；样本 ds-navigation-1 |
+| navigation | focus | opacity | 150ms | 0ms | ease | 导航focus：opacity 1 -> 0.602811，150ms ease，focus 触发；样本 ds-navigation-1 |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Typographic |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Typographic |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Small Type |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Small Type |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Illustrative |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Illustrative |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Grid |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Grid |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Flat |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Flat |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.973)，150ms ease，hover 触发；样本 Animated |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Animated |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Cards |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Cards |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Bright |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Bright |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.97)，150ms ease，hover 触发；样本 Dark |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(242, 242, 242, 0.992)，150ms ease，focus 触发；样本 Dark |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-opacity-150-ease
+
+```css
+{"opacity": "0.612226", "transition": "opacity 0.15s"}
+```
+
+### motion-navigation-focus-opacity-150-ease
+
+```css
+{"opacity": "0.602811", "transition": "opacity 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.973)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.97)", "transition": "color 0.15s, background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(242, 242, 242, 0.992)", "transition": "color 0.15s, background-color 0.15s"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

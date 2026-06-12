@@ -1,42 +1,93 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: .1111111111vw;line-height:135%}.link{cursor:pointer;position:relative;transition:color .3s cubic-bezier(.19,1,.22,1)}.link.no-decoration{cursor:default}.link.decorated,.link:focus,.link:hover{outline:none}.link.decorated:after,.link:not(.no-decor, nsform-origin:right;transform:scaleX(0);background-color:currentColor;transition:transform .95s cubic-bezier(.19,1,.22,1)}.text-black{color:var(--black)}.text-white{color:var(--white)}.text-accent{color:var(--quote-color)}.text-undeline{text-decoratio, 22vw;text-transform:capitalize;line-height:130%;letter-spacing:-.02em;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;position:relative;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;user-select:none;display:inline-block;text-align
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: e(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(e)},o=setT, H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);at&&(t=requestAni
-  - Timing/easing: 66667vw;--bg:var(--black);--fg:var(--white);--highlight:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0., var(--black);--fg:var(--white);--highlight:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-in-quint:cubic-bez, light:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-in-quint:cubic-bezier(0.755,, nk);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-in-quint:cubic-bezier(0.755,0.05,0.855,0.06);--ease-in-expo:cubic-bezi, .085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-in-quint:cubic-bezier(0.755,0.05,0.855,0.06);--ease-in-expo:cubic-bezier(0.95,0.
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: .1111111111vw;line-height:135%}.link{cursor:pointer;position:relative;transition:color .3s cubic-bezier(.19,1,.22,1)}.link.no-decoration{cursor:default}.link.decorated,.link:focus,; nsform-origin:right;transform:scaleX(0);background-color:currentColor;transition:transform .95s cubic-bezier(.19,1,.22,1)}.text-black{color:var(--black)}.text-white{color:var(--whi; 22vw;text-transform:capitalize;line-height:130%;letter-spacing:-.02em;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;position:relative;overf; ansform:translate(-100%) rotate(-45deg);left:0;height:58px;width:19px;transition:transform .6s var(--ease-out-expo)}.cursor_cursor-container__ClS7V .cursor_cursor__ERu1j.cursor_cli; :auto;right:0;left:0}}.image_image___YiFD{border-radius:.3472222222vw;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;object-position:top}@me; utton_is-hovering__Ej_h0 .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F; eX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__FoWD6:hover.button_dark__76jtr{background-color:var(--pink);color; tton_button__FoWD6:hover .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: .1111111111vw;line-height:135%}.link{cursor:pointer;position:relative;transition:color .3s cubic-bezier(.19,1,.22,1)}.link.no-decoration{cursor:default}.link.decorated,.link:focus,; nsform-origin:right;transform:scaleX(0);background-color:currentColor;transition:transform .95s cubic-bezier(.19,1,.22,1)}.text-black{color:var(--black)}.text-white{color:var(--whi; 22vw;text-transform:capitalize;line-height:130%;letter-spacing:-.02em;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;position:relative;overf; ansform:translate(-100%) rotate(-45deg);left:0;height:58px;width:19px;transition:transform .6s var(--ease-out-expo)}.cursor_cursor-container__ClS7V .cursor_cursor__ERu1j.cursor_cli; :auto;right:0;left:0}}.image_image___YiFD{border-radius:.3472222222vw;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;object-position:top}@me; utton_is-hovering__Ej_h0 .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F; eX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__FoWD6:hover.button_dark__76jtr{background-color:var(--pink);color; tton_button__FoWD6:hover .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F; eX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__FoWD6:hover .button_inner__HhmHe span:after{opacity:1}.button_but; ds-marquee_slider-content__sU_Bd{position:absolute;white-space:nowrap;animation:brands-marquee_marquee-horizontal__qysWD 30s linear infinite}.brands-marquee_item__BjFfv{flex:0 0 au
-  - Exact motion parameters: .1111111111vw;line-height:135%}.link{cursor:pointer;position:relative;transition:color .3s cubic-bezier(.19,1,.22,1)}.link.no-decoration{cursor:default}.link.decorated,.link:focus,; nsform-origin:right;transform:scaleX(0);background-color:currentColor;transition:transform .95s cubic-bezier(.19,1,.22,1)}.text-black{color:var(--black)}.text-white{color:var(--whi; 22vw;text-transform:capitalize;line-height:130%;letter-spacing:-.02em;transition:color .2s ease-out,border-radius .2s ease-out,background-color .2s ease-out;position:relative;overf; utton_is-hovering__Ej_h0 .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F; eX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__FoWD6:hover.button_dark__76jtr{background-color:var(--pink);color; tton_button__FoWD6:hover .button_inner__HhmHe{transform:translateX(0);animation:button_marquee__LyW7Z var(--duration) linear infinite;animation-play-state:running}.button_button__F; 66667vw;--bg:var(--black);--fg:var(--white);--highlight:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-; var(--black);--fg:var(--white);--highlight:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-b; light:var(--pink);--ease-in-quad:cubic-bezier(0.55,0.085,0.68,0.53);--ease-in-cubic:cubic-bezier(0.55,0.055,0.675,0.19);--ease-in-quart:cubic-bezier(0.895,0.03,0.685,0.22);--ease-i; ding:0;color:inherit}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;-moz-appearance:butto
-  - JavaScript/runtime motion evidence: e(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&canc; H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&cancelAnimationFrame(t),setTimeout(; at&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);at&&(t=requestAnimationFrame(n))})(rt)),ze=null},de.__c=function(e,t){t.some((function(e){try{e.__h.forEach(ct),e.__h; ct(e)}catch(e){t=e}})),t&&de.__e(t,n.__v))};var at="function"==typeof requestAnimationFrame;function ct(e){var t=ze,n=e.__c;"function"==typeof n&&(e.__c=void 0,n()),ze=t}function l; tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur
-  - Stylesheet evidence: https://lunchbox.io/_next/static/css/e280af7516367fa6.css; https://lunchbox.io/_next/static/css/832ca945c3f9d2d9.css; https://lunchbox.io/_next/static/css/c6b26293839a710e.css; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-613794820&cx=c&gtm=4e6621; https://js.hs-banner.com/v2/6444218/banner.js; https://js.hsadspixel.net/pixels.js; https://js.hs-analytics.net/analytics/1780559100000/6444218.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://lunchbox.io/_next/static/css/e280af7516367fa6.css; https://lunchbox.io/_next/static/css/832ca945c3f9d2d9.css; https://lunchbox.io/_next/static/css/c6b26293839a710e.css; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-613794820&cx=c&gtm=4e6621; https://js.hs-banner.com/v2/6444218/banner.js; https://js.hsadspixel.net/pixels.js; https://js.hs-analytics.net/analytics/1780559100000/6444218.js; https://connect.facebook.net/en_US/fbevents.js; https://fast.wistia.com/assets/external/E-v1.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-lunchbox-restaurant-commerce-saas-component-styles.json`
-  - Asset CDN and media loading patterns: https://d.adroll.com/cm/b/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5P7JLYZ; https://d.adroll.com/cm/bombora/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5; https://d.adroll.com/cm/experian/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM; https://d.adroll.com/cm/eyeota/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5P; https://d.adroll.com/cm/g/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5P7JLYZ; https://d.adroll.com/cm/o/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5P7JLYZ; https://d.adroll.com/cm/x/out?af0=a4f15917&adroll_fpc=16986772c4ddfc88bc8a1670d8daa20c-1780559247344&pv=26965666873.47583&arrfrr=https%3A%2F%2Flunchbox.io%2F&advertisable=DM5P7JLYZ; https://images.ctfassets.net/erglja63hoxc/3XY2T9TlvjRB1O5gzGCj6z/916175d8657a61dd6d5b739a8d6245ab/cyan-bkg-teeth-box.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(254, 237, 1) -> missing，200ms ease-out，state-change 触发；样本 BOOK IT |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Book A Demo |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Sign Up |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(0, 0, 0) -> missing，200ms ease-out，state-change 触发；样本 Get Demo |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Book A Demo |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More About Ordering |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More About Catering |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More About Order Aggregation |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More About Open API |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More About Marketing |
+| button | state-change | color | 200ms | 0ms | ease-out | 按钮state-change：color rgb(255, 255, 255) -> missing，200ms ease-out，state-change 触发；样本 Learn More |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
+
+### motion-button-state-change-color-200-ease-out
+
+```css
+{"transition": "color 0.2s ease-out, border-radius 0.2s ease-out, background-color 0.2s ease-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

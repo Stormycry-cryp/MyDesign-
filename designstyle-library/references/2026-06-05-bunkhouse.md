@@ -30,6 +30,14 @@ Bunkhouse is captured as a hospitality, hotel-brand reference for brand homepage
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6401}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 2855x988; 800x173; 0x0; 0x0; 0x0; 0x0; 2560x1707; 497x628; 1333x2000; 1920x1605.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6401}; source: Dimension And Ratio System
+- Observed media ratios: 2855:988; 800:173; 2560:1707; 497:628; 1333:2000; 1920:1605; 1000:1300; 1920:1080; 1143:1254; 194:71; source: Dimension And Ratio System
+- button hover motion uses 200ms ease; source: motion.json
+- button focus motion uses 200ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.bunkhousehotels.com/
 - Page title: Bunkhouse Hotels | Unique Lodging & Authentic Experiences
@@ -60,6 +68,12 @@ Bunkhouse is captured as a hospitality, hotel-brand reference for brand homepage
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 WISH YOU WERE HERE; H2 WE ARE BUNKHOUSE.; EXPLORE OUR LOCATIONS; GUESTHOUSE IN THE HEIGHTS; COFFEE ON CAMPUS; CONGRATS TO OUR MICHELIN KEY HOTELS; OUR PRESS; navigation Return to homepage
+- Sentence rhythm: 105 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Bunkhouse Hotels | Unique Lodging & Authentic Experiences; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(242, 238, 229); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); HEADER:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); H2:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(255, 255, 255):rgb(0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgba(0, 0, 0, 0); H1:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgba(255, 255, 255, 0.5); H2:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +85,12 @@ Bunkhouse is captured as a hospitality, hotel-brand reference for brand homepage
 - Media/card aspect stability: image natural sizes include 2855x988; 800x173; 0x0; 0x0; 0x0; 0x0; 2560x1707; 497x628; 1333x2000; 1920x1605.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons SKIP NAVIGATION - Button will scroll to this section on the current page.; LOCATIONS; LEARN MORE - Link opens in a new window; LEARN MORE - Link opens in a new window; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; VISIT WEBSITE; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6401}
 - Observed media ratios: 2855:988; 800:173; 2560:1707; 497:628; 1333:2000; 1920:1605; 1000:1300; 1920:1080; 1143:1254; 194:71
@@ -94,14 +114,12 @@ Bunkhouse is captured as a hospitality, hotel-brand reference for brand homepage
 - Asset CDN and media loading patterns: https://login.bunkhousehotels.com/wp-content/uploads/2024/08/BH-Logo_BH-Hotels-Logo-Stacked.png; https://login.bunkhousehotels.com/wp-content/uploads/2022/11/3d6c05c39beebf4615e5e385d710630d-1.png; https://www.bunkhousehotels.com/_next/static/media/dropdown-icon.5d170162.png; https://www.bunkhousehotels.com/_next/static/media/calendar-icon.cec4882e.png; https://www.bunkhousehotels.com/_next/static/media/calendar-icon.cec4882e.png; https://www.bunkhousehotels.com/_next/static/media/dropdown-icon.5d170162.png; https://login.bunkhousehotels.com/wp-content/uploads/2025/05/20231127_HotelSanCritobal_NickSimonite_MiscProperty_006_SMALL.jpeg; https://login.bunkhousehotels.com/wp-content/uploads/2023/12/Screenshot-2023-12-12-at-12.52.33-PM.png
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
 - Timing/easing: no direct timing evidence found
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: none observed
 - Public CSS/JS probe keywords: none
 - Public CSS/JS motion snippets: none observed
 - Exact motion parameters: no direct code evidence; preserve only visible motion intent

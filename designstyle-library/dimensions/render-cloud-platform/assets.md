@@ -19,7 +19,6 @@
   - Navigation samples: Product; Platform Overview; Workflows; Autoscaling; Private Networking; Persistent Disks; Infrastructure as Code; Preview Environments; Zero Downtime Deploys; Render API; Static Sites; Web Services
   - Images observed: none observed
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: no direct runtime hint found
   - Public stylesheet/script URLs: https://render.com/_next/static/css/b0f5d8f15fd7fda5.css?dpl=dd6d8cb85; https://render.com/_next/static/css/305a22106d19e694.css?dpl=dd6d8cb85; https://render.com/_next/static/css/574dc7d9222aa34c.css?dpl=dd6d8cb85; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-16550422935; https://render.com/seg/cdn/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz

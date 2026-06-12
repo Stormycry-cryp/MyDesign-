@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Meet the night shift.; H2 Keep work moving 24/7.; Automate repetitive work for your team.; Ask your on-demand assistants.; You assign the tasks. Notion Agent does the work.; One search for everything.; Perfect notes, every time.; navigation Developers; Enterprise; Pricing; Request a demo; Get Notion free; Log in; Get Notion free; Request a demo; About us; Careers; Security; Status
+  - Sentence rhythm: 99 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title The AI workspace that works for you. | Notion; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.notion.com/
   - Page title: The AI workspace that works for you. | Notion
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

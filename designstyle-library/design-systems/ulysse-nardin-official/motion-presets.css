@@ -1,0 +1,45 @@
+.ds-motion-motion-navigation-hover-color-300-cubic-bezier-0-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-hover-color-300-cubic-bezier-0-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-color-300-cubic-bezier-0-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-color-300-cubic-bezier-0-0-0-2-1-easing);
+  transform: rgb(0, 16, 56);
+}
+
+.ds-motion-motion-navigation-focus-color-300-cubic-bezier-0-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-focus-color-300-cubic-bezier-0-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-color-300-cubic-bezier-0-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-color-300-cubic-bezier-0-0-0-2-1-easing);
+  transform: rgb(0, 16, 56);
+}
+
+.ds-motion-motion-button-hover-color-200-cubic-bezier-0-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-hover-color-200-cubic-bezier-0-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-color-200-cubic-bezier-0-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-color-200-cubic-bezier-0-0-0-2-1-easing);
+  transform: rgb(0, 16, 56);
+}
+
+.ds-motion-motion-button-focus-color-200-cubic-bezier-0-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-focus-color-200-cubic-bezier-0-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-color-200-cubic-bezier-0-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-color-200-cubic-bezier-0-0-0-2-1-easing);
+  transform: rgb(0, 16, 56);
+}
+
+.ds-motion-motion-button-state-change-color-300-linear {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-state-change-color-300-linear-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-color-300-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-color-300-linear-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

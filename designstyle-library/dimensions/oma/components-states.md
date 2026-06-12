@@ -7,7 +7,7 @@
   - Cards/sections: one main story card with metadata + headline; no multi-card grid in the first viewport
   - Forms/inputs: component evidence missing
   - Feedback states: component evidence missing
-  - Component computed-style evidence: component evidence missing in `assets/2026-06-08-oma-component-styles.json` because formal component capture was unavailable
+  - Component computed-style evidence: `assets/2026-06-11-oma-component-styles.json`
 - Component grammar:
   - Primary hero image acts as the page container rather than a nested content block.
   - Navigation is treated as billboard typography, not a compact utility bar.
@@ -18,7 +18,7 @@
   - CSS variables/tokens observed: missing evidence
   - Layout primitives observed: image-first hero with overlayed absolute-position slabs inferred from the screenshot
   - Component or class naming clues: missing evidence
-  - Component computed-style evidence: `assets/2026-06-08-oma-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-oma-component-styles.json`
   - Asset CDN and media loading patterns: missing evidence
 
 ## Inference

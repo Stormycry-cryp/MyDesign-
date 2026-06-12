@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 13, document height 1000.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -30,6 +31,8 @@
 - div Vivien’s Creative is an artist management and production company representing Australia’s  | rect=1440x1000@0,0 | display=flex; position=fixed; color=rgb(0, 0, 0); backgroundColor=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div embla__slide is-selected pointer-events-auto embla__slide flex | rect=1440x1000@0,0 | display=flex; position=absolute; color=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 1s; transitionDuration=1s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
 - div embla__slide pointer-events-none embla__slide flex h-full | rect=1440x1000@0,0 | display=flex; position=absolute; color=rgb(0, 0, 0); border=0px solid rgb(229, 231, 235); fontFamily=__MessinaSans_fee2dc, __MessinaSans_Fallback_fee2dc; fontSize=16px; fontWeight=400; lineHeight=24px; transition=opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 1s; transitionDuration=1s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=0
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 - border radii samples recorded below.
 
 ### Content Samples

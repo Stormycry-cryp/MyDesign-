@@ -1,42 +1,380 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition, color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-tim, er,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: n"==typeof WeakMap?new WeakMap:new Map,p=new Set,h="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;m(t.target,e)}},{rootMargin:"200px"}):null;funct, akMap:new Map,p=new Set,h="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;m(t.target,e)}},{rootMargin:"200px"}):null;function y(e,t){void 0!==d.get
-  - Timing/easing: ox-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-tim, sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.will-change-auto{will-change:auto}html{font-size:1rem;-webkit-fon, sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.lg\:duration-\[400ms\]{transition-duration:.4s}.lg\:hover\:opacity-20:hover{opacity:.2}}.grid-items .gr, }@media (min-width:1024px){.button,input{transition:border-radius .2s ease-out,background-color .1s ease-out,color .1s ease-out}}.button{display:flex;align-items:center;justify-content:center;padding-left:.75, tton,input{transition:border-radius .2s ease-out,background-color .1s ease-out,color .1s ease-out}}.button{display:flex;align-items:center;justify-content:center;padding-left:.75rem;padding-right:.75rem;text-
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,tr; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-proper; er,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opa; ion:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezi; on:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.durat; .concat(g,";border-left-color:").concat(g,";border-radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress; -radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress-custom-parent{overflow:hidden;position:relative}.; -webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@keyframes nprogress-spinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}")),E=l(e=>new URL(e,win
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,tr; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-proper; er,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opa; ion:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezi; on:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.durat; .concat(g,";border-left-color:").concat(g,";border-radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress; -radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress-custom-parent{overflow:hidden;position:relative}.; -webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@keyframes nprogress-spinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}")),E=l(e=>new URL(e,win; ox-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.will-change-auto{will-
-  - Exact motion parameters: var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,tr; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-proper; er,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity{transition-property:opa; .concat(g,";border-left-color:").concat(g,";border-radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress; -radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}.nprogress-custom-parent{overflow:hidden;position:relative}.; ox-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-none{transition-property:none}.transition-opacity; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.will-change-auto{will-; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.lg\:duration-\[400ms\]{transition-duration:.4s}.lg\:hover\:o; r-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-; translate-x-1\/2{--tw-translate-x:-50%}.-translate-x-1\/2,.rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-
-  - JavaScript/runtime motion evidence: n"==typeof WeakMap?new WeakMap:new Map,p=new Set,h="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;m(t.targ; akMap:new Map,p=new Set,h="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;m(t.target,e)}},{rootMargin:"200p; ent)?void 0:e.complete)&&x(!0)},[l,u]),(0,s.useEffect)(()=>{let e=new IntersectionObserver(l=>{let[t]=l;t.isIntersecting&&e.disconnect(),h(t.isIntersecting)},{rootMargin:"1000px 10
-  - Stylesheet evidence: https://www.jackywinter.gallery/_next/static/css/9c077d0b4bd69e2a.css; https://www.jackywinter.gallery/_next/static/chunks/73a5f434-1ab49effbbd5b386.js; https://www.jackywinter.gallery/_next/static/chunks/702-37b3268e4b2f80f6.js; https://www.jackywinter.gallery/_next/static/chunks/main-app-59f0b70a02fbe4da.js; https://www.jackywinter.gallery/_next/static/chunks/75-11927fcdf8a6811b.js; https://www.jackywinter.gallery/_next/static/chunks/659-14445ea33b99846a.js; https://www.jackywinter.gallery/_next/static/chunks/45-fbb5f62f234cc8fc.js; https://www.jackywinter.gallery/_next/static/chunks/724-a2cb19f84714c69c.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection
-  - Public stylesheet/script URLs: https://www.jackywinter.gallery/_next/static/css/9c077d0b4bd69e2a.css; https://www.jackywinter.gallery/_next/static/chunks/73a5f434-1ab49effbbd5b386.js; https://www.jackywinter.gallery/_next/static/chunks/702-37b3268e4b2f80f6.js; https://www.jackywinter.gallery/_next/static/chunks/main-app-59f0b70a02fbe4da.js; https://www.jackywinter.gallery/_next/static/chunks/75-11927fcdf8a6811b.js; https://www.jackywinter.gallery/_next/static/chunks/659-14445ea33b99846a.js; https://www.jackywinter.gallery/_next/static/chunks/45-fbb5f62f234cc8fc.js; https://www.jackywinter.gallery/_next/static/chunks/724-a2cb19f84714c69c.js; https://www.jackywinter.gallery/_next/static/chunks/516-d514b0b551276a91.js; https://www.jackywinter.gallery/_next/static/chunks/app/layout-148cd6eac7d661fd.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-jacky-winter-gallery-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.sanity.io/images/68kpssiy/production/f32227d9f3cb2c00ca110fa43cdd85c966166e3c-4130x5507.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/206b480791477e930a69c8106f62f2dcfa6665e5-770x1200.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/16629a5392ab5c0f38718cc706c522f8defe7f5a-1080x1411.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/f32227d9f3cb2c00ca110fa43cdd85c966166e3c-4130x5507.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/206b480791477e930a69c8106f62f2dcfa6665e5-770x1200.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/16629a5392ab5c0f38718cc706c522f8defe7f5a-1080x1411.jpg?w=1500&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/f32227d9f3cb2c00ca110fa43cdd85c966166e3c-4130x5507.jpg?w=200&fm=webp&q=85&fit=scale; https://cdn.sanity.io/images/68kpssiy/production/206b480791477e930a69c8106f62f2dcfa6665e5-770x1200.jpg?w=200&fm=webp&q=85&fit=scale
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 19 and scripts 15; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航hover：opacity 1 -> 0.527749，300ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 Exhibitions |
+| navigation | focus | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航focus：opacity 1 -> 0.443844，300ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 Exhibitions |
+| navigation | hover | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航hover：opacity 1 -> 0.527378，300ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 About |
+| navigation | focus | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航focus：opacity 1 -> 0.446659，300ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 About |
+| navigation | hover | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航hover：opacity 1 -> 0.527424，300ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 Contact |
+| navigation | focus | opacity | 300ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航focus：opacity 1 -> 0.443611，300ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 Contact |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 NOW SHOWING |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-3 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 PAST SHOW |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-7 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 ALL PAST SHOWS |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-11 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 NOW SHOWING |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-15 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 PAST SHOW |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-19 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 ALL PAST SHOWS |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-23 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 SUBSCRIBE |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 PAST SHOW |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-button-28 |
+| button | state-change | borderRadius | 200ms | 0ms | ease-out | 按钮state-change：borderRadius 17.5px -> missing，200ms ease-out，state-change 触发；样本 PAST SHOW |
+| form | state-change | borderRadius | 200ms | 0ms | ease-out | 表单state-change：borderRadius 100px -> missing，200ms ease-out，state-change 触发；样本 ds-form-1 |
+| form | state-change | borderRadius | 200ms | 0ms | ease-out | 表单state-change：borderRadius 100px -> missing，200ms ease-out，state-change 触发；样本 ds-form-3 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-0 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-1 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-2 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-3 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-4 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-5 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-6 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-7 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-8 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-9 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-10 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-11 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-12 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-13 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-14 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-15 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-16 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-17 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-18 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-19 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-20 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-21 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-22 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-23 |
+| component | state-change | borderRadius | 200ms | 0ms | ease-out | 组件state-change：borderRadius 0px -> missing，200ms ease-out，state-change 触发；样本 ds-icon-24 |
+| component | state-change | transform | 400ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, 17.5, -17.5) -> missing，400ms ease-in-out，state-change 触发；样本 ds-icon-25 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-26 |
+| component | state-change | fill | 100ms | 0ms | ease-out | 组件state-change：fill missing -> missing，100ms ease-out，state-change 触发；样本 ds-icon-27 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.527749", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.443844", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.527378", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.446659", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.527424", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"opacity": "0.443611", "transition": "opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-button-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-form-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-form-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-borderradius-200-ease-out
+
+```css
+{"transition": "border-radius 0.2s ease-out, background-color 0.1s ease-out, color 0.1s ease-out"}
+```
+
+### motion-component-state-change-transform-400-ease-in-out
+
+```css
+{"transition": "transform 0.4s ease-in-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
+
+### motion-component-state-change-fill-100-ease-out
+
+```css
+{"transition": "fill 0.1s ease-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

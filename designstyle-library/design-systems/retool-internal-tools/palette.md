@@ -3,18 +3,17 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#101010` | foreground | screenshot pixel sample | 0.377 |
+| `#101010` | foreground | screenshot pixel sample | 0.3742 |
 | `#f0fff0` | background | screenshot pixel sample | 0.0691 |
-| `#202030` | deep accent | screenshot pixel sample | 0.0543 |
-| `#403030` | deep accent | screenshot pixel sample | 0.0125 |
-| `#204060` | deep accent | screenshot pixel sample | 0.0102 |
-| `#405060` | deep accent | screenshot pixel sample | 0.0065 |
-| `#909090` | neutral surface | screenshot pixel sample | 0.0064 |
-| `#b0b0e0` | supporting color | screenshot pixel sample | 0.005 |
-| `#506080` | supporting color | screenshot pixel sample | 0.0035 |
-| `#6080a0` | supporting color | screenshot pixel sample | 0.0028 |
+| `#203040` | deep accent | screenshot pixel sample | 0.0546 |
+| `#403030` | deep accent | screenshot pixel sample | 0.0131 |
+| `#204060` | deep accent | screenshot pixel sample | 0.0107 |
+| `#405060` | deep accent | screenshot pixel sample | 0.0067 |
+| `#909090` | neutral surface | screenshot pixel sample | 0.0065 |
+| `#b0b0e0` | supporting color | screenshot pixel sample | 0.0048 |
+| `#506080` | supporting color | screenshot pixel sample | 0.0037 |
+| `#c06050` | accent | screenshot pixel sample | 0.0029 |
 | `#c5c9d3` | neutral surface | explicit reference or DOM color |  |
-| `#ffffff` | background | explicit reference or DOM color |  |
 | `#e9ebdf` | neutral surface | explicit reference or DOM color |  |
 | `#151515` | foreground | explicit reference or DOM color |  |
 | `#000000` | foreground | explicit reference or DOM color |  |

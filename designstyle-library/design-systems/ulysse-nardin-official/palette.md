@@ -13,7 +13,6 @@
 | `#704020` | deep accent | screenshot pixel sample | 0.0063 |
 | `#401000` | deep accent | screenshot pixel sample | 0.0061 |
 | `#c03000` | accent | screenshot pixel sample | 0.0049 |
-| `#007aff` | accent | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - marine watch luxury

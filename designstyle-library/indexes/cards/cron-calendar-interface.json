@@ -17,12 +17,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-cron-calendar-interface-component-styles.json",
+  "component_json_path": "assets/2026-06-12-cron-calendar-interface-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/cron-calendar-interface/component-styles.md",
     "moodboard": "design-systems/cron-calendar-interface/moodboard.svg",
+    "motion": "design-systems/cron-calendar-interface/motion.json",
+    "motion_presets": "design-systems/cron-calendar-interface/motion-presets.css",
     "palette": "design-systems/cron-calendar-interface/palette.md",
-    "tokens": "design-systems/cron-calendar-interface/tokens.json"
+    "tailwind_theme": "design-systems/cron-calendar-interface/tailwind.theme.json",
+    "tokens": "design-systems/cron-calendar-interface/tokens.json",
+    "variables_css": "design-systems/cron-calendar-interface/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/cron-calendar-interface/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/cron-calendar-interface/scene.md",
     "type_copy": "dimensions/cron-calendar-interface/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 76x24; 2932x2084.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 9999px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1475}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 76:24; 2932:2084",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 9999px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 175ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 175ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -41,7 +83,7 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "strong",
+    "motion_code": "medium",
     "screenshot": "strong",
     "type_copy": "strong"
   },

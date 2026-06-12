@@ -9,6 +9,7 @@
 - a Login | rect=57x32@1038.4,13.5 | display=flex; position=static; color=rgb(92, 92, 92); border=0px solid rgb(205, 205, 205); borderRadius=8px; fontFamily=Inter, "Inter Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.003px; lineHeight=14px; padding=6px 10px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1)
 - a Get started | rect=106.6x32@1101.4,13.5 | display=flex; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(17, 168, 255); border=0px solid rgb(205, 205, 205); borderRadius=8px; fontFamily=Inter, "Inter Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.003px; lineHeight=20px; padding=6px 16px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s
 - navigation count 3, image count 40, document height 13909.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -54,8 +55,8 @@
 - li Pricing | rect=66.7x32@358.2,13.5 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px solid rgb(205, 205, 205); fontFamily=Inter, "Inter Fallback"; fontSize=16px; fontWeight=400; letterSpacing=-0.003px; lineHeight=28px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Pricing | rect=66.7x32@358.2,13.5 | display=flex; position=static; color=rgb(0, 0, 0); border=0px solid rgb(205, 205, 205); borderRadius=8px; fontFamily=Inter, "Inter Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.003px; lineHeight=14px; padding=6px 10px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1)
 - a Login | rect=57x32@1038.4,13.5 | display=flex; position=static; color=rgb(92, 92, 92); border=0px solid rgb(205, 205, 205); borderRadius=8px; fontFamily=Inter, "Inter Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.003px; lineHeight=14px; padding=6px 10px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1)
-- 8px; 8px; 8px; 8px; 12px; 12px; 9999px; 6px; 12px; 6px; 9999px; 6px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 8px; 8px; 8px; 8px; 12px; 12px; 9999px; 6px; 12px; 6px; 9999px; 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Features Pricing Login Get started

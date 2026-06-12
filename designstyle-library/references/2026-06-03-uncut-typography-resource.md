@@ -30,6 +30,19 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.; source: Layout Geometry And Spacing
+- Observed border radii: 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}; source: Dimension And Ratio System
+- Stylesheet evidence: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js; source: Motion Code And Runtime Evidence
+- component load motion uses 2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955); source: motion.json
+- button state-change motion uses 200ms cubic-bezier(0.075, 0.82, 0.165, 1); source: motion.json
+- component state-change motion uses 200ms cubic-bezier(0.075, 0.82, 0.165, 1); source: motion.json
+- component load motion uses 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86); source: motion.json
+- component state-change motion uses 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86); source: motion.json
+- component state-change motion uses 300ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://uncut.wtf/
 - Page title: Welcome to UNCUT.wtf
@@ -60,6 +73,12 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 UNCUT.wtf; H2 SANS SERIF; SERIF; MONOSPACE; DISPLAY; navigation none observed
+- Sentence rhythm: 98 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Welcome to UNCUT.wtf; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(2, 2, 3):rgba(0, 0, 0, 0); HEADER:rgb(2, 2, 3):rgba(0, 0, 0, 0); H1:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); SECTION:rgb(2, 2, 3):rgb(196, 196, 196); H2:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); SECTION:rgb(2, 2, 3):rgb(196, 196, 196); H2:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); P:rgb(2, 2, 3):rgba(0, 0, 0, 0); SECTION:rgb(2, 2, 3):rgb(196, 196, 196)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +90,12 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Media/card aspect stability: image natural sizes include 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.
 - Observed border radii: 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; 122.4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1652}
 - Observed media ratios: none observed
@@ -90,30 +115,28 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-uncut-typography-resource-component-styles.json`
 - Asset CDN and media loading patterns: https://uncut.wtf/assets/images/tanklager.svg; https://uncut.wtf/assets/images/opening-hours-sans.svg; https://uncut.wtf/assets/images/lt-institute.svg; https://uncut.wtf/assets/images/geist.svg; https://uncut.wtf/assets/images/berlin-grotesk.svg; https://uncut.wtf/assets/images/hedvig-letters-sans.svg; https://uncut.wtf/assets/images/liga-sans.svg; https://uncut.wtf/assets/images/overused-grotesk.svg
 
 ## Motion
-- Page transitions: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(0.95)}}@keyframes breathe{0%{t, elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover: hover){.btn:hover,.btn--header:hover{background-color:, elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;overflow:hidden}@media screen and (max-width: 800px){.c
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: ":e>t[0]?"needs-improvement":"good"}(t.value,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",fun, alue,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",function(){"hidden"===document.visibilitySt
-- Timing/easing: splay:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-events:none;position:relative;z-index:1}@media(hover: hover){., :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover: hover){.btn:hover,.btn--header:hover{background-color:, :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;overflow:hidden}@media screen and (max-width: 800px){.c, 13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(-15deg)}.newcat:nth-child(2)::before{transform:scale(1) rotate(16deg);right:calc(4r, 0%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:translateY(calc(-3rem + 2px))}@media screen and (max-width: 800px){.countcount{height:cal
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; te;background-color:#09bd13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(; ign-items:center;width:100%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:transl; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta
 - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-- Public CSS/JS motion snippets: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; te;background-color:#09bd13;height:2rem;width:4rem;border-radius:3rem;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);pointer-events:none;transform:scale(1) rotate(; ign-items:center;width:100%;height:calc(3rem - 2px);text-align:center;transition:transform .3s cubic-bezier(0.785, 0.135, 0.15, 0.86)}.categories--open .countcount{transform:transl; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta; reathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-events:none;position:relative;z-index:1}@media(hover: hover){; -index:1}@media(hover: hover){.btn:hover .blinker,.btn:hover .blinker{animation:none}}@font-face{font-family:"UncutSansWeb";src:url("/assets/fonts/UncutSans-Regular.woff2?v=1.3.4op
-- Exact motion parameters: tion-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:sca; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding; elect:none;cursor:pointer;border:1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5r; r:inherit}@media(prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !importan; ion: reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}@; ay:block}22%,78%,82%{display:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-sta; splay:none}24%,80%,84%{display:block}}.breathe{animation:breathe 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite}.blinker{animation:blinker 1s step-start infinite;pointer-eve; :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);text-decoration:none;height:1.5rem;padding:0 .5rem;z-index:1}@media(hover:; :1px solid #020203;border-radius:5rem;transition:background-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);flex-direction:row;flex-wrap:wrap;width:5rem;height:3rem;line-height:2rem;; important;scroll-behavior:auto !important}}@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(0.95)}}@keyframes breathe{0%{transform:scaleY(1)}50%{transform:scaleY(0
-- JavaScript/runtime motion evidence: ":e>t[0]?"needs-improvement":"good"}(t.value,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){documen; alue,n),e(t))}},p=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},m=function(e){document.addEventListener("visibilitychange",fu; -t)*a)}).join(",")})`)(b.start,b.end,r)),Object.assign(e.style,d),o<1?requestAnimationFrame(l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFra; d),o<1?requestAnimationFrame(l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFrame(l)})}):Promise.resolve()},d=matchMedia("(prefers-reduced-mot; (l):++y===m.length&&t()};r?setTimeout(()=>requestAnimationFrame(l),r):requestAnimationFrame(l)})}):Promise.resolve()},d=matchMedia("(prefers-reduced-motion: reduce)").matches?"auto
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://uncut.wtf/assets/css/main.css?v=1777584497; https://static.cloudflareinsights.com/beacon.min.js; https://uncut.wtf/assets/js/main.8c31e246ac34e18c45b3.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-
+- Exact motion parameters: component load animation 2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955); button state-change background-color 200ms cubic-bezier(0.075, 0.82, 0.165, 1); button state-change background-color 200ms cubic-bezier(0.075, 0.82, 0.165, 1); component state-change background-color 200ms cubic-bezier(0.075, 0.82, 0.165, 1); component load transform 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86); component state-change transform 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86); component state-change background-color 200ms cubic-bezier(0.075, 0.82, 0.165, 1); component state-change transform 300ms ease
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: none observed
-- Computed component styles: `assets/2026-06-04-uncut-typography-resource-component-styles.json`
+- Computed component styles: `assets/2026-06-12-uncut-typography-resource-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +165,4 @@ Uncut Typography Resource is captured as a typography, design-resource, open-sou
 - Reuse value: useful for homepage typography resource index if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-uncut-typography-resource-motion.json`

@@ -10,6 +10,7 @@
 - a Login | rect=86.7x48@1200.6,28.5 | display=flex; position=relative; color=lab(3.63782 -0.00000745058 0); border=1px solid rgba(0, 0, 0, 0); borderRadius=filtered abnormal computed value; fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=15px; fontWeight=500; letterSpacing=-0.3px; lineHeight=18px; padding=16px 24px; gap=normal 4px; transition=0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s
 - a Sign up | rect=100.7x48@1291.3,28.5 | display=flex; position=relative; color=lab(100 0 0); backgroundColor=lab(3.63782 -0.00000745058 0); border=1px solid rgba(0, 0, 0, 0); borderRadius=filtered abnormal computed value; fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=15px; fontWeight=500; letterSpacing=-0.3px; lineHeight=18px; padding=16px 24px; gap=normal 4px; transition=0.15s cubic-bezier(0.4, 0, 0.2, 1)
 - navigation count 5, image count 40, document height 6422.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -55,6 +56,7 @@
 - div Try 'vitsoe shelving' | rect=416x54@506.5,25.5 | display=flex; position=static; color=lab(3.63782 -0.00000745058 0); border=0px solid lab(3.63782 -0.00000745058 0); borderRadius=filtered abnormal computed value; fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.28px; lineHeight=18px; transition=width 0.5s cubic-bezier(0.22, 1, 0.36, 1); transitionDuration=0.5s; transitionTimingFunction=cubic-bezier(0.22, 1, 0.36, 1); opacity=1
 - div Try 'vitsoe shelving' | rect=416.5x54@506.5,25.5 | display=flex; position=relative; color=lab(3.63782 -0.00000745058 0); backgroundColor=lab(98.6778 0.212163 0.601566); border=1px solid oklch(0.1591 0.00000406586 none / 0.12); borderRadius=filtered abnormal computed value; fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.28px; lineHeight=18px; padding=8px; gap=8px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)
 - div flex shrink-0 items-center gap-1 | rect=28x18@515.5,43.5 | display=flex; position=static; color=lab(3.63782 -0.00000745058 0); border=0px solid lab(3.63782 -0.00000745058 0); fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.28px; lineHeight=18px; gap=4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- included in computed color pairs.; source: Color, Material, And Contrast
 - border radii samples recorded below.
 
 ### Content Samples
@@ -69,7 +71,6 @@
 ## Form
 
 ### Style Evidence
-- input size-full font-normal outline-none placeholder:text-tertiary autofill:shadow-[0_0_0px_1000 | rect=278.5x17@551.5,44 | display=block; position=relative; color=lab(3.63782 -0.00000745058 0); border=0px solid lab(3.63782 -0.00000745058 0); fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=14px; fontWeight=400; letterSpacing=-0.28px; lineHeight=18px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=text
 - input unlabeled | rect=1x1@-1,-1 | display=block; position=fixed; color=lab(3.63782 -0.00000745058 0); border=0px none lab(3.63782 -0.00000745058 0); fontFamily=cosmosOracle, "cosmosOracle Fallback"; fontSize=14px; fontWeight=500; letterSpacing=-0.28px; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=text
 
 ### Content Samples

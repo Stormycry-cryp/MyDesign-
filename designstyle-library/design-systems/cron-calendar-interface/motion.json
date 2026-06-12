@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：boxShadow missing -> rgba(255, 71, 0, 0.384) 0px 0px 30.6529px 0px，175ms ease，hover 触发；样本 Sign up",
+      "duration_ms": 175,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-hover-boxshadow-175-ease",
+      "keyframes": [],
+      "property": "boxShadow",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"boxShadow\": \"rgba(255, 71, 0, 0.384) 0px 0px 30.6529px 0px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(255, 71, 0, 0.384) 0px 0px 30.6529px 0px",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：boxShadow missing -> rgba(255, 71, 0, 0.392) 0px 0px 27.6701px 0px，175ms ease，focus 触发；样本 Sign up",
+      "duration_ms": 175,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-focus-boxshadow-175-ease",
+      "keyframes": [],
+      "property": "boxShadow",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-0\"]",
+      "selector_role": "button",
+      "snippet": "{\"boxShadow\": \"rgba(255, 71, 0, 0.392) 0px 0px 27.6701px 0px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(255, 71, 0, 0.392) 0px 0px 27.6701px 0px",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [],
+  "noise_filtered": [],
+  "omitted_incomplete": [],
+  "reference_path": "references/2026-06-04-cron-calendar-interface.md",
+  "slug": "cron-calendar-interface",
+  "source_motion_path": "assets/2026-06-12-cron-calendar-interface-motion.json",
+  "source_urls": [],
+  "title": "Cron Calendar Interface"
+}

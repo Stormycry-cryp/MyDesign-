@@ -5,6 +5,7 @@
 ### Style Evidence
 - div VEHICLES SHOP MY LEXUS SIGN IN | rect=1440x90@0,-13 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=nobel; fontSize=11px; fontWeight=400; letterSpacing=0.44px; lineHeight=14px; padding=29px 40px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 0, image count 31, document height 6097.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -44,8 +45,10 @@
 - a FIND A DEALER | rect=163.1x25@719.5,1867.3 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=nobel-book; fontSize=14px; fontWeight=400; letterSpacing=0.56px; lineHeight=20px; gap=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a START PURCHASE | rect=181.6x25@918.6,1867.3 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=nobel-book; fontSize=14px; fontWeight=400; letterSpacing=0.56px; lineHeight=20px; gap=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section LexusCare A complete suite of standard services and benefits, LexusCare extends to all asp | rect=1440x578@0,4424.3 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=nobel-book, sans-serif; fontSize=16px; fontWeight=400; lineHeight=18.4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 24px; 20px; 932px; 932px; 9999px; 9999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- 24px; 20px; 932px; 932px; 9999px; 9999px; source: Layout Geometry And Spacing
 - 24px; 20px; 932px; 932px; 9999px; 9999px
-- border radii samples recorded below.
 
 ### Content Samples
 - SHOP

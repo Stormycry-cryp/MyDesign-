@@ -22,8 +22,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/avroko/component-styles.md",
     "moodboard": "design-systems/avroko/moodboard.svg",
+    "motion": "design-systems/avroko/motion.json",
+    "motion_presets": "design-systems/avroko/motion-presets.css",
     "palette": "design-systems/avroko/palette.md",
-    "tokens": "design-systems/avroko/tokens.json"
+    "tailwind_theme": "design-systems/avroko/tailwind.theme.json",
+    "tokens": "design-systems/avroko/tokens.json",
+    "variables_css": "design-systems/avroko/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/avroko/assets.md",
@@ -34,6 +38,36 @@
     "scene": "dimensions/avroko/scene.md",
     "type_copy": "dimensions/avroko/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "Macro geometry: roughly 60/40 headline-to-quote balance across the top text field",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: 1440x1000 visible state, document height captured around 1000px for the accepted screenshot state",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed spacing samples: top nav padding around 28.8px vertically and 57.6px horizontally surfaced in component evidence; headline field uses expansive whitespace",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed font sizes: display headline around 60px, quote block around low-20px visual size, navigation around 13px",
+      "evidence_source": "Typography And Reading Rhythm"
+    },
+    {
+      "decision": "Exact motion parameters: `0.4s cubic-bezier(0.65, 0, 0.35, 1)`, `.25s ease-out`, `.3s ease-out`, `.2s ease-in-out`, `.8s linear infinite spin`",
+      "evidence_source": "Motion Code And Runtime Evidence"
+    },
+    {
+      "decision": "button state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 100ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Secondary pages were attempted but timed out.",
     "Some deeper motion/code evidence is inferred from minified public bundles rather than human-readable source.",

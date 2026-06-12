@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Your new AI; Data Analyst; H2 You’re in great company; Want answers? Just ask.; Connected to your data; Build reports your team will actually read; Looking for a head start?; Your new AI Data Analyst; navigation Rows AI Your number crunching sidekick; Integrations Seamless connections to your tools; Support Docs Learn how to make the most out of Rows.; Features All-in-one spreadsheet for teams; Pricing; Templates; Community; Continue with Coda; Continue with Coda; Features; Blog; About
+  - Sentence rhythm: 100 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Rows - Your new AI Data Analyst; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://rows.com/product
   - Page title: Rows - Your new AI Data Analyst
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

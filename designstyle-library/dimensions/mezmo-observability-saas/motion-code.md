@@ -1,42 +1,85 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #0000001a;visibility:visible!importan, pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{background-color:#fff}.w-slider-dot:focus{outline:none;box-shadow:0, sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: dElements.delete(t);this.observer.unobserve(t)}}))};this.observer=new IntersectionObserver(this.handleIntersection,{threshold:.5});this.observedElements=new Map}onElementAppear(e){const t=this.observedElements.get(e);t&&, MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Ue=null,Mg=["click","tap","keyup","keydown","pointerup","pointer, isPreview&&1===e.configs.size){this.createPreviewOverlayInteractive();requestAnimationFrame((()=>{this.configModel.previewConfig&&this.openOverlay(this.configModel.previewConfig.contentModelId)}))}else if(0===t.configs.si, }));else if(e.templateConfig){this.createTemplateOverlayInteractive();requestAnimationFrame((()=>{this.openOverlay(Le)}))}else{e.configs.size>t.configs.size&&this.createOverlayInteractivesWithNoAudience();if(this.triggere
-  - Timing/easing: dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid #0000;border-bottom-color:, r);background-color:#0000}.button.button-outline.nav{background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet));color:var(--white);border-width:2px;border-color:#ffffff4d}.button.button-ou, lor:var(--teal);color:var(--anchor)}.button.gradient{background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet))}.button.form{padding:0 50px;position:absolute;inset:0% 0% 0% auto}.style-gui, ding:24px}.button-grid.dark{background-color:#6c2791;background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet))}.display{color:var(--charged-yellow);letter-spacing:-.01em;text-transform:up, eight:600;transition:transform .2s;display:flex}.btn{background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet));color:#fff;letter-spacing:0;border:1px solid #ffffff4d;border-radius:100px;g
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; r;align-items:center;padding:15px 30px;font-size:16px;font-weight:600;transition:transform .2s;display:flex}.button:hover{transform:translateY(-2px)}.button.secondary-outline{borde; th:1px;border-color:var(--charged-yellow);color:var(--charged-yellow);transition:border-color .2s,background-color .2s,transform .2s}.button.button-outline.magenta:hover{background; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio
-  - Public CSS/JS probe keywords: animation, easing, framer, intersection, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; r;align-items:center;padding:15px 30px;font-size:16px;font-weight:600;transition:transform .2s;display:flex}.button:hover{transform:translateY(-2px)}.button.secondary-outline{borde; th:1px;border-color:var(--charged-yellow);color:var(--charged-yellow);transition:border-color .2s,background-color .2s,transform .2s}.button.button-outline.magenta:hover{background; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translate(var(--hs-banner-translate-x,-50%),; er-parent #hs-eu-cookie-confirmation.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-eu-cookie-confirmation #hs-eu-cookie-confirmation-inner{display:fl
-  - Exact motion parameters: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; ate(var(--hs-banner-translate-x,-50%),200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid ; r);background-color:#0000}.button.button-outline.nav{background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet));color:var(--white);border-width:2px;border-color:#; lor:var(--teal);color:var(--anchor)}.button.gradient{background-image:linear-gradient(135deg,var(--charged-yellow),var(--violet))}.button.form{padding:0 50px;position:absolute;inse; erit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset]{-webkit-appearance:button;cursor:pointer}butto
-  - JavaScript/runtime motion evidence: dElements.delete(t);this.observer.unobserve(t)}}))};this.observer=new IntersectionObserver(this.handleIntersection,{threshold:.5});this.observedElements=new Map}onElementAppear(e){; MutationObserver="mutationObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Ue=null,Mg=["click","tap; tionObserver",r.EventListener="eventListener",r.IntersectionObserver="intersectionObserver",r.MicroTask="microtask"}(i||(i={})),i})(),Ue=null,Mg=["click","tap","keyup","keydown","p; ebKitMutationObserver)!==null&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=kl(_w.IntersectionObserver,zi.IntersectionObserver),_w.csMutationObserver=kl(e,zi.Mutatio; ll&&t!==void 0?t:_w.MutationObserver),_w.csIntersectionObserver=kl(_w.IntersectionObserver,zi.IntersectionObserver),_w.csMutationObserver=kl(e,zi.MutationObserver),$s("csNode",Ni.n; isPreview&&1===e.configs.size){this.createPreviewOverlayInteractive();requestAnimationFrame((()=>{this.configModel.previewConfig&&this.openOverlay(this.configModel.previewConfig.co; }));else if(e.templateConfig){this.createTemplateOverlayInteractive();requestAnimationFrame((()=>{this.openOverlay(Le)}))}else{e.configs.size>t.configs.size&&this.createOverlayInte; e(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==qe.push(t)&&We===de.requestAnimationFrame||((We=de.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),at&&canc
-  - Stylesheet evidence: https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/css/mezmo.shared.b5b16d4b1.min.css; https://fonts.googleapis.com/css?family=Inconsolata:400,700%7CMontserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800it; https://js.hubspot.com/web-interactives-embed.js; https://js.hs-banner.com/v2/4102406/banner.js; https://js.hscollectedforms.net/collectedforms.js; https://cdn.vector.co/pixel.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.redditstatic.com/ads/pixel.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: framer, intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/css/mezmo.shared.b5b16d4b1.min.css; https://fonts.googleapis.com/css?family=Inconsolata:400,700%7CMontserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800it; https://js.hubspot.com/web-interactives-embed.js; https://js.hs-banner.com/v2/4102406/banner.js; https://js.hscollectedforms.net/collectedforms.js; https://cdn.vector.co/pixel.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.redditstatic.com/ads/pixel.js; https://www.clarity.ms/tag/nus6weatih?ref=gtm2; https://t.contentsquare.net/uxa/56f8686b97655.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-mezmo-observability-saas-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/626ad01a9cdb24123468c19d_diamond-hook-logdna-close.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/69c68ad564fbf764607e2570_icon-github-logo-white.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/69c68b222745166b669b57b5_icon-lucide-bell-dot-white.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/69c68a37f33567c62199668c_icon-kubernetes-logo-white.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68c1f5d47e7deaa39046952c_logo-swan-mono-dark.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68c1f5e015a492974133fc98_logo-auditboard-mono-dark.svg; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68e9239656237ebb6f77cb93_Clay_Logo_Primary_Blk.png; https://cdn.prod.website-files.com/626ad01a9cdb24810e68c024/68c1f5ec308047c8be8f1e0f_logo-rappi-mono-dark.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, framer, intersection, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 30 and scripts 32; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 800ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，800ms linear，load 触发 |
+| button | hover | transform | 100ms | 0ms | ease-in-out, ease-in-out, ease-in-out, ease-in-out | 按钮hover：transform missing -> matrix(1.05, 0, 0, 1.05, 0, 0)，100ms ease-in-out, ease-in-out, ease-in-out, ease-in-out，hover 触发；样本 Talk to an engineer |
+| button | focus | transform | 100ms | 0ms | ease-in-out, ease-in-out, ease-in-out, ease-in-out | 按钮focus：transform missing -> matrix(1.05, 0, 0, 1.05, 0, 0)，100ms ease-in-out, ease-in-out, ease-in-out, ease-in-out，focus 触发；样本 Talk to an engineer |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-mezmo-observability-saas-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-unset-missing-missing lacks duration_ms
+- motion-component-state-change-unset-missing-missing lacks easing
+- motion-component-state-change-unset-missing-missing lacks duration_ms
+- motion-component-state-change-unset-missing-missing lacks easing
+- motion-component-state-change-background-color-100-missing lacks easing
+- motion-component-state-change-color-100-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-button-state-change-transform-200-missing lacks easing
+- motion-button-state-change-border-color-200-missing lacks easing
+- motion-button-state-change-background-color-200-missing lacks easing
+- motion-button-state-change-transform-200-missing lacks easing
+- motion-button-state-change-border-color-200-missing lacks easing
+- motion-button-state-change-background-color-200-missing lacks easing
+- motion-button-state-change-transform-200-missing lacks easing
+- motion-navigation-state-change-all-200-missing lacks easing
+- motion-navigation-state-change-all-200-missing lacks easing
+- motion-component-state-change-background-color-350-missing lacks easing
+- motion-component-state-change-color-200-missing lacks easing
+- motion-component-state-change-background-color-200-missing lacks easing
+- motion-component-state-change-box-shadow-200-missing lacks easing
+- motion-navigation-state-change-color-200-missing lacks easing
+- motion-navigation-state-change-background-color-200-missing lacks easing
+- motion-navigation-state-change-box-shadow-200-missing lacks easing
+- motion-navigation-state-change-color-200-missing lacks easing
+- motion-navigation-state-change-background-color-200-missing lacks easing
+- motion-navigation-state-change-box-shadow-200-missing lacks easing
+- motion-button-state-change-transform-200-missing lacks easing
+- motion-button-state-change-border-color-250-missing lacks easing
+- motion-button-state-change-background-color-250-missing lacks easing
+- motion-button-state-change-opacity-250-missing lacks easing
+- motion-button-state-change-border-color-250-missing lacks easing
+- motion-button-state-change-background-color-250-missing lacks easing
+- motion-button-state-change-all-250-missing lacks easing
+- motion-button-state-change-all-250-missing lacks easing
+- motion-button-state-change-opacity-250-missing lacks easing
+- motion-button-state-change-border-color-250-missing lacks easing
+- motion-button-state-change-background-color-250-missing lacks easing
+- motion-button-state-change-opacity-250-missing lacks easing
+- motion-button-state-change-border-color-250-missing lacks easing
+- motion-button-state-change-background-color-250-missing lacks easing
+- motion-button-state-change-all-250-missing lacks easing
+- motion-button-state-change-all-250-missing lacks easing
+- motion-component-state-change-all-200-missing lacks easing
+- motion-component-state-change-box-shadow-200-missing lacks easing
+- motion-component-state-change-transform-200-missing lacks easing
+- motion-component-state-change-box-shadow-200-missing lacks easing
+- motion-component-state-change-filter-200-missing lacks easing
+- motion-component-state-change-all-200-missing lacks easing
+- motion-component-state-change-box-shadow-500-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-800-linear
+
+```css
+.w-lightbox-spinner { animation: .8s linear infinite spin; }
+```
+
+### motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0.2) 0px 2px 5px 0px", "transform": "matrix(1.05, 0, 0, 1.05, 0, 0)"}
+```
+
+### motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0.2) 0px 2px 5px 0px", "transform": "matrix(1.05, 0, 0, 1.05, 0, 0)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

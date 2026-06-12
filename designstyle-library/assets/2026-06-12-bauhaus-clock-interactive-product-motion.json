@@ -1,0 +1,18 @@
+{
+  "checked_urls": [
+    "https://events.framer.com/script?v=2",
+    "https://framerusercontent.com/sites/kLe3S9ySj0JYvCtrF4uSA/script_main.CokcTFzU.mjs",
+    "https://cdn.jsdelivr.net/npm/@polar-sh/checkout@latest/dist/embed.global.js"
+  ],
+  "items": [],
+  "missing": [
+    "No structured motion declarations found in sampled public CSS/JS resources."
+  ],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "bauhaus-clock-interactive-product",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": []
+}

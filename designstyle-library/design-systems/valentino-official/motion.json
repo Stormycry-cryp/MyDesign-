@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：top 488.125px -> missing，500ms linear，state-change 触发；样本 Women's Shoes Discover More",
+      "duration_ms": 500,
+      "easing": "linear",
+      "from": "488.125px",
+      "id": "motion-card-state-change-top-500-linear",
+      "keyframes": [],
+      "property": "top",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-card-26\"]",
+      "selector_role": "card",
+      "snippet": "{\"transition\": \"top 0.5s linear\"}",
+      "source": "component-styles transition declaration",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity 1 -> missing，500ms linear，state-change 触发；样本 Welcome to Valentino You are visiting a different Country/region's version of ou",
+      "duration_ms": 500,
+      "easing": "linear",
+      "from": "1",
+      "id": "motion-component-state-change-opacity-500-linear",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-section-11\"]",
+      "selector_role": "component",
+      "snippet": "{\"transition\": \"opacity 0.5s linear\"}",
+      "source": "component-styles transition declaration",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "missing": [],
+  "noise_filtered": [],
+  "omitted_incomplete": [],
+  "reference_path": "references/2026-06-05-valentino-official.md",
+  "slug": "valentino-official",
+  "source_motion_path": "missing",
+  "source_urls": [],
+  "title": "Valentino Official"
+}

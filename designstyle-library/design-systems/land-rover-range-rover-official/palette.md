@@ -13,7 +13,6 @@
 | `#602010` | deep accent | screenshot pixel sample | 0.0066 |
 | `#c0c0a0` | supporting color | screenshot pixel sample | 0.0061 |
 | `#e07030` | accent | screenshot pixel sample | 0.0034 |
-| `#007aff` | accent | explicit reference or DOM color |  |
 | `#4a4f54` | foreground | explicit reference or DOM color |  |
 | `#0c121c` | deep accent | explicit reference or DOM color |  |
 | `#000000` | foreground | explicit reference or DOM color |  |

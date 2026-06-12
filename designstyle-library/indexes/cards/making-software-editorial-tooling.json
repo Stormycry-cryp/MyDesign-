@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-making-software-editorial-tooling-component-styles.json",
+  "component_json_path": "assets/2026-06-12-making-software-editorial-tooling-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/making-software-editorial-tooling/component-styles.md",
     "moodboard": "design-systems/making-software-editorial-tooling/moodboard.svg",
+    "motion": "design-systems/making-software-editorial-tooling/motion.json",
+    "motion_presets": "design-systems/making-software-editorial-tooling/motion-presets.css",
     "palette": "design-systems/making-software-editorial-tooling/palette.md",
-    "tokens": "design-systems/making-software-editorial-tooling/tokens.json"
+    "tailwind_theme": "design-systems/making-software-editorial-tooling/tailwind.theme.json",
+    "tokens": "design-systems/making-software-editorial-tooling/tokens.json",
+    "variables_css": "design-systems/making-software-editorial-tooling/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/making-software-editorial-tooling/assets.md",
@@ -35,6 +39,44 @@
     "scene": "dimensions/making-software-editorial-tooling/scene.md",
     "type_copy": "dimensions/making-software-editorial-tooling/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7122}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 4px; 4px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7122}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 4px; 4px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 0ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -43,15 +85,14 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "weak",
+    "motion_code": "strong",
     "screenshot": "strong",
     "type_copy": "strong"
   },
   "missing_evidence": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
-    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture.",
-    "motion/code evidence is weak"
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
   ],
   "motion_tags": [
     "transition",

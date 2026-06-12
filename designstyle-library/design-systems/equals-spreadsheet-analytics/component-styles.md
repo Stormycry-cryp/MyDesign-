@@ -12,7 +12,7 @@
 - a Average Contract Value | rect=202.2x27.4@612.6,113.6 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=6px; fontFamily=Unica77, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=-0.09px; lineHeight=20px; padding=4px 12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - a Customer Dashboard | rect=202.2x27.4@814.8,113.6 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=6px; fontFamily=Unica77, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=-0.09px; lineHeight=20px; padding=4px 12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - navigation count 24, image count 40, document height 9090.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Use cases Revenue and Retention ARR Daily Pulse ARR Dashboard ARR Spreadsheet Average Contract Value Customer Dashboard
@@ -56,8 +56,8 @@
 - li Customer Dashboard | rect=202.2x27.4@814.8,113.6 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Unica77, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=-0.09px; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Customer Retention Cohorts | rect=202.2x27.4@1017,113.6 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Unica77, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=-0.09px; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Net Revenue Retention | rect=202.2x27.4@612.6,141.1 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Unica77, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=-0.09px; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 12px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 12px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Use cases Revenue and Retention ARR Daily Pulse ARR Dashboard ARR Spreadsheet Average Contract Value Customer Dashboard

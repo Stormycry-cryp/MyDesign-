@@ -1,42 +1,359 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: color:#c5c9d3;border-radius:9999px;width:36px;height:20px;padding:2px;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolba, color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarToggle:hover{background, order-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarToggle:hover{background-color:#c5c9d3cc}.hypertuneToolbarToggle[aria-check
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: -color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarToggle:hover{background-color:#c5c9d3cc}.hypertuneToolbarToggle[aria-check, ition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:relative;left:0%}.hypertuneToolbarToggle[aria-checked=true] span{left:100%;transform:translate(-100%)}, hite-0);background-color:var(--raw-semantic-critical-10);animation:2s linear infinite alternate red-pulse}@keyframes red-pulse{0%{background-color:var(--raw-semantic-critical-10)}to{background-color:var(--r, -grid-col) * var(--dvt-grid-items) - var(--dvt-grid-outer) * 2);--dvt-ease-in:cubic-bezier(.12, 0, .72, 0);--dvt-ease-in-out:cubic-bezier(.72, 0, .12, 1);--dvt-ease-in-back:cubic-bezier(.12, 0, .72, -.4);--d, l) * var(--dvt-grid-items) - var(--dvt-grid-outer) * 2);--dvt-ease-in:cubic-bezier(.12, 0, .72, 0);--dvt-ease-in-out:cubic-bezier(.72, 0, .12, 1);--dvt-ease-in-back:cubic-bezier(.12, 0, .72, -.4);--dvt-ease-in-out-back:cubic-bez
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: color:#c5c9d3;border-radius:9999px;width:36px;height:20px;padding:2px;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:; color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relati; order-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarTogg; pan{background-color:#fff;border-radius:9999px;width:16px;height:16px;transition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:re; f;border-radius:9999px;width:16px;height:16px;transition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:relative;left:0%}.hypertun; utral-light-white-0);background-color:var(--raw-semantic-critical-10);animation:2s linear infinite alternate red-pulse}@keyframes red-pulse{0%{background-color:var(--raw-semantic-c; m-none{transform:none}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin; nite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:1s linear infinite spin}.\!cursor-progress{cursor:progress!important}.\!cursor-text{cursor:text!impo
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: color:#c5c9d3;border-radius:9999px;width:36px;height:20px;padding:2px;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:; color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relati; order-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarTogg; pan{background-color:#fff;border-radius:9999px;width:16px;height:16px;transition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:re; f;border-radius:9999px;width:16px;height:16px;transition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:relative;left:0%}.hypertun; utral-light-white-0);background-color:var(--raw-semantic-critical-10);animation:2s linear infinite alternate red-pulse}@keyframes red-pulse{0%{background-color:var(--raw-semantic-c; m-none{transform:none}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin; nite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:1s linear infinite spin}.\!cursor-progress{cursor:progress!important}.\!cursor-text{cursor:text!impo; }.will-change-transform{will-change:transform}.animation-duration-400{animation-duration:.4s}.backface-hidden{backface-visibility:hidden}.\!dark .bg-btn-primary-active-background{b; ackground-clip:text;background-clip:text;transition:color,opacity .3s;animation:1s cubic-bezier(.72,0,.12,1) forwards HeroMadLibText-module__6slh_G__swipe-background-position}.Hero
-  - Exact motion parameters: color:#c5c9d3;border-radius:9999px;width:36px;height:20px;padding:2px;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:; color,background-color,border-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relati; order-color,text-decoration-color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarTogg; utral-light-white-0);background-color:var(--raw-semantic-critical-10);animation:2s linear infinite alternate red-pulse}@keyframes red-pulse{0%{background-color:var(--raw-semantic-c; m-none{transform:none}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:2s cubic-bezier(.4,0,.6,1) infinite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin; nite pulse}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:1s linear infinite spin}.\!cursor-progress{cursor:progress!important}.\!cursor-text{cursor:text!impo; -color,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);display:inline-flex;position:relative}.hypertuneToolbarToggle:hover{background-color:#; ition-property:all;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1);position:relative;left:0%}.hypertuneToolbarToggle[aria-checked=true] span{left:100%;tr; hite-0);background-color:var(--raw-semantic-critical-10);animation:2s linear infinite alternate red-pulse}@keyframes red-pulse{0%{background-color:var(--raw-semantic-critical-10)}t; ive;left:0%}.hypertuneToolbarToggle[aria-checked=true] span{left:100%;transform:translate(-100%)}
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://retool.com/_next/static/chunks/15-g0uns6r6lu.css; https://retool.com/_next/static/chunks/0znrlfd1l3fxl.css; https://retool.com/_next/static/chunks/0ks88gmwy22fx.css; https://retool.com/_next/static/chunks/0f1yncoc-cs~5.css; https://retool.com/_next/static/chunks/07uqzcimvn.u8.css; https://retool.com/_next/static/chunks/08l6f91o19cp1.css; https://retool.com/_next/static/chunks/04.3wpzc2tfri.css; https://bat.bing.com/bat.js
-  - Interpreted motion tags: restrained, media-led
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://retool.com/_next/static/chunks/15-g0uns6r6lu.css; https://retool.com/_next/static/chunks/0znrlfd1l3fxl.css; https://retool.com/_next/static/chunks/0ks88gmwy22fx.css; https://retool.com/_next/static/chunks/0f1yncoc-cs~5.css; https://retool.com/_next/static/chunks/07uqzcimvn.u8.css; https://retool.com/_next/static/chunks/08l6f91o19cp1.css; https://retool.com/_next/static/chunks/04.3wpzc2tfri.css; https://bat.bing.com/bat.js; https://s.adroll.com/j/TAYHWOLAKFD6LOW6X7DQWB/roundtrip.js; https://snap.licdn.com/li.lms-analytics/insight.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-retool-internal-tools-component-styles.json`
-  - Asset CDN and media loading patterns: https://retool.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fbclf52sw%2Fproduction%2F5df87453ca5a48329270a939bc4c2152e287c8e1-2880x1620.jpg&w=256&q=75; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-background.png&w=1920&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-1.png&w=256&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-2.png&w=640&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-3.png&w=256&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-4.png&w=320&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-5.png&w=640&q=85; https://retool.com/_next/image?url=https%3A%2F%2Fdqpcjghenxt8u.cloudfront.net%2Fpage-assets%2Fhomepage-r2%2Fm3-hero-glass-6.png&w=256&q=85
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：background-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：border-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：text-decoration-color，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：fill，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：stroke，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：all，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | load | animation | 800ms | 0ms | linear | 组件load：animation scaleX(1) -> scaleX(1)，800ms linear，load 触发 |
+| component | load | animation | 800ms | 0ms | linear | 组件load：animation，800ms linear，load 触发 |
+| component | load | animation | 2000ms | 0ms | linear | 组件load：animation，2000ms linear，load 触发 |
+| component | load | animation | 10000ms | 0ms | linear | 组件load：animation，10000ms linear，load 触发 |
+| component | load | animation | 8000ms | 0ms | linear | 组件load：animation，8000ms linear，load 触发 |
+| component | load | animation | 2000ms | 0ms | linear | 组件load：animation，2000ms linear，load 触发 |
+| component | load | animation | 3000ms | 0ms | linear | 组件load：animation，3000ms linear，load 触发 |
+| component | load | animation | 3000ms | 0ms | linear | 组件load：animation，3000ms linear，load 触发 |
+| component | focus | animation | 6000ms | 0ms | linear | 组件focus：animation，6000ms linear，focus 触发 |
+| card | state-change | opacity | 400ms | 0ms | cubic-bezier(.72,0,.12,1) | 卡片state-change：opacity，400ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| card | state-change | background-color | 100ms | 0ms | cubic-bezier(.12,1,.72,1) | 卡片state-change：background-color，100ms cubic-bezier(.12,1,.72,1)，state-change 触发 |
+| component | load | animation | 20000ms | 0ms | linear | 组件load：animation translate(0) -> translateX(var(--distance-percentage,-50%))，20000ms linear，load 触发 |
+| component | load | animation | 20000ms | 0ms | linear | 组件load：animation translate(0) -> translateX(var(--distance-percentage,-50%))，20000ms linear，load 触发 |
+| component | state-change | color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | background-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | border-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | fill | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | stroke | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | background-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | border-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | fill | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | stroke | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | background-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | border-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | fill | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | stroke | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | background-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | border-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：text-decoration-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | fill | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：fill，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | stroke | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：stroke，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | background-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：background-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | state-change | border-color | 800ms | 0ms | cubic-bezier(.72,0,.12,1) | 组件state-change：border-color，800ms cubic-bezier(.72,0,.12,1)，state-change 触发 |
+| component | load | animation | 2000ms | 0ms | linear | 组件load：animation，2000ms linear，load 触发 |
+| card | state-change | transform | 300ms | 0ms | ease-in-out | 卡片state-change：transform missing -> translate(-.5em)translateY(8%)，300ms ease-in-out，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-retool-internal-tools-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-hero-state-change-color-200-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-color-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-background-color-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: background-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-border-color-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: border-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-text-decoration-color-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: text-decoration-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-fill-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: fill; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-stroke-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle { transition-property: stroke; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-all-300-cubic-bezier-4-0-2-1
+
+```css
+.hypertuneToolbarToggle span { transition-property: all; transition-duration: .3s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-load-animation-800-linear
+
+```css
+.ActionLink-module__4rWgOW__animating:after { animation: ActionLink-module__4rWgOW__slide-out-in .8s linear forwards; }
+```
+
+### motion-component-load-animation-800-linear
+
+```css
+.ActionArrowLink-module__YdMS6a__animating { animation: ActionArrowLink-module__YdMS6a__slide-out-in .8s linear forwards; }
+```
+
+### motion-component-load-animation-2000-linear
+
+```css
+.Badge-module__6_JPlG__badgeAiGradient { animation: 2s linear infinite Badge-module__6_JPlG__gradient-shift; }
+```
+
+### motion-component-load-animation-10000-linear
+
+```css
+.Badge-module__6_JPlG__badgeAssistGradient { animation: 10s linear infinite Badge-module__6_JPlG__gradient-shift; }
+```
+
+### motion-component-load-animation-8000-linear
+
+```css
+.Badge-module__6_JPlG__badgeChromeGradient { animation: 8s linear infinite Badge-module__6_JPlG__chrome-gradient-shift; }
+```
+
+### motion-component-load-animation-2000-linear
+
+```css
+.Badge-module__6_JPlG__bgRedLightPulse { animation: 2s linear infinite alternate Badge-module__6_JPlG__red-light-pulse; }
+```
+
+### motion-component-load-animation-3000-linear
+
+```css
+.PromptAction-module__BVA7-q__textShimmer { animation: PromptAction-module__BVA7-q__shimmer-text 3s linear infinite; }
+```
+
+### motion-component-load-animation-3000-linear
+
+```css
+.PromptBox-module__bBHQva__placeholder { animation: 3s linear infinite PromptBox-module__bBHQva__shimmer-text; }
+```
+
+### motion-component-focus-animation-6000-linear
+
+```css
+.PromptBox-module__bBHQva__contentUnfocused:not(:focus) { animation: 6s linear infinite PromptBox-module__bBHQva__shimmer-text; }
+```
+
+### motion-card-state-change-opacity-400-cubic-bezier-72-0-12-1
+
+```css
+.SolutionTile-module__jV1PGW__bg { transition: opacity .4s cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-card-state-change-background-color-100-cubic-bezier-12-1-72-1
+
+```css
+.SolutionTile-module__jV1PGW__bg { transition: background-color .1s cubic-bezier(.12,1,.72,1)!important; }
+```
+
+### motion-component-load-animation-20000-linear
+
+```css
+.LogosMarquee-module__CfCiJq__marqueeForwards { animation: 20s linear infinite LogosMarquee-module__CfCiJq__marquee-forwards; }
+```
+
+### motion-component-load-animation-20000-linear
+
+```css
+.LogosMarquee-module__14b_GW__marqueeForwards { animation: 20s linear infinite LogosMarquee-module__14b_GW__marquee-forwards; }
+```
+
+### motion-component-state-change-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-fill-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper svg { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-fill-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper path { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-fill-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper rect { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-text-decoration-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: text-decoration-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-fill-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: fill; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-stroke-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper circle { transition-property: stroke; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-background-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: background-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-state-change-border-color-800-cubic-bezier-72-0-12-1
+
+```css
+.ComponentAsset-module__9t2qxa__assetWrapper ellipse { transition-property: border-color; transition-duration: .8s; transition-timing-function: cubic-bezier(.72,0,.12,1); }
+```
+
+### motion-component-load-animation-2000-linear
+
+```css
+.red-pulse { animation: 2s linear infinite alternate red-pulse; }
+```
+
+### motion-card-state-change-transform-300-ease-in-out
+
+```css
+.NavItemFeaturedCard-module__wQy9cG__titleLink .NavItemFeaturedCard-module__wQy9cG__icon { transition-property: transform; transition-duration: .3s; transition-timing-function: ease-in-out; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

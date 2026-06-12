@@ -1,42 +1,107 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: body { overflow-x: hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; letter-sp, form button:-webkit-autofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { color: #cacaca; border-color: #cacaca; } form input:disabl, } form select:-webkit-autofill { box-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { border: none; border-bottom: 1px solid black; padding-left: 0; padding-rig
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: extEncoder:()=>!b(globalThis.TextEncoder)||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"navigat, )||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"navigator.sendBeacon":()=>!b(globalThis.navigat
-  - Timing/easing: : hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; let, tofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { color: #cacaca; border-color: #cacaca; } form input:dis, x-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { border: none; border-bottom: 1px solid black; padding-left: 0; padding-, n-property: transform, -webkit-transform; transition-timing-function: ease-in; color: #f1f1f1; pointer-events: none; text-transform: uppercase; -webkit-transform: translateY(-50%); -ms-transform: translateY(, ransparent; } .site-container { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.6, 1) -webkit-transform; transition: 0.25s cubic-bezier(0, 1, 0.6, 1) transform; transition: 0.25s cubic-bezier(0, 1, 0.6, 1) transform
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: body { overflow-x: hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-fo; form button:-webkit-autofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { co; } form select:-webkit-autofill { box-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { borde; ont-size: 13px; position: absolute; top: 52%; left: 18px; z-index: 1; transition-duration: 75ms; transition-property: -webkit-transform; transition-property: transform; transition-; bsolute; top: 52%; left: 18px; z-index: 1; transition-duration: 75ms; transition-property: -webkit-transform; transition-property: transform; transition-property: transform, -webki
-  - Public CSS/JS probe keywords: easing, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: body { overflow-x: hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-fo; form button:-webkit-autofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { co; } form select:-webkit-autofill { box-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { borde; ont-size: 13px; position: absolute; top: 52%; left: 18px; z-index: 1; transition-duration: 75ms; transition-property: -webkit-transform; transition-property: transform; transition-; bsolute; top: 52%; left: 18px; z-index: 1; transition-duration: 75ms; transition-property: -webkit-transform; transition-property: transform; transition-property: transform, -webki; : hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: gra; tofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { color: #cacaca; border-c; x-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { border: none; border-bottom: 1px solid b; n-property: transform, -webkit-transform; transition-timing-function: ease-in; color: #f1f1f1; pointer-events: none; text-transform: uppercase; -webkit-transform: translateY(-50%);; ransparent; } .site-container { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.6, 1) -webkit-transform; transition: 0.25s cubic-bezier(0, 1, 0.6, 1) transform; transiti
-  - Exact motion parameters: body { overflow-x: hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-fo; form button:-webkit-autofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { co; } form select:-webkit-autofill { box-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { borde; : hidden; width: 100%; } body { position: relative; transition: 0.25s cubic-bezier(0, 1, 0.25, 1) right; right: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: gra; tofill { background-color: black; color: white; transition: all 5000s ease-in-out 0s; } form input:disabled, form textarea:disabled, form button:disabled { color: #cacaca; border-c; x-shadow: 0 0 0 1000px #0FF inset; transition: background-color 5000s ease-in-out 0s; } form input[type="text"], form input[type="email"] { border: none; border-bottom: 1px solid b; p: 24px; position: relative; } form label.special-label .label { text-transform: none; position: absolute; top: 19px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; -timing-function: ease-in; color: #f1f1f1; pointer-events: none; text-transform: uppercase; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: transla; or: #f1f1f1; pointer-events: none; text-transform: uppercase; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); -webkit-transform:
-  - JavaScript/runtime motion evidence: extEncoder:()=>!b(globalThis.TextEncoder)||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEven; )||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"naviga
-  - Stylesheet evidence: https://use.typekit.net/ewm3ygz.css; https://a24films.com/assets/css/app.css?v=21b06488e96b516fd025711fa95aecaf52a82253; https://event.a24films.com/v3/modern/rsa.min.js; https://a24films.com/assets/js/app.js?v=21b06488e96b516fd025711fa95aecaf52a82253; https://www.google.com/jsapi; https://consent.a24films.com/v1.0/a24-consent.js; https://www.google.com/jsapi; https://cdn.cookielaw.org/scripttemplates/otSDKStub.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://use.typekit.net/ewm3ygz.css; https://a24films.com/assets/css/app.css?v=21b06488e96b516fd025711fa95aecaf52a82253; https://event.a24films.com/v3/modern/rsa.min.js; https://a24films.com/assets/js/app.js?v=21b06488e96b516fd025711fa95aecaf52a82253; https://www.google.com/jsapi; https://consent.a24films.com/v1.0/a24-consent.js; https://www.google.com/jsapi; https://cdn.cookielaw.org/scripttemplates/otSDKStub.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-a24-culture-studio-component-styles.json`
-  - Asset CDN and media loading patterns: https://atwenty-four.transforms.svdcdn.com/production/images/Backrooms_Trailer_Textless_16x9.jpg?w=2244&auto=compress%2Cformat&fit=crop&dm=1774975581&s=929703ad885c236a1b52984ace33; https://atwenty-four.transforms.svdcdn.com/production/images/Backrooms_Trailer_Textless_16x9_2026-03-31-164641_gyue.jpg?w=1008&auto=compress%2Cformat&fit=crop&dm=1774975611&s=4d813; https://atwenty-four.transforms.svdcdn.com/production/images/DORH_Textless_Trailer_Thubmnail_2026-01-06-195918_sxot.jpg?w=961&auto=compress%2Cformat&fit=crop&dm=1767729558&s=2c0c97; https://atwenty-four.transforms.svdcdn.com/production/images/TheInvite_16x9_Trailer_Thubmnail-1_2026-04-07-130950_lyfb.png?w=900&auto=compress%2Cformat&fit=crop&dm=1775567410&s=3b8; https://atwenty-four.transforms.svdcdn.com/production/images/Tony-16x9_2026-05-04-204857_kveo.png?w=2160&auto=compress%2Cformat&fit=crop&dm=1777927764&s=49edbb478ea05bd81d76d186226; https://atwenty-four.transforms.svdcdn.com/production/images/Onslaught-16x9-Trailer_2026-06-01-230127_gcqs.png?w=2160&auto=compress%2Cformat&fit=crop&dm=1780354945&s=f07d27f119fd84; https://atwenty-four.transforms.svdcdn.com/production/images/Primetime-Teaser-16x9_2026-05-27-133450_nmpy.png?w=1728&auto=compress%2Cformat&fit=crop&dm=1779888908&s=85a587b5afd15c0; https://cdn.shopify.com/s/files/1/0023/3789/8540/files/Backrooms_Tee_Gray.jpg?v=1776447748
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: easing, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 24 and scripts 6; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | state-change | backgroundColor | 150ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，150ms linear，state-change 触发；样本 ds-navigation-0 |
+| navigation | state-change | color | 100ms | 0ms | linear | 导航state-change：color rgb(0, 0, 0) -> missing，100ms linear，state-change 触发；样本 ds-navigation-1 |
+| button | state-change | opacity | 150ms | 0ms | linear | 按钮state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-button-1 |
+| button | state-change | opacity | 100ms | 0ms | ease-out | 按钮state-change：opacity 0 -> missing，100ms ease-out，state-change 触发；样本 ds-button-2 |
+| button | state-change | transform | 200ms | 0ms | ease-in-out | 按钮state-change：transform none -> missing，200ms ease-in-out，state-change 触发；样本 ds-button-4 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 Backrooms 2026 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 The Death of Robin Hood 2026 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 The Invite 2026 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 Tony 2026 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 Onslaught 2026 |
+| card | state-change | opacity | 200ms | 0ms | ease-in-out | 卡片state-change：opacity 1 -> missing，200ms ease-in-out，state-change 触发；样本 Primetime 2026 |
+| form | state-change | transform | 75ms | 0ms | ease-in | 表单state-change：transform matrix(0.7, 0, 0, 0.7, 0, -26.95) -> missing，75ms ease-in，state-change 触发；样本 EMAIL |
+| form | state-change | transform | 75ms | 0ms | ease-in | 表单state-change：transform matrix(0.7, 0, 0, 0.7, 0, -23.8) -> missing，75ms ease-in，state-change 触发；样本 EMAIL |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-state-change-backgroundcolor-150-linear
+
+```css
+{"transition": "background-color 0.15s linear, transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out"}
+```
+
+### motion-navigation-state-change-color-100-linear
+
+```css
+{"transition": "color 0.1s linear"}
+```
+
+### motion-button-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-button-state-change-opacity-100-ease-out
+
+```css
+{"transition": "opacity 0.1s ease-out 0.35s"}
+```
+
+### motion-button-state-change-transform-200-ease-in-out
+
+```css
+{"transition": "width 0.25s cubic-bezier(0, 1, 0.25, 1), transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-card-state-change-opacity-200-ease-in-out
+
+```css
+{"transition": "opacity 0.2s ease-in-out"}
+```
+
+### motion-form-state-change-transform-75-ease-in
+
+```css
+{"transition": "transform 0.075s ease-in, -webkit-transform 0.075s ease-in"}
+```
+
+### motion-form-state-change-transform-75-ease-in
+
+```css
+{"transition": "transform 0.075s ease-in, -webkit-transform 0.075s ease-in"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

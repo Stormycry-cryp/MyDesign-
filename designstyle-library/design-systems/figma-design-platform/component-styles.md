@@ -11,6 +11,7 @@
 - a Contact sales | rect=153.7x49.2@1019.3,16 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); borderRadius=8px; boxShadow=rgb(0, 0, 0) 0px 0px 0px 1px inset; fontFamily=figmaSans, "figmaSans Fallback", "SF Pro Display", system-ui, helvetica, sans-serif; fontSize=18px; fontWeight=330; letterSpacing=-0.14px; lineHeight=25.2px; padding=12px 21px; transition=border-radius 0.16s ease-out; transitionDuration=0.16s
 - a Get started for free | rect=199x49.2@1181,16 | display=block; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(0, 0, 0); border=0px none rgb(255, 255, 255); borderRadius=8px; fontFamily=figmaSans, "figmaSans Fallback", "SF Pro Display", system-ui, helvetica, sans-serif; fontSize=16px; fontWeight=330; letterSpacing=-0.14px; lineHeight=22.4px; padding=12px 21px; transition=border-radius 0.16s ease-out; transitionDuration=0.16s
 - navigation count 4, image count 40, document height 9460.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -56,8 +57,8 @@
 - article Make my cursor reveal an image | rect=336x448@946,151 | display=block; position=relative; color=rgb(0, 0, 0); backgroundColor=rgba(0, 0, 0, 0.16); border=0px none rgb(0, 0, 0); fontFamily=figmaSans, "figmaSans Fallback", "SF Pro Display", system-ui, helvetica, sans-serif; fontSize=16px; fontWeight=400; lineHeight=23.2px; transition=background 2s ease-in-out; transitionDuration=2s; transitionTimingFunction=ease-in-out; opacity=1; cursor=grab
 - article Make an infinite canvas gallery | rect=294x392@1303,179 | display=block; position=relative; color=rgb(0, 0, 0); backgroundColor=rgba(0, 0, 0, 0.16); border=0px none rgb(0, 0, 0); fontFamily=figmaSans, "figmaSans Fallback", "SF Pro Display", system-ui, helvetica, sans-serif; fontSize=16px; fontWeight=400; lineHeight=23.2px; transition=background 2s ease-in-out; transitionDuration=2s; transitionTimingFunction=ease-in-out; opacity=1; cursor=grab
 - article Make this design move with a parallax effect | rect=294x392@1723,179 | display=block; position=relative; color=rgb(0, 0, 0); backgroundColor=rgba(0, 0, 0, 0.16); border=0px none rgb(0, 0, 0); fontFamily=figmaSans, "figmaSans Fallback", "SF Pro Display", system-ui, helvetica, sans-serif; fontSize=16px; fontWeight=400; lineHeight=23.2px; transition=background 2s ease-in-out; transitionDuration=2s; transitionTimingFunction=ease-in-out; opacity=1; cursor=grab
-- 8px; 8px; 18px; 16px; 8px; 50%; 50%; 50%; 50px; 50px; 50px; 50px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 8px; 8px; 18px; 16px; 8px; 50%; 50%; 50%; 50px; 50px; 50px; 50px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Pricing

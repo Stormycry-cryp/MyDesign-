@@ -17,12 +17,16 @@
     "public css js",
     "component evidence"
   ],
-  "component_json_path": "assets/2026-06-05-pagani-official-component-styles.json",
+  "component_json_path": "assets/2026-06-12-pagani-official-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/pagani-official/component-styles.md",
     "moodboard": "design-systems/pagani-official/moodboard.svg",
+    "motion": "design-systems/pagani-official/motion.json",
+    "motion_presets": "design-systems/pagani-official/motion-presets.css",
     "palette": "design-systems/pagani-official/palette.md",
-    "tokens": "design-systems/pagani-official/tokens.json"
+    "tailwind_theme": "design-systems/pagani-official/tailwind.theme.json",
+    "tokens": "design-systems/pagani-official/tokens.json",
+    "variables_css": "design-systems/pagani-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/pagani-official/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/pagani-official/scene.md",
     "type_copy": "dimensions/pagani-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 0x0; 18x18; 18x18; 1440x810; 950x350; 1440x810; 178x63; 1440x810; 1440x810; 1440x810.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 18:18; 18:18; 1440:810; 950:350; 1440:810; 178:63; 1440:810; 1440:810; 1440:810; 1440:810",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "component load motion uses 1000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms steps(8)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 400ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 2000ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 1000ms cubic-bezier(.4,0,.2,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 1350ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

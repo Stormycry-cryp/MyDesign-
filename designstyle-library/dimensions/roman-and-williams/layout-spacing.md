@@ -26,7 +26,6 @@
   - CSS/layout primitives: horizontal header rail, wide media hero, lower-left text anchoring, generous negative space
   - Token ideas: warm cream background, dark charcoal text, restrained serif/sans pairing, muted heritage-photo palette
   - Libraries or techniques: no direct code evidence
-  - Performance/accessibility concerns: cookie and commerce overlays can easily pollute the first viewport; strong QA is required if reused
 
 ## Inference
 - Borrow:

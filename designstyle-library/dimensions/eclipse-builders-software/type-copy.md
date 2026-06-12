@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 ECLIPSE IS SOLANA ON ETHEREUM Ethereum’s First SVM L2; H2 SOLANA’S SPEED; ETHEREUM’S LIQUIDITY; PUSH ONCHAIN WITH ECLIPSE; BACKED BY GREAT INVESTORS & ANGELS; START YOUR ECLIPSE JOURNEY TODAY; navigation CAREERS; ECOSYSTEM; START BUILDING; BRIDGE TO ECLIPSE; BUILD ON ECLIPSE
+  - Sentence rhythm: 102 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Eclipse; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.eclipse.xyz/
   - Page title: Eclipse
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

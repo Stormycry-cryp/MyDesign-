@@ -1,0 +1,55 @@
+.ds-motion-motion-navigation-state-change-backgroundcolor-150-linear {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-easing);
+}
+
+.ds-motion-motion-navigation-state-change-color-100-linear {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-color-100-linear-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-color-100-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-color-100-linear-easing);
+}
+
+.ds-motion-motion-button-state-change-opacity-150-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-state-change-opacity-150-linear-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-opacity-150-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-opacity-150-linear-easing);
+}
+
+.ds-motion-motion-button-state-change-opacity-100-ease-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-state-change-opacity-100-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-opacity-100-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-opacity-100-ease-out-easing);
+}
+
+.ds-motion-motion-button-state-change-transform-200-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-button-state-change-transform-200-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-transform-200-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-transform-200-ease-in-out-easing);
+}
+
+.ds-motion-motion-card-state-change-opacity-200-ease-in-out {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-card-state-change-opacity-200-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-opacity-200-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-opacity-200-ease-in-out-easing);
+}
+
+.ds-motion-motion-form-state-change-transform-75-ease-in {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-form-state-change-transform-75-ease-in-duration);
+  transition-delay: var(--ds-motion-motion-form-state-change-transform-75-ease-in-delay);
+  transition-timing-function: var(--ds-motion-motion-form-state-change-transform-75-ease-in-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

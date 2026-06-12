@@ -1,42 +1,268 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:1.7em;width:1.7em;left, rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{background-color:var(--hs-b, s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14px);color:var(--hs-banner-modal-category-tex
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: extEncoder:()=>!b(globalThis.TextEncoder)||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"navigat, )||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"navigator.sendBeacon":()=>!b(globalThis.navigat
-  - Timing/easing: ff-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:, er-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;height:1.7em;width:1.7em;left, ground:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{background-color:var(--hs-b
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; )}#hs-modal-content #hs-categories-container .hs-category-description{transition:max-height .2s;box-sizing:border-box;overflow:hidden;opacity:0}#hs-modal-content #hs-categories-con; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translateY(200vh);-webkit-transform:translat; er-parent #hs-eu-cookie-confirmation.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-eu-cookie-confirmation #hs-eu-cookie-confirmation-inner{display:fl
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; )}#hs-modal-content #hs-categories-container .hs-category-description{transition:max-height .2s;box-sizing:border-box;overflow:hidden;opacity:0}#hs-modal-content #hs-categories-con; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translateY(200vh);-webkit-transform:translat; er-parent #hs-eu-cookie-confirmation.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-eu-cookie-confirmation #hs-eu-cookie-confirmation-inner{display:fl; m:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translateY(200vh);-webkit-transform:translateY(200vh) translateZ(3000; ff-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{p
-  - Exact motion parameters: d var(--hs-banner-modal-toggle-off-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-cate; rgba(0,0,0,.3);background:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggl; s-modal-content #hs-categories-container .description-accordion-arrow{transition:transform .2s;width:var(--hs-banner-modal-font-size,14px);height:var(--hs-banner-modal-font-size,14; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_an; y:0}#hs-banner-parent #hs-banner-gpc.hs-banner-optimization-animation{animation:banner_animation .5s forwards}#hs-banner-gpc #hs-banner-gpc-inner{display:flex;gap:1em;flex-directio; Y(200vh);-webkit-transform:translateY(200vh) translateZ(3000000000px);animation:none;opacity:0}@keyframes banner_animation{0%{transform:translateY(200vh);-webkit-transform:translat; ff-color,#f1f1f1);border-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{p; er-radius:1.7em;transition:background-color .2s ease,border-color .2s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch-nob{position:absolute;heigh; ground:var(--hs-banner-modal-cateogry-color,#fff);transition:left .5s ease}#hs-modal-content #hs-categories-container .hs-category-row .hs-toggle-switch.hs-toggle-selected-flag{bac; his.session=e||o);this.session.isNew()&&!n?this.utk.isNew()||this.utk.rotate(this.session.start):n||this.session.increment();this.context.getWindow().__hsUserToken||(this.context.g
-  - JavaScript/runtime motion evidence: extEncoder:()=>!b(globalThis.TextEncoder)||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEven; )||!b(globalThis.TextDecoder),requestAnimationFrame:()=>!b(globalThis.requestAnimationFrame)||!b(globalThis.cancelAnimationFrame),CustomEvent:()=>!b(globalThis.CustomEvent),"naviga; t(e);var t=e.__c;t&&t.__H&&t.__H.__h.length&&(1!==Qe.push(t)&&Je===_e.requestAnimationFrame||((Je=_e.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),ht&&canc; H.__h.length&&(1!==Qe.push(t)&&Je===_e.requestAnimationFrame||((Je=_e.requestAnimationFrame)||function(e){var t,n=function(){clearTimeout(o),ht&&cancelAnimationFrame(t),setTimeout(; ht&&cancelAnimationFrame(t),setTimeout(e)},o=setTimeout(n,100);ht&&(t=requestAnimationFrame(n))})(lt)),qe=null},_e.__c=function(e,t){t.some((function(e){try{e.__h.forEach(dt),e.__h
-  - Stylesheet evidence: https://hex.tech/styles/brand-refresh-fonts.css; https://hex.tech/styles/fonts-editorial.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700|IBM+Plex+Mono:400,500,700|IBM+Plex+Serif:300,400,500,600,700&display=swap; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://cdn.rudderlabs.com/v3/modern/rsa.min.js; https://js-na2.hs-analytics.net/analytics/1780557600000/243040889.js; https://js-na2.hsadspixel.net/pixels.js
-  - Interpreted motion tags: restrained, scroll-reveal
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame
-  - Public stylesheet/script URLs: https://hex.tech/styles/brand-refresh-fonts.css; https://hex.tech/styles/fonts-editorial.css; https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap; https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700|IBM+Plex+Mono:400,500,700|IBM+Plex+Serif:300,400,500,600,700&display=swap; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://cdn.rudderlabs.com/v3/modern/rsa.min.js; https://js-na2.hs-analytics.net/analytics/1780557600000/243040889.js; https://js-na2.hsadspixel.net/pixels.js; https://js-na2.hs-banner.com/v2/243040889/banner.js; https://cdn.claydar.com/releases/latest/radar.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-hex-data-workspace-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.sanity.io/images/e92memrj/production/7bb676f30dbd80023b0c7af23e60ff630b4cdc4d-115x50.svg; https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg; https://cdn.sanity.io/images/e92memrj/production/6f211c674b14be69b85497264b1d654b138dce01-39x50.svg; https://cdn.sanity.io/images/e92memrj/production/5783f604cc851deebb39d819edab6e8a82efba14-120x50.svg; https://cdn.sanity.io/images/e92memrj/production/41a6cd8e000ffa2cf99de391f0104b2cbdd9072e-132x50.svg; https://cdn.sanity.io/images/e92memrj/production/d063f2a64adcd7869bc2fc81dbc971825be8b951-137x50.svg; https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg; https://cdn.sanity.io/images/e92memrj/production/892932e7f3dc3c66d3ae4a16e8bc51e37b7f59f4-120x50.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 34 and scripts 13; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| navigation | state-change | backgroundColor | 100ms | 0ms | linear | 导航state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📖 State of Data Teams 2026 discover key insights from data leaders |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech" |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 📊 AI analytics use case: how Mercor unlocked $100M in revenue |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🪩 Come hang at Club Hex: June 16-17 at Databricks Data + AI Summit |
+| card | state-change | backgroundColor | 100ms | 0ms | linear | 卡片state-change：backgroundColor rgba(0, 0, 0, 0) -> missing，100ms linear，state-change 触发；样本 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build  |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-hex-data-workspace-motion.json
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-navigation-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
+
+### motion-card-state-change-backgroundcolor-100-linear
+
+```css
+{"transition": "background-color 0.1s linear"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -1,0 +1,140 @@
+.ds-motion-motion-hero-load-animation-30000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-hero-load-animation-30000-linear-duration);
+  transition-delay: var(--ds-motion-motion-hero-load-animation-30000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-hero-load-animation-30000-linear-easing);
+}
+
+.ds-motion-motion-card-load-animation-10000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-10000-linear-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-10000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-10000-linear-easing);
+  transform: .99;
+}
+
+.ds-motion-motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out {
+  transition-property: --pricing-cards-grid-line-position-start;
+  transition-duration: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out-easing);
+}
+
+.ds-motion-motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out {
+  transition-property: --pricing-cards-grid-line-position-end;
+  transition-duration: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out-easing);
+}
+
+.ds-motion-motion-card-load-animation-1500-ease-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-1500-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-1500-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-1500-ease-out-easing);
+}
+
+.ds-motion-motion-card-load-animation-0-ease-in-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-0-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-0-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-0-ease-in-out-easing);
+}
+
+.ds-motion-motion-card-load-animation-0-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-0-linear-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-0-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-0-linear-easing);
+}
+
+.ds-motion-motion-component-state-change-background-size-400-cubic-bezier-65-0-35-1 {
+  transition-property: background-size;
+  transition-duration: var(--ds-motion-motion-component-state-change-background-size-400-cubic-bezier-65-0-35-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-background-size-400-cubic-bezier-65-0-35-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-background-size-400-cubic-bezier-65-0-35-1-easing);
+}
+
+.ds-motion-motion-hero-viewport-animation-4000-ease-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-hero-viewport-animation-4000-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-hero-viewport-animation-4000-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-hero-viewport-animation-4000-ease-out-easing);
+}
+
+.ds-motion-motion-overlay-viewport-animation-200-cubic-bezier-45-05-55-95 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-overlay-viewport-animation-200-cubic-bezier-45-05-55-95-duration);
+  transition-delay: var(--ds-motion-motion-overlay-viewport-animation-200-cubic-bezier-45-05-55-95-delay);
+  transition-timing-function: var(--ds-motion-motion-overlay-viewport-animation-200-cubic-bezier-45-05-55-95-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-300-cubic-bezier-65-0-35-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-300-cubic-bezier-65-0-35-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-300-cubic-bezier-65-0-35-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-300-cubic-bezier-65-0-35-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-800-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-800-linear-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-800-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-800-linear-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1000-ease-in-out {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1000-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1000-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1000-ease-in-out-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1000-linear-easing);
+}
+
+.ds-motion-motion-card-load-animation-500-cubic-bezier-33-1-68-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-500-cubic-bezier-33-1-68-1-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-500-cubic-bezier-33-1-68-1-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-500-cubic-bezier-33-1-68-1-easing);
+}
+
+.ds-motion-motion-card-load-animation-1500-cubic-bezier-33-1-68-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-card-load-animation-1500-cubic-bezier-33-1-68-1-duration);
+  transition-delay: var(--ds-motion-motion-card-load-animation-1500-cubic-bezier-33-1-68-1-delay);
+  transition-timing-function: var(--ds-motion-motion-card-load-animation-1500-cubic-bezier-33-1-68-1-easing);
+}
+
+.ds-motion-motion-component-load-animation-4000-cubic-bezier-33-1-68-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-4000-cubic-bezier-33-1-68-1-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-4000-cubic-bezier-33-1-68-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-4000-cubic-bezier-33-1-68-1-easing);
+}
+
+.ds-motion-motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1 {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

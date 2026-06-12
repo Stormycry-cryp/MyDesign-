@@ -1,0 +1,21 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-foreground: #000000;
+  --ds-color-neutral-surface: #e0e0e0;
+  --ds-color-deep-accent: #302010;
+  --ds-color-supporting-color: #90a0b0;
+  --ds-color-deep-accent-2: #605020;
+  --ds-color-supporting-color-2: #c0b0a0;
+  --ds-color-neutral-surface-2: #c0c0c0;
+  --ds-color-supporting-color-3: #807060;
+  --ds-color-deep-accent-3: #403030;
+  --ds-spacing-component: 0px 19.5px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-component-state-change-color-400-ease-in-out-duration: 400ms;
+  --ds-motion-motion-component-state-change-color-400-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-color-400-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-opacity-400-ease-in-out-duration: 400ms;
+  --ds-motion-motion-component-state-change-opacity-400-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-opacity-400-ease-in-out-easing: ease-in-out;
+}

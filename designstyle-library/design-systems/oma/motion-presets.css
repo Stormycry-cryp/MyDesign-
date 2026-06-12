@@ -1,0 +1,50 @@
+.ds-motion-motion-button-load-animation-2000-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-button-load-animation-2000-linear-duration);
+  transition-delay: var(--ds-motion-motion-button-load-animation-2000-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-button-load-animation-2000-linear-easing);
+  transform: rotate(1turn);
+}
+
+.ds-motion-motion-card-state-change-opacity-200-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-card-state-change-opacity-200-linear-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-opacity-200-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-opacity-200-linear-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-200-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-200-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-200-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-200-linear-easing);
+}
+
+.ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-duration);
+  transition-delay: var(--ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-delay);
+  transition-timing-function: var(--ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-easing);
+}
+
+.ds-motion-motion-card-state-change-all-50-linear {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-card-state-change-all-50-linear-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-all-50-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-all-50-linear-easing);
+  transform: translateY(0.1rem);
+}
+
+.ds-motion-motion-component-load-animation-1300-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-1300-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-1300-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-1300-linear-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

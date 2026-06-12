@@ -30,6 +30,15 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 1700x884; 1897x1920; 1920x1080; 1200x675; 1920x1080; 1920x1080; 1200x675; 1200x675; 1920x1080; 1200x675.; source: Layout Geometry And Spacing
+- Observed border radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}; source: Dimension And Ratio System
+- Observed media ratios: 1700:884; 1897:1920; 1920:1080; 1200:675; 1920:1080; 1920:1080; 1200:675; 1200:675; 1920:1080; 1200:675; source: Dimension And Ratio System
+- button hover motion uses 150ms ease; source: motion.json
+- button focus motion uses 150ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://pitch.com/
 - Page title: The AI presentation workspace
@@ -60,6 +69,12 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Create slides that win.; H2 From prompt to presentation, 4M+ teams create and deliver winning slides together in Pitch.; Pitch is your presentation workspace; THE PAYOFF; From first draft to closed deal, and beyond; A complete presentation toolkit; Weave Pitch into your existing workflow; navigation Product; Use Cases; Templates; Resources; Pricing; Log in; Sign up
+- Sentence rhythm: 100 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title The AI presentation workspace; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(255, 255, 255); A:rgb(12, 2, 28):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgb(255, 255, 255); P:rgb(12, 2, 28):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +86,12 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - Media/card aspect stability: image natural sizes include 1700x884; 1897x1920; 1920x1080; 1200x675; 1920x1080; 1920x1080; 1200x675; 1200x675; 1920x1080; 1200x675.
 - Observed border radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Prompts; Generate; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15001}
 - Observed media ratios: 1700:884; 1897:1920; 1920:1080; 1200:675; 1920:1080; 1920:1080; 1200:675; 1200:675; 1920:1080; 1200:675
@@ -94,18 +115,16 @@ Pitch Presentation Workspace is captured as a productivity, presentation, saas r
 - Asset CDN and media loading patterns: https://framerusercontent.com/images/OScGSLf3Du6gXnXNfzapfSunTI.png?scale-down-to=2048&width=2518&height=1309; https://framerusercontent.com/images/byi3NUA4aO2AMUMt8xX384GjISc.png?scale-down-to=2048&width=4642&height=4699; https://framerusercontent.com/images/PAwhOoEIgyOBkqpzvrtK09Pp5s.png?width=1920&height=1080; https://framerusercontent.com/images/AX127cQCRdbgqRHHV4TWYYeLs.png?width=1200&height=675; https://framerusercontent.com/images/d1Gzw1JLuvaoE3asa9TK73NTmg.png?width=1920&height=1080; https://framerusercontent.com/images/pnc2tUjPJHuHuW6ymMJlDhsyDfo.png?width=1920&height=1080; https://framerusercontent.com/images/CpFPsjnF5znMMwnTMeweiI3Ups.png?width=1200&height=675; https://framerusercontent.com/images/LwmgbB7CnX7Fz2qa0Ov01zYdxg.png?width=1200&height=675
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:", q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:"setHandler",value:functi
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Timing/easing: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1, t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n1Branch+Metrics+API\n1Brea
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: none observed
 - Public CSS/JS probe keywords: easing, request_animation_frame
-- Public CSS/JS motion snippets: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n; tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: e\n1Barix Streaming Client\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa; t\n1Barix+Streaming+Client\n1Beachfront Spot Linear\n1Beachfront+Spot+Linear\n1BenQ\n1BlackBerry\n1Bleach\/\n0Blitzlicht\/com\n1Boggle\n1Bose\/\n1Bose_Lisa\/\n1Branch Metrics API\n
-- JavaScript/runtime motion evidence: tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://connect.facebook.net/signals/config/157969442638930?v=2.9.331&r=stable&domain=pitch.com&hme=e74ef087f6fde11ad272cfacc345e71ff5f13bae4406879254c760ecb88febfc&ex_m=105%2C208%; https://connect.facebook.net/en_US/fbevents.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://static.ads-twitter.com/uwt.js; https://widget.intercom.io/widget/alrusdv4; https://www.google-analytics.com/analytics.js; https://www.googletagmanager.com/gtag/js?id=G-GTW22Q6PSF&cx=c&gtm=4e6621
 - Interpreted motion tags: animated-product-preview, restrained
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.

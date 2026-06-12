@@ -12,7 +12,7 @@
 - a Pinot Noir 2023 | rect=71.2x36.7@1008,-622.7 | display=inline; position=static; color=rgb(109, 110, 113); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(109, 110, 113); fontFamily=untitled, sans-serif; fontSize=14.4px; fontWeight=300; letterSpacing=0.4032px; lineHeight=18.72px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Pinot Meunier 2025 | rect=99.1x36.7@1008,-570.8 | display=inline; position=static; color=rgb(109, 110, 113); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(109, 110, 113); fontFamily=untitled, sans-serif; fontSize=14.4px; fontWeight=300; letterSpacing=0.4032px; lineHeight=18.72px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 15, image count 24, document height 1000.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Ossa Wines Tasmania
@@ -56,8 +56,8 @@
 - div Our Founders | rect=148.7x143.9@222.1,-369.9 | display=block; position=relative; color=rgb(0, 0, 0); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(0, 0, 0); fontFamily=untitled, sans-serif; fontSize=25.92px; fontWeight=300; letterSpacing=0.4032px; lineHeight=31.104px; padding=81.648px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - div Our Founders | rect=148.7x143.9@222.1,-226.1 | display=block; position=relative; color=rgb(0, 0, 0); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(0, 0, 0); fontFamily=untitled, sans-serif; fontSize=25.92px; fontWeight=300; letterSpacing=0.4032px; lineHeight=31.104px; padding=81.648px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - li Our Winemaker Our Winemaker | rect=174.6x576@370.8,-576 | display=list-item; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0); border=0px none rgb(255, 255, 255); fontFamily=untitled, sans-serif; fontSize=25.92px; fontWeight=300; letterSpacing=0.4032px; lineHeight=31.104px; padding=287.712px 0px 77.76px 25.92px; transition=0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.26s; transitionDuration=0.75s; transitionTimingFunction=cubic-bezier(0.22, 1, 0.36, 1)
-- 3px; 3px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 3px; 3px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Wine Collection Wine Collection Wine Collection Wine Collection

@@ -13,7 +13,6 @@
 | `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0015 |
 | `#202020` | foreground | screenshot pixel sample | 0.0013 |
 | `#606060` | foreground | screenshot pixel sample | 0.0008 |
-| `#302f2c` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - modern

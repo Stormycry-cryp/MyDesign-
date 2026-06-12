@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-patrick-mason-studio-portfolio-component-styles.json",
+  "component_json_path": "assets/2026-06-12-patrick-mason-studio-portfolio-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/patrick-mason-studio-portfolio/component-styles.md",
     "moodboard": "design-systems/patrick-mason-studio-portfolio/moodboard.svg",
+    "motion": "design-systems/patrick-mason-studio-portfolio/motion.json",
+    "motion_presets": "design-systems/patrick-mason-studio-portfolio/motion-presets.css",
     "palette": "design-systems/patrick-mason-studio-portfolio/palette.md",
-    "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json"
+    "tailwind_theme": "design-systems/patrick-mason-studio-portfolio/tailwind.theme.json",
+    "tokens": "design-systems/patrick-mason-studio-portfolio/tokens.json",
+    "variables_css": "design-systems/patrick-mason-studio-portfolio/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/patrick-mason-studio-portfolio/assets.md",
@@ -35,6 +39,44 @@
     "scene": "dimensions/patrick-mason-studio-portfolio/scene.md",
     "type_copy": "dimensions/patrick-mason-studio-portfolio/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 512x512; 512x512; 128x128; 128x128; 96x96; 96x96; 428x426; 428x426; 256x256; 256x256.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 25px; 50%; 25px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 512:512; 512:512; 128:128; 128:128; 96:96; 96:96; 428:426; 428:426; 256:256; 256:256",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 25px; 50%; 25px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; 9999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 200ms cubic-bezier(0.87, 0, 0.13, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 200ms cubic-bezier(0.87, 0, 0.13, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -43,7 +85,7 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "strong",
+    "motion_code": "medium",
     "screenshot": "strong",
     "type_copy": "strong"
   },

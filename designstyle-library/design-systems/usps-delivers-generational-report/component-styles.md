@@ -12,7 +12,7 @@
 - a Millennial | rect=360x48@1634.4,300 | display=block; position=static; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily="Neue Helvetica", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=40px; fontWeight=400; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Gen Z | rect=360x48@1634.4,348 | display=block; position=static; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily="Neue Helvetica", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=40px; fontWeight=400; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 8, image count 40, document height 1100.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Menu Home Boomer Gen X Millennial Gen Z About Summary Download as PDF
@@ -50,8 +50,9 @@
 - li Gen Z | rect=360x48@1634.4,348 | display=list-item; position=static; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily="Neue Helvetica", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=40px; fontWeight=400; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li About | rect=360x48@1634.4,396 | display=list-item; position=static; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily="Neue Helvetica", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=40px; fontWeight=400; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Summary | rect=360x48@1634.4,444 | display=list-item; position=static; color=rgb(32, 32, 32); border=0px none rgb(32, 32, 32); fontFamily="Neue Helvetica", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=40px; fontWeight=400; lineHeight=48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 5px; 5px; 5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 5px; 5px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- 5px; 5px; 5px; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Home

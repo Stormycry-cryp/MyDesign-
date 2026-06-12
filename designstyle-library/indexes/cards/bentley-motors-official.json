@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/bentley-motors-official/component-styles.md",
     "moodboard": "design-systems/bentley-motors-official/moodboard.svg",
+    "motion": "design-systems/bentley-motors-official/motion.json",
+    "motion_presets": "design-systems/bentley-motors-official/motion-presets.css",
     "palette": "design-systems/bentley-motors-official/palette.md",
-    "tokens": "design-systems/bentley-motors-official/tokens.json"
+    "tailwind_theme": "design-systems/bentley-motors-official/tailwind.theme.json",
+    "tokens": "design-systems/bentley-motors-official/tokens.json",
+    "variables_css": "design-systems/bentley-motors-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/bentley-motors-official/assets.md",
@@ -33,6 +37,40 @@
     "scene": "dimensions/bentley-motors-official/scene.md",
     "type_copy": "dimensions/bentley-motors-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6028}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1000x500; 1000x500; 1343x671; 50x25; 1343x671; 50x25; 1343x671; 50x25; 1343x671; 50x25.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 6028}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1000:500; 1000:500; 1343:671; 50:25; 1343:671; 50:25; 1343:671; 50:25; 1343:671; 50:25",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "card state-change motion uses 1000ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 300ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "form state-change motion uses 100ms ease-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

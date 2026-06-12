@@ -1,42 +1,191 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: tyle:balance}.navigation-hover-arrow path,.navigation-hover-arrow svg{transition:none}.navigation-hover-arrow path{opacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms lin, pacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode, ion-name:nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;transform:translateX(0)}}@keyframes nav-hover
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: avigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-, nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([disabled]):where(:hover)>.navigation-hover-arrow svg{animation-name:nav-h, :1px;width:100%;top:calc(100% + var(--hds-space-core-150));background:linear-gradient(90deg,var(--gradient-color) 0,var(--gradient-color) 20%,var(--stop-color) 40%,var(--suite-color) 60%,var(--suite-color), ;background-repeat:no-repeat,no-repeat;transition:background-size .3s ease-out}.navigation__content--products section:hover .suite-title:after{background-position:var(--mouse-out-dir,left),0;background-size:1, vigation-height:76px;--navigation-border-radius:0;--navigation-easing:cubic-bezier(0.45,0.05,0.55,0.95);--navigation-duration:240ms;--navigation-duration-slow:300ms;--navigation-hamburger-duration:0.25s;--navigation-padding-outer:var
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: tyle:balance}.navigation-hover-arrow path,.navigation-hover-arrow svg{transition:none}.navigation-hover-arrow path{opacity:1;transform:none}.navigation-hover-arrow svg{visibility:h; pacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timi; ion-name:nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;trans; ion:var(--mouse-in-dir,right),0;background-repeat:no-repeat,no-repeat;transition:background-size .3s ease-out}.navigation__content--products section:hover .suite-title:after{backgr; navigation-item--desktop-only{display:none}.navigation-menu-home-link{transition:opacity var(--navigation-duration) var(--navigation-easing)}.navigation-menu-home-link path{transit; over-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);; ansition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media; linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([dis
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: tyle:balance}.navigation-hover-arrow path,.navigation-hover-arrow svg{transition:none}.navigation-hover-arrow path{opacity:1;transform:none}.navigation-hover-arrow svg{visibility:h; pacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timi; ion-name:nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;trans; ion:var(--mouse-in-dir,right),0;background-repeat:no-repeat,no-repeat;transition:background-size .3s ease-out}.navigation__content--products section:hover .suite-title:after{backgr; navigation-item--desktop-only{display:none}.navigation-menu-home-link{transition:opacity var(--navigation-duration) var(--navigation-easing)}.navigation-menu-home-link path{transit; over-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);; ansition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media; linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([dis; tion-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([disabled]):where(:hover)>.navigation-hover-arrow svg{a; ver:hover){:not([disabled]):where(:hover)>.navigation-hover-arrow svg{animation-name:nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes n
-  - Exact motion parameters: tyle:balance}.navigation-hover-arrow path,.navigation-hover-arrow svg{transition:none}.navigation-hover-arrow path{opacity:1;transform:none}.navigation-hover-arrow svg{visibility:h; pacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timi; ion-name:nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;trans; over-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);; ansition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media; linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([dis; avigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-name:nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.; nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){:not([disabled]):where(:hover)>.nav; :1px;width:100%;top:calc(100% + var(--hds-space-core-150));background:linear-gradient(90deg,var(--gradient-color) 0,var(--gradient-color) 20%,var(--stop-color) 40%,var(--suite-colo; over-arrow svg{transition:none}.navigation-hover-arrow path{opacity:1;transform:none}.navigation-hover-arrow svg{visibility:hidden;transition:visibility 0ms linear .3s;animation-na
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/01e4fd07fe2a2b12.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a183211c995897d6.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/0067cf21cdd97c92.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/05b42ab6014b2d13.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/e07e144a3b1db9ca.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/f73a927287a9f564.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/polyfills-42372ed130431b0a.js; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/2791.83aa5fb914de3e9d.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/01e4fd07fe2a2b12.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a183211c995897d6.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/0067cf21cdd97c92.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/05b42ab6014b2d13.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/e07e144a3b1db9ca.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/f73a927287a9f564.css; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/polyfills-42372ed130431b0a.js; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/2791.83aa5fb914de3e9d.js; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/15263.83460f5b8af8173e.js; https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/chunks/34552.fae148eb6b06113b.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-stripe-product-platform-component-styles.json`
-  - Asset CDN and media loading patterns: https://images.stripeassets.com/fzn2n1nzq965/115d4Vd5LVAsqFGDR1ClAv/0ceb2c44a7a7182cd624262420af7544/wave-fallback-desktop.png?w=1392&fm=webp&q=60; https://images.stripeassets.com/fzn2n1nzq965/1Vf8oT9Fm6dEwpnEx5PgK1/055956f38d7fd8b0cc7419692ef29778/bento-terminal.png?w=308&fm=webp&q=90; https://images.stripeassets.com/fzn2n1nzq965/6BTjJGdjfGVA8brPwj7p3M/fcf084ff85142366e118fe85ee78b632/payments-electric-kettle.jpg?w=80&fm=webp&q=90; https://images.stripeassets.com/fzn2n1nzq965/5Dr3Oc550drIrxyzzXgFbq/f6e4fb0b8b4b40d73e94fdf7c9bc7028/payments-hoodie.jpg?w=80&q=90; https://images.stripeassets.com/fzn2n1nzq965/1UE1lPgwbfQRH586XfTWKM/f90bfc79f87b3e60a4189cc0f5a03228/showflix-streaming.jpg?w=80&q=90; https://images.stripeassets.com/fzn2n1nzq965/6BTjJGdjfGVA8brPwj7p3M/fcf084ff85142366e118fe85ee78b632/payments-electric-kettle.jpg?w=80&fm=webp&q=90; https://images.stripeassets.com/fzn2n1nzq965/vYmk6v8n7oDAwbDpwhjV6/846f9b3e214549b8f14e2b8c8cfe9343/payment-bento-background.jpg?w=860&fm=webp&q=80; https://images.stripeassets.com/fzn2n1nzq965/m9HBEK464p46FeNIhs2PV/f5054a93c8a0a6aabdd1c47675d610ae/wave_crop.jpg?w=296&q=80
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 37 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | opacity | 240ms | 0ms | cubic-bezier(0.45, 0.05, 0.55, 0.95) | 导航hover：opacity 1 -> 0.809687，240ms cubic-bezier(0.45, 0.05, 0.55, 0.95)，hover 触发；样本 ds-navigation-2 |
+| navigation | focus | opacity | 240ms | 0ms | cubic-bezier(0.45, 0.05, 0.55, 0.95) | 导航focus：opacity 1 -> 0.761968，240ms cubic-bezier(0.45, 0.05, 0.55, 0.95)，focus 触发；样本 ds-navigation-2 |
+| navigation | hover | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航hover：backgroundColor rgb(83, 58, 253) -> rgb(68, 52, 210)，300ms cubic-bezier(0.25, 1, 0.5, 1)，hover 触发；样本 Stripe 大型企业解决方案 |
+| navigation | focus | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航focus：backgroundColor rgb(83, 58, 253) -> rgb(68, 52, 210)，300ms cubic-bezier(0.25, 1, 0.5, 1)，focus 触发；样本 Stripe 大型企业解决方案 |
+| navigation | hover | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航hover：backgroundColor rgb(83, 58, 253) -> rgb(67, 51, 207)，300ms cubic-bezier(0.25, 1, 0.5, 1)，hover 触发；样本 Stripe 初创企业解决方案 |
+| navigation | focus | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航focus：backgroundColor rgb(83, 58, 253) -> rgb(66, 51, 205)，300ms cubic-bezier(0.25, 1, 0.5, 1)，focus 触发；样本 Stripe 初创企业解决方案 |
+| navigation | hover | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航hover：backgroundColor rgb(83, 58, 253) -> rgb(68, 52, 210)，300ms cubic-bezier(0.25, 1, 0.5, 1)，hover 触发；样本 Stripe 平台企业解决方案 |
+| navigation | focus | backgroundColor | 300ms | 0ms | cubic-bezier(0.25, 1, 0.5, 1) | 导航focus：backgroundColor rgb(83, 58, 253) -> rgb(67, 51, 207)，300ms cubic-bezier(0.25, 1, 0.5, 1)，focus 触发；样本 Stripe 平台企业解决方案 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-11 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-12 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-13 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-14 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-15 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-16 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-17 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-18 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-19 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-20 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-21 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-22 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-23 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-24 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-25 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-26 |
+| card | state-change | opacity | 150ms | 0ms | linear | 卡片state-change：opacity 1 -> missing，150ms linear，state-change 触发；样本 ds-card-27 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95
+
+```css
+{"opacity": "0.809687", "transition": "opacity 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95)"}
+```
+
+### motion-navigation-focus-opacity-240-cubic-bezier-0-45-0-05-0-55-0-95
+
+```css
+{"opacity": "0.761968", "transition": "opacity 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95)"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(68, 52, 210)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(68, 52, 210)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(67, 51, 207)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(66, 51, 205)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(68, 52, 210)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-cubic-bezier-0-25-1-0-5-1
+
+```css
+{"backgroundColor": "rgb(67, 51, 207)", "transition": "background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1)"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
+
+### motion-card-state-change-opacity-150-linear
+
+```css
+{"transition": "opacity 0.15s linear"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

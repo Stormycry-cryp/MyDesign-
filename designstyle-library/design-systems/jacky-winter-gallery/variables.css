@@ -1,0 +1,37 @@
+:root {
+  --ds-color-foreground: #000000;
+  --ds-color-neutral-surface: #f0f0f0;
+  --ds-color-foreground-2: #303030;
+  --ds-color-accent: #70d0ff;
+  --ds-color-supporting-color: #f0e0d0;
+  --ds-color-supporting-color-2: #b0e0ff;
+  --ds-color-accent-2: #4080e0;
+  --ds-color-accent-3: #ff6010;
+  --ds-color-accent-4: #ffe050;
+  --ds-color-neutral-surface-2: #d0c0c0;
+  --ds-color-background: #ffffff;
+  --ds-spacing-component: normal 5px;
+  --ds-radius-component: 17.5px;
+  --ds-shadow-component: rgba(0, 0, 0, 0.25) 0px 0px 50px 10px;
+  --ds-motion-motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1-duration: 300ms;
+  --ds-motion-motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1-delay: 0ms;
+  --ds-motion-motion-navigation-hover-opacity-300-cubic-bezier-0-4-0-0-2-1-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --ds-motion-motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1-duration: 300ms;
+  --ds-motion-motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1-delay: 0ms;
+  --ds-motion-motion-navigation-focus-opacity-300-cubic-bezier-0-4-0-0-2-1-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  --ds-motion-motion-button-state-change-borderradius-200-ease-out-duration: 200ms;
+  --ds-motion-motion-button-state-change-borderradius-200-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-borderradius-200-ease-out-easing: ease-out;
+  --ds-motion-motion-form-state-change-borderradius-200-ease-out-duration: 200ms;
+  --ds-motion-motion-form-state-change-borderradius-200-ease-out-delay: 0ms;
+  --ds-motion-motion-form-state-change-borderradius-200-ease-out-easing: ease-out;
+  --ds-motion-motion-component-state-change-borderradius-200-ease-out-duration: 200ms;
+  --ds-motion-motion-component-state-change-borderradius-200-ease-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-borderradius-200-ease-out-easing: ease-out;
+  --ds-motion-motion-component-state-change-transform-400-ease-in-out-duration: 400ms;
+  --ds-motion-motion-component-state-change-transform-400-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-400-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-fill-100-ease-out-duration: 100ms;
+  --ds-motion-motion-component-state-change-fill-100-ease-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-fill-100-ease-out-easing: ease-out;
+}

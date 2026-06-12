@@ -1,42 +1,247 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: 0;z-index:1;height:400%;width:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained__qMN1S:hover:after{transform:translateZ(0)}}.cta_cta__g1ZkP.cta_--is-, :0 1.5rem;border-style:solid;border-width:.063rem;border-radius:999px;transition:all .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9{height:3.25rem}}.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--, g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg{fill:#8c7a66;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z:hover{--spinner-color:#afa294;color:#afa2
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: );e&&(t.isIntersecting?e.unfreeze():e.freeze())})};this._observer=new IntersectionObserver(t,{threshold:0})}static observe(t,e){this._initializeObserver(),this._observedCanvases.has(t)||(this._observedCanvases.set(t,e),t, .firstChild;)f.insertBefore(e.firstChild,c);g.data="$";g._reactRetry&&requestAnimationFrame(g._reactRetry)}}a.length=0};\n$RC=function(a,b){if(b=document.getElementById(b))(a=document.getElementById(a))?(a.previousSibling, ibling.data="$~",$RB.push(a,b),2===$RB.length&&("number"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?2300-a:$RT+300-a)))):b.parentNode.removeChil
-  - Timing/easing: idth:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained__qMN1S:hover:after{transform:translateZ(0)}}.cta_cta__g1ZkP.cta_--is-, n__sjk4Z:after{background-color:#8c7a66;background:#8c7a66;background:linear-gradient(135deg,#afa294 40%,#8c7a66 60%)}.cta_cta__g1ZkP.cta_--is-contained__qMN1S.cta_--is-brown__sjk4Z svg{fill:#fff}.cta_cta__, e__f6_tK:after{background-color:#f95112;background:#f95112;background:linear-gradient(135deg,#fb9771 40%,#f95112 60%)}.cta_cta__g1ZkP.cta_--is-contained__qMN1S.cta_--is-orange__f6_tK svg{fill:#fff}.cta_cta_, s-white__0hlgs:after{background-color:#fff;background:#fff;background:linear-gradient(135deg,#e8e4e0 40%,#ffffff 60%)}.cta_cta__g1ZkP.cta_--is-contained__qMN1S.cta_--is-white__0hlgs svg{fill:#8c7a66}.cta_ct, yle:solid;border-width:.063rem;border-radius:999px;transition:all .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9{height:3.25rem}}.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: 0;z-index:1;height:400%;width:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained; :0 1.5rem;border-style:solid;border-width:.063rem;border-radius:999px;transition:all .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9; g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg{fill:#8c7a66;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; 1ZkP.cta_--is-outlined__z_8B9.cta_--is-orange__f6_tK svg{fill:#f95112;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; a__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-white__0hlgs svg{fill:#fff;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; -text__oeq0q:hover .cta_label__svrSv:after{transform-origin:100% 100%;animation:cta_slide-in-out__loqXq .6s cubic-bezier(.19,1,.22,1)}}.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is; s:calc(var(--spinner-stroke)/2);background-color:var(--spinner-color);animation:cta_pulse__QN_R6 calc(var(--spinner-speed)) ease-in-out infinite;transition:background-color .3s eas; st-child{transform:rotate(-45deg)}.cta_line__xcZdo:first-child:before{animation-delay:calc(var(--spinner-speed)/-8*1)}.cta_line__xcZdo:nth-child(2){transform:rotate(-90deg)}.cta_li
-  - Public CSS/JS probe keywords: animation, easing, gsap, intersection, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: 0;z-index:1;height:400%;width:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained; :0 1.5rem;border-style:solid;border-width:.063rem;border-radius:999px;transition:all .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9; g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg{fill:#8c7a66;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; 1ZkP.cta_--is-outlined__z_8B9.cta_--is-orange__f6_tK svg{fill:#f95112;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; a__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-white__0hlgs svg{fill:#fff;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; -text__oeq0q:hover .cta_label__svrSv:after{transform-origin:100% 100%;animation:cta_slide-in-out__loqXq .6s cubic-bezier(.19,1,.22,1)}}.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is; s:calc(var(--spinner-stroke)/2);background-color:var(--spinner-color);animation:cta_pulse__QN_R6 calc(var(--spinner-speed)) ease-in-out infinite;transition:background-color .3s eas; st-child{transform:rotate(-45deg)}.cta_line__xcZdo:first-child:before{animation-delay:calc(var(--spinner-speed)/-8*1)}.cta_line__xcZdo:nth-child(2){transform:rotate(-90deg)}.cta_li; hild(2){transform:rotate(-90deg)}.cta_line__xcZdo:nth-child(2):before{animation-delay:calc(var(--spinner-speed)/-8*2)}.cta_line__xcZdo:nth-child(3){transform:rotate(-135deg)}.cta_l; ild(3){transform:rotate(-135deg)}.cta_line__xcZdo:nth-child(3):before{animation-delay:calc(var(--spinner-speed)/-8*3)}.cta_line__xcZdo:nth-child(4){transform:rotate(-180deg)}.cta_l
-  - Exact motion parameters: 0;z-index:1;height:400%;width:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained; :0 1.5rem;border-style:solid;border-width:.063rem;border-radius:999px;transition:all .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B9; g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg{fill:#8c7a66;transition:fill .7s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-outlined__z_8B; -text__oeq0q:hover .cta_label__svrSv:after{transform-origin:100% 100%;animation:cta_slide-in-out__loqXq .6s cubic-bezier(.19,1,.22,1)}}.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is; s:calc(var(--spinner-stroke)/2);background-color:var(--spinner-color);animation:cta_pulse__QN_R6 calc(var(--spinner-speed)) ease-in-out infinite;transition:background-color .3s eas; st-child{transform:rotate(-45deg)}.cta_line__xcZdo:first-child:before{animation-delay:calc(var(--spinner-speed)/-8*1)}.cta_line__xcZdo:nth-child(2){transform:rotate(-90deg)}.cta_li; idth:400%;transform:translate3d(-70%,-60%,0);transition:transform .9s cubic-bezier(.19,1,.22,1)}@media(min-width:1024px){.cta_cta__g1ZkP.cta_--is-contained__qMN1S:hover:after{trans; n__sjk4Z:after{background-color:#8c7a66;background:#8c7a66;background:linear-gradient(135deg,#afa294 40%,#8c7a66 60%)}.cta_cta__g1ZkP.cta_--is-contained__qMN1S.cta_--is-brown__sjk4; e__f6_tK:after{background-color:#f95112;background:#f95112;background:linear-gradient(135deg,#fb9771 40%,#f95112 60%)}.cta_cta__g1ZkP.cta_--is-contained__qMN1S.cta_--is-orange__f6_; mal;font-weight:400;letter-spacing:.0175rem;line-height:1.125rem;text-transform:uppercase}@media(min-width:1024px){.cta_cta__g1ZkP{font-size:calc(.875rem + var(--font-zoom));letter
-  - JavaScript/runtime motion evidence: );e&&(t.isIntersecting?e.unfreeze():e.freeze())})};this._observer=new IntersectionObserver(t,{threshold:0})}static observe(t,e){this._initializeObserver(),this._observedCanvases.ha; .firstChild;)f.insertBefore(e.firstChild,c);g.data="$";g._reactRetry&&requestAnimationFrame(g._reactRetry)}}a.length=0};\n$RC=function(a,b){if(b=document.getElementById(b))(a=docum; ibling.data="$~",$RB.push(a,b),2===$RB.length&&("number"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?230; ;t.push(' id="');var P=L(x);t.push(P),t.push('"')}t.push(">"),t.push("requestAnimationFrame(function(){$RT=performance.now()});"),t.push("<\/script>")}}eE(t,S)}var C=e.renderState;; eenSockGlobals||!C.gsap&&C||{}),e$.forEach(e_)),s="undefined"!=typeof requestAnimationFrame&&requestAnimationFrame,o&&d.sleep(),a=s||function(t){return setTimeout(t,v-1e3*d.time+1|; &&C||{}),e$.forEach(e_)),s="undefined"!=typeof requestAnimationFrame&&requestAnimationFrame,o&&d.sleep(),a=s||function(t){return setTimeout(t,v-1e3*d.time+1|0)},P=1,$(2))},sleep:fu; {return console.warn("Invalid property",t,"set to",e,"Missing plugin? gsap.registerPlugin()")},td=function(t,e){return!e&&console.warn(t)},tl=function(t,e){return t&&(ti[t]=e)&&to&; t=e),n||tJ(t,e),t._ts<0&&tZ(t,t._tTime),t},t0=function(t,e){return(ti.ScrollTrigger||ts("scrollTrigger",e))&&ti.ScrollTrigger.create(e,t)},t1=function(t,e,r,n,i){return(e3(t,e,i),t
-  - Stylesheet evidence: https://www.patek.com/_next/static/css/401b284d26583321.css; https://www.patek.com/_next/static/css/161681329190b1c8.css; https://www.patek.com/_next/static/css/349a703b0ff228c3.css; https://www.googletagmanager.com/gtag/js?id=G-6N6Z118SWC&cx=c&gtm=4e6631; https://consent.cookiebot.com/uc.js?cbid=77ef9b63-45f8-46a2-aeb2-c54bd510d236&implementation=gtm&consentmode-dataredaction=dynamic; https://www.patek.com/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.patek.com/_next/static/chunks/webpack-3a6a6d054732eb56.js; https://www.patek.com/_next/static/chunks/framework-9705802e02d326b2.js
-  - Interpreted motion tags: hero media, hover states, scroll reveals
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://www.patek.com/_next/static/css/401b284d26583321.css; https://www.patek.com/_next/static/css/161681329190b1c8.css; https://www.patek.com/_next/static/css/349a703b0ff228c3.css; https://www.googletagmanager.com/gtag/js?id=G-6N6Z118SWC&cx=c&gtm=4e6631; https://consent.cookiebot.com/uc.js?cbid=77ef9b63-45f8-46a2-aeb2-c54bd510d236&implementation=gtm&consentmode-dataredaction=dynamic; https://www.patek.com/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.patek.com/_next/static/chunks/webpack-3a6a6d054732eb56.js; https://www.patek.com/_next/static/chunks/framework-9705802e02d326b2.js; https://www.patek.com/_next/static/chunks/main-818ba9ffd56c6c99.js; https://www.patek.com/_next/static/chunks/pages/_app-310322f59f9f69d8.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.patek.com/en` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-patek-philippe-official-component-styles.json`
-  - Asset CDN and media loading patterns: https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/256367-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/282671-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/282673-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/282672-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/282682-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/250202-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/450455-51882; https://patek-res.cloudinary.com/dfsmedia/0906caea301d42b3b8bd23bd656d1711/449098-51882
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, intersection, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 9 and scripts 20; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | state-change | transform | 900ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：transform missing -> translate3d(-70%,-60%,0)，900ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | all | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：all，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | all | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：all，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | background-color | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：background-color，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | fill | 700ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | load | background-color | 300ms | 0ms | ease | 按钮load：background-color，300ms ease，load 触发 |
+| button | load | animation | 1200ms | 0ms | ease-in-out | 按钮load：animation scaleY(.75) -> scaleY(1)，1200ms ease-in-out，load 触发 |
+| overlay | state-change | opacity | 500ms | 0ms | cubic-bezier(.32,.72,0,1) | 浮层state-change：opacity，500ms cubic-bezier(.32,.72,0,1)，state-change 触发 |
+| component | load | animation | 400ms | 0ms | linear | 组件load：animation rotate(0deg) -> rotate(1turn)，400ms linear，load 触发 |
+| component | state-change | grid-template-rows | 600ms | 0ms | cubic-bezier(.4,.05,.32,1) | 组件state-change：grid-template-rows，600ms cubic-bezier(.4,.05,.32,1)，state-change 触发 |
+| component | state-change | opacity | 800ms | 0ms | cubic-bezier(.4,.05,.32,1) | 组件state-change：opacity，800ms cubic-bezier(.4,.05,.32,1)，state-change 触发 |
+| reveal | viewport | all | 300ms | 0ms | ease-in | 入场元素viewport：all missing -> translateY(350%)，300ms ease-in，viewport 触发 |
+| component | state-change | all | 180ms | 0ms | ease-in-out | 组件state-change：all missing -> translateZ(0)，180ms ease-in-out，state-change 触发 |
+| component | state-change | all | 180ms | 0ms | ease-in-out | 组件state-change：all missing -> translateZ(0)，180ms ease-in-out，state-change 触发 |
+| component | state-change | width | 300ms | 0ms | ease-out | 组件state-change：width，300ms ease-out，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation，1000ms linear，load 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0deg) -> rotate(1turn)，1000ms linear，load 触发 |
+| card | state-change | stroke-dashoffset | 500ms | 0ms | ease-out | 卡片state-change：stroke-dashoffset，500ms ease-out，state-change 触发 |
+| component | state-change | transform | 250ms | 0ms | ease-in-out | 组件state-change：transform missing -> translate3d(0,-105%,0)，250ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 250ms | 0ms | ease-in-out | 组件state-change：opacity missing -> translate3d(0,-105%,0)，250ms ease-in-out，state-change 触发 |
+| component | state-change | transform | 250ms | 0ms | ease-in-out | 组件state-change：transform missing -> translateZ(0)，250ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 250ms | 0ms | ease-in-out | 组件state-change：opacity missing -> translateZ(0)，250ms ease-in-out，state-change 触发 |
+| button | state-change | color | 500ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：color，500ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| navigation | hover | transform | 700ms | 0ms | cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1) | 导航hover：transform missing -> none，700ms cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)，hover 触发；样本 MENU |
+| navigation | focus | transform | 700ms | 0ms | cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1) | 导航focus：transform missing -> none，700ms cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)，focus 触发；样本 MENU |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-patek-philippe-official-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-button-load-animation-1200-missing lacks easing
+- motion-overlay-load-animation-300-missing lacks easing
+- motion-overlay-load-animation-300-missing lacks easing
+- motion-overlay-state-change-all-200-missing lacks easing
+- motion-overlay-load-animation-300-missing lacks easing
+- motion-overlay-load-animation-300-missing lacks easing
+- motion-component-state-change-background-color-300-missing lacks easing
+- motion-component-state-change-color-300-missing lacks easing
+- motion-component-state-change-height-200-missing lacks easing
+- motion-component-state-change-background-color-missing-missing lacks duration_ms
+- motion-component-state-change-background-color-missing-missing lacks easing
+- motion-card-state-change-all-missing-ease lacks duration_ms
+- motion-card-state-change-all-200-missing lacks easing
+- motion-card-state-change-all-200-missing lacks easing
+- motion-card-state-change-all-200-missing lacks easing
+- motion-card-state-change-all-200-missing lacks easing
+
+## Snippet Appendix
+### motion-button-state-change-transform-900-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-contained__qMN1S:after { transition: transform .9s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-all-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-outlined__z_8B9 { transition: all .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-orange__f6_tK svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-white__0hlgs svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-all-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-text__oeq0q { transition: all .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-background-color-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-text__oeq0q .cta_label__svrSv:after { transition: background-color .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-brown__sjk4Z svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-orange__f6_tK svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-fill-700-cubic-bezier-19-1-22-1
+
+```css
+.cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-white__0hlgs svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-load-background-color-300-ease
+
+```css
+.cta_line__xcZdo:before { transition: background-color .3s ease; }
+```
+
+### motion-button-load-animation-1200-ease-in-out
+
+```css
+.cta_line__xcZdo:before { animation: cta_pulse__QN_R6 calc(1.2s) ease-in-out infinite; }
+```
+
+### motion-overlay-state-change-opacity-500-cubic-bezier-32-72-0-1
+
+```css
+.dialog_overlay__4E4N1 { transition: opacity .5s cubic-bezier(.32,.72,0,1); }
+```
+
+### motion-component-load-animation-400-linear
+
+```css
+#nprogress .spinner-icon { animation: nprogress-spinner .4s linear infinite; }
+```
+
+### motion-component-state-change-grid-template-rows-600-cubic-bezier-4-05-32-1
+
+```css
+.watch-finder-styles_disclaimer-wrapper__7gcd2 { transition: grid-template-rows .6s cubic-bezier(.4,.05,.32,1); }
+```
+
+### motion-component-state-change-opacity-800-cubic-bezier-4-05-32-1
+
+```css
+.watch-finder-styles_disclamer__d4VOa { transition: opacity .8s cubic-bezier(.4,.05,.32,1); }
+```
+
+### motion-reveal-viewport-all-300-ease-in
+
+```css
+.uppy-Informer-animated { transition: all .3s ease-in; }
+```
+
+### motion-component-state-change-all-180-ease-in-out
+
+```css
+.uppy-Root [aria-label][role~=tooltip]:after { transition: all .18s ease-in-out 0s; }
+```
+
+### motion-component-state-change-all-180-ease-in-out
+
+```css
+.uppy-Root [aria-label][role~=tooltip]:before { transition: all .18s ease-in-out 0s; }
+```
+
+### motion-component-state-change-width-300-ease-out
+
+```css
+.uppy-StatusBar-progress { transition: width .3s ease-out; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+.uppy-StatusBar-progress.is-indeterminate { animation: uppy-StatusBar-ProgressStripes 1s linear infinite; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+.uppy-StatusBar-spinner { animation: uppy-StatusBar-spinnerAnimation 1s linear 0ms; }
+```
+
+### motion-card-state-change-stroke-dashoffset-500-ease-out
+
+```css
+.uppy-Dashboard-Item-progressIcon--progress { transition: stroke-dashoffset .5s ease-out; }
+```
+
+### motion-component-state-change-transform-250-ease-in-out
+
+```css
+.uppy-transition-slideDownUp-enter { transition: transform .25s ease-in-out; }
+```
+
+### motion-component-state-change-opacity-250-ease-in-out
+
+```css
+.uppy-transition-slideDownUp-enter { transition: opacity .25s ease-in-out; }
+```
+
+### motion-component-state-change-transform-250-ease-in-out
+
+```css
+.uppy-transition-slideDownUp-leave { transition: transform .25s ease-in-out; }
+```
+
+### motion-component-state-change-opacity-250-ease-in-out
+
+```css
+.uppy-transition-slideDownUp-leave { transition: opacity .25s ease-in-out; }
+```
+
+### motion-button-state-change-color-500-cubic-bezier-19-1-22-1
+
+```css
+.back-button_back-button__YK_xu { transition: color .5s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-navigation-hover-transform-700-cubic-bezier-0-19-1-0-22-1-cubic-bezier-0-4-0-05-0-32-1
+
+```css
+{"bottom": "900.938px", "transform": "none"}
+```
+
+### motion-navigation-focus-transform-700-cubic-bezier-0-19-1-0-22-1-cubic-bezier-0-4-0-05-0-32-1
+
+```css
+{"bottom": "900.938px", "transform": "none"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

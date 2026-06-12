@@ -1,42 +1,30 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: ct:Ie,useDebugValue:Ie,useDeferredValue:function(e){return _e(),e},useTransition:function(){return _e(),[!1,Me]},useId:function(){var e=ye.treeContext,t=e.overflow;e=((e=e.id)&~(1<<32-pe(e)-1)).toString(32)+t;var n=De;if(, ct:Kt,useDebugValue:Kt,useDeferredValue:function(e){return Ut(),e},useTransition:function(){return Ut(),[!1,Qt]},useId:function(){var e=zt.treeContext,t=e.overflow;e=((e=e.id)&~(1<<32-_t(e)-1)).toString(32)+t;var n=Xt;if(, ucer:yo,useRef:yo,useState:yo,useDebugValue:yo,useDeferredValue:yo,useTransition:yo,useMutableSource:yo,useSyncExternalStore:yo,useId:yo,unstable_isNewReconciler:!1},ru={readContext:Jl,useCallback:function(e,t){return So().memoizedState=[e,void 0===t?null:t],e},useContext:Jl,useEffect:Bo,useIm
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: .props.activeStyle)}:null;let e=!1;"undefined"!=typeof window&&window.IntersectionObserver&&(e=!0),this.state={IOSupported:e},this.abortPrefetch=null,this.handleRef=this.handleRef.bind(this)}_prefetch(){let t=window.loca, ef(t),this.state.IOSupported&&t&&(this.io=((t,e)=>{const n=new window.IntersectionObserver((n=>{n.forEach((n=>{t===n.target&&e(n.isIntersecting||n.intersectionRatio>0)}))}));return n.observe(t),{instance:n,el:t}})(t,(t=>, ){e._latestKnownScrollY=window.scrollY,e._isTicking||(e._isTicking=!0,requestAnimationFrame(e._saveScroll.bind((0,o.default)(e))))},e.windowScroll=function(t,n){e.shouldUpdateScroll(n,e.props)&&window.scrollTo(0,t)},e.scr, ar n=e.prototype;return n.componentDidUpdate=function(t,e){var n=this;requestAnimationFrame((function(){var t="new page at "+n.props.location.pathname;document.title&&(t=document.title);var e=document.querySelectorAll("#g
-  - Timing/easing: no direct timing evidence found
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: ct:Ie,useDebugValue:Ie,useDeferredValue:function(e){return _e(),e},useTransition:function(){return _e(),[!1,Me]},useId:function(){var e=ye.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ct:Kt,useDebugValue:Kt,useDeferredValue:function(e){return Ut(),e},useTransition:function(){return Ut(),[!1,Qt]},useId:function(){var e=zt.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ucer:yo,useRef:yo,useState:yo,useDebugValue:yo,useDeferredValue:yo,useTransition:yo,useMutableSource:yo,useSyncExternalStore:yo,useId:yo,unstable_isNewReconciler:!1},ru={readContex; Value:Ho,useDeferredValue:function(e){return So().memoizedState=e},useTransition:function(){var e=Lo(!1),t=e[0];return e=Ko.bind(null,e[1]),So().memoizedState=e,[t,e]},useMutableSo; o,useDeferredValue:function(e){return Qo(xo(),fo.memoizedState,e)},useTransition:function(){return[Eo(Co)[0],xo().memoizedState]},useMutableSource:Po,useSyncExternalStore:To,useId:
-  - Public CSS/JS probe keywords: intersection, request_animation_frame, transition
-  - Public CSS/JS motion snippets: ct:Ie,useDebugValue:Ie,useDeferredValue:function(e){return _e(),e},useTransition:function(){return _e(),[!1,Me]},useId:function(){var e=ye.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ct:Kt,useDebugValue:Kt,useDeferredValue:function(e){return Ut(),e},useTransition:function(){return Ut(),[!1,Qt]},useId:function(){var e=zt.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ucer:yo,useRef:yo,useState:yo,useDebugValue:yo,useDeferredValue:yo,useTransition:yo,useMutableSource:yo,useSyncExternalStore:yo,useId:yo,unstable_isNewReconciler:!1},ru={readContex; Value:Ho,useDeferredValue:function(e){return So().memoizedState=e},useTransition:function(){var e=Lo(!1),t=e[0];return e=Ko.bind(null,e[1]),So().memoizedState=e,[t,e]},useMutableSo; o,useDeferredValue:function(e){return Qo(xo(),fo.memoizedState,e)},useTransition:function(){return[Eo(Co)[0],xo().memoizedState]},useMutableSource:Po,useSyncExternalStore:To,useId:; .props.activeStyle)}:null;let e=!1;"undefined"!=typeof window&&window.IntersectionObserver&&(e=!0),this.state={IOSupported:e},this.abortPrefetch=null,this.handleRef=this.handleRef.; ef(t),this.state.IOSupported&&t&&(this.io=((t,e)=>{const n=new window.IntersectionObserver((n=>{n.forEach((n=>{t===n.target&&e(n.isIntersecting||n.intersectionRatio>0)}))}));return; ){e._latestKnownScrollY=window.scrollY,e._isTicking||(e._isTicking=!0,requestAnimationFrame(e._saveScroll.bind((0,o.default)(e))))},e.windowScroll=function(t,n){e.shouldUpdateScrol; ar n=e.prototype;return n.componentDidUpdate=function(t,e){var n=this;requestAnimationFrame((function(){var t="new page at "+n.props.location.pathname;document.title&&(t=document.t; (),e.unlisten=n.listen((function(){Promise.resolve().then((function(){requestAnimationFrame((function(){t.unmounted||t.setState((function(){return{context:t.getContext()}}))}))}))}
-  - Exact motion parameters: ct:Ie,useDebugValue:Ie,useDeferredValue:function(e){return _e(),e},useTransition:function(){return _e(),[!1,Me]},useId:function(){var e=ye.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ct:Kt,useDebugValue:Kt,useDeferredValue:function(e){return Ut(),e},useTransition:function(){return Ut(),[!1,Qt]},useId:function(){var e=zt.treeContext,t=e.overflow;e=((e=e.id)&~(1<; ucer:yo,useRef:yo,useState:yo,useDebugValue:yo,useDeferredValue:yo,useTransition:yo,useMutableSource:yo,useSyncExternalStore:yo,useId:yo,unstable_isNewReconciler:!1},ru={readContex
-  - JavaScript/runtime motion evidence: .props.activeStyle)}:null;let e=!1;"undefined"!=typeof window&&window.IntersectionObserver&&(e=!0),this.state={IOSupported:e},this.abortPrefetch=null,this.handleRef=this.handleRef.; ef(t),this.state.IOSupported&&t&&(this.io=((t,e)=>{const n=new window.IntersectionObserver((n=>{n.forEach((n=>{t===n.target&&e(n.isIntersecting||n.intersectionRatio>0)}))}));return; ){e._latestKnownScrollY=window.scrollY,e._isTicking||(e._isTicking=!0,requestAnimationFrame(e._saveScroll.bind((0,o.default)(e))))},e.windowScroll=function(t,n){e.shouldUpdateScrol; ar n=e.prototype;return n.componentDidUpdate=function(t,e){var n=this;requestAnimationFrame((function(){var t="new page at "+n.props.location.pathname;document.title&&(t=document.t; (),e.unlisten=n.listen((function(){Promise.resolve().then((function(){requestAnimationFrame((function(){t.unmounted||t.setState((function(){return{context:t.getContext()}}))}))}))}
-  - Stylesheet evidence: https://patrickmason.studio/polyfill-4718f0fec20e0d09d7f5.js; https://patrickmason.studio/app-0c47eb8917d64a87429a.js; https://patrickmason.studio/framework-c45ea1cbb39153ed5c73.js; https://patrickmason.studio/webpack-runtime-6054e00fbb0f48d38c69.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://patrickmason.studio/polyfill-4718f0fec20e0d09d7f5.js; https://patrickmason.studio/app-0c47eb8917d64a87429a.js; https://patrickmason.studio/framework-c45ea1cbb39153ed5c73.js; https://patrickmason.studio/webpack-runtime-6054e00fbb0f48d38c69.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-patrick-mason-studio-portfolio-component-styles.json`
-  - Asset CDN and media loading patterns: data:image/svg+xml;charset=utf-8,%3Csvg height='512' width='512' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E; https://patrickmason.studio/static/0d2c3d783437b6cb401b1e70e10a5855/d689f/avatar.webp; data:image/svg+xml;charset=utf-8,%3Csvg height='128' width='128' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E; https://patrickmason.studio/static/339fd60f8c7c60201be1561fff0cf610/6766a/avatar.webp; data:image/svg+xml;charset=utf-8,%3Csvg height='96' width='96' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E; https://patrickmason.studio/static/eb5bbdc9d37dbd06730085f95deb8e4d/8ef24/avatar.webp; data:image/svg+xml;charset=utf-8,%3Csvg height='425.99999999999994' width='428' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E; https://patrickmason.studio/static/563cc8a20df01bd1774950ecca787cc3/e47ac/avatar.webp
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: intersection, request_animation_frame, transition
-  - Performance/accessibility concerns: heavy media count 16 and scripts 4; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | hover | boxShadow | 200ms | 0ms | cubic-bezier(0.87, 0, 0.13, 1) | 按钮hover：boxShadow missing -> rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px，200ms cubic-bezier(0.87, 0, 0.13, 1)，hover 触发；样本 ? |
+| button | focus | boxShadow | 200ms | 0ms | cubic-bezier(0.87, 0, 0.13, 1) | 按钮focus：boxShadow missing -> rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px，200ms cubic-bezier(0.87, 0, 0.13, 1)，focus 触发；样本 ? |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-patrick-mason-studio-portfolio-motion.json
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px"}
+```
+
+### motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

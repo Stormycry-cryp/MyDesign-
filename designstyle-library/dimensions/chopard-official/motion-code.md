@@ -1,42 +1,233 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: rflow-x:clip}.ios-modal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z-index:3}body,.card,.card-header,.hero{backg, apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.swiper-android .swip, 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.swiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translate3d(0px, 0, 0)}.
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: dal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z-index:3}body,.card,.card-header,.hero{backg, ;width:100%;height:100%;z-index:2;background:#F2F2F3;background-image:linear-gradient(to right, #F2F2F3 0%, #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animat, forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading,.video-loading{animation-name:shimmer;background-size:960px 960px}}@media (min-width:, p:0;left:0;width:100%;height:100%;background:#F2F2F3;background-image:linear-gradient(to right, #F2F2F3 0%, #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animat, forwards;animation-iteration-count:infinite;animation-timing-function:linear;color:transparent;z-index:4}@media (max-width: 1023.98px){body.loading blockquote:not(.no-loading)::before,body.loading #promotio
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: rflow-x:clip}.ios-modal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z; apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; , #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-funct; 0%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-w; repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Public CSS/JS motion snippets: rflow-x:clip}.ios-modal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z; apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; , #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-funct; 0%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-w; repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading; :1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading,.video-loading{animation-name:shim; tion:linear}@media (max-width: 1023.98px){.img-loading,.video-loading{animation-name:shimmer;background-size:960px 960px}}@media (min-width: 699px){.img-loading,.video-loading{anim
-  - Exact motion parameters: rflow-x:clip}.ios-modal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z; apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; , #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-funct; 0%, #F2F2F3 100%);background-repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-w; repeat:no-repeat;animation-duration:1.3s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading; dal-open{position:relative}.ios-modal-open::after{transition:all 0.5s ease;content:'';position:absolute;width:100%;height:100%;background:#fff;bottom:0;left:0;z-index:3}body,.card,; ;width:100%;height:100%;z-index:2;background:#F2F2F3;background-image:linear-gradient(to right, #F2F2F3 0%, #e9e9e9 20%, #F2F2F3 40%, #F2F2F3 100%);background-repeat:no-repeat;anim; forwards;animation-iteration-count:infinite;animation-timing-function:linear}@media (max-width: 1023.98px){.img-loading,.video-loading{animation-name:shimmer;background-size:960px ; t-arrow-icon::before{background-image:url("../images/arrow-down.svg");transform:rotate(-90deg)}.spacing-paint{background-color:#e3b339;display:inline-block}@media (min-width: 1380p
-  - JavaScript/runtime motion evidence: one}.modal .modal-body{flex:0 0 auto}.alert{background-color:#fefefe}.swiper-button-prev,.swiper-button-next{z-index:0}ul.swiper-pagination{padding-inline-start:0;margin-bottom:0}u; dy{flex:0 0 auto}.alert{background-color:#fefefe}.swiper-button-prev,.swiper-button-next{z-index:0}ul.swiper-pagination{padding-inline-start:0;margin-bottom:0}ul.swiper-pagination ; nd-color:#fefefe}.swiper-button-prev,.swiper-button-next{z-index:0}ul.swiper-pagination{padding-inline-start:0;margin-bottom:0}ul.swiper-pagination .swiper-pagination-bullet button; ndex:0}ul.swiper-pagination{padding-inline-start:0;margin-bottom:0}ul.swiper-pagination .swiper-pagination-bullet button{padding:12px;position:absolute;top:-1px;left:-1px}ul.swiper; gination{padding-inline-start:0;margin-bottom:0}ul.swiper-pagination .swiper-pagination-bullet button{padding:12px;position:absolute;top:-1px;left:-1px}ul.swiper-pagination .swiper
-  - Stylesheet evidence: https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/global.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/components/backinstockPanel.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/thirdParties/intlTelInput.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/components/contactForm.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/globale/flags.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/globale/styles.css; https://tr.snapchat.com/config/com/e65bf73a-bcaf-46b5-8585-48e6642cbc6a.js?v=3.56.2-2606042245; https://snap.licdn.com/li.lms-analytics/insight.old.min.js
-  - Interpreted motion tags: hero media, hover states, menu transitions
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: swiper
-  - Public stylesheet/script URLs: https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/global.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/components/backinstockPanel.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/thirdParties/intlTelInput.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/components/contactForm.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/globale/flags.css; https://www.chopard.com/on/demandware.static/Sites-chopard-Site/-/en_US/v1780622219324/css/globale/styles.css; https://tr.snapchat.com/config/com/e65bf73a-bcaf-46b5-8585-48e6642cbc6a.js?v=3.56.2-2606042245; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://tag.beyable.com/api/beYableJS-chopard.js; https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5JA2DFGE0M3SF4JQ3V0&lib=ttq
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.chopard.com/en-us` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-chopard-official-component-styles.json`
-  - Asset CDN and media loading patterns: https://objects-prod.cdn.chopard.com/image/upload/t_navigation_emerch_teaser_push/q_auto,f_auto,dpr_auto/Campaigns/watches-and-wonders%202026/L.U.C%20Strike%20One%20Titanium/Strike; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/women-happy-sport; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/men-alpine-eagle; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/women-lheure-du-diamant-watches; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/Watches/Mens-Watches-Montre_Mille_Miglia_168619-4001; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/collection-luc-shadow-2; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/women-happy-diamonds-watches-2; https://objects-prod.cdn.chopard.com/image/upload/t_navigation-card-portrait/q_auto,f_auto,dpr_auto/Navigation/women-imperiale-watches-2
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | hover | backgroundColor | 150ms | 0ms | ease-in-out | 按钮hover：backgroundColor rgba(188, 189, 191, 0.5) -> rgba(188, 189, 191, 0.698)，150ms ease-in-out，hover 触发；样本 CLOSE |
+| button | focus | backgroundColor | 150ms | 0ms | ease-in-out | 按钮focus：backgroundColor rgba(188, 189, 191, 0.5) -> rgba(188, 189, 191, 0.7)，150ms ease-in-out，focus 触发；样本 CLOSE |
+| button | hover | backgroundColor | 150ms | 0ms | ease-in-out | 按钮hover：backgroundColor rgb(1, 3, 7) -> rgb(53, 55, 59)，150ms ease-in-out，hover 触发；样本 VISIT HONG KONG SAR CHINA |
+| button | focus | backgroundColor | 150ms | 0ms | ease-in-out | 按钮focus：backgroundColor rgb(1, 3, 7) -> rgb(54, 56, 60)，150ms ease-in-out，focus 触发；样本 VISIT HONG KONG SAR CHINA |
+| button | hover | backgroundColor | 150ms | 0ms | ease-in-out | 按钮hover：backgroundColor rgba(188, 189, 191, 0.5) -> rgba(188, 189, 191, 0.682)，150ms ease-in-out，hover 触发；样本 STAY ON UNITED STATES |
+| button | focus | backgroundColor | 150ms | 0ms | ease-in-out | 按钮focus：backgroundColor rgba(188, 189, 191, 0.5) -> rgba(188, 189, 191, 0.698)，150ms ease-in-out，focus 触发；样本 STAY ON UNITED STATES |
+| button | state-change | transform | 300ms | 0ms | ease-in-out | 按钮state-change：transform matrix(1, 0, 0, 1, -12, -12) -> missing，300ms ease-in-out，state-change 触发；样本 ds-button-1 |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 VISIT ANOTHER LOCATION |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 SKIP TO MAIN CONTENT |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 UNITED STATES CHANGE COUNTRY |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 MY ACCOUNT |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 MY BASKET |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 WATCHES |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 JEWELRY |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 ACCESSORIES |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 LA MAISON |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 HIGHLIGHTS |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 GIFTS |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 SEARCH |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 DISCOVER OUR 2026 COLLECTION |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 Add L'Heure du Diamant - Alta Moda to the wishlist |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 CALL US |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 Add L'Heure du Diamant to the wishlist |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 GO TO SLIDE 1 |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 GO TO SLIDE 2 |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 GO TO SLIDE 3 |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 SHOP |
+| button | state-change | color | 150ms | 0ms | ease-in-out | 按钮state-change：color rgb(1, 3, 7) -> missing，150ms ease-in-out，state-change 触发；样本 Add L'Heure du Diamant Round to the wishlist |
+| card | state-change | transform | 600ms | 0ms | ease-in | 卡片state-change：transform none -> missing，600ms ease-in，state-change 触发；样本 ds-card-17 |
+| component | state-change | transform | 300ms | 0ms | ease-in-out | 组件state-change：transform matrix(1, 0, 0, 1, -12, -12) -> missing，300ms ease-in-out，state-change 触发；样本 ds-icon-0 |
+| component | state-change | color | 150ms | 0ms | ease-in-out | 组件state-change：color rgb(254, 254, 254) -> missing，150ms ease-in-out，state-change 触发；样本 UNITED STATES CHANGE COUNTRY |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-button-hover-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgba(188, 189, 191, 0.698)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-focus-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgba(188, 189, 191, 0.7)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-hover-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgb(53, 55, 59)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-focus-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgb(54, 56, 60)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-hover-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgba(188, 189, 191, 0.682)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-focus-backgroundcolor-150-ease-in-out
+
+```css
+{"backgroundColor": "rgba(188, 189, 191, 0.698)", "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-transform-300-ease-in-out
+
+```css
+{"transition": "transform 0.3s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-button-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
+
+### motion-card-state-change-transform-600-ease-in
+
+```css
+{"transition": "transform 0.6s ease-in"}
+```
+
+### motion-component-state-change-transform-300-ease-in-out
+
+```css
+{"transition": "transform 0.3s ease-in-out"}
+```
+
+### motion-component-state-change-color-150-ease-in-out
+
+```css
+{"transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

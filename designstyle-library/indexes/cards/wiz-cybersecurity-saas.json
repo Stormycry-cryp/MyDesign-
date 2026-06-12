@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-wiz-cybersecurity-saas-component-styles.json",
+  "component_json_path": "assets/2026-06-11-wiz-cybersecurity-saas-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/wiz-cybersecurity-saas/component-styles.md",
     "moodboard": "design-systems/wiz-cybersecurity-saas/moodboard.svg",
+    "motion": "design-systems/wiz-cybersecurity-saas/motion.json",
+    "motion_presets": "design-systems/wiz-cybersecurity-saas/motion-presets.css",
     "palette": "design-systems/wiz-cybersecurity-saas/palette.md",
-    "tokens": "design-systems/wiz-cybersecurity-saas/tokens.json"
+    "tailwind_theme": "design-systems/wiz-cybersecurity-saas/tailwind.theme.json",
+    "tokens": "design-systems/wiz-cybersecurity-saas/tokens.json",
+    "variables_css": "design-systems/wiz-cybersecurity-saas/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/wiz-cybersecurity-saas/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/wiz-cybersecurity-saas/scene.md",
     "type_copy": "dimensions/wiz-cybersecurity-saas/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11215}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 300x44; 2500x489; 794x189; 1000x431; 306x44; 1024x302; 243x40; 102x30; 214x150; 2000x2000.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "6px; 6px; 6px; 6px; 6px; 6px; 6px; 4px; 8px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11215}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 300:44; 2500:489; 794:189; 1000:431; 306:44; 1024:302; 243:40; 102:30; 214:150; 2000:2000",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "reveal viewport motion uses 6000ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 6000ms steps(2,end)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1000ms cubic-bezier(0,0,.2,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 1000ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 2000ms cubic-bezier(.4,0,.6,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 3000ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

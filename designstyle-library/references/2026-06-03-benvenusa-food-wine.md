@@ -30,6 +30,19 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2604}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 3456x2182; 1440x959; 1440x960; 0x0; 1440x1074; 1440x960; 1440x960; 0x0; 0x0; 0x0.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2604}; source: Dimension And Ratio System
+- Observed media ratios: 3456:2182; 1440:959; 1440:960; 1440:1074; 1440:960; 1440:960; 1440:959; 1440:960; 1440:1074; source: Dimension And Ratio System
+- component state-change motion uses 300ms ease; source: motion.json
+- component load motion uses 400ms ease-in-out; source: motion.json
+- component load motion uses 300ms ease; source: motion.json
+- navigation state-change motion uses 300ms ease; source: motion.json
+- navigation load motion uses 200ms ease; source: motion.json
+- navigation state-change motion uses 350ms cubic-bezier(.4,0,.2,1); source: motion.json
+- card state-change motion uses 300ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://benvenusa.com/
 - Page title: Benvenusa Italian Wines
@@ -60,6 +73,12 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 A HISTORY OF THE FUTURE; H2 none observed; navigation PRODUCERS; DISTRIBUTORS
+- Sentence rhythm: 101 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Benvenusa Italian Wines; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgb(255, 255, 255); SECTION:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(172, 0, 239); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgba(0, 0, 0, 0); H1:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +90,12 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 - Media/card aspect stability: image natural sizes include 3456x2182; 1440x959; 1440x960; 0x0; 1440x1074; 1440x960; 1440x960; 0x0; 0x0; 0x0.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2604}
 - Observed media ratios: 3456:2182; 1440:959; 1440:960; 1440:1074; 1440:960; 1440:960; 1440:959; 1440:960; 1440:1074
@@ -90,22 +115,22 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-benvenusa-food-wine-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-benvenusa-food-wine-component-styles.json`
 - Asset CDN and media loading patterns: https://benvenusa.com/media/home.jpg; https://benvenusa.com/media_optimised/Maugeri/Family-pic.jpg/1800/Family-pic.webp; https://benvenusa.com/media_optimised/Lazzaro/Lazzaro-thumbnail.png/1800/Lazzaro-thumbnail.webp; https://benvenusa.com/media_optimised/Doro_Princic_Fabrice_Gallina_2024-7053_2025-03-12-034754_pqvc.jpg/800/Doro_Princic_Fabrice_Gallina_2024-7053_2025-03-12-034754_pqvc.webp; https://benvenusa.com/media_optimised/Doro_Princic_Fabrice_Gallina_2024-7053.jpg/1800/Doro_Princic_Fabrice_Gallina_2024-7053.webp; https://benvenusa.com/media_optimised/Due_del_Monte_Fabrice_Gallina_2024-3341.jpg/1800/Due_del_Monte_Fabrice_Gallina_2024-3341.webp; https://benvenusa.com/media_optimised/hedele/Hedele_Fabrice_Gallina_2024-3653.jpg/1800/Hedele_Fabrice_Gallina_2024-3653.webp; https://benvenusa.com/media_optimised/Ronc_Platat_Fabrice_Gallina_2024-3395.jpg/800/Ronc_Platat_Fabrice_Gallina_2024-3395.webp
 
 ## Motion
-- Page transitions: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: l,once:!0},t&&(this.options={...this.options,...t}),this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:t.rootMargin,threshold:t.threshold}),this.app=t.app||null,this}add(t,o){this.disconnec, ,$!==void 0&&(document.body.style.overflow=$,$=void 0)},Oe=()=>window.requestAnimationFrame(()=>{const e=document.documentElement,t=document.body;if(L===void 0){I={...e.style},L={...t.style};const{scrollY:o,scrollX:n,inne, t.style.height="auto",t.style.overflow="hidden",setTimeout(()=>window.requestAnimationFrame(()=>{const u=i-window.innerHeight;u&&o>=i&&(t.style.top=-(o+u)+"px")}),300)}}),ke=()=>{if(L!==void 0){const e=-parseInt(document.
-- Timing/easing: th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inherit;line-height:inherit, ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;padding:var(--plyr-control-sp, ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-size:15px;font-size:var(--plyr-f, -plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-control-icon-size,18px);pointer-events:none;widt, tion:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr__menu .plyr__control[aria-expanded=true] .plyr__
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, gsap, intersection, keyframes, request_animation_frame, swiper, transform, transition
-- Public CSS/JS motion snippets: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; r__menu{display:flex;position:relative}.plyr__menu .plyr__control svg{transition:transform .3s ease}.plyr__menu .plyr__control[aria-expanded=true] svg{transform:rotate(90deg)}.plyr; ite-space:nowrap;z-index:3}.plyr__menu__container>div{overflow:hidden;transition:height .35s cubic-bezier(.4,0,.2,1),width .35s cubic-bezier(.4,0,.2,1)}.plyr__menu__container:after; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; 0000 0,#0000 70%,#000000bf 0) 50%/100% 8%;background-repeat:no-repeat;animation:l23 1s infinite steps(12)}.loader.is-small{width:20px}.loader:before,.loader:after{content:"";grid-a; r,.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: .7);max-width:100%;min-width:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:; :var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480p; ;padding:calc(var(--plyr-control-spacing, 10px)*.7);position:relative;transition:all .3s ease}.plyr__control svg{fill:currentColor;display:block;height:18px;height:var(--plyr-contr; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0,#0000; th:200px;position:relative;text-shadow:none;transition:box-shadow .3s ease;z-index:0}.plyr audio,.plyr iframe,.plyr video{display:block;height:100%;width:100%}.plyr button{font:inh; ack-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;paddi; ng,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}.plyr__captions span:empty{display:none}@media (min-width:480px){.plyr__captions{font-s; yr-progress-loading-size,25px) 0}}@keyframes plyr-popup{0%{opacity:.5;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes plyr-fade-in{0%{opacity:0}to{opaci
-- JavaScript/runtime motion evidence: l,once:!0},t&&(this.options={...this.options,...t}),this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:t.rootMargin,threshold:t.threshold}),this.app=; ,$!==void 0&&(document.body.style.overflow=$,$=void 0)},Oe=()=>window.requestAnimationFrame(()=>{const e=document.documentElement,t=document.body;if(L===void 0){I={...e.style},L={.; t.style.height="auto",t.style.overflow="hidden",setTimeout(()=>window.requestAnimationFrame(()=>{const u=i-window.innerHeight;u&&o>=i&&(t.style.top=-(o+u)+"px")}),300)}}),ke=()=>{i; ("error",e=>{w.emit("error",e)});let W=!1,Y=!1;function Ve(){W||(W=!0,requestAnimationFrame(()=>{w.emit("scroll",window.scrollY),W=!1}))}window.addEventListener("scroll",Ve);functi; ),W=!1}))}window.addEventListener("scroll",Ve);function He(){Y||(Y=!0,requestAnimationFrame(()=>{w.emit("resize"),Y=!1}))}window.addEventListener("resize",He);var U={exports:{}},Ne; 0:o.getBoundingClientRect())||null;if(n){const i=n.top+window.scrollY;requestAnimationFrame(()=>{document.documentElement.scrollTo({top:Math.abs(i),behavior:t?"auto":"smooth"})})}}; efine(o.component,o)})};let S,G,j;const me=[],ve=[];E(async()=>{const{gsap:e,ScrollTrigger:t,ScrollToPlugin:o}=await import("./gsap-BB26Ig6N.js");return{gsap:e,ScrollTrigger:t,Scro; .component,o)})};let S,G,j;const me=[],ve=[];E(async()=>{const{gsap:e,ScrollTrigger:t,ScrollToPlugin:o}=await import("./gsap-BB26Ig6N.js");return{gsap:e,ScrollTrigger:t,ScrollToPlu
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://benvenusa.com/dist/style-tapx92vm.css; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://www.googletagmanager.com/gtag/js?id=G-Y4S1M1DKR9; https://benvenusa.com/dist/app-CDMiyme9.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +138,7 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 ## Interaction And Components
 - Navigation: PRODUCERS; DISTRIBUTORS
 - Buttons/links: none observed
-- Computed component styles: `assets/2026-06-04-benvenusa-food-wine-component-styles.json`
+- Computed component styles: `assets/2026-06-12-benvenusa-food-wine-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +167,4 @@ Benvenusa Food Wine is captured as a food-beverage, wine, hospitality, culture r
 - Reuse value: useful for homepage food and wine brand if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-benvenusa-food-wine-motion.json`

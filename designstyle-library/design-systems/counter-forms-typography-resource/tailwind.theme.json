@@ -1,0 +1,26 @@
+{
+  "theme": {
+    "extend": {
+      "borderRadius": {
+        "ds-component": "2px"
+      },
+      "colors": {
+        "accent": "#ff6500",
+        "background": "#ffffff",
+        "deep-accent": "#302040",
+        "foreground": "#000000",
+        "foreground-2": "#404040",
+        "foreground-3": "#606060",
+        "foreground-4": "#202020",
+        "neutral-surface": "#e0e0e0",
+        "neutral-surface-2": "#a0a0a0",
+        "neutral-surface-3": "#c0c0c0",
+        "neutral-surface-4": "#808080",
+        "neutral-surface-5": "#efefef"
+      },
+      "spacing": {
+        "ds-component": "24px"
+      }
+    }
+  }
+}

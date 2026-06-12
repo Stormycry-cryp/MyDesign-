@@ -1,0 +1,33 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-supporting-color: #b0c0f0;
+  --ds-color-deep-accent: #001010;
+  --ds-color-supporting-color-2: #d0d0ff;
+  --ds-color-supporting-color-3: #607080;
+  --ds-color-supporting-color-4: #90a0c0;
+  --ds-color-deep-accent-2: #103030;
+  --ds-color-neutral-surface: #c0c0d0;
+  --ds-color-deep-accent-3: #405060;
+  --ds-color-accent: #ff0000;
+  --ds-spacing-component: 12px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-button-load-animation-2000-linear-duration: 2000ms;
+  --ds-motion-motion-button-load-animation-2000-linear-delay: 0ms;
+  --ds-motion-motion-button-load-animation-2000-linear-easing: linear;
+  --ds-motion-motion-card-state-change-opacity-200-linear-duration: 200ms;
+  --ds-motion-motion-card-state-change-opacity-200-linear-delay: 0ms;
+  --ds-motion-motion-card-state-change-opacity-200-linear-easing: linear;
+  --ds-motion-motion-component-state-change-opacity-200-linear-duration: 200ms;
+  --ds-motion-motion-component-state-change-opacity-200-linear-delay: 0ms;
+  --ds-motion-motion-component-state-change-opacity-200-linear-easing: linear;
+  --ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-duration: 250ms;
+  --ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-delay: 0ms;
+  --ds-motion-motion-reveal-viewport-transform-250-cubic-bezier-0-0-0-25-1-easing: cubic-bezier(0, 0, 0.25, 1);
+  --ds-motion-motion-card-state-change-all-50-linear-duration: 50ms;
+  --ds-motion-motion-card-state-change-all-50-linear-delay: 0ms;
+  --ds-motion-motion-card-state-change-all-50-linear-easing: linear;
+  --ds-motion-motion-component-load-animation-1300-linear-duration: 1300ms;
+  --ds-motion-motion-component-load-animation-1300-linear-delay: 0ms;
+  --ds-motion-motion-component-load-animation-1300-linear-easing: linear;
+}

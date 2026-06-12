@@ -1,0 +1,1067 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：transform missing -> translate3d(-70%,-60%,0)，900ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 900,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-transform-900-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-contained__qMN1S:after",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-contained__qMN1S:after { transition: transform .9s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "translate3d(-70%,-60%,0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：all，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-all-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9 { transition: all .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-brown__sjk4Z svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-orange__f6_tK svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-orange__f6_tK svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-white__0hlgs svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-outlined__z_8B9.cta_--is-white__0hlgs svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：all，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-all-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-text__oeq0q",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-text__oeq0q { transition: all .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-text__oeq0q .cta_label__svrSv:after",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-text__oeq0q .cta_label__svrSv:after { transition: background-color .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-brown__sjk4Z svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-brown__sjk4Z svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-orange__f6_tK svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-orange__f6_tK svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：fill，700ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-fill-700-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-white__0hlgs svg",
+      "selector_role": "button",
+      "snippet": ".cta_cta__g1ZkP.cta_--is-text__oeq0q.cta_--is-white__0hlgs svg { transition: fill .7s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：background-color，300ms ease，load 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-load-background-color-300-ease",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:before { transition: background-color .3s ease; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation scaleY(.75) -> scaleY(1)，1200ms ease-in-out，load 触发",
+      "duration_ms": 1200,
+      "easing": "ease-in-out",
+      "from": "scaleY(.75)",
+      "id": "motion-button-load-animation-1200-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%,80%,to",
+          "values": {
+            "opacity": "0",
+            "transform": "scaleY(.75)"
+          }
+        },
+        {
+          "step": "20%",
+          "values": {
+            "opacity": "1",
+            "transform": "scaleY(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:before { animation: cta_pulse__QN_R6 calc(1.2s) ease-in-out infinite; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "scaleY(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：opacity，500ms cubic-bezier(.32,.72,0,1)，state-change 触发",
+      "duration_ms": 500,
+      "easing": "cubic-bezier(.32,.72,0,1)",
+      "from": "missing",
+      "id": "motion-overlay-state-change-opacity-500-cubic-bezier-32-72-0-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".dialog_overlay__4E4N1",
+      "selector_role": "overlay",
+      "snippet": ".dialog_overlay__4E4N1 { transition: opacity .5s cubic-bezier(.32,.72,0,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(0deg) -> rotate(1turn)，400ms linear，load 触发",
+      "duration_ms": 400,
+      "easing": "linear",
+      "from": "rotate(0deg)",
+      "id": "motion-component-load-animation-400-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": "#nprogress .spinner-icon",
+      "selector_role": "component",
+      "snippet": "#nprogress .spinner-icon { animation: nprogress-spinner .4s linear infinite; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "rotate(1turn)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：grid-template-rows，600ms cubic-bezier(.4,.05,.32,1)，state-change 触发",
+      "duration_ms": 600,
+      "easing": "cubic-bezier(.4,.05,.32,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-grid-template-rows-600-cubic-bezier-4-05-32-1",
+      "keyframes": [],
+      "property": "grid-template-rows",
+      "reduced_motion": "missing",
+      "selector": ".watch-finder-styles_disclaimer-wrapper__7gcd2",
+      "selector_role": "component",
+      "snippet": ".watch-finder-styles_disclaimer-wrapper__7gcd2 { transition: grid-template-rows .6s cubic-bezier(.4,.05,.32,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，800ms cubic-bezier(.4,.05,.32,1)，state-change 触发",
+      "duration_ms": 800,
+      "easing": "cubic-bezier(.4,.05,.32,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-800-cubic-bezier-4-05-32-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".watch-finder-styles_disclamer__d4VOa",
+      "selector_role": "component",
+      "snippet": ".watch-finder-styles_disclamer__d4VOa { transition: opacity .8s cubic-bezier(.4,.05,.32,1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：all missing -> translateY(350%)，300ms ease-in，viewport 触发",
+      "duration_ms": 300,
+      "easing": "ease-in",
+      "from": "missing",
+      "id": "motion-reveal-viewport-all-300-ease-in",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Informer-animated",
+      "selector_role": "reveal",
+      "snippet": ".uppy-Informer-animated { transition: all .3s ease-in; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translateY(350%)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateZ(0)，180ms ease-in-out，state-change 触发",
+      "duration_ms": 180,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-all-180-ease-in-out",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Root [aria-label][role~=tooltip]:after",
+      "selector_role": "component",
+      "snippet": ".uppy-Root [aria-label][role~=tooltip]:after { transition: all .18s ease-in-out 0s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all missing -> translateZ(0)，180ms ease-in-out，state-change 触发",
+      "duration_ms": 180,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-all-180-ease-in-out",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Root [aria-label][role~=tooltip]:before",
+      "selector_role": "component",
+      "snippet": ".uppy-Root [aria-label][role~=tooltip]:before { transition: all .18s ease-in-out 0s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，300ms ease-out，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-component-state-change-width-300-ease-out",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".uppy-StatusBar-progress",
+      "selector_role": "component",
+      "snippet": ".uppy-StatusBar-progress { transition: width .3s ease-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "0 0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "64px 0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".uppy-StatusBar-progress.is-indeterminate",
+      "selector_role": "component",
+      "snippet": ".uppy-StatusBar-progress.is-indeterminate { animation: uppy-StatusBar-ProgressStripes 1s linear infinite; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(0deg) -> rotate(1turn)，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "rotate(0deg)",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".uppy-StatusBar-spinner",
+      "selector_role": "component",
+      "snippet": ".uppy-StatusBar-spinner { animation: uppy-StatusBar-spinnerAnimation 1s linear 0ms; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "rotate(1turn)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：stroke-dashoffset，500ms ease-out，state-change 触发",
+      "duration_ms": 500,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-stroke-dashoffset-500-ease-out",
+      "keyframes": [],
+      "property": "stroke-dashoffset",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progressIcon--progress",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progressIcon--progress { transition: stroke-dashoffset .5s ease-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translate3d(0,-105%,0)，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-250-ease-in-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".uppy-transition-slideDownUp-enter",
+      "selector_role": "component",
+      "snippet": ".uppy-transition-slideDownUp-enter { transition: transform .25s ease-in-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translate3d(0,-105%,0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translate3d(0,-105%,0)，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".uppy-transition-slideDownUp-enter",
+      "selector_role": "component",
+      "snippet": ".uppy-transition-slideDownUp-enter { transition: opacity .25s ease-in-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translate3d(0,-105%,0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> translateZ(0)，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-250-ease-in-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".uppy-transition-slideDownUp-leave",
+      "selector_role": "component",
+      "snippet": ".uppy-transition-slideDownUp-leave { transition: transform .25s ease-in-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity missing -> translateZ(0)，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".uppy-transition-slideDownUp-leave",
+      "selector_role": "component",
+      "snippet": ".uppy-transition-slideDownUp-leave { transition: opacity .25s ease-in-out; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translateZ(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：color，500ms cubic-bezier(.19,1,.22,1)，state-change 触发",
+      "duration_ms": 500,
+      "easing": "cubic-bezier(.19,1,.22,1)",
+      "from": "missing",
+      "id": "motion-button-state-change-color-500-cubic-bezier-19-1-22-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".back-button_back-button__YK_xu",
+      "selector_role": "button",
+      "snippet": ".back-button_back-button__YK_xu { transition: color .5s cubic-bezier(.19,1,.22,1); }",
+      "source": "https://www.patek.com/_next/static/css/b0e6d2ae3e3ba3e8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航hover：transform missing -> none，700ms cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)，hover 触发；样本 MENU",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)",
+      "from": "missing",
+      "id": "motion-navigation-hover-transform-700-cubic-bezier-0-19-1-0-22-1-cubic-bezier-0-4-0-05-0-32-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-0\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"bottom\": \"900.938px\", \"transform\": \"none\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "none",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航focus：transform missing -> none，700ms cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)，focus 触发；样本 MENU",
+      "duration_ms": 700,
+      "easing": "cubic-bezier(0.19, 1, 0.22, 1), cubic-bezier(0.4, 0.05, 0.32, 1)",
+      "from": "missing",
+      "id": "motion-navigation-focus-transform-700-cubic-bezier-0-19-1-0-22-1-cubic-bezier-0-4-0-05-0-32-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-0\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"bottom\": \"900.938px\", \"transform\": \"none\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "none",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-button-load-animation-1200-missing lacks easing",
+    "motion-overlay-load-animation-300-missing lacks easing",
+    "motion-overlay-load-animation-300-missing lacks easing",
+    "motion-overlay-state-change-all-200-missing lacks easing",
+    "motion-overlay-load-animation-300-missing lacks easing",
+    "motion-overlay-load-animation-300-missing lacks easing",
+    "motion-component-state-change-background-color-300-missing lacks easing",
+    "motion-component-state-change-color-300-missing lacks easing",
+    "motion-component-state-change-height-200-missing lacks easing",
+    "motion-component-state-change-background-color-missing-missing lacks duration_ms",
+    "motion-component-state-change-background-color-missing-missing lacks easing",
+    "motion-card-state-change-all-missing-ease lacks duration_ms",
+    "motion-card-state-change-all-200-missing lacks easing",
+    "motion-card-state-change-all-200-missing lacks easing",
+    "motion-card-state-change-all-200-missing lacks easing",
+    "motion-card-state-change-all-200-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:first-child:before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:first-child:before { animation: missing missing missing calc(1.2s/-8*1); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(2):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(2):before { animation: missing missing missing calc(1.2s/-8*2); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(3):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(3):before { animation: missing missing missing calc(1.2s/-8*3); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(4):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(4):before { animation: missing missing missing calc(1.2s/-8*4); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(5):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(5):before { animation: missing missing missing calc(1.2s/-8*5); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(6):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(6):before { animation: missing missing missing calc(1.2s/-8*6); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation，1200ms missing，load 触发",
+      "duration_ms": 1200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-load-animation-1200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".cta_line__xcZdo:nth-child(7):before",
+      "selector_role": "button",
+      "snippet": ".cta_line__xcZdo:nth-child(7):before { animation: missing missing missing calc(1.2s/-8*7); }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation 0 -> 1，300ms missing，load 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-overlay-load-animation-300-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".dialog_overlay__4E4N1[data-state=open]",
+      "selector_role": "overlay",
+      "snippet": ".dialog_overlay__4E4N1[data-state=open] { animation: dialog_fade-in__6MoNj .3s; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation 0 -> 0，300ms missing，load 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-overlay-load-animation-300-missing",
+      "keyframes": [
+        {
+          "step": "to",
+          "values": {
+            "display": "none",
+            "opacity": "0"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".dialog_overlay__4E4N1[data-state=closed]",
+      "selector_role": "overlay",
+      "snippet": ".dialog_overlay__4E4N1[data-state=closed] { animation: dialog_fade-out__iP50A .3s forwards; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：all missing -> translate(-50%,-50%)，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-state-change-all-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".dialog_content__7PHO8",
+      "selector_role": "overlay",
+      "snippet": ".dialog_content__7PHO8 { transition-property: all; transition-duration: .2s; transition-timing-function: missing; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "translate(-50%,-50%)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation 0 -> 1，300ms missing，load 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-overlay-load-animation-300-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".dialog_content__7PHO8[data-state=open]",
+      "selector_role": "overlay",
+      "snippet": ".dialog_content__7PHO8[data-state=open] { animation: dialog_fade-in__6MoNj .3s; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation 0 -> 0，300ms missing，load 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-overlay-load-animation-300-missing",
+      "keyframes": [
+        {
+          "step": "to",
+          "values": {
+            "display": "none",
+            "opacity": "0"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".dialog_content__7PHO8[data-state=closed]",
+      "selector_role": "overlay",
+      "snippet": ".dialog_content__7PHO8[data-state=closed] { animation: dialog_fade-out__iP50A .3s forwards; }",
+      "source": "https://www.patek.com/_next/static/css/401b284d26583321.css",
+      "to": "0",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".uppy-c-btn",
+      "selector_role": "component",
+      "snippet": ".uppy-c-btn { transition-property: background-color; transition-duration: .3s; transition-timing-function: missing; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-color-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".uppy-c-btn",
+      "selector_role": "component",
+      "snippet": ".uppy-c-btn { transition-property: color; transition-duration: .3s; transition-timing-function: missing; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：height，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-height-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "height",
+      "reduced_motion": "missing",
+      "selector": ".uppy-StatusBar",
+      "selector_role": "component",
+      "snippet": ".uppy-StatusBar { transition: height .2s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".uppy-StatusBar-progress",
+      "selector_role": "component",
+      "snippet": ".uppy-StatusBar-progress { transition: background-color; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：all missing -> translate(-50%,-50%)，missingms ease，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-card-state-change-all-missing-ease",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progress",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progress { transition: all .35 ease; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "translate(-50%,-50%)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：all，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-all-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progressIcon--play",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progressIcon--play { transition: all .2s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：all，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-all-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progressIcon--cancel",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progressIcon--cancel { transition: all .2s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：all，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-all-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progressIcon--pause",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progressIcon--pause { transition: all .2s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：all，200ms missing，state-change 触发",
+      "duration_ms": 200,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-all-200-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".uppy-Dashboard-Item-progressIcon--check",
+      "selector_role": "card",
+      "snippet": ".uppy-Dashboard-Item-progressIcon--check { transition: all .2s; }",
+      "source": "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "reference_path": "references/2026-06-05-patek-philippe-official.md",
+  "slug": "patek-philippe-official",
+  "source_motion_path": "assets/2026-06-12-patek-philippe-official-motion.json",
+  "source_urls": [
+    "https://www.patek.com/_next/static/css/401b284d26583321.css",
+    "https://www.patek.com/_next/static/css/161681329190b1c8.css",
+    "https://www.patek.com/_next/static/css/b0e6d2ae3e3ba3e8.css"
+  ],
+  "title": "Patek Philippe Official"
+}

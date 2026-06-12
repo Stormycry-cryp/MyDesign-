@@ -8,6 +8,7 @@
 - a Notebooks | rect=100.2x40@70,78.5 | display=flex; position=static; color=rgb(197, 197, 197); border=0px none rgb(197, 197, 197); fontFamily=__Inter_e798ec, __Inter_Fallback_e798ec, -apple-system, "system-ui", "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; fontSize=16px; fontWeight=600; lineHeight=24px; padding=8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Pricing | rect=70.3x40@317.8,78.5 | display=flex; position=static; color=rgb(197, 197, 197); border=0px none rgb(197, 197, 197); fontFamily=__Inter_e798ec, __Inter_Fallback_e798ec, -apple-system, "system-ui", "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; fontSize=16px; fontWeight=600; lineHeight=24px; padding=8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 2, image count 40, document height 7709.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -52,8 +53,8 @@
 - a Notebooks | rect=100.2x40@70,78.5 | display=flex; position=static; color=rgb(197, 197, 197); border=0px none rgb(197, 197, 197); fontFamily=__Inter_e798ec, __Inter_Fallback_e798ec, -apple-system, "system-ui", "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; fontSize=16px; fontWeight=600; lineHeight=24px; padding=8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - button Resources | rect=115.6x40@186.2,78.5 | display=flex; position=relative; color=rgb(197, 197, 197); border=0px none rgb(0, 0, 0); fontFamily=__Inter_e798ec, __Inter_Fallback_e798ec, -apple-system, "system-ui", "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; fontSize=16px; fontWeight=600; lineHeight=24px; padding=8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Pricing | rect=70.3x40@317.8,78.5 | display=list-item; position=static; color=rgb(197, 197, 197); border=0px none rgb(197, 197, 197); fontFamily=__Inter_e798ec, __Inter_Fallback_e798ec, -apple-system, "system-ui", "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; fontSize=14px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 2px; 2px; 2px; 4px; 4px; 4px; 4px; 4px; 4px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 2px; 2px; 2px; 4px; 4px; 4px; 4px; 4px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Observable Notebooks 2.0 is here! Read the preview announcement
@@ -78,9 +79,9 @@
 ## Feedback state
 
 ### Style Evidence
-- Button Try it for free | hover={'backgroundColor': 'rgb(247, 247, 247)', 'border': '2px solid rgb(247, 247, 247)', 'borderBottom': '2px solid rgb(247, 247, 247)', 'borderLeft': '2px solid rgb(247, 247, 247)', 'borderRight': '2px solid rgb(247, 247, 247)', 'borderTop': '2px solid rgb(247, 247, 247)', 'cursor': 'pointer'} | focus={'backgroundColor': 'rgb(247, 247, 247)', 'border': '2px solid rgb(247, 247, 247)', 'borderBottom': '2px solid rgb(247, 247, 247)', 'borderLeft': '2px solid rgb(247, 247, 247)', 'borderRight': '2px solid rgb(247, 247, 247)', 'borderTop': '2px solid rgb(247, 247, 247)', 'cursor': 'pointer'}
-- Button Explore the docs | hover={'backgroundColor': 'rgba(255, 255, 255, 0.024)'} | focus={'backgroundColor': 'rgba(255, 255, 255, 0.03)'}
-- Button Sign up for notebooks | hover={'backgroundColor': 'rgb(49, 49, 49)', 'border': '2px solid rgb(49, 49, 49)', 'borderBottom': '2px solid rgb(49, 49, 49)', 'borderLeft': '2px solid rgb(49, 49, 49)', 'borderRight': '2px solid rgb(49, 49, 49)', 'borderTop': '2px solid rgb(49, 49, 49)', 'cursor': 'pointer'} | focus={'backgroundColor': 'rgb(54, 54, 54)', 'border': '2px solid rgb(54, 54, 54)', 'borderBottom': '2px solid rgb(54, 54, 54)', 'borderLeft': '2px solid rgb(54, 54, 54)', 'borderRight': '2px solid rgb(54, 54, 54)', 'borderTop': '2px solid rgb(54, 54, 54)', 'cursor': 'pointer'}
+- Button Try it for free | hover={'backgroundColor': 'rgb(249, 249, 249)', 'border': '2px solid rgb(249, 249, 249)', 'borderBottom': '2px solid rgb(249, 249, 249)', 'borderLeft': '2px solid rgb(249, 249, 249)', 'borderRight': '2px solid rgb(249, 249, 249)', 'borderTop': '2px solid rgb(249, 249, 249)', 'cursor': 'pointer'} | focus={'backgroundColor': 'rgb(247, 247, 247)', 'border': '2px solid rgb(247, 247, 247)', 'borderBottom': '2px solid rgb(247, 247, 247)', 'borderLeft': '2px solid rgb(247, 247, 247)', 'borderRight': '2px solid rgb(247, 247, 247)', 'borderTop': '2px solid rgb(247, 247, 247)', 'cursor': 'pointer'}
+- Button Explore the docs | hover={'backgroundColor': 'rgba(255, 255, 255, 0.03)'} | focus={'backgroundColor': 'rgba(255, 255, 255, 0.04)'}
+- Button Sign up for notebooks | hover={'backgroundColor': 'rgb(54, 54, 54)', 'border': '2px solid rgb(54, 54, 54)', 'borderBottom': '2px solid rgb(54, 54, 54)', 'borderLeft': '2px solid rgb(54, 54, 54)', 'borderRight': '2px solid rgb(54, 54, 54)', 'borderTop': '2px solid rgb(54, 54, 54)', 'cursor': 'pointer'} | focus={'backgroundColor': 'rgb(54, 54, 54)', 'border': '2px solid rgb(54, 54, 54)', 'borderBottom': '2px solid rgb(54, 54, 54)', 'borderLeft': '2px solid rgb(54, 54, 54)', 'borderRight': '2px solid rgb(54, 54, 54)', 'borderTop': '2px solid rgb(54, 54, 54)', 'cursor': 'pointer'}
 - infer only when backed by transition/animation evidence or visible screenshot states.
 
 ### Content Samples

@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 28, document height 7412.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -20,9 +21,7 @@
 - button Close the menu and stay on this website | rect=25x25@1395,24.5 | display=inline-block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=18px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - button Open the search Search | rect=79.7x32@104,88 | display=flex; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="apax tag heuer"; fontSize=12px; fontWeight=400; lineHeight=18px; padding=8px; gap=8px; transition=0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1
 - a My TAG Heuer account | rect=32x32@1344,87 | display=flex; position=relative; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="apax tag heuer"; fontSize=12px; fontWeight=400; lineHeight=18px; padding=8px; gap=8px; transition=0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1
-- button SUBSCRIBE TO THE NEWSLETTER | rect=183.5x28.8@1040,6785.3 | display=inline-block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=500; letterSpacing=2px; lineHeight=14.4px; padding=0px 0px 0px 30px; transition=color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; transitionDuration=0.15s, 0.15s, 0.15s, 0.15s; transitionTimingFunction=ease-in-out, ease-in-out, ease-in-out, ease-in-out; opacity=1
-- button See the countdown to the next race | rect=120x70@1360,293 | display=block; position=absolute; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; padding=1px 6px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- button Close | rect=24x24@1348,316 | display=block; position=absolute; color=rgb(112, 112, 112); backgroundColor=rgb(255, 255, 255); border=1px solid rgb(112, 112, 112); borderRadius=50%; fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; padding=5px; transition=opacity 0.5s 0.5s; transitionDuration=0.5s; transitionTimingFunction=ease
+- button SUBSCRIBE TO THE NEWSLETTER | rect=183.5x28.8@1040,6721.3 | display=inline-block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=500; letterSpacing=2px; lineHeight=14.4px; padding=0px 0px 0px 30px; transition=color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; transitionDuration=0.15s, 0.15s, 0.15s, 0.15s; transitionTimingFunction=ease-in-out, ease-in-out, ease-in-out, ease-in-out; opacity=1
 
 ### Content Samples
 - Hong Kong SAR
@@ -37,16 +36,16 @@
 ## Card
 
 ### Style Evidence
-- div collection-tile | rect=453.3x416@32,2952.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=453.3x416@493.3,2952.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=453.3x416@954.7,2952.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=453.3x416@32,3376.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=453.3x416@493.3,3376.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=453.3x416@954.7,3376.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=516x516@200,3924.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- div collection-tile | rect=516x516@724,3924.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 50%; 10px; 50%
-- border radii samples recorded below.
+- div collection-tile | rect=453.3x416@32,2888.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=453.3x416@493.3,2888.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=453.3x416@954.7,2888.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=453.3x416@32,3312.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=453.3x416@493.3,3312.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=453.3x416@954.7,3312.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=516x516@200,3860.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- div collection-tile | rect=516x516@724,3860.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=Apax-TAG-Heuer, sans-serif; fontSize=12px; fontWeight=400; lineHeight=18px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; 10px; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - None recorded.

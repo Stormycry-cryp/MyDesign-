@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-overpass-software-platform-component-styles.json",
+  "component_json_path": "assets/2026-06-12-overpass-software-platform-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/overpass-software-platform/component-styles.md",
     "moodboard": "design-systems/overpass-software-platform/moodboard.svg",
+    "motion": "design-systems/overpass-software-platform/motion.json",
+    "motion_presets": "design-systems/overpass-software-platform/motion-presets.css",
     "palette": "design-systems/overpass-software-platform/palette.md",
-    "tokens": "design-systems/overpass-software-platform/tokens.json"
+    "tailwind_theme": "design-systems/overpass-software-platform/tailwind.theme.json",
+    "tokens": "design-systems/overpass-software-platform/tokens.json",
+    "variables_css": "design-systems/overpass-software-platform/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/overpass-software-platform/assets.md",
@@ -35,6 +39,36 @@
     "scene": "dimensions/overpass-software-platform/scene.md",
     "type_copy": "dimensions/overpass-software-platform/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1517x2284; 2308x86; 2308x86.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 11184}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1517:2284; 2308:86; 2308:86",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -43,7 +77,7 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "strong",
+    "motion_code": "medium",
     "screenshot": "strong",
     "type_copy": "strong"
   },

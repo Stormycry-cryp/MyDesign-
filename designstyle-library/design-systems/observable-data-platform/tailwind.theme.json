@@ -1,0 +1,23 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "accent": "#30d0c0",
+        "accent-2": "#4060c0",
+        "accent-3": "#ffe89d",
+        "background": "#ffffff",
+        "deep-accent": "#204040",
+        "deep-accent-2": "#207060",
+        "foreground": "#202020",
+        "foreground-2": "#505050",
+        "neutral-surface": "#f0f0f0",
+        "neutral-surface-2": "#c0c0c0",
+        "neutral-surface-3": "#a0a0a0",
+        "supporting-color": "#20a090"
+      },
+      "spacing": {
+        "ds-component": "8px"
+      }
+    }
+  }
+}

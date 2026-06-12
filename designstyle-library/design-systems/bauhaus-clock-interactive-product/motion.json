@@ -1,0 +1,36 @@
+{
+  "items": [],
+  "missing": [
+    "motion-bauhaus-clock-interactive-product-fallback lacks selector",
+    "motion-bauhaus-clock-interactive-product-fallback lacks property"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "Motion evidence was summarized from the L3 reference because structured motion JSON was missing.",
+      "duration_ms": 1000,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-bauhaus-clock-interactive-product-fallback",
+      "keyframes": [],
+      "missing_fields": [
+        "selector",
+        "property"
+      ],
+      "property": "missing",
+      "reduced_motion": "missing",
+      "selector": "missing",
+      "selector_role": "component",
+      "snippet": "",
+      "source": "L3 Motion Code And Runtime Evidence",
+      "to": "missing",
+      "trigger": "hover"
+    }
+  ],
+  "reference_path": "references/2026-06-03-bauhaus-clock-interactive-product.md",
+  "slug": "bauhaus-clock-interactive-product",
+  "source_motion_path": "assets/2026-06-12-bauhaus-clock-interactive-product-motion.json",
+  "source_urls": [],
+  "title": "Bauhaus Clock Interactive Product"
+}

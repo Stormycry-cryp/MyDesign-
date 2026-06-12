@@ -1,0 +1,27 @@
+.ds-motion-motion-navigation-state-change-color-300-ease-in-out {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-color-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-button-state-change-color-300-ease-in-out {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-state-change-color-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-color-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-color-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-card-state-change-color-300-ease-in-out {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-card-state-change-color-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-color-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-color-300-ease-in-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -1,42 +1,363 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: e}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{max-width:100%}.mw1{max-width:var(--max-width-1)}., v-btm{vertical-align:bottom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition, .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;tran
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: function(){return l}});let r=n(67294),i=n(84474),s="function"==typeof IntersectionObserver,o=new Map,a=[];function l(e){let{rootRef:t,rootMargin:n,disabled:l}=e,c=l||!s,[u,d]=(0,r.useState)(!1),h=(0,r.useRef)(null),f=(0,, if(r&&(t=o.get(r)))return t;let i=new Map;return t={id:n,observer:new IntersectionObserver(e=>{e.forEach(e=>{let t=i.get(e.target),n=e.isIntersecting||e.intersectionRatio>0;t&&n&&t(n)})},e),elements:i},a.push(n),o.set(n,, ,t.current,o),s=t.current[a]||0,c=n-s,d=l()(.45,-.02,.24,1.04),m=null;requestAnimationFrame(function e(o){m||(m=o);let r=o-m;t.current&&(t.current[a]=s+c*d(Math.min(r/2e3,1))),r<2e3&&requestAnimationFrame(e)})},[]),N=(0,h, );let r=o-m;t.current&&(t.current[a]=s+c*d(Math.min(r/2e3,1))),r<2e3&&requestAnimationFrame(e)})},[]),N=(0,h.useCallback)(()=>{f(e=>{let t=e+1;return t>=n.length-2?2:t})},[n.length]),C=(0,h.useCallback)(()=>{w.current&&cl
-  - Timing/easing: link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{max-width:100%}.mw1{max-width:var(--max-width-1)}., tom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition, ,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;tran, y .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;transition:opacity .15s ease-in}.hide-child:active .child,.hide-ch, :hover{opacity:1}.hide-child .child{opacity:0;transition:opacity .15s ease-in}.hide-child:active .child,.hide-child:focus .child,.hide-child:hover .child,.show-children .show-child{opacity:1;transition:opaci
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: e}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{m; v-btm{vertical-align:bottom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15; .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glo; ity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;transition:opac; ase-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;transition:opacity .15s ease-in}.hide-child:active .child,.hide-child:focus .child,.hide-child:hover .child,.s; --tw-scale-x)) scaleY(var(--tw-scale-y))}.tw-animate-\[fadeIn_100ms\]{animation:fadeIn .1s}.tw-cursor-default{cursor:default}.tw-cursor-not-allowed{cursor:not-allowed}.tw-cursor-po; troke:#fff;stroke-opacity:.2;stroke-dasharray:1 5;stroke-dashoffset:0;animation:dash .4s linear infinite}.balanced{text-wrap:balance}@keyframes scrolling{0%{transform:translateX(ca; kground-color:#ffe89d}to{background-color:var(--white)}}.yellow-flash{animation-name:yellow-flash;animation-duration:.7s;animation-iteration-count:1;animation-timing-function:ease-
-  - Public CSS/JS probe keywords: animation, easing, gsap, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: e}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{m; v-btm{vertical-align:bottom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15; .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glo; ity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;transition:opac; ase-in}.glow:focus,.glow:hover{opacity:1}.hide-child .child{opacity:0;transition:opacity .15s ease-in}.hide-child:active .child,.hide-child:focus .child,.hide-child:hover .child,.s; --tw-scale-x)) scaleY(var(--tw-scale-y))}.tw-animate-\[fadeIn_100ms\]{animation:fadeIn .1s}.tw-cursor-default{cursor:default}.tw-cursor-not-allowed{cursor:not-allowed}.tw-cursor-po; troke:#fff;stroke-opacity:.2;stroke-dasharray:1 5;stroke-dashoffset:0;animation:dash .4s linear infinite}.balanced{text-wrap:balance}@keyframes scrolling{0%{transform:translateX(ca; kground-color:#ffe89d}to{background-color:var(--white)}}.yellow-flash{animation-name:yellow-flash;animation-duration:.7s;animation-iteration-count:1;animation-timing-function:ease-; kground-color:var(--white)}}.yellow-flash{animation-name:yellow-flash;animation-duration:.7s;animation-iteration-count:1;animation-timing-function:ease-in-out}@media print{.dn-prin; te)}}.yellow-flash{animation-name:yellow-flash;animation-duration:.7s;animation-iteration-count:1;animation-timing-function:ease-in-out}@media print{.dn-print{display:none!importan
-  - Exact motion parameters: e}.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{m; v-btm{vertical-align:bottom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15; .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glo; --tw-scale-x)) scaleY(var(--tw-scale-y))}.tw-animate-\[fadeIn_100ms\]{animation:fadeIn .1s}.tw-cursor-default{cursor:default}.tw-cursor-not-allowed{cursor:not-allowed}.tw-cursor-po; troke:#fff;stroke-opacity:.2;stroke-dasharray:1 5;stroke-dashoffset:0;animation:dash .4s linear infinite}.balanced{text-wrap:balance}@keyframes scrolling{0%{transform:translateX(ca; kground-color:#ffe89d}to{background-color:var(--white)}}.yellow-flash{animation-name:yellow-flash;animation-duration:.7s;animation-iteration-count:1;animation-timing-function:ease-; link:focus,.link:hover,.link:link,.link:visited{transition:color .15s ease-in}.link:focus{outline:1px dotted currentColor}.list{list-style-type:none}.mw-100{max-width:100%}.mw1{max; tom}.dim{opacity:1}.dim,.dim:focus,.dim:hover{transition:opacity .15s ease-in}.dim:focus,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:f; ,.dim:hover{opacity:.5}.dim:active{opacity:.8;transition:opacity .15s ease-out}.glow,.glow:focus,.glow:hover{transition:opacity .15s ease-in}.glow:focus,.glow:hover{opacity:1}.hide; ty:.1}.o-05{opacity:.05}.o-025{opacity:.025}.o-0{opacity:0}.rotate-45{transform:rotate(45deg)}.rotate-90{transform:rotate(90deg)}.rotate-135{transform:rotate(135deg)}.rotate-180{tr
-  - JavaScript/runtime motion evidence: function(){return l}});let r=n(67294),i=n(84474),s="function"==typeof IntersectionObserver,o=new Map,a=[];function l(e){let{rootRef:t,rootMargin:n,disabled:l}=e,c=l||!s,[u,d]=(0,r.; if(r&&(t=o.get(r)))return t;let i=new Map;return t={id:n,observer:new IntersectionObserver(e=>{e.forEach(e=>{let t=i.get(e.target),n=e.isIntersecting||e.intersectionRatio>0;t&&n&&t; ,t.current,o),s=t.current[a]||0,c=n-s,d=l()(.45,-.02,.24,1.04),m=null;requestAnimationFrame(function e(o){m||(m=o);let r=o-m;t.current&&(t.current[a]=s+c*d(Math.min(r/2e3,1))),r<2e; );let r=o-m;t.current&&(t.current[a]=s+c*d(Math.min(r/2e3,1))),r<2e3&&requestAnimationFrame(e)})},[]),N=(0,h.useCallback)(()=>{f(e=>{let t=e+1;return t>=n.length-2?2:t})},[n.length; anges),u&&i([u]),l(function(o){r=m(e,a=d("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){a.value=performance.now()-o.timeStamp,r(!0)}; m(e,a=d("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){a.value=performance.now()-o.timeStamp,r(!0)})})}))},v=!1,E=-1,S=function(e,t); e:!0})}),h(s,!0),l(function(o){r=m(e,a=d("LCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){a.value=performance.now()-o.timeStamp,G[a.id; {return console.warn("Invalid property",t,"set to",e,"Missing plugin? gsap.registerPlugin()")},ta=function(t,e){return!e&&console.warn(t)},to=function(t,e){return t&&(tr[t]=e)&&ti&
-  - Stylesheet evidence: https://observablehq.com/_next/static/css/687942b053c8dbbd.css; https://www.googletagmanager.com/gtag/js?id=G-9B88TP6PKQ; https://observablehq.com/_next/static/chunks/polyfills-42372ed130431b0a.js; https://observablehq.com/_next/static/chunks/8293.6bd0f30ffc1ddc6f.js; https://observablehq.com/_next/static/chunks/3838-4b8e02e8f55e9cac.js; https://observablehq.com/_next/static/chunks/2615.aaea5e649739b538.js; https://observablehq.com/_next/static/chunks/6096.a7b33318bc5cff59.js; https://observablehq.com/_next/static/chunks/webpack-f7cd337882bd64b0.js
-  - Interpreted motion tags: restrained, scroll-reveal
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://observablehq.com/_next/static/css/687942b053c8dbbd.css; https://www.googletagmanager.com/gtag/js?id=G-9B88TP6PKQ; https://observablehq.com/_next/static/chunks/polyfills-42372ed130431b0a.js; https://observablehq.com/_next/static/chunks/8293.6bd0f30ffc1ddc6f.js; https://observablehq.com/_next/static/chunks/3838-4b8e02e8f55e9cac.js; https://observablehq.com/_next/static/chunks/2615.aaea5e649739b538.js; https://observablehq.com/_next/static/chunks/6096.a7b33318bc5cff59.js; https://observablehq.com/_next/static/chunks/webpack-f7cd337882bd64b0.js; https://observablehq.com/_next/static/chunks/framework-6761de23ac53dea2.js; https://observablehq.com/_next/static/chunks/main-c58989c3021235ab.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-observable-data-platform-component-styles.json`
-  - Asset CDN and media loading patterns: https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://observablehq.com/_next/image?url=https%3A%2F%2Fstatic.observablehq.com%2Fassets%2Fmarketing%2Fcomponents%2Fhome-hero%2Fcells%2FChoropleth.png&w=640&q=75; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/ParallelCoordinates.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/Calendar.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/WrappedFacet.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/FacetedScatter.svg; https://static.observablehq.com/assets/marketing/components/home-hero/cells/PowerPlantTable.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, intersection, keyframes, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | color | 150ms | 0ms | ease-in | 组件state-change：color，150ms ease-in，state-change 触发 |
+| component | active | color | 150ms | 0ms | ease-in | 组件active：color，150ms ease-in，active 触发 |
+| component | focus | color | 150ms | 0ms | ease-in | 组件focus：color，150ms ease-in，focus 触发 |
+| component | hover | color | 150ms | 0ms | ease-in | 组件hover：color，150ms ease-in，hover 触发 |
+| component | state-change | color | 150ms | 0ms | ease-in | 组件state-change：color，150ms ease-in，state-change 触发 |
+| component | state-change | color | 150ms | 0ms | ease-in | 组件state-change：color，150ms ease-in，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease-in | 组件state-change：opacity，150ms ease-in，state-change 触发 |
+| component | focus | opacity | 150ms | 0ms | ease-in | 组件focus：opacity，150ms ease-in，focus 触发 |
+| component | hover | opacity | 150ms | 0ms | ease-in | 组件hover：opacity，150ms ease-in，hover 触发 |
+| component | active | opacity | 150ms | 0ms | ease-out | 组件active：opacity，150ms ease-out，active 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease-in | 组件state-change：opacity，150ms ease-in，state-change 触发 |
+| component | focus | opacity | 150ms | 0ms | ease-in | 组件focus：opacity，150ms ease-in，focus 触发 |
+| component | hover | opacity | 150ms | 0ms | ease-in | 组件hover：opacity，150ms ease-in，hover 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease-in | 组件state-change：opacity，150ms ease-in，state-change 触发 |
+| component | active | opacity | 150ms | 0ms | ease-in | 组件active：opacity，150ms ease-in，active 触发 |
+| component | focus | opacity | 150ms | 0ms | ease-in | 组件focus：opacity，150ms ease-in，focus 触发 |
+| component | hover | opacity | 150ms | 0ms | ease-in | 组件hover：opacity，150ms ease-in，hover 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease-in | 组件state-change：opacity，150ms ease-in，state-change 触发 |
+| component | active | opacity | 150ms | 0ms | ease-in | 组件active：opacity，150ms ease-in，active 触发 |
+| component | focus | opacity | 150ms | 0ms | ease-in | 组件focus：opacity，150ms ease-in，focus 触发 |
+| component | hover | opacity | 150ms | 0ms | ease-in | 组件hover：opacity，150ms ease-in，hover 触发 |
+| component | state-change | transform | 250ms | 0ms | ease-out | 组件state-change：transform missing -> translateZ(0)，250ms ease-out，state-change 触发 |
+| component | state-change | transform | 250ms | 0ms | ease-in-out | 组件state-change：transform missing -> translateZ(0)，250ms ease-in-out，state-change 触发 |
+| component | state-change | all | 500ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：all，500ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | opacity | 500ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：opacity，500ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| reveal | viewport | background-color | 150ms | 0ms | ease-in-out | 入场元素viewport：background-color，150ms ease-in-out，viewport 触发 |
+| reveal | focus | background-color | 150ms | 0ms | ease-in-out | 入场元素focus：background-color，150ms ease-in-out，focus 触发 |
+| reveal | hover | background-color | 150ms | 0ms | ease-in-out | 入场元素hover：background-color，150ms ease-in-out，hover 触发 |
+| component | state-change | color | 150ms | 0ms | ease-in | 组件state-change：color，150ms ease-in，state-change 触发 |
+| component | focus | color | 150ms | 0ms | ease-in | 组件focus：color，150ms ease-in，focus 触发 |
+| component | hover | color | 150ms | 0ms | ease-in | 组件hover：color，150ms ease-in，hover 触发 |
+| component | state-change | all | 500ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：all，500ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：opacity，150ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | height | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：height，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | all | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：all，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：background-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：border-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：text-decoration-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：fill，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：stroke，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| button | hover | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮hover：backgroundColor missing -> rgb(249, 249, 249)，200ms ease-in-out, ease-in-out，hover 触发；样本 Try it for free |
+| button | focus | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮focus：backgroundColor missing -> rgb(247, 247, 247)，200ms ease-in-out, ease-in-out，focus 触发；样本 Try it for free |
+| button | hover | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮hover：backgroundColor missing -> rgba(255, 255, 255, 0.03)，200ms ease-in-out, ease-in-out，hover 触发；样本 Explore the docs |
+| button | focus | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮focus：backgroundColor missing -> rgba(255, 255, 255, 0.04)，200ms ease-in-out, ease-in-out，focus 触发；样本 Explore the docs |
+| button | hover | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮hover：backgroundColor missing -> rgb(54, 54, 54)，200ms ease-in-out, ease-in-out，hover 触发；样本 Sign up for notebooks |
+| button | focus | backgroundColor | 200ms | 0ms | ease-in-out, ease-in-out | 按钮focus：backgroundColor missing -> rgb(54, 54, 54)，200ms ease-in-out, ease-in-out，focus 触发；样本 Sign up for notebooks |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-observable-data-platform-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-reveal-viewport-animation-100-missing lacks easing
+- motion-component-state-change-all-100-missing lacks easing
+- motion-component-state-change-all-150-missing lacks easing
+- motion-component-state-change-all-200-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-color-150-ease-in
+
+```css
+.link { transition: color .15s ease-in; }
+```
+
+### motion-component-active-color-150-ease-in
+
+```css
+.link:active { transition: color .15s ease-in; }
+```
+
+### motion-component-focus-color-150-ease-in
+
+```css
+.link:focus { transition: color .15s ease-in; }
+```
+
+### motion-component-hover-color-150-ease-in
+
+```css
+.link:hover { transition: color .15s ease-in; }
+```
+
+### motion-component-state-change-color-150-ease-in
+
+```css
+.link:link { transition: color .15s ease-in; }
+```
+
+### motion-component-state-change-color-150-ease-in
+
+```css
+.link:visited { transition: color .15s ease-in; }
+```
+
+### motion-component-state-change-opacity-150-ease-in
+
+```css
+.dim { transition: opacity .15s ease-in; }
+```
+
+### motion-component-focus-opacity-150-ease-in
+
+```css
+.dim:focus { transition: opacity .15s ease-in; }
+```
+
+### motion-component-hover-opacity-150-ease-in
+
+```css
+.dim:hover { transition: opacity .15s ease-in; }
+```
+
+### motion-component-active-opacity-150-ease-out
+
+```css
+.dim:active { transition: opacity .15s ease-out; }
+```
+
+### motion-component-state-change-opacity-150-ease-in
+
+```css
+.glow { transition: opacity .15s ease-in; }
+```
+
+### motion-component-focus-opacity-150-ease-in
+
+```css
+.glow:focus { transition: opacity .15s ease-in; }
+```
+
+### motion-component-hover-opacity-150-ease-in
+
+```css
+.glow:hover { transition: opacity .15s ease-in; }
+```
+
+### motion-component-state-change-opacity-150-ease-in
+
+```css
+.hide-child .child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-active-opacity-150-ease-in
+
+```css
+.hide-child:active .child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-focus-opacity-150-ease-in
+
+```css
+.hide-child:focus .child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-hover-opacity-150-ease-in
+
+```css
+.hide-child:hover .child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-state-change-opacity-150-ease-in
+
+```css
+.show-children .show-child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-active-opacity-150-ease-in
+
+```css
+.show-children:active .show-child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-focus-opacity-150-ease-in
+
+```css
+.show-children:focus .show-child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-hover-opacity-150-ease-in
+
+```css
+.show-children:hover .show-child { transition: opacity .15s ease-in; }
+```
+
+### motion-component-state-change-transform-250-ease-out
+
+```css
+.grow { transition: transform .25s ease-out; }
+```
+
+### motion-component-state-change-transform-250-ease-in-out
+
+```css
+.grow-large { transition: transform .25s ease-in-out; }
+```
+
+### motion-component-state-change-all-500-cubic-bezier-165-84-44-1
+
+```css
+.shadow-hover { transition: all .5s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-opacity-500-cubic-bezier-165-84-44-1
+
+```css
+.shadow-hover:after { transition: opacity .5s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-reveal-viewport-background-color-150-ease-in-out
+
+```css
+.bg-animate { transition: background-color .15s ease-in-out; }
+```
+
+### motion-reveal-focus-background-color-150-ease-in-out
+
+```css
+.bg-animate:focus { transition: background-color .15s ease-in-out; }
+```
+
+### motion-reveal-hover-background-color-150-ease-in-out
+
+```css
+.bg-animate:hover { transition: background-color .15s ease-in-out; }
+```
+
+### motion-component-state-change-color-150-ease-in
+
+```css
+.nested-links a { transition: color .15s ease-in; }
+```
+
+### motion-component-focus-color-150-ease-in
+
+```css
+.nested-links a:focus { transition: color .15s ease-in; }
+```
+
+### motion-component-hover-color-150-ease-in
+
+```css
+.nested-links a:hover { transition: color .15s ease-in; }
+```
+
+### motion-component-state-change-all-500-cubic-bezier-165-84-44-1
+
+```css
+.shadow-2-hover { transition: all .5s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-opacity-150-cubic-bezier-165-84-44-1
+
+```css
+.shadow-2-hover:after { transition: opacity .15s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-height-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-\[height\] { transition-property: height; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-all-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-all { transition-property: all; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-color-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: background-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: border-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: text-decoration-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-fill-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: fill; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-colors { transition-property: stroke; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-opacity { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.tw-transition-transform { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(249, 249, 249)", "border": "2px solid rgb(249, 249, 249)", "borderBottom": "2px solid rgb(249, 249, 249)", "borderLeft": "2px solid rgb(249, 249, 249)", "borderRight": "2px solid rgb(249, 249, 249)", "borderTop": "2px solid rgb(249, 249, 249)", "cursor": "pointer"}
+```
+
+### motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(247, 247, 247)", "border": "2px solid rgb(247, 247, 247)", "borderBottom": "2px solid rgb(247, 247, 247)", "borderLeft": "2px solid rgb(247, 247, 247)", "borderRight": "2px solid rgb(247, 247, 247)", "borderTop": "2px solid rgb(247, 247, 247)", "cursor": "pointer"}
+```
+
+### motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.03)"}
+```
+
+### motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.04)"}
+```
+
+### motion-button-hover-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(54, 54, 54)", "border": "2px solid rgb(54, 54, 54)", "borderBottom": "2px solid rgb(54, 54, 54)", "borderLeft": "2px solid rgb(54, 54, 54)", "borderRight": "2px solid rgb(54, 54, 54)", "borderTop": "2px solid rgb(54, 54, 54)", "cursor": "pointer"}
+```
+
+### motion-button-focus-backgroundcolor-200-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(54, 54, 54)", "border": "2px solid rgb(54, 54, 54)", "borderBottom": "2px solid rgb(54, 54, 54)", "borderLeft": "2px solid rgb(54, 54, 54)", "borderRight": "2px solid rgb(54, 54, 54)", "borderTop": "2px solid rgb(54, 54, 54)", "cursor": "pointer"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -12,7 +12,7 @@
 - header 以敏捷的金融基础设施，驱动大型企业核心转型 Stripe 大型企业解决方案 《财富》100 强企业已有 50% 使用 Stripe 推动业务增长，从拓展全球版图到重塑客户体验，St | rect=1232x130.2@104,4799.8 | display=grid; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=sohne-var, "SF Pro Display", sans-serif; fontSize=16px; fontWeight=400; gap=8px 16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Stripe 大型企业解决方案 | rect=235.9x48@104,4882 | display=flex; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(83, 58, 253); border=0px none rgb(255, 255, 255); borderRadius=4px; fontFamily=sohne-var, "SF Pro Display", sans-serif; fontSize=16px; fontWeight=500; lineHeight=16px; padding=15.5px 24px 16.5px; gap=8px; transition=background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s cubic-bezier(0.25, 1, 0.5, 1), border 0.3s cubic-bezier(0.25, 1, 0.5, 1); transitionDuration=0.3s, 0.3s, 0.3s
 - navigation count 6, image count 37, document height 14415.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - 产品 解决方案 开发者 资源 定价 登录 登录 联系销售
@@ -57,8 +57,8 @@
 - li 登录 登录 | rect=70x44@1148,16 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=sohne-var, "SF Pro Display", sans-serif; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a 登录 登录 | rect=70x40@1148,18 | display=flex; position=relative; color=rgb(83, 58, 253); border=1px solid rgb(255, 255, 255); borderRadius=4px; fontFamily=sohne-var, "SF Pro Display", sans-serif; fontSize=14px; fontWeight=500; lineHeight=14px; padding=10.5px 20px 13.5px; gap=8px; transition=color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), background-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95), border-color 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95); transitionDuration=0.24s, 0.24s, 0.24s; transitionTimingFunction=cubic-bezier(0.45, 0.05, 0.55, 0.95), cubic-bezier(0.45, 0.05, 0.55, 0.95), cubic-bezier(0.45, 0.05, 0.55, 0.95)
 - svg 登录 | rect=68x38@1149,19 | display=block; position=absolute; color=rgb(83, 58, 253); border=0px none rgb(83, 58, 253); fontFamily=sohne-var, "SF Pro Display", sans-serif; fontSize=14px; fontWeight=500; lineHeight=14px; transition=opacity 0.24s cubic-bezier(0.45, 0.05, 0.55, 0.95); transitionDuration=0.24s; transitionTimingFunction=cubic-bezier(0.45, 0.05, 0.55, 0.95); opacity=1; cursor=pointer
-- 4px; 4px; 4px; 4px; 4px; 4px; 4px; 6px; 4px; 4px; 6px; 5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 4px; 4px; 4px; 4px; 4px; 4px; 6px; 4px; 4px; 6px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - 产品

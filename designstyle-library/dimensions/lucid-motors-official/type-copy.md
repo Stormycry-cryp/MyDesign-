@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Lucid Gravity Named 2026 World Luxury Car of the Year; Lucid Air Pure Named to Car and Driver’s 10Best list for the Third Straight Year; H2 A New Standard of Electric Excellence; Technology that drives sustainability.; Lucid Stories; Stay up to Speed on the latest at Lucid.; We respect your privacy; navigation Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE
+  - Sentence rhythm: 106 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Home | Lucid Motors; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://lucidmotors.com/
   - Page title: Home | Lucid Motors
@@ -18,9 +24,7 @@
   - H1 observed: Lucid Gravity Named 2026 World Luxury Car of the Year; Lucid Air Pure Named to Car and Driver’s 10Best list for the Third Straight Year
   - H2 samples: A New Standard of Electric Excellence; Technology that drives sustainability.; Lucid Stories; Stay up to Speed on the latest at Lucid.; We respect your privacy
   - Navigation samples: Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE
-  - Images observed: Company Logo 400x24 https://cdn.cookielaw.org/logos/dd23153e-c583-47e6-9054-4ed77b637cb4/d4014dd7-e329-41cb-a78c-5ca8b5dd1e30/492ffc66-93c9-42ab-9dce-2b54c6e7fd65/Logo-Lucid-light.; Powered by Onetrust 568x53 https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
   - Video observed: https://videos.ctfassets.net/5ky6szwjj7ya/2rrnWPEbxVNzYQcxb8J124/bb04f07e8902c479eb361d7b8c9ea9c5/LM26-179a_GravityLoop_Homepage_Desktop.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/5yVLnA5NbaPFr6qyP3gGYB/4926fe3b9da56e5959db5d8f15c1ad12/LM26-179a_GravityLoop_Homepage_Mobile.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/4IPPQPuiApBgUlYvpk4KKB/1425fa27b46ec827e6e035d447ddfaa3/LM26-179a_GravityLoop_Homepage_Tablet.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/2rrnWPEbxVNzYQcxb8J124/bb04f07e8902c479eb361d7b8c9ea9c5/LM26-179a_GravityLoop_Homepage_Desktop.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/2roWwxqzud2rZIHM98ewLI/67fe990d87578a4ec07892d50680ed48/LM26-041_C_PyramidLake_Air_WebLoopB_05s_Desktop.mp4?q=50
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `SKIP TO MAIN CONTENT Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers Lucid Air Lucid Gravity Pre-Owned Discover DEMO DRIVE US Lucid Gravity Named 2026 World Luxury Car of the Year The experts have spoken. Lucid Gravity is 2`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +39,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

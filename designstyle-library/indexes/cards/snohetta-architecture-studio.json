@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/snohetta-architecture-studio/component-styles.md",
     "moodboard": "design-systems/snohetta-architecture-studio/moodboard.svg",
+    "motion": "design-systems/snohetta-architecture-studio/motion.json",
+    "motion_presets": "design-systems/snohetta-architecture-studio/motion-presets.css",
     "palette": "design-systems/snohetta-architecture-studio/palette.md",
-    "tokens": "design-systems/snohetta-architecture-studio/tokens.json"
+    "tailwind_theme": "design-systems/snohetta-architecture-studio/tailwind.theme.json",
+    "tokens": "design-systems/snohetta-architecture-studio/tokens.json",
+    "variables_css": "design-systems/snohetta-architecture-studio/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/snohetta-architecture-studio/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/snohetta-architecture-studio/scene.md",
     "type_copy": "dimensions/snohetta-architecture-studio/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5139}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 518x345; 346x230; 230x153; 230x153; 230x153; 230x153; 230x153; 230x153; 230x153; 230x153.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 16px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5139}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 518:345; 346:230; 230:153; 230:153; 230:153; 230:153; 230:153; 230:153; 230:153; 230:153",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 16px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

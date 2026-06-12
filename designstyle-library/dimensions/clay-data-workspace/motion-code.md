@@ -1,42 +1,293 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #0000001a;visibility:visible!importan, pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{background-color:#fff}.w-slider-dot:focus{outline:none;box-shadow:0, sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: c(e);var t=e.__c;t&&t.__H&&(t.__H.__h.length&&(nc.push(t)!==1&&rc===H.requestAnimationFrame||((rc=H.requestAnimationFrame)||hb)(bb)),t.__H.__.forEach(function(r){r.i&&(r.__H=r.i),r.__V!==Ka&&(r.__=r.__V),r.i=void 0,r.__V=, __H.__h.length&&(nc.push(t)!==1&&rc===H.requestAnimationFrame||((rc=H.requestAnimationFrame)||hb)(bb)),t.__H.__.forEach(function(r){r.i&&(r.__H=r.i),r.__V!==Ka&&(r.__=r.__V),r.i=void 0,r.__V=Ka})),di=Fe=null},H.__c=functi
-  - Timing/easing: dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid #0000;border-bottom-color:, ign-items:center;text-decoration:none;transition:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);display:inline-flex;position:relative}.loam---web-library--button:where(.w-variant-, on:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);display:inline-flex;position:relative}.loam---web-library--button:where(.w-variant-052759b4-b398-e98d-c28c-099b380d4426){border-t, us:10rem;width:1rem;height:1rem;padding:0;transition:border-color .3s cubic-bezier(.165,.84,.44,1),background-color .3s cubic-bezier(.165,.84,.44,1)}.loam---web-library--slider-pagination_button:hover{border-color:#fff}.loam---w, on:border-color .3s cubic-bezier(.165,.84,.44,1),background-color .3s cubic-bezier(.165,.84,.44,1)}.loam---web-library--slider-pagination_button:hover{border-color:#fff}.loam---web-library--slider-pagination_button:focus-visible
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; #0000;justify-content:center;align-items:center;text-decoration:none;transition:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);disp; px solid #302f2c;border-radius:10rem;width:1rem;height:1rem;padding:0;transition:border-color .3s cubic-bezier(.165,.84,.44,1),background-color .3s cubic-bezier(.165,.84,.44,1)}.lo; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; -tw-scale-y))}.animate-\\[loader-left-circle_600ms_linear_infinite\\]{animation:loader-left-circle .6s linear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{anim; ear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{animation:loader-right-circle .6s linear infinite}@keyframes bounce{0%,to{transform:translateY(-25%);animation
-  - Public CSS/JS probe keywords: animation, easing, keyframes, request_animation_frame, swiper, transform, transition
-  - Public CSS/JS motion snippets: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; #0000;justify-content:center;align-items:center;text-decoration:none;transition:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);disp; px solid #302f2c;border-radius:10rem;width:1rem;height:1rem;padding:0;transition:border-color .3s cubic-bezier(.165,.84,.44,1),background-color .3s cubic-bezier(.165,.84,.44,1)}.lo; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; -tw-scale-y))}.animate-\\[loader-left-circle_600ms_linear_infinite\\]{animation:loader-left-circle .6s linear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{anim; ear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{animation:loader-right-circle .6s linear infinite}@keyframes bounce{0%,to{transform:translateY(-25%);animation; 6s linear infinite}@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0; );animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes spin
-  - Exact motion parameters: white-space:unset;word-break:unset;word-spacing:unset;word-wrap:unset;transition:unset}.w-webflow-badge{white-space:nowrap;cursor:pointer;box-shadow:0 0 0 1px #0000001a,0 1px 3px #; pointer;background-color:#fff6;width:1em;height:1em;margin:0 3px .5em;transition:background-color .1s,color .1s;display:inline-block;position:relative}.w-slider-dot.w-active{backgr; sition:50%;background-repeat:no-repeat;background-size:24px;width:4em;transition:all .3s;position:absolute;top:0}.w-lightbox-left{background-image:url(data:image/svg+xml;base64,PHN; -radius:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";bor; -tw-scale-y))}.animate-\\[loader-left-circle_600ms_linear_infinite\\]{animation:loader-left-circle .6s linear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{anim; ear infinite}.animate-\\[loader-right-circle_600ms_linear_infinite\\]{animation:loader-right-circle .6s linear infinite}@keyframes bounce{0%,to{transform:translateY(-25%);animation; dth:40px;height:40px;margin-top:-20px;margin-left:-20px;animation:.8s linear infinite spin;position:absolute;top:50%;left:50%}.w-lightbox-spinner:after{content:"";border:3px solid ; ign-items:center;text-decoration:none;transition:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);display:inline-flex;position:relati; on:background-color .3s cubic-bezier(.165,.84,.44,1),border-color .3s cubic-bezier(.165,.84,.44,1);display:inline-flex;position:relative}.loam---web-library--button:where(.w-varian; erit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset]{-webkit-appearance:button;cursor:pointer}butto
-  - JavaScript/runtime motion evidence: c(e);var t=e.__c;t&&t.__H&&(t.__H.__h.length&&(nc.push(t)!==1&&rc===H.requestAnimationFrame||((rc=H.requestAnimationFrame)||hb)(bb)),t.__H.__.forEach(function(r){r.i&&(r.__H=r.i),r; __H.__h.length&&(nc.push(t)!==1&&rc===H.requestAnimationFrame||((rc=H.requestAnimationFrame)||hb)(bb)),t.__H.__.forEach(function(r){r.i&&(r.__H=r.i),r.__V!==Ka&&(r.__=r.__V),r.i=vo; {Ja(n)}catch(a){t=a}}),r.__H=void 0,t&&H.__e(t,r.__v))};var pc=typeof requestAnimationFrame=="function";function hb(e){var t,r=function(){clearTimeout(n),pc&&cancelAnimationFrame(t; pc&&cancelAnimationFrame(t),setTimeout(e)},n=setTimeout(r,100);pc&&(t=requestAnimationFrame(r))}function Ja(e){var t=Fe,r=e.__c;typeof r=="function"&&(e.__c=void 0,r()),Fe=t}functi; tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; r-events:auto;position:absolute;inset:auto 0% 0%}.loam---web-library--swiper-wrapper{z-index:1;flex-wrap:nowrap;justify-content:flex-start;align-items:stretch;width:100%;height:100; ts:none}.loam---web-library--u-h-100{height:100%}.loam---web-library--swiper-slide{flex-flow:column;flex:none;align-self:stretch;height:auto;display:flex;position:relative}.loam---; es---color--black);transition:color .3s cubic-bezier(.165,.84,.44,1)}.swiper-wrapper{cursor:grab;border-top-left-radius:1rem;border-bottom-left-radius:1rem;flex-flow:row;justify-co
-  - Stylesheet evidence: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/css/fs-clay.shared.3d743311a.min.css; https://fonts.googleapis.com/css?family=Space+Mono:300,400,500,600,700; https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css; https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css; https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css; https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js; https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js; https://cdn.claydar.com/releases/latest/radar.min.js
-  - Interpreted motion tags: animated-product-preview, scroll-reveal
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: request_animation_frame, swiper
-  - Public stylesheet/script URLs: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/css/fs-clay.shared.3d743311a.min.css; https://fonts.googleapis.com/css?family=Space+Mono:300,400,500,600,700; https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css; https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css; https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css; https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js; https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js; https://cdn.claydar.com/releases/latest/radar.min.js; https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js; https://connect.facebook.net/en_US/fbevents.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-clay-data-workspace-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69d5e1ece9bc0e6bbc08127c_sculpt-Logo-Container.svg; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abca946b59ed38891ca_3d-icon-wave.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1e25139458afbc01799d0_Signals%2C%20satellite%20dish%2C%20monitor.png; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc88fb18290e684672_3d-icon-wire.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6994e3f966056e5cbb08f379_ads-icon%201.png; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf18dcd166ee8066e89_Audiences.webp
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, request_animation_frame, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 800ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，800ms linear，load 触发 |
+| button | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | border-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：border-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | border-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：border-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| card | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 卡片state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：opacity，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| navigation | state-change | box-shadow | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 导航state-change：box-shadow，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | background-color | 300ms | 0ms | cubic-bezier(.075,.82,.165,1) | 按钮state-change：background-color，300ms cubic-bezier(.075,.82,.165,1)，state-change 触发 |
+| component | state-change | border-color | 250ms | 0ms | cubic-bezier(.075,.82,.165,1) | 组件state-change：border-color，250ms cubic-bezier(.075,.82,.165,1)，state-change 触发 |
+| button | state-change | transform | 400ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：transform missing -> translateY(-100%)，400ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| card | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 卡片state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | border-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：border-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：transform，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：opacity，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | transform | 250ms | 0ms | ease-in-out | 组件state-change：transform，250ms ease-in-out，state-change 触发 |
+| button | state-change | background-color | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：background-color，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | box-shadow | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：box-shadow，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | state-change | opacity | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 按钮state-change：opacity，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：all，300ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Product Product |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Product Product |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Use Cases Use Cases |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Use Cases Use Cases |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Solutions Solutions |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Solutions Solutions |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Resources Resources |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Resources Resources |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Company Company |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Company Company |
+| navigation | hover | color | 0ms | 0ms | ease | 导航hover：color missing -> rgb(123, 121, 116)，0ms ease，hover 触发；样本 Pricing Pricing |
+| navigation | focus | color | 0ms | 0ms | ease | 导航focus：color missing -> rgb(123, 121, 116)，0ms ease，focus 触发；样本 Pricing Pricing |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-clay-data-workspace-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-unset-missing-missing lacks duration_ms
+- motion-component-state-change-unset-missing-missing lacks easing
+- motion-component-state-change-unset-missing-missing lacks duration_ms
+- motion-component-state-change-unset-missing-missing lacks easing
+- motion-component-state-change-background-color-100-missing lacks easing
+- motion-component-state-change-color-100-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-button-state-change-color-150-missing lacks easing
+- motion-component-state-change-color-150-missing lacks easing
+- motion-navigation-state-change-color-150-missing lacks easing
+- motion-navigation-state-change-background-color-150-missing lacks easing
+- motion-navigation-state-change-color-150-missing lacks easing
+- motion-navigation-state-change-background-color-150-missing lacks easing
+- motion-component-state-change-color-150-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-card-state-change-all-300-missing lacks easing
+- motion-button-state-change-all-300-missing lacks easing
+- motion-card-state-change-color-200-missing lacks easing
+- motion-component-state-change-background-color-200-missing lacks easing
+- motion-card-state-change-all-200-missing lacks easing
+- motion-component-state-change-background-color-300-missing lacks easing
+- motion-component-state-change-opacity-200-missing lacks easing
+- motion-card-state-change-opacity-300-missing lacks easing
+- motion-card-state-change-opacity-300-missing lacks easing
+- motion-component-state-change-opacity-300-missing lacks easing
+- motion-component-state-change-background-color-200-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-800-linear
+
+```css
+.w-lightbox-spinner { animation: .8s linear infinite spin; }
+```
+
+### motion-button-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--button { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-border-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--button { transition: border-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-border-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--slider-pagination_button { transition: border-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--slider-pagination_button { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-card-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--card { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--inline-video_playback-button { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--footer-social_link { transition: opacity .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-navigation-state-change-box-shadow-300-cubic-bezier-165-84-44-1
+
+```css
+.loam---web-library--nav-banner { transition: box-shadow .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-background-color-300-cubic-bezier-075-82-165-1
+
+```css
+.btn { transition-property: background-color; transition-duration: .3s; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
+```
+
+### motion-component-state-change-border-color-250-cubic-bezier-075-82-165-1
+
+```css
+.input { transition-property: border-color; transition-duration: .25s; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
+```
+
+### motion-button-state-change-transform-400-cubic-bezier-165-84-44-1
+
+```css
+.btn-icon { transition: transform .4s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-color-300-cubic-bezier-165-84-44-1
+
+```css
+.author-tooltip_social-link { transition: color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-card-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.overlay-search_result-item { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-color-300-cubic-bezier-165-84-44-1
+
+```css
+.new-blog_slider-arrow { transition: color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-border-color-300-cubic-bezier-165-84-44-1
+
+```css
+.new-blog_post-wrapper { transition: border-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.new-blog_post-wrapper { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-165-84-44-1
+
+```css
+.new-blog_post-img_hover-wrap { transition: transform .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-165-84-44-1
+
+```css
+.new-blog_post-img_hover-overlay { transition: opacity .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-transform-250-ease-in-out
+
+```css
+.icon.cc-size-lg { transition: transform .25s ease-in-out; }
+```
+
+### motion-button-state-change-background-color-300-cubic-bezier-165-84-44-1
+
+```css
+.button-2 { transition: background-color .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-box-shadow-300-cubic-bezier-165-84-44-1
+
+```css
+.button-2 { transition: box-shadow .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-state-change-opacity-300-cubic-bezier-165-84-44-1
+
+```css
+.swiper_nav-button { transition: opacity .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-component-state-change-all-300-cubic-bezier-165-84-44-1
+
+```css
+.feature_tab-link { transition: all .3s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-hover-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
+
+### motion-navigation-focus-color-0-ease
+
+```css
+{"border": "0px none rgb(123, 121, 116)", "borderBottom": "0px none rgb(123, 121, 116)", "borderLeft": "0px none rgb(123, 121, 116)", "borderRight": "0px none rgb(123, 121, 116)", "borderTop": "0px none rgb(123, 121, 116)", "color": "rgb(123, 121, 116)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

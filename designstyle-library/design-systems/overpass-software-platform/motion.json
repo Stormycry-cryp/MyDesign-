@@ -1,0 +1,40 @@
+{
+  "items": [],
+  "missing": [
+    "motion-overpass-software-platform-fallback lacks selector",
+    "motion-overpass-software-platform-fallback lacks property",
+    "motion-overpass-software-platform-fallback lacks duration_ms",
+    "motion-overpass-software-platform-fallback lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "Motion evidence was summarized from the L3 reference because structured motion JSON was missing.",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overpass-software-platform-fallback",
+      "keyframes": [],
+      "missing_fields": [
+        "selector",
+        "property",
+        "duration_ms",
+        "easing"
+      ],
+      "property": "missing",
+      "reduced_motion": "missing",
+      "selector": "missing",
+      "selector_role": "component",
+      "snippet": "",
+      "source": "L3 Motion Code And Runtime Evidence",
+      "to": "missing",
+      "trigger": "hover"
+    }
+  ],
+  "reference_path": "references/2026-06-03-overpass-software-platform.md",
+  "slug": "overpass-software-platform",
+  "source_motion_path": "assets/2026-06-12-overpass-software-platform-motion.json",
+  "source_urls": [],
+  "title": "Overpass Software Platform"
+}

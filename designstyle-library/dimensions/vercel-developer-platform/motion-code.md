@@ -1,42 +1,193 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: -xl:24px;--perspective-distant:1200px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family, px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono);--font-pixel-square:var(--font-geist-pixel-squ, (--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function))!important;transition-duration:var(--tw-durati
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fi, axed:1.625;--radius-3xl:1.5rem;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--animate-spin:spin 1s li, 25;--radius-3xl:1.5rem;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--animate-spin:spin 1s linear infinite;--animate-pi, p-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--animate-spin:spin 1s linear infinite;--animate-ping:ping 1s, lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--animate-spin:spin 1s linear infinite;--animate-ping:ping 1s cubic-bezier(0, 0, .2, 1)
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: -xl:24px;--perspective-distant:1200px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family; px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-fo; (--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-fun; -backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function))!important;transition-durat; on:var(--tw-ease,var(--default-transition-timing-function))!important;transition-duration:var(--tw-duration,var(--default-transition-duration))!important}.transition{transition-pro; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: -xl:24px;--perspective-distant:1200px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family; px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-fo; (--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-fun; -backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function))!important;transition-durat; on:var(--tw-ease,var(--default-transition-timing-function))!important;transition-duration:var(--tw-duration,var(--default-transition-duration))!important}.transition{transition-pro; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--; ;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--tw-enter-opacity:1;--tw-enter-ro; al;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--tw-enter-opacity:1;--tw-enter-rotate:0;--tw-enter-scale:1;--tw
-  - Exact motion parameters: -xl:24px;--perspective-distant:1200px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family; px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-fo; (--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.\!transition-all{transition-property:all!important;transition-timing-function:var(--tw-ease,var(--default-transition-timing-fun; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--; turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:i; axed:1.625;--radius-3xl:1.5rem;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1; 25;--radius-3xl:1.5rem;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--anim; -\[270deg\]{rotate:270deg}.rotate-y-180{--tw-rotate-y:rotateY(180deg);transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.\!t
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/2449pz5pzlbh9.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/06127q0vl1spg.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/0r2a-uee-_9ug.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/32x0bgv7c5vu-.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/37lq4pxhe4upr.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/0311gci__mmsj.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/2bth6v7mdypmo.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3dncqglpf567l.css
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/2449pz5pzlbh9.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/06127q0vl1spg.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/0r2a-uee-_9ug.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/32x0bgv7c5vu-.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/37lq4pxhe4upr.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/0311gci__mmsj.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/2bth6v7mdypmo.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3dncqglpf567l.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3s8zb7ruf0--9.css; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/chunks/3cuoybj7bhx6r.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-vercel-developer-platform-component-styles.json`
-  - Asset CDN and media loading patterns: https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/runway-light.3zx3rbm9ybh6b.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/runway-dark.1l-g4v8ssniu4.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/leonardo-ai-light.0fcliua3j9zk1.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/leonardo-ai-dark.388su-97uei-e.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/zapier-light.1_j_dlfa474og.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/zapier-dark.29hslo2pkpwh1.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/adobe-light.3de-9hqn511ns.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/adobe-dark.2yxcg9r5ex73q.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| reveal | viewport | animation | 5000ms | 0ms | linear | 入场元素viewport：animation，5000ms linear，viewport 触发 |
+| reveal | viewport | animation | 250ms | 75ms | ease-out | 入场元素viewport：animation，250ms ease-out，viewport 触发 |
+| reveal | viewport | animation | 1250ms | 0ms | cubic-bezier(.4, .04, .04, 1) | 入场元素viewport：animation，1250ms cubic-bezier(.4, .04, .04, 1)，viewport 触发 |
+| reveal | viewport | animation | 350ms | 0ms | cubic-bezier(.16, 1, .3, 1) | 入场元素viewport：animation，350ms cubic-bezier(.16, 1, .3, 1)，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | cubic-bezier(.4, .04, .04, 1) | 入场元素viewport：animation，500ms cubic-bezier(.4, .04, .04, 1)，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | cubic-bezier(.4, .04, .04, 1) | 入场元素viewport：animation，500ms cubic-bezier(.4, .04, .04, 1)，viewport 触发 |
+| reveal | viewport | animation | 0ms | 0ms | cubic-bezier(0, 0, .2, 1) | 入场元素viewport：animation，0ms cubic-bezier(0, 0, .2, 1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(0, 0, .2, 1) | 入场元素viewport：animation，1000ms cubic-bezier(0, 0, .2, 1)，viewport 触发 |
+| reveal | viewport | animation | 10000ms | 0ms | linear | 入场元素viewport：animation，10000ms linear，viewport 触发 |
+| reveal | viewport | animation | 2000ms | 0ms | cubic-bezier(.4, 0, .6, 1) | 入场元素viewport：animation，2000ms cubic-bezier(.4, 0, .6, 1)，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | ease-in-out | 入场元素viewport：animation，500ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | ease-in-out | 入场元素viewport：animation，500ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | ease-in-out | 入场元素viewport：animation，500ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 500ms | 0ms | ease-in-out | 入场元素viewport：animation，500ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 1250ms | 0ms | cubic-bezier(.4, .04, .04, 1) | 入场元素viewport：animation，1250ms cubic-bezier(.4, .04, .04, 1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | linear | 入场元素viewport：animation，1000ms linear，viewport 触发 |
+| component | load | animation | 1200ms | 0ms | linear | 组件load：animation 1 -> .15，1200ms linear，load 触发 |
+| component | state-change | opacity | 500ms | 0ms | cubic-bezier(.4, .01, .165, .99) | 组件state-change：opacity missing -> translateY(24px)，500ms cubic-bezier(.4, .01, .165, .99)，state-change 触发 |
+| navigation | state-change | color | 90ms | 0ms | ease | 导航state-change：color，90ms ease，state-change 触发 |
+| component | load | animation | 1500ms | 0ms | ease-in-out | 组件load：animation translate(-50%) -> translate(-50%)，1500ms ease-in-out，load 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-vercel-developer-platform-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-reveal-viewport-animation-1000-missing lacks easing
+- motion-reveal-viewport-animation-1000-missing lacks easing
+- motion-reveal-viewport-animation-missing-missing lacks duration_ms
+- motion-reveal-viewport-animation-missing-missing lacks easing
+- motion-reveal-viewport-animation-missing-missing lacks duration_ms
+- motion-reveal-viewport-animation-missing-missing lacks easing
+- motion-reveal-viewport-animation-missing-missing lacks duration_ms
+- motion-reveal-viewport-animation-missing-missing lacks easing
+- motion-reveal-viewport-animation-missing-missing lacks duration_ms
+- motion-reveal-viewport-animation-missing-missing lacks easing
+- motion-reveal-viewport-animation-missing-ease-in-out lacks duration_ms
+- motion-component-state-change-all-important-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-color-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-background-color-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-border-color-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-outline-color-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-text-decoration-color-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-fill-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-stroke-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-tw-gradient-from-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-tw-gradient-via-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-tw-gradient-to-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-opacity-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-box-shadow-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-transform-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-translate-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-scale-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-rotate-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-filter-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-webkit-backdrop-filter-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-backdrop-filter-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-display-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-content-visibility-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-overlay-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-pointer-events-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-component-state-change-background-missing-cubic-bezier-0-0-2-1 lacks duration_ms
+- motion-button-state-change-background-150-missing lacks easing
+- motion-component-state-change-color-200-missing lacks easing
+
+## Snippet Appendix
+### motion-reveal-viewport-animation-5000-linear
+
+```css
+.animate-\[border-trail_5s_linear_infinite\] { animation: 5s linear infinite border-trail; }
+```
+
+### motion-reveal-viewport-animation-250-ease-out
+
+```css
+.animate-\[fade-in_0\.25s_ease-out_0\.075s_forwards\] { animation: .25s ease-out 75ms forwards fade-in; }
+```
+
+### motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1
+
+```css
+.animate-fade-in { animation: fade-in 1.25s cubic-bezier(.4, .04, .04, 1) forwards; }
+```
+
+### motion-reveal-viewport-animation-350-cubic-bezier-16-1-3-1
+
+```css
+.animate-fade-slide-in { animation: fade-slide-in .35s cubic-bezier(.16, 1, .3, 1) forwards; }
+```
+
+### motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1
+
+```css
+.animate-flip-back { animation: flip-back .5s cubic-bezier(.4, .04, .04, 1) forwards; }
+```
+
+### motion-reveal-viewport-animation-500-cubic-bezier-4-04-04-1
+
+```css
+.animate-flip-front { animation: flip-front .5s cubic-bezier(.4, .04, .04, 1) forwards; }
+```
+
+### motion-reveal-viewport-animation-0-cubic-bezier-0-0-2-1
+
+```css
+.animate-in { animation: enter initial) cubic-bezier(0, 0, .2, 1) 0s 1 normal none; }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1
+
+```css
+.animate-ping { animation: ping 1s cubic-bezier(0, 0, .2, 1) infinite; }
+```
+
+### motion-reveal-viewport-animation-10000-linear
+
+```css
+.animate-progress-bar { animation: progress-bar 10s linear infinite; }
+```
+
+### motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1
+
+```css
+.animate-pulse { animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite; }
+```
+
+### motion-reveal-viewport-animation-500-ease-in-out
+
+```css
+.animate-sandbox-left { animation: sandbox-left .5s ease-in-out forwards; }
+```
+
+### motion-reveal-viewport-animation-500-ease-in-out
+
+```css
+.animate-sandbox-left-reverse { animation: sandbox-left-reverse .5s ease-in-out forwards; }
+```
+
+### motion-reveal-viewport-animation-500-ease-in-out
+
+```css
+.animate-sandbox-right { animation: sandbox-right .5s ease-in-out forwards; }
+```
+
+### motion-reveal-viewport-animation-500-ease-in-out
+
+```css
+.animate-sandbox-right-reverse { animation: sandbox-right-reverse .5s ease-in-out forwards; }
+```
+
+### motion-reveal-viewport-animation-1250-cubic-bezier-4-04-04-1
+
+```css
+.animate-slide-in { animation: slide-in 1.25s cubic-bezier(.4, .04, .04, 1) forwards; }
+```
+
+### motion-reveal-viewport-animation-1000-linear
+
+```css
+.animate-spin { animation: spin 1s linear infinite; }
+```
+
+### motion-component-load-animation-1200-linear
+
+```css
+.spinner-module__gyz83a__line { animation: spinner-module__gyz83a__spin 1.2s linear infinite; }
+```
+
+### motion-component-state-change-opacity-500-cubic-bezier-4-01-165-99
+
+```css
+.fade-up-module__Jo1j7q__fadeUp { transition: opacity .5s cubic-bezier(.4, .01, .165, .99) 0s; }
+```
+
+### motion-navigation-state-change-color-90-ease
+
+```css
+.navigation-menu-module__AENi4G__trigger { transition-property: color; transition-duration: 90ms; transition-timing-function: ease; }
+```
+
+### motion-component-load-animation-1500-ease-in-out
+
+```css
+.playground-model-avatar-module__FAaERa__glimmer:after { animation: 1.5s ease-in-out infinite reverse playground-model-avatar-module__FAaERa__glimmer; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

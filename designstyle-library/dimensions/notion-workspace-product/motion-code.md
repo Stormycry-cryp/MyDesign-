@@ -1,42 +1,366 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: next/static/media/close.c12245f9.svg);background-size:cover;opacity:1;transition:none}body .tf-v1-popup .tf-v1-close:hover{opacity:.75}*,:after,:before{box-sizing:border-box}:is(:lang(fr),:lang(es-es)) *{quotes:"«", rue]):focus-visible{outline-color:var(--color-interaction-focus-ring);transition:outline-color var(--motion-global-fade-in-duration) var(--motion-global-fade-in-timing-function)}.theme_theme__XHAvb :focus-visible{outline:var(--color-interaction-focus-ring) var(--border-interaction-focus-ring-style) var(--d, -color:var(--color-icon-button-background-hover);content:"";opacity:0;transition:opacity var(--motion-global-fade-out-duration) var(--motion-global-fade-out-timing-function)}.iconButton_iconButton__wbWve:hover:not(:disabled):after{opacity:1;background-color:var(--color-icon-button-background-hover);tra
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: eIn{0%{opacity:0}to{opacity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fa, ly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefer, n-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fast{animation-duration:0ms}}.fade-in-slow{animation:fadeIn .5s ease-in}@media(prefers-re, de-in-fast{animation-duration:0ms}}.fade-in-slow{animation:fadeIn .5s ease-in}@media(prefers-reduced-motion){.fade-in-slow{animation-duration:0ms}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fade-out-fast, eOut{0%{opacity:1}to{opacity:0}}.fade-out-fast{animation:fadeOut .25s ease-out}@media(prefers-reduced-motion){.fade-out-fast{animation-duration:0ms}}.fade-out-slow{animation:fadeOut .5s ease-out}@media(prefer
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: next/static/media/close.c12245f9.svg);background-size:cover;opacity:1;transition:none}body .tf-v1-popup .tf-v1-close:hover{opacity:.75}*,:after,:before{box-sizing:border-box}:is(:l; rue]):focus-visible{outline-color:var(--color-interaction-focus-ring);transition:outline-color var(--motion-global-fade-in-duration) var(--motion-global-fade-in-timing-function)}.t; -color:var(--color-icon-button-background-hover);content:"";opacity:0;transition:opacity var(--motion-global-fade-out-duration) var(--motion-global-fade-out-timing-function)}.iconB; {opacity:1;background-color:var(--color-icon-button-background-hover);transition-duration:var(--motion-global-fade-in-duration);transition-timing-function:var(--motion-global-fade-; ound-hover);transition-duration:var(--motion-global-fade-in-duration);transition-timing-function:var(--motion-global-fade-in-timing-function)}.iconButton_iconButton__wbWve:focus-vi; 0-1ef9}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade; ity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-; on:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fa
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: next/static/media/close.c12245f9.svg);background-size:cover;opacity:1;transition:none}body .tf-v1-popup .tf-v1-close:hover{opacity:.75}*,:after,:before{box-sizing:border-box}:is(:l; rue]):focus-visible{outline-color:var(--color-interaction-focus-ring);transition:outline-color var(--motion-global-fade-in-duration) var(--motion-global-fade-in-timing-function)}.t; -color:var(--color-icon-button-background-hover);content:"";opacity:0;transition:opacity var(--motion-global-fade-out-duration) var(--motion-global-fade-out-timing-function)}.iconB; {opacity:1;background-color:var(--color-icon-button-background-hover);transition-duration:var(--motion-global-fade-in-duration);transition-timing-function:var(--motion-global-fade-; ound-hover);transition-duration:var(--motion-global-fade-in-duration);transition-timing-function:var(--motion-global-fade-in-timing-function)}.iconButton_iconButton__wbWve:focus-vi; 0-1ef9}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade; ity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-; on:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fa; educed-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fast{animation-duration:0ms}}.fade-in-sl; tion:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fast{animation-duration:0ms}}.fade-in-slow{animation:fadeIn .5s ease-in}@media(prefers-reduced-motion){.fade-in-slo
-  - Exact motion parameters: next/static/media/close.c12245f9.svg);background-size:cover;opacity:1;transition:none}body .tf-v1-popup .tf-v1-close:hover{opacity:.75}*,:after,:before{box-sizing:border-box}:is(:l; rue]):focus-visible{outline-color:var(--color-interaction-focus-ring);transition:outline-color var(--motion-global-fade-in-duration) var(--motion-global-fade-in-timing-function)}.t; -color:var(--color-icon-button-background-hover);content:"";opacity:0;transition:opacity var(--motion-global-fade-out-duration) var(--motion-global-fade-out-timing-function)}.iconB; 0-1ef9}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade; ity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-; on:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fa; eIn{0%{opacity:0}to{opacity:1}}.appear-instantly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation; ly{animation:fadeIn 0ms linear}.fade-in-fastest{animation:fadeIn .15s linear}@media(prefers-reduced-motion){.fade-in-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn ; n-fastest{animation-duration:0ms}}.fade-in-fast{animation:fadeIn .25s ease-in}@media(prefers-reduced-motion){.fade-in-fast{animation-duration:0ms}}.fade-in-slow{animation:fadeIn .5; erit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;c
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://www.notion.com/_next/static/css/bfaaf54fac983538.css; https://www.notion.com/_next/static/css/d8d4aca52a52fdd4.css; https://www.notion.com/_next/static/css/d4c4f50903a4b302.css; https://www.notion.com/_next/static/css/0a84a59cd2e29275.css; https://www.notion.com/_next/static/css/d77acd9bd27956ff.css; https://www.notion.com/_next/static/css/2026d7e6522cc6e4.css; https://www.notion.com/_next/static/css/46d7dd4a72d10ddb.css; https://www.notion.com/_next/static/css/2407def81367d32c.css
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://www.notion.com/_next/static/css/bfaaf54fac983538.css; https://www.notion.com/_next/static/css/d8d4aca52a52fdd4.css; https://www.notion.com/_next/static/css/d4c4f50903a4b302.css; https://www.notion.com/_next/static/css/0a84a59cd2e29275.css; https://www.notion.com/_next/static/css/d77acd9bd27956ff.css; https://www.notion.com/_next/static/css/2026d7e6522cc6e4.css; https://www.notion.com/_next/static/css/46d7dd4a72d10ddb.css; https://www.notion.com/_next/static/css/2407def81367d32c.css; https://www.notion.com/_next/static/css/b836710569d98562.css; https://www.notion.com/_next/static/css/8a6053a0926843d0.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-notion-workspace-product-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.notion.com/_next/image?url=%2Ffront-static%2Fshared%2Fnavigation%2Fai_group.png&w=256&q=75; https://www.notion.com/front-static/agents/tasks/check.svg; https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Fbook.png&w=48&q=75; https://www.notion.com/front-static/agents/tasks/gmail.svg; https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Fglobe.png&w=48&q=75; https://www.notion.com/front-static/agents/tasks/hubspot.svg; https://www.notion.com/_next/image?url=%2Ffront-static%2Fagents%2Ffiles-v2.png&w=48&q=75; https://www.notion.com/front-static/agents/tasks/amplitude.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，hover 触发；样本 Developers |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，focus 触发；样本 Developers |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，hover 触发；样本 Enterprise |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，focus 触发；样本 Enterprise |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.047)，150ms ease，hover 触发；样本 Pricing |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，focus 触发；样本 Pricing |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.047)，150ms ease，hover 触发；样本 Request a demo |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，focus 触发；样本 Request a demo |
+| navigation | hover | backgroundColor | 150ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.047)，150ms ease，hover 触发；样本 Log in |
+| navigation | focus | backgroundColor | 150ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.05)，150ms ease，focus 触发；样本 Log in |
+| navigation | state-change | boxShadow | 200ms | 0ms | ease-in | 导航state-change：boxShadow rgba(0, 0, 0, 0) 0px 1px 0px 0px -> missing，200ms ease-in，state-change 触发；样本 Product AI Solutions Resources Developers Enterprise Pricing Request a demo Get  |
+| navigation | state-change | backgroundColor | 200ms | 0ms | ease-in | 导航state-change：backgroundColor rgb(69, 93, 211) -> missing，200ms ease-in，state-change 触发；样本 Get Notion free |
+| navigation | state-change | backgroundColor | 200ms | 0ms | ease-in | 导航state-change：backgroundColor rgb(33, 49, 131) -> missing，200ms ease-in，state-change 触发；样本 Request a demo |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgb(69, 93, 211) -> missing，200ms ease-in，state-change 触发；样本 Get Notion free |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgb(33, 49, 131) -> missing，200ms ease-in，state-change 触发；样本 Request a demo |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 OpenAI |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Figma |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Ramp |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Cursor |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Vercel |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-14 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-15 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-16 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-17 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-18 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-19 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-20 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-button-21 |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Clay |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Remote |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Faire |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Toyota |
+| button | state-change | backgroundColor | 200ms | 0ms | ease-in | 按钮state-change：backgroundColor rgba(0, 0, 0, 0.1) -> missing，200ms ease-in，state-change 触发；样本 Play or pause video |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 OpenAI |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Figma |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Ramp |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Cursor |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Vercel |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-7 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-8 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-9 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-10 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-11 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-12 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-13 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 ds-card-14 |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Clay |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Remote |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Faire |
+| card | state-change | backgroundColor | 200ms | 0ms | ease-in | 卡片state-change：backgroundColor rgba(255, 255, 255, 0) -> missing，200ms ease-in，state-change 触发；样本 Toyota |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.047)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.047)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.047)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-ease
+
+```css
+{"backgroundColor": "rgba(255, 255, 255, 0.05)", "transition": "background-color 0.15s"}
+```
+
+### motion-navigation-state-change-boxshadow-200-ease-in
+
+```css
+{"transition": "box-shadow 0.2s ease-in"}
+```
+
+### motion-navigation-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-navigation-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-button-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
+
+### motion-card-state-change-backgroundcolor-200-ease-in
+
+```css
+{"transition": "background-color 0.2s ease-in, color 0.2s ease-in"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

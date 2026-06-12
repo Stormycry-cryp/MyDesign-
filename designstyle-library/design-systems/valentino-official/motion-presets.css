@@ -1,0 +1,20 @@
+.ds-motion-motion-card-state-change-top-500-linear {
+  transition-property: top;
+  transition-duration: var(--ds-motion-motion-card-state-change-top-500-linear-duration);
+  transition-delay: var(--ds-motion-motion-card-state-change-top-500-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-card-state-change-top-500-linear-easing);
+}
+
+.ds-motion-motion-component-state-change-opacity-500-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-component-state-change-opacity-500-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-opacity-500-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-opacity-500-linear-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/cosmos-creative-network/component-styles.md",
     "moodboard": "design-systems/cosmos-creative-network/moodboard.svg",
+    "motion": "design-systems/cosmos-creative-network/motion.json",
+    "motion_presets": "design-systems/cosmos-creative-network/motion-presets.css",
     "palette": "design-systems/cosmos-creative-network/palette.md",
-    "tokens": "design-systems/cosmos-creative-network/tokens.json"
+    "tailwind_theme": "design-systems/cosmos-creative-network/tailwind.theme.json",
+    "tokens": "design-systems/cosmos-creative-network/tokens.json",
+    "variables_css": "design-systems/cosmos-creative-network/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/cosmos-creative-network/assets.md",
@@ -35,6 +39,36 @@
     "scene": "dimensions/cosmos-creative-network/scene.md",
     "type_copy": "dimensions/cosmos-creative-network/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 600x875; 600x751; 600x900; 600x1291; 600x1103; 600x484; 600x1111; 600x658; 600x1009; 600x780.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1429, 'docH': 6422}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 600:875; 600:751; 600:900; 600:1291; 600:1103; 600:484; 600:1111; 600:658; 600:1009; 600:780",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "navigation hover motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

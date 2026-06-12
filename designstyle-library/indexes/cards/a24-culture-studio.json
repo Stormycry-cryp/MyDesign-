@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/a24-culture-studio/component-styles.md",
     "moodboard": "design-systems/a24-culture-studio/moodboard.svg",
+    "motion": "design-systems/a24-culture-studio/motion.json",
+    "motion_presets": "design-systems/a24-culture-studio/motion-presets.css",
     "palette": "design-systems/a24-culture-studio/palette.md",
-    "tokens": "design-systems/a24-culture-studio/tokens.json"
+    "tailwind_theme": "design-systems/a24-culture-studio/tailwind.theme.json",
+    "tokens": "design-systems/a24-culture-studio/tokens.json",
+    "variables_css": "design-systems/a24-culture-studio/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/a24-culture-studio/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/a24-culture-studio/scene.md",
     "type_copy": "dimensions/a24-culture-studio/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 12660}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 2244x1262; 1008x1259; 961x1202; 900x1125; 2160x2699; 2160x2700; 1728x2160; 4000x4000; 2400x1500; 3302x3302.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 12660}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 2244:1262; 1008:1259; 961:1202; 900:1125; 2160:2699; 2160:2700; 1728:2160; 4000:4000; 2400:1500; 3302:3302",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "navigation state-change motion uses 150ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 100ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 150ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 100ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 200ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 200ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "form state-change motion uses 75ms ease-in",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

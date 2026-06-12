@@ -1,0 +1,468 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 1，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "0",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".project .column",
+      "selector_role": "component",
+      "snippet": ".project .column { animation: fadeIn 1s linear; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/c281e9dffe48e43a.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation 0 -> 1，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "0",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": "img",
+      "selector_role": "component",
+      "snippet": "img { animation: fadeIn 1s linear; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/c281e9dffe48e43a.css",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，350ms ease-in-out，state-change 触发",
+      "duration_ms": 350,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-color-350-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".footer .copyright span",
+      "selector_role": "component",
+      "snippet": ".footer .copyright span { transition: color .35s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/c281e9dffe48e43a.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".ProjectThumb_projectThumb__fkKmL img",
+      "selector_role": "component",
+      "snippet": ".ProjectThumb_projectThumb__fkKmL img { transition: opacity .25s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：outline，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-outline-250-ease-in-out",
+      "keyframes": [],
+      "property": "outline",
+      "reduced_motion": "missing",
+      "selector": ".ProjectThumb_projectThumb__fkKmL img",
+      "selector_role": "component",
+      "snippet": ".ProjectThumb_projectThumb__fkKmL img { transition: outline .25s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-border-250-ease-in-out",
+      "keyframes": [],
+      "property": "border",
+      "reduced_motion": "missing",
+      "selector": ".ProjectThumb_projectThumb__fkKmL img",
+      "selector_role": "component",
+      "snippet": ".ProjectThumb_projectThumb__fkKmL img { transition: border .25s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：top，350ms ease-in-out，state-change 触发",
+      "duration_ms": 350,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-state-change-top-350-ease-in-out",
+      "keyframes": [],
+      "property": "top",
+      "reduced_motion": "missing",
+      "selector": ".Carousel_miniNav___RYr7",
+      "selector_role": "navigation",
+      "snippet": ".Carousel_miniNav___RYr7 { transition: top .35s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：background，350ms ease-out，state-change 触发",
+      "duration_ms": 350,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-navigation-state-change-background-350-ease-out",
+      "keyframes": [],
+      "property": "background",
+      "reduced_motion": "missing",
+      "selector": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_controls__24SHy .Carousel_control__R49N3",
+      "selector_role": "navigation",
+      "snippet": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_controls__24SHy .Carousel_control__R49N3 { transition: background .35s ease-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：opacity，350ms ease-out，state-change 触发",
+      "duration_ms": 350,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-navigation-state-change-opacity-350-ease-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_controls__24SHy .Carousel_control__R49N3",
+      "selector_role": "navigation",
+      "snippet": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_controls__24SHy .Carousel_control__R49N3 { transition: opacity .35s ease-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航state-change：margin，1000ms ease-out，state-change 触发",
+      "duration_ms": 1000,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-navigation-state-change-margin-1000-ease-out",
+      "keyframes": [],
+      "property": "margin",
+      "reduced_motion": "missing",
+      "selector": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_list__Bf5Ul",
+      "selector_role": "navigation",
+      "snippet": ".Carousel_miniNav___RYr7 .Carousel_carousel__xOvqJ .Carousel_list__Bf5Ul { transition: margin 1s ease-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：height，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-height-250-ease-in-out",
+      "keyframes": [],
+      "property": "height",
+      "reduced_motion": "missing",
+      "selector": ".Project_project__V8eh_ .Project_slideContainer__NxUHH",
+      "selector_role": "component",
+      "snippet": ".Project_project__V8eh_ .Project_slideContainer__NxUHH { transition: height .25s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，500ms ease-in-out，state-change 触发",
+      "duration_ms": 500,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-500-ease-in-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".Project_project__V8eh_ .Project_slide__gDe1J",
+      "selector_role": "component",
+      "snippet": ".Project_project__V8eh_ .Project_slide__gDe1J { transition: transform .5s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，250ms ease-in-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-250-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".Project_project__V8eh_ .Project_info__fMMTL .Project_section__sEyKr a",
+      "selector_role": "component",
+      "snippet": ".Project_project__V8eh_ .Project_info__fMMTL .Project_section__sEyKr a { transition: opacity .25s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，2000ms ease-in-out，state-change 触发",
+      "duration_ms": 2000,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-2000-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".ImageThatFadesIn_imageThatFadesIn__Ctjfj",
+      "selector_role": "component",
+      "snippet": ".ImageThatFadesIn_imageThatFadesIn__Ctjfj { transition: opacity 2s ease-in-out!important; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，700ms ease-in-out，state-change 触发",
+      "duration_ms": 700,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-width-700-ease-in-out",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".Contact_contact__3Paot",
+      "selector_role": "component",
+      "snippet": ".Contact_contact__3Paot { transition: width .7s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/169b92948c0e9ee2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：height，700ms ease-in-out，state-change 触发",
+      "duration_ms": 700,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-height-700-ease-in-out",
+      "keyframes": [],
+      "property": "height",
+      "reduced_motion": "missing",
+      "selector": ".Contact_contact__3Paot",
+      "selector_role": "component",
+      "snippet": ".Contact_contact__3Paot { transition: height .7s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/169b92948c0e9ee2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation scale(0) -> scale(1)，1500ms ease-in-out，load 触发",
+      "duration_ms": 1500,
+      "easing": "ease-in-out",
+      "from": "scale(0)",
+      "id": "motion-component-load-animation-1500-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%,80%,to",
+          "values": {
+            "transform": "scale(0)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scale(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".Contact_contact__3Paot .Contact_form__4E_4r .Contact_overlay__cmzPa .Contact_loading__ZPZ14 .Contact_dot__wwcuT",
+      "selector_role": "component",
+      "snippet": ".Contact_contact__3Paot .Contact_form__4E_4r .Contact_overlay__cmzPa .Contact_loading__ZPZ14 .Contact_dot__wwcuT { animation: Contact_scaleInOut___JIj0 1.5s ease-in-out infinite; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/169b92948c0e9ee2.css",
+      "to": "scale(1)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background，700ms ease-in-out，state-change 触发",
+      "duration_ms": 700,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-background-700-ease-in-out",
+      "keyframes": [],
+      "property": "background",
+      "reduced_motion": "missing",
+      "selector": ".Contact_contact__3Paot .Contact_submit__kzzM1",
+      "selector_role": "component",
+      "snippet": ".Contact_contact__3Paot .Contact_submit__kzzM1 { transition: background .7s ease-in-out; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/169b92948c0e9ee2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "missing": [
+    "motion-component-state-change-filter-300-missing lacks easing",
+    "motion-component-state-change-opacity-300-missing lacks easing",
+    "motion-component-state-change-filter-300-missing lacks easing",
+    "motion-component-state-change-opacity-300-missing lacks easing",
+    "motion-component-state-change-opacity-300-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：filter，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-filter-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "filter",
+      "reduced_motion": "missing",
+      "selector": ".lazy-load-image-background.blur.lazy-load-image-loaded",
+      "selector_role": "component",
+      "snippet": ".lazy-load-image-background.blur.lazy-load-image-loaded { transition: filter .3s; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".lazy-load-image-background.blur.lazy-load-image-loaded>img",
+      "selector_role": "component",
+      "snippet": ".lazy-load-image-background.blur.lazy-load-image-loaded>img { transition: opacity .3s; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：filter，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-filter-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "filter",
+      "reduced_motion": "missing",
+      "selector": ".lazy-load-image-background.black-and-white.lazy-load-image-loaded",
+      "selector_role": "component",
+      "snippet": ".lazy-load-image-background.black-and-white.lazy-load-image-loaded { transition: filter .3s; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".lazy-load-image-background.black-and-white.lazy-load-image-loaded>img",
+      "selector_role": "component",
+      "snippet": ".lazy-load-image-background.black-and-white.lazy-load-image-loaded>img { transition: opacity .3s; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms missing，state-change 触发",
+      "duration_ms": 300,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".lazy-load-image-background.opacity.lazy-load-image-loaded",
+      "selector_role": "component",
+      "snippet": ".lazy-load-image-background.opacity.lazy-load-image-loaded { transition: opacity .3s; }",
+      "source": "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "reference_path": "references/2026-06-04-pitch-interactive-data-studio.md",
+  "slug": "pitch-interactive-data-studio",
+  "source_motion_path": "assets/2026-06-11-pitch-interactive-data-studio-motion.json",
+  "source_urls": [
+    "https://www.pitchinteractive.com/_next/static/css/c281e9dffe48e43a.css",
+    "https://www.pitchinteractive.com/_next/static/css/35bbfb44b5b5c4d2.css",
+    "https://www.pitchinteractive.com/_next/static/css/169b92948c0e9ee2.css"
+  ],
+  "title": "Pitch Interactive Data Studio"
+}

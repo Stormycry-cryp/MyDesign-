@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 3, document height 1000.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -45,8 +46,8 @@
 - li Developer Hub | rect=175x32@16,124 | display=flex; position=relative; color=rgb(82, 82, 82); border=0px solid rgb(230, 230, 230); fontFamily=Inter, system-ui, sans-serif; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Developer Hub | rect=175x32@16,124 | display=flex; position=static; color=rgb(82, 82, 82); border=0px solid rgb(230, 230, 230); borderRadius=6px; fontFamily=Inter, system-ui, sans-serif; fontSize=14px; fontWeight=400; lineHeight=20px; padding=8px; gap=8px; transition=0.2s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.2s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1)
 - li Coverage | rect=175x32@16,160 | display=flex; position=relative; color=rgb(82, 82, 82); border=0px solid rgb(230, 230, 230); fontFamily=Inter, system-ui, sans-serif; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 6px; 6px; 50px; 50px; 0px 0px 6px 6px; 6px; 6px; 6px; 6px; 6px; 9999px; 6px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 6px; 6px; 50px; 50px; 0px 0px 6px 6px; 6px; 6px; 6px; 6px; 6px; 9999px; 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Home

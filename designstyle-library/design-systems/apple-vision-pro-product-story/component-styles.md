@@ -12,7 +12,7 @@
 - a Watch | rect=51x44@526.8,0 | display=flex; position=relative; color=rgba(0, 0, 0, 0.8); border=0px none rgba(0, 0, 0, 0.8); fontFamily="SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=12px; fontWeight=400; letterSpacing=-0.12px; lineHeight=12px; padding=0px 8px; transition=color 0.32s cubic-bezier(0.4, 0, 0.6, 1); transitionDuration=0.32s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.6, 1); opacity=1
 - a Vision | rect=50x44@596.9,0 | display=flex; position=relative; color=rgba(0, 0, 0, 0.8); border=0px none rgba(0, 0, 0, 0.8); fontFamily="SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=12px; fontWeight=400; letterSpacing=-0.12px; lineHeight=12px; padding=0px 8px; transition=color 0.32s cubic-bezier(0.4, 0, 0.6, 1); transitionDuration=0.32s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.6, 1); opacity=1
 - navigation count 24, image count 40, document height 32026.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 +
@@ -58,8 +58,8 @@
 - div iPad | rect=40x44@394.5,0 | display=block; position=static; color=rgb(29, 29, 31); border=0px none rgb(29, 29, 31); fontFamily="SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=17px; fontWeight=400; letterSpacing=-0.374px; lineHeight=25px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - li iPad | rect=40x44@394.5,0 | display=list-item; position=static; color=rgb(29, 29, 31); border=0px none rgb(29, 29, 31); fontFamily="SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=17px; fontWeight=400; letterSpacing=-0.374px; lineHeight=25px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
 - div iPhone | rect=54x44@453.6,0 | display=block; position=static; color=rgb(29, 29, 31); border=0px none rgb(29, 29, 31); fontFamily="SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize=17px; fontWeight=400; letterSpacing=-0.374px; lineHeight=25px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=default
-- 5px; 5px; 5px; 5px; 5px; 980px; 980px; 980px; 980px; 50%; 20px; 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 5px; 5px; 5px; 5px; 5px; 980px; 980px; 980px; 980px; 50%; 20px; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Apple

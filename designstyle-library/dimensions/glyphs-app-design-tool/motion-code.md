@@ -1,42 +1,346 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: ;color:#000}html,body{width:100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-family:inherit;background-color:rgba(0,0,0,0);color:inherit}ul,ol{margin:0;padding:0}a, d-break:normal}.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}.no-js .js-only{, ity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6s cubic-bezier(0.5
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: "addEventListener",o="getAttribute",h=t[a].bind(t),l=t.setTimeout,c=t.requestAnimationFrame||l,D=t.requestIdleCallback,f=/^picture$/i,p=["load","error","lazyincluded","_lazyloaded"],d={},m=Array.prototype.forEach,g=functi, (t,e,i){Mt[i]+=t,Lt[i]+=e,Et._vx.update(t),Et._vy.update(e),A?mt||(mt=requestAnimationFrame(Rt)):Rt()},jt=function(t,e){pt&&!Ct&&(Et.axis=Ct=Math.abs(t)>Math.abs(e)?"x":"y",yt=!0),"y"!==Ct&&(Mt[2]+=t,Et._vx.update(t,!0)),
-  - Timing/easing: :100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-family:inherit;background-color:rgba(0,0,0,0);color:inherit}ul,ol{margin:0;padding:0}a, yload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}.no-js .js-only{, nslateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacit, ateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6s cubic-bezier(0.5, rm .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out,-webkit-transfor
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: ;color:#000}html,body{width:100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-fam; d-break:normal}.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;; ity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:tra; ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6; rm .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out,-webkit-transform .6s ; ,globalTimeline:Vn,core:{PropTween:Us,globals:Tr,Tween:Ts,Timeline:Fs,Animation:As,getCache:Ur,_removeLinkedListItem:ou,reverting:function(){return jn},context:function(t){return t; r})}function D(t,i,n){o();var r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var; r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var t=h("canvas");t.width=1,t.hei
-  - Public CSS/JS probe keywords: animation, easing, gsap, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: ;color:#000}html,body{width:100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-fam; d-break:normal}.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;; ity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:tra; ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6; rm .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out;transition:transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53),opacity .2s .3s ease-out,-webkit-transform .6s ; ,globalTimeline:Vn,core:{PropTween:Us,globals:Tr,Tween:Ts,Timeline:Fs,Animation:As,getCache:Ur,_removeLinkedListItem:ou,reverting:function(){return jn},context:function(t){return t; r})}function D(t,i,n){o();var r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var; r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var t=h("canvas");t.width=1,t.hei; entListener("_active",c),t.addEventListener("_idle",D),e.push({elem:i,animation:t}),n+=1}function p(t){var e=new ut;return f(e,null),e.setParams(t),e}function d(t,i){var r;for(r=0;; :100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-family:inherit;background-colo
-  - Exact motion parameters: ;color:#000}html,body{width:100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-fam; d-break:normal}.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;; ity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:tra; ,globalTimeline:Vn,core:{PropTween:Us,globals:Tr,Tween:Ts,Timeline:Fs,Animation:As,getCache:Ur,_removeLinkedListItem:ou,reverting:function(){return jn},context:function(t){return t; r})}function D(t,i,n){o();var r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var; r=h(i,n);e.postMessage({type:"complete",animation:t,id:r})}return{loadAnimation:l,loadData:c,completeAnimation:D}}(),$=function(){var t=function(){var t=h("canvas");t.width=1,t.hei; :100%}main{padding-top:var(--headerHeight);transition:padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94)}button{border:none;padding:0;margin:0;font-family:inherit;background-colo; yload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:all .5s ease-out}.hidden{position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding; nslateY(-20px);transform:translateY(-20px);transition:opacity .2s .3s ease-out,-webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:transform .6s cubic-bezier(0.5; se:collapse}button,input,select{margin:0}button{overflow:visible;text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}input{overflow:visibl
-  - JavaScript/runtime motion evidence: "addEventListener",o="getAttribute",h=t[a].bind(t),l=t.setTimeout,c=t.requestAnimationFrame||l,D=t.requestIdleCallback,f=/^picture$/i,p=["load","error","lazyincluded","_lazyloaded"; (t,e,i){Mt[i]+=t,Lt[i]+=e,Et._vx.update(t),Et._vy.update(e),A?mt||(mt=requestAnimationFrame(Rt)):Rt()},jt=function(t,e){pt&&!Ct&&(Et.axis=Ct=Math.abs(t)>Math.abs(e)?"x":"y",yt=!0),; ._vx.update(t,!0)),"x"!==Ct&&(Lt[2]+=e,Et._vy.update(e,!0)),A?mt||(mt=requestAnimationFrame(Rt)):Rt()},qt=function(t){if(!zt(t,1)){var e=(t=O(t,F)).clientX,n=t.clientY,r=e-Et.x,u=n; t,At,Ft,yt=1,Ct=Date.now,Et=Ct(),bt=0,_t=0,Bt=function t(){return _t&&requestAnimationFrame(t)},wt=function(){return tt=1},xt=function(){return tt=0},kt=function(t){return t},St=fu; px",q.set(t,r)},Fe=[],ye={},Ce=function(){return Ct()-bt>34&&(gt||(gt=requestAnimationFrame(Re)))},Ee=function(){(!ht||!ht.isPressed||ht.startX>Y.clientWidth)&&(A.cache++,ht?gt||(g; ,D,f,p,d,m=function(){return n||"undefined"!=typeof window&&(n=window.gsap)&&n.registerPlugin&&n},g=1,v=[],A=[],F=[],y=Date.now,C=function(t,e){return e},E=function(t,e){return~F.i; return Math.abs(e)>=Math.abs(i)?e:i},R=function(){(c=n.core.globals().ScrollTrigger)&&c.core&&function(){var t=c.core,e=t.bridge||{},i=t._scrollers,n=t._proxies;i.push.apply(i,A),n; nction(e){return e.vars.id===t}))[0]},m()&&n.registerPlugin(j); /*! * ScrollTrigger 3.11.5 * https://greensock.com * * @license Copyright 2008-2023, GreenSock. All rights reserved.
-  - Stylesheet evidence: https://glyphsapp.com/assets/css/build/style.css?ver=1726569687; https://plausible.io/js/pa-83l_ieDDw-stlLRv3nvw1.js; https://glyphsapp.com/assets/js/build/bundle.js?ver=1763572134; https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, request_animation_frame
-  - Public stylesheet/script URLs: https://glyphsapp.com/assets/css/build/style.css?ver=1726569687; https://plausible.io/js/pa-83l_ieDDw-stlLRv3nvw1.js; https://glyphsapp.com/assets/js/build/bundle.js?ver=1763572134; https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.3/fastspring-builder.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-glyphs-app-design-tool-component-styles.json`
-  - Asset CDN and media loading patterns: https://glyphsapp.com/media/pages/tools/fonttableviewer/d952abdf25-1673479538/fonttableviewer-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/editglyphdata/379dec43ea-1673479538/editglyphdata-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/mergeglyphs/0a08ba7e1f-1673479538/mergeglyphs-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/commitglyphs/3789baffd6-1673479538/icon-1280x-q80.webp; https://glyphsapp.com/media/pages/buy/fdd6784499-1624987025/image-220-1280x-q80.webp; https://glyphsapp.com/media/pages/learn/arabic/0b362cccd8-1715028350/markcloud-320x-q80.webp; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 3; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | padding-top | 500ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 组件state-change：padding-top，500ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| component | state-change | all | 500ms | 0ms | ease-out | 组件state-change：all，500ms ease-out，state-change 触发 |
+| component | state-change | transform | 600ms | 0ms | cubic-bezier(0.55, 0.085, 0.68, 0.53) | 组件state-change：transform missing -> translateY(-20px)，600ms cubic-bezier(0.55, 0.085, 0.68, 0.53)，state-change 触发 |
+| component | state-change | opacity | 200ms | 300ms | ease-out | 组件state-change：opacity missing -> translateY(-20px)，200ms ease-out，state-change 触发 |
+| component | state-change | -webkit-transform | 600ms | 0ms | cubic-bezier(0.55, 0.085, 0.68, 0.53) | 组件state-change：-webkit-transform missing -> translateY(-20px)，600ms cubic-bezier(0.55, 0.085, 0.68, 0.53)，state-change 触发 |
+| component | state-change | transform | 800ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 组件state-change：transform missing -> translateY(0)，800ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| component | state-change | opacity | 250ms | 0ms | ease-in | 组件state-change：opacity missing -> translateY(0)，250ms ease-in，state-change 触发 |
+| component | state-change | -webkit-transform | 800ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 组件state-change：-webkit-transform missing -> translateY(0)，800ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| button | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 按钮state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| button | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 按钮state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| button | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 按钮state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | z-index | 10ms | 400ms | linear | 导航state-change：z-index，10ms linear，state-change 触发 |
+| navigation | state-change | opacity | 400ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：opacity，400ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | visibility | 10ms | 400ms | linear | 导航state-change：visibility，10ms linear，state-change 触发 |
+| navigation | state-change | opacity | 400ms | 10ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：opacity，400ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | visibility | 10ms | 0ms | linear | 导航state-change：visibility，10ms linear，state-change 触发 |
+| navigation | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | top | 125ms | 0ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：top，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | -webkit-transform | 125ms | 125ms | cubic-bezier(0.455, 0.03, 0.515, 0.955) | 导航state-change：-webkit-transform，125ms cubic-bezier(0.455, 0.03, 0.515, 0.955)，state-change 触发 |
+| navigation | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
+| navigation | state-change | all | 150ms | 0ms | cubic-bezier(0.25, 0.46, 0.45, 0.94) | 导航state-change：all，150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-glyphs-app-design-tool-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-navigation-state-change-inherit-missing-missing lacks duration_ms
+- motion-navigation-state-change-inherit-missing-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-padding-top-500-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+main { transition: padding-top .5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-component-state-change-all-500-ease-out
+
+```css
+.lazyloaded { transition: all .5s ease-out; }
+```
+
+### motion-component-state-change-transform-600-cubic-bezier-0-55-0-085-0-68-0-53
+
+```css
+[data-ajax-out] { transition: transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+```
+
+### motion-component-state-change-opacity-200-ease-out
+
+```css
+[data-ajax-out] { transition: opacity .2s .3s ease-out; }
+```
+
+### motion-component-state-change-webkit-transform-600-cubic-bezier-0-55-0-085-0-68-0-53
+
+```css
+[data-ajax-out] { transition: -webkit-transform .6s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+```
+
+### motion-component-state-change-transform-800-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+[data-ajax-in] { transition: transform .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-component-state-change-opacity-250-ease-in
+
+```css
+[data-ajax-in] { transition: opacity .25s ease-in; }
+```
+
+### motion-component-state-change-webkit-transform-800-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+[data-ajax-in] { transition: -webkit-transform .8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-button-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+a.Button { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-button-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Button { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-button-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Button span { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-z-index-10-linear
+
+```css
+.Header { transition: z-index .01s .4s linear; }
+```
+
+### motion-navigation-state-change-opacity-400-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Header:before { transition: opacity .4s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-visibility-10-linear
+
+```css
+.Header:before { transition: visibility .01s .4s linear; }
+```
+
+### motion-navigation-state-change-opacity-400-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Header.is-active:before { transition: opacity .4s .01s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-visibility-10-linear
+
+```css
+.Header.is-active:before { transition: visibility .01s linear; }
+```
+
+### motion-navigation-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Header-naviconContainer { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:before { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:before { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:before { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:after { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:after { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon span:after { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:before { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:before { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:before { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:after { transition: top .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:after { transition: transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+a.Header-navicon span:after { transition: -webkit-transform .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span { transition: top .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span { transition: transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span { transition: -webkit-transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:before { transition: top .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:before { transition: transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:before { transition: -webkit-transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-top-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:after { transition: top .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:after { transition: transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-webkit-transform-125-cubic-bezier-0-455-0-03-0-515-0-955
+
+```css
+.Header-navicon.is-active span:after { transition: -webkit-transform .125s .125s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+```
+
+### motion-navigation-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Nav-link { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Menu-openingTeaser { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
+
+### motion-navigation-state-change-all-150-cubic-bezier-0-25-0-46-0-45-0-94
+
+```css
+.Menu-closingTeaser a { transition: all .15s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

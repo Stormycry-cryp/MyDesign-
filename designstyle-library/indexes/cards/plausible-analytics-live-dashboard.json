@@ -17,12 +17,16 @@
     "public-dom",
     "css-js-probe"
   ],
-  "component_json_path": "assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json",
+  "component_json_path": "assets/2026-06-12-plausible-analytics-live-dashboard-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/plausible-analytics-live-dashboard/component-styles.md",
     "moodboard": "design-systems/plausible-analytics-live-dashboard/moodboard.svg",
+    "motion": "design-systems/plausible-analytics-live-dashboard/motion.json",
+    "motion_presets": "design-systems/plausible-analytics-live-dashboard/motion-presets.css",
     "palette": "design-systems/plausible-analytics-live-dashboard/palette.md",
-    "tokens": "design-systems/plausible-analytics-live-dashboard/tokens.json"
+    "tailwind_theme": "design-systems/plausible-analytics-live-dashboard/tailwind.theme.json",
+    "tokens": "design-systems/plausible-analytics-live-dashboard/tokens.json",
+    "variables_css": "design-systems/plausible-analytics-live-dashboard/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/plausible-analytics-live-dashboard/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/plausible-analytics-live-dashboard/scene.md",
     "type_copy": "dimensions/plausible-analytics-live-dashboard/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2879}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 300x73; 300x73; 32x32; 150x150; 20x20; 48x48; 32x32; 32x32; 150x150; 32x32.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 4px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 2879}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 300:73; 300:73; 32:32; 150:150; 20:20; 48:48; 32:32; 32:32; 150:150; 32:32",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 4px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "reveal viewport motion uses 300ms cubic-bezier(.23,1,.32,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "overlay load motion uses 200ms ease-in",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "overlay state-change motion uses 100ms ease-in",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 200ms ease-in",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

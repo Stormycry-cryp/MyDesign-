@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/typeform-product-forms-saas/component-styles.md",
     "moodboard": "design-systems/typeform-product-forms-saas/moodboard.svg",
+    "motion": "design-systems/typeform-product-forms-saas/motion.json",
+    "motion_presets": "design-systems/typeform-product-forms-saas/motion-presets.css",
     "palette": "design-systems/typeform-product-forms-saas/palette.md",
-    "tokens": "design-systems/typeform-product-forms-saas/tokens.json"
+    "tailwind_theme": "design-systems/typeform-product-forms-saas/tailwind.theme.json",
+    "tokens": "design-systems/typeform-product-forms-saas/tokens.json",
+    "variables_css": "design-systems/typeform-product-forms-saas/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/typeform-product-forms-saas/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/typeform-product-forms-saas/scene.md",
     "type_copy": "dimensions/typeform-product-forms-saas/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8959}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 16x16; 16x16; 16x16; 0x0; 32x32; 1440x1010; 16x16; 16x16; 16x16; 16x16.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8959}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 16:16; 16:16; 16:16; 32:32; 1440:1010; 16:16; 16:16; 16:16; 16:16; 16:16",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 200ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

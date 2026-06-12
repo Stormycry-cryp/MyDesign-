@@ -22,8 +22,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/chopard-official/component-styles.md",
     "moodboard": "design-systems/chopard-official/moodboard.svg",
+    "motion": "design-systems/chopard-official/motion.json",
+    "motion_presets": "design-systems/chopard-official/motion-presets.css",
     "palette": "design-systems/chopard-official/palette.md",
-    "tokens": "design-systems/chopard-official/tokens.json"
+    "tailwind_theme": "design-systems/chopard-official/tailwind.theme.json",
+    "tokens": "design-systems/chopard-official/tokens.json",
+    "variables_css": "design-systems/chopard-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/chopard-official/assets.md",
@@ -34,6 +38,56 @@
     "scene": "dimensions/chopard-official/scene.md",
     "type_copy": "dimensions/chopard-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 800x600; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 800:600; 970:546",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button hover motion uses 150ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 150ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 600ms ease-in",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

@@ -1,0 +1,37 @@
+.ds-motion-motion-component-state-change-all-300-ease-in-out {
+  transition-property: all;
+  transition-duration: var(--ds-motion-motion-component-state-change-all-300-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-all-300-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-all-300-ease-in-out-easing);
+}
+
+.ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-260-cubic-bezier-47-0-745-715-easing);
+  transform: translate3d(0,-100%,0);
+}
+
+.ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-duration);
+  transition-delay: var(--ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-delay);
+  transition-timing-function: var(--ds-motion-motion-component-state-change-transform-375-cubic-bezier-39-575-565-1-easing);
+  transform: translate3d(0,0,0);
+}
+
+.ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1 {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-state-change-transform-900-cubic-bezier-165-84-44-1-easing);
+  transform: translate3d(-50%,-10vh,0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

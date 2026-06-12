@@ -1,42 +1,383 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: se:pulse 1.5s cubic-bezier(.4,0,.6,1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-family:va, 1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono);--color-gray-75:#f7f7f8;--color-gray-150:#ecec, vg path,.flatpickr-months .flatpickr-next-month svg path{fill:inherit;transition:fill .1s}.numInputWrapper{height:auto;position:relative}.numInputWrapper input,.numInputWrapper span{display:inline-block}.numInputWrapper
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: -7)},1e3)}g===1&&!zo(c,e.getBoundingClientRect())&&o(),w=!1}try{i=new IntersectionObserver(A,qt(ke({},b),{root:s.ownerDocument}))}catch(k){i=new IntersectionObserver(A,b)}i.observe(e)}return o(!0),r}function Su(e,t,i,n){, sectionObserver(A,qt(ke({},b),{root:s.ownerDocument}))}catch(k){i=new IntersectionObserver(A,b)}i.observe(e)}return o(!0),r}function Su(e,t,i,n){n===void 0&&(n={});let{ancestorScroll:s=!0,ancestorResize:r=!0,elementResiz, y=1,n.style.display="block",h.progress(0),c.autoRun&&function d(){o=e.requestAnimationFrame(d),h.progress("+"+.05*Math.pow(1-Math.sqrt(s),2))}()))},progress:function(u){return u===void 0||(typeof u=="string"&&(u=(0<=u.ind, ,n.style.opacity<=.05)?(n.style.display="none",void(a=null)):void(a=e.requestAnimationFrame(u))}())}};typeof Ui=="object"&&typeof Ui.exports=="object"?Ui.exports=h:typeof define=="function"&&define.amd?define(function(){r
-  - Timing/easing: turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:""}}}@layer theme{:root,:host{--font-sans:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI E, -sm:.25rem;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infi, em;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-pulse:pu, radius-lg:.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-pulse:pulse 1.5s cu, :.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-pulse:pulse 1.5s cubic-bezier(.4,0,.6,1)in
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: se:pulse 1.5s cubic-bezier(.4,0,.6,1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; vg path,.flatpickr-months .flatpickr-next-month svg path{fill:inherit;transition:fill .1s}.numInputWrapper{height:auto;position:relative}.numInputWrapper input,.numInputWrapper spa; e-in mm-fade-out}.modal-enter{opacity:0}.modal-enter-active{opacity:1;transition:opacity .1s ease-in}.modal__overlay{z-index:999;background:#0009;position:fixed;inset:0;overflow:au; er:6px solid #0000;border-top:4px solid #191e38;border-bottom-width:0;transition:all .3s;position:absolute;top:-6px;left:50%;transform:translate(-50%)}[tooltip]:after{white-space:n; -radius:5px;width:307.875px;padding:0;font-size:14px;line-height:24px;animation:none;display:none;position:absolute;box-shadow:1px 0 #e6e6e6,-1px 0 #e6e6e6,0 1px #e6e6e6,0 -1px #e6; n{z-index:99999;display:inline-block}.flatpickr-calendar.animate.open{animation:.3s cubic-bezier(.23,1,.32,1) fpFadeInDown}.flatpickr-calendar.inline{display:block;position:relativ; modal.is-open{display:block}.modal[aria-hidden=false] .modal__overlay{animation:.2s ease-in mm-fade-in}.modal[aria-hidden=true] .modal__overlay{animation:.2s ease-in mm-fade-out}.m
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: se:pulse 1.5s cubic-bezier(.4,0,.6,1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; vg path,.flatpickr-months .flatpickr-next-month svg path{fill:inherit;transition:fill .1s}.numInputWrapper{height:auto;position:relative}.numInputWrapper input,.numInputWrapper spa; e-in mm-fade-out}.modal-enter{opacity:0}.modal-enter-active{opacity:1;transition:opacity .1s ease-in}.modal__overlay{z-index:999;background:#0009;position:fixed;inset:0;overflow:au; er:6px solid #0000;border-top:4px solid #191e38;border-bottom-width:0;transition:all .3s;position:absolute;top:-6px;left:50%;transform:translate(-50%)}[tooltip]:after{white-space:n; -radius:5px;width:307.875px;padding:0;font-size:14px;line-height:24px;animation:none;display:none;position:absolute;box-shadow:1px 0 #e6e6e6,-1px 0 #e6e6e6,0 1px #e6e6e6,0 -1px #e6; n{z-index:99999;display:inline-block}.flatpickr-calendar.animate.open{animation:.3s cubic-bezier(.23,1,.32,1) fpFadeInDown}.flatpickr-calendar.inline{display:block;position:relativ; modal.is-open{display:block}.modal[aria-hidden=false] .modal__overlay{animation:.2s ease-in mm-fade-in}.modal[aria-hidden=true] .modal__overlay{animation:.2s ease-in mm-fade-out}.m; ation:.2s ease-in mm-fade-in}.modal[aria-hidden=true] .modal__overlay{animation:.2s ease-in mm-fade-out}.modal-enter{opacity:0}.modal-enter-active{opacity:1;transition:opacity .1s ; m-fade-out{0%{opacity:1}to{opacity:0}}.loading{width:50px;height:50px;animation:.2s ease-in loader-fade-in}.loading.sm{width:20px;height:20px}.loading div{border:3px solid #dae1e7;
-  - Exact motion parameters: se:pulse 1.5s cubic-bezier(.4,0,.6,1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 1)infinite;--blur-sm:8px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; vg path,.flatpickr-months .flatpickr-next-month svg path{fill:inherit;transition:fill .1s}.numInputWrapper{height:auto;position:relative}.numInputWrapper input,.numInputWrapper spa; -radius:5px;width:307.875px;padding:0;font-size:14px;line-height:24px;animation:none;display:none;position:absolute;box-shadow:1px 0 #e6e6e6,-1px 0 #e6e6e6,0 1px #e6e6e6,0 -1px #e6; n{z-index:99999;display:inline-block}.flatpickr-calendar.animate.open{animation:.3s cubic-bezier(.23,1,.32,1) fpFadeInDown}.flatpickr-calendar.inline{display:block;position:relativ; modal.is-open{display:block}.modal[aria-hidden=false] .modal__overlay{animation:.2s ease-in mm-fade-in}.modal[aria-hidden=true] .modal__overlay{animation:.2s ease-in mm-fade-out}.m; turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:""}}}@layer theme{:root,:host{--font-sans:ui-sans-serif,system-ui,sans-serif,"Apple ; -sm:.25rem;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--anima; em;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:; t:300;line-height:1;display:inline-block;position:absolute;left:12.5%;transform:translate(0)}.flatpickr-current-month span.cur-month{color:inherit;margin-left:.5ch;padding:0;font-f
-  - JavaScript/runtime motion evidence: -7)},1e3)}g===1&&!zo(c,e.getBoundingClientRect())&&o(),w=!1}try{i=new IntersectionObserver(A,qt(ke({},b),{root:s.ownerDocument}))}catch(k){i=new IntersectionObserver(A,b)}i.observe; sectionObserver(A,qt(ke({},b),{root:s.ownerDocument}))}catch(k){i=new IntersectionObserver(A,b)}i.observe(e)}return o(!0),r}function Su(e,t,i,n){n===void 0&&(n={});let{ancestorScro; lementResize:o=typeof ResizeObserver=="function",layoutShift:a=typeof IntersectionObserver=="function",animationFrame:l=!1}=n,c=hs(e),h=s||r?[...c?Jt(c):[],...Jt(t)]:[];h.forEach(v; y=1,n.style.display="block",h.progress(0),c.autoRun&&function d(){o=e.requestAnimationFrame(d),h.progress("+"+.05*Math.pow(1-Math.sqrt(s),2))}()))},progress:function(u){return u===; ,n.style.opacity<=.05)?(n.style.display="none",void(a=null)):void(a=e.requestAnimationFrame(u))}())}};typeof Ui=="object"&&typeof Ui.exports=="object"?Ui.exports=h:typeof define=="; nsitions=function(e,t,i,n){let s=document.visibilityState==="visible"?requestAnimationFrame:setTimeout,r=()=>s(i);if(t){e._x_transition&&(e._x_transition.enter||e._x_transition.lea; eCancels.shift()();r()}),finish:r},V(()=>{t.start(),t.during()}),Wa(),requestAnimationFrame(()=>{if(i)return;let o=Number(getComputedStyle(e).transitionDuration.replace(/,.*/,"").r; e(e).animationDuration.replace("s",""))*1e3),V(()=>{t.before()}),n=!0,requestAnimationFrame(()=>{i||(V(()=>{t.end()}),on(),setTimeout(e._x_transitioning.finish,o+a),s=!0)})})}funct
-  - Stylesheet evidence: https://plausible.io/css/app-f69c69ac6696ac5c194c80ad08f4f3ca.css?vsn=d; https://plausible.io/js/pa-6_srOGVV9SLMWJ1ZpUAbG.js; https://plausible.io/js/app-7a2b55ca08b35554cc36109f298c4b30.js?vsn=d; https://plausible.io/js/dashboard-95a53cb32f3e036db1ae5052e6025325.js?vsn=d
-  - Interpreted motion tags: low-motion, static-dashboard
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://plausible.io/css/app-f69c69ac6696ac5c194c80ad08f4f3ca.css?vsn=d; https://plausible.io/js/pa-6_srOGVV9SLMWJ1ZpUAbG.js; https://plausible.io/js/app-7a2b55ca08b35554cc36109f298c4b30.js?vsn=d; https://plausible.io/js/dashboard-95a53cb32f3e036db1ae5052e6025325.js?vsn=d
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-plausible-analytics-live-dashboard-component-styles.json`
-  - Asset CDN and media loading patterns: https://plausible.io/images/ee/logo_dark-4ce532ac105c4615d6a2e51307c8fc28.svg?vsn=d; https://plausible.io/images/ee/logo_light-38aed73a70daced020b53243966ed15e.svg?vsn=d; https://plausible.io/favicon/sources/plausible.io; https://plausible.io/favicon/sources/Direct%20%2F%20None; https://plausible.io/favicon/sources/Google; https://plausible.io/favicon/sources/chatgpt.com; https://plausible.io/favicon/sources/GitHub; https://plausible.io/favicon/sources/Bing
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 13 and scripts 3; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| reveal | viewport | animation | 300ms | 0ms | cubic-bezier(.23,1,.32,1) | 入场元素viewport：animation translateY(-20px) -> translate(0)，300ms cubic-bezier(.23,1,.32,1)，viewport 触发 |
+| overlay | load | animation | 200ms | 0ms | ease-in | 浮层load：animation 0 -> 1，200ms ease-in，load 触发 |
+| overlay | load | animation | 200ms | 0ms | ease-in | 浮层load：animation 1 -> 0，200ms ease-in，load 触发 |
+| overlay | state-change | opacity | 100ms | 0ms | ease-in | 浮层state-change：opacity，100ms ease-in，state-change 触发 |
+| component | load | animation | 200ms | 0ms | ease-in | 组件load：animation 0 -> 1，200ms ease-in，load 触发 |
+| component | load | animation | 1000ms | 0ms | ease-in-out | 组件load：animation rotate(360deg) -> rotate(360deg)，1000ms ease-in-out，load 触发 |
+| reveal | viewport | animation | 1500ms | 0ms | cubic-bezier(.4,0,.6,1) | 入场元素viewport：animation .5 -> .5，1500ms cubic-bezier(.4,0,.6,1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | linear | 入场元素viewport：animation rotate(360deg) -> rotate(360deg)，1000ms linear，viewport 触发 |
+| component | state-change | color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：background-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：border-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | outline-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：outline-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：text-decoration-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：fill，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：stroke，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | --tw-gradient-from | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：--tw-gradient-from，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | --tw-gradient-via | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：--tw-gradient-via，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | --tw-gradient-to | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：--tw-gradient-to，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：opacity，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | box-shadow | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：box-shadow，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：transform，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | translate | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：translate，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | scale | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：scale，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | rotate | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：rotate，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | filter | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：filter，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | -webkit-backdrop-filter | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：-webkit-backdrop-filter，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | backdrop-filter | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：backdrop-filter，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | display | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：display，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | visibility | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：visibility，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | content-visibility | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：content-visibility，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | overlay | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：overlay，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | pointer-events | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：pointer-events，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | height | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：height，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | width | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：width，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | all | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：all，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：background-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：border-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | outline-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：outline-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：text-decoration-color，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：fill，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：stroke，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | --tw-gradient-from | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：--tw-gradient-from，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| component | state-change | --tw-gradient-via | 500ms | 0ms | cubic-bezier(0,0,.2,1) | 组件state-change：--tw-gradient-via，500ms cubic-bezier(0,0,.2,1)，state-change 触发 |
+| navigation | focus | boxShadow | 0ms | 0ms | ease | 导航focus：boxShadow missing -> rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px，0ms ease，focus 触发；样本 ds-navigation-2 |
+| navigation | hover | color | 100ms | 0ms | ease-in | 导航hover：color missing -> oklch(0.21 0.006 285.885)，100ms ease-in，hover 触发；样本 Login |
+| navigation | focus | color | 100ms | 0ms | ease-in | 导航focus：color missing -> oklch(0.21 0.006 285.885)，100ms ease-in，focus 触发；样本 Login |
+| button | hover | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 按钮hover：backgroundColor missing -> oklab(0.94365 0.000794381 -0.0025425 / 0.775098)，150ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 Last 28 days |
+| button | focus | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 按钮focus：backgroundColor missing -> oklab(0.94365 0.000794381 -0.0025425 / 0.794136)，150ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 Last 28 days |
+| button | focus | boxShadow | 0ms | 0ms | ease | 按钮focus：boxShadow missing -> rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px，0ms ease，focus 触发；样本 CHANNELS |
+| button | focus | boxShadow | 0ms | 0ms | ease | 按钮focus：boxShadow missing -> rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px，0ms ease，focus 触发；样本 SOURCES |
+| button | focus | boxShadow | 0ms | 0ms | ease | 按钮focus：boxShadow missing -> rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px，0ms ease，focus 触发；样本 CAMPAIGNS |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-plausible-analytics-live-dashboard-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-fill-100-missing lacks easing
+- motion-component-state-change-fill-100-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+- motion-component-state-change-all-300-missing lacks easing
+
+## Snippet Appendix
+### motion-reveal-viewport-animation-300-cubic-bezier-23-1-32-1
+
+```css
+.flatpickr-calendar.animate.open { animation: .3s cubic-bezier(.23,1,.32,1) fpFadeInDown; }
+```
+
+### motion-overlay-load-animation-200-ease-in
+
+```css
+.modal[aria-hidden=false] .modal__overlay { animation: .2s ease-in mm-fade-in; }
+```
+
+### motion-overlay-load-animation-200-ease-in
+
+```css
+.modal[aria-hidden=true] .modal__overlay { animation: .2s ease-in mm-fade-out; }
+```
+
+### motion-overlay-state-change-opacity-100-ease-in
+
+```css
+.modal-enter-active { transition: opacity .1s ease-in; }
+```
+
+### motion-component-load-animation-200-ease-in
+
+```css
+.loading { animation: .2s ease-in loader-fade-in; }
+```
+
+### motion-component-load-animation-1000-ease-in-out
+
+```css
+.loading div { animation: 1s ease-in-out infinite spin; }
+```
+
+### motion-reveal-viewport-animation-1500-cubic-bezier-4-0-6-1
+
+```css
+.animate-pulse { animation: pulse 1.5s cubic-bezier(.4,0,.6,1)infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-linear
+
+```css
+.animate-spin { animation: spin 1s linear infinite; }
+```
+
+### motion-component-state-change-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-background-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: background-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-border-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: border-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-outline-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: outline-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-text-decoration-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: text-decoration-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-fill-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: fill; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-stroke-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: stroke; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-tw-gradient-from-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-from; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-tw-gradient-via-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-via; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-tw-gradient-to-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: --tw-gradient-to; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-opacity-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: opacity; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-box-shadow-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: box-shadow; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-transform-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: transform; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-translate-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: translate; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-scale-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: scale; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-rotate-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: rotate; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-filter-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: filter; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-webkit-backdrop-filter-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: -webkit-backdrop-filter; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-backdrop-filter-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: backdrop-filter; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-display-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: display; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-visibility-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: visibility; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-content-visibility-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: content-visibility; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-overlay-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: overlay; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-pointer-events-500-cubic-bezier-0-0-2-1
+
+```css
+.transition { transition-property: pointer-events; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-height-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-\[height\] { transition-property: height; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-width-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-\[width\] { transition-property: width; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-all-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-all { transition-property: all; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-background-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: background-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-border-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: border-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-outline-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: outline-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-text-decoration-color-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: text-decoration-color; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-fill-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: fill; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-stroke-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: stroke; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-tw-gradient-from-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: --tw-gradient-from; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-component-state-change-tw-gradient-via-500-cubic-bezier-0-0-2-1
+
+```css
+.transition-colors { transition-property: --tw-gradient-via; transition-duration: .5s); transition-timing-function: cubic-bezier(0,0,.2,1)); }
+```
+
+### motion-navigation-focus-boxshadow-0-ease
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"}
+```
+
+### motion-navigation-hover-color-100-ease-in
+
+```css
+{"color": "oklch(0.21 0.006 285.885)"}
+```
+
+### motion-navigation-focus-color-100-ease-in
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, oklab(0 0 0 / 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px", "color": "oklch(0.21 0.006 285.885)"}
+```
+
+### motion-button-hover-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "oklab(0.94365 0.000794381 -0.0025425 / 0.775098)"}
+```
+
+### motion-button-focus-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "oklab(0.94365 0.000794381 -0.0025425 / 0.794136)"}
+```
+
+### motion-button-focus-boxshadow-0-ease
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"}
+```
+
+### motion-button-focus-boxshadow-0-ease
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"}
+```
+
+### motion-button-focus-boxshadow-0-ease
+
+```css
+{"boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 2px, oklch(0.585 0.233 277.117) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

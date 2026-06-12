@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-better-stack-observability-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-better-stack-observability-component-styles.json`
   - Asset CDN and media loading patterns: https://betterstack.com/assets/v2/homepage-v3/better-stack-logo-3d-5c6cab03.png; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-sm-057621f5.jpg; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/ebpf-service-map-13ad9019.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/log-management-bcc38259.jpg; https://betterstack.com/; https://betterstack.com/assets/v2/homepage-v3/hero-carousel/opentelemetry-tracing-fdfebde4.jpg; https://betterstack.com/
 
 ## Inference

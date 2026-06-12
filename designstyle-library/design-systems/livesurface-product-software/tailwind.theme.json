@@ -1,0 +1,20 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "accent": "#ffb080",
+        "accent-2": "#d09070",
+        "background": "#ffffff",
+        "deep-accent": "#604030",
+        "deep-accent-2": "#201010",
+        "deep-accent-3": "#403020",
+        "foreground": "#000000",
+        "supporting-color": "#805040",
+        "supporting-color-2": "#a07050"
+      },
+      "spacing": {
+        "ds-component": "150px 0px 0px"
+      }
+    }
+  }
+}

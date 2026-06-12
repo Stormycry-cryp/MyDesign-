@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 The AI Analytics Platform where trust meets insight; Loved by the best data teams; H2 NexaCorp revenue trends by product line; NexaCorp revenue trends by product line; TRUSTED BY LEADING DATA COMPANIES; Trusted AI workflows for every data question; NexaCorp Q3 revenue trends by product line; NexaCorp revenue trends by product line; navigation 📊 AI analytics use case: how Mercor unlocked $100M in revenue; 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF; 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt; 📖 State of Data Teams 2026 discover key insights from data leaders; 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech"; 📊 AI analytics use case: how Mercor unlocked $100M in revenue; 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF; 🤯 Generative data apps: Gorgeous, interactive dashboards and apps you can build with just a prompt; 📖 State of Data Teams 2026 discover key insights from data leaders; 🙏 It's just "Hex"! Not "HEX" or "Hex dot tech"; 📊 AI analytics use case: how Mercor unlocked $100M in revenue; 🪩 Come hang at Club Hex with the sharpest minds in data - this Summit season in SF
+  - Sentence rhythm: 109 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title AI Analytics Platform for Your Whole Team | Hex; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://hex.tech/
   - Page title: AI Analytics Platform for Your Whole Team | Hex
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

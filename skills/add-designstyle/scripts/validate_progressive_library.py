@@ -22,6 +22,7 @@ REQUIRED_CARD_FIELDS = [
     "avoid_for",
     "evidence_strength",
     "missing_evidence",
+    "dna",
     "component_json_path",
     "dimension_paths",
     "design_system_paths",
@@ -38,6 +39,7 @@ REQUIRED_DIMENSIONS = [
     "components_states",
 ]
 ALLOWED_STRENGTH = {"strong", "medium", "weak", "missing"}
+MEASURABLE_DNA = re.compile(r"\d")
 CHALLENGE_PATTERNS = [
     "Attention Required | Cloudflare",
     "Cloudflare Ray ID",
@@ -96,6 +98,24 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
         errors.append("best_for must be present as a non-empty list")
     if not isinstance(card.get("missing_evidence"), list):
         errors.append("missing_evidence must be present as a list")
+    dna = card.get("dna")
+    if not isinstance(dna, list):
+        errors.append("dna must be present as a list")
+        dna = []
+    if len(dna) > 12:
+        errors.append("dna must contain no more than 12 entries")
+    for index, item in enumerate(dna):
+        if not isinstance(item, dict):
+            errors.append(f"dna item must be an object: {slug}#{index}")
+            continue
+        decision = item.get("decision")
+        source = item.get("evidence_source")
+        if not isinstance(decision, str) or not decision.strip():
+            errors.append(f"dna item missing decision: {slug}#{index}")
+        elif not MEASURABLE_DNA.search(decision):
+            errors.append(f"dna decision is not measurable: {slug}#{index}")
+        if not isinstance(source, str) or not source.strip():
+            errors.append(f"dna item missing evidence_source: {slug}#{index}")
     component_json = card.get("component_json_path")
     if component_json is not None and not isinstance(component_json, str):
         errors.append("component_json_path must be a string when present")
@@ -140,7 +160,15 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
     if not isinstance(system_paths, dict):
         errors.append("design_system_paths must be an object")
         system_paths = {}
-    for key in ["tokens", "palette", "moodboard", "component_styles"]:
+    for key in [
+        "tokens",
+        "palette",
+        "moodboard",
+        "component_styles",
+        "variables_css",
+        "tailwind_theme",
+        "motion_presets",
+    ]:
         rel = system_paths.get(key)
         if not isinstance(rel, str):
             errors.append(f"missing design system path: {key}")
@@ -162,6 +190,63 @@ def validate_card(path: Path, lib: Path) -> dict[str, object]:
                 errors.append(f"design system lacks palette colors: {rel}")
             if not isinstance(components, dict) or not components:
                 errors.append(f"design system lacks component styles: {rel}")
+            apply = tokens.get("apply")
+            if not isinstance(apply, dict):
+                errors.append(f"design system lacks apply tokens: {rel}")
+            else:
+                for apply_key in ["color", "type", "spacing", "radius", "shadow", "motion"]:
+                    if apply_key not in apply:
+                        errors.append(f"design system apply missing {apply_key}: {rel}")
+            evidence = tokens.get("evidence")
+            if not isinstance(evidence, dict):
+                errors.append(f"design system lacks evidence layer: {rel}")
+        elif key == "tailwind_theme":
+            try:
+                theme = json.loads(path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                errors.append(f"invalid tailwind theme: {rel}: {exc}")
+            else:
+                if not isinstance(theme.get("theme"), dict):
+                    errors.append(f"tailwind theme lacks theme object: {rel}")
+        elif key in {"variables_css", "motion_presets"}:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            if key == "variables_css" and ":root" not in text:
+                errors.append(f"variables css lacks :root: {rel}")
+            if key == "motion_presets" and "prefers-reduced-motion" not in text:
+                errors.append(f"motion presets lack reduced-motion fallback: {rel}")
+
+    motion_rel = system_paths.get("motion")
+    if not isinstance(motion_rel, str):
+        errors.append("missing design system path: motion")
+    else:
+        motion_path = lib / motion_rel
+        if not motion_path.exists():
+            errors.append(f"motion system file missing: {motion_rel}")
+        else:
+            try:
+                motion = json.loads(motion_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                errors.append(f"invalid motion json: {motion_rel}: {exc}")
+            else:
+                items = motion.get("items") if isinstance(motion, dict) else None
+                if not isinstance(items, list):
+                    errors.append(f"motion items must be a list: {motion_rel}")
+                    items = []
+                for index, item in enumerate(items):
+                    if not isinstance(item, dict):
+                        errors.append(f"motion item must be an object: {motion_rel}#{index}")
+                        continue
+                    for field in ["selector_role", "trigger", "property", "duration_ms", "delay_ms", "easing", "description"]:
+                        if field not in item:
+                            errors.append(f"motion item missing {field}: {motion_rel}#{index}")
+                    for field in ["duration_ms", "delay_ms"]:
+                        value = item.get(field)
+                        if not (isinstance(value, int) or value == "missing"):
+                            errors.append(f"invalid motion duration: {motion_rel}#{index}.{field}={value}")
+                    for field in ["selector_role", "trigger", "property", "easing", "description"]:
+                        value = item.get(field)
+                        if not isinstance(value, str) or not value.strip():
+                            errors.append(f"invalid motion text field: {motion_rel}#{index}.{field}")
 
     joined_payload = json.dumps(card, ensure_ascii=False)
     if "assets-excluded" in joined_payload or "design-systems-excluded" in joined_payload:

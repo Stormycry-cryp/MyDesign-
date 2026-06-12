@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-rekki-food-service-app-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-rekki-food-service-app-component-styles.json`
   - Asset CDN and media loading patterns: https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/6srb6GuMmmqEfgdGeMEhHgHvLs.png?scale-down-to=512&width=1920&height=1080; https://framerusercontent.com/images/g1srZhqIVYKJftPwWiIDb4Kz6Y.svg?width=90&height=97; https://framerusercontent.com/images/KoooaDsalKcX7sZXFG32BUutyos.png?scale-down-to=2048&width=3534&height=1220; https://framerusercontent.com/images/KqIdmGels2UCfzWzP2umF8u9OqE.png?scale-down-to=2048&width=3104&height=1752
 
 ## Inference

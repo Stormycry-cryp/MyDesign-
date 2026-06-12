@@ -1,0 +1,1223 @@
+{
+  "library": "designstyle-library",
+  "queries": 15,
+  "top3_hits": 15,
+  "top3_rate": 1.0,
+  "wrong_top1": 0,
+  "threshold": 0.9,
+  "passed": true,
+  "results": [
+    {
+      "id": "dashboard-analytics-motion",
+      "query": "dashboard analytics table hover metrics",
+      "need": "motion:L2,scene:dashboard",
+      "expected_top3": [
+        "plausible-analytics-live-dashboard",
+        "mercury-financial-dashboard",
+        "rows-spreadsheet-dashboard"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1325,
+          "slug": "plausible-analytics-live-dashboard",
+          "title": "Plausible Analytics Live Dashboard",
+          "category_tags": [
+            "analytics",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "public analytics dashboard",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 817,
+          "slug": "mercury-financial-dashboard",
+          "title": "Mercury Financial Dashboard",
+          "category_tags": [
+            "fintech",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 767,
+          "slug": "rows-spreadsheet-dashboard",
+          "title": "Rows Spreadsheet Dashboard",
+          "category_tags": [
+            "spreadsheet",
+            "analytics",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 567,
+          "slug": "tinybird-analytics-infrastructure",
+          "title": "Tinybird Analytics Infrastructure",
+          "category_tags": [
+            "analytics-infrastructure",
+            "developer-platform",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 482,
+          "slug": "equals-spreadsheet-analytics",
+          "title": "Equals Spreadsheet Analytics",
+          "category_tags": [
+            "spreadsheet",
+            "analytics",
+            "finance"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "dashboard-finance-kpi",
+      "query": "finance dashboard executive KPI trust table",
+      "need": "scene:dashboard",
+      "expected_top3": [
+        "mercury-financial-dashboard",
+        "plausible-analytics-live-dashboard",
+        "rows-spreadsheet-dashboard"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 868,
+          "slug": "plausible-analytics-live-dashboard",
+          "title": "Plausible Analytics Live Dashboard",
+          "category_tags": [
+            "analytics",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "public analytics dashboard",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 848,
+          "slug": "mercury-financial-dashboard",
+          "title": "Mercury Financial Dashboard",
+          "category_tags": [
+            "fintech",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 642,
+          "slug": "rows-spreadsheet-dashboard",
+          "title": "Rows Spreadsheet Dashboard",
+          "category_tags": [
+            "spreadsheet",
+            "analytics",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 46
+        },
+        {
+          "rank": 4,
+          "score": 190,
+          "slug": "better-stack-observability",
+          "title": "Better Stack Observability",
+          "category_tags": [
+            "observability",
+            "devops",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 190,
+          "slug": "electricity-maps-app",
+          "title": "Electricity Maps App",
+          "category_tags": [
+            "map",
+            "energy",
+            "data-dashboard"
+          ],
+          "page_scope": "interactive app map",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "dashboard-developer-console",
+      "query": "developer dashboard database product console",
+      "need": "scene:dashboard",
+      "expected_top3": [
+        "supabase-developer-platform",
+        "railway-developer-platform",
+        "plausible-analytics-live-dashboard"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 856,
+          "slug": "plausible-analytics-live-dashboard",
+          "title": "Plausible Analytics Live Dashboard",
+          "category_tags": [
+            "analytics",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "public analytics dashboard",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 810,
+          "slug": "mercury-financial-dashboard",
+          "title": "Mercury Financial Dashboard",
+          "category_tags": [
+            "fintech",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 670,
+          "slug": "supabase-developer-platform",
+          "title": "Supabase Developer Platform",
+          "category_tags": [
+            "developer-platform",
+            "database",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 666,
+          "slug": "rows-spreadsheet-dashboard",
+          "title": "Rows Spreadsheet Dashboard",
+          "category_tags": [
+            "spreadsheet",
+            "analytics",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 86
+        },
+        {
+          "rank": 5,
+          "score": 556,
+          "slug": "railway-developer-platform",
+          "title": "Railway Developer Platform",
+          "category_tags": [
+            "developer-platform",
+            "saas",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "luxury-product-cinematic",
+      "query": "luxury product landing cinematic motion",
+      "need": "motion:L2,scene:luxury",
+      "expected_top3": [
+        "bentley-motors-official",
+        "land-rover-range-rover-official",
+        "maserati-official"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 370,
+          "slug": "bentley-motors-official",
+          "title": "Bentley Motors Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 370,
+          "slug": "land-rover-range-rover-official",
+          "title": "Land Rover Range Rover Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 370,
+          "slug": "maserati-official",
+          "title": "Maserati Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 356,
+          "slug": "lucid-motors-official",
+          "title": "Lucid Motors Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 342,
+          "slug": "aston-martin-official",
+          "title": "Aston Martin Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "luxury-fashion-heritage",
+      "query": "fashion luxury retail homepage heritage editorial",
+      "need": "scene:luxury",
+      "expected_top3": [
+        "burberry-official",
+        "chopard-official",
+        "valentino-official"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 321,
+          "slug": "burberry-official",
+          "title": "Burberry Official",
+          "category_tags": [
+            "luxury fashion",
+            "heritage retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 307,
+          "slug": "chopard-official",
+          "title": "Chopard Official",
+          "category_tags": [
+            "luxury jewelry",
+            "watches",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 279,
+          "slug": "valentino-official",
+          "title": "Valentino Official",
+          "category_tags": [
+            "luxury fashion",
+            "retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 265,
+          "slug": "bentley-motors-official",
+          "title": "Bentley Motors Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 265,
+          "slug": "lexus-official",
+          "title": "Lexus Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "luxury-watch-jewelry",
+      "query": "watch jewelry luxury homepage technical heritage",
+      "need": "scene:luxury",
+      "expected_top3": [
+        "chopard-official",
+        "ulysse-nardin-official",
+        "patek-philippe-official",
+        "tag-heuer-official"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 429,
+          "slug": "chopard-official",
+          "title": "Chopard Official",
+          "category_tags": [
+            "luxury jewelry",
+            "watches",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 345,
+          "slug": "ulysse-nardin-official",
+          "title": "Ulysse Nardin Official",
+          "category_tags": [
+            "luxury watches",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 331,
+          "slug": "patek-philippe-official",
+          "title": "Patek Philippe Official",
+          "category_tags": [
+            "luxury watches",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 317,
+          "slug": "tag-heuer-official",
+          "title": "TAG Heuer Official",
+          "category_tags": [
+            "luxury watches",
+            "brand retail"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 261,
+          "slug": "bentley-motors-official",
+          "title": "Bentley Motors Official",
+          "category_tags": [
+            "luxury automotive",
+            "brand editorial"
+          ],
+          "page_scope": "official brand homepage",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "docs-developer-navigation",
+      "query": "developer documentation docs code layout navigation",
+      "need": "scene:docs",
+      "expected_top3": [
+        "vercel-developer-platform",
+        "webinspoo-rerun-developer-landing-page",
+        "supabase-developer-platform"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 508,
+          "slug": "vercel-developer-platform",
+          "title": "Vercel Developer Platform",
+          "category_tags": [
+            "developer-platform",
+            "saas",
+            "software",
+            "cloud"
+          ],
+          "page_scope": "homepage cloud developer platform",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 486,
+          "slug": "webinspoo-rerun-developer-landing-page",
+          "title": "WebInspoo Rerun Developer Landing Page",
+          "category_tags": [
+            "developer-tool",
+            "landing-page",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "developer tool landing page inspiration",
+          "scene_gate_percent": 98
+        },
+        {
+          "rank": 3,
+          "score": 420,
+          "slug": "supabase-developer-platform",
+          "title": "Supabase Developer Platform",
+          "category_tags": [
+            "developer-platform",
+            "database",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 58
+        },
+        {
+          "rank": 4,
+          "score": 408,
+          "slug": "railway-developer-platform",
+          "title": "Railway Developer Platform",
+          "category_tags": [
+            "developer-platform",
+            "saas",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 58
+        },
+        {
+          "rank": 5,
+          "score": 258,
+          "slug": "webinspoo-poolside-ai-landing-page",
+          "title": "WebInspoo Poolside AI Landing Page",
+          "category_tags": [
+            "ai",
+            "developer-platform",
+            "landing-page",
+            "inspiration"
+          ],
+          "page_scope": "AI developer landing page inspiration",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "docs-editorial-resource",
+      "query": "software editorial resource technical writing index",
+      "need": "scene:docs",
+      "expected_top3": [
+        "making-software-editorial-tooling",
+        "counter-forms-typography-resource",
+        "uncut-typography-resource"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1092,
+          "slug": "making-software-editorial-tooling",
+          "title": "Making Software Editorial Tooling",
+          "category_tags": [
+            "software",
+            "editorial",
+            "developer-tooling",
+            "education"
+          ],
+          "page_scope": "homepage software editorial resource",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 602,
+          "slug": "counter-forms-typography-resource",
+          "title": "Counter Forms Typography Resource",
+          "category_tags": [
+            "typography",
+            "design-resource",
+            "education",
+            "culture"
+          ],
+          "page_scope": "homepage typography resource index",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 574,
+          "slug": "uncut-typography-resource",
+          "title": "Uncut Typography Resource",
+          "category_tags": [
+            "typography",
+            "design-resource",
+            "open-source",
+            "culture"
+          ],
+          "page_scope": "homepage typography resource index",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 480,
+          "slug": "footer-design-gallery-resource",
+          "title": "Footer Design Gallery Resource",
+          "category_tags": [
+            "design-resource",
+            "gallery",
+            "web-design",
+            "pattern-library"
+          ],
+          "page_scope": "homepage design gallery index",
+          "scene_gate_percent": 98
+        },
+        {
+          "rank": 5,
+          "score": 464,
+          "slug": "eclipse-builders-software",
+          "title": "Eclipse Builders Software",
+          "category_tags": [
+            "software",
+            "builder",
+            "product",
+            "developer-tool"
+          ],
+          "page_scope": "homepage builder software product",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "pricing-developer-api",
+      "query": "developer platform pricing page plan comparison api",
+      "need": "scene:pricing",
+      "expected_top3": [
+        "webinspoo-unkey-pricing-page",
+        "webinspoo-exa-ai-pricing-page",
+        "webinspoo-browserbase-pricing-page"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1619,
+          "slug": "webinspoo-unkey-pricing-page",
+          "title": "WebInspoo Unkey Pricing Page",
+          "category_tags": [
+            "developer-tool",
+            "pricing",
+            "api",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "API developer pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 1547,
+          "slug": "webinspoo-exa-ai-pricing-page",
+          "title": "WebInspoo Exa AI Pricing Page",
+          "category_tags": [
+            "ai",
+            "pricing",
+            "developer-tool",
+            "inspiration"
+          ],
+          "page_scope": "AI developer pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 1517,
+          "slug": "webinspoo-browserbase-pricing-page",
+          "title": "WebInspoo Browserbase Pricing Page",
+          "category_tags": [
+            "developer-tool",
+            "pricing",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "developer SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 1421,
+          "slug": "webinspoo-accessgrid-pricing-page",
+          "title": "WebInspoo AccessGrid Pricing Page",
+          "category_tags": [
+            "saas",
+            "pricing",
+            "security",
+            "inspiration"
+          ],
+          "page_scope": "SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 1391,
+          "slug": "webinspoo-braintrust-pricing-page",
+          "title": "WebInspoo Braintrust Pricing Page",
+          "category_tags": [
+            "ai",
+            "saas",
+            "pricing",
+            "inspiration"
+          ],
+          "page_scope": "AI SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "pricing-ai-enterprise",
+      "query": "ai pricing page enterprise plan comparison",
+      "need": "scene:pricing",
+      "expected_top3": [
+        "webinspoo-braintrust-pricing-page",
+        "webinspoo-exa-ai-pricing-page",
+        "webinspoo-accessgrid-pricing-page"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1905,
+          "slug": "webinspoo-braintrust-pricing-page",
+          "title": "WebInspoo Braintrust Pricing Page",
+          "category_tags": [
+            "ai",
+            "saas",
+            "pricing",
+            "inspiration"
+          ],
+          "page_scope": "AI SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 1887,
+          "slug": "webinspoo-exa-ai-pricing-page",
+          "title": "WebInspoo Exa AI Pricing Page",
+          "category_tags": [
+            "ai",
+            "pricing",
+            "developer-tool",
+            "inspiration"
+          ],
+          "page_scope": "AI developer pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 1437,
+          "slug": "webinspoo-accessgrid-pricing-page",
+          "title": "WebInspoo AccessGrid Pricing Page",
+          "category_tags": [
+            "saas",
+            "pricing",
+            "security",
+            "inspiration"
+          ],
+          "page_scope": "SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 1365,
+          "slug": "webinspoo-unkey-pricing-page",
+          "title": "WebInspoo Unkey Pricing Page",
+          "category_tags": [
+            "developer-tool",
+            "pricing",
+            "api",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "API developer pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 1351,
+          "slug": "webinspoo-browserbase-pricing-page",
+          "title": "WebInspoo Browserbase Pricing Page",
+          "category_tags": [
+            "developer-tool",
+            "pricing",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "developer SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "portfolio-architecture-motion",
+      "query": "architecture studio portfolio project grid motion",
+      "need": "scene:portfolio",
+      "expected_top3": [
+        "patrick-mason-studio-portfolio",
+        "snohetta-architecture-studio",
+        "wam-architecture-studio"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1370,
+          "slug": "patrick-mason-studio-portfolio",
+          "title": "Patrick Mason Studio Portfolio",
+          "category_tags": [
+            "portfolio",
+            "studio",
+            "design",
+            "culture"
+          ],
+          "page_scope": "homepage personal studio portfolio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 1210,
+          "slug": "snohetta-architecture-studio",
+          "title": "Snohetta Architecture Studio",
+          "category_tags": [
+            "architecture",
+            "studio",
+            "portfolio",
+            "culture"
+          ],
+          "page_scope": "homepage architecture studio portfolio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 1116,
+          "slug": "wam-architecture-studio",
+          "title": "WAM Architecture Studio",
+          "category_tags": [
+            "architecture",
+            "industrial-design",
+            "studio",
+            "portfolio"
+          ],
+          "page_scope": "homepage architecture industrial design studio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 614,
+          "slug": "middle-name-agency-studio",
+          "title": "Middle Name Agency Studio",
+          "category_tags": [
+            "agency",
+            "studio",
+            "branding",
+            "service"
+          ],
+          "page_scope": "homepage branding agency studio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 494,
+          "slug": "pitch-interactive-data-studio",
+          "title": "Pitch Interactive Data Studio",
+          "category_tags": [
+            "data-visualization",
+            "studio",
+            "information-display"
+          ],
+          "page_scope": "home plus work/secondary links",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "portfolio-designer-index",
+      "query": "designer portfolio independent studio project index",
+      "need": "scene:portfolio",
+      "expected_top3": [
+        "patrick-mason-studio-portfolio",
+        "snohetta-architecture-studio",
+        "wam-architecture-studio"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1416,
+          "slug": "patrick-mason-studio-portfolio",
+          "title": "Patrick Mason Studio Portfolio",
+          "category_tags": [
+            "portfolio",
+            "studio",
+            "design",
+            "culture"
+          ],
+          "page_scope": "homepage personal studio portfolio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 742,
+          "slug": "snohetta-architecture-studio",
+          "title": "Snohetta Architecture Studio",
+          "category_tags": [
+            "architecture",
+            "studio",
+            "portfolio",
+            "culture"
+          ],
+          "page_scope": "homepage architecture studio portfolio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 660,
+          "slug": "wam-architecture-studio",
+          "title": "WAM Architecture Studio",
+          "category_tags": [
+            "architecture",
+            "industrial-design",
+            "studio",
+            "portfolio"
+          ],
+          "page_scope": "homepage architecture industrial design studio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 560,
+          "slug": "middle-name-agency-studio",
+          "title": "Middle Name Agency Studio",
+          "category_tags": [
+            "agency",
+            "studio",
+            "branding",
+            "service"
+          ],
+          "page_scope": "homepage branding agency studio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 456,
+          "slug": "a24-culture-studio",
+          "title": "A24 Culture Studio",
+          "category_tags": [
+            "culture",
+            "media",
+            "studio",
+            "commerce"
+          ],
+          "page_scope": "homepage media culture studio",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "portfolio-data-storytelling",
+      "query": "data storytelling report longform editorial visualization",
+      "need": "scene:portfolio",
+      "expected_top3": [
+        "visual-cinnamon-data-art",
+        "pitch-interactive-data-studio",
+        "patrick-mason-studio-portfolio"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 560,
+          "slug": "visual-cinnamon-data-art",
+          "title": "Visual Cinnamon Data Art",
+          "category_tags": [
+            "data-visualization",
+            "studio",
+            "information-display"
+          ],
+          "page_scope": "home plus portfolio/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 500,
+          "slug": "pitch-interactive-data-studio",
+          "title": "Pitch Interactive Data Studio",
+          "category_tags": [
+            "data-visualization",
+            "studio",
+            "information-display"
+          ],
+          "page_scope": "home plus work/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 360,
+          "slug": "patrick-mason-studio-portfolio",
+          "title": "Patrick Mason Studio Portfolio",
+          "category_tags": [
+            "portfolio",
+            "studio",
+            "design",
+            "culture"
+          ],
+          "page_scope": "homepage personal studio portfolio",
+          "scene_gate_percent": 98
+        },
+        {
+          "rank": 4,
+          "score": 198,
+          "slug": "snohetta-architecture-studio",
+          "title": "Snohetta Architecture Studio",
+          "category_tags": [
+            "architecture",
+            "studio",
+            "portfolio",
+            "culture"
+          ],
+          "page_scope": "homepage architecture studio portfolio",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 184,
+          "slug": "roman-and-williams",
+          "title": "Roman and Williams",
+          "category_tags": [
+            "architecture",
+            "interior-design",
+            "studio"
+          ],
+          "page_scope": "Official homepage for the studio and guild-facing design brand; homepage-led reference with product, editorial, and studio storytelling.",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "motion-dashboard-pollution",
+      "query": "hover transition animation dashboard metrics table",
+      "need": "motion:L2,scene:dashboard",
+      "expected_top3": [
+        "plausible-analytics-live-dashboard",
+        "mercury-financial-dashboard",
+        "rows-spreadsheet-dashboard"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 923,
+          "slug": "plausible-analytics-live-dashboard",
+          "title": "Plausible Analytics Live Dashboard",
+          "category_tags": [
+            "analytics",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "public analytics dashboard",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 817,
+          "slug": "mercury-financial-dashboard",
+          "title": "Mercury Financial Dashboard",
+          "category_tags": [
+            "fintech",
+            "dashboard",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 696,
+          "slug": "rows-spreadsheet-dashboard",
+          "title": "Rows Spreadsheet Dashboard",
+          "category_tags": [
+            "spreadsheet",
+            "analytics",
+            "saas"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 46
+        },
+        {
+          "rank": 4,
+          "score": 249,
+          "slug": "render-cloud-platform",
+          "title": "Render Cloud Platform",
+          "category_tags": [
+            "developer-platform",
+            "cloud",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 245,
+          "slug": "better-stack-observability",
+          "title": "Better Stack Observability",
+          "category_tags": [
+            "observability",
+            "devops",
+            "dashboard"
+          ],
+          "page_scope": "home plus product/secondary links",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    },
+    {
+      "id": "motion-pricing-pollution",
+      "query": "scroll motion transition pricing plan comparison",
+      "need": "motion:L2,scene:pricing",
+      "expected_top3": [
+        "webinspoo-cloudflare-pricing-pattern",
+        "webinspoo-accessgrid-pricing-page",
+        "webinspoo-exa-ai-pricing-page",
+        "webinspoo-braintrust-pricing-page",
+        "webinspoo-unkey-pricing-page"
+      ],
+      "top5": [
+        {
+          "rank": 1,
+          "score": 1238,
+          "slug": "webinspoo-cloudflare-pricing-pattern",
+          "title": "WebInspoo Cloudflare Pricing Pattern",
+          "category_tags": [
+            "saas",
+            "pricing",
+            "inspiration",
+            "developer-platform"
+          ],
+          "page_scope": "SaaS pricing inspiration page for Cloudflare pricing pattern",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 2,
+          "score": 1146,
+          "slug": "webinspoo-accessgrid-pricing-page",
+          "title": "WebInspoo AccessGrid Pricing Page",
+          "category_tags": [
+            "saas",
+            "pricing",
+            "security",
+            "inspiration"
+          ],
+          "page_scope": "SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 3,
+          "score": 1128,
+          "slug": "webinspoo-exa-ai-pricing-page",
+          "title": "WebInspoo Exa AI Pricing Page",
+          "category_tags": [
+            "ai",
+            "pricing",
+            "developer-tool",
+            "inspiration"
+          ],
+          "page_scope": "AI developer pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 4,
+          "score": 1116,
+          "slug": "webinspoo-braintrust-pricing-page",
+          "title": "WebInspoo Braintrust Pricing Page",
+          "category_tags": [
+            "ai",
+            "saas",
+            "pricing",
+            "inspiration"
+          ],
+          "page_scope": "AI SaaS pricing page inspiration",
+          "scene_gate_percent": 100
+        },
+        {
+          "rank": 5,
+          "score": 1116,
+          "slug": "webinspoo-unkey-pricing-page",
+          "title": "WebInspoo Unkey Pricing Page",
+          "category_tags": [
+            "developer-tool",
+            "pricing",
+            "api",
+            "saas",
+            "inspiration"
+          ],
+          "page_scope": "API developer pricing page inspiration",
+          "scene_gate_percent": 100
+        }
+      ],
+      "top3_hit": true,
+      "wrong_top1": false
+    }
+  ]
+}

@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 NAUTILUS EXHIBITION AT THE PATEK PHILIPPE MUSEUM; H2 NEW MODELS 2026; RARE HANDCRAFTS COLLECTION; THE LAST FAMILY-OWNED GENEVAN MANUFACTURE; INNOVATION AND TRADITION; THE PATEK PHILIPPE MUSEUM; OUR COLLECTIONS; navigation Our values; The founders; Patek Philippe; The Stern family; Anchored in Geneva and Switzerland; The finest timepieces in the world; The Patek Philippe Sound; Calendar watches; Our dials; Rare Handcrafts; Advanced Research; Watch Art Grand Exhibitions
+  - Sentence rhythm: 107 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Patek Philippe Official Site | Luxury Watches for Men & Ladies | Patek Philippe; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.patek.com/en
   - Page title: Patek Philippe Official Site | Luxury Watches for Men & Ladies | Patek Philippe
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

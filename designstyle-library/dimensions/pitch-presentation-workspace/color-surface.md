@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(0, 0, 0):rgb(255, 255, 255); A:rgb(12, 2, 28):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgb(255, 255, 255); P:rgb(12, 2, 28):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: 30px; 4px; 24px; 60px; 16px; 100px; 8px; 4px; 12px; 12px; 12px; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons Prompts; Generate; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Introducing Pitch Agent: Generate on-brand presentations in seconds with AI. See what’s new Product Use Cases Templates Resources Pricing Log in Sign up Create slides that win. Prompts Generate From prompt to presentation, 4M+ teams create and deliver winning `.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

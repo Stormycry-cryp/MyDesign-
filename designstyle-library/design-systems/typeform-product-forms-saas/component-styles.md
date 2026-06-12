@@ -10,6 +10,7 @@
 - a Log in | rect=44.7x20.8@1231.8,105.4 | display=flex; position=static; color=rgb(250, 249, 251); border=0px none rgb(250, 249, 251); fontFamily="Twklausanne 500", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; gap=4px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Sign up | rect=95.6x40@1296.4,95.8 | display=flex; position=static; color=rgb(42, 34, 43); backgroundColor=rgb(250, 249, 251); border=0px none rgb(42, 34, 43); borderRadius=12px; fontFamily="Twklausanne 500", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; padding=12px 20px; gap=8px; transition=background-color 0.2s, border-radius 0.3s ease-out; transitionDuration=0.2s, 0.3s
 - navigation count 5, image count 40, document height 8959.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -53,8 +54,9 @@
 - li Solutions | rect=115.1x88@568.2,71.8 | display=list-item; position=static; color=rgb(250, 249, 251); border=0px none rgb(250, 249, 251); fontFamily="Twklausanne 400", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Solutions | rect=115.1x88@568.2,71.8 | display=flex; position=relative; color=rgb(250, 249, 251); border=0px none rgb(250, 249, 251); fontFamily="Twklausanne 400", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; padding=0px 8px; gap=8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div nav_list-item-icon w-embed | rect=16x16@651.3,107.8 | display=flex; position=static; color=rgb(250, 249, 251); border=0px none rgb(250, 249, 251); fontFamily="Twklausanne 400", Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=22.4px; transition=transform 0.2s ease-out; transitionDuration=0.2s; transitionTimingFunction=ease-out; opacity=1; cursor=pointer
-- 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- 12px; 12px; 12px; 12px; 12.5px; 12.5px; 12px; 16000px; 16000px; 12px; 12px; 12.5px; source: Layout Geometry And Spacing
 
 ### Content Samples
 - 🔧 Join the Typeform Telethon: live form tune-ups on June 4 Register now

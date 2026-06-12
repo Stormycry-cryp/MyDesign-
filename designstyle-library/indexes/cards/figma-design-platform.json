@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/figma-design-platform/component-styles.md",
     "moodboard": "design-systems/figma-design-platform/moodboard.svg",
+    "motion": "design-systems/figma-design-platform/motion.json",
+    "motion_presets": "design-systems/figma-design-platform/motion-presets.css",
     "palette": "design-systems/figma-design-platform/palette.md",
-    "tokens": "design-systems/figma-design-platform/tokens.json"
+    "tailwind_theme": "design-systems/figma-design-platform/tailwind.theme.json",
+    "tokens": "design-systems/figma-design-platform/tokens.json",
+    "variables_css": "design-systems/figma-design-platform/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/figma-design-platform/assets.md",
@@ -35,6 +39,52 @@
     "scene": "dimensions/figma-design-platform/scene.md",
     "type_copy": "dimensions/figma-design-platform/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9460}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1440x810; 1440x810; 71x22; 146x18; 92x18; 140x36; 67x18; 86x18; 100x48; 153x20.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 8px; 8px; 18px; 16px; 8px; 50%; 50%; 50%; 50px; 50px; 50px; 50px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9460}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1440:810; 1440:810; 71:22; 146:18; 92:18; 140:36; 67:18; 86:18; 100:48; 153:20",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 8px; 8px; 18px; 16px; 8px; 50%; 50%; 50%; 50px; 50px; 50px; 50px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation state-change motion uses 160ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 160ms ease-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 2000ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 160ms ease-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

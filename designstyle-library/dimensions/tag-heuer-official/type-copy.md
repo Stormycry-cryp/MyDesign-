@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 none observed; H2 FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026; navigation none observed
+  - Sentence rhythm: 107 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title TAG Heuer® US Official Website - Swiss Luxury Watches since 1860; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.tagheuer.com/us/en/
   - Page title: TAG Heuer® US Official Website - Swiss Luxury Watches since 1860
@@ -20,7 +26,6 @@
   - Navigation samples: none observed
   - Images observed: image 38x32 https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/default/dwf10ae8f7/images/th-logo.svg; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw72cfc051/images/SearchBanner/collection/TAG-Heuer-Collection-Formula1-thumb.jp; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw5dda2547/images/SearchBanner/collection/TAG-Heuer-Collection-Aquaracer-thumb.j; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw82205585/images/SearchBanner/collection/TAG-Heuer-Collection-Connected-thumb.j; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw7b8eb138/images/SearchBanner/collection/TAG-Heuer-Collection-Monaco-thumb.jpg; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf070784e/images/SearchBanner/collection/TAG-Heuer-Collection-Link-thumb.jpg; image 612x346 https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons Accept all cookies; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Choose a country or region to view specific content for your location : Hong Kong SAR CONTINUE THE NAVIGATION ON THE WEBSITE Close the menu and stay on this website Open the search Search My TAG Heuer account Your cart contains 0 products 0 Facebook Instagram `.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

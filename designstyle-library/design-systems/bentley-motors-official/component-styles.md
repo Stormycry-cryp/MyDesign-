@@ -9,6 +9,7 @@
 - a CONFIGURATOR | rect=152.2x42@1081,24 | display=flex; position=static; color=color(srgb 1 1 1); border=1px solid rgba(0, 0, 0, 0); fontFamily=Bentley, arial, helvetica, sans-serif; fontSize=16px; fontWeight=300; letterSpacing=0.16px; lineHeight=24px; padding=12px 16px; gap=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - a LOCATE DEALER | rect=158.8x42@1233.2,24 | display=flex; position=static; color=color(srgb 1 1 1); border=1px solid rgba(0, 0, 0, 0); fontFamily=Bentley, arial, helvetica, sans-serif; fontSize=16px; fontWeight=300; letterSpacing=0.16px; lineHeight=24px; padding=12px 16px; gap=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - navigation count 3, image count 40, document height 6028.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -54,7 +55,8 @@
 - div New Flying Spur Breathtaking craftsmanship, unrivalled comfort and performance few cars ca | rect=1440x900@0,-24 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Bentley, arial, helvetica, sans-serif; fontSize=16px; fontWeight=300; letterSpacing=0.16px; lineHeight=24px; padding=150px 48px 48px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div bm-m-full-width-slider-item__background-image bm-e-media bm-e-media--image | rect=1504x964@-32,-56 | display=block; position=absolute; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Bentley, arial, helvetica, sans-serif; fontSize=16px; fontWeight=300; letterSpacing=0.16px; lineHeight=24px; transition=opacity 1s; transitionDuration=1s; transitionTimingFunction=ease; opacity=1
 - div New Flying Spur Breathtaking craftsmanship, unrivalled comfort and performance few cars ca | rect=1344x702@48,126 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Bentley, arial, helvetica, sans-serif; fontSize=16px; fontWeight=300; letterSpacing=0.16px; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - REQUEST TEST DRIVE

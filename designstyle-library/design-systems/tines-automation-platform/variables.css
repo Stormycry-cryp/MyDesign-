@@ -1,0 +1,35 @@
+:root {
+  --ds-color-accent: #9070e0;
+  --ds-color-background: #ffffff;
+  --ds-color-deep-accent: #205040;
+  --ds-color-supporting-color: #ffe0d0;
+  --ds-color-supporting-color-2: #f0e0ff;
+  --ds-color-accent-2: #b060d0;
+  --ds-color-neutral-surface: #c0c0c0;
+  --ds-color-supporting-color-3: #4060a0;
+  --ds-color-deep-accent-2: #402060;
+  --ds-color-supporting-color-4: #b0d0e0;
+  --ds-color-foreground: #2a2831;
+  --ds-color-accent-3: #45be8b;
+  --ds-spacing-component: 11.375px 9.75px 11.375px 19.5px;
+  --ds-radius-component: 6.5px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-component-load-animation-2000-linear-duration: 2000ms;
+  --ds-motion-motion-component-load-animation-2000-linear-delay: 0ms;
+  --ds-motion-motion-component-load-animation-2000-linear-easing: linear;
+  --ds-motion-motion-component-load-animation-1450-ease-in-out-duration: 1450ms;
+  --ds-motion-motion-component-load-animation-1450-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-load-animation-1450-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-transform-250-ease-duration: 250ms;
+  --ds-motion-motion-component-state-change-transform-250-ease-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-250-ease-easing: ease;
+  --ds-motion-motion-component-state-change-opacity-250-ease-duration: 250ms;
+  --ds-motion-motion-component-state-change-opacity-250-ease-delay: 0ms;
+  --ds-motion-motion-component-state-change-opacity-250-ease-easing: ease;
+  --ds-motion-motion-component-state-change-transform-600-cubic-bezier-075-82-165-1-duration: 600ms;
+  --ds-motion-motion-component-state-change-transform-600-cubic-bezier-075-82-165-1-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-600-cubic-bezier-075-82-165-1-easing: cubic-bezier(.075,.82,.165,1);
+  --ds-motion-motion-component-state-change-transform-167-cubic-bezier-33-0-0-1-duration: 167ms;
+  --ds-motion-motion-component-state-change-transform-167-cubic-bezier-33-0-0-1-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-167-cubic-bezier-33-0-0-1-easing: cubic-bezier(.33,0,0,1);
+}

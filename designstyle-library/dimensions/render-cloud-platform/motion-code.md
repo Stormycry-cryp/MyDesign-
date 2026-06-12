@@ -1,42 +1,44 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.bg-slide-link:hover,.group\/slide-link:hover .bg-slide-link{backgr, nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.prose-docs :not(:where([class~=not-prose],[class~=not-prose] *)):w, nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.docs-table .group\/slide-link:hover td a:not(.not-prose),.docs-tab
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: olor:inherit;padding:0 3px;margin:0 -3px;border-radius:2px;background:linear-gradient(to right,var(--color-link-background--hover),var(--color-link-background--hover));background-size:0 100%;background-repe, t:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.bg-slide-link:hover,.group\/slide-link:hover .bg-slide-link{backgr, 0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state=delayed-open][data-side=top]{animation-name:tooltip-slide-up-in}.tooltip, t:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.prose-docs :not(:where([class~=not-prose],[class~=not-prose] *)):w, t:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.docs-table .group\/slide-link:hover td a:not(.not-prose),.docs-tab
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-propert; nk{background-size:100% 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.to; 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state; n-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state=delayed-open][data-side=top]{animation-name:tooltip-s
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-propert; nk{background-size:100% 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.to; 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state; n-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state=delayed-open][data-side=top]{animation-name:tooltip-s; ode:forwards}.tooltip-content[data-state=delayed-open][data-side=top]{animation-name:tooltip-slide-up-in}.tooltip-content[data-state=delayed-open][data-side=bottom]{animation-name:; ide-up-in}.tooltip-content[data-state=delayed-open][data-side=bottom]{animation-name:tooltip-slide-down-in}.tooltip-content[data-state=delayed-open][data-side=left]{animation-name:
-  - Exact motion parameters: nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nd-size:0 100%;background-repeat:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-; nk{background-size:100% 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.to; 100%;background-position:0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state; n-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state=delayed-open][data-side=top]{animation-name:tooltip-s; olor:inherit;padding:0 3px;margin:0 -3px;border-radius:2px;background:linear-gradient(to right,var(--color-link-background--hover),var(--color-link-background--hover));background-s; t:no-repeat;background-position:100% 0;transition:background-size .3s cubic-bezier(.8,.01,.11,.98);box-decoration-break:clone;-webkit-box-decoration-break:clone}.bg-slide-link:hove; 0 0}.tooltip-content{animation-duration:.2s;animation-timing-function:cubic-bezier(.8,.01,.11,.98);animation-fill-mode:forwards}.tooltip-content[data-state=delayed-open][data-side=; r-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://render.com/_next/static/css/b0f5d8f15fd7fda5.css?dpl=dd6d8cb85; https://render.com/_next/static/css/305a22106d19e694.css?dpl=dd6d8cb85; https://render.com/_next/static/css/574dc7d9222aa34c.css?dpl=dd6d8cb85; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js
-  - Interpreted motion tags: restrained, hover-microinteraction
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://render.com/_next/static/css/b0f5d8f15fd7fda5.css?dpl=dd6d8cb85; https://render.com/_next/static/css/305a22106d19e694.css?dpl=dd6d8cb85; https://render.com/_next/static/css/574dc7d9222aa34c.css?dpl=dd6d8cb85; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.old.min.js; https://snap.licdn.com/li.lms-analytics/insight.min.js; https://www.googletagmanager.com/gtag/js?id=AW-16550422935; https://render.com/seg/cdn/next-integrations/integrations/vendor/commons.59560acdd69ed701c941.js.gz
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-render-cloud-platform-component-styles.json`
-  - Asset CDN and media loading patterns: none observed
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 0 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(244, 240, 255, 0.992)，150ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 Platform Overview |
+| navigation | focus | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(244, 240, 255, 0.992)，150ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 Platform Overview |
+| navigation | hover | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(244, 240, 255, 0.97)，150ms cubic-bezier(0.4, 0, 0.2, 1)，hover 触发；样本 Workflows |
+| navigation | focus | backgroundColor | 150ms | 0ms | cubic-bezier(0.4, 0, 0.2, 1) | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(244, 240, 255, 0.992)，150ms cubic-bezier(0.4, 0, 0.2, 1)，focus 触发；样本 Workflows |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "rgba(244, 240, 255, 0.992)", "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "rgba(244, 240, 255, 0.992)", "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-hover-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "rgba(244, 240, 255, 0.97)", "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
+
+### motion-navigation-focus-backgroundcolor-150-cubic-bezier-0-4-0-0-2-1
+
+```css
+{"backgroundColor": "rgba(244, 240, 255, 0.992)", "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

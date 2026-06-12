@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-bauhaus-clock-interactive-product-component-styles.json`
   - Asset CDN and media loading patterns: https://framerusercontent.com/images/lKdIzoMOsiRbwxVobT9gjZTs.webp?width=113&height=113; https://framerusercontent.com/images/8qQUnpJkQhhJtwCK5JnuZy91s8.webp?width=113&height=113; https://framerusercontent.com/images/vFo2Y5SnzqgciAGjFZtAa6I5I8.jpg?width=400&height=400; https://framerusercontent.com/images/nzRqYsGvxVGBYJd5ugSynrICKA.webp?width=320&height=320; https://framerusercontent.com/images/Ia0ImoCrNPC4Z50jx63hBlSFS8.webp?width=140&height=140; https://framerusercontent.com/images/PsQJc8r5AWCgX9aWd9QjLKMMkQ.png?width=400&height=400; https://framerusercontent.com/images/F9YtRWdYsQf77p7K9xLa9Uc2pHw.jpg?width=400&height=400; https://framerusercontent.com/images/Cp81F5pG4QSFnM8tbLxLBIQrloo.jpg?width=400&height=400
 
 ## Inference

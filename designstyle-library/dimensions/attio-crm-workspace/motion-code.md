@@ -1,42 +1,235 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: r-color:var(--button-primary-border);color:var(--button-primary-text);transition-property:color,border-color,--button-primary-bg-from,--button-primary-bg-to}:root .button-primary:hover,:root .button-primary[data-state=open]{--button-primary-bg-from:var(--button-primary-bg-hover-from);-, kground-image:none;background-color:var(--button-primary-bg-fallback);transition-property:color,border-color,background-color}:root .button-primary:hover,:root .button-primary[data-state=open]{background-color:var(--button-primary-bg-hover-fallback)}:root, #0000 calc(var(--pricing-cards-grid-line-position-end) + 3%), #0000);transition-property:--pricing-cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-c
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: }}function ir(t,e){!1===ue.has(t)&&(ue.set(t,e),(de=null===de&&se?new IntersectionObserver(ur,{threshold:[0,.05,.1,.2,.3,.4,.5,.6,.7,.8,.9,1]}):de)&&t&&t.nodeType===Node.ELEMENT_NODE&&de.observe(t))}function rr(t){return, ction(){Si(),Ei(),sr(),de=null,ue=new WeakMap,ce={},le=[],se=!!window.IntersectionObserver,Ui(),zi(document,!0),xn.delayDom?co(window,"load",(function(){Ni()})):Ni(),function(){var t;try{window.__clr=window.__clr||{},(nu, ction(a){var i,o=performance.now(),u=o-n,c=o-a.data;c>30&&u<e.timeout?requestAnimationFrame((function(){r.postMessage(o)})):(i=u>e.timeout,t({didTimeout:i,timeRemaining:function(){return i?30:Math.max(0,30-c)}}))},request, dTimeout:i,timeRemaining:function(){return i?30:Math.max(0,30-c)}}))},requestAnimationFrame((function(){r.postMessage(performance.now())}))},He=null,Ue=null,ze=null,Fe=!1,Ve=null,Be=!0,Je=null,Ke=[],Ge=0,Ze=null,Qe=!1,$e=
-  - Timing/easing: .ai-hero-widget-gradient-request{background:linear-gradient(white, white), conic-gradient(from var(--ai-hero-box-gradient-angle) at 50% 58px, #febe8e 0%, #f9d671 12%, #ffa09f 37%,, x;border:1px solid #0000}.ai-hero-widget-gradient-response{background:linear-gradient(white, white), conic-gradient(from var(--ai-hero-box-gradient-angle) at 50% -6px, #febe8e 0%, #f9d671 12%, #ffa09f 37%,, x-gradient-angle:360deg}}.ai-hero-box-gradient-progress{animation:30s linear infinite ai-hero-box-gradient-spin} @property --reporting-hero-card-reports-gradient-angle{syntax:"<angle>";inherits:false;initia, 00 0%, #709ff5aa 20%, #709ff500 27%);border-radius:16px;animation:10s linear infinite rotate-reporting;position:absolute;inset:-1.5px}, .bento-frame{--border-offset:120px;z-index:-1;-webkit-mask-image:linear-gradient(to right, transparent 0%, black var(--border-offset), black calc(100% - var(--border-offset)), transparent 100%), linear
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: r-color:var(--button-primary-border);color:var(--button-primary-text);transition-property:color,border-color,--button-primary-bg-from,--button-primary-bg-to}:root .button-primary:h; kground-image:none;background-color:var(--button-primary-bg-fallback);transition-property:color,border-color,background-color}:root .button-primary:hover,:root .button-primary[data; #0000 calc(var(--pricing-cards-grid-line-position-end) + 3%), #0000);transition-property:--pricing-cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-; cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-lin; n-start,--pricing-cards-grid-line-position-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-cards; o{--ai-hero-box-gradient-angle:360deg}}.ai-hero-box-gradient-progress{animation:30s linear infinite ai-hero-box-gradient-spin} @property --reporting-hero-card-reports-gradient-angl; ngle), #709ff500 0%, #709ff5aa 20%, #709ff500 27%);border-radius:16px;animation:10s linear infinite rotate-reporting;position:absolute;inset:-1.5px}; sition-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-cards-grid-line-vertical{-webkit-mask-ima
-  - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: r-color:var(--button-primary-border);color:var(--button-primary-text);transition-property:color,border-color,--button-primary-bg-from,--button-primary-bg-to}:root .button-primary:h; kground-image:none;background-color:var(--button-primary-bg-fallback);transition-property:color,border-color,background-color}:root .button-primary:hover,:root .button-primary[data; #0000 calc(var(--pricing-cards-grid-line-position-end) + 3%), #0000);transition-property:--pricing-cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-; cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-lin; n-start,--pricing-cards-grid-line-position-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-cards; o{--ai-hero-box-gradient-angle:360deg}}.ai-hero-box-gradient-progress{animation:30s linear infinite ai-hero-box-gradient-spin} @property --reporting-hero-card-reports-gradient-angl; ngle), #709ff500 0%, #709ff5aa 20%, #709ff500 27%);border-radius:16px;animation:10s linear infinite rotate-reporting;position:absolute;inset:-1.5px}; sition-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-cards-grid-line-vertical{-webkit-mask-ima; sition-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}@keyframes pricing-cards-grid-line-appear{to{--pri; hero-card-running,.workflows-hero-card .workflows-hero-card-completed{animation-fill-mode:forwards;animation-duration:var(--duration);animation-timing-function:ease-in-out}.workflo
-  - Exact motion parameters: r-color:var(--button-primary-border);color:var(--button-primary-text);transition-property:color,border-color,--button-primary-bg-from,--button-primary-bg-to}:root .button-primary:h; kground-image:none;background-color:var(--button-primary-bg-fallback);transition-property:color,border-color,background-color}:root .button-primary:hover,:root .button-primary[data; #0000 calc(var(--pricing-cards-grid-line-position-end) + 3%), #0000);transition-property:--pricing-cards-grid-line-position-start,--pricing-cards-grid-line-position-end;transition-; o{--ai-hero-box-gradient-angle:360deg}}.ai-hero-box-gradient-progress{animation:30s linear infinite ai-hero-box-gradient-spin} @property --reporting-hero-card-reports-gradient-angl; ngle), #709ff500 0%, #709ff5aa 20%, #709ff500 27%);border-radius:16px;animation:10s linear infinite rotate-reporting;position:absolute;inset:-1.5px}; sition-end;transition-duration:1s;transition-timing-function:ease-out;animation:1.5s ease-out both pricing-cards-grid-line-appear}.pricing-cards-grid-line-vertical{-webkit-mask-ima; .ai-hero-widget-gradient-request{background:linear-gradient(white, white), conic-gradient(from var(--ai-hero-box-gradient-angle) at 50% 58px, #febe8e 0%, #f9d671 12%, #ffa09f 37%,; x;border:1px solid #0000}.ai-hero-widget-gradient-response{background:linear-gradient(white, white), conic-gradient(from var(--ai-hero-box-gradient-angle) at 50% -6px, #febe8e 0%, ; x-gradient-angle:360deg}}.ai-hero-box-gradient-progress{animation:30s linear infinite ai-hero-box-gradient-spin} @property --reporting-hero-card-reports-gradient-angle{syntax:"<ang; rotate-180{rotate:180deg}.skew-x-\[-20deg\]{--tw-skew-x:skewX(-20deg);transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.\[t
-  - JavaScript/runtime motion evidence: }}function ir(t,e){!1===ue.has(t)&&(ue.set(t,e),(de=null===de&&se?new IntersectionObserver(ur,{threshold:[0,.05,.1,.2,.3,.4,.5,.6,.7,.8,.9,1]}):de)&&t&&t.nodeType===Node.ELEMENT_NO; ction(){Si(),Ei(),sr(),de=null,ue=new WeakMap,ce={},le=[],se=!!window.IntersectionObserver,Ui(),zi(document,!0),xn.delayDom?co(window,"load",(function(){Ni()})):Ni(),function(){var; ction(a){var i,o=performance.now(),u=o-n,c=o-a.data;c>30&&u<e.timeout?requestAnimationFrame((function(){r.postMessage(o)})):(i=u>e.timeout,t({didTimeout:i,timeRemaining:function(){; dTimeout:i,timeRemaining:function(){return i?30:Math.max(0,30-c)}}))},requestAnimationFrame((function(){r.postMessage(performance.now())}))},He=null,Ue=null,ze=null,Fe=!1,Ve=null,B
-  - Stylesheet evidence: https://attio.com/_next/static/chunks/0_aivuqf~udyo.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0novd3638rqgx.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/09-gai.q5c35i.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0-3jdgy1a36yc.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/116sc1td222yh.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0_c9zq_b5a5x_.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0.x7vsegis8m8.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/172~tn23cy5hf.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P
-  - Interpreted motion tags: restrained, scroll-reveal
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://attio.com/_next/static/chunks/0_aivuqf~udyo.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0novd3638rqgx.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/09-gai.q5c35i.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0-3jdgy1a36yc.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/116sc1td222yh.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0_c9zq_b5a5x_.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0.x7vsegis8m8.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/172~tn23cy5hf.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0dkdspphp_f_o.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P; https://attio.com/_next/static/chunks/0ecz2spet5qre.css?dpl=dpl_24g9Rycyj1gae8qPk6oy4b2JzE1P
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-attio-crm-workspace-component-styles.json`
-  - Asset CDN and media loading patterns: https://a.storyblok.com/f/234930/40x40/6b7e650997/navigation-ask-attio-light-2.svg; https://a.storyblok.com/f/234930/40x40/94a08879f5/navigation-ask-attio-dark-3.svg; https://a.storyblok.com/f/234930/40x40/319415fd4d/navigation-ai-light.svg; https://a.storyblok.com/f/234930/40x40/55885fd463/navigation-ai-dark.svg; https://a.storyblok.com/f/234930/40x40/7b06c284d7/navigation-data-light.svg; https://a.storyblok.com/f/234930/40x40/4bb779e3e2/navigation-data-dark.svg; https://a.storyblok.com/f/234930/40x40/cf8e6abe56/navigation-collaboration-light.svg; https://a.storyblok.com/f/234930/40x40/b713f5083d/navigation-collaboration-dark.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| hero | load | animation | 30000ms | 0ms | linear | 首屏load：animation，30000ms linear，load 触发 |
+| card | load | animation | 10000ms | 0ms | linear | 卡片load：animation，10000ms linear，load 触发 |
+| card | load | --pricing-cards-grid-line-position-start | 1000ms | 0ms | ease-out | 卡片load：--pricing-cards-grid-line-position-start，1000ms ease-out，load 触发 |
+| card | load | --pricing-cards-grid-line-position-end | 1000ms | 0ms | ease-out | 卡片load：--pricing-cards-grid-line-position-end，1000ms ease-out，load 触发 |
+| card | load | animation | 1500ms | 0ms | ease-out | 卡片load：animation，1500ms ease-out，load 触发 |
+| card | load | --pricing-cards-grid-line-position-start | 1000ms | 0ms | ease-out | 卡片load：--pricing-cards-grid-line-position-start，1000ms ease-out，load 触发 |
+| card | load | --pricing-cards-grid-line-position-end | 1000ms | 0ms | ease-out | 卡片load：--pricing-cards-grid-line-position-end，1000ms ease-out，load 触发 |
+| card | load | animation | 1500ms | 0ms | ease-out | 卡片load：animation，1500ms ease-out，load 触发 |
+| card | load | animation | 0ms | 0ms | ease-in-out | 卡片load：animation，0ms ease-in-out，load 触发 |
+| card | load | animation | 0ms | 0ms | ease-in-out | 卡片load：animation，0ms ease-in-out，load 触发 |
+| card | load | animation | 0ms | 0ms | ease-in-out | 卡片load：animation，0ms ease-in-out，load 触发 |
+| card | load | animation | 0ms | 0ms | linear | 卡片load：animation，0ms linear，load 触发 |
+| component | state-change | background-size | 400ms | 0ms | cubic-bezier(.65, 0, .35, 1) | 组件state-change：background-size，400ms cubic-bezier(.65, 0, .35, 1)，state-change 触发 |
+| hero | viewport | animation | 4000ms | 0ms | ease-out | 首屏viewport：animation，4000ms ease-out，viewport 触发 |
+| hero | viewport | animation | 4000ms | 0ms | ease-out | 首屏viewport：animation，4000ms ease-out，viewport 触发 |
+| hero | viewport | animation | 4000ms | 0ms | ease-out | 首屏viewport：animation，4000ms ease-out，viewport 触发 |
+| overlay | viewport | animation | 200ms | 0ms | cubic-bezier(.45, .05, .55, .95) | 浮层viewport：animation，200ms cubic-bezier(.45, .05, .55, .95)，viewport 触发 |
+| reveal | viewport | animation | 300ms | 0ms | cubic-bezier(.65, 0, .35, 1) | 入场元素viewport：animation，300ms cubic-bezier(.65, 0, .35, 1)，viewport 触发 |
+| reveal | viewport | animation | 800ms | 0ms | linear | 入场元素viewport：animation，800ms linear，viewport 触发 |
+| reveal | viewport | animation | 800ms | 0ms | linear | 入场元素viewport：animation，800ms linear，viewport 触发 |
+| reveal | viewport | animation | 2000ms | 0ms | cubic-bezier(.4, 0, .6, 1) | 入场元素viewport：animation，2000ms cubic-bezier(.4, 0, .6, 1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | ease-in-out | 入场元素viewport：animation，1000ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | linear | 入场元素viewport：animation，1000ms linear，viewport 触发 |
+| card | load | animation | 10000ms | 0ms | linear | 卡片load：animation 1 -> .99，10000ms linear，load 触发 |
+| card | load | animation | 500ms | 0ms | cubic-bezier(.33,1,.68,1) | 卡片load：animation，500ms cubic-bezier(.33,1,.68,1)，load 触发 |
+| card | load | animation | 1500ms | 100ms | cubic-bezier(.33,1,.68,1) | 卡片load：animation，1500ms cubic-bezier(.33,1,.68,1)，load 触发 |
+| component | load | animation | 4000ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件load：animation，4000ms cubic-bezier(.33,1,.68,1)，load 触发 |
+| reveal | viewport | animation | 1600ms | 0ms | cubic-bezier(.38,.01,.12,1) | 入场元素viewport：animation，1600ms cubic-bezier(.38,.01,.12,1)，viewport 触发 |
+| reveal | viewport | animation | 1600ms | 0ms | cubic-bezier(.38,.01,.12,1) | 入场元素viewport：animation，1600ms cubic-bezier(.38,.01,.12,1)，viewport 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-attio-crm-workspace-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-button-state-change-color-missing-missing lacks duration_ms
+- motion-button-state-change-color-missing-missing lacks easing
+- motion-button-state-change-border-color-missing-missing lacks duration_ms
+- motion-button-state-change-border-color-missing-missing lacks easing
+- motion-button-state-change-button-primary-bg-from-missing-missing lacks duration_ms
+- motion-button-state-change-button-primary-bg-from-missing-missing lacks easing
+- motion-button-state-change-button-primary-bg-to-missing-missing lacks duration_ms
+- motion-button-state-change-button-primary-bg-to-missing-missing lacks easing
+- motion-button-state-change-background-color-missing-missing lacks duration_ms
+- motion-button-state-change-background-color-missing-missing lacks easing
+- motion-card-load-animation-0-missing lacks easing
+- motion-card-load-animation-0-missing lacks easing
+- motion-card-load-animation-0-missing lacks easing
+- motion-component-active-all-50-missing lacks easing
+- motion-component-focus-all-300-missing lacks easing
+- motion-card-load-animation-0-missing lacks easing
+- motion-card-load-animation-0-missing lacks easing
+
+## Snippet Appendix
+### motion-hero-load-animation-30000-linear
+
+```css
+.ai-hero-box-gradient-progress { animation: 30s linear infinite ai-hero-box-gradient-spin; }
+```
+
+### motion-card-load-animation-10000-linear
+
+```css
+.reporting-hero-card-reports { animation: 10s linear infinite rotate-reporting; }
+```
+
+### motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out
+
+```css
+.pricing-cards-grid-line { transition-property: --pricing-cards-grid-line-position-start; transition-duration: 1s; transition-timing-function: ease-out; }
+```
+
+### motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out
+
+```css
+.pricing-cards-grid-line { transition-property: --pricing-cards-grid-line-position-end; transition-duration: 1s; transition-timing-function: ease-out; }
+```
+
+### motion-card-load-animation-1500-ease-out
+
+```css
+.pricing-cards-grid-line { animation: 1.5s ease-out both pricing-cards-grid-line-appear; }
+```
+
+### motion-card-load-pricing-cards-grid-line-position-start-1000-ease-out
+
+```css
+.pricing-cards-grid-line-vertical { transition-property: --pricing-cards-grid-line-position-start; transition-duration: 1s; transition-timing-function: ease-out; }
+```
+
+### motion-card-load-pricing-cards-grid-line-position-end-1000-ease-out
+
+```css
+.pricing-cards-grid-line-vertical { transition-property: --pricing-cards-grid-line-position-end; transition-duration: 1s; transition-timing-function: ease-out; }
+```
+
+### motion-card-load-animation-1500-ease-out
+
+```css
+.pricing-cards-grid-line-vertical { animation: 1.5s ease-out both pricing-cards-grid-line-appear; }
+```
+
+### motion-card-load-animation-0-ease-in-out
+
+```css
+.workflows-hero-card .workflows-hero-card-connection { animation: missing var(--duration) ease-in-out 0ms; }
+```
+
+### motion-card-load-animation-0-ease-in-out
+
+```css
+.workflows-hero-card .workflows-hero-card-running { animation: missing var(--duration) ease-in-out 0ms; }
+```
+
+### motion-card-load-animation-0-ease-in-out
+
+```css
+.workflows-hero-card .workflows-hero-card-completed { animation: missing var(--duration) ease-in-out 0ms; }
+```
+
+### motion-card-load-animation-0-linear
+
+```css
+.workflows-hero-card { animation: rotate var(--duration) linear 0ms; }
+```
+
+### motion-component-state-change-background-size-400-cubic-bezier-65-0-35-1
+
+```css
+.attio-group-hover-underline { transition-property: background-size; transition-duration: .4s; transition-timing-function: cubic-bezier(.65, 0, .35, 1); }
+```
+
+### motion-hero-viewport-animation-4000-ease-out
+
+```css
+.animate-\[video-hero-pulse_4s_ease-out_infinite\] { animation: 4s ease-out infinite video-hero-pulse; }
+```
+
+### motion-hero-viewport-animation-4000-ease-out
+
+```css
+.animate-\[video-hero-ripple-inner_4s_ease-out_infinite\] { animation: 4s ease-out infinite video-hero-ripple-inner; }
+```
+
+### motion-hero-viewport-animation-4000-ease-out
+
+```css
+.animate-\[video-hero-ripple-outer_4s_ease-out_infinite\] { animation: 4s ease-out infinite video-hero-ripple-outer; }
+```
+
+### motion-overlay-viewport-animation-200-cubic-bezier-45-05-55-95
+
+```css
+.animate-dialog-scale-in { animation: dialog-scale-in .2s cubic-bezier(.45, .05, .55, .95); }
+```
+
+### motion-reveal-viewport-animation-300-cubic-bezier-65-0-35-1
+
+```css
+.animate-in { animation: enter .3s cubic-bezier(.65, 0, .35, 1); }
+```
+
+### motion-reveal-viewport-animation-800-linear
+
+```css
+.animate-productivity-intro-height { animation: productivity-intro-height .8s linear; }
+```
+
+### motion-reveal-viewport-animation-800-linear
+
+```css
+.animate-productivity-intro-width { animation: productivity-intro-width .8s linear; }
+```
+
+### motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1
+
+```css
+.animate-pulse { animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-ease-in-out
+
+```css
+.animate-search-shine { animation: search-shine 1s ease-in-out infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-linear
+
+```css
+.animate-spin { animation: spin 1s linear infinite; }
+```
+
+### motion-card-load-animation-10000-linear
+
+```css
+.data-model-cards-mobile-connection-container { animation: 10s linear infinite data-model-cards-mobile-connection-container; }
+```
+
+### motion-card-load-animation-500-cubic-bezier-33-1-68-1
+
+```css
+.data-model-cards-mobile-connector { animation: missing .5s cubic-bezier(.33,1,.68,1) 0ms; }
+```
+
+### motion-card-load-animation-1500-cubic-bezier-33-1-68-1
+
+```css
+.data-model-cards-mobile-connection { animation: missing 1.5s cubic-bezier(.33,1,.68,1) .1s; }
+```
+
+### motion-component-load-animation-4000-cubic-bezier-33-1-68-1
+
+```css
+.data-model-progress-active { animation: 4s cubic-bezier(.33,1,.68,1) both data-model-progress-process; }
+```
+
+### motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1
+
+```css
+.mask-reveal-to-right { animation: 1.6s cubic-bezier(.38,.01,.12,1) both reveal-to-right; }
+```
+
+### motion-reveal-viewport-animation-1600-cubic-bezier-38-01-12-1
+
+```css
+.mask-reveal-to-bottom { animation: 1.6s cubic-bezier(.38,.01,.12,1) both reveal-to-bottom; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

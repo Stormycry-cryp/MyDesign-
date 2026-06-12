@@ -1,0 +1,32 @@
+:root {
+  --ds-color-background: #fffff0;
+  --ds-color-foreground: #000000;
+  --ds-color-neutral-surface: #e0f0f0;
+  --ds-color-accent: #b070d0;
+  --ds-color-supporting-color: #fff0c0;
+  --ds-color-neutral-surface-2: #808080;
+  --ds-color-supporting-color-2: #e0c0e0;
+  --ds-color-neutral-surface-3: #c0c0c0;
+  --ds-color-foreground-2: #404040;
+  --ds-color-supporting-color-3: #ffe0e0;
+  --ds-color-background-2: #faf9f5;
+  --ds-color-accent-2: #0000ee;
+  --ds-spacing-component: 0px 20px;
+  --ds-radius-component: 6px;
+  --ds-shadow-component: rgba(0, 0, 0, 0.18) 0px 0px 0px 0.5px;
+  --ds-motion-motion-button-state-change-textdecoration-100-ease-out-duration: 100ms;
+  --ds-motion-motion-button-state-change-textdecoration-100-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-textdecoration-100-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-duration: 150ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-150-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-opacity-200-ease-out-duration: 200ms;
+  --ds-motion-motion-button-state-change-opacity-200-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-200-ease-out-easing: ease-out;
+  --ds-motion-motion-form-state-change-boxshadow-100-ease-out-duration: 100ms;
+  --ds-motion-motion-form-state-change-boxshadow-100-ease-out-delay: 0ms;
+  --ds-motion-motion-form-state-change-boxshadow-100-ease-out-easing: ease-out;
+  --ds-motion-motion-form-state-change-width-150-ease-out-duration: 150ms;
+  --ds-motion-motion-form-state-change-width-150-ease-out-delay: 0ms;
+  --ds-motion-motion-form-state-change-width-150-ease-out-easing: ease-out;
+}

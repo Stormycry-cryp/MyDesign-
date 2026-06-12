@@ -31,6 +31,7 @@ REQUIRED_SECTIONS = [
     "Essence",
     "When To Use",
     "When Not To Use",
+    "Style DNA",
     "Evidence Snapshot",
     "Visual System",
     "Typography And Reading Rhythm",
@@ -72,6 +73,7 @@ MANDATORY_DIMENSION_SECTIONS = [
     "Layout Geometry And Spacing",
 ]
 MISSING_MARKERS = {"missing", "missing evidence", "not observed", "no direct", "unavailable"}
+MEASURABLE_DNA = re.compile(r"\d")
 
 
 def field(text: str, name: str) -> str:
@@ -108,6 +110,24 @@ def has_evidence_or_missing_marker(content: str) -> bool:
     return any(not re.search(r"\btodo\b", line, re.I) for line in cleaned_lines)
 
 
+def validate_style_dna(content: str) -> list[str]:
+    issues: list[str] = []
+    lines = [line.strip().lstrip("- ").strip() for line in content.splitlines() if line.strip().startswith("-")]
+    if not lines:
+        return ["Style DNA lacks measurable decisions or explicit missing marker"]
+    if len(lines) > 12:
+        issues.append("Style DNA has more than 12 decisions")
+    for index, line in enumerate(lines, 1):
+        lowered = line.lower()
+        if any(marker in lowered for marker in MISSING_MARKERS):
+            continue
+        if not MEASURABLE_DNA.search(line):
+            issues.append(f"Style DNA decision is not measurable: item {index}")
+        if "source:" not in lowered and "evidence" not in lowered:
+            issues.append(f"Style DNA decision lacks evidence source: item {index}")
+    return issues
+
+
 def validate(path: Path, lib: Path) -> dict:
     text = path.read_text(encoding="utf-8", errors="ignore")
     issues: list[str] = []
@@ -129,6 +149,8 @@ def validate(path: Path, lib: Path) -> dict:
         content = section_text(text, name)
         if not has_evidence_or_missing_marker(content):
             issues.append(f"mandatory dimension lacks evidence or explicit missing marker: {name}")
+
+    issues.extend(validate_style_dna(section_text(text, "Style DNA")))
 
     screenshot = field(text, "evidence_screenshot").strip('"')
     if screenshot:

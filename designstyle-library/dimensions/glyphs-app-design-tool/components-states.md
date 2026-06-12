@@ -4,7 +4,7 @@
 - Components:
   - Navigation: Glyphs; Get Glyphs; Features; Learn; Forum; Resources; News; Events; Create; Produce; Extend; Learn; Tools; Buy; EULA; Forum
   - Buttons/links: EN; Download Glyphs 3 Free 30-day trial, macOS 10.11+; Type design; Lettering; Icon design; Read the Tutorial; Read the blog post; Read the tutorial; <picture><source srcset="https://glyphsapp.com/media/site/d8158e3a16-1624987025/alex-john-lucas-80x-q80.webp 80w" type="image/webp"><source srcset="https://glyphsapp.com/media/site; <picture><source srcset="https://glyphsapp.com/media/site/d8158e3a16-1624987025/alex-john-lucas-80x-q80.webp 80w" type="image/webp"><source srcset="https://glyphsapp.com/media/site; <picture><source srcset="https://glyphsapp.com/media/site/d8158e3a16-1624987025/alex-john-lucas-80x-q80.webp 80w" type="image/webp"><source srcset="https://glyphsapp.com/media/site; <picture><source srcset="https://glyphsapp.com/media/site/516ca6cdd2-1624987025/cecilia-del-castillo-daza-80x-q80.webp 80w" type="image/webp"><source srcset="https://glyphsapp.com/
-  - Computed component styles: `assets/2026-06-04-glyphs-app-design-tool-component-styles.json`
+  - Computed component styles: `assets/2026-06-12-glyphs-app-design-tool-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-glyphs-app-design-tool-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-glyphs-app-design-tool-component-styles.json`
   - Asset CDN and media loading patterns: https://glyphsapp.com/media/pages/tools/fonttableviewer/d952abdf25-1673479538/fonttableviewer-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/editglyphdata/379dec43ea-1673479538/editglyphdata-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/mergeglyphs/0a08ba7e1f-1673479538/mergeglyphs-icon-1280x-q80.webp; https://glyphsapp.com/media/pages/tools/commitglyphs/3789baffd6-1673479538/icon-1280x-q80.webp; https://glyphsapp.com/media/pages/buy/fdd6784499-1624987025/image-220-1280x-q80.webp; https://glyphsapp.com/media/pages/learn/arabic/0b362cccd8-1715028350/markcloud-320x-q80.webp; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==; data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
 
 ## Inference

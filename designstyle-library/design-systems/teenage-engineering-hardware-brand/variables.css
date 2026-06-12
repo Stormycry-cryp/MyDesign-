@@ -1,0 +1,28 @@
+:root {
+  --ds-color-foreground: #000000;
+  --ds-color-foreground-2: #202020;
+  --ds-color-foreground-3: #404040;
+  --ds-color-neutral-surface: #707070;
+  --ds-color-neutral-surface-2: #b0b0b0;
+  --ds-color-foreground-4: #505060;
+  --ds-color-neutral-surface-3: #e0e0e0;
+  --ds-color-neutral-surface-4: #808090;
+  --ds-color-deep-accent: #403020;
+  --ds-color-deep-accent-2: #605040;
+  --ds-color-neutral-surface-5: #e5e5e5;
+  --ds-spacing-component: missing;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-component-load-animation-250-ease-in-out-duration: 250ms;
+  --ds-motion-motion-component-load-animation-250-ease-in-out-delay: 0ms;
+  --ds-motion-motion-component-load-animation-250-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-component-state-change-transform-200-ease-out-duration: 200ms;
+  --ds-motion-motion-component-state-change-transform-200-ease-out-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-200-ease-out-easing: ease-out;
+  --ds-motion-motion-component-state-change-transform-200-ease-in-duration: 200ms;
+  --ds-motion-motion-component-state-change-transform-200-ease-in-delay: 0ms;
+  --ds-motion-motion-component-state-change-transform-200-ease-in-easing: ease-in;
+  --ds-motion-motion-component-load-animation-1000-linear-duration: 1000ms;
+  --ds-motion-motion-component-load-animation-1000-linear-delay: 0ms;
+  --ds-motion-motion-component-load-animation-1000-linear-easing: linear;
+}

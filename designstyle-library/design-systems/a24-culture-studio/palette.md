@@ -14,8 +14,6 @@
 | `#202020` | foreground | screenshot pixel sample | 0.0017 |
 | `#808080` | neutral surface | screenshot pixel sample | 0.0015 |
 | `#cacaca` | neutral surface | explicit reference or DOM color |  |
-| `#00ffff` | accent | explicit reference or DOM color |  |
-| `#f1f1f1` | neutral surface | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - editorial

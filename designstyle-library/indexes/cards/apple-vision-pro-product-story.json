@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/apple-vision-pro-product-story/component-styles.md",
     "moodboard": "design-systems/apple-vision-pro-product-story/moodboard.svg",
+    "motion": "design-systems/apple-vision-pro-product-story/motion.json",
+    "motion_presets": "design-systems/apple-vision-pro-product-story/motion-presets.css",
     "palette": "design-systems/apple-vision-pro-product-story/palette.md",
-    "tokens": "design-systems/apple-vision-pro-product-story/tokens.json"
+    "tailwind_theme": "design-systems/apple-vision-pro-product-story/tailwind.theme.json",
+    "tokens": "design-systems/apple-vision-pro-product-story/tokens.json",
+    "variables_css": "design-systems/apple-vision-pro-product-story/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/apple-vision-pro-product-story/assets.md",
@@ -35,6 +39,52 @@
     "scene": "dimensions/apple-vision-pro-product-story/scene.md",
     "type_copy": "dimensions/apple-vision-pro-product-story/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 32026}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1366x1366; 1800x1100; 2x2; 1x1; 1x1; 1x1; 1x1; 1x1; 1x1; 1x1.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 5px; 5px; 5px; 5px; 5px; 980px; 980px; 980px; 980px; 50%; 20px; 50%",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 32026}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1366:1366; 1800:1100; 2:2; 1:1; 1:1; 1:1; 1:1; 1:1; 1:1; 1:1",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 5px; 5px; 5px; 5px; 5px; 980px; 980px; 980px; 980px; 50%; 20px; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "Button/input/control density: buttons 0 +; Book a demo; Buy Apple Vision Pro; Buy Apple Vision Pro; Book a demo; Buy; forms automated pass did not classify forms.; source: Interaction And Components",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 320ms cubic-bezier(0.4, 0, 0.6, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 320ms cubic-bezier(0.4, 0, 0.6, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 100ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

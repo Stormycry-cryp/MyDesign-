@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-usps-delivers-generational-report-component-styles.json",
+  "component_json_path": "assets/2026-06-11-usps-delivers-generational-report-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/usps-delivers-generational-report/component-styles.md",
     "moodboard": "design-systems/usps-delivers-generational-report/moodboard.svg",
+    "motion": "design-systems/usps-delivers-generational-report/motion.json",
+    "motion_presets": "design-systems/usps-delivers-generational-report/motion-presets.css",
     "palette": "design-systems/usps-delivers-generational-report/palette.md",
-    "tokens": "design-systems/usps-delivers-generational-report/tokens.json"
+    "tailwind_theme": "design-systems/usps-delivers-generational-report/tailwind.theme.json",
+    "tokens": "design-systems/usps-delivers-generational-report/tokens.json",
+    "variables_css": "design-systems/usps-delivers-generational-report/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/usps-delivers-generational-report/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/usps-delivers-generational-report/scene.md",
     "type_copy": "dimensions/usps-delivers-generational-report/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 294x33; 10x20; 1184x1400; 771x1178; 771x1178; 771x1178; 771x1178; 1184x1400; 1184x1400; 1184x1400.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 5px; 5px; 5px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1100}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 294:33; 10:20; 1184:1400; 771:1178; 771:1178; 771:1178; 771:1178; 1184:1400; 1184:1400; 1184:1400",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 5px; 5px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component state-change motion uses 150ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 250ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 150ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

@@ -1,0 +1,30 @@
+.ds-motion-motion-component-load-animation-800-linear {
+  transition-property: animation;
+  transition-duration: var(--ds-motion-motion-component-load-animation-800-linear-duration);
+  transition-delay: var(--ds-motion-motion-component-load-animation-800-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-component-load-animation-800-linear-easing);
+  transform: rotate(360deg);
+}
+
+.ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-easing);
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+}
+
+.ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-transform-100-ease-in-out-ease-in-out-ease-in-out-ease-in-out-easing);
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

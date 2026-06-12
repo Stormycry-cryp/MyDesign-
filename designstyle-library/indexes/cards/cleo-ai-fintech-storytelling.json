@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/cleo-ai-fintech-storytelling/component-styles.md",
     "moodboard": "design-systems/cleo-ai-fintech-storytelling/moodboard.svg",
+    "motion": "design-systems/cleo-ai-fintech-storytelling/motion.json",
+    "motion_presets": "design-systems/cleo-ai-fintech-storytelling/motion-presets.css",
     "palette": "design-systems/cleo-ai-fintech-storytelling/palette.md",
-    "tokens": "design-systems/cleo-ai-fintech-storytelling/tokens.json"
+    "tailwind_theme": "design-systems/cleo-ai-fintech-storytelling/tailwind.theme.json",
+    "tokens": "design-systems/cleo-ai-fintech-storytelling/tokens.json",
+    "variables_css": "design-systems/cleo-ai-fintech-storytelling/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/cleo-ai-fintech-storytelling/assets.md",
@@ -35,6 +39,52 @@
     "scene": "dimensions/cleo-ai-fintech-storytelling/scene.md",
     "type_copy": "dimensions/cleo-ai-fintech-storytelling/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15292}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 0x0; 1440x783; 1440x974; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 32px 32px 32px 0px; 20px; 20px; 20px; 28px; 88px; 88px; 88px; 88px; 88px; 88px; 88px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15292}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1440:783; 1440:974",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 32px 32px 32px 0px; 20px; 20px; 20px; 28px; 88px; 88px; 88px; 88px; 88px; 88px; 88px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "navigation hover motion uses 200ms cubic-bezier(0, 0, 1, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 200ms cubic-bezier(0, 0, 1, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button hover motion uses 200ms cubic-bezier(0, 0, 1, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 200ms cubic-bezier(0, 0, 1, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

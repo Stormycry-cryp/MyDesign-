@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(104, 112, 134):rgba(0, 0, 0, 0); A:rgb(30, 36, 50):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: 50%; 13.9998px; 13.9998px; 13.9998px; 13.9998px; 300px; 1599.98px; 50%; 300px; 300px; 300px; 300px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons Login; Login; START HIRING; START HIRING; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; SET INTERVIEW; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Product Find a rep Profile Insights Assisted Hiring Payment Facilitation Solutions Lead Generation Company About Us Careers Resources Sales Academy Blog Podcasts Webinars Help Center Pricing Find Remote Work Login Top notch talent. Simple hiring. Finding relia`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

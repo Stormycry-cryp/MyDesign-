@@ -1,0 +1,45 @@
+.ds-motion-motion-navigation-hover-transform-280-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-navigation-hover-transform-280-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-transform-280-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-transform-280-ease-in-out-easing);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.ds-motion-motion-navigation-focus-transform-280-ease-in-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-navigation-focus-transform-280-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-transform-280-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-transform-280-ease-in-out-easing);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.ds-motion-motion-navigation-hover-color-280-cubic-bezier-0-4-0-0-6-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-hover-color-280-cubic-bezier-0-4-0-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-color-280-cubic-bezier-0-4-0-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-color-280-cubic-bezier-0-4-0-0-6-1-easing);
+  transform: rgb(0, 0, 16);
+}
+
+.ds-motion-motion-navigation-focus-color-280-cubic-bezier-0-4-0-0-6-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-focus-color-280-cubic-bezier-0-4-0-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-color-280-cubic-bezier-0-4-0-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-color-280-cubic-bezier-0-4-0-0-6-1-easing);
+  transform: rgb(0, 0, 16);
+}
+
+.ds-motion-motion-form-state-change-transform-200-ease-out {
+  transition-property: transform;
+  transition-duration: var(--ds-motion-motion-form-state-change-transform-200-ease-out-duration);
+  transition-delay: var(--ds-motion-motion-form-state-change-transform-200-ease-out-delay);
+  transition-timing-function: var(--ds-motion-motion-form-state-change-transform-200-ease-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -72,6 +72,44 @@ Classify library coverage before planning:
 
 Coverage strength must be based on scene/page fit plus evidence strength, not the top search score alone.
 
+## Apply Pack
+
+When selected references expose reusable design-system artifacts, the direction plan must include an `Apply Pack` section before build work starts. List exact paths from each selected L1 card:
+
+- `design-systems/<slug>/variables.css`
+- `design-systems/<slug>/motion-presets.css`
+- `design-systems/<slug>/tailwind.theme.json`
+- `design-systems/<slug>/tokens.json`
+- `design-systems/<slug>/motion.json`
+
+Build work must first copy or import these files into the target project, then instantiate local styles from them. Motion should come from `motion-presets.css` or `motion.json`; parameters may be tuned for the local UI, but the mechanism, trigger, and reduced-motion fallback must remain traceable to the selected reference. If any Apply Pack file is missing, mark it `missing` in the plan and do not invent substitute tokens.
+
+## Reference Comparison Loop
+
+After the first build pass, run a `compare_against_reference` step before final QA:
+
+```bash
+python ~/.codex/skills/use-designstyle/scripts/compare_against_reference.py \
+  --card ~/.codex/designstyle-library/indexes/cards/<slug>.json \
+  --generated path/to/generated-first-viewport.png \
+  --state first-viewport \
+  --output work/designstyle-reference-comparison.md
+```
+
+The comparison report must include a DNA checklist, screenshot paths, reusable dimensions, not-borrowed dimensions, and an Iteration Log. Use the selected reference card's `dna` entries as measurable checks for geometry, type hierarchy, spacing rhythm, color/material, and motion parameters. Then run or reuse `probe_aesthetic_fit.py` for the generated output when a browser/screenshot target is available; keep the same 75 threshold. If the report identifies unmet DNA checks or the probe score is below 75, update the Iteration Log, modify the implementation, and repeat. Cap the loop at three iterations to avoid dead loops; remaining failures must be reported plainly.
+
+## Evidence QA
+
+Final QA is screenshot-evidence based. Every checked state needs a real screenshot path; a verbal claim is not enough. Record these in the direction plan and final audit:
+
+- immediate-load screenshot path required
+- post-animation screenshot path required
+- hover/focus screenshot path required
+- mobile screenshot path required
+- reduced-motion screenshot path required
+
+If a state cannot be captured because tooling, auth, rendering, or viewport support is missing, mark that state `missing` with the exact blocker. Do not replace missing screenshot evidence with a similar state.
+
 ## Workflow
 
 Use this fixed flow whenever the skill is active. Keep the output compact, but do not skip gates.

@@ -2,9 +2,8 @@
 
 ## Observed
 - Components:
-  - Navigation: AI Cloud; AI Gateway One endpoint, all your models; Sandbox Isolated, safe code execution; Vercel Agent An agent that knows your stack; AI SDK The AI Toolkit for TypeScript; v0 Build applications with AI; CI/CD Helping teams ship 6× faster; Content Delivery Fast, scalable, and reliable; Fluid Compute Servers, in serverless form; Workflow Long-running workflows at scale; Observability Trace every step; Security; Bot Management Scalable bot protection; BotID Invisible CAPTCHA; Platform Security DDoS Protection, Firewall; Web Application Firewall Granular, custom protection
   - Buttons/links: Products; Resources; Solutions; Ask AI; Log In; Log In; Sign Up Sign Up; Sign Up; Sign Up; Sign Up; Sign Up; Get your ticket
-  - Computed component styles: `assets/2026-06-04-vercel-developer-platform-component-styles.json`
+  - Computed component styles: `assets/2026-06-12-vercel-developer-platform-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +13,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-vercel-developer-platform-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-vercel-developer-platform-component-styles.json`
   - Asset CDN and media loading patterns: https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/runway-light.3zx3rbm9ybh6b.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/runway-dark.1l-g4v8ssniu4.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/leonardo-ai-light.0fcliua3j9zk1.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/leonardo-ai-dark.388su-97uei-e.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/zapier-light.1_j_dlfa474og.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/zapier-dark.29hslo2pkpwh1.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/adobe-light.3de-9hqn511ns.svg; https://vercel.com/vc-ap-vercel-marketing/_next/static/immutable/media/adobe-dark.2yxcg9r5ex73q.svg
 
 ## Inference

@@ -12,7 +12,7 @@
 - a OFFERS | rect=68x71@360.4,0 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=LandRoverWeb-Medium, Arial, Helvetica, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=0.2px; lineHeight=19px; padding=0px 6.5px 0px 10px; transition=background-color 0.3s; transitionDuration=0.3s; transitionTimingFunction=ease; opacity=1
 - a dxnavlr-vzkkkw eioggsh1 | rect=266.1x71@586.9,0 | display=flex; position=static; color=rgb(12, 18, 28); border=0px none rgb(12, 18, 28); fontFamily=LandRoverWeb-Medium, Arial, Helvetica, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=0.2px; lineHeight=19px; padding=0px 40px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 8, image count 30, document height 8434.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - VEHICLES OWNERS EXPLORE SHOP NOW OFFERS LOCATE A RETAILER BUILDS SUPPORT
@@ -57,8 +57,8 @@
 - li LOCATE A RETAILER | rect=203.8x71@874.6,0 | display=inline-block; position=static; color=rgb(74, 79, 84); border=0px none rgb(74, 79, 84); fontFamily=LandRoverWeb-Medium, Arial, Helvetica, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=0.2px; lineHeight=19px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li BUILDS | rect=120x71@1079.4,0 | display=inline-block; position=static; color=rgb(74, 79, 84); border=0px none rgb(74, 79, 84); fontFamily=LandRoverWeb-Medium, Arial, Helvetica, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=0.2px; lineHeight=19px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li SUPPORT | rect=133.2x71@1200.5,0 | display=inline-block; position=static; color=rgb(74, 79, 84); border=0px none rgb(74, 79, 84); fontFamily=LandRoverWeb-Medium, Arial, Helvetica, sans-serif; fontSize=14px; fontWeight=400; letterSpacing=0.2px; lineHeight=19px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 100%; 50%; 50%; 50%; 50%; 50%; 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 100%; 50%; 50%; 50%; 50%; 50%; 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - VEHICLES

@@ -12,7 +12,7 @@
 - a Autoscaling | rect=86.1x30@227,283 | display=inline-flex; position=relative; color=rgb(13, 13, 13); border=0px solid rgb(227, 227, 227); fontFamily=PPNeueMontreal, "PPNeueMontreal Fallback", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=0.16px; lineHeight=20px; padding=5px 0px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
 - a Private Networking | rect=136.2x30@227,323 | display=inline-flex; position=relative; color=rgb(13, 13, 13); border=0px solid rgb(227, 227, 227); fontFamily=PPNeueMontreal, "PPNeueMontreal Fallback", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=0.16px; lineHeight=20px; padding=5px 0px; transition=color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.15s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
 - navigation count 24, image count 0, document height 3309.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Platform Overview Workflows FEATURES Autoscaling Private Networking Persistent Disks Infrastructure as Code Prev
@@ -46,8 +46,8 @@
 - div Platform Overview | rect=250.7x30@227,145 | display=flex; position=static; color=rgb(13, 13, 13); border=0px solid rgb(227, 227, 227); fontFamily=PPNeueMontreal, "PPNeueMontreal Fallback", sans-serif; fontSize=16px; fontWeight=400; lineHeight=17.92px; gap=10px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div Workflows | rect=250.3x30@550.7,145 | display=flex; position=static; color=rgb(13, 13, 13); border=0px solid rgb(227, 227, 227); fontFamily=PPNeueMontreal, "PPNeueMontreal Fallback", sans-serif; fontSize=16px; fontWeight=400; lineHeight=17.92px; gap=10px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - li Autoscaling | rect=262x30@227,283 | display=list-item; position=static; color=rgb(13, 13, 13); border=0px solid rgb(227, 227, 227); fontFamily=PPNeueMontreal, "PPNeueMontreal Fallback", sans-serif; fontSize=16px; fontWeight=400; letterSpacing=0.16px; lineHeight=20px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Join us for localhost, our first conference, in San Francisco on June 18 Get your ticket

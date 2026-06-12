@@ -1,42 +1,79 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: lay:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.swiper-android .swipe, t-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.swiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{-webkit-transform:translate3d(0,0,, lex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight,.swiper-autoheight .swiper-slide{height:auto}.sw
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rg, rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(, ),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,r, gba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%, t(.swiper-watch-progress) .swiper-lazy-preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: lay:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; t-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; lex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{-webkit-transform:translateZ(0);-mo; transform:rotate(360deg)}}.swiper-fade.swiper-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-fade .swiper-slide{pointer-events:none;transition-property:opacity; er,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-; -preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; sition-duration:none!important;background-color:transparent!important;animation:none!important}
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Public CSS/JS motion snippets: lay:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; t-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; lex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{-webkit-transform:translateZ(0);-mo; transform:rotate(360deg)}}.swiper-fade.swiper-free-mode .swiper-slide{transition-timing-function:ease-out}.swiper-fade .swiper-slide{pointer-events:none;transition-property:opacity; er,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-; -preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; sition-duration:none!important;background-color:transparent!important;animation:none!important}; acity:1;position:absolute;top:-1px;width:11px}.DxLoading__icon:before{animation:spinAround 2s ease .5s infinite;border-radius:11px 0 0 11px;transform-origin:11px 11px}.DxLoading__i; adius:11px 0 0 11px;transform-origin:11px 11px}.DxLoading__icon:after{animation:spinAround 2s ease infinite;border-radius:0 11px 11px 0;left:9px;transform-origin:0 11px}@keyframes
-  - Exact motion parameters: lay:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initi; t-flex;display:-ms-flexbox;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);box-sizing:content-box}.sw; lex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; er,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-; -preloader{-webkit-animation:1s linear infinite swiper-preloader-spin;animation:1s linear infinite swiper-preloader-spin}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}; sition-duration:none!important;background-color:transparent!important;animation:none!important}; rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:l; rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:li; ),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))}.swiper-3d .swiper-slide-shadow-bottom{background-image:l; visible}[class^=dxnavlr] [class^=dxnavlr] select[class^=dxnavlr]{text-transform:none}[class^=dxnavlr] [class^=dxnavlr] [type=button][class^=dxnavlr],[class^=dxnavlr] [class^=dxnavl
-  - JavaScript/runtime motion evidence: -webkit-padding-start:0;padding-inline-start:0}@font-face{font-family:swiper-icons;src:url('data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAA; bCZo5IPrmUn0hGA0AO8EFTQAA');font-weight:400;font-style:normal}:root{--swiper-theme-color:#007aff}:host{position:relative;display:block;margin-left:auto;margin-right:auto;z-index:1}; :relative;display:block;margin-left:auto;margin-right:auto;z-index:1}.swiper{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:; ve;overflow:hidden;list-style:none;padding:0;z-index:1;display:block}.swiper-vertical>.swiper-wrapper{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}; n;list-style:none;padding:0;z-index:1;display:block}.swiper-vertical>.swiper-wrapper{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.swiper-wrapper{p
-  - Stylesheet evidence: https://modules.jaguarlandrover.com/modules/jlr-headless-navigation/latest/landrover/assets/static/css/base.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-grid.min.ACSHASHe01ea54e1d0d43a5696b00d2d7ce18e0.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-libs.min.ACSHASH54ed5ee14d53e5931fd95f7549d0df51.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-landrover.min.ACSHASH8bc30a7ac4e50552c470708620cece73.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-immersivehero-immersivehero-js.d909a1dd.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-contentcard-contentcard-js.3b587866.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-carousel-carousel-js.97064a3b.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-dualframecarousel-dualframecarousel-js.41a53f59.css
-  - Interpreted motion tags: hero media, scroll storytelling, hover states
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: swiper
-  - Public stylesheet/script URLs: https://modules.jaguarlandrover.com/modules/jlr-headless-navigation/latest/landrover/assets/static/css/base.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-grid.min.ACSHASHe01ea54e1d0d43a5696b00d2d7ce18e0.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-libs.min.ACSHASH54ed5ee14d53e5931fd95f7549d0df51.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-landrover.min.ACSHASH8bc30a7ac4e50552c470708620cece73.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-immersivehero-immersivehero-js.d909a1dd.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-contentcard-contentcard-js.3b587866.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-carousel-carousel-js.97064a3b.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-dualframecarousel-dualframecarousel-js.41a53f59.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-masonrymedia-masonrymedia-js.fe9bc53e.css; https://www.rangerover.com/etc.clientlibs/jlr/clientlibs/clientlib-dynamic-modules/resources/landrover/components-fullframecarousel-fullframecarousel-js.0c29cc37.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.rangerover.com/en-us/index.html` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-land-rover-range-rover-official-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.rangerover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg; https://jlr.scene7.com/is/image/jlr/L46027US_303105263_069; https://jlr.scene7.com/is/image/jlr/L46127GL_303105264_003_BORASCO-GREY; https://jlr.scene7.com/is/image/jlr/L56026GL_303103980_001_NAV; https://jlr.scene7.com/is/image/jlr/L55126_75US_303105238_048; https://jlr.scene7.com/is/image/jlr/L46026GL_303103150_069-1; https://jlr.scene7.com/is/image/jlr/L46026GL_303104328_PM_THINK1_009-1; https://jlr.scene7.com/is/image/jlr/L46026GL_303104328_PM_THINK1_008C_MOSIAC_CROP
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 30 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | hover | backgroundColor | 300ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.667)，300ms ease，hover 触发；样本 LOCATE A RETAILER |
+| navigation | focus | backgroundColor | 300ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.745)，300ms ease，focus 触发；样本 LOCATE A RETAILER |
+| navigation | hover | backgroundColor | 300ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.576)，300ms ease，hover 触发；样本 BUILDS |
+| navigation | focus | backgroundColor | 300ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.667)，300ms ease，focus 触发；样本 BUILDS |
+| navigation | hover | backgroundColor | 300ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.576)，300ms ease，hover 触发；样本 SUPPORT |
+| navigation | focus | backgroundColor | 300ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.663)，300ms ease，focus 触发；样本 SUPPORT |
+| navigation | hover | backgroundColor | 300ms | 0ms | ease | 导航hover：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.576)，300ms ease，hover 触发；样本 ds-navigation-11 |
+| navigation | focus | backgroundColor | 300ms | 0ms | ease | 导航focus：backgroundColor rgba(0, 0, 0, 0) -> rgba(233, 236, 236, 0.663)，300ms ease，focus 触发；样本 ds-navigation-11 |
+| button | state-change | backgroundColor | 500ms | 0ms | ease-in-out | 按钮state-change：backgroundColor rgba(12, 18, 28, 0.2) -> missing，500ms ease-in-out，state-change 触发；样本 Scroll Button |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-hover-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.667)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.745)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.576)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.667)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.576)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.663)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-hover-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.576)", "transition": "background-color 0.3s"}
+```
+
+### motion-navigation-focus-backgroundcolor-300-ease
+
+```css
+{"backgroundColor": "rgba(233, 236, 236, 0.663)", "transition": "background-color 0.3s"}
+```
+
+### motion-button-state-change-backgroundcolor-500-ease-in-out
+
+```css
+{"transition": "background-color 0.5s ease-in-out, border-color 0.5s ease-in-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

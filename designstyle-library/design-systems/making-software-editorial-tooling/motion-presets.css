@@ -1,0 +1,38 @@
+.ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-color-150-cubic-bezier-0-4-0-0-2-1-easing);
+  transform: oklab(0.232162 -0.0119137 -0.131931);
+}
+
+.ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-color-150-cubic-bezier-0-4-0-0-2-1-easing);
+  transform: oklab(0.232162 -0.0119137 -0.131931);
+}
+
+.ds-motion-motion-button-hover-color-0-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-hover-color-0-ease-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-color-0-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-color-0-ease-easing);
+  transform: oklch(0.5058 0.2886 264.84);
+}
+
+.ds-motion-motion-button-focus-color-0-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-button-focus-color-0-ease-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-color-0-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-color-0-ease-easing);
+  transform: oklch(0.5058 0.2886 264.84);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

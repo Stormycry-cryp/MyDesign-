@@ -1,0 +1,24 @@
+{
+  "theme": {
+    "extend": {
+      "borderRadius": {
+        "ds-component": "1000px"
+      },
+      "colors": {
+        "accent": "#d05000",
+        "accent-2": "#c03000",
+        "background": "#ffffff",
+        "deep-accent": "#001040",
+        "deep-accent-2": "#200010",
+        "deep-accent-3": "#503020",
+        "deep-accent-4": "#302020",
+        "deep-accent-5": "#704020",
+        "deep-accent-6": "#401000",
+        "foreground": "#000000"
+      },
+      "spacing": {
+        "ds-component": "0px 80px"
+      }
+    }
+  }
+}

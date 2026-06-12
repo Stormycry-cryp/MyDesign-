@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Radically different banking; H2 Loved by 300K+ of the most ambitious entrepreneurs on the planet; You’re creating something to stand the test of time. So are we.; $650M in annual revenue and profitable; Mercury lands $300M Series C; Fast Company’s Most Innovative; Banking – redesigned from the ground up.; navigation Mercury logoThe logo for Mercury, featuring a circular emblem with abstract, interconnected swirling lines on the left, and the word "MERCURY" in clean, uppercase letters to the ri; Pricing; Log in; Open account
+  - Sentence rhythm: 98 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Online Business Banking For Startups, Small Businesses & Scaling Companies; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://mercury.com/
   - Page title: Online Business Banking For Startups, Small Businesses & Scaling Companies
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -1,42 +1,330 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-ou, >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;fon, 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: reference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-ou, ing .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;cursor:pointer;display:flex;fon, ry:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,#000000b3,#0000004d 70%,#0000);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;ov, e{backdrop-filter:blur(3px);content:"";height:100%;-webkit-mask-image:linear-gradient(0deg,#000 20%,#0000);mask-image:linear-gradient(0deg,#000 20%,#0000);max-height:40%;pointer-events:none}.wp-block-galler, 0%;-webkit-mask-image:linear-gradient(0deg,#000 20%,#0000);mask-image:linear-gradient(0deg,#000 20%,#0000);max-height:40%;pointer-events:none}.wp-block-gallery.has-nested-images figure.wp-block-image figcap
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; p-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:; h__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn
-  - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, transform, transition
-  - Public CSS/JS motion snippets: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; p-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:; h__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn; mation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not; ty .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation
-  - Exact motion parameters: media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-acco; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;b; 100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3p; ){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radi; sible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}; nimation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn; reference){.wp-block-accordion-item{transition:grid-template-rows .3s ease-out}.wp-block-accordion-item>.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transit; ing .wp-block-accordion-heading__toggle-icon{transition:transform .2s ease-in-out}}.wp-block-accordion-heading__toggle{align-items:center;background:none;border:none;color:inherit;; ry:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,#000000b3,#0000004d 70%,#0000);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;m; >.wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon{transform:rotate(45deg)}@media (prefers-reduced-motion:no-preference){.wp-block-accordion-item{transition:grid
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://www.pagani.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4; https://www.pagani.com/app/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6; https://www.pagani.com/app/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1; https://www.pagani.com/app/themes/pagani/assets/styles/vendors.css?ver=6.9.4; https://www.pagani.com/app/themes/pagani/assets/styles/main.css?ver=1.2.6; https://www.pagani.com/app/themes/pagani/assets/styles/puro.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/job.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/override.css?ver=6.9.4
-  - Interpreted motion tags: hero media, scroll storytelling, hover states
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://www.pagani.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4; https://www.pagani.com/app/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6; https://www.pagani.com/app/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1; https://www.pagani.com/app/themes/pagani/assets/styles/vendors.css?ver=6.9.4; https://www.pagani.com/app/themes/pagani/assets/styles/main.css?ver=1.2.6; https://www.pagani.com/app/themes/pagani/assets/styles/puro.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/job.css?ver=1.2; https://www.pagani.com/app/themes/pagani/assets/styles/override.css?ver=6.9.4; https://consentcdn.cookiebot.com/consentconfig/966c7ba9-6f88-4664-80db-dbd8a2ce5bb8/state.js; https://consent.cookiebot.com/Scripts/widgetIcon.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.pagani.com/` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-pagani-official-component-styles.json`
-  - Asset CDN and media loading patterns: data:,; data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF; data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC6SURBVHgBpdTdCcMgEAdwT/vk04EOkBG6QifpHH3rCF; https://www.pagani.com/app/uploads/2024/07/Pagani-Utopia-Roadster-Home-1440x810-1.png; https://www.pagani.com/app/uploads/2024/07/Utopia-Roadster-WEB-Logo-1.png; https://www.pagani.com/app/uploads/2016/11/home-history-2.jpg; https://www.pagani.com/app/themes/pagani/assets/images/signature-white.png; https://www.pagani.com/app/uploads/2016/11/02-la-sfida@05x-2.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, reduced_motion, transform, transition
-  - Performance/accessibility concerns: heavy media count 17 and scripts 22; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0deg) -> rotate(360deg)，1000ms linear，load 触发 |
+| component | load | animation | 2000ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(359deg)，2000ms linear，load 触发 |
+| component | load | animation | 1000ms | 0ms | steps(8) | 组件load：animation rotate(0) -> rotate(359deg)，1000ms steps(8)，load 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease | 组件state-change：opacity，400ms ease，state-change 触发 |
+| component | state-change | visibility | 400ms | 0ms | ease | 组件state-change：visibility，400ms ease，state-change 触发 |
+| reveal | viewport | opacity | 2000ms | 0ms | ease-in-out | 入场元素viewport：opacity，2000ms ease-in-out，viewport 触发 |
+| component | state-change | transform | 1000ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform missing -> translateY(100%)，1000ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 1350ms | 0ms | ease | 组件state-change：opacity，1350ms ease，state-change 触发 |
+| component | state-change | visibility | 1350ms | 0ms | ease | 组件state-change：visibility，1350ms ease，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | ease-in-out | 组件load：animation scale(0) -> scale(1)，1000ms ease-in-out，load 触发 |
+| component | state-change | all | 350ms | 1350ms | ease | 组件state-change：all，350ms ease，state-change 触发 |
+| component | state-change | transform | 700ms | 0ms | cubic-bezier(.55,.09,.68,.53) | 组件state-change：transform missing -> translate(-50%,-50%)，700ms cubic-bezier(.55,.09,.68,.53)，state-change 触发 |
+| component | state-change | opacity | 700ms | 0ms | cubic-bezier(.55,.09,.68,.53) | 组件state-change：opacity missing -> translate(-50%,-50%)，700ms cubic-bezier(.55,.09,.68,.53)，state-change 触发 |
+| component | state-change | visibility | 700ms | 0ms | cubic-bezier(.55,.09,.68,.53) | 组件state-change：visibility missing -> translate(-50%,-50%)，700ms cubic-bezier(.55,.09,.68,.53)，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | ease-out | 组件load：animation translateY(-5px) -> translateY(15px)，1000ms ease-out，load 触发 |
+| navigation | state-change | transform | 400ms | 0ms | ease | 导航state-change：transform missing -> translateY(-100%)，400ms ease，state-change 触发 |
+| navigation | state-change | opacity | 400ms | 0ms | ease | 导航state-change：opacity missing -> translateY(-100%)，400ms ease，state-change 触发 |
+| navigation | state-change | visibility | 400ms | 0ms | ease | 导航state-change：visibility missing -> translateY(-100%)，400ms ease，state-change 触发 |
+| navigation | state-change | background | 250ms | 0ms | ease | 导航state-change：background，250ms ease，state-change 触发 |
+| button | state-change | all | 250ms | 0ms | ease | 按钮state-change：all，250ms ease，state-change 触发 |
+| button | state-change | transform | 0ms | 200ms | ease | 按钮state-change：transform，0ms ease，state-change 触发 |
+| button | state-change | transform | 0ms | 200ms | ease | 按钮state-change：transform，0ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 200ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 0ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 200ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 0ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 200ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 0ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 200ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 0ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 0ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 200ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 0ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 200ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 0ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 200ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | top | 200ms | 0ms | ease | 按钮state-change：top，200ms ease，state-change 触发 |
+| button | state-change | transform | 200ms | 200ms | ease | 按钮state-change：transform，200ms ease，state-change 触发 |
+| button | state-change | opacity | 800ms | 0ms | ease-in-out | 按钮state-change：opacity，800ms ease-in-out，state-change 触发 |
+| navigation | state-change | transform | 500ms | 0ms | cubic-bezier(.4,0,.2,1) | 导航state-change：transform missing -> translate3d(100%,0,0)，500ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| navigation | state-change | all | 400ms | 0ms | ease-out | 导航state-change：all missing -> translateY(-50%)，400ms ease-out，state-change 触发 |
+| navigation | state-change | all | 300ms | 0ms | ease | 导航state-change：all missing -> translateY(-50%)，300ms ease，state-change 触发 |
+| navigation | state-change | all | 400ms | 0ms | ease-in | 导航state-change：all，400ms ease-in，state-change 触发 |
+| component | state-change | all | 200ms | 0ms | ease-in | 组件state-change：all missing -> rotate(45deg)，200ms ease-in，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-pagani-official-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-none-important-missing-missing lacks duration_ms
+- motion-component-state-change-none-important-missing-missing lacks easing
+- motion-component-load-animation-1000-missing lacks easing
+- motion-component-load-animation-1000-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-cubic-bezier-46-03-52-96 lacks duration_ms
+
+## Snippet Appendix
+### motion-component-load-animation-1000-linear
+
+```css
+.wpcf7-spinner::before { animation: spin 1000ms linear 0ms; }
+```
+
+### motion-component-load-animation-2000-linear
+
+```css
+.fa-spin { animation: fa-spin 2s infinite linear; }
+```
+
+### motion-component-load-animation-1000-steps-8
+
+```css
+.fa-pulse { animation: fa-spin 1s infinite steps(8); }
+```
+
+### motion-component-state-change-opacity-400-ease
+
+```css
+.content:after { transition: opacity .4s ease 0s; }
+```
+
+### motion-component-state-change-visibility-400-ease
+
+```css
+.content:after { transition: visibility .4s ease 0s; }
+```
+
+### motion-reveal-viewport-opacity-2000-ease-in-out
+
+```css
+.js-reveal-content--hidden { transition: opacity 2s ease-in-out; }
+```
+
+### motion-component-state-change-transform-1000-cubic-bezier-4-0-2-1
+
+```css
+.block { transition: transform 1s cubic-bezier(.4,0,.2,1) 0s; }
+```
+
+### motion-component-state-change-opacity-1350-ease
+
+```css
+.block:not(.block--children):after { transition: opacity 1.35s ease 0s; }
+```
+
+### motion-component-state-change-visibility-1350-ease
+
+```css
+.block:not(.block--children):after { transition: visibility 1.35s ease 0s; }
+```
+
+### motion-component-load-animation-1000-ease-in-out
+
+```css
+.block--loading:before { animation: spinner 1s ease-in-out infinite; }
+```
+
+### motion-component-state-change-all-350-ease
+
+```css
+.block__close { transition: all .35s ease 1.35s; }
+```
+
+### motion-component-state-change-transform-700-cubic-bezier-55-09-68-53
+
+```css
+.block__background { transition: transform .7s cubic-bezier(.55,.09,.68,.53) 0s; }
+```
+
+### motion-component-state-change-opacity-700-cubic-bezier-55-09-68-53
+
+```css
+.block__background { transition: opacity .7s cubic-bezier(.55,.09,.68,.53) 0s; }
+```
+
+### motion-component-state-change-visibility-700-cubic-bezier-55-09-68-53
+
+```css
+.block__background { transition: visibility .7s cubic-bezier(.55,.09,.68,.53) 0s; }
+```
+
+### motion-component-load-animation-1000-ease-out
+
+```css
+.scroll-invitation__svg-line { animation: moveLineDown 1s ease-out; }
+```
+
+### motion-navigation-state-change-transform-400-ease
+
+```css
+.header { transition: transform .4s ease 0s; }
+```
+
+### motion-navigation-state-change-opacity-400-ease
+
+```css
+.header { transition: opacity .4s ease 0s; }
+```
+
+### motion-navigation-state-change-visibility-400-ease
+
+```css
+.header { transition: visibility .4s ease 0s; }
+```
+
+### motion-navigation-state-change-background-250-ease
+
+```css
+.header__logo { transition: background .25s ease 0s; }
+```
+
+### motion-button-state-change-all-250-ease
+
+```css
+.button { transition: all .25s ease 0s; }
+```
+
+### motion-button-state-change-transform-0-ease
+
+```css
+.button--hamburger .hamburger-fixed>span { transition: transform 0s ease .2s; }
+```
+
+### motion-button-state-change-transform-0-ease
+
+```css
+.button--hamburger .hamburger>span { transition: transform 0s ease .2s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger-fixed:after { transition: top .2s ease .2s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger-fixed:after { transition: transform .2s ease 0s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger-fixed:before { transition: top .2s ease .2s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger-fixed:before { transition: transform .2s ease 0s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger:after { transition: top .2s ease .2s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger:after { transition: transform .2s ease 0s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger:before { transition: top .2s ease .2s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger:before { transition: transform .2s ease 0s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger-fixed.open:after { transition: top .2s ease 0s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger-fixed.open:after { transition: transform .2s ease .2s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger-fixed.open:before { transition: top .2s ease 0s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger-fixed.open:before { transition: transform .2s ease .2s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger.open:after { transition: top .2s ease 0s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger.open:after { transition: transform .2s ease .2s; }
+```
+
+### motion-button-state-change-top-200-ease
+
+```css
+.button--hamburger .hamburger.open:before { transition: top .2s ease 0s; }
+```
+
+### motion-button-state-change-transform-200-ease
+
+```css
+.button--hamburger .hamburger.open:before { transition: transform .2s ease .2s; }
+```
+
+### motion-button-state-change-opacity-800-ease-in-out
+
+```css
+.button--share { transition: opacity .8s ease-in-out; }
+```
+
+### motion-navigation-state-change-transform-500-cubic-bezier-4-0-2-1
+
+```css
+.menu { transition: transform .5s cubic-bezier(.4,0,.2,1) 0s; }
+```
+
+### motion-navigation-state-change-all-400-ease-out
+
+```css
+.menu__main .menu__list { transition: .4s ease-out; }
+```
+
+### motion-navigation-state-change-all-300-ease
+
+```css
+.menu__main .menu__list .menu__link .sub-menu { transition: .3s ease; }
+```
+
+### motion-navigation-state-change-all-400-ease-in
+
+```css
+.menu__main.slide-sub .menu__list { transition: .4s ease-in; }
+```
+
+### motion-component-state-change-all-200-ease-in
+
+```css
+body.page-template-job-positions .job_role_container .mobile_selected_filter i.arrow_filer { transition: .2s transform ease-in; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

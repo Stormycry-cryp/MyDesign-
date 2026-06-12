@@ -8,6 +8,7 @@
 - a account | rect=16x14@1354,66 | display=block; position=relative; color=rgb(37, 37, 37); border=1px solid rgb(255, 255, 255); borderRadius=4px; fontFamily=DINPro; fontSize=14px; fontWeight=400; letterSpacing=1.47px; lineHeight=18.998px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - header Welcome to Valentino | rect=550x24@445,398.4 | display=flex; position=static; color=rgb(37, 37, 37); border=0px none rgb(37, 37, 37); fontFamily=DINPro; fontSize=14px; fontWeight=400; letterSpacing=1.47px; lineHeight=18.998px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 0, image count 40, document height 15061.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -52,8 +53,8 @@
 - img item__image | rect=20x20@1322,63.8 | display=inline; position=static; color=rgb(37, 37, 37); border=0px none rgb(37, 37, 37); fontFamily=DINPro; fontSize=14px; fontWeight=400; letterSpacing=1.47px; lineHeight=18.998px; transition=filter 1.5s; transitionDuration=1.5s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - div vltHeader__items--item headerIcon__account | rect=20x14@1352,66 | display=block; position=relative; color=rgb(37, 37, 37); border=0px none rgb(37, 37, 37); fontFamily=DINPro; fontSize=14px; fontWeight=400; letterSpacing=1.47px; lineHeight=18.998px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - img login icon | rect=6x6@1359,70 | display=inline; position=static; color=rgb(37, 37, 37); border=0px none rgb(37, 37, 37); fontFamily=DINPro; fontSize=14px; fontWeight=400; letterSpacing=1.47px; lineHeight=18.998px; transition=filter 1.5s; transitionDuration=1.5s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- 28px; 90px; 4px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 28px; 90px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - SALE NEW ARRIVALS ROCKSTUD WOMEN MEN BAGS GIFTS FRAGRANCES V-UNIVERSE

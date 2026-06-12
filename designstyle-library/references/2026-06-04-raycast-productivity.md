@@ -30,6 +30,19 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15486}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 828x828.; source: Layout Geometry And Spacing
+- Observed border radii: 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15486}; source: Dimension And Ratio System
+- Observed media ratios: 828:828; source: Dimension And Ratio System
+- component load motion uses 2000ms ease-in-out; source: motion.json
+- button state-change motion uses 200ms ease-in-out; source: motion.json
+- button state-change motion uses 100ms ease-in-out; source: motion.json
+- component state-change motion uses 300ms cubic-bezier(.4,0,.2,1); source: motion.json
+- component state-change motion uses 300ms ease; source: motion.json
+- component state-change motion uses 400ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://www.raycast.com/aup
 - Page title: Raycast - Your shortcut to everything
@@ -43,7 +56,6 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - Navigation samples: none observed
 - Images observed: image 828x828 https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
 - Video observed: none observed
-- Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 
 ## Visual System
 - Layout: infer from screenshot and viewport; primary page text sample starts `Store Pro AI iOS Windows Teams Developers Blog Pricing Log in Download Raycast Platform Acceptable Use Policy (including Platform Terms of Use) Last Updated: Nov 7, 2025 PLEASE READ THESE PLATFORM TERMS OF USE CAREFULLY We are Raycast Technologies Ltd. (tradin`.
@@ -60,6 +72,12 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Raycast Platform Acceptable Use Policy (including Platform Terms of Use); H2 PLEASE READ THESE PLATFORM TERMS OF USE CAREFULLY; PLEASE READ THESE TERMS CAREFULLY BEFORE USING THE PLATFORM; Acceptable Use; How we protect you from illegal content; navigation none observed
+- Sentence rhythm: 101 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Raycast - Your shortcut to everything; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(255, 255, 255):rgb(7, 8, 10); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(156, 156, 157):rgba(0, 0, 0, 0); A:rgb(47, 48, 49):rgb(230, 230, 230); H1:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(156, 156, 157):rgba(0, 0, 0, 0); H2:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +89,12 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - Media/card aspect stability: image natural sizes include 828x828.
 - Observed border radii: 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons Download; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15486}
 - Observed media ratios: 828:828
@@ -90,20 +114,20 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-raycast-productivity-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-raycast-productivity-component-styles.json`
 - Asset CDN and media loading patterns: https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
 
 ## Motion
-- Page transitions: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxE, 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG75 .search_actualSearchBox__zayWu{transform:s, zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchIte
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: r__gxtmG{position:absolute;bottom:0;width:200px;height:1px;background:linear-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s e, acity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z{opacity:0}.search_loadingIndicator__gxtmG.search_enter__tbd_z .searc, );transition:background-image .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:disabled{cursor:not-allowed;opac, age .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:disabled{cursor:not-allowed;opacity:.3}.Button_button__JJi, opacity:1}.Button_dark__dyBom{color:var(--Base-White,#fff);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.1));box-shadow:inset 0 1px 0 0 rgba(255,255,255,.05),0 0 0 1px rgba(255,2
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchItem__WRh_B{position:relative;display:flex;gap:8px; ar-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gx; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, keyframes, transform, transition
-- Public CSS/JS motion snippets: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchItem__WRh_B{position:relative;display:flex;gap:8px; ar-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gx; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr; ion-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_current__gpJFY:after{background:linear-gradient(90deg; ase;will-change:opacity,transform}.InstallViaWinget_iconCopied__osOxD{animation:InstallViaWinget_iconSuccess__hI9N1 .3s ease}@keyframes InstallViaWinget_iconSuccess__hI9N1{0%{opaci
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr; r__gxtmG{position:absolute;bottom:0;width:200px;height:1px;background:linear-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:sea; acity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z{opacity:0}.search_loadingIndicator__g; );transition:background-image .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:d; verflow-y:scroll;background:rgba(0,0,0,.8);backdrop-filter:blur(10px);transform:translateZ(0)}.search_actualSearchBox__zayWu{display:flex;flex-direction:column;max-width:500px;marg
 - JavaScript/runtime motion evidence: none observed
 - Stylesheet evidence: https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css; https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css; https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css; https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css; https://www.raycast.com/_next/static/css/88cec015e89afcfe.css; https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css; https://www.raycast.com/_next/static/css/a59e492e46719f4d.css; https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css
@@ -113,7 +137,7 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: Download
-- Computed component styles: `assets/2026-06-04-raycast-productivity-component-styles.json`
+- Computed component styles: `assets/2026-06-12-raycast-productivity-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +166,4 @@ Raycast Productivity is captured as a productivity, launcher, saas reference for
 - Reuse value: useful for home plus product/secondary links if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-raycast-productivity-motion.json`

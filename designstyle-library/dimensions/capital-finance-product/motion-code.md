@@ -1,42 +1,360 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: r:var(--button-glow,transparent);opacity:var(--button-glow-opacity,0);transition:opacity var(--button-glow-duration,.5s);filter:blur(50px)}.glow_button__UdtqY:hover{--button-glow-opacity:1;--button-glow-duration:0.4s}.glow_button__UdtqY .glow_text___, m:1px solid #302f2f;padding:0 1rem;max-height:0;height:64px;opacity:0;transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_main__tDRlk.banner_active___QXvF{max-height:64px;opacity:1}.banner_main__tDRlk .banner_content__5GU_j{display:flex;flex-d, r;width:364px;height:40px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .2s cubic-bezier(.33,1,.68,1),visibility .4s cubic-bezier(.33,1,.68,1) .4s}@media only screen and (max-width:600px){.subscribe_main__5DNQg .subscribe_signup___jT0T{width:100%;padding:0 20px}}.subscribe_ma
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: anges),l&&i([l]),u(function(a){r=m(e,o=f("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,r(!0)})})}))},b=!1,S=-1,w=function(e,t){t=t||{}, m(e,o=f("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,r(!0)})})}))},b=!1,S=-1,w=function(e,t){t=t||{};var r=[.1,.25];b||(P(function(e)
-  - Timing/easing: (0deg) translateZ(0);padding-bottom:100%;border-radius:50%;background:linear-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__, hine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;display:flex;flex-direction:row;justify-content:center;alig, direction:column;justify-content:center;align-items:center;background:linear-gradient(270deg,#1a1a1a,#0a0a0a);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid #302f2f;borde, g:0 1rem;max-height:0;height:64px;opacity:0;transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_main__tDRlk.banner_active___QXvF{max-height:64px;opacity:1}.banner_main, transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_main__tDRlk.banner_active___QXvF{max-height:64px;opacity:1}.banner_main__tDRlk .banner_content__5GU_j{display:flex;
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: r:var(--button-glow,transparent);opacity:var(--button-glow-opacity,0);transition:opacity var(--button-glow-duration,.5s);filter:blur(50px)}.glow_button__UdtqY:hover{--button-glow-o; m:1px solid #302f2f;padding:0 1rem;max-height:0;height:64px;opacity:0;transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_; r;width:364px;height:40px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .2s cubic-bezier(.33,1,.68,1),visibility .4s cubic-bezier(.33,1,.68,1) .4s}@media only scre; olid #302f2f;border-radius:8px 0 0 8px;margin-right:-8px;outline:none;transition:border-color .2s cubic-bezier(.33,1,.68,1)}.subscribe_main__5DNQg .subscribe_signup___jT0T .subscri; der:1px solid hsla(0,0%,100%,.1);opacity:0;transform:translateY(12px);transition:opacity .2s cubic-bezier(.33,1,.68,1),transform .4s cubic-bezier(.33,1,.68,1)}.subscribe_main__5DNQ; ar-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;d; d,globalTimeline:k,core:{PropTween:rf,globals:to,Tween:e6,Timeline:eQ,Animation:eq,getCache:tw,_removeLinkedListItem:tB,reverting:function(){return w},context:function(t){return t&; sition:relative;width:12px;min-width:12px;height:12px;min-height:12px}@keyframes glow_rotate__8WtQj{to{transform:scale(1.2) translateY(-44px) rotate(1turn) translateZ(0)}}.banner_m
-  - Public CSS/JS probe keywords: animation, easing, gsap, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: r:var(--button-glow,transparent);opacity:var(--button-glow-opacity,0);transition:opacity var(--button-glow-duration,.5s);filter:blur(50px)}.glow_button__UdtqY:hover{--button-glow-o; m:1px solid #302f2f;padding:0 1rem;max-height:0;height:64px;opacity:0;transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_; r;width:364px;height:40px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .2s cubic-bezier(.33,1,.68,1),visibility .4s cubic-bezier(.33,1,.68,1) .4s}@media only scre; olid #302f2f;border-radius:8px 0 0 8px;margin-right:-8px;outline:none;transition:border-color .2s cubic-bezier(.33,1,.68,1)}.subscribe_main__5DNQg .subscribe_signup___jT0T .subscri; der:1px solid hsla(0,0%,100%,.1);opacity:0;transform:translateY(12px);transition:opacity .2s cubic-bezier(.33,1,.68,1),transform .4s cubic-bezier(.33,1,.68,1)}.subscribe_main__5DNQ; ar-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;d; d,globalTimeline:k,core:{PropTween:rf,globals:to,Tween:e6,Timeline:eQ,Animation:eq,getCache:tw,_removeLinkedListItem:tB,reverting:function(){return w},context:function(t){return t&; sition:relative;width:12px;min-width:12px;height:12px;min-height:12px}@keyframes glow_rotate__8WtQj{to{transform:scale(1.2) translateY(-44px) rotate(1turn) translateZ(0)}}.banner_m; (0deg) translateZ(0);padding-bottom:100%;border-radius:50%;background:linear-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s line; hine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;display:flex;flex-direction:row;j
-  - Exact motion parameters: r:var(--button-glow,transparent);opacity:var(--button-glow-opacity,0);transition:opacity var(--button-glow-duration,.5s);filter:blur(50px)}.glow_button__UdtqY:hover{--button-glow-o; m:1px solid #302f2f;padding:0 1rem;max-height:0;height:64px;opacity:0;transition:max-height .4s cubic-bezier(.33,1,.68,1) 1.25s,opacity .4s cubic-bezier(.33,1,.68,1) 1.25s}.banner_; r;width:364px;height:40px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .2s cubic-bezier(.33,1,.68,1),visibility .4s cubic-bezier(.33,1,.68,1) .4s}@media only scre; ar-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;d; d,globalTimeline:k,core:{PropTween:rf,globals:to,Tween:e6,Timeline:eQ,Animation:eq,getCache:tw,_removeLinkedListItem:tB,reverting:function(){return w},context:function(t){return t&; (0deg) translateZ(0);padding-bottom:100%;border-radius:50%;background:linear-gradient(90deg,var(--button-shine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s line; hine-left),var(--button-shine-right));animation:glow_rotate__8WtQj 4s linear infinite}.glow_button__UdtqY .glow_container__QRnt1{position:relative;display:flex;flex-direction:row;j; direction:column;justify-content:center;align-items:center;background:linear-gradient(270deg,#1a1a1a,#0a0a0a);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-t; dient__CK_O9:before{content:"";position:absolute;top:0;left:0;right:0;transform:scale(1.5) translateY(-44px) rotate(0deg) translateZ(0);padding-bottom:100%;border-radius:50%;backgr; ainer__QRnt1:before{content:"";position:absolute;left:-16px;top:-16px;transform:translate(var(--pointer-x,0),var(--pointer-y,0)) translateZ(0);width:32px;height:32px;border-radius:
-  - JavaScript/runtime motion evidence: anges),l&&i([l]),u(function(a){r=m(e,o=f("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,r(!0)}; m(e,o=f("FCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,r(!0)})})}))},b=!1,S=-1,w=function(e,t); e:!0})}),h(s,!0),u(function(a){r=m(e,o=f("LCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,W[o.id; m(e,o=f("LCP"),n,t.reportAllChanges),requestAnimationFrame(function(){requestAnimationFrame(function(){o.value=performance.now()-a.timeStamp,W[o.id]=!0,r(!0)})})})}},z=function e(t; =[])).push(rk.version),tn(ti||x.GreenSockGlobals||!x.gsap&&x||{}),o=x.requestAnimationFrame),s&&u.sleep(),a=o||function(t){return setTimeout(t,v-1e3*u.time+1|0)},R=1,y(2))},sleep:f; ){return rk},r9:function(){return B},xr:function(){return eD}});/*! * GSAP 3.11.4 * https://greensock.com * * @license Copyright 2008-2022, GreenSock. All rights reserved. * Subjec; {return console.warn("Invalid property",t,"set to",e,"Missing plugin? gsap.registerPlugin()")},ta=function(t,e){return!e&&console.warn(t)},to=function(t,e){return t&&(tr[t]=e)&&ti&; t=e),i||tH(t,e),t._ts<0&&t$(t,t._tTime),t},tK=function(t,e){return(tr.ScrollTrigger||ts("scrollTrigger",e))&&tr.ScrollTrigger.create(e,t)},tX=function(t,e,r,i,n){return(eZ(t,e,n),t
-  - Stylesheet evidence: https://capital.xyz/_next/static/css/aaeeeae4d7c17bfa.css; https://capital.xyz/_next/static/css/b83955e549de6e61.css; https://capital.xyz/_next/static/css/3f6322c340f974c1.css; https://static.hotjar.com/c/hotjar-3291971.js?sv=7; https://www.googletagmanager.com/gtm.js?id=GTM-TPBWFPR; https://capital.xyz/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js; https://www.googletagmanager.com/gtag/js?id=G-S4ZPGCCMHT; https://capital.xyz/_next/static/chunks/webpack-02224abda62d8e0a.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, request_animation_frame
-  - Public stylesheet/script URLs: https://capital.xyz/_next/static/css/aaeeeae4d7c17bfa.css; https://capital.xyz/_next/static/css/b83955e549de6e61.css; https://capital.xyz/_next/static/css/3f6322c340f974c1.css; https://static.hotjar.com/c/hotjar-3291971.js?sv=7; https://www.googletagmanager.com/gtm.js?id=GTM-TPBWFPR; https://capital.xyz/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js; https://www.googletagmanager.com/gtag/js?id=G-S4ZPGCCMHT; https://capital.xyz/_next/static/chunks/webpack-02224abda62d8e0a.js; https://capital.xyz/_next/static/chunks/framework-2c79e2a64abdb08b.js; https://capital.xyz/_next/static/chunks/main-cbc9a2a6ab78d2c0.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-capital-finance-product-component-styles.json`
-  - Asset CDN and media loading patterns: https://capital.xyz/_next/image?url=%2Fimg%2Ficons%2Farrow.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcapital-logo.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Ficons%2Farrow.png&w=1920&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fmocks%2Fipad-intro.png&w=2048&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fdiagram.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fyuga.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fpopshop.png&w=128&q=75; https://capital.xyz/_next/image?url=%2Fimg%2Fcompanies%2Fjuneshine.png&w=128&q=75
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 25 and scripts 25; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | load | animation | 4000ms | 0ms | linear | 按钮load：animation scale(1.2) translateY(-44px) rotate(1turn) translateZ(0) -> scale(1.2) translateY(-44px) rotate(1turn) translateZ(0)，4000ms linear，load 触发 |
+| component | state-change | max-height | 400ms | 1250ms | cubic-bezier(.33,1,.68,1) | 组件state-change：max-height，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 400ms | 1250ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | visibility | 400ms | 400ms | cubic-bezier(.33,1,.68,1) | 组件state-change：visibility，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | border-color | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：border-color，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity missing -> translateY(12px)，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform missing -> translateY(12px)，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| button | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 按钮state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| button | state-change | opacity | 200ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：opacity，200ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | transform | 400ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：transform，400ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | opacity | 200ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：opacity，200ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | transform | 200ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：transform，200ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | opacity | 400ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：opacity，400ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| button | state-change | transform | 600ms | 0ms | cubic-bezier(.19,1,.22,1) | 按钮state-change：transform，600ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| component | state-change | border-color | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：border-color，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity missing -> translateX(-24px)，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform missing -> translateX(-24px)，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | background-color | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：background-color，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.075,.82,.165,1) | 组件state-change：opacity，200ms cubic-bezier(.075,.82,.165,1)，state-change 触发 |
+| component | state-change | background-color | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：background-color，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | border-color | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：border-color，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | visibility | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：visibility，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | color | 600ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：color，600ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | margin-right | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：margin-right，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity missing -> translate(-50%,4px) scale(.8)，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | visibility | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：visibility missing -> translate(-50%,4px) scale(.8)，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 200ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform missing -> translate(-50%,4px) scale(.8)，200ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 400ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 组件state-change：transform，400ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 组件state-change：opacity，200ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| component | state-change | transform | 400ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 组件state-change：transform，400ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 组件state-change：opacity，200ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| component | state-change | visibility | 800ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：visibility，800ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | transform | 600ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：transform，600ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：opacity，300ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| button | state-change | opacity | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 按钮state-change：opacity，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| button | state-change | border-color | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 按钮state-change：border-color，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| navigation | state-change | transform | 400ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 导航state-change：transform，400ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| navigation | state-change | opacity | 200ms | 0ms | cubic-bezier(0.33,1,0.68,1) | 导航state-change：opacity，200ms cubic-bezier(0.33,1,0.68,1)，state-change 触发 |
+| navigation | state-change | transform | 600ms | 0ms | cubic-bezier(.33,1,.68,1) | 导航state-change：transform，600ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| component | state-change | width | 400ms | 0ms | cubic-bezier(.33,1,.68,1) | 组件state-change：width，400ms cubic-bezier(.33,1,.68,1)，state-change 触发 |
+| button | hover | transform | 200ms | 0ms | ease | 按钮hover：transform missing -> matrix(1, 0, 0, 1, 0, -0.00176559)，200ms ease，hover 触发；样本 Start |
+| button | focus | transform | 200ms | 0ms | ease | 按钮focus：transform missing -> matrix(1, 0, 0, 1, 0, -0.00176559)，200ms ease，focus 触发；样本 Start |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-capital-finance-product-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-button-state-change-opacity-400-missing lacks easing
+- motion-button-state-change-transform-200-missing lacks easing
+
+## Snippet Appendix
+### motion-button-load-animation-4000-linear
+
+```css
+.glow_button__UdtqY .glow_gradient__CK_O9:before { animation: glow_rotate__8WtQj 4s linear infinite; }
+```
+
+### motion-component-state-change-max-height-400-cubic-bezier-33-1-68-1
+
+```css
+.banner_main__tDRlk { transition: max-height .4s cubic-bezier(.33,1,.68,1) 1.25s; }
+```
+
+### motion-component-state-change-opacity-400-cubic-bezier-33-1-68-1
+
+```css
+.banner_main__tDRlk { transition: opacity .4s cubic-bezier(.33,1,.68,1) 1.25s; }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.subscribe_main__5DNQg .subscribe_signup___jT0T { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-visibility-400-cubic-bezier-33-1-68-1
+
+```css
+.subscribe_main__5DNQg .subscribe_signup___jT0T { transition: visibility .4s cubic-bezier(.33,1,.68,1) .4s; }
+```
+
+### motion-component-state-change-border-color-200-cubic-bezier-33-1-68-1
+
+```css
+.subscribe_main__5DNQg .subscribe_signup___jT0T .subscribe_input__ZGaAZ { transition: border-color .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.subscribe_main__5DNQg .subscribe_success__79D7o { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-400-cubic-bezier-33-1-68-1
+
+```css
+.subscribe_main__5DNQg .subscribe_success__79D7o { transition: transform .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-button-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.intro_main__VwFOX .intro_subscribe___gfBH .intro_button__wzul3 { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-button-state-change-opacity-200-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg { transition: opacity .2s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-transform-400-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg { transition: transform .4s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-opacity-200-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg.button_large__VCJUc { transition: opacity .2s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-transform-200-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg.button_large__VCJUc { transition: transform .2s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-opacity-400-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg.button_visible__Y0GBw { transition: opacity .4s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-button-state-change-transform-600-cubic-bezier-19-1-22-1
+
+```css
+.button_button__7vUXg.button_visible__Y0GBw { transition: transform .6s cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-component-state-change-border-color-200-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_signup__4MSxn .value_input__Sb2D5 { transition: border-color .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_signup__4MSxn .value_success__QJLih { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-400-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_signup__4MSxn .value_success__QJLih { transition: transform .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_companies__9DRXO .value_logo__pE4ED { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_tag__z2YNg { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-background-color-400-cubic-bezier-33-1-68-1
+
+```css
+.value_main__IScX2 .value_tag__z2YNg { transition: background-color .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-075-82-165-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_left__h63j3 .footer_mainLogo__j0C_z .footer_wordmark__n3x_P { transition: opacity .2s cubic-bezier(.075,.82,.165,1); }
+```
+
+### motion-component-state-change-background-color-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_left__h63j3 .footer_tab__Ndquc { transition: background-color .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-border-color-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_left__h63j3 .footer_tab__Ndquc { transition: border-color .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_left__h63j3 .footer_tab__Ndquc .footer_icon__2qZ_U { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_left__h63j3 .footer_underline__la4Wc { transition: transform .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_right__iQ9v4 { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_right__iQ9v4 { transition: transform .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-visibility-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_right__iQ9v4 { transition: visibility .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-color-600-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_right__iQ9v4 .footer_link__BTBa6 { transition: color .6s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-margin-right-400-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_right__iQ9v4 .footer_mainContainer__SOtcL { transition: margin-right .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_popup__6zzE6 { transition: opacity .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-visibility-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_popup__6zzE6 { transition: visibility .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-200-cubic-bezier-33-1-68-1
+
+```css
+.footer_footer__h8U9o .footer_container__HdEoV .footer_popup__6zzE6 { transition: transform .2s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-400-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_sticky__1_L9P { transition: transform 0.4s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_sticky__1_L9P { transition: opacity 0.2s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-component-state-change-transform-400-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_sticky__1_L9P .features_video__Gtgf4 { transition: transform 0.4s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-component-state-change-opacity-200-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_sticky__1_L9P .features_video__Gtgf4 { transition: opacity 0.2s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-component-state-change-visibility-800-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L { transition: visibility .8s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-transform-600-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_horiz__eOP_6 { transition: transform .6s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_horiz__eOP_6 { transition: opacity .3s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-button-state-change-opacity-400-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_horiz__eOP_6 .features_linedButton__gE1Bq { transition: opacity .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-button-state-change-border-color-400-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_horiz__eOP_6 .features_linedButton__gE1Bq { transition: border-color .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-navigation-state-change-transform-400-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_header__MdWfN { transition: transform 0.4s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-navigation-state-change-opacity-200-cubic-bezier-0-33-1-0-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_header__MdWfN { transition: opacity 0.2s cubic-bezier(0.33,1,0.68,1); }
+```
+
+### motion-navigation-state-change-transform-600-cubic-bezier-33-1-68-1
+
+```css
+.features_main__xNgmA .features_content__Dpd5L .features_feature__7MNIW .features_headerContainer__vRSLU .features_textContainer__v5mZs { transition: transform .6s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-component-state-change-width-400-cubic-bezier-33-1-68-1
+
+```css
+.founders_main__w3dCN .founders_content__g_5EX .founders_founder__s_wPu { transition: width .4s cubic-bezier(.33,1,.68,1); }
+```
+
+### motion-button-hover-transform-200-ease
+
+```css
+{"transform": "matrix(1, 0, 0, 1, 0, -0.00176559)"}
+```
+
+### motion-button-focus-transform-200-ease
+
+```css
+{"transform": "matrix(1, 0, 0, 1, 0, -0.00176559)"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -17,12 +17,16 @@
     "public css js",
     "component evidence"
   ],
-  "component_json_path": "assets/2026-06-05-aston-martin-official-component-styles.json",
+  "component_json_path": "assets/2026-06-12-aston-martin-official-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/aston-martin-official/component-styles.md",
     "moodboard": "design-systems/aston-martin-official/moodboard.svg",
+    "motion": "design-systems/aston-martin-official/motion.json",
+    "motion_presets": "design-systems/aston-martin-official/motion-presets.css",
     "palette": "design-systems/aston-martin-official/palette.md",
-    "tokens": "design-systems/aston-martin-official/tokens.json"
+    "tailwind_theme": "design-systems/aston-martin-official/tailwind.theme.json",
+    "tokens": "design-systems/aston-martin-official/tokens.json",
+    "variables_css": "design-systems/aston-martin-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/aston-martin-official/assets.md",
@@ -33,6 +37,52 @@
     "scene": "dimensions/aston-martin-official/scene.md",
     "type_copy": "dimensions/aston-martin-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5040}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 1169x480; 1169x480; 1169x480; 1169x480; 1169x480; 1169x480; 1169x480; 1169x480; 1169x480; 1169x480.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5040}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 1169:480; 1169:480; 1169:480; 1169:480; 1169:480; 1169:480; 1169:480; 1169:480; 1169:480; 1169:480",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component state-change motion uses 300ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 260ms cubic-bezier(.47,0,.745,.715)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 375ms cubic-bezier(.39,.575,.565,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation state-change motion uses 900ms cubic-bezier(.165,.84,.44,1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

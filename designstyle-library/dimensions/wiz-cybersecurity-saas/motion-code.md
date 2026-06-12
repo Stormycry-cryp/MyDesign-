@@ -1,42 +1,339 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: s infinite;--blur-sm:8px;--blur-md:12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-family:va, 12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono);--animate-accordion-down:accordion-down .2s ea, ,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--d
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: :{handler:(0,K.qQ)(e)},handled:!1,type:"auto.browser.browserapierrors.requestAnimationFrame"}})])}}function tk(e){return function(...t){let r=this;return["onload","onerror","onprogress","onreadystatechange"].forEach(e=>{e, ribute(G.Fy,n)}})}},((e={})=>{let t={XMLHttpRequest:!0,eventTarget:!0,requestAnimationFrame:!0,setInterval:!0,setTimeout:!0,unregisterOriginalCallbacks:!1,...e};return{name:"BrowserApiErrors",setupOnce(){t.setTimeout&&(0,
-  - Timing/easing: turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fi, -shadow-sm:0 1px 2px #00000026;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infi, sm:0 1px 2px #00000026;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-ping:pin, drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-ping:ping 1s cubic-, ow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:spin 1s linear infinite;--animate-ping:ping 1s cubic-bezier(0,0,.2,1) infini
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: s infinite;--blur-sm:8px;--blur-md:12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; ,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-g; ter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--; ing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-\[grid-template-rows\]{t; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--
-  - Public CSS/JS probe keywords: animation, easing, framer, reduced_motion, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: s infinite;--blur-sm:8px;--blur-md:12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; ,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-g; ter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--; ing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-\[grid-template-rows\]{t; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--; ;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--tw-enter-opacity:1;--tw-enter-ro; al;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--tw-enter-opacity:1;--tw-enter-rotate:0;--tw-enter-scale:1;--tw
-  - Exact motion parameters: s infinite;--blur-sm:8px;--blur-md:12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:va; 12px;--aspect-video:16/9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4,0,.2,1);--default-font-family:var(--font-sans);--default-mono-font-; ,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-g; :initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:no; nitial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iterat; ntent:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:initial;--tw-animation-fill-mode:none;--tw-animation-iteration-count:1;--tw-enter-blur:0;--; turate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:"";--tw-animation-delay:0s;--tw-animation-direction:normal;--tw-animation-duration:i; -shadow-sm:0 1px 2px #00000026;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--anima; sm:0 1px 2px #00000026;--drop-shadow-lg:0 4px 4px #00000026;--ease-in:cubic-bezier(.4,0,1,1);--ease-out:cubic-bezier(0,0,.2,1);--ease-in-out:cubic-bezier(.4,0,.2,1);--animate-spin:; g}.rotate-180{rotate:180deg}.rotate-\[-7deg\]{rotate:-7deg}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.tra
-  - JavaScript/runtime motion evidence: :{handler:(0,K.qQ)(e)},handled:!1,type:"auto.browser.browserapierrors.requestAnimationFrame"}})])}}function tk(e){return function(...t){let r=this;return["onload","onerror","onprog; ribute(G.Fy,n)}})}},((e={})=>{let t={XMLHttpRequest:!0,eventTarget:!0,requestAnimationFrame:!0,setInterval:!0,setTimeout:!0,unregisterOriginalCallbacks:!1,...e};return{name:"Browse; S)(e7,"setTimeout",tC),t.setInterval&&(0,Y.GS)(e7,"setInterval",tC),t.requestAnimationFrame&&(0,Y.GS)(e7,"requestAnimationFrame",tN),t.XMLHttpRequest&&"XMLHttpRequest"in e7&&(0,Y.G; &&(0,Y.GS)(e7,"setInterval",tC),t.requestAnimationFrame&&(0,Y.GS)(e7,"requestAnimationFrame",tN),t.XMLHttpRequest&&"XMLHttpRequest"in e7&&(0,Y.GS)(XMLHttpRequest.prototype,"send",t; n(e=()=>{}){let t=(0,R.c)(e);(0,N.N)(()=>{let e=0,r=0;return e=window.requestAnimationFrame(()=>r=window.requestAnimationFrame(t)),()=>{window.cancelAnimationFrame(e),window.cancel; eturn(0,a.m)(t,e)}build(t,e,i){(0,l.O)(t,e,i.transformTemplate)}scrapeMotionValuesFromProps(t,e,i){return(0,u.x)(t,e,i)}}},25272:(t,e,i)=>{i.d(e,{B:()=>o});var r=i(35907);let n={of; backSpeed=1,this.delayState={done:!1,value:void 0},this.stop=()=>{let{motionValue:t}=this.options;t&&t.updatedAt!==a.k.now()&&this.tick(a.k.now()),this.isStopped=!0,"idle"!==this.s; e&&!1!==t.autoplay&&(this.startTime=t.startTime),this.options=t}updateMotionValue(t){let{motionValue:e,onUpdate:i,onComplete:r,element:n,...s}=this.options;if(!e)return;if(void 0!=
-  - Stylesheet evidence: https://www.wiz.io/_next/static/css/8a33e4d2eca0641f.css; https://www.googletagmanager.com/gtag/js?id=AW-370481586&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=AW-9135061615&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=G-R7DYH72RZ5&cx=c&gtm=4e6621; https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=24594a38-bfb6-4974-85b3-9450389a6754&data-document-language=true; https://www.wiz.io/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.wiz.io/_next/static/chunks/webpack-cc0887f1d8d9eba6.js; https://www.wiz.io/_next/static/chunks/framework-e1b9dfe14e354f58.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: framer, request_animation_frame
-  - Public stylesheet/script URLs: https://www.wiz.io/_next/static/css/8a33e4d2eca0641f.css; https://www.googletagmanager.com/gtag/js?id=AW-370481586&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=AW-9135061615&cx=c&gtm=4e6621; https://www.googletagmanager.com/gtag/js?id=G-R7DYH72RZ5&cx=c&gtm=4e6621; https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=24594a38-bfb6-4974-85b3-9450389a6754&data-document-language=true; https://www.wiz.io/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.wiz.io/_next/static/chunks/webpack-cc0887f1d8d9eba6.js; https://www.wiz.io/_next/static/chunks/framework-e1b9dfe14e354f58.js; https://www.wiz.io/_next/static/chunks/main-0f9c2358a0e8f94e.js; https://www.wiz.io/_next/static/chunks/pages/_app-5855cd26fadced8d.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-wiz-cybersecurity-saas-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.datocms-assets.com/75231/1664387970-morgan_stanley_logo.svg; https://www.datocms-assets.com/75231/1676281437-chipotle.svg; https://www.datocms-assets.com/75231/1720625827-siemens-logo.svg; https://www.datocms-assets.com/75231/1656290326-fox_wordmark.svg; https://www.datocms-assets.com/75231/1709643006-colgate-palmolive_logo.svg; https://www.datocms-assets.com/75231/1656632015-mars_incorporated_2019_logo.svg; https://www.datocms-assets.com/75231/1697077948-ihg_hotels-resorts_logo.svg; https://www.datocms-assets.com/75231/1658681633-asos.svg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, framer, reduced_motion, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| reveal | viewport | animation | 6000ms | 0ms | ease-in-out | 入场元素viewport：animation，6000ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 6000ms | 0ms | steps(2,end) | 入场元素viewport：animation，6000ms steps(2,end)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(0,0,.2,1) | 入场元素viewport：animation，1000ms cubic-bezier(0,0,.2,1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 1000ms | ease-in-out | 入场元素viewport：animation，1000ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 2000ms | 0ms | cubic-bezier(.4,0,.6,1) | 入场元素viewport：animation，2000ms cubic-bezier(.4,0,.6,1)，viewport 触发 |
+| reveal | viewport | animation | 3000ms | 0ms | ease | 入场元素viewport：animation，3000ms ease，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | linear | 入场元素viewport：animation，1000ms linear，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(.65,0,.35,1) | 入场元素viewport：animation，1000ms cubic-bezier(.65,0,.35,1)，viewport 触发 |
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | background-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：background-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | border-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：border-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | outline-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：outline-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | text-decoration-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：text-decoration-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | fill | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：fill，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | stroke | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：stroke，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | --tw-gradient-from | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：--tw-gradient-from，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | --tw-gradient-via | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：--tw-gradient-via，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | --tw-gradient-to | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：--tw-gradient-to，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：opacity，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：box-shadow，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：transform，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | translate | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：translate，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | scale | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：scale，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | rotate | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：rotate，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | filter | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：filter，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | -webkit-backdrop-filter | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：-webkit-backdrop-filter，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | backdrop-filter | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：backdrop-filter，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | display | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：display，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | content-visibility | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：content-visibility，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | overlay | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：overlay，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | pointer-events | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：pointer-events，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | grid-template-rows | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：grid-template-rows，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：transform，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | translate | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：translate，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | background-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：background-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | border-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：border-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | text-decoration-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：text-decoration-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | fill | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：fill，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | stroke | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：stroke，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：box-shadow，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | transform | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：transform，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | translate | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：translate，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | background-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：background-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
+| component | state-change | border-color | 300ms | 0ms | cubic-bezier(.5,2.5,.7,.7) | 组件state-change：border-color，300ms cubic-bezier(.5,2.5,.7,.7)，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-wiz-cybersecurity-saas-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-reveal-viewport-animation-1000-missing lacks easing
+- motion-reveal-viewport-animation-missing-cubic-bezier-5-2-5-7-7 lacks duration_ms
+
+## Snippet Appendix
+### motion-reveal-viewport-animation-6000-ease-in-out
+
+```css
+.animate-\[badge-marquee_6s_ease-in-out_infinite\] { animation: badge-marquee 6s ease-in-out infinite; }
+```
+
+### motion-reveal-viewport-animation-6000-steps-2-end
+
+```css
+.animate-flip { animation: flip 6s infinite steps(2,end); }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-0-0-2-1
+
+```css
+.animate-ping { animation: ping 1s cubic-bezier(0,0,.2,1) infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-ease-in-out
+
+```css
+.animate-ping-twice { animation: ping 1s ease-in-out 1s 2; }
+```
+
+### motion-reveal-viewport-animation-2000-cubic-bezier-4-0-6-1
+
+```css
+.animate-pulse { animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite; }
+```
+
+### motion-reveal-viewport-animation-3000-ease
+
+```css
+.animate-shimmer { animation: shimmer 3s ease infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-linear
+
+```css
+.animate-spin { animation: spin 1s linear infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-65-0-35-1
+
+```css
+.animate-swipe-right { animation: swipe-right 1s infinite cubic-bezier(.65,0,.35,1); }
+```
+
+### motion-component-state-change-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-background-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: background-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-border-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: border-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-outline-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: outline-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-text-decoration-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: text-decoration-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-fill-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: fill; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-stroke-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: stroke; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-tw-gradient-from-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: --tw-gradient-from; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-tw-gradient-via-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: --tw-gradient-via; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-tw-gradient-to-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: --tw-gradient-to; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: opacity; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-box-shadow-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: box-shadow; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: transform; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-translate-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: translate; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-scale-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: scale; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-rotate-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: rotate; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-filter-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: filter; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-webkit-backdrop-filter-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: -webkit-backdrop-filter; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-backdrop-filter-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: backdrop-filter; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-display-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: display; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-content-visibility-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: content-visibility; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-overlay-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: overlay; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-pointer-events-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition { transition-property: pointer-events; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-grid-template-rows-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[grid-template-rows\] { transition-property: grid-template-rows; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: transform; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-translate-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: translate; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-background-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: background-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-border-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: border-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-text-decoration-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: text-decoration-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-fill-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: fill; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-stroke-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: stroke; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-box-shadow-300-cubic-bezier-5-2-5-7-7
+
+```css
+.transition-\[transform\ { transition-property: box-shadow; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-transform-300-cubic-bezier-5-2-5-7-7
+
+```css
+translate\ { transition-property: transform; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-translate-300-cubic-bezier-5-2-5-7-7
+
+```css
+translate\ { transition-property: translate; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+translate\ { transition-property: color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-background-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+translate\ { transition-property: background-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
+
+### motion-component-state-change-border-color-300-cubic-bezier-5-2-5-7-7
+
+```css
+translate\ { transition-property: border-color; transition-duration: .3s); transition-timing-function: cubic-bezier(.5,2.5,.7,.7)); }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

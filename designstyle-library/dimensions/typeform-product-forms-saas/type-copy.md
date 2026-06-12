@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 none observed; H2 Your favorite forms. Now with AI automation.; Build forms at the drop of a prompt; High Response Rate; Deeper Insights; Advanced Analytics; When the form ends, the flow begins...; navigation Typeform Icon; Enterprise; Pricing; Log in; Sign up
+  - Sentence rhythm: 103 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Forms & Automated Workflows, Powered by AI | Typeform; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://www.typeform.com/
   - Page title: Forms & Automated Workflows, Powered by AI | Typeform
@@ -20,7 +26,6 @@
   - Navigation samples: Typeform Icon; Enterprise; Pricing; Log in; Sign up
   - Images observed: By workflow icon 16x16 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/67375ab42c8930413657d9c4_by-workflow.svg; Tools icon 16x16 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/67375a5cdafef0ffc3a91a30_tools.svg; Templates icon 16x16 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/67375a6cf9a63e7d3979771f_templates.svg; ZoDigital branded web form mockup asking for email with creative collage illustrations 0x0 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/6728980930be4e4c95cb4a17_temp; Star icon 32x32 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/6932f169e61db9651f6ac1db_Star.svg; image 1440x1010 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/69fdd20b567b702dcc4f2c1e_d3643b1ac0dde821cc4b3cf33ae935ad_RESEARCH%20FLOW.avif; By team icon 16x16 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/67375aa8a110d47d7acfb9c7_by-team.svg; By goal icon 16x16 https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708/67375aaecd165310a5548a98_by-goal.svg
   - Video observed: blob:https://www.typeform.com/b0e74c2d-7833-4309-90e1-7c830e44f7c5; https://fast.wistia.com/embed/medias/2xnbogakrp.m3u8; https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708%2F6971debd8ab928d6522bd521_Star_BG_mp4.mp4; https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708%2F6971debd8ab928d6522bd521_Star_BG_mp4.mp4; https://cdn.prod.website-files.com/66ffe2174aa8e8d5661c2708%2F6971debd8ab928d6522bd521_Star_BG_webm.webm
-  - Overlays or fixed elements: clicked common overlay buttons Accept all cookies; inspect screenshot before final use.
 - Visual typography:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Skip to main content 🔧 Join the Typeform Telethon: live form tune-ups on June 4 Register now Platform Solutions Resources Enterprise Pricing Log in Sign up AI FORMS & AUTOMATION Your favorite forms. Now with AI automation. Combine AI forms and automated workfl`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -35,7 +40,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

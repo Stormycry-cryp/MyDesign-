@@ -1,0 +1,35 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-deep-accent: #001040;
+  --ds-color-supporting-color: #ffe0d0;
+  --ds-color-foreground: #101010;
+  --ds-color-neutral-surface: #e0e0e0;
+  --ds-color-deep-accent-2: #202050;
+  --ds-color-neutral-surface-2: #a0a0a0;
+  --ds-color-accent: #4060d0;
+  --ds-color-neutral-surface-3: #c0c0c0;
+  --ds-color-supporting-color-2: #8080a0;
+  --ds-color-foreground-2: #000000;
+  --ds-color-foreground-3: #191918;
+  --ds-spacing-component: 5px 10px;
+  --ds-radius-component: 4px;
+  --ds-shadow-component: rgba(0, 0, 0, 0) 0px 1px 0px 0px;
+  --ds-motion-motion-navigation-hover-backgroundcolor-150-ease-duration: 150ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-150-ease-delay: 0ms;
+  --ds-motion-motion-navigation-hover-backgroundcolor-150-ease-easing: ease;
+  --ds-motion-motion-navigation-focus-backgroundcolor-150-ease-duration: 150ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-150-ease-delay: 0ms;
+  --ds-motion-motion-navigation-focus-backgroundcolor-150-ease-easing: ease;
+  --ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-duration: 200ms;
+  --ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-boxshadow-200-ease-in-easing: ease-in;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-duration: 200ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-200-ease-in-easing: ease-in;
+  --ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-duration: 200ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-delay: 0ms;
+  --ds-motion-motion-button-state-change-backgroundcolor-200-ease-in-easing: ease-in;
+  --ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-duration: 200ms;
+  --ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-delay: 0ms;
+  --ds-motion-motion-card-state-change-backgroundcolor-200-ease-in-easing: ease-in;
+}

@@ -30,6 +30,19 @@ Developments Media Production is captured as a media, production, studio, cultur
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 121x150; 395x205; 395x205; 0x0; 225x150; 244x150; 300x107; 244x150; 258x150; 297x150.; source: Layout Geometry And Spacing
+- Observed border radii: 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}; source: Dimension And Ratio System
+- Observed media ratios: 121:150; 395:205; 395:205; 225:150; 244:150; 300:107; 244:150; 258:150; 297:150; 150:150; source: Dimension And Ratio System
+- component state-change motion uses 0ms ease; source: motion.json
+- component state-change motion uses 150ms ease; source: motion.json
+- component state-change motion uses 100ms ease; source: motion.json
+- component state-change motion uses 450ms cubic-bezier(.77,0,.175,1); source: motion.json
+- component state-change motion uses 80ms ease; source: motion.json
+- navigation state-change motion uses 450ms cubic-bezier(.77,0,.175,1); source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://developments.media/
 - Page title: Developments
@@ -60,6 +73,12 @@ Developments Media Production is captured as a media, production, studio, cultur
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation none observed
+- Sentence rhythm: 100 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Developments; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(255, 255, 255); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +90,12 @@ Developments Media Production is captured as a media, production, studio, cultur
 - Media/card aspect stability: image natural sizes include 121x150; 395x205; 395x205; 0x0; 225x150; 244x150; 300x107; 244x150; 258x150; 297x150.
 - Observed border radii: 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; 19.2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons D; Read what they say about REFERENCES DEVELOPMENT STRATEGY ADVICE MANAGEMENT; REFERENCES; DEVELOPMENT; STRATEGY; ADVICE; MANAGEMENT; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
 - Observed media ratios: 121:150; 395:205; 395:205; 225:150; 244:150; 300:107; 244:150; 258:150; 297:150; 150:150
@@ -90,22 +115,21 @@ Developments Media Production is captured as a media, production, studio, cultur
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-developments-media-production-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-developments-media-production-component-styles.json`
 - Asset CDN and media loading patterns: data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240"%3E%3C/svg%3E; https://developments.media/media/pages/interviews/sarah-bassett/01ae75046f-1774354837/cover-800x.png; https://developments.media/media/pages/interviews/isabel-helen/71d6bc9c63-1765451981/t-t-p-1-800x.png; https://developments.media/media/pages/interviews/colors-and-the-kids/8cd814bab5-1757262451/truthfeelinginfinity_mb-1024x.jpg; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 666"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 355"%3E%3C/svg%3E; data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 614"%3E%3C/svg%3E
 
 ## Motion
-- Page transitions: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy, acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter ., ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: =t.HTMLPictureElement,a=t.addEventListener.bind(t),u=t.setTimeout,c=t.requestAnimationFrame||u,l=t.requestIdleCallback,f=/^picture$/i,h=["load","error","lazyincluded","_lazyloaded"],d={},p=Array.prototype.forEach,v=functi, .getAttribute("data-expand")&&!u.autoplay)try{u.play()}catch(t){}else requestAnimationFrame((function(){u.setAttribute("data-expand","-10"),n.aC(u,n.cfg.lazyClass)}));(e=u.getAttribute("data-link"))&&s(e,!0),(e=u.getAttri
-- Timing/easing: rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-, linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);backgr, r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);backg, -gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,currentColor);background-po, near-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,currentColor);background-position:0 100%;background-repeat:repeat-x;background-size:1px 1px}.db{dis
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; e;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-tr; s ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter .15s ease;-o; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, request_animation_frame, transform, transition
-- Public CSS/JS motion snippets: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; e;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-tr; s ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-transition:filter .15s ease;-moz-transition:filter .15s ease;-o; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func; rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,curr; linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0; r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor ; -gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor 0,currentColor 100%);background-image:linear-gradient(90deg,currentColor 0,c
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: Alpha(Opacity=0)";filter:alpha(opacity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opa; acity=0)}.lazy,.lazy.no-fade{-webkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity ; ebkit-transition:opacity 0ms ease;-moz-transition:opacity 0ms ease;-o-transition:opacity 0ms ease;-ms-transition:opacity 0ms ease;transition:opacity 0ms ease}.lazy-blur{-webkit-tra; void 0===(r=function(t){return function(t,e){"use strict";var n={startAnimation:function(){this.isAnimating||(this.isAnimating=!0,this.restingFrames=0,this.animate())},animate:func; rap;display:inline-block}.underlined-links a{background-image:-webkit-linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,curr; linear-gradient(left,currentColor,currentColor);background-image:-moz-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0; r-gradient(left,currentColor 0,currentColor 100%);background-image:-o-linear-gradient(left,currentColor 0,currentColor 100%);background-image:-ms-linear-gradient(left,currentColor ; ity-prev-next-button{top:50%;width:44px;height:44px;border-radius:50%;transform:translateY(-50%)}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right; (0,0,0,.1)}::-moz-selection{background:rgba(0,0,0,.1)}.uppercase{text-transform:uppercase}.uppercase .lowercase{text-transform:lowercase}.text-center{text-align:center}.text-left{t; ,0,.1)}.uppercase{text-transform:uppercase}.uppercase .lowercase{text-transform:lowercase}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.fs
-- JavaScript/runtime motion evidence: =t.HTMLPictureElement,a=t.addEventListener.bind(t),u=t.setTimeout,c=t.requestAnimationFrame||u,l=t.requestIdleCallback,f=/^picture$/i,h=["load","error","lazyincluded","_lazyloaded"; .getAttribute("data-expand")&&!u.autoplay)try{u.play()}catch(t){}else requestAnimationFrame((function(){u.setAttribute("data-expand","-10"),n.aC(u,n.cfg.lazyClass)}));(e=u.getAttri; s(),this.positionSlider(),this.settle(t),this.isAnimating){var e=this;requestAnimationFrame((function(){e.animate()}))}},positionSlider:function(){var t=this.x;this.options.wrapAro
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://developments.media/assets/fonts.css?v=1618395708; https://developments.media/assets/build/index.css?v=1774634291; https://developments.media/assets/build/vendor/modernizr-bundle.js?v=1774634291; https://www.googletagmanager.com/gtag/js?id=G-CX3GZK35H4; https://developments.media/assets/build/bundle.js?v=1774634291
 - Interpreted motion tags: transition, hover, video, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +137,7 @@ Developments Media Production is captured as a media, production, studio, cultur
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: D; Read what they say about REFERENCES DEVELOPMENT STRATEGY ADVICE MANAGEMENT; REFERENCES; DEVELOPMENT; STRATEGY; ADVICE; MANAGEMENT
-- Computed component styles: `assets/2026-06-04-developments-media-production-component-styles.json`
+- Computed component styles: `assets/2026-06-12-developments-media-production-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +166,4 @@ Developments Media Production is captured as a media, production, studio, cultur
 - Reuse value: useful for homepage media production studio if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-developments-media-production-motion.json`

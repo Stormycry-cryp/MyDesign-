@@ -10,9 +10,9 @@
 - a Book a demo | rect=113.8x35.8@1286.3,26.1 | display=inline-flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=13px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Platform | rect=81.1x37.8@494.1,25.1 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=13px; fontWeight=600; padding=11.375px 9.75px 11.375px 19.5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Pricing | rect=60.9x37.8@832.7,25.1 | display=flex; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=13px; fontWeight=600; padding=11.375px 9.75px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- header Cases | rect=348x54@366,747.4 | display=grid; position=static; color=rgb(105, 86, 168); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=14px; fontWeight=600; padding=17.5px 21px; gap=10.5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
+- header Cases | rect=348x54@356.4,744 | display=grid; position=static; color=rgb(105, 86, 168); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=14px; fontWeight=600; padding=17.5px 21px; gap=10.5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 6, image count 40, document height 9154.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Log in Sign up Book a demo Platform Solutions Resources Company Pricing
@@ -57,8 +57,8 @@
 - section Tines for Security teams Learn more → Tines for IT operations Learn more → Integrations: C | rect=1440x457@0,5554 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - section WORKFLOW CAPABILITY MATRIX Expand your workflows Explore real-world examples of intelligen | rect=1440x1404@0,6167 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a WORKFLOW CAPABILITY MATRIX Expand your workflows Explore real-world examples of intelligen | rect=744x400@156,6167 | display=grid; position=relative; color=rgb(77, 62, 120); backgroundColor=rgb(243, 236, 247); border=1px solid rgb(215, 196, 250); borderRadius=8px; fontFamily=Roobert, -apple-system, "system-ui", Arial, Roboto, Ubuntu, "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- 6.5px; 6.5px; 6.5px; 39px; 13px; 13px; 10px; 13px; 28px; 50%; 50%; 12px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 6.5px; 6.5px; 6.5px; 39px; 13px; 13px; 10px; 13px; 28px; 50%; 50%; 12px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - The foundation for modern work, transforming failed pilots into successful deployments. Meet the platform NEW IN TINES B

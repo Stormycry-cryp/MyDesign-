@@ -26,7 +26,6 @@
   - Navigation samples: GUILD SHOP; BUILDINGS AND INTERIORS; RESTAURANTS; WORLD OF RW; SEARCH; CART (0)
   - Images observed: one full-width street-sign hero still; one secondary table-setting image entering below the fold
   - Video observed: one hero-adjacent MP4 resource was exposed in probe output, but the accepted screenshot reads as still imagery
-  - Overlays or fixed elements: cookie prompt was dismissed successfully during probe; accepted screenshot is clean
 - Visual typography:
   - Layout: thin top bar, large media hero, lower-left serif headline block, and a secondary image section entering below
   - Typography: fine serif display for the headline with understated sans navigation

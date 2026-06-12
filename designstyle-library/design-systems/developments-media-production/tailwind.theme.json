@@ -1,0 +1,23 @@
+{
+  "theme": {
+    "extend": {
+      "borderRadius": {
+        "ds-component": "19.2px"
+      },
+      "colors": {
+        "background": "#ffffff",
+        "foreground": "#000000",
+        "foreground-2": "#404040",
+        "foreground-3": "#202020",
+        "foreground-4": "#606060",
+        "neutral-surface": "#e0e0e0",
+        "neutral-surface-2": "#c0c0c0",
+        "neutral-surface-3": "#808080",
+        "neutral-surface-4": "#a0a0a0"
+      },
+      "spacing": {
+        "ds-component": "10.8px 14.4px"
+      }
+    }
+  }
+}

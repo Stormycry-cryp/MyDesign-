@@ -4,7 +4,7 @@
 - Components:
   - Navigation: Pricing; Docs; Blog; 103.4K; Sign in; Start your project
   - Buttons/links: Product; Developers; Solutions; Sign in; Subscribe; Privacy Settings; Toggle theme
-  - Computed component styles: `assets/2026-06-04-supabase-developer-platform-component-styles.json`
+  - Computed component styles: `assets/2026-06-11-supabase-developer-platform-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-supabase-developer-platform-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-supabase-developer-platform-component-styles.json`
   - Asset CDN and media loading patterns: none observed
 
 ## Inference

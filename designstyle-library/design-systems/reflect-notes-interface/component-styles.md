@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 40, document height 13460.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -45,8 +46,8 @@
 - section New: Our AI integration just landed Think better with Reflect Never miss a note, idea or c | rect=1440x1339@0,0 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Inter V", system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; padding=173px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Built for speed Instantly sync your notes across devices Networked notes Form a graph of i | rect=1200x392@120,1261 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Inter V", system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Built for speed Instantly sync your notes across devices | rect=300x196@120,1261 | display=block; position=relative; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Inter V", system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; fontSize=16px; fontWeight=400; padding=24px 32px 36px; transition=transform; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 8px; 8px; 32px; 50%; 50%; 50%; 8px; 8px; 8px; 5px; 5px; 5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 8px; 8px; 32px; 50%; 50%; 50%; 8px; 8px; 8px; 5px; 5px; 5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product

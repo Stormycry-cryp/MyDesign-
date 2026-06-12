@@ -12,7 +12,7 @@
 - a Men | rect=40x24@415.6,57.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=BurberrySerif, serif; fontSize=20px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Children | rect=75.8x24@487.6,57.1 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=BurberrySerif, serif; fontSize=20px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 10, image count 40, document height 6204.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Skip to Main Content Skip to Footer Women Men Children Gifts Trench Scarves Bags Beauty & Fragrances
@@ -55,8 +55,8 @@
 - li Scarves | rect=69.9x32@766.3,53.1 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=BurberrySerif, serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Bags | rect=42.4x32@868.2,53.1 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=BurberrySerif, serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Beauty & Fragrances | rect=188.3x32@942.6,53.1 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily=BurberrySerif, serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 50%
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Women

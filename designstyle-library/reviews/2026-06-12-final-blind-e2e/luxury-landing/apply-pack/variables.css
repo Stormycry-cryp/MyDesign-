@@ -1,0 +1,26 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-foreground: #303030;
+  --ds-color-foreground-2: #101010;
+  --ds-color-supporting-color: #607080;
+  --ds-color-deep-accent: #505030;
+  --ds-color-deep-accent-2: #406070;
+  --ds-color-supporting-color-2: #807050;
+  --ds-color-supporting-color-3: #a0b0d0;
+  --ds-color-foreground-3: #606060;
+  --ds-color-supporting-color-4: #a09060;
+  --ds-color-neutral-surface: #c4c4c4;
+  --ds-color-neutral-surface-2: #f0f0f0;
+  --ds-spacing-component: 48px 48px 24px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-card-state-change-opacity-1000-ease-out-duration: 1000ms;
+  --ds-motion-motion-card-state-change-opacity-1000-ease-out-delay: 0ms;
+  --ds-motion-motion-card-state-change-opacity-1000-ease-out-easing: ease-out;
+  --ds-motion-motion-card-state-change-padding-300-linear-duration: 300ms;
+  --ds-motion-motion-card-state-change-padding-300-linear-delay: 0ms;
+  --ds-motion-motion-card-state-change-padding-300-linear-easing: linear;
+  --ds-motion-motion-form-state-change-paginationscale-100-ease-out-duration: 100ms;
+  --ds-motion-motion-form-state-change-paginationscale-100-ease-out-delay: 0ms;
+  --ds-motion-motion-form-state-change-paginationscale-100-ease-out-easing: ease-out;
+}

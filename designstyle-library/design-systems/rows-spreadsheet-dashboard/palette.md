@@ -14,7 +14,6 @@
 | `#505050` | foreground | screenshot pixel sample | 0.0019 |
 | `#ffe0f0` | supporting color | screenshot pixel sample | 0.0012 |
 | `#3a032d` | deep accent | explicit reference or DOM color |  |
-| `#33aa00` | supporting color | explicit reference or DOM color |  |
 | `#ffc800` | accent | explicit reference or DOM color |  |
 | `#fbf9f0` | background | explicit reference or DOM color |  |
 | `#000000` | foreground | explicit reference or DOM color |  |

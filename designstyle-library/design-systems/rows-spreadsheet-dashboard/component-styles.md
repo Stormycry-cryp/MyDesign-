@@ -12,7 +12,7 @@
 - a Features All-in-one spreadsheet for teams | rect=314.7x41.6@128,313.4 | display=flex; position=static; color=rgb(58, 3, 45); border=0px none rgb(58, 3, 45); fontFamily="Output Sans", Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; transition=background-color 0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1; cursor=pointer
 - a Pricing | rect=82.1x111@349,60 | display=flex; position=static; color=rgb(58, 3, 45); border=0px none rgb(58, 3, 45); fontFamily="Output Sans", Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; padding=0px 16px; transition=color 0.3s ease-in-out; transitionDuration=0.3s; transitionTimingFunction=ease-in-out; opacity=1; cursor=pointer
 - navigation count 24, image count 29, document height 5932.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Rows AI Your number crunching sidekick Integrations Seamless connections to your tools Support Docs Learn how to
@@ -49,8 +49,8 @@
 - li Pricing | rect=82.1x111@349,60 | display=list-item; position=static; color=rgb(58, 3, 45); border=0px none rgb(58, 3, 45); fontFamily="Output Sans", Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Templates | rect=106.6x111@431.2,60 | display=list-item; position=static; color=rgb(58, 3, 45); border=0px none rgb(58, 3, 45); fontFamily="Output Sans", Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Community | rect=114.8x111@537.8,60 | display=list-item; position=static; color=rgb(58, 3, 45); border=0px none rgb(58, 3, 45); fontFamily="Output Sans", Helvetica, Arial, sans-serif; fontSize=16px; fontWeight=400; lineHeight=20.8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 8px; 8px; 2px; 2px; 50%; 12px; 12px; 12px; 12px; 8px; 8px; 8px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 8px; 8px; 2px; 2px; 50%; 12px; 12px; 12px; 12px; 8px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product Rows AI Your number crunching sidekick Integrations Seamless connections to your tools Support Docs Learn how to

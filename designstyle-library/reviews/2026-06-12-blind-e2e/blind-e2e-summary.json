@@ -1,0 +1,92 @@
+{
+  "library": "designstyle-library",
+  "output_dir": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e",
+  "case_count": 3,
+  "passed": true,
+  "cases": [
+    {
+      "case": "dashboard",
+      "query": "dashboard analytics table metrics hover",
+      "need": "motion:L2,scene:dashboard",
+      "selected_slug": "plausible-analytics-live-dashboard",
+      "selected_title": "Plausible Analytics Live Dashboard",
+      "search_score": 1325,
+      "direction_plan": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/designstyle-direction-plan.md",
+      "case_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/blind-e2e-report.md",
+      "comparison_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/comparison.md",
+      "apply_pack": {
+        "variables_css": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/apply-pack/variables.css",
+        "motion_presets": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/apply-pack/motion-presets.css",
+        "tailwind_theme": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/apply-pack/tailwind.theme.json",
+        "tokens": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/apply-pack/tokens.json",
+        "motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/apply-pack/motion.json"
+      },
+      "screenshots": {
+        "immediate_load": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/screenshots/immediate-load.png",
+        "post_animation": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/screenshots/post-animation.png",
+        "hover_focus": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/screenshots/hover-focus.png",
+        "mobile": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/screenshots/mobile.png",
+        "reduced_motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/dashboard/screenshots/reduced-motion.png"
+      },
+      "probe_score": 84,
+      "dna_pass_rate": 1.0,
+      "motion_traceable": true
+    },
+    {
+      "case": "luxury-landing",
+      "query": "luxury product landing cinematic editorial",
+      "need": "motion:L2,scene:luxury",
+      "selected_slug": "bentley-motors-official",
+      "selected_title": "Bentley Motors Official",
+      "search_score": 358,
+      "direction_plan": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/designstyle-direction-plan.md",
+      "case_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/blind-e2e-report.md",
+      "comparison_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/comparison.md",
+      "apply_pack": {
+        "variables_css": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/apply-pack/variables.css",
+        "motion_presets": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/apply-pack/motion-presets.css",
+        "tailwind_theme": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/apply-pack/tailwind.theme.json",
+        "tokens": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/apply-pack/tokens.json",
+        "motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/apply-pack/motion.json"
+      },
+      "screenshots": {
+        "immediate_load": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/screenshots/immediate-load.png",
+        "post_animation": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/screenshots/post-animation.png",
+        "hover_focus": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/screenshots/hover-focus.png",
+        "mobile": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/screenshots/mobile.png",
+        "reduced_motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/luxury-landing/screenshots/reduced-motion.png"
+      },
+      "probe_score": 78,
+      "dna_pass_rate": 1.0,
+      "motion_traceable": true
+    },
+    {
+      "case": "docs-site",
+      "query": "developer documentation docs code navigation",
+      "need": "scene:docs",
+      "selected_slug": "vercel-developer-platform",
+      "selected_title": "Vercel Developer Platform",
+      "search_score": 490,
+      "direction_plan": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/designstyle-direction-plan.md",
+      "case_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/blind-e2e-report.md",
+      "comparison_report": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/comparison.md",
+      "apply_pack": {
+        "variables_css": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/apply-pack/variables.css",
+        "motion_presets": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/apply-pack/motion-presets.css",
+        "tailwind_theme": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/apply-pack/tailwind.theme.json",
+        "tokens": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/apply-pack/tokens.json",
+        "motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/apply-pack/motion.json"
+      },
+      "screenshots": {
+        "immediate_load": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/screenshots/immediate-load.png",
+        "post_animation": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/screenshots/post-animation.png",
+        "hover_focus": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/screenshots/hover-focus.png",
+        "mobile": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/screenshots/mobile.png",
+        "reduced_motion": "/Users/chenyunzhe/Documents/Codex/2026-06-04/files-mentioned-by-the-user-designstyle/work/DesignStyle/designstyle-library/reviews/2026-06-12-blind-e2e/docs-site/screenshots/reduced-motion.png"
+      },
+      "probe_score": 84,
+      "dna_pass_rate": 1.0,
+      "motion_traceable": true
+    }
+  ]
+}

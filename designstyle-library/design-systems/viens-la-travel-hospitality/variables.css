@@ -1,0 +1,29 @@
+:root {
+  --ds-color-accent: #ffe070;
+  --ds-color-neutral-surface: #f0e0e0;
+  --ds-color-supporting-color: #90a0c0;
+  --ds-color-neutral-surface-2: #c0c0c0;
+  --ds-color-accent-2: #6040f0;
+  --ds-color-accent-3: #ffd050;
+  --ds-color-neutral-surface-3: #d0d0e0;
+  --ds-color-supporting-color-2: #b0c0e0;
+  --ds-color-background: #ffffff;
+  --ds-color-accent-4: #90f0c0;
+  --ds-color-accent-5: #5f45f2;
+  --ds-color-accent-6: #ffe375;
+  --ds-spacing-component: 0px 52px;
+  --ds-radius-component: 1000px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-duration: 500ms;
+  --ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-delay: 0ms;
+  --ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-easing: cubic-bezier(0.25, 0, 0.25, 1);
+  --ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-duration: 500ms;
+  --ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-delay: 0ms;
+  --ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-easing: cubic-bezier(0.25, 0, 0.25, 1);
+  --ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-duration: 500ms;
+  --ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-delay: 0ms;
+  --ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-easing: cubic-bezier(0.25, 0, 0.25, 1);
+  --ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-duration: 500ms;
+  --ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-delay: 0ms;
+  --ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-easing: cubic-bezier(0.25, 0, 0.25, 1);
+}

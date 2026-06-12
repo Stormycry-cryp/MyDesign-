@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 0, document height 1000.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -22,7 +23,7 @@
 - label 20 YR | rect=64.9x32@1355.1,20 | display=inline-block; position=relative; color=rgb(235, 230, 230); border=1px solid rgba(186, 188, 188, 0.2); borderRadius=0px 6px 6px 0px; fontFamily="APK Protocol"; fontSize=12px; fontWeight=400; lineHeight=30px; padding=0px 15px; transition=color 0.2s, background 0.2s, box-shadow 0.2s; transitionDuration=0.2s, 0.2s, 0.2s; transitionTimingFunction=ease, ease, ease; opacity=1
 - span ant-radio-button | rect=62.9x30@1356.1,21 | display=block; position=absolute; color=rgb(235, 230, 230); border=0px none rgb(235, 230, 230); fontFamily="APK Protocol"; fontSize=12px; fontWeight=400; lineHeight=30px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - span 20 YR | rect=32.9x15@1371.1,28 | display=inline; position=static; color=rgb(235, 230, 230); border=0px none rgb(235, 230, 230); fontFamily="APK Protocol"; fontSize=12px; fontWeight=400; lineHeight=30px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- button ant-switch ant-switch-small css-3obk1w css-var-rb | rect=28x16@972.7,946 | display=block; position=relative; color=rgba(68, 69, 70, 0.88); backgroundColor=rgb(170, 170, 170); border=0px none rgba(68, 69, 70, 0.88); borderRadius=100px; fontFamily="APK Protocol"; fontSize=14px; fontWeight=400; lineHeight=16px; transition=0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1
+- button ant-switch ant-switch-small css-3obk1w css-var-r9 | rect=28x16@972.7,946 | display=block; position=relative; color=rgba(68, 69, 70, 0.88); backgroundColor=rgb(170, 170, 170); border=0px none rgba(68, 69, 70, 0.88); borderRadius=100px; fontFamily="APK Protocol"; fontSize=14px; fontWeight=400; lineHeight=16px; transition=0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1
 
 ### Content Samples
 - 100 YR
@@ -43,8 +44,8 @@
 - div RUS | rect=341.1x16@551,1167.9 | display=block; position=static; color=rgb(68, 69, 70); border=0px none rgb(68, 69, 70); fontFamily="APK Protocol", sans-serif; fontSize=13px; fontWeight=400; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Russia_Central Sub-basin - West Siberia_Conventional onshore | rect=341.1x15@551,1183.9 | display=block; position=static; color=rgb(68, 69, 70); border=0px none rgb(68, 69, 70); fontFamily="APK Protocol", sans-serif; fontSize=12px; fontWeight=700; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div Oil and gas field | rect=86.4x20@551,1201.9 | display=inline-block; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(255, 111, 66); border=0px none rgb(255, 255, 255); borderRadius=4px; fontFamily="APK Protocol", sans-serif; fontSize=10px; fontWeight=400; padding=4px 8px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 8px; 6px; 6px; 6px; 6px; 6px; 100px; 6px; 6px; 6px 0px 0px 6px; 0px 6px 6px 0px; 6px 0px 0px 6px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 8px; 6px; 6px; 6px; 6px; 6px; 100px; 6px; 6px; 6px 0px 0px 6px; 0px 6px 6px 0px; 6px 0px 0px 6px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - RUS Russia_Central Sub-basin - West Siberia_Conventional onshore Oil and gas field 260.3Mt CO2e 100yr Rank 1
@@ -78,7 +79,7 @@
 ## Feedback state
 
 ### Style Evidence
-- Button ds-button-7 | hover={'backgroundColor': 'rgb(156, 156, 156)'} | focus={'backgroundColor': 'rgb(156, 156, 156)'}
+- Button ds-button-7 | hover={'backgroundColor': 'rgb(153, 153, 153)'} | focus={'backgroundColor': 'rgb(153, 153, 153)'}
 - infer only when backed by transition/animation evidence or visible screenshot states.
 
 ### Content Samples

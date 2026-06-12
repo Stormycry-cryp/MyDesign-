@@ -12,7 +12,7 @@
 - a DEALERS | rect=296x20@1448,318.5 | display=block; position=static; color=rgba(255, 255, 255, 0.5); fontFamily="Istok Web", sans-serif; fontSize=16px; fontWeight=400; lineHeight=20px; padding=0px 15px; transition=color 0.25s, border 0.25s; transitionDuration=0.25s, 0.25s; transitionTimingFunction=ease, ease; opacity=1; cursor=pointer
 - a ARTE IN PISTA | rect=296x20@1448,354.5 | display=block; position=static; color=rgba(255, 255, 255, 0.5); fontFamily="Istok Web", sans-serif; fontSize=16px; fontWeight=400; lineHeight=20px; padding=0px 15px; transition=color 0.25s, border 0.25s; transitionDuration=0.25s, 0.25s; transitionTimingFunction=ease, ease; opacity=1; cursor=pointer
 - navigation count 18, image count 17, document height 1000.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - HOME HISTORY HYPERCARS DEALERS ARTE IN PISTA PAGANI OFFICINA VISIT US CONTACT JOB & STAGE OPPORTUNITIES PRESS ROOM CALEN
@@ -55,7 +55,8 @@
 - section PERFECTION For Horacio it is not enough to build every component of the car with the absol | rect=1440x1000@-1440,1000 | display=block; position=absolute; color=rgb(255, 255, 255); backgroundColor=rgb(0, 0, 0); border=0px none rgb(255, 255, 255); fontFamily="Istok Web", sans-serif; fontSize=14px; fontWeight=400; lineHeight=14px; padding=60px 0px 0px; transition=transform 1.5s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=1.5s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); transform=matrix(1, 0, 0, 1, 0, 1000)
 - section THE BELIEF "Art and science can walk together, hand in hand” Leonardo da Vinci | rect=1440x1000@-1440,1000 | display=block; position=absolute; color=rgb(255, 255, 255); backgroundColor=rgb(0, 0, 0); border=0px none rgb(255, 255, 255); fontFamily="Istok Web", sans-serif; fontSize=14px; fontWeight=400; lineHeight=14px; padding=60px 0px 0px; transition=transform 1.5s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=1.5s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); transform=matrix(1, 0, 0, 1, 0, 1000)
 - section WE’VE GONE THIS FAR, DRIVEN BY THE WINDS OF ALL TIMES. Designed to celebrate the harmony b | rect=1440x1000@-1440,0 | display=block; position=absolute; color=rgb(255, 255, 255); backgroundColor=rgb(0, 0, 0); border=0px none rgb(255, 255, 255); fontFamily="Istok Web", sans-serif; fontSize=14px; fontWeight=400; lineHeight=14px; padding=60px 0px 0px; transition=transform 1.5s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=1.5s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - ACT THREE, SCENE TWO: PAGANI UTOPIA ROADSTER. DISCOVER MORE | PRESS RELEASE SCROLL DOWN
@@ -92,6 +93,7 @@
 
 ### Style Evidence
 - svg [object SVGAnimatedString] | rect=24x42@708,911 | display=block; position=static; color=rgba(255, 255, 255, 0.5); border=0px none rgba(255, 255, 255, 0.5); fontFamily="Istok Web", sans-serif; fontSize=12px; fontWeight=400; lineHeight=12px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
+- svg [object SVGAnimatedString] | rect=48x48@10,902 | display=block; position=static; color=rgb(20, 20, 20); border=0px none rgb(20, 20, 20); fontFamily=Helvetica, Arial, sans-serif; fontSize=15px; fontWeight=400; letterSpacing=0.1px; lineHeight=22.5px; transition=0s 0.2s; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 
 ### Content Samples
 - None recorded.

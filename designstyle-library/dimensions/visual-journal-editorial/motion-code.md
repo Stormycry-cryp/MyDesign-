@@ -1,42 +1,57 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;, *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;, -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: +'")'):i&&e.setAttribute("src",i)},i="undefined"!=typeof window,c=i&&"IntersectionObserver"in window,l=i&&"classList"in document.createElement("p"),u=function(e,t){l?e.classList.add(t):e.className+=(e.className?" ":"")+t, ment?null:t.container,rootMargin:t.threshold+"px"};this._observer=new IntersectionObserver(function(t){t.forEach(function(t){if(p(t)){var n=t.target;b(n,e._settings),e._observer.unobserve(n)}}),e._elements=r(e._elements)
-  - Timing/easing: izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;, izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,b, on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-light)}.search-field{position:relat, s:repeat(4, 1fr)}}.thumb-figure-link,.search{transition:opacity 400ms ease-in-out}.thumb-link{display:block;width:100%;padding-bottom:67.65%;position:relative;background:var(--bg-light)}.thumb-image{position:abs, lute;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity 400ms ease-in-out;z-index:1500;will-change:opacity;display:block;width:100%;height:auto}.thumb-image.loaded{opacity:1}.thumb-link:hover .thumb-imag
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; n-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,s; none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h
-  - Public CSS/JS probe keywords: easing, intersection, transform, transition
-  - Public CSS/JS motion snippets: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; n-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,s; none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transiti; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo; on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-ligh; s:repeat(4, 1fr)}}.thumb-figure-link,.search{transition:opacity 400ms ease-in-out}.thumb-link{display:block;width:100%;padding-bottom:67.65%;position:relative;background:var(--bg-l; lute;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity 400ms ease-in-out;z-index:1500;will-change:opacity;display:block;width:100%;height:auto}.thumb-image.loaded{opacity:
-  - Exact motion parameters: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transiti; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo; on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-ligh; em var(--spacer) var(--spacer);transition-property:transform, opacity;transform:translate3d(0, 1rem, 0)}@media (min-width: 750px){.about{grid-template-columns:repeat(2, 1fr)}}.abou; lumns:repeat(2, 1fr)}}.about.is-open{pointer-events:initial;opacity:1;transform:initial;overflow:auto;-webkit-overflow-scrolling:touch}.about-content{max-width:55ch;background:none; 00;padding:0 var(--spacer);background:var(--bg);will-change:transform;transform:translate3d(0, 0, 0)}.menu{display:flex;align-items:flex-start;justify-content:space-between;padding
-  - JavaScript/runtime motion evidence: +'")'):i&&e.setAttribute("src",i)},i="undefined"!=typeof window,c=i&&"IntersectionObserver"in window,l=i&&"classList"in document.createElement("p"),u=function(e,t){l?e.classList.ad; ment?null:t.container,rootMargin:t.threshold+"px"};this._observer=new IntersectionObserver(function(t){t.forEach(function(t){if(p(t)){var n=t.target;b(n,e._settings),e._observer.un
-  - Stylesheet evidence: https://visualjournal.it/assets/css/main.min.css; https://visualjournal.it/assets/js/lib/infinitescroll.min.js; https://visualjournal.it/assets/js/lib/lazyload.min.js; https://visualjournal.it/assets/js/app.min.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection
-  - Public stylesheet/script URLs: https://visualjournal.it/assets/css/main.min.css; https://visualjournal.it/assets/js/lib/infinitescroll.min.js; https://visualjournal.it/assets/js/lib/lazyload.min.js; https://visualjournal.it/assets/js/app.min.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
-  - Asset CDN and media loading patterns: https://visualjournal.it/content/home/14_2026/85_noblemachines/1a.jpg; https://visualjournal.it/content/home/14_2026/84_olivera/2.jpg; https://visualjournal.it/content/home/14_2026/83_botnia/1.jpg; https://visualjournal.it/content/home/14_2026/82_themoraine/cover-def.jpg; https://visualjournal.it/content/home/14_2026/81_freesoul/2.jpg; https://visualjournal.it/content/home/14_2026/80_bobbeaute/1.jpg; https://visualjournal.it/content/home/14_2026/79_otsu/1.jpg; https://visualjournal.it/content/home/14_2026/78_tas/6-08.15.14.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: easing, intersection, transform, transition
-  - Performance/accessibility concerns: heavy media count 12 and scripts 3; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | state-change | color | 400ms | 0ms | ease-in-out | 组件state-change：color，400ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease-in-out | 组件state-change：opacity，400ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease-in-out | 组件state-change：opacity，400ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease-in-out | 组件state-change：opacity，400ms ease-in-out，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-visual-journal-editorial-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+- motion-card-state-change-opacity-missing-missing lacks duration_ms
+- motion-card-state-change-opacity-missing-missing lacks easing
+- motion-component-state-change-opacity-missing-missing lacks duration_ms
+- motion-component-state-change-opacity-missing-missing lacks easing
+
+## Snippet Appendix
+### motion-component-state-change-color-400-ease-in-out
+
+```css
+.search li { transition: color 400ms ease-in-out; }
+```
+
+### motion-component-state-change-opacity-400-ease-in-out
+
+```css
+.thumb-figure-link { transition: opacity 400ms ease-in-out; }
+```
+
+### motion-component-state-change-opacity-400-ease-in-out
+
+```css
+.search { transition: opacity 400ms ease-in-out; }
+```
+
+### motion-component-state-change-opacity-400-ease-in-out
+
+```css
+.thumb-image { transition: opacity 400ms ease-in-out; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

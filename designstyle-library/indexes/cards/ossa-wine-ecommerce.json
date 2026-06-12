@@ -19,12 +19,16 @@
     "public-css",
     "public-js"
   ],
-  "component_json_path": "assets/2026-06-04-ossa-wine-ecommerce-component-styles.json",
+  "component_json_path": "assets/2026-06-12-ossa-wine-ecommerce-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/ossa-wine-ecommerce/component-styles.md",
     "moodboard": "design-systems/ossa-wine-ecommerce/moodboard.svg",
+    "motion": "design-systems/ossa-wine-ecommerce/motion.json",
+    "motion_presets": "design-systems/ossa-wine-ecommerce/motion-presets.css",
     "palette": "design-systems/ossa-wine-ecommerce/palette.md",
-    "tokens": "design-systems/ossa-wine-ecommerce/tokens.json"
+    "tailwind_theme": "design-systems/ossa-wine-ecommerce/tailwind.theme.json",
+    "tokens": "design-systems/ossa-wine-ecommerce/tokens.json",
+    "variables_css": "design-systems/ossa-wine-ecommerce/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/ossa-wine-ecommerce/assets.md",
@@ -35,6 +39,56 @@
     "scene": "dimensions/ossa-wine-ecommerce/scene.md",
     "type_copy": "dimensions/ossa-wine-ecommerce/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 800x365; 1440x910; 1080x900; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 3px; 3px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 800:365; 1440:910; 1080:900; 800:365",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 3px; 3px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "component load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1000ms steps(8)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 250ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

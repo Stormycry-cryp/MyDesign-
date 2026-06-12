@@ -1,0 +1,37 @@
+:root {
+  --ds-color-foreground: #000000;
+  --ds-color-background: #ffffff;
+  --ds-color-supporting-color: #803040;
+  --ds-color-neutral-surface: #c0c0c0;
+  --ds-color-neutral-surface-2: #e0e0e0;
+  --ds-color-neutral-surface-3: #a0a0a0;
+  --ds-color-foreground-2: #606060;
+  --ds-color-foreground-3: #404040;
+  --ds-color-foreground-4: #202020;
+  --ds-color-neutral-surface-4: #808080;
+  --ds-color-neutral-surface-5: #cacaca;
+  --ds-spacing-component: 6px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-duration: 150ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-backgroundcolor-150-linear-easing: linear;
+  --ds-motion-motion-navigation-state-change-color-100-linear-duration: 100ms;
+  --ds-motion-motion-navigation-state-change-color-100-linear-delay: 0ms;
+  --ds-motion-motion-navigation-state-change-color-100-linear-easing: linear;
+  --ds-motion-motion-button-state-change-opacity-150-linear-duration: 150ms;
+  --ds-motion-motion-button-state-change-opacity-150-linear-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-150-linear-easing: linear;
+  --ds-motion-motion-button-state-change-opacity-100-ease-out-duration: 100ms;
+  --ds-motion-motion-button-state-change-opacity-100-ease-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-100-ease-out-easing: ease-out;
+  --ds-motion-motion-button-state-change-transform-200-ease-in-out-duration: 200ms;
+  --ds-motion-motion-button-state-change-transform-200-ease-in-out-delay: 0ms;
+  --ds-motion-motion-button-state-change-transform-200-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-card-state-change-opacity-200-ease-in-out-duration: 200ms;
+  --ds-motion-motion-card-state-change-opacity-200-ease-in-out-delay: 0ms;
+  --ds-motion-motion-card-state-change-opacity-200-ease-in-out-easing: ease-in-out;
+  --ds-motion-motion-form-state-change-transform-75-ease-in-duration: 75ms;
+  --ds-motion-motion-form-state-change-transform-75-ease-in-delay: 0ms;
+  --ds-motion-motion-form-state-change-transform-75-ease-in-easing: ease-in;
+}

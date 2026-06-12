@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Build how you want. Ship on a platform you can trust.; H2 AI made building easy. Retool makes it safe.; Ship your idea today; For how your teams actually work; Made for, and trusted by, businesses of all sizes; Why enterprises choose Retool; Get the latest from Retool; navigation Public Beta: Retool MCP Server Learn more ↗; Use cases; Pricing; Sign in; Book a demo; Start for free; AppGen Generate apps that are built for business—on your data, in your cloud, and secure by default.; Build; Launch; Scale; Govern; Agents
+  - Sentence rhythm: 106 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Retool | Build internal software better, with AI.; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://retool.com/
   - Page title: Retool | Build internal software better, with AI.
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

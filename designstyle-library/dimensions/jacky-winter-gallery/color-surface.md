@@ -5,6 +5,12 @@
   - Observed text colors: BODY:rgb(255, 255, 255):rgb(0, 0, 0); HEADER:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0)
   - Observed backgrounds: included in computed color pairs.
   - UI shell colors vs asset-driven colors: decide from screenshot; do not infer beyond captured page.
+- Surface grammar:
+  - Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+  - Borders/dividers/radii: 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; 17.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+  - Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+  - Button/input/control density: buttons NOW SHOWING; NOW SHOWING; NOW SHOWING; PAST SHOW; PAST SHOW; PAST SHOW; ALL PAST SHOWS; ALL PAST SHOWS; ALL PAST SHOWS; NOW SHOWING; NOW SHOWING; NOW SHOWING; forms automated pass did not classify forms.; source: Interaction And Components
+  - Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 - Visual color:
   - Layout: infer from screenshot and viewport; primary page text sample starts `Exhibitions About Jacky Winter Gallery Contact Best Before Karan Singh 15 May – 20 Jun, 2026 NOW SHOWING PAST SHOW ALL PAST SHOWS NOW SHOWING PAST SHOW ALL PAST SHOWS We are currently open To receive show catalogues or get updates on our openings and events, s`.
   - Typography: observed font stacks and role rhythm are recorded below.
@@ -19,7 +25,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Surface grammar from Style Tokens And Surface Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

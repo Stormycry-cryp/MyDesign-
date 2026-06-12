@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-clay-data-workspace-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-clay-data-workspace-component-styles.json`
   - Asset CDN and media loading patterns: https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69d5e1ece9bc0e6bbc08127c_sculpt-Logo-Container.svg; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abcbf6d348e6ec658f1_3d-icon-cirlcle.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abca946b59ed38891ca_3d-icon-wave.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1e25139458afbc01799d0_Signals%2C%20satellite%20dish%2C%20monitor.png; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc88fb18290e684672_3d-icon-wire.avif; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6994e3f966056e5cbb08f379_ads-icon%201.png; https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf18dcd166ee8066e89_Audiences.webp
 
 ## Inference

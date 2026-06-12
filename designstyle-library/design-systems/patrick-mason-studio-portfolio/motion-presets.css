@@ -1,0 +1,22 @@
+.ds-motion-motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1 {
+  transition-property: boxShadow;
+  transition-duration: var(--ds-motion-motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-boxshadow-200-cubic-bezier-0-87-0-0-13-1-easing);
+  transform: rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px;
+}
+
+.ds-motion-motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1 {
+  transition-property: boxShadow;
+  transition-duration: var(--ds-motion-motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-boxshadow-200-cubic-bezier-0-87-0-0-13-1-easing);
+  transform: rgba(0, 0, 0, 0.21) 5.332px 5.332px 9.5976px -7.4648px, rgba(255, 255, 255, 0.427) -5.332px -5.332px 7.4648px -2.666px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

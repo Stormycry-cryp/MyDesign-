@@ -30,6 +30,13 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5900}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 1700x1152; 1700x1151; 1700x1153; 1700x1152; 1700x1153; 1700x1152; 1700x1152; 1700x1152; 1700x1152; 1700x1151.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5900}; source: Dimension And Ratio System
+- Observed media ratios: 1700:1152; 1700:1151; 1700:1153; 1700:1152; 1700:1153; 1700:1152; 1700:1152; 1700:1152; 1700:1152; 1700:1151; source: Dimension And Ratio System
+- component state-change motion uses 400ms ease-in-out; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://visualjournal.it/
 - Page title: Visual Journal – Branding, Editorial and Graphic Design
@@ -60,6 +67,12 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Visual Journal; H2 none observed; navigation Visual Journal
+- Sentence rhythm: 98 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Visual Journal – Branding, Editorial and Graphic Design; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(255, 255, 255); HEADER:rgb(0, 0, 0):rgb(255, 255, 255); H1:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); BUTTON:rgb(0, 0, 0):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgb(255, 255, 255); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +84,12 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Media/card aspect stability: image natural sizes include 1700x1152; 1700x1151; 1700x1153; 1700x1152; 1700x1153; 1700x1152; 1700x1152; 1700x1152; 1700x1152; 1700x1151.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons About and support; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 5900}
 - Observed media ratios: 1700:1152; 1700:1151; 1700:1153; 1700:1152; 1700:1153; 1700:1152; 1700:1152; 1700:1152; 1700:1152; 1700:1151
@@ -90,22 +109,22 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-visual-journal-editorial-component-styles.json`
 - Asset CDN and media loading patterns: https://visualjournal.it/content/home/14_2026/85_noblemachines/1a.jpg; https://visualjournal.it/content/home/14_2026/84_olivera/2.jpg; https://visualjournal.it/content/home/14_2026/83_botnia/1.jpg; https://visualjournal.it/content/home/14_2026/82_themoraine/cover-def.jpg; https://visualjournal.it/content/home/14_2026/81_freesoul/2.jpg; https://visualjournal.it/content/home/14_2026/80_bobbeaute/1.jpg; https://visualjournal.it/content/home/14_2026/79_otsu/1.jpg; https://visualjournal.it/content/home/14_2026/78_tas/6-08.15.14.jpg
 
 ## Motion
-- Page transitions: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;, *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;, -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: +'")'):i&&e.setAttribute("src",i)},i="undefined"!=typeof window,c=i&&"IntersectionObserver"in window,l=i&&"classList"in document.createElement("p"),u=function(e,t){l?e.classList.add(t):e.className+=(e.className?" ":"")+t, ment?null:t.container,rootMargin:t.threshold+"px"};this._observer=new IntersectionObserver(function(t){t.forEach(function(t){if(p(t)){var n=t.target;b(n,e._settings),e._observer.unobserve(n)}}),e._elements=r(e._elements)
-- Timing/easing: izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;, izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,b, on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-light)}.search-field{position:relat, s:repeat(4, 1fr)}}.thumb-figure-link,.search{transition:opacity 400ms ease-in-out}.thumb-link{display:block;width:100%;padding-bottom:67.65%;position:relative;background:var(--bg-light)}.thumb-image{position:abs, lute;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity 400ms ease-in-out;z-index:1500;will-change:opacity;display:block;width:100%;height:auto}.thumb-image.loaded{opacity:1}.thumb-link:hover .thumb-imag
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; n-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,s; none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: easing, intersection, transform, transition
-- Public CSS/JS motion snippets: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; n-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,s; none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transiti; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo; on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-ligh; s:repeat(4, 1fr)}}.thumb-figure-link,.search{transition:opacity 400ms ease-in-out}.thumb-link{display:block;width:100%;padding-bottom:67.65%;position:relative;background:var(--bg-l; lute;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity 400ms ease-in-out;z-index:1500;will-change:opacity;display:block;width:100%;height:auto}.thumb-image.loaded{opacity:
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;; *{box-sizing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;t; -box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transition-timing-fu; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}*:after,*:before{box-sizing:border-box;transition-duration:400ms;transiti; izing:border-box;transition-duration:400ms;transition-timing-function:ease-in-out;transition-property:none}html,body,div,main,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo; on:absolute;top:40px;left:0;right:0}.search li{transition:color 400ms ease-in-out;color:var(--text-light);text-transform:capitalize}.search-form ::placeholder{color:var(--text-ligh; em var(--spacer) var(--spacer);transition-property:transform, opacity;transform:translate3d(0, 1rem, 0)}@media (min-width: 750px){.about{grid-template-columns:repeat(2, 1fr)}}.abou; lumns:repeat(2, 1fr)}}.about.is-open{pointer-events:initial;opacity:1;transform:initial;overflow:auto;-webkit-overflow-scrolling:touch}.about-content{max-width:55ch;background:none; 00;padding:0 var(--spacer);background:var(--bg);will-change:transform;transform:translate3d(0, 0, 0)}.menu{display:flex;align-items:flex-start;justify-content:space-between;padding
-- JavaScript/runtime motion evidence: +'")'):i&&e.setAttribute("src",i)},i="undefined"!=typeof window,c=i&&"IntersectionObserver"in window,l=i&&"classList"in document.createElement("p"),u=function(e,t){l?e.classList.ad; ment?null:t.container,rootMargin:t.threshold+"px"};this._observer=new IntersectionObserver(function(t){t.forEach(function(t){if(p(t)){var n=t.target;b(n,e._settings),e._observer.un
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://visualjournal.it/assets/css/main.min.css; https://visualjournal.it/assets/js/lib/infinitescroll.min.js; https://visualjournal.it/assets/js/lib/lazyload.min.js; https://visualjournal.it/assets/js/app.min.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +132,7 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 ## Interaction And Components
 - Navigation: Visual Journal
 - Buttons/links: About and support
-- Computed component styles: `assets/2026-06-04-visual-journal-editorial-component-styles.json`
+- Computed component styles: `assets/2026-06-12-visual-journal-editorial-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +161,4 @@ Visual Journal Editorial is captured as a editorial, visual-journal, culture, ma
 - Reuse value: useful for homepage visual editorial journal if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-visual-journal-editorial-motion.json`

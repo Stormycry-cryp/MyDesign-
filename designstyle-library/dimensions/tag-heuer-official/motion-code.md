@@ -1,42 +1,285 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: .btn .icon:before{background-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:before{height:100%;left:50%;top:0;transform:translate(-, on:before{left:50%;margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:-50%}.page-designer-reference .btn.scroll-to-cta:hover .icon:before{, er-reference .pushcollection-block .herohomepage .parallax-parent img{transition:transform 1s}.page-designer-reference .pushcollection-block .herohomepage .component-figure:hover .parallax-parent img{transform:scale(1.2)}.p
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: und-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:before{height:100%;left:50%;top:0;transform:translate(-, igner-reference .herohomepage.v2.with-gradient:after{background-image:linear-gradient(180deg,transparent,#000);bottom:-3rem;content:"";display:block;height:115%;left:0;position:absolute;width:100vw;z-index:, margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:-50%}.page-designer-reference .btn.scroll-to-cta:hover .icon:befo, ce .experience-assets-pushcollection .content-inside{background-image:linear-gradient(180deg,transparent,#000)}@media(min-width:48em){.page-designer-reference .experience-assets-pushcollection .content-insi, .pushcollection-block.diagonal-block .content-inside{background-image:linear-gradient(180deg,transparent,#000);padding-bottom:6rem}}.page-designer-reference .pushcollection-block .swiper-slide .image-wrap{h
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: .btn .icon:before{background-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:be; on:before{left:50%;margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:; er-reference .pushcollection-block .herohomepage .parallax-parent img{transition:transform 1s}.page-designer-reference .pushcollection-block .herohomepage .component-figure:hover .; -block .swiper-slide .image-wrap{height:100%;left:0;position:relative;transition:all 1s;width:100%}.page-designer-reference .pushcollection-block .swiper-slide .image-wrap:after{ba; card .card-header .btn.btn-link:before{float:right;margin-right:.8rem;transition:all .2s ease-in-out}.page-designer-reference #faq-accordion .card .card-header .btn.btn-link[aria-e; swiper-thumbs .swiper-wrapper .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-refer; .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .pre; -anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .presentation-swiper-thumbs .sw
-  - Public CSS/JS probe keywords: animation, easing, keyframes, swiper, transform, transition
-  - Public CSS/JS motion snippets: .btn .icon:before{background-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:be; on:before{left:50%;margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:; er-reference .pushcollection-block .herohomepage .parallax-parent img{transition:transform 1s}.page-designer-reference .pushcollection-block .herohomepage .component-figure:hover .; -block .swiper-slide .image-wrap{height:100%;left:0;position:relative;transition:all 1s;width:100%}.page-designer-reference .pushcollection-block .swiper-slide .image-wrap:after{ba; card .card-header .btn.btn-link:before{float:right;margin-right:.8rem;transition:all .2s ease-in-out}.page-designer-reference #faq-accordion .card .card-header .btn.btn-link[aria-e; swiper-thumbs .swiper-wrapper .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-refer; .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .pre; -anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .presentation-swiper-thumbs .sw; umbs .swiper-wrapper .swiper-slide.current .loader[data-anim~=loader]{animation-delay:10s;animation-duration:.01s;animation-name:close-loader}.page-designer-reference .presentation; .swiper-slide.current .loader[data-anim~=loader]{animation-delay:10s;animation-duration:.01s;animation-name:close-loader}.page-designer-reference .presentation-images .presentation
-  - Exact motion parameters: .btn .icon:before{background-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:be; on:before{left:50%;margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:; er-reference .pushcollection-block .herohomepage .parallax-parent img{transition:transform 1s}.page-designer-reference .pushcollection-block .herohomepage .component-figure:hover .; swiper-thumbs .swiper-wrapper .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-refer; .swiper-slide.current [data-anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .pre; -anim~=base]{animation-fill-mode:forwards;animation-iteration-count:1;animation-timing-function:linear}.page-designer-reference .presentation-images .presentation-swiper-thumbs .sw; und-color:#000;content:"";position:absolute;transition:transform .25s ease-out}.page-designer-reference .content-accordion .card .card-header .btn .icon:before{height:100%;left:50%; igner-reference .herohomepage.v2.with-gradient:after{background-image:linear-gradient(180deg,transparent,#000);bottom:-3rem;content:"";display:block;height:115%;left:0;position:abs; margin:-.6rem 0 0 -.6rem;position:absolute;top:50%;transition:all .8s cubic-bezier(.77,0,.175,1) 0s}.page-designer-reference .btn.scroll-to-cta .icon:before{top:-50%}.page-designer; rmal;font-variant:normal;font-weight:400!important;line-height:1;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.th-icon-zoom-in:before{co
-  - JavaScript/runtime motion evidence: vh}}.page-designer-reference .component-figure .two-row-background-2 .swiper-wrapper{padding-bottom:0}.page-designer-reference .component-image{height:100%;-o-object-fit:cover;obje; ference .component-figure{position:relative}.page-designer-reference .swiper-wrapper.disabled{justify-content:center;transform:translateZ(0)!important}.page-designer-reference .swi; nt:center;transform:translateZ(0)!important}.page-designer-reference .swiper-pagination.disabled{display:none}.page-designer-reference .swiper-pagination-bullet:only-child{visibili; ce .swiper-pagination.disabled{display:none}.page-designer-reference .swiper-pagination-bullet:only-child{visibility:hidden}.page-designer-reference .swiper-slide{height:auto}@medi; ination-bullet:only-child{visibility:hidden}.page-designer-reference .swiper-slide{height:auto}@media(min-width:48em){.page-designer-reference .title-banner{font-size:2.4rem}.page-
-  - Stylesheet evidence: https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/en_US/v1780626708579/css/global.css; https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/en_US/v1780626708579/css/pagedesignerLayout.css; https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css; https://www.tagheuer.com/container/Py3ymZsrhnonvMKW02eVg1KMTCs_O9m84n4UQPQWlYevraOx; https://s.adroll.com/j/roundtrip.js; https://www.tagheuer.com/container/Py2qhJspqDNQr7uL0GOa5FaDWhwQINniuGlfGrQenoX5qvvDzqOx; https://tag.rmp.rakuten.com/121915.ct.js; https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C8168LB9OPOOJ4K46UCG&lib=ttq
-  - Interpreted motion tags: hero media, hover states, menu transitions
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: swiper
-  - Public stylesheet/script URLs: https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/en_US/v1780626708579/css/global.css; https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/en_US/v1780626708579/css/pagedesignerLayout.css; https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css; https://www.tagheuer.com/container/Py3ymZsrhnonvMKW02eVg1KMTCs_O9m84n4UQPQWlYevraOx; https://s.adroll.com/j/roundtrip.js; https://www.tagheuer.com/container/Py2qhJspqDNQr7uL0GOa5FaDWhwQINniuGlfGrQenoX5qvvDzqOx; https://tag.rmp.rakuten.com/121915.ct.js; https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C8168LB9OPOOJ4K46UCG&lib=ttq; https://www.tagheuer.com/container/Py2qhJspqDNQqcHsvQT4hDXjXnt2INniuGlfGrQenoX5qvvDzqOx; https://www.tagheuer.com/container/Py2qhJspqDNQqcHssw74gzPtWn53INniuGlfGrQenoX5qvvDzqOx
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.tagheuer.com/us/en/` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-tag-heuer-official-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/default/dwf10ae8f7/images/th-logo.svg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw72cfc051/images/SearchBanner/collection/TAG-Heuer-Collection-Formula1-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw5dda2547/images/SearchBanner/collection/TAG-Heuer-Collection-Aquaracer-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw82205585/images/SearchBanner/collection/TAG-Heuer-Collection-Connected-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw7b8eb138/images/SearchBanner/collection/TAG-Heuer-Collection-Monaco-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf070784e/images/SearchBanner/collection/TAG-Heuer-Collection-Link-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 28 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| button | state-change | transform | 250ms | 0ms | ease-out | 按钮state-change：transform，250ms ease-out，state-change 触发 |
+| button | state-change | transform | 250ms | 0ms | ease-out | 按钮state-change：transform，250ms ease-out，state-change 触发 |
+| button | state-change | all | 800ms | 0ms | cubic-bezier(.77,0,.175,1) | 按钮state-change：all，800ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| button | state-change | all | 800ms | 0ms | cubic-bezier(.77,0,.175,1) | 按钮state-change：all，800ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| button | state-change | all | 200ms | 0ms | ease-in-out | 按钮state-change：all，200ms ease-in-out，state-change 触发 |
+| navigation | state-change | all | 300ms | 0ms | ease-out | 导航state-change：all，300ms ease-out，state-change 触发 |
+| navigation | state-change | all | 500ms | 0ms | ease-in-out | 导航state-change：all，500ms ease-in-out，state-change 触发 |
+| card | state-change | transform | 450ms | 0ms | ease | 卡片state-change：transform，450ms ease，state-change 触发 |
+| card | state-change | background | 450ms | 0ms | ease | 卡片state-change：background，450ms ease，state-change 触发 |
+| card | state-change | transform | 450ms | 0ms | ease | 卡片state-change：transform，450ms ease，state-change 触发 |
+| card | state-change | background | 450ms | 0ms | ease | 卡片state-change：background，450ms ease，state-change 触发 |
+| component | load | animation | 0ms | 0ms | linear | 组件load：animation，0ms linear，load 触发 |
+| component | state-change | all | 800ms | 0ms | cubic-bezier(.77,0,.175,1) | 组件state-change：all missing -> rotate(-90deg)，800ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| component | state-change | all | 800ms | 0ms | cubic-bezier(.77,0,.175,1) | 组件state-change：all missing -> rotate(-90deg)，800ms cubic-bezier(.77,0,.175,1)，state-change 触发 |
+| component | state-change | all | 200ms | 0ms | ease-out | 组件state-change：all，200ms ease-out，state-change 触发 |
+| component | state-change | all | 500ms | 0ms | ease-in-out | 组件state-change：all，500ms ease-in-out，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease-in-out | 组件state-change：all，300ms ease-in-out，state-change 触发 |
+| navigation | state-change | top | 300ms | 0ms | ease-out | 导航state-change：top，300ms ease-out，state-change 触发 |
+| button | state-change | all | 200ms | 0ms | ease-out | 按钮state-change：all，200ms ease-out，state-change 触发 |
+| button | state-change | all | 200ms | 0ms | ease-in-out | 按钮state-change：all，200ms ease-in-out，state-change 触发 |
+| navigation | state-change | margin | 400ms | 0ms | ease | 导航state-change：margin，400ms ease，state-change 触发 |
+| button | state-change | width | 800ms | 0ms | cubic-bezier(.86,0,.07,1) | 按钮state-change：width，800ms cubic-bezier(.86,0,.07,1)，state-change 触发 |
+| button | state-change | transform | 300ms | 0ms | cubic-bezier(.175,.885,.32,1.275) | 按钮state-change：transform，300ms cubic-bezier(.175,.885,.32,1.275)，state-change 触发 |
+| button | state-change | opacity | 300ms | 0ms | cubic-bezier(.175,.885,.32,1) | 按钮state-change：opacity，300ms cubic-bezier(.175,.885,.32,1)，state-change 触发 |
+| overlay | state-change | all | 400ms | 600ms | cubic-bezier(.165,.84,.44,1) | 浮层state-change：all，400ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| overlay | state-change | all | 400ms | 700ms | cubic-bezier(.165,.84,.44,1) | 浮层state-change：all，400ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| overlay | state-change | all | 400ms | 100ms | cubic-bezier(.895,.03,.685,.22) | 浮层state-change：all，400ms cubic-bezier(.895,.03,.685,.22)，state-change 触发 |
+| overlay | state-change | all | 400ms | 0ms | cubic-bezier(.895,.03,.685,.22) | 浮层state-change：all，400ms cubic-bezier(.895,.03,.685,.22)，state-change 触发 |
+| overlay | hover | all | 400ms | 0ms | cubic-bezier(.895,.03,.685,.22) | 浮层hover：all，400ms cubic-bezier(.895,.03,.685,.22)，hover 触发 |
+| overlay | hover | all | 400ms | 100ms | cubic-bezier(.895,.03,.685,.22) | 浮层hover：all，400ms cubic-bezier(.895,.03,.685,.22)，hover 触发 |
+| overlay | hover | all | 400ms | 700ms | cubic-bezier(.165,.84,.44,1) | 浮层hover：all，400ms cubic-bezier(.165,.84,.44,1)，hover 触发 |
+| overlay | hover | all | 400ms | 600ms | cubic-bezier(.165,.84,.44,1) | 浮层hover：all，400ms cubic-bezier(.165,.84,.44,1)，hover 触发 |
+| component | load | animation | 5000ms | 0ms | linear | 组件load：animation 0 -> 0，5000ms linear，load 触发 |
+| component | state-change | color | 200ms | 0ms | ease-out | 组件state-change：color，200ms ease-out，state-change 触发 |
+| navigation | state-change | color | 200ms | 0ms | ease-out | 导航state-change：color，200ms ease-out，state-change 触发 |
+| navigation | state-change | color | 200ms | 0ms | ease-out | 导航state-change：color，200ms ease-out，state-change 触发 |
+| component | state-change | color | 200ms | 0ms | ease-out | 组件state-change：color，200ms ease-out，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-tag-heuer-official-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-all-1000-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-component-load-animation-10-missing lacks easing
+- motion-component-load-animation-20000-missing lacks easing
+- motion-component-load-animation-10000-missing lacks easing
+- motion-hero-state-change-transform-100-missing lacks easing
+- motion-component-state-change-all-400-missing lacks easing
+- motion-component-state-change-opacity-400-missing lacks easing
+- motion-component-state-change-left-100-missing lacks easing
+- motion-component-state-change-opacity-400-missing lacks easing
+- motion-component-state-change-left-100-missing lacks easing
+
+## Snippet Appendix
+### motion-button-state-change-transform-250-ease-out
+
+```css
+.page-designer-reference .content-accordion .card .card-header .btn .icon:after { transition: transform .25s ease-out; }
+```
+
+### motion-button-state-change-transform-250-ease-out
+
+```css
+.page-designer-reference .content-accordion .card .card-header .btn .icon:before { transition: transform .25s ease-out; }
+```
+
+### motion-button-state-change-all-800-cubic-bezier-77-0-175-1
+
+```css
+.page-designer-reference .btn.scroll-to-cta .icon:after { transition: all .8s cubic-bezier(.77,0,.175,1) 0s; }
+```
+
+### motion-button-state-change-all-800-cubic-bezier-77-0-175-1
+
+```css
+.page-designer-reference .btn.scroll-to-cta .icon:before { transition: all .8s cubic-bezier(.77,0,.175,1) 0s; }
+```
+
+### motion-button-state-change-all-200-ease-in-out
+
+```css
+.page-designer-reference #faq-accordion .card .card-header .btn.btn-link:before { transition: all .2s ease-in-out; }
+```
+
+### motion-navigation-state-change-all-300-ease-out
+
+```css
+.page-designer-reference .bannerwithsubmenu-component-block.sticky-nav .container .nav-links.sticky { transition: all .3s ease-out; }
+```
+
+### motion-navigation-state-change-all-500-ease-in-out
+
+```css
+.page-designer-reference .bannerwithsubmenu-component-block .swiper .swiper-wrapper .swiper-slide .link { transition: all .5s ease-in-out; }
+```
+
+### motion-card-state-change-transform-450-ease
+
+```css
+.page-designer-reference .card-block.hover-gradient:after { transition: transform .45s ease; }
+```
+
+### motion-card-state-change-background-450-ease
+
+```css
+.page-designer-reference .card-block.hover-gradient:after { transition: background .45s ease; }
+```
+
+### motion-card-state-change-transform-450-ease
+
+```css
+.page-designer-reference .card-block .card-block-bg { transition: transform .45s ease; }
+```
+
+### motion-card-state-change-background-450-ease
+
+```css
+.page-designer-reference .card-block .card-block-bg { transition: background .45s ease; }
+```
+
+### motion-component-load-animation-0-linear
+
+```css
+.page-designer-reference .presentation-images .presentation-swiper-thumbs .swiper-wrapper .swiper-slide.current [data-anim~=base] { animation: missing missing linear 0ms; }
+```
+
+### motion-component-state-change-all-800-cubic-bezier-77-0-175-1
+
+```css
+.page-designer-reference .presentation-images .links .link .icon:after { transition: all .8s cubic-bezier(.77,0,.175,1) 0s; }
+```
+
+### motion-component-state-change-all-800-cubic-bezier-77-0-175-1
+
+```css
+.page-designer-reference .presentation-images .links .link .icon:before { transition: all .8s cubic-bezier(.77,0,.175,1) 0s; }
+```
+
+### motion-component-state-change-all-200-ease-out
+
+```css
+.page-designer-reference .pictos-block.sticky { transition: all .2s ease-out; }
+```
+
+### motion-component-state-change-all-500-ease-in-out
+
+```css
+.page-designer-reference .pictos-block .picto { transition: all .5s ease-in-out; }
+```
+
+### motion-component-state-change-all-300-ease-in-out
+
+```css
+.page-designer-reference .images-block.images-text-parallax .parallax-parent { transition: all .3s ease-in-out; }
+```
+
+### motion-navigation-state-change-top-300-ease-out
+
+```css
+.page-designer-reference .experience-assets-watchesSubNav .c-Watches.c-Watches--sm { transition: top .3s ease-out; }
+```
+
+### motion-button-state-change-all-200-ease-out
+
+```css
+.page-designer-reference .plpcta { transition: all .2s ease-out; }
+```
+
+### motion-button-state-change-all-200-ease-in-out
+
+```css
+.page-designer-reference .collection-items-wrapper .scroll-to-cta.top-sticky { transition: all .2s ease-in-out; }
+```
+
+### motion-navigation-state-change-margin-400-ease
+
+```css
+.page-designer-reference .sticky-sub-nav-container { transition: margin .4s ease 0s; }
+```
+
+### motion-button-state-change-width-800-cubic-bezier-86-0-07-1
+
+```css
+.page-designer-reference .herowithsoldat_images-container-cta { transition: width .8s cubic-bezier(.86,0,.07,1); }
+```
+
+### motion-button-state-change-transform-300-cubic-bezier-175-885-32-1-275
+
+```css
+.page-designer-reference .herowithsoldat_images-container-cta { transition: transform .3s cubic-bezier(.175,.885,.32,1.275); }
+```
+
+### motion-button-state-change-opacity-300-cubic-bezier-175-885-32-1
+
+```css
+.page-designer-reference .herowithsoldat_images-container-cta { transition: opacity .3s cubic-bezier(.175,.885,.32,1); }
+```
+
+### motion-overlay-state-change-all-400-cubic-bezier-165-84-44-1
+
+```css
+.page-designer-reference .modal .close .icon span:first-child:before { transition: all .4s cubic-bezier(.165,.84,.44,1) .6s; }
+```
+
+### motion-overlay-state-change-all-400-cubic-bezier-165-84-44-1
+
+```css
+.page-designer-reference .modal .close .icon span:first-child:after { transition: all .4s cubic-bezier(.165,.84,.44,1) .7s; }
+```
+
+### motion-overlay-state-change-all-400-cubic-bezier-895-03-685-22
+
+```css
+.page-designer-reference .modal .close .icon span:last-child:before { transition: all .4s cubic-bezier(.895,.03,.685,.22) .1s; }
+```
+
+### motion-overlay-state-change-all-400-cubic-bezier-895-03-685-22
+
+```css
+.page-designer-reference .modal .close .icon span:last-child:after { transition: all .4s cubic-bezier(.895,.03,.685,.22) 0s; }
+```
+
+### motion-overlay-hover-all-400-cubic-bezier-895-03-685-22
+
+```css
+.page-designer-reference .modal .close:hover .icon span:first-child:before { transition: all .4s cubic-bezier(.895,.03,.685,.22) 0s; }
+```
+
+### motion-overlay-hover-all-400-cubic-bezier-895-03-685-22
+
+```css
+.page-designer-reference .modal .close:hover .icon span:first-child:after { transition: all .4s cubic-bezier(.895,.03,.685,.22) .1s; }
+```
+
+### motion-overlay-hover-all-400-cubic-bezier-165-84-44-1
+
+```css
+.page-designer-reference .modal .close:hover .icon span:last-child:before { transition: all .4s cubic-bezier(.165,.84,.44,1) .7s; }
+```
+
+### motion-overlay-hover-all-400-cubic-bezier-165-84-44-1
+
+```css
+.page-designer-reference .modal .close:hover .icon span:last-child:after { transition: all .4s cubic-bezier(.165,.84,.44,1) .6s; }
+```
+
+### motion-component-load-animation-5000-linear
+
+```css
+.page-designer-reference .add-to-basket-alert { animation: fade 5s linear forwards; }
+```
+
+### motion-component-state-change-color-200-ease-out
+
+```css
+.ais-Breadcrumb-link { transition: color .2s ease-out; }
+```
+
+### motion-navigation-state-change-color-200-ease-out
+
+```css
+.ais-HierarchicalMenu-link { transition: color .2s ease-out; }
+```
+
+### motion-navigation-state-change-color-200-ease-out
+
+```css
+.ais-Menu-link { transition: color .2s ease-out; }
+```
+
+### motion-component-state-change-color-200-ease-out
+
+```css
+.ais-Pagination-link { transition: color .2s ease-out; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

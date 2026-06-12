@@ -10,6 +10,7 @@
 - header Gumball 3000 Latest Creations Limited Editions | rect=1440x40@0,1022 | display=flex; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=fontSans, "fontSans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=14px; fontWeight=400; lineHeight=21px; padding=0px 80px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - header Four collections for free spirits Ulysse Nardin is the independent and integrated Swiss ma | rect=1280x84@80,2067 | display=flex; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=fontSans, "fontSans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 1, image count 18, document height 6168.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -54,8 +55,8 @@
 - li Marine | rect=1x21@-1,44 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=fontSans, "fontSans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Classico | rect=1x21@-1,65 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=fontSans, "fontSans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li All watches | rect=1x21@-1,86 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px solid rgb(226, 232, 240); fontFamily=fontSans, "fontSans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; fontSize=14px; fontWeight=400; lineHeight=21px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 1000px; 1000px; 1000px; 20px; 20px; 20px; 20px; 20px; 20px; 20px; 20px; 20px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 1000px; 1000px; 1000px; 20px; 20px; 20px; 20px; 20px; 20px; 20px; 20px; 20px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Watches About Us Services

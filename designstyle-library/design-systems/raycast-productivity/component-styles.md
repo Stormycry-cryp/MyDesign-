@@ -4,6 +4,7 @@
 
 ### Style Evidence
 - navigation count 0, image count 1, document height 15486.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -27,6 +28,9 @@
 ## Card
 
 ### Style Evidence
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px; source: Layout Geometry And Spacing
 - 16px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 6px; 8px
 - border radii samples recorded below.
 
@@ -53,7 +57,7 @@
 
 ### Style Evidence
 - Button Download | hover={'backgroundColor': 'rgb(252, 252, 252)', 'boxShadow': 'rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px'} | focus={'backgroundColor': 'rgb(252, 252, 252)', 'boxShadow': 'rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px'}
-- Form ds-form-1 | hover={'border': '1px solid rgba(255, 255, 255, 0.184)', 'borderBottom': '1px solid rgba(255, 255, 255, 0.184)', 'borderLeft': '1px solid rgba(255, 255, 255, 0.184)', 'borderRight': '1px solid rgba(255, 255, 255, 0.184)', 'borderTop': '1px solid rgba(255, 255, 255, 0.184)'} | focus={'border': '1px solid rgba(255, 255, 255, 0.2)', 'borderBottom': '1px solid rgba(255, 255, 255, 0.2)', 'borderLeft': '1px solid rgba(255, 255, 255, 0.2)', 'borderRight': '1px solid rgba(255, 255, 255, 0.2)', 'borderTop': '1px solid rgba(255, 255, 255, 0.2)'}
+- Form ds-form-1 | hover={'border': '1px solid rgba(255, 255, 255, 0.184)', 'borderBottom': '1px solid rgba(255, 255, 255, 0.184)', 'borderLeft': '1px solid rgba(255, 255, 255, 0.184)', 'borderRight': '1px solid rgba(255, 255, 255, 0.184)', 'borderTop': '1px solid rgba(255, 255, 255, 0.184)'} | focus={'border': '1px solid rgba(255, 255, 255, 0.184)', 'borderBottom': '1px solid rgba(255, 255, 255, 0.184)', 'borderLeft': '1px solid rgba(255, 255, 255, 0.184)', 'borderRight': '1px solid rgba(255, 255, 255, 0.184)', 'borderTop': '1px solid rgba(255, 255, 255, 0.184)'}
 - Form ds-form-2 | hover={'cursor': 'pointer'} | focus={'cursor': 'pointer'}
 - infer only when backed by transition/animation evidence or visible screenshot states.
 

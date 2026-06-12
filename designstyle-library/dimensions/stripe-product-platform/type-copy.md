@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。; 金融基础设施，托举营收增长。无论您是刚刚起步，还是已达百亿规模，我们帮助您在全球范围内接受付款、提供金融服务，并实施定制化营收模式。; H2 灵活的解决方案，适配各种业务模式。; 全球商务的 支柱; 赋能各种规模的企业。; 可靠、可扩展的基础设施，适配任何技术栈。; 最新动态; navigation 定价; 登录 登录; 联系销售; Stripe 大型企业解决方案; Stripe 初创企业解决方案; Stripe 平台企业解决方案
+  - Sentence rhythm: 82 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Stripe | 金融基础设施，托举营收增长; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://stripe.com/zh-hk
   - Page title: Stripe | 金融基础设施，托举营收增长
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

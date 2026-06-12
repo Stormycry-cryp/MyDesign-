@@ -30,6 +30,17 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7736}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 400x24; 568x53.; source: Layout Geometry And Spacing
+- Observed border radii: 4px; 4px; 4px; 50%; 4px; 50%; 50%; 50%; 4px; 4px; 50%; 4px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7736}; source: Dimension And Ratio System
+- Observed media ratios: 400:24; 568:53; source: Dimension And Ratio System
+- JavaScript/runtime motion evidence: *{padding:0;margin:0;box-sizing:border-box}.is-motion-disabled :not(.swiper-wrapper):not(.map-marker):not(.drawer-container):not(.stats-trim-images img):not(svg):not(path):not(g):n; source: Motion Code And Runtime Evidence
+- navigation state-change motion uses 300ms ease-in-out; source: motion.json
+- button state-change motion uses 300ms ease-in-out; source: motion.json
+- card state-change motion uses 300ms ease-in-out; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://lucidmotors.com/
 - Page title: Home | Lucid Motors
@@ -41,9 +52,7 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - H1 observed: Lucid Gravity Named 2026 World Luxury Car of the Year; Lucid Air Pure Named to Car and Driver’s 10Best list for the Third Straight Year
 - H2 samples: A New Standard of Electric Excellence; Technology that drives sustainability.; Lucid Stories; Stay up to Speed on the latest at Lucid.; We respect your privacy
 - Navigation samples: Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE
-- Images observed: Company Logo 400x24 https://cdn.cookielaw.org/logos/dd23153e-c583-47e6-9054-4ed77b637cb4/d4014dd7-e329-41cb-a78c-5ca8b5dd1e30/492ffc66-93c9-42ab-9dce-2b54c6e7fd65/Logo-Lucid-light.; Powered by Onetrust 568x53 https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
 - Video observed: https://videos.ctfassets.net/5ky6szwjj7ya/2rrnWPEbxVNzYQcxb8J124/bb04f07e8902c479eb361d7b8c9ea9c5/LM26-179a_GravityLoop_Homepage_Desktop.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/5yVLnA5NbaPFr6qyP3gGYB/4926fe3b9da56e5959db5d8f15c1ad12/LM26-179a_GravityLoop_Homepage_Mobile.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/4IPPQPuiApBgUlYvpk4KKB/1425fa27b46ec827e6e035d447ddfaa3/LM26-179a_GravityLoop_Homepage_Tablet.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/2rrnWPEbxVNzYQcxb8J124/bb04f07e8902c479eb361d7b8c9ea9c5/LM26-179a_GravityLoop_Homepage_Desktop.mp4?q=50; https://videos.ctfassets.net/5ky6szwjj7ya/2roWwxqzud2rZIHM98ewLI/67fe990d87578a4ec07892d50680ed48/LM26-041_C_PyramidLake_Air_WebLoopB_05s_Desktop.mp4?q=50
-- Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 
 ## Visual System
 - Layout: infer from screenshot and viewport; primary page text sample starts `SKIP TO MAIN CONTENT Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers Lucid Air Lucid Gravity Pre-Owned Discover DEMO DRIVE US Lucid Gravity Named 2026 World Luxury Car of the Year The experts have spoken. Lucid Gravity is 2`.
@@ -60,6 +69,12 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Lucid Gravity Named 2026 World Luxury Car of the Year; Lucid Air Pure Named to Car and Driver’s 10Best list for the Third Straight Year; H2 A New Standard of Electric Excellence; Technology that drives sustainability.; Lucid Stories; Stay up to Speed on the latest at Lucid.; We respect your privacy; navigation Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE
+- Sentence rhythm: 106 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Home | Lucid Motors; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(15, 15, 15); A:rgb(0, 0, 0):rgb(255, 255, 255); HEADER:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(215, 190, 150); H3:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(215, 190, 150)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +86,12 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - Media/card aspect stability: image natural sizes include 400x24; 568x53.
 - Observed border radii: 4px; 4px; 4px; 50%; 4px; 50%; 50%; 50%; 4px; 4px; 50%; 4px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 4px; 4px; 4px; 50%; 4px; 50%; 50%; 50%; 4px; 4px; 50%; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons SKIP TO MAIN CONTENT; SKIP TO MAIN CONTENT; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE; DEMO DRIVE; US; US; BUILD & ORDER; BUILD & ORDER; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 7736}
 - Observed media ratios: 400:24; 568:53
@@ -79,7 +100,6 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - Do not translate these references into free-floating cards; record the page grid and media proportions before styling details.
 
 ## Assets
-- Image style: Company Logo; Powered by Onetrust
 - Illustration/icon style: inspect screenshot; automated pass records image sources only.
 - Texture/pattern: inspect screenshot before use.
 - Likely sources or production method: asset URLs/domains in image samples.
@@ -91,25 +111,23 @@ Lucid Motors Official is captured as a luxury automotive, brand retail reference
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://lucidmotors.com/` when L0-L3 evidence is insufficient.
 - Component computed-style evidence: `assets/2026-06-05-lucid-motors-official-component-styles.json`
-- Asset CDN and media loading patterns: https://cdn.cookielaw.org/logos/dd23153e-c583-47e6-9054-4ed77b637cb4/d4014dd7-e329-41cb-a78c-5ca8b5dd1e30/492ffc66-93c9-42ab-9dce-2b54c6e7fd65/Logo-Lucid-light.png; https://cdn.cookielaw.org/logos/static/powered_by_logo.svg
 
 ## Motion
-- Page transitions: fore{content:"";position:absolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;height:100%}.Collapse_animatedIcon__Fylsn:after{top:.4375rem;l, after,.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transform:rotate(90deg)}.Collapse_animatedIcon__Fylsn.Collapse_is, e;outline:none;display:flex;align-items:center;justify-content:center;transition:all .3s ease-in-out;padding:0;cursor:pointer;text-decoration:none;width:-moz-max-content!important;width:max-content!important}.IconButton_button__9G
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
 - Scroll/entrance behavior: not proven in automated pass
-- Timing/easing: 8)}.Collapse_dark-gradient-1__qLmxv,.Collapse_gradient-1__X1mIn{color:linear-gradient(180deg,#0F0F0F -31.25%,rgba(0,0,0,0))}.Collapse_light-primary-1__iw3uo{color:#d7be96}.Collapse_light-primary-2__vflRB{co, 8__qiRIR{color:rgba(0,0,0,.8)}.Collapse_light-gradient-1__fQfpE{color:linear-gradient(180deg,#0F0F0F -31.25%,rgba(0,0,0,0))}.Collapse_wrapper__w1_w8:hover{color:var(--color-white)}.Collapse_heading__L4ku7{d, bsolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;height:100%}.Collapse_animatedIcon__Fylsn:after{top:.4375rem;l, on__Fylsn.Collapse_isExpanded__evwqB:before{transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transform:rotate(90deg)}.Collapse_animatedIcon__Fylsn.Collapse_is, ba(0,0,0,.8)}.Box_dark-gradient-1__m375q,.Box_gradient-1__peiSq{color:linear-gradient(180deg,#0F0F0F -31.25%,rgba(0,0,0,0))}.Box_light-primary-1__Pcf70{color:#d7be96}.Box_light-primary-2__ElNq3{color:#dbd4c
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: fore{content:"";position:absolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;heigh; after,.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transfor; e;outline:none;display:flex;align-items:center;justify-content:center;transition:all .3s ease-in-out;padding:0;cursor:pointer;text-decoration:none;width:-moz-max-content!important;; adding:6px}.IconButton_circle___QbmL,.IconButton_iconContainer__grPYl{transition:all .3s ease-in-out}.IconButton_dark_brand_primary__lGDDU{background-color:#d7be96}.IconButton_dark; space-between;border-radius:4px;opacity:0;position:absolute;z-index:0;transition:transform .3s ease,opacity .3s ease,bottom .3s ease,top .3s ease;pointer-events:auto;width:100%}@me; {content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;animation:Skeleton_shimmer__g07_L 2s infinite}.Skeleton_scale__NqJTz{transform:scaleY(.8)}.Typography_dark-pri; _Fsi_n,.NavDrawer_navDrawer__3ChQl .NavDrawer_languagesWrapper__eHxoY{animation:NavDrawer_reveal__POYFO .875s}.NavDrawer_navDrawer__3ChQl .NavDrawer_navCard__efZdn:first-of-type,.N; Drawer_navDrawer__3ChQl .NavDrawer_regionWrapper__WLhTj:first-of-type{animation:NavDrawer_reveal__POYFO 1s}.NavDrawer_navDrawer__3ChQl .NavDrawer_drawerLink__Kaezs:first-child{anim
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, keyframes, reduced_motion, swiper, transform, transition
-- Public CSS/JS motion snippets: fore{content:"";position:absolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;heigh; after,.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transfor; e;outline:none;display:flex;align-items:center;justify-content:center;transition:all .3s ease-in-out;padding:0;cursor:pointer;text-decoration:none;width:-moz-max-content!important;; adding:6px}.IconButton_circle___QbmL,.IconButton_iconContainer__grPYl{transition:all .3s ease-in-out}.IconButton_dark_brand_primary__lGDDU{background-color:#d7be96}.IconButton_dark; space-between;border-radius:4px;opacity:0;position:absolute;z-index:0;transition:transform .3s ease,opacity .3s ease,bottom .3s ease,top .3s ease;pointer-events:auto;width:100%}@me; {content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;animation:Skeleton_shimmer__g07_L 2s infinite}.Skeleton_scale__NqJTz{transform:scaleY(.8)}.Typography_dark-pri; _Fsi_n,.NavDrawer_navDrawer__3ChQl .NavDrawer_languagesWrapper__eHxoY{animation:NavDrawer_reveal__POYFO .875s}.NavDrawer_navDrawer__3ChQl .NavDrawer_navCard__efZdn:first-of-type,.N; Drawer_navDrawer__3ChQl .NavDrawer_regionWrapper__WLhTj:first-of-type{animation:NavDrawer_reveal__POYFO 1s}.NavDrawer_navDrawer__3ChQl .NavDrawer_drawerLink__Kaezs:first-child{anim; }.NavDrawer_navDrawer__3ChQl .NavDrawer_drawerLink__Kaezs:first-child{animation:NavDrawer_reveal__POYFO var(--drawerLink-delay-1,0s)}.NavDrawer_navDrawer__3ChQl .NavDrawer_navCard_; rawer_navDrawer__3ChQl .NavDrawer_regionWrapper__WLhTj:nth-of-type(2){animation:NavDrawer_reveal__POYFO 1.125s}.NavDrawer_navDrawer__3ChQl .NavDrawer_drawerLink__Kaezs:nth-child(2)
-- Exact motion parameters: fore{content:"";position:absolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;heigh; after,.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transfor; e;outline:none;display:flex;align-items:center;justify-content:center;transition:all .3s ease-in-out;padding:0;cursor:pointer;text-decoration:none;width:-moz-max-content!important;; {content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;animation:Skeleton_shimmer__g07_L 2s infinite}.Skeleton_scale__NqJTz{transform:scaleY(.8)}.Typography_dark-pri; _Fsi_n,.NavDrawer_navDrawer__3ChQl .NavDrawer_languagesWrapper__eHxoY{animation:NavDrawer_reveal__POYFO .875s}.NavDrawer_navDrawer__3ChQl .NavDrawer_navCard__efZdn:first-of-type,.N; Drawer_navDrawer__3ChQl .NavDrawer_regionWrapper__WLhTj:first-of-type{animation:NavDrawer_reveal__POYFO 1s}.NavDrawer_navDrawer__3ChQl .NavDrawer_drawerLink__Kaezs:first-child{anim; 8)}.Collapse_dark-gradient-1__qLmxv,.Collapse_gradient-1__X1mIn{color:linear-gradient(180deg,#0F0F0F -31.25%,rgba(0,0,0,0))}.Collapse_light-primary-1__iw3uo{color:#d7be96}.Collapse; 8__qiRIR{color:rgba(0,0,0,.8)}.Collapse_light-gradient-1__fQfpE{color:linear-gradient(180deg,#0F0F0F -31.25%,rgba(0,0,0,0))}.Collapse_wrapper__w1_w8:hover{color:var(--color-white)}; bsolute;background-color:var(--color-white);transition:transform .35s ease-in-out}.Collapse_animatedIcon__Fylsn:before{top:0;left:.4375rem;width:1px;height:100%}.Collapse_animatedI; n-out}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:before{transform:rotate(90deg)}.Collapse_animatedIcon__Fylsn.Collapse_isExpanded__evwqB:after{transform:rotate(180deg
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - JavaScript/runtime motion evidence: *{padding:0;margin:0;box-sizing:border-box}.is-motion-disabled :not(.swiper-wrapper):not(.map-marker):not(.drawer-container):not(.stats-trim-images img):not(svg):not(path):not(g):n
 - Stylesheet evidence: https://lucidmotors.com/_next/static/css/c35dc28fa426fcf5.css; https://lucidmotors.com/_next/static/css/b7518e415ba91fa4.css; https://lucidmotors.com/_next/static/css/7695ee080611cc13.css; https://lucidmotors.com/_next/static/css/c979cb0beec1a1d0.css; https://lucidmotors.com/_next/static/css/3d520263b18a3988.css; https://lucidmotors.com/_next/static/css/85014f23cc76f089.css; https://lucidmotors.com/_next/static/css/0419b2c973990a90.css; https://lucidmotors.com/_next/static/css/b207f7b6f681dc80.css
 - Interpreted motion tags: hero media, hover states, scroll reveals
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-
+- Exact motion parameters: navigation state-change color 300ms ease-in-out; navigation state-change color 300ms ease-in-out; navigation state-change color 300ms ease-in-out; navigation state-change color 300ms ease-in-out; button state-change color 300ms ease-in-out; button state-change color 300ms ease-in-out; button state-change color 300ms ease-in-out; button state-change color 300ms ease-in-out
 ## Interaction And Components
 - Navigation: Lucid Gravity Touring: 0% APR* and up to $6K with qualifying trade in**. View Offers; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE
 - Buttons/links: SKIP TO MAIN CONTENT; SKIP TO MAIN CONTENT; Lucid Air; Lucid Gravity; Pre-Owned; Discover; DEMO DRIVE; DEMO DRIVE; US; US; BUILD & ORDER; BUILD & ORDER

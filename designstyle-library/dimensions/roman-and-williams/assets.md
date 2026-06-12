@@ -19,14 +19,13 @@
   - Navigation samples: GUILD SHOP; BUILDINGS AND INTERIORS; RESTAURANTS; WORLD OF RW; SEARCH; CART (0)
   - Images observed: one full-width street-sign hero still; one secondary table-setting image entering below the fold
   - Video observed: one hero-adjacent MP4 resource was exposed in probe output, but the accepted screenshot reads as still imagery
-  - Overlays or fixed elements: cookie prompt was dismissed successfully during probe; accepted screenshot is clean
 - Asset loading:
   - Framework/runtime hints: Shopify storefront runtime was visible in the probe output
   - Public stylesheet/script URLs: no reliable stylesheet list captured in the successful probe; deeper formal extraction later timed out
   - CSS variables/tokens observed: missing evidence
   - Layout primitives observed: sticky or fixed commerce header over full-width hero inferred from screenshot
   - Component or class naming clues: missing evidence
-  - Component computed-style evidence: `assets/2026-06-08-roman-and-williams-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-roman-and-williams-component-styles.json`
   - Asset CDN and media loading patterns: one Shopify-hosted video URL was observed during probe
 
 ## Inference

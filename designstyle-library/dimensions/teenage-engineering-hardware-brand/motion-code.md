@@ -1,42 +1,46 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leav, se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#fff;background-color:var(--, ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (width>=768px){._add_1lf02_73{width:var(--add-icon-size);heig
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}, dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leav, top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#fff;background-color:var(--, -spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{border:var(--spinner-border) solid var(--
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; p:calc(var(--tile-padding) * 1.5);color:var(--te-black);grid-area:buy;transition:transform .25s,opacity .15s}._secondary_1lf02_106 ._add-to-cart_1lf02_146 svg>*>*{stroke:none}._sec; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; n-checkout__payment-method{border-radius:0!important}}img{color:#0000}@keyframes bulge{0%{transform:scale(1)}50%{transform:scale(1.25)}to{transform:scale(1)}}.bag-animation{transfo; @keyframes _load_hiku9_1{0%{transform:rotate(0)}to{transform:rotate(360deg)}}._spinner_hiku9_11{--spinner-size:calc(.0714286 * var(--client-width));--spin
-  - Public CSS/JS probe keywords: animation, easing, keyframes, transform, transition
-  - Public CSS/JS motion snippets: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; p:calc(var(--tile-padding) * 1.5);color:var(--te-black);grid-area:buy;transition:transform .25s,opacity .15s}._secondary_1lf02_106 ._add-to-cart_1lf02_146 svg>*>*{stroke:none}._sec; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; n-checkout__payment-method{border-radius:0!important}}img{color:#0000}@keyframes bulge{0%{transform:scale(1)}50%{transform:scale(1.25)}to{transform:scale(1)}}.bag-animation{transfo; @keyframes _load_hiku9_1{0%{transform:rotate(0)}to{transform:rotate(360deg)}}._spinner_hiku9_11{--spinner-size:calc(.0714286 * var(--client-width));--spin; nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._mes
-  - Exact motion parameters: ius:var(--message-border-radius);box-shadow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering; se-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0); ;height:var(--add-icon-size);margin-top:var(--space-xs);grid-area:buy;transition:transform .25s,opacity .15s}._add_1lf02_73 svg{stroke-width:.02vw;width:100%;height:100%}@media (wi; le(1.25)}to{transform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; der-top:var(--spinner-border) solid var(--te-white);border-radius:50%;animation:1s linear infinite _load_hiku9_1;position:absolute}@media (width>=768px){._spinner_hiku9_11:after{bo; nsform:scale(1)}}.bag-animation{transform-origin:32.5%;animation:.25s ease-in-out alternate bulge}; dow:var(--message-box-shadow);transition:box-shadow .2s,transform .2s ease-out;position:absolute;top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._mes; top:0}._message_1yt6t_1[data-state=entering]{transition:transform .2s ease-in}._message_1yt6t_1[data-state=leaving]{box-shadow:none;transform:translateY(0)}._error_1yt6t_58{color:#; eft}.center{text-align:center}.right{text-align:right}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.te-20{font-family:var(--te-20)}.te-40{font-family:var; {text-align:right}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.te-20{font-family:var(--te-20)}.te-40{font-family:var(--te-40)}@font-face{font-family:Uni
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://teenage.engineering/assets/root.QSqwWqQS.css; https://teenage.engineering/assets/app-context.DXURrIqw.css; https://teenage.engineering/assets/form.DWmR17wv.css; https://teenage.engineering/assets/block.2tPiDhcW.css; https://teenage.engineering/assets/flex.C4wW179p.css; https://teenage.engineering/assets/button.B8x4Racb.css; https://teenage.engineering/assets/container.dVm2W4Ta.css; https://teenage.engineering/assets/grid.BPtO4oiR.css
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://teenage.engineering/assets/root.QSqwWqQS.css; https://teenage.engineering/assets/app-context.DXURrIqw.css; https://teenage.engineering/assets/form.DWmR17wv.css; https://teenage.engineering/assets/block.2tPiDhcW.css; https://teenage.engineering/assets/flex.C4wW179p.css; https://teenage.engineering/assets/button.B8x4Racb.css; https://teenage.engineering/assets/container.dVm2W4Ta.css; https://teenage.engineering/assets/grid.BPtO4oiR.css; https://teenage.engineering/assets/image.B2cBDLbL.css; https://teenage.engineering/assets/spinner.CDDf_qcL.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-teenage-engineering-hardware-brand-component-styles.json`
-  - Asset CDN and media loading patterns: https://assets.teenage.engineering/_img/69fb290acbb33728c83adf79_2048.webp; https://assets.teenage.engineering/_img/6a0478c28fa08037d0b1da88_512.webp; https://assets.teenage.engineering/_img/6a048b74e7daa247db147cb4_1024.webp; https://assets.teenage.engineering/_img/6978c061edd4be589c072ea3_2048.webp; https://assets.teenage.engineering/_img/69679fcdc59421146f2da1d5_128.webp; https://assets.teenage.engineering/_img/654e3948255502e470bf2649_128.webp; https://assets.teenage.engineering/_img/65bb545c604563e4f94c9726_128.webp; https://assets.teenage.engineering/_img/691c2c32e6d1b72313eaddae_128.webp
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, transform, transition
-  - Performance/accessibility concerns: heavy media count 34 and scripts 5; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 250ms | 0ms | ease-in-out | 组件load：animation scale(1) -> scale(1)，250ms ease-in-out，load 触发 |
+| component | state-change | transform | 200ms | 0ms | ease-out | 组件state-change：transform，200ms ease-out，state-change 触发 |
+| component | state-change | transform | 200ms | 0ms | ease-in | 组件state-change：transform，200ms ease-in，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，1000ms linear，load 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-teenage-engineering-hardware-brand-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-box-shadow-200-missing lacks easing
+- motion-component-state-change-transform-250-missing lacks easing
+- motion-component-state-change-opacity-150-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-250-ease-in-out
+
+```css
+.bag-animation { animation: .25s ease-in-out alternate bulge; }
+```
+
+### motion-component-state-change-transform-200-ease-out
+
+```css
+._message_1yt6t_1 { transition: transform .2s ease-out; }
+```
+
+### motion-component-state-change-transform-200-ease-in
+
+```css
+._message_1yt6t_1[data-state=entering] { transition: transform .2s ease-in; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+._spinner_hiku9_11:after { animation: 1s linear infinite _load_hiku9_1; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

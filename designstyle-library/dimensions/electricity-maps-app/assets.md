@@ -2,7 +2,6 @@
 
 ## Observed
 - Assets:
-  - Image style: Revisit consent button; https://cdn-cookieyes.com/assets/images/close.svg; Cookieyes logo
   - Illustration/icon style: inspect screenshot; automated pass records image sources only.
   - Texture/pattern: inspect screenshot before use.
   - Likely sources or production method: asset URLs/domains in image samples.
@@ -17,17 +16,15 @@
   - H1 observed: none observed
   - H2 samples: none observed
   - Navigation samples: none observed
-  - Images observed: Revisit consent button 36x36 https://cdn-cookieyes.com/assets/images/revisit.svg; image 10x10 https://cdn-cookieyes.com/assets/images/close.svg; Cookieyes logo 78x13 https://cdn-cookieyes.com/assets/images/poweredbtcky.svg
   - Video observed: none observed
   - Overlays or fixed elements: clicked common overlay buttons Accept; inspect screenshot before final use.
 - Asset loading:
   - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://app.electricitymaps.com/assets/root-DlQXXBi3.css; https://app.electricitymaps.com/assets/maplibre-gl-DNVN2dqC.css; https://widget.intercom.io/widget/trqbz4yj; https://cdn-cookieyes.com/client_data/e8dc92a5b54e1aaf957f6897/banner.js; https://tally.so/widgets/embed.js; https://cdn-cookieyes.com/client_data/e8dc92a5b54e1aaf957f6897/script.js; https://static.cloudflareinsights.com/beacon.min.js; https://yo.electricitymaps.com/array/phc_J175TqtMxgoDEH0Cyf1P9Oa5U9IXIJspzEvfxV16pdn/config.js
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-electricity-maps-app-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn-cookieyes.com/assets/images/revisit.svg; https://cdn-cookieyes.com/assets/images/close.svg; https://cdn-cookieyes.com/assets/images/poweredbtcky.svg
+  - Component computed-style evidence: `assets/2026-06-12-electricity-maps-app-component-styles.json`
+  - Public stylesheet/script URLs: https://app.electricitymaps.com/assets/root-yhNYgnTe.css; https://app.electricitymaps.com/assets/maplibre-gl-DNVN2dqC.css
 
 ## Inference
 - Borrow:

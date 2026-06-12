@@ -18,12 +18,16 @@
     "custom-site",
     "typography-forward"
   ],
-  "component_json_path": "assets/2026-06-08-oma-component-styles.json",
+  "component_json_path": "assets/2026-06-11-oma-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/oma/component-styles.md",
     "moodboard": "design-systems/oma/moodboard.svg",
+    "motion": "design-systems/oma/motion.json",
+    "motion_presets": "design-systems/oma/motion-presets.css",
     "palette": "design-systems/oma/palette.md",
-    "tokens": "design-systems/oma/tokens.json"
+    "tailwind_theme": "design-systems/oma/tailwind.theme.json",
+    "tokens": "design-systems/oma/tokens.json",
+    "variables_css": "design-systems/oma/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/oma/assets.md",
@@ -34,25 +38,56 @@
     "scene": "dimensions/oma/scene.md",
     "type_copy": "dimensions/oma/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "Viewport and document: 1440x1000 visible probe viewport; probe document height reported about 13861px",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed font stack counts: `Arial W01`-style sans roles dominate the probe output; visible scale tiers are roughly 58px / 50px / 38px / 19px / 16px.",
+      "evidence_source": "Typography And Reading Rhythm"
+    },
+    {
+      "decision": "button load motion uses 2000ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 200ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 200ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "reveal viewport motion uses 250ms cubic-bezier(0, 0, 0.25, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "card state-change motion uses 50ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 1300ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "This reference is intentionally scoped to the first desktop viewport because the formal capture timed out and component style capture was unavailable.",
     "Secondary-page evidence is missing.",
     "Code/resource evidence is weak and should be refreshed on demand before implementation-grade reuse."
   ],
   "evidence_strength": {
-    "design_system": "weak",
+    "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "weak",
-    "screenshot": "weak",
+    "motion_code": "strong",
+    "screenshot": "strong",
     "type_copy": "strong"
   },
   "missing_evidence": [
     "Code/resource evidence is weak and should be refreshed on demand before implementation-grade reuse.",
     "Secondary-page evidence is missing.",
-    "This reference is intentionally scoped to the first desktop viewport because the formal capture timed out and component style capture was unavailable.",
-    "design-system evidence is weak",
-    "motion/code evidence is weak",
-    "screenshot evidence is weak"
+    "This reference is intentionally scoped to the first desktop viewport because the formal capture timed out and component style capture was unavailable."
   ],
   "motion_tags": [
     "minimal-motion",

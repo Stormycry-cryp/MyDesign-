@@ -26,7 +26,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-usps-delivers-generational-report-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-usps-delivers-generational-report-component-styles.json`
   - Asset CDN and media loading patterns: https://www.uspsdelivers.com/wp-content/themes/uspsdelivers/media/logo.svg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/timeline_arrow_r.png; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_bg.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide1.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide2.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide3.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_slide4.jpg; https://www.uspsdelivers.com/2020-2021-generational-research-report/img/timeline/home_s1_top.gif
 
 ## Inference

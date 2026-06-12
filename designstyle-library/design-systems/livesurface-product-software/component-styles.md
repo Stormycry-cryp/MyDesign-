@@ -12,7 +12,7 @@
 - a Plans | rect=51.6x32@368.5,1089.7 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Helvetica Now Display W01 Regular"; fontSize=22px; fontWeight=400; lineHeight=27.5px; transition=color 0.25s; transitionDuration=0.25s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Learn | rect=53.7x32@368.5,1117.2 | display=inline; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily="Helvetica Now Display W01 Regular"; fontSize=22px; fontWeight=400; lineHeight=27.5px; transition=color 0.25s; transitionDuration=0.25s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 18, image count 9, document height 15271.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - LiveSurface
@@ -47,7 +47,8 @@
 - li Account | rect=169.3x27.5@1075.5,1010.2 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Helvetica Now Display W01 Regular"; fontSize=22px; fontWeight=400; lineHeight=27.5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - li Download | rect=173.3x27.5@1249.8,1010.2 | display=list-item; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Helvetica Now Display W01 Regular"; fontSize=22px; fontWeight=400; lineHeight=27.5px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - article The fastest way to find and create portfolio-ready mockups. The all-new LiveSurface Drag a | rect=1440x13692.5@0,1000 | display=block; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Helvetica Now Display W01 Regular"; fontSize=22px; fontWeight=400; lineHeight=27.5px; padding=150px 0px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Home

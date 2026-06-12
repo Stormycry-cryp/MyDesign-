@@ -4,7 +4,7 @@
 - Components:
   - Navigation: none observed
   - Buttons/links: none observed
-  - Computed component styles: `assets/2026-06-04-buffet-digital-agency-component-styles.json`
+  - Computed component styles: `assets/2026-06-12-buffet-digital-agency-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-buffet-digital-agency-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-12-buffet-digital-agency-component-styles.json`
   - Asset CDN and media loading patterns: https://www.buffet.digital/_next/static/media/logo-white.781ba3a0.svg; https://www.buffet.digital/_next/static/media/indigenous-flag.df10a2eb.svg; https://www.buffet.digital/_next/static/media/logo-black.399b42e3.svg; https://www.buffet.digital/_next/image?url=https%3A%2F%2Fadmin.buffet.digital%2Fwp-content%2Fuploads%2F2022%2F08%2Fbig-mood-1600x900.jpg&w=1920&q=75; https://www.buffet.digital/_next/image?url=https%3A%2F%2Fadmin.buffet.digital%2Fwp-content%2Fuploads%2F2025%2F06%2F12-1-1600x900.png&w=1920&q=75; https://www.buffet.digital/_next/image?url=https%3A%2F%2Fadmin.buffet.digital%2Fwp-content%2Fuploads%2F2025%2F06%2F11-1-1600x900.png&w=1920&q=75; https://www.buffet.digital/_next/image?url=https%3A%2F%2Fadmin.buffet.digital%2Fwp-content%2Fuploads%2F2025%2F06%2F9-1-1600x900.png&w=1920&q=75; https://www.buffet.digital/_next/image?url=https%3A%2F%2Fadmin.buffet.digital%2Fwp-content%2Fuploads%2F2025%2F06%2F10-1-1600x900.png&w=1920&q=75
 
 ## Inference

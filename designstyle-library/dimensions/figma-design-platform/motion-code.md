@@ -1,42 +1,212 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: i(485));if(null!==(e=n.action)){var a={payload:l,action:e,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(e){a.listeners.push(e)}};null!==O.T?t(!0):a.isTransition=!1,r(a),null===(t=n.pending)?(a.next=n.pending=a,aE(n,a)):(a.next=t.next,n., ucer:l6,useRef:l6,useState:l6,useDebugValue:l6,useDeferredValue:l6,useTransition:l6,useSyncExternalStore:l6,useId:l6,useHostTransitionStatus:l6,useFormState:l6,useActionState:l6,useOptimistic:l6,useMemoCache:l6,useCacheRefresh:l6},or={readContext:rX,use:as,useCallback:function(e,n){return aa().memoizedState=[e,void 0===n?null:n],e},useContext:rX,useEffect:a, eDebugValue:aB,useDeferredValue:function(e,n){return aK(aa(),e,n)},useTransition:function(){var e=aw(!1);return e=aX.bind(null,lX,e.queue,!0,!1),aa().memoizedState=e,[!1,e]},useSyncExternalStore:function(e,n,t){var r=lX,l
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: n"==typeof WeakMap?new WeakMap:new Map,h=new Set,g="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;E(t.target,e)}},{rootMargin:"200px"}):null;funct, akMap:new Map,h=new Set,g="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;E(t.target,e)}},{rootMargin:"200px"}):null;function m(e,t){void 0!==p.get, or(e)}}),this.pb(),i&&i.Tb()}let t=0,n=0,r=new Map,i=null,a=null;this.requestAnimationFrame=function(i){t||(t=requestAnimationFrame(e.bind(this)));let a=++n;return r.set(a,i),a},this.cancelAnimationFrame=function(e){r.del, ,r=new Map,i=null,a=null;this.requestAnimationFrame=function(i){t||(t=requestAnimationFrame(e.bind(this)));let a=++n;return r.set(a,i),a},this.cancelAnimationFrame=function(e){r.delete(e),t&&0==r.size&&(cancelAnimationFra
-  - Timing/easing: ,t.CLAMP_TO_EDGE),t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MAG_FILTER,t.LINEAR),2==r?(t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MIN_FILTER,t.LINEAR_MIPMAP_LINEAR),t.generateMipmap(t.TEXTURE_2D)):t.texParameteri(, ap(t.TEXTURE_2D)):t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MIN_FILTER,t.LINEAR),i):null};let c=new n(8),h=new n(8),f=new n(10),d=new n(10);this.Qb=function(n,r,i,l,p){if(e()){var m=c.push(n),v=h.push(r);if(t.
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: i(485));if(null!==(e=n.action)){var a={payload:l,action:e,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(e){a.listeners.push(e)}};null; ucer:l6,useRef:l6,useState:l6,useDebugValue:l6,useDeferredValue:l6,useTransition:l6,useSyncExternalStore:l6,useId:l6,useHostTransitionStatus:l6,useFormState:l6,useActionState:l6,us; eDebugValue:aB,useDeferredValue:function(e,n){return aK(aa(),e,n)},useTransition:function(){var e=aw(!1);return e=aX.bind(null,lX,e.queue,!0,!1),aa().memoizedState=e,[!1,e]},useSyn; eDeferredValue:function(e,n){return aY(ao(),lG.memoizedState,e,n)},useTransition:function(){var e=ad(af)[0],n=ao().memoizedState;return["boolean"==typeof e?e:ai(e),n]},useSyncExter; {var t=ao();return null===lG?aK(t,e,n):aY(t,lG.memoizedState,e,n)},useTransition:function(){var e=am(af)[0],n=ao().memoizedState;return["boolean"==typeof e?e:ai(e),n]},useSyncExter; s":{},"browser":{"fs":false,"path":false}}')},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(; .d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(e,t,n,r){this.animation=e,this.artboard=t,this.playing=r,this.lo; ==n.loopValue&&n.loopCount?(this.eventManager.fire({type:i.Loop,data:{animation:n.name,type:a.Loop}}),n.loopCount=0):2===n.loopValue&&n.loopCount>1&&(this.eventManager.fire({type:i
-  - Public CSS/JS probe keywords: animation, easing, intersection, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: i(485));if(null!==(e=n.action)){var a={payload:l,action:e,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(e){a.listeners.push(e)}};null; ucer:l6,useRef:l6,useState:l6,useDebugValue:l6,useDeferredValue:l6,useTransition:l6,useSyncExternalStore:l6,useId:l6,useHostTransitionStatus:l6,useFormState:l6,useActionState:l6,us; eDebugValue:aB,useDeferredValue:function(e,n){return aK(aa(),e,n)},useTransition:function(){var e=aw(!1);return e=aX.bind(null,lX,e.queue,!0,!1),aa().memoizedState=e,[!1,e]},useSyn; eDeferredValue:function(e,n){return aY(ao(),lG.memoizedState,e,n)},useTransition:function(){var e=ad(af)[0],n=ao().memoizedState;return["boolean"==typeof e?e:ai(e),n]},useSyncExter; {var t=ao();return null===lG?aK(t,e,n):aY(t,lG.memoizedState,e,n)},useTransition:function(){var e=am(af)[0],n=ao().memoizedState;return["boolean"==typeof e?e:ai(e),n]},useSyncExter; s":{},"browser":{"fs":false,"path":false}}')},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(; .d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(e,t,n,r){this.animation=e,this.artboard=t,this.playing=r,this.lo; ==n.loopValue&&n.loopCount?(this.eventManager.fire({type:i.Loop,data:{animation:n.name,type:a.Loop}}),n.loopCount=0):2===n.loopValue&&n.loopCount>1&&(this.eventManager.fire({type:i; .loopValue&&n.loopCount>1&&(this.eventManager.fire({type:i.Loop,data:{animation:n.name,type:a.PingPong}}),n.loopCount=0)}},e.prototype.handleStateChanges=function(){for(var e=[],t=; ,t.CLAMP_TO_EDGE),t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MAG_FILTER,t.LINEAR),2==r?(t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MIN_FILTER,t.LINEAR_MIPMAP_LINEAR),t.generateMipmap(t.TEX
-  - Exact motion parameters: i(485));if(null!==(e=n.action)){var a={payload:l,action:e,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(e){a.listeners.push(e)}};null; ucer:l6,useRef:l6,useState:l6,useDebugValue:l6,useDeferredValue:l6,useTransition:l6,useSyncExternalStore:l6,useId:l6,useHostTransitionStatus:l6,useFormState:l6,useActionState:l6,us; eDebugValue:aB,useDeferredValue:function(e,n){return aK(aa(),e,n)},useTransition:function(){var e=aw(!1);return e=aX.bind(null,lX,e.queue,!0,!1),aa().memoizedState=e,[!1,e]},useSyn; s":{},"browser":{"fs":false,"path":false}}')},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(; .d(t,{Animation:()=>r.Animation});var r=n(4)},(e,t,n)=>{n.r(t),n.d(t,{Animation:()=>r});var r=function(){function e(e,t,n,r){this.animation=e,this.artboard=t,this.playing=r,this.lo; ==n.loopValue&&n.loopCount?(this.eventManager.fire({type:i.Loop,data:{animation:n.name,type:a.Loop}}),n.loopCount=0):2===n.loopValue&&n.loopCount>1&&(this.eventManager.fire({type:i; ,t.CLAMP_TO_EDGE),t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MAG_FILTER,t.LINEAR),2==r?(t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MIN_FILTER,t.LINEAR_MIPMAP_LINEAR),t.generateMipmap(t.TEX; ap(t.TEXTURE_2D)):t.texParameteri(t.TEXTURE_2D,t.TEXTURE_MIN_FILTER,t.LINEAR),i):null};let c=new n(8),h=new n(8),f=new n(10),d=new n(10);this.Qb=function(n,r,i,l,p){if(e()){var m=c; g save().";this.S.splice(e),this.H.push(this.C.restore.bind(this.C))},transform:function(e,t,n,r,i,a){let o=this.S,s=o.length-6;o.splice(s,6,o[s]*e+o[s+2]*t,o[s+1]*e+o[s+3]*t,o[s]*; nbutton,\ninput { \n overflow: visible;\n}\nbutton,\nselect { \n text-transform: none;\n}\nbutton,\n[type="button"],\n[type="reset"],\n[type="submit"] {\n -webkit-appearance: butto
-  - JavaScript/runtime motion evidence: n"==typeof WeakMap?new WeakMap:new Map,h=new Set,g="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;E(t.targ; akMap:new Map,h=new Set,g="function"==typeof IntersectionObserver?new IntersectionObserver(function(e){for(let t of e){let e=t.intersectionRatio>0;E(t.target,e)}},{rootMargin:"200p; or(e)}}),this.pb(),i&&i.Tb()}let t=0,n=0,r=new Map,i=null,a=null;this.requestAnimationFrame=function(i){t||(t=requestAnimationFrame(e.bind(this)));let a=++n;return r.set(a,i),a},th; ,r=new Map,i=null,a=null;this.requestAnimationFrame=function(i){t||(t=requestAnimationFrame(e.bind(this)));let a=++n;return r.set(a,i),a},this.cancelAnimationFrame=function(e){r.de; apper.prototype.align=function(e,t,n,r,i=1){T.call(this,e,t,n,r,i)},e.requestAnimationFrame=(u=new t).requestAnimationFrame.bind(u),e.cancelAnimationFrame=u.cancelAnimationFrame.bi; ,t,n,r,i=1){T.call(this,e,t,n,r,i)},e.requestAnimationFrame=(u=new t).requestAnimationFrame.bind(u),e.cancelAnimationFrame=u.cancelAnimationFrame.bind(u),e.enableFPSCounter=u.Rb.bi; ion(){this.loaded&&this.artboard&&!this.frameRequestId&&(this.runtime.requestAnimationFrame?this.frameRequestId=this.runtime.requestAnimationFrame(this._boundDraw):this.frameReques
-  - Stylesheet evidence: https://www.figma.com/_netlify/_next/static/css/617e0bc399c83bea.css; https://www.figma.com/_netlify/_next/static/chunks/4bd1b696-be5ceba1b1a33b39.js; https://www.figma.com/_netlify/_next/static/chunks/3914-bacc6efc9625463e.js; https://www.figma.com/_netlify/_next/static/chunks/main-app-4143985a533f2fef.js; https://www.figma.com/_netlify/_next/static/chunks/bf76e631-047ac0aae52ca139.js; https://www.figma.com/_netlify/_next/static/chunks/9104-5a18d21ea507af9e.js; https://www.figma.com/_netlify/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.figma.com/_netlify/_next/static/chunks/5637-6b0134ea41018217.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://www.figma.com/_netlify/_next/static/css/617e0bc399c83bea.css; https://www.figma.com/_netlify/_next/static/chunks/4bd1b696-be5ceba1b1a33b39.js; https://www.figma.com/_netlify/_next/static/chunks/3914-bacc6efc9625463e.js; https://www.figma.com/_netlify/_next/static/chunks/main-app-4143985a533f2fef.js; https://www.figma.com/_netlify/_next/static/chunks/bf76e631-047ac0aae52ca139.js; https://www.figma.com/_netlify/_next/static/chunks/9104-5a18d21ea507af9e.js; https://www.figma.com/_netlify/_next/static/chunks/polyfills-42372ed130431b0a.js; https://www.figma.com/_netlify/_next/static/chunks/5637-6b0134ea41018217.js; https://www.figma.com/_netlify/_next/static/chunks/app/%5Blang%5D/(bespoke)/pricing/page-c700601fcd579052.js; https://player.vimeo.com/api/player.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-figma-design-platform-component-styles.json`
-  - Asset CDN and media loading patterns: https://cdn.sanity.io/images/599r6htc/regionalized/e1ec9de7a44ce0965110a262e0aeda01ec3e48a1-810x456.png?q=75&fit=max&auto=format&dpr=2; https://cdn.sanity.io/images/599r6htc/regionalized/1883a9ebc4ce697b718301ad247c0fff45c572c1-540x304.png?q=75&fit=max&auto=format&dpr=2; https://cdn.sanity.io/images/599r6htc/regionalized/1622439415c22e4475400432eae4619d1592a8bc-71x22.svg?q=75&fit=max&auto=format; https://cdn.sanity.io/images/599r6htc/regionalized/01d4ea19e824b3596f8f6c701d3b8319e49631b0-146x18.svg?q=75&fit=max&auto=format; https://cdn.sanity.io/images/599r6htc/regionalized/c641bb5bbe69c6b42344fd2333924a206ef43736-92x18.svg?q=75&fit=max&auto=format; https://cdn.sanity.io/images/599r6htc/regionalized/5a71b59d697ac81304b7be5bc3adf6d0b75d73db-140x36.svg?q=75&fit=max&auto=format; https://cdn.sanity.io/images/599r6htc/regionalized/a9bfb23cca986ee16b0547274bcd7461ffd373aa-67x18.svg?q=75&fit=max&auto=format; https://cdn.sanity.io/images/599r6htc/regionalized/cc8b81fd47ded1e82d83258e2f674e0951e20fcc-86x18.svg?q=75&fit=max&auto=format
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, intersection, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 10; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| navigation | state-change | borderRadius | 160ms | 0ms | ease-out | 导航state-change：borderRadius 8px -> missing，160ms ease-out，state-change 触发；样本 Contact sales |
+| navigation | state-change | borderRadius | 160ms | 0ms | ease-out | 导航state-change：borderRadius 8px -> missing，160ms ease-out，state-change 触发；样本 Get started for free |
+| button | state-change | translate | 160ms | 0ms | ease-out | 按钮state-change：translate missing -> missing，160ms ease-out，state-change 触发；样本 Contact sales |
+| button | state-change | opacity | 160ms | 0ms | ease-out | 按钮state-change：opacity 0 -> missing，160ms ease-out，state-change 触发；样本 ds-button-5 |
+| button | state-change | translate | 160ms | 0ms | ease-out | 按钮state-change：translate missing -> missing，160ms ease-out，state-change 触发；样本 Get started for free |
+| button | state-change | opacity | 160ms | 0ms | ease-out | 按钮state-change：opacity 0 -> missing，160ms ease-out，state-change 触发；样本 ds-button-8 |
+| button | state-change | translate | 160ms | 0ms | ease-out | 按钮state-change：translate missing -> missing，160ms ease-out，state-change 触发；样本 Get started |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Prompt |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Design |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Draw |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Build |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Publish |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Promote |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Jam |
+| button | state-change | background | 160ms | 0ms | ease-out | 按钮state-change：background missing -> missing，160ms ease-out，state-change 触发；样本 Present |
+| button | state-change | clipPath | 160ms | 0ms | ease-out | 按钮state-change：clipPath missing -> missing，160ms ease-out，state-change 触发；样本 ds-button-24 |
+| button | state-change | clipPath | 160ms | 0ms | ease-out | 按钮state-change：clipPath missing -> missing，160ms ease-out，state-change 触发；样本 ds-button-27 |
+| button | state-change | clipPath | 160ms | 0ms | ease-out | 按钮state-change：clipPath missing -> missing，160ms ease-out，state-change 触发；样本 ds-button-30 |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make anything possible, all in Figma |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make my cursor reveal an image |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make an infinite canvas gallery |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make this design move with a parallax effect |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make these photos rotate in 3D |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make my site squish when scrolled |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make a clock with a shader background |
+| card | state-change | background | 2000ms | 0ms | ease-in-out | 卡片state-change：background missing -> missing，2000ms ease-in-out，state-change 触发；样本 Make text move on a path |
+| component | state-change | opacity | 160ms | 0ms | ease-out | 组件state-change：opacity 0 -> missing，160ms ease-out，state-change 触发；样本 ds-icon-5 |
+| component | state-change | opacity | 160ms | 0ms | ease-out | 组件state-change：opacity 0 -> missing，160ms ease-out，state-change 触发；样本 ds-icon-6 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: missing
 
 ## Missing Evidence
 - None recorded.
+
+## Snippet Appendix
+### motion-navigation-state-change-borderradius-160-ease-out
+
+```css
+{"transition": "border-radius 0.16s ease-out"}
+```
+
+### motion-navigation-state-change-borderradius-160-ease-out
+
+```css
+{"transition": "border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-translate-160-ease-out
+
+```css
+{"transition": "translate 0.16s ease-out"}
+```
+
+### motion-button-state-change-opacity-160-ease-out
+
+```css
+{"transition": "opacity 0.16s ease-out"}
+```
+
+### motion-button-state-change-translate-160-ease-out
+
+```css
+{"transition": "translate 0.16s ease-out"}
+```
+
+### motion-button-state-change-opacity-160-ease-out
+
+```css
+{"transition": "opacity 0.16s ease-out"}
+```
+
+### motion-button-state-change-translate-160-ease-out
+
+```css
+{"transition": "translate 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-background-160-ease-out
+
+```css
+{"transition": "background 0.16s ease-out, border-radius 0.16s ease-out"}
+```
+
+### motion-button-state-change-clippath-160-ease-out
+
+```css
+{"transition": "clip-path 0.16s ease-out"}
+```
+
+### motion-button-state-change-clippath-160-ease-out
+
+```css
+{"transition": "clip-path 0.16s ease-out"}
+```
+
+### motion-button-state-change-clippath-160-ease-out
+
+```css
+{"transition": "clip-path 0.16s ease-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-card-state-change-background-2000-ease-in-out
+
+```css
+{"transition": "background 2s ease-in-out"}
+```
+
+### motion-component-state-change-opacity-160-ease-out
+
+```css
+{"transition": "opacity 0.16s ease-out"}
+```
+
+### motion-component-state-change-opacity-160-ease-out
+
+```css
+{"transition": "opacity 0.16s ease-out"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

@@ -21,8 +21,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/valentino-official/component-styles.md",
     "moodboard": "design-systems/valentino-official/moodboard.svg",
+    "motion": "design-systems/valentino-official/motion.json",
+    "motion_presets": "design-systems/valentino-official/motion-presets.css",
     "palette": "design-systems/valentino-official/palette.md",
-    "tokens": "design-systems/valentino-official/tokens.json"
+    "tailwind_theme": "design-systems/valentino-official/tailwind.theme.json",
+    "tokens": "design-systems/valentino-official/tokens.json",
+    "variables_css": "design-systems/valentino-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/valentino-official/assets.md",
@@ -33,6 +37,44 @@
     "scene": "dimensions/valentino-official/scene.md",
     "type_copy": "dimensions/valentino-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15061}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 300x87; 300x87; 0x0; 300x87; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 28px; 90px; 4px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 15061}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 300:87; 300:87; 300:87",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 28px; 90px; 4px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "card state-change motion uses 500ms linear",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component state-change motion uses 500ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
@@ -41,7 +83,7 @@
   "evidence_strength": {
     "design_system": "strong",
     "layout_spacing": "strong",
-    "motion_code": "strong",
+    "motion_code": "medium",
     "screenshot": "strong",
     "type_copy": "strong"
   },

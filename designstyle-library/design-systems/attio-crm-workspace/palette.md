@@ -3,21 +3,20 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#ffffff` | background | screenshot pixel sample | 0.9308 |
-| `#202020` | foreground | screenshot pixel sample | 0.0111 |
-| `#e0e0f0` | neutral surface | screenshot pixel sample | 0.0047 |
+| `#ffffff` | background | screenshot pixel sample | 0.8858 |
+| `#000000` | foreground | screenshot pixel sample | 0.0491 |
+| `#202020` | foreground | screenshot pixel sample | 0.0107 |
+| `#e0e0f0` | neutral surface | screenshot pixel sample | 0.004 |
+| `#404040` | foreground | screenshot pixel sample | 0.0013 |
+| `#b0b0b0` | neutral surface | screenshot pixel sample | 0.0013 |
 | `#d0d0d0` | neutral surface | screenshot pixel sample | 0.0013 |
-| `#707070` | neutral surface | screenshot pixel sample | 0.0011 |
-| `#a0a0a0` | neutral surface | screenshot pixel sample | 0.001 |
-| `#506060` | foreground | screenshot pixel sample | 0.0007 |
-| `#303040` | deep accent | screenshot pixel sample | 0.0006 |
-| `#b0b0c0` | neutral surface | screenshot pixel sample | 0.0004 |
-| `#808090` | neutral surface | screenshot pixel sample | 0.0004 |
+| `#506060` | foreground | screenshot pixel sample | 0.0009 |
+| `#909090` | neutral surface | screenshot pixel sample | 0.0007 |
+| `#708080` | supporting color | screenshot pixel sample | 0.0007 |
+| `#709ff5` | accent | explicit reference or DOM color |  |
 | `#febe8e` | accent | explicit reference or DOM color |  |
 | `#f9d671` | accent | explicit reference or DOM color |  |
 | `#ffa09f` | accent | explicit reference or DOM color |  |
-| `#709ff5` | accent | explicit reference or DOM color |  |
-| `#000000` | foreground | explicit reference or DOM color |  |
 
 ## Mood Keywords
 - minimal

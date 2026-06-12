@@ -1,0 +1,51 @@
+{
+  "mode": "write",
+  "library": "designstyle-library",
+  "planned": 3,
+  "ok": 3,
+  "partial": 0,
+  "results": [
+    {
+      "reference": "designstyle-library/references/2026-06-04-hex-data-workspace.md",
+      "slug": "hex-data-workspace",
+      "url": "https://hex.tech/",
+      "status": "ok",
+      "reason": "playwright capture ok",
+      "screenshot": "screenshots/hex-data-workspace-desktop.png",
+      "component": "assets/2026-06-11-hex-data-workspace-component-styles.json",
+      "motion": "assets/2026-06-11-hex-data-workspace-motion.json",
+      "component_samples": 137,
+      "state_samples": 1,
+      "motion_items": 0,
+      "blocked_reasons": []
+    },
+    {
+      "reference": "designstyle-library/references/2026-06-04-mercury-financial-dashboard.md",
+      "slug": "mercury-financial-dashboard",
+      "url": "https://mercury.com/",
+      "status": "ok",
+      "reason": "playwright capture ok",
+      "screenshot": "screenshots/mercury-financial-dashboard-desktop.png",
+      "component": "assets/2026-06-11-mercury-financial-dashboard-component-styles.json",
+      "motion": "assets/2026-06-11-mercury-financial-dashboard-motion.json",
+      "component_samples": 104,
+      "state_samples": 1,
+      "motion_items": 52,
+      "blocked_reasons": []
+    },
+    {
+      "reference": "designstyle-library/references/2026-06-03-wiz-cybersecurity-saas.md",
+      "slug": "wiz-cybersecurity-saas",
+      "url": "https://www.wiz.io/",
+      "status": "ok",
+      "reason": "playwright capture ok",
+      "screenshot": "screenshots/wiz-cybersecurity-saas-desktop.png",
+      "component": "assets/2026-06-11-wiz-cybersecurity-saas-component-styles.json",
+      "motion": "assets/2026-06-11-wiz-cybersecurity-saas-motion.json",
+      "component_samples": 125,
+      "state_samples": 1,
+      "motion_items": 48,
+      "blocked_reasons": []
+    }
+  ]
+}

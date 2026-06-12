@@ -3,16 +3,16 @@
 ## Observed Palette
 | Color | Role | Source | Screenshot Share |
 |---|---|---|---|
-| `#000000` | foreground | screenshot pixel sample | 0.631 |
-| `#201010` | deep accent | screenshot pixel sample | 0.0136 |
-| `#f0e0f0` | neutral surface | screenshot pixel sample | 0.0104 |
-| `#807070` | supporting color | screenshot pixel sample | 0.0102 |
-| `#ffffff` | background | screenshot pixel sample | 0.0096 |
-| `#e0d0d0` | neutral surface | screenshot pixel sample | 0.0085 |
-| `#605050` | foreground | screenshot pixel sample | 0.0076 |
-| `#b0a0a0` | neutral surface | screenshot pixel sample | 0.0073 |
-| `#404040` | foreground | screenshot pixel sample | 0.0056 |
-| `#a08090` | supporting color | screenshot pixel sample | 0.0019 |
+| `#000000` | foreground | screenshot pixel sample | 0.8632 |
+| `#202020` | foreground | screenshot pixel sample | 0.0389 |
+| `#404040` | foreground | screenshot pixel sample | 0.0118 |
+| `#707070` | neutral surface | screenshot pixel sample | 0.0031 |
+| `#b0b0b0` | neutral surface | screenshot pixel sample | 0.0015 |
+| `#505060` | foreground | screenshot pixel sample | 0.0011 |
+| `#e0e0e0` | neutral surface | screenshot pixel sample | 0.0003 |
+| `#808090` | neutral surface | screenshot pixel sample | 0.0003 |
+| `#403020` | deep accent | screenshot pixel sample | 0.0002 |
+| `#605040` | deep accent | screenshot pixel sample | 0.0002 |
 | `#e5e5e5` | neutral surface | explicit reference or DOM color |  |
 
 ## Mood Keywords

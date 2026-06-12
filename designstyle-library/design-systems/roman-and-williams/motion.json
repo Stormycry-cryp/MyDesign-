@@ -1,0 +1,1513 @@
+{
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-250-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".product-card",
+      "selector_role": "card",
+      "snippet": ".product-card { transition: transform .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：box-shadow，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-box-shadow-250-ease-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".product-card",
+      "selector_role": "card",
+      "snippet": ".product-card { transition: box-shadow .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-250-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".collection-card",
+      "selector_role": "card",
+      "snippet": ".collection-card { transition: transform .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：box-shadow，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-box-shadow-250-ease-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".collection-card",
+      "selector_role": "card",
+      "snippet": ".collection-card { transition: box-shadow .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-250-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".resource-card",
+      "selector_role": "card",
+      "snippet": ".resource-card { transition: transform .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：box-shadow，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-box-shadow-250-ease-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".resource-card",
+      "selector_role": "card",
+      "snippet": ".resource-card { transition: box-shadow .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-250-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".predictive-search-results__card--product",
+      "selector_role": "card",
+      "snippet": ".predictive-search-results__card--product { transition: transform .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：box-shadow，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-box-shadow-250-ease-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".predictive-search-results__card--product",
+      "selector_role": "card",
+      "snippet": ".predictive-search-results__card--product { transition: box-shadow .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-250-ease-out",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".predictive-search-results__card",
+      "selector_role": "card",
+      "snippet": ".predictive-search-results__card { transition: transform .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：box-shadow，250ms ease-out，state-change 触发",
+      "duration_ms": 250,
+      "easing": "ease-out",
+      "from": "missing",
+      "id": "motion-card-state-change-box-shadow-250-ease-out",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".predictive-search-results__card",
+      "selector_role": "card",
+      "snippet": ".predictive-search-results__card { transition: box-shadow .25s ease-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：opacity，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-button-state-change-opacity-300-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".deferred-media__poster-button.deferred-media__playing",
+      "selector_role": "button",
+      "snippet": ".deferred-media__poster-button.deferred-media__playing { transition: opacity .3s ease; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，300ms ease，state-change 触发",
+      "duration_ms": 300,
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-300-ease",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "deferred-media img",
+      "selector_role": "component",
+      "snippet": "deferred-media img { transition: opacity .3s ease; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background，100ms linear，state-change 触发",
+      "duration_ms": 100,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-component-state-change-background-100-linear",
+      "keyframes": [],
+      "property": "background",
+      "reduced_motion": "missing",
+      "selector": "slideshow-progress[type=full]",
+      "selector_role": "component",
+      "snippet": "slideshow-progress[type=full] { transition: background .1s linear; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/main.css?v=156599647110556810911777977260",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background，200ms ease-in-out，state-change 触发",
+      "duration_ms": 200,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-button-state-change-background-200-ease-in-out",
+      "keyframes": [],
+      "property": "background",
+      "reduced_motion": "missing",
+      "selector": ".shopify-payment-button__button",
+      "selector_role": "button",
+      "snippet": ".shopify-payment-button__button { transition: background .2s ease-in-out; }",
+      "source": "https://romanandwilliams.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，500ms ease-in-out，state-change 触发",
+      "duration_ms": 500,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-500-ease-in-out",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".announcement-bar__slide",
+      "selector_role": "component",
+      "snippet": ".announcement-bar__slide { transition: opacity .5s ease-in-out; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/compiled_assets/styles.css?v=28272906367163963171778768902",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(360deg) -> rotate(360deg)，1000ms linear，load 触发",
+      "duration_ms": 1000,
+      "easing": "linear",
+      "from": "rotate(360deg)",
+      "id": "motion-component-load-animation-1000-linear",
+      "keyframes": [
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(360deg)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".klaviyo-form.klaviyo-form.klaviyo-form .klaviyo-spinner:after",
+      "selector_role": "component",
+      "snippet": ".klaviyo-form.klaviyo-form.klaviyo-form .klaviyo-spinner:after { animation: klaviyo-spinner 1s linear infinite; }",
+      "source": "https://static.klaviyo.com/onsite/js/build-preview/commit-432423e22b4805d16db272ca9249bcfb743ff5ff/532.0e7e190ea756de832333.css",
+      "to": "rotate(360deg)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation rotate(0deg) -> rotate(359deg)，2000ms linear，load 触发",
+      "duration_ms": 2000,
+      "easing": "linear",
+      "from": "rotate(0deg)",
+      "id": "motion-component-load-animation-2000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "-webkit-transform": "rotate(0deg)",
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "100%",
+          "values": {
+            "-webkit-transform": "rotate(359deg)",
+            "transform": "rotate(359deg)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".fa-spin",
+      "selector_role": "component",
+      "snippet": ".fa-spin { animation: fa-spin 2s infinite linear; }",
+      "source": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+      "to": "rotate(359deg)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航hover：style，125ms ease-in-out，hover 触发；样本 GUILD SHOP",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-hover-style-125-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-2\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航focus：style，125ms ease-in-out，focus 触发；样本 GUILD SHOP",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-focus-style-125-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-2\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航hover：color missing -> rgba(0, 0, 0, 1)，125ms ease-in-out，hover 触发；样本 BUILDINGS AND INTERIORS",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-hover-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-3\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgba(0, 0, 0, 1)\", \"borderBottom\": \"0px none rgba(0, 0, 0, 1)\", \"borderLeft\": \"0px none rgba(0, 0, 0, 1)\", \"borderRight\": \"0px none rgba(0, 0, 0, 1)\", \"borderTop\": \"0px none rgba(0, 0, 0, 1)\", \"color\": \"rgba(0, 0, 0, 1)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(0, 0, 0, 1)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航focus：color missing -> rgb(0, 0, 0)，125ms ease-in-out，focus 触发；样本 BUILDINGS AND INTERIORS",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-focus-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-3\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgb(0, 0, 0)\", \"borderBottom\": \"0px none rgb(0, 0, 0)\", \"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航hover：color missing -> rgb(0, 0, 0)，125ms ease-in-out，hover 触发；样本 RESTAURANTS",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-hover-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-4\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgb(0, 0, 0)\", \"borderBottom\": \"0px none rgb(0, 0, 0)\", \"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航focus：color missing -> rgb(0, 0, 0)，125ms ease-in-out，focus 触发；样本 RESTAURANTS",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-focus-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-4\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgb(0, 0, 0)\", \"borderBottom\": \"0px none rgb(0, 0, 0)\", \"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航hover：color missing -> rgba(0, 0, 0, 0.996)，125ms ease-in-out，hover 触发；样本 WORLD OF RW",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-hover-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-5\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgba(0, 0, 0, 0.996)\", \"borderBottom\": \"0px none rgba(0, 0, 0, 0.996)\", \"borderLeft\": \"0px none rgba(0, 0, 0, 0.996)\", \"borderRight\": \"0px none rgba(0, 0, 0, 0.996)\", \"borderTop\": \"0px none rgba(0, 0, 0, 0.996)\", \"color\": \"rgba(0, 0, 0, 0.996)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgba(0, 0, 0, 0.996)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "导航focus：color missing -> rgb(0, 0, 0)，125ms ease-in-out，focus 触发；样本 WORLD OF RW",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-navigation-focus-color-125-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-navigation-5\"]",
+      "selector_role": "navigation",
+      "snippet": "{\"border\": \"0px none rgb(0, 0, 0)\", \"borderBottom\": \"0px none rgb(0, 0, 0)\", \"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\", \"columnGap\": \"2.5px\", \"gap\": \"2.5px\", \"rowGap\": \"2.5px\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：style，125ms ease-in-out，hover 触发；样本 ds-button-2",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-button-hover-style-125-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"transition\": \"color 0.125s ease-in-out\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：style，125ms ease-in-out，focus 触发；样本 ds-button-2",
+      "duration_ms": 125,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-button-focus-style-125-ease-in-out",
+      "keyframes": [],
+      "property": "style",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-2\"]",
+      "selector_role": "button",
+      "snippet": "{\"transition\": \"color 0.125s ease-in-out\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "missing",
+      "trigger": "focus"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮hover：color missing -> rgb(0, 0, 0)，125ms ease-in-out, ease-in-out，hover 触发；样本 LIGHTING",
+      "duration_ms": 125,
+      "easing": "ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-button-hover-color-125-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-5\"]",
+      "selector_role": "button",
+      "snippet": "{\"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "hover"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮focus：color missing -> rgb(0, 0, 0)，125ms ease-in-out, ease-in-out，focus 触发；样本 LIGHTING",
+      "duration_ms": 125,
+      "easing": "ease-in-out, ease-in-out",
+      "from": "missing",
+      "id": "motion-button-focus-color-125-ease-in-out-ease-in-out",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": "[data-designstyle-sample-id=\"ds-button-5\"]",
+      "selector_role": "button",
+      "snippet": "{\"borderLeft\": \"0px none rgb(0, 0, 0)\", \"borderRight\": \"0px none rgb(0, 0, 0)\", \"borderTop\": \"0px none rgb(0, 0, 0)\", \"color\": \"rgb(0, 0, 0)\"}",
+      "source": "playwright computed-style interaction diff",
+      "to": "rgb(0, 0, 0)",
+      "trigger": "focus"
+    }
+  ],
+  "missing": [
+    "motion-component-state-change-text-decoration-color-missing-missing lacks duration_ms",
+    "motion-component-state-change-text-decoration-color-missing-missing lacks easing",
+    "motion-component-state-change-color-missing-missing lacks duration_ms",
+    "motion-component-state-change-color-missing-missing lacks easing",
+    "motion-component-load-animation-150-missing lacks easing",
+    "motion-card-state-change-opacity-missing-missing lacks duration_ms",
+    "motion-card-state-change-opacity-missing-missing lacks easing",
+    "motion-card-state-change-transform-missing-missing lacks duration_ms",
+    "motion-card-state-change-transform-missing-missing lacks easing",
+    "motion-overlay-state-change-backdrop-filter-missing-missing lacks duration_ms",
+    "motion-overlay-state-change-backdrop-filter-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-opacity-missing-missing lacks duration_ms",
+    "motion-overlay-load-opacity-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-button-state-change-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-color-missing-missing lacks easing",
+    "motion-button-state-change-box-shadow-missing-missing lacks duration_ms",
+    "motion-button-state-change-box-shadow-missing-missing lacks easing",
+    "motion-button-state-change-background-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-background-color-missing-missing lacks easing",
+    "motion-button-state-change-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-color-missing-missing lacks easing",
+    "motion-button-state-change-box-shadow-missing-missing lacks duration_ms",
+    "motion-button-state-change-box-shadow-missing-missing lacks easing",
+    "motion-button-state-change-background-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-background-color-missing-missing lacks easing",
+    "motion-button-state-change-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-color-missing-missing lacks easing",
+    "motion-button-state-change-box-shadow-missing-missing lacks duration_ms",
+    "motion-button-state-change-box-shadow-missing-missing lacks easing",
+    "motion-button-state-change-background-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-background-color-missing-missing lacks easing",
+    "motion-button-state-change-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-color-missing-missing lacks easing",
+    "motion-button-state-change-box-shadow-missing-missing lacks duration_ms",
+    "motion-button-state-change-box-shadow-missing-missing lacks easing",
+    "motion-button-state-change-background-color-missing-missing lacks duration_ms",
+    "motion-button-state-change-background-color-missing-missing lacks easing",
+    "motion-component-state-change-transform-missing-missing lacks duration_ms",
+    "motion-component-state-change-transform-missing-missing lacks easing",
+    "motion-component-state-change-transform-missing-missing lacks duration_ms",
+    "motion-component-state-change-transform-missing-missing lacks easing",
+    "motion-component-state-change-transform-missing-missing lacks duration_ms",
+    "motion-component-state-change-transform-missing-missing lacks easing",
+    "motion-button-state-change-transform-missing-missing lacks duration_ms",
+    "motion-button-state-change-transform-missing-missing lacks easing",
+    "motion-overlay-state-change-opacity-missing-missing lacks duration_ms",
+    "motion-overlay-state-change-opacity-missing-missing lacks easing",
+    "motion-button-load-animation-missing-missing lacks duration_ms",
+    "motion-button-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-load-animation-missing-missing lacks duration_ms",
+    "motion-overlay-load-animation-missing-missing lacks easing",
+    "motion-overlay-state-change-transform-missing-missing lacks duration_ms",
+    "motion-overlay-state-change-transform-missing-missing lacks easing",
+    "motion-component-state-change-opacity-missing-missing lacks duration_ms",
+    "motion-component-state-change-opacity-missing-missing lacks easing",
+    "motion-overlay-state-change-transform-missing-missing lacks duration_ms",
+    "motion-overlay-state-change-transform-missing-missing lacks easing",
+    "motion-component-state-change-box-shadow-missing-ease lacks duration_ms",
+    "motion-overlay-viewport-animation-1000-missing lacks easing"
+  ],
+  "noise_filtered": [],
+  "omitted_incomplete": [
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "text-decoration-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "a",
+      "selector_role": "component",
+      "snippet": "a { transition: text-decoration-color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "a",
+      "selector_role": "component",
+      "snippet": "a { transition: color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件load：animation translateY(10px) -> translateY(0)，150ms missing，load 触发",
+      "duration_ms": 150,
+      "easing": "missing",
+      "from": "translateY(10px)",
+      "id": "motion-component-load-animation-150-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(10px)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "::view-transition-new(product-grid)",
+      "selector_role": "component",
+      "snippet": "::view-transition-new(product-grid) { animation: fadeInUp var(--animation-speed) var(--animation-easing) .15s; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translateY(0)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：opacity，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-opacity-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "results-list[initialized] .product-grid__item",
+      "selector_role": "card",
+      "snippet": "results-list[initialized] .product-grid__item { transition: opacity var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "卡片state-change：transform，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-card-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "results-list[initialized] .product-grid__item",
+      "selector_role": "card",
+      "snippet": "results-list[initialized] .product-grid__item { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：backdrop-filter，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-state-change-backdrop-filter-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "backdrop-filter",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-modal::backdrop",
+      "selector_role": "overlay",
+      "snippet": ".dialog-modal::backdrop { transition: backdrop-filter var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation 0 -> 1，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "0",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "margin-top": "var(--padding-sm)",
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "margin-top": "0",
+            "opacity": "1"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-modal[open]",
+      "selector_role": "overlay",
+      "snippet": ".dialog-modal[open] { animation: elementSlideInTop var(--animation-speed) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "1",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：opacity，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-load-opacity-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-modal[open]::backdrop",
+      "selector_role": "overlay",
+      "snippet": ".dialog-modal[open]::backdrop { transition: opacity var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "-webkit-backdrop-filter": "brightness(1)",
+            "backdrop-filter": "brightness(1)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "-webkit-backdrop-filter": "brightness(.75)",
+            "backdrop-filter": "brightness(.75)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-modal[open]::backdrop",
+      "selector_role": "overlay",
+      "snippet": ".dialog-modal[open]::backdrop { animation: backdropFilter var(--animation-speed) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation translateY(0) -> translateY(var(--padding-sm))，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translateY(0)",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(var(--padding-sm))"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-modal.dialog-closing",
+      "selector_role": "overlay",
+      "snippet": ".dialog-modal.dialog-closing { animation: elementSlideOutTop var(--animation-speed) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translateY(var(--padding-sm))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation translate(-100%) -> translate(0)，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translate(-100%)",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(-100%)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translate(0)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-drawer[open]",
+      "selector_role": "overlay",
+      "snippet": ".dialog-drawer[open] { animation: slideInRight var(--animation-speed) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translate(0)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation translate(0) -> translate(var(--custom-transform-to, -100%))，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translate(0)",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translate(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translate(var(--custom-transform-to, -100%))"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-drawer.dialog-closing",
+      "selector_role": "overlay",
+      "snippet": ".dialog-drawer.dialog-closing { animation: slideOutRight var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translate(var(--custom-transform-to, -100%))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button",
+      "selector_role": "button",
+      "snippet": ".button { transition: color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：box-shadow，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-box-shadow-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button",
+      "selector_role": "button",
+      "snippet": ".button { transition: box-shadow var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button",
+      "selector_role": "button",
+      "snippet": ".button { transition: background-color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn",
+      "selector_role": "button",
+      "snippet": ".btn { transition: color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：box-shadow，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-box-shadow-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn",
+      "selector_role": "button",
+      "snippet": ".btn { transition: box-shadow var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".btn",
+      "selector_role": "button",
+      "snippet": ".btn { transition: background-color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button-secondary",
+      "selector_role": "button",
+      "snippet": ".button-secondary { transition: color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：box-shadow，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-box-shadow-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button-secondary",
+      "selector_role": "button",
+      "snippet": ".button-secondary { transition: box-shadow var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".button-secondary",
+      "selector_role": "button",
+      "snippet": ".button-secondary { transition: background-color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "button.shopify-payment-button__button--unbranded",
+      "selector_role": "button",
+      "snippet": "button.shopify-payment-button__button--unbranded { transition: color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：box-shadow，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-box-shadow-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "button.shopify-payment-button__button--unbranded",
+      "selector_role": "button",
+      "snippet": "button.shopify-payment-button__button--unbranded { transition: box-shadow var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：background-color，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-background-color-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "background-color",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "button.shopify-payment-button__button--unbranded",
+      "selector_role": "button",
+      "snippet": "button.shopify-payment-button__button--unbranded { transition: background-color var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".icon-caret svg",
+      "selector_role": "component",
+      "snippet": ".icon-caret svg { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "summary .svg-wrapper",
+      "selector_role": "component",
+      "snippet": "summary .svg-wrapper { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform missing -> rotate(0)，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "summary .icon-plus :is(.horizontal,.vertical)",
+      "selector_role": "component",
+      "snippet": "summary .icon-plus :is(.horizontal,.vertical) { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "rotate(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮state-change：transform missing -> rotate(0)，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-button-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".show-more__button .icon-plus :is(.horizontal,.vertical)",
+      "selector_role": "button",
+      "snippet": ".show-more__button .icon-plus :is(.horizontal,.vertical) { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "rotate(0)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：opacity，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-state-change-opacity-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": "zoom-dialog dialog",
+      "selector_role": "overlay",
+      "snippet": "zoom-dialog dialog { transition: opacity var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "按钮load：animation translateY(0) -> translateY(calc(-1 * var(--padding-sm)))，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translateY(0)",
+      "id": "motion-button-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(calc(-1 * var(--padding-sm)))"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog--closed .close-button",
+      "selector_role": "button",
+      "snippet": ".dialog--closed .close-button { animation: elementSlideOutBottom calc(var(--animation-speed) * .5) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translateY(calc(-1 * var(--padding-sm)))",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation translateY(100%) -> translateY(0)，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translateY(100%)",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(100%)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-thumbnails-list",
+      "selector_role": "overlay",
+      "snippet": ".dialog-thumbnails-list { animation: thumbnailsSlideInBottom calc(var(--animation-speed) * .75) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translateY(0)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层load：animation translateY(0) -> translateY(100%)，missingms missing，load 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "translateY(0)",
+      "id": "motion-overlay-load-animation-missing-missing",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "1",
+            "transform": "translateY(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "0",
+            "transform": "translateY(100%)"
+          }
+        }
+      ],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog--closed .dialog-thumbnails-list",
+      "selector_role": "overlay",
+      "snippet": ".dialog--closed .dialog-thumbnails-list { animation: thumbnailsSlideOutBottom var(--animation-speed) var(--animation-easing) forwards; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translateY(100%)",
+      "trigger": "load"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：transform，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".dialog-thumbnails-list__thumbnail",
+      "selector_role": "overlay",
+      "snippet": ".dialog-thumbnails-list__thumbnail { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "opacity",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".product-media-container:has(.deferred-media__playing) .product-media__image",
+      "selector_role": "component",
+      "snippet": ".product-media-container:has(.deferred-media__playing) .product-media__image { transition: opacity var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层state-change：transform missing -> translate(-120%)，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-state-change-transform-missing-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms",
+        "easing"
+      ],
+      "property": "transform",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".drawer",
+      "selector_role": "overlay",
+      "snippet": ".drawer { transition: transform var(--animation-speed) var(--animation-easing); }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "translate(-120%)",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，missingms ease，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "ease",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-missing-ease",
+      "keyframes": [],
+      "missing_fields": [
+        "duration_ms"
+      ],
+      "property": "box-shadow",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".field",
+      "selector_role": "component",
+      "snippet": ".field { transition: box-shadow var(--animation-speed) ease; }",
+      "source": "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "浮层viewport：animation，1000ms missing，viewport 触发",
+      "duration_ms": 1000,
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-overlay-viewport-animation-1000-missing",
+      "keyframes": [],
+      "missing_fields": [
+        "easing"
+      ],
+      "property": "animation",
+      "reduced_motion": "reduce disables animation/transition",
+      "selector": ".storeify-light-modal .animated",
+      "selector_role": "overlay",
+      "snippet": ".storeify-light-modal .animated { animation: missing 1s missing 0ms; }",
+      "source": "https://cdn.shopify.com/extensions/019d99fc-5ae8-7b0e-a4fb-10f2469f6c44/s-contact-form-builder-19/assets/storeifyapps-contactform-styles.css",
+      "to": "missing",
+      "trigger": "viewport"
+    }
+  ],
+  "reference_path": "references/2026-06-08-roman-and-williams.md",
+  "slug": "roman-and-williams",
+  "source_motion_path": "assets/2026-06-11-roman-and-williams-motion.json",
+  "source_urls": [
+    "https://romanandwilliams.com/cdn/shop/t/255/assets/base.css?v=29255957020435206121780342201",
+    "https://romanandwilliams.com/cdn/shop/t/255/assets/main.css?v=156599647110556810911777977260",
+    "https://romanandwilliams.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+    "https://romanandwilliams.com/cdn/shop/t/255/compiled_assets/styles.css?v=28272906367163963171778768902",
+    "https://static.klaviyo.com/onsite/js/build-preview/commit-432423e22b4805d16db272ca9249bcfb743ff5ff/532.0e7e190ea756de832333.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+    "https://cdn.shopify.com/extensions/019d99fc-5ae8-7b0e-a4fb-10f2469f6c44/s-contact-form-builder-19/assets/storeifyapps-contactform-styles.css"
+  ],
+  "title": "Roman and Williams"
+}

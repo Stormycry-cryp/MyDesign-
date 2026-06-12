@@ -17,12 +17,16 @@
     "public css js",
     "component evidence"
   ],
-  "component_json_path": "assets/2026-06-05-patek-philippe-official-component-styles.json",
+  "component_json_path": "assets/2026-06-12-patek-philippe-official-component-styles.json",
   "design_system_paths": {
     "component_styles": "design-systems/patek-philippe-official/component-styles.md",
     "moodboard": "design-systems/patek-philippe-official/moodboard.svg",
+    "motion": "design-systems/patek-philippe-official/motion.json",
+    "motion_presets": "design-systems/patek-philippe-official/motion-presets.css",
     "palette": "design-systems/patek-philippe-official/palette.md",
-    "tokens": "design-systems/patek-philippe-official/tokens.json"
+    "tailwind_theme": "design-systems/patek-philippe-official/tailwind.theme.json",
+    "tokens": "design-systems/patek-philippe-official/tokens.json",
+    "variables_css": "design-systems/patek-philippe-official/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/patek-philippe-official/assets.md",
@@ -33,6 +37,56 @@
     "scene": "dimensions/patek-philippe-official/scene.md",
     "type_copy": "dimensions/patek-philippe-official/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8864}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8864}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Borders/dividers/radii: 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; 50%; 999px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing",
+      "evidence_source": "Style Tokens And Surface Grammar"
+    },
+    {
+      "decision": "button state-change motion uses 900ms cubic-bezier(.19,1,.22,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button state-change motion uses 700ms cubic-bezier(.19,1,.22,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button load motion uses 300ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button load motion uses 1200ms ease-in-out",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "overlay state-change motion uses 500ms cubic-bezier(.32,.72,0,1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "component load motion uses 400ms linear",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

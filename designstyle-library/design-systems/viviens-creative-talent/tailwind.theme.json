@@ -1,0 +1,19 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "background": "#ffffff",
+        "deep-accent": "#605040",
+        "deep-accent-2": "#504020",
+        "foreground": "#303030",
+        "foreground-2": "#000000",
+        "neutral-surface": "#a0b0a0",
+        "neutral-surface-2": "#c0c0b0",
+        "neutral-surface-3": "#d0d0d0",
+        "supporting-color": "#b0a080",
+        "supporting-color-2": "#908060",
+        "supporting-color-3": "#806050"
+      }
+    }
+  }
+}

@@ -30,6 +30,17 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 1440x959; 1440x2767; 1440x1028; 1440x2102; 1440x911; 1440x1080; 1440x960; 1440x1080; 1440x960; 1440x960.; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}; source: Dimension And Ratio System
+- Observed media ratios: 1440:959; 1440:2767; 1440:1028; 1440:2102; 1440:911; 1440:1080; 1440:960; 1440:1080; 1440:960; 1440:960; source: Dimension And Ratio System
+- Observed text colors: A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0); source: Color, Material, And Contrast
+- reveal viewport motion uses 1000ms linear; source: motion.json
+- component state-change motion uses 150ms cubic-bezier(.4,0,.2,1); source: motion.json
+- component load motion uses 400ms ease-out; source: motion.json
+- component hover motion uses 400ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://vivienscreative.com.au/
 - Page title: Vivien’s Creative | Creative Artist Management | Sydney, Perth
@@ -60,6 +71,12 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation none observed
+- Sentence rhythm: 61 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Vivien’s Creative | Creative Artist Management | Sydney, Perth; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: A:rgb(255, 255, 255):rgba(0, 0, 0, 0); A:rgb(255, 255, 255):rgba(0, 0, 0, 0); P:rgb(255, 255, 255):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +88,12 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 - Media/card aspect stability: image natural sizes include 1440x959; 1440x2767; 1440x1028; 1440x2102; 1440x911; 1440x1080; 1440x960; 1440x1080; 1440x960; 1440x960.
 - Observed border radii: none observed
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: none observed; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}
 - Observed media ratios: 1440:959; 1440:2767; 1440:1028; 1440:2102; 1440:911; 1440:1080; 1440:960; 1440:1080; 1440:960; 1440:960
@@ -90,22 +113,22 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-viviens-creative-talent-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-viviens-creative-talent-component-styles.json`
 - Asset CDN and media loading patterns: https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/ea9de63c63b433865f6d6629be9c957add723235-2000x1333.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/fc69eb1baa07b2ca2e712ad6901873085de1fc16-2352x4520.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/39b630869b4e6fecb07eaddea6237b7139ff1067-2000x1429.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/528deee2b2efb5425bc4c190a759ffeb7fdd4a79-1712x2500.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/307a3e722d1d2d991295b7c472323ca8854676ca-3500x2215.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/dc105a501ba88679e0efe36d015af0865718c802-4000x3000.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/4e6775b4bd4964242a719c3aa8de5fd0bc08381c-3500x2334.jpg&w=1600&q=75&output=webp; https://wsrv.nl/?url=https://cdn.sanity.io/images/eenmp22f/production/0a7763cf64b3b1d6cb503ec92b292fd6a1f0de06-3000x2250.jpg&w=1600&q=75&output=webp
 
 ## Motion
-- Page transitions: r(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;trans, color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);trans, -color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.tran
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: vationCountPerUUID[t]<p)this._observedNodes.set(e,new Set([t])),this._intersectionObserver.observe(e),this._observationCountPerUUID[t]=(this._observationCountPerUUID[t]||0)+1;else if(!this._hasWarnedAboutObservedFilter){, ase"lr.browser.NodeInitEvent":if(!this._disableVisibleElement&&!this._intersectionObserver)break;e.data.rootNode&&this._filterElementInDom(e.data.rootNode,e.time);break;case"lr.browser.NodeChangeEvent":{if(!this._disable
-- Timing/easing: ames spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.cursor-w-resize{cursor:w-resize}.cursor-e-resize{cursor:e-resize}.select-none{-webkit-us, er-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);trans, sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,op, er,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-du, 5s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[border\]{transition-property:border;transition-timing-function:cubic-bezier(.4,0,.2,1);tra
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: r(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-fu; color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-pro; -color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezi; :cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.trans; nsition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:co; w-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.cursor-w-resize{cursor:w-resize}.cursor-e-re; ar(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-100; w-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-1000{animation-duration:1s}.delay-1000{a
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, intersection, keyframes, transform, transition
-- Public CSS/JS motion snippets: r(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-fu; color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-pro; -color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezi; :cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.trans; nsition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:co; w-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.cursor-w-resize{cursor:w-resize}.cursor-e-re; ar(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-100; w-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-1000{animation-duration:1s}.delay-1000{a; ation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-1000{animation-duration:1s}.delay-1000{animation-delay:1s}.shadow-lg,.shadow-; tion-duration:.5s}.duration-700{animation-duration:.7s}.duration-1000{animation-duration:1s}.delay-1000{animation-delay:1s}.shadow-lg,.shadow-xl{box-shadow:var(--tw-ring-offset-sha
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: r(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-fu; color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-pro; -color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezi; w-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.cursor-w-resize{cursor:w-resize}.cursor-e-re; ar(--tw-exit-scale,1)) rotate(var(--tw-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-100; w-exit-rotate,0))}}.duration-300{animation-duration:.3s}.duration-500{animation-duration:.5s}.duration-700{animation-duration:.7s}.duration-1000{animation-duration:1s}.delay-1000{a; ames spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.cursor-w-resize{cursor:w-resize}.cursor-e-resize{cursor:e-resi; er-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-ti; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition{transition-property:color,background-color,border; ne-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:tran
-- JavaScript/runtime motion evidence: vationCountPerUUID[t]<p)this._observedNodes.set(e,new Set([t])),this._intersectionObserver.observe(e),this._observationCountPerUUID[t]=(this._observationCountPerUUID[t]||0)+1;else ; ase"lr.browser.NodeInitEvent":if(!this._disableVisibleElement&&!this._intersectionObserver)break;e.data.rootNode&&this._filterElementInDom(e.data.rootNode,e.time);break;case"lr.bro; "lr.browser.NodeChangeEvent":{if(!this._disableVisibleElement&&!this._intersectionObserver)break;const{addedOrMoved:t}=e.data;if(t&&t.length)for(const r of t)r.isRemoved||this._fil; {},this._disableVisibleElement=n,!this._disableVisibleElement&&window.IntersectionObserver&&"function"==typeof window.IntersectionObserver&&(this._observedNodes=new WeakMap,this._o; isibleElement&&window.IntersectionObserver&&"function"==typeof window.IntersectionObserver&&(this._observedNodes=new WeakMap,this._observationCountPerUUID={},this._intersectionObse
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://vivienscreative.com.au/_next/static/css/7332d9b6c5108276.css; https://vivienscreative.com.au/_next/static/css/01c40e4257e61544.css; https://vivienscreative.com.au/_next/static/css/0fb51a9d5c59aaf3.css; https://vivienscreative.com.au/_next/static/css/d9e899f53d8dc8e5.css; https://www.googletagmanager.com/gtm.js?id=GTM-W62Q92J; https://vivienscreative.com.au/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js; https://cdn.lr-ingest.com/logger-1.min.js; https://vivienscreative.com.au/_next/static/chunks/webpack-ac746b058c2da3de.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +136,7 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: none observed
-- Computed component styles: `assets/2026-06-04-viviens-creative-talent-component-styles.json`
+- Computed component styles: `assets/2026-06-12-viviens-creative-talent-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +165,4 @@ Viviens Creative Talent is captured as a creative, talent, agency, portfolio ref
 - Reuse value: useful for homepage creative talent portfolio if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-viviens-creative-talent-motion.json`

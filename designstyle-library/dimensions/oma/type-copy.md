@@ -26,7 +26,6 @@
   - Navigation samples: OMA; OFFICE; WORK; SEARCH
   - Images observed: one full-bleed city/building hero image with tree silhouettes foregrounding the frame
   - Video observed: missing
-  - Overlays or fixed elements: no cookie wall or modal contamination in the accepted probe screenshot
 - Visual typography:
   - Layout: edge-to-edge hero image, extra-large wordmark/navigation row pinned across the top, centered white project pill, lower-left editorial story card
   - Typography: bold condensed-looking all-caps sans for navigation and announcement, with scale doing more work than weight variation

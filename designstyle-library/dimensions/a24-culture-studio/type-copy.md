@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Backrooms 2026; The Death of Robin Hood 2026; The Invite 2026; Tony 2026; H2 Cap'n Clark's Tee; Weeping Bleeding Hearts with David Lowery & Anne Hathaway; The Drama Blu-ray; Mother Mary; AAA24 Membership; Thirty Thousand Square Feet with Kane Parsons & James Wan; navigation JOBS; SHOP; APP; MEMBERSHIP; TERMS OF USE; PRIVACY POLICY; PRIVACY PREFERENCES; Films; Television; Docs; Shop; Membership
+  - Sentence rhythm: 104 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title A24; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://a24films.com/
   - Page title: A24
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

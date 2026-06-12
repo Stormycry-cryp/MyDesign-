@@ -6,6 +6,7 @@
 - header LOCATIONS Return to homepage | rect=1440x79@0,0 | display=block; position=fixed; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Obviously Regular", sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a Return to homepage | rect=222x48@609,15.5 | display=block; position=absolute; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="Obviously Regular", sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; transform=matrix(1, 0, 0, 1, -111, -24); opacity=1; cursor=pointer
 - navigation count 1, image count 36, document height 6401.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -48,7 +49,8 @@
 - div HOTEL DAPHNE HOUSTON, TEXAS Nestled in historic Houston Heights, our 49-room hideaway draw | rect=1440x723@0,1851.2 | display=flex; position=static; color=rgb(0, 0, 0); border=0px none rgb(0, 0, 0); fontFamily="Obviously Regular", sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; padding=10px 0px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a HOTEL DAPHNE HOUSTON, TEXAS Nestled in historic Houston Heights, our 49-room hideaway draw | rect=242x703@0,1873.2 | display=block; position=relative; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="Obviously Regular", sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; transform=matrix(1, 0, 0, 1, 0, 12); opacity=0; cursor=pointer
 - div CarouselCard_imageWrapper__AgYm4 | rect=242x310@0,1873.2 | display=block; position=relative; color=rgb(0, 0, 238); border=0px none rgb(0, 0, 238); fontFamily="Obviously Regular", sans-serif; fontSize=16px; fontWeight=400; lineHeight=16px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- none observed; source: Layout Geometry And Spacing
 
 ### Content Samples
 - WISH YOU WERE HERE Committed to Community. Experiences for locals and visitors alike. Stay with us, we’ll stay in your h

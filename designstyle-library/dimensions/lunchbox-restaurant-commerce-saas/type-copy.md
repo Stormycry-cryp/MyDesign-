@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Enterprise Order Management at Scale; H2 none observed; navigation Lunchbox.io; Web & App Ordering Delight your guests with a beautiful ordering experience; Marketing CRM Deliver email, push, and sms campaigns from one place; Loyalty & Scan To Pay Create and grow your cult following; Order Aggregation Manage menus across 50+ locations with ease; Catering Streamlined catering that converts higher check averages.; Dispute Manager Fully automate 3rd-party disputes and recover lost-revenue.; Guides & Videos A collection of marketing and operational best practices; Case Studies See how our customers use Lunchbox to grow their revenue; The Hub Resources, videos, ebooks, and insights to help you become an industry expert; Power Lunch Follow along as we sit down with industry leaders as they unveil more about them and their brands.; Community Chats Event Panels and Webinars
+  - Sentence rhythm: 107 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Lunchbox | Modern Technology for Enterprise Order Management and B2B Catering at Scale; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://lunchbox.io/
   - Page title: Lunchbox | Modern Technology for Enterprise Order Management and B2B Catering at Scale
@@ -35,7 +41,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

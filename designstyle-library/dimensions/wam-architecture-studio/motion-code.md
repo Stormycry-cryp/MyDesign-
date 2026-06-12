@@ -1,42 +1,205 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.swiper-android .swip, 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.swiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translateZ(0)}.swiper-ho, }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight,.swiper-autoheight .swiper-slide{height:auto}.sw
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: s;app;observer;constructor(e){return this.options=e,this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:e.rootMargin||"0% 0% -30% 0%",threshold:e.threshold||0}),this.app=e.app||null,this}add, e(t)}))},Qh=(n,e)=>{_h(n),Kh(n,e)},Zh=(n,e)=>{Qu(n)||(e._observer=new IntersectionObserver((t=>{((r,i,s)=>{r.forEach((o=>jh(o)?Xh(o.target,o,i,s):Wh(o.target,o,i,s)))})(t,n,e)}),(t=>({root:t.container===document?null:t.c, l(as||jt.GreenSockGlobals||!jt.gsap&&jt||{}),Pl.forEach(Ml)),c=typeof requestAnimationFrame<"u"&&requestAnimationFrame,l&&h.sleep(),u=c||function(g){return setTimeout(g,o-h.time*1e3+1|0)},vn=1,_(2))},sleep:function(){(c?c, !jt.gsap&&jt||{}),Pl.forEach(Ml)),c=typeof requestAnimationFrame<"u"&&requestAnimationFrame,l&&h.sleep(),u=c||function(g){return setTimeout(g,o-h.time*1e3+1|0)},vn=1,_(2))},sleep:function(){(c?cancelAnimationFrame:clearTi
-  - Timing/easing: round:#00000026}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,#00000080,#0000, 0000080,#0000)}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,#00000080,#0000)}., #00000080,#0000)}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,#00000080,#000, 000080,#0000)}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(to bottom,#00000080,#0000)}.swiper-lazy-preloader{width:42px;height:42px;position:absolute;left:50%;top:50%;margin-left:, le .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff}.swiper-lazy-preloader-black{--swiper-preloader-color: #000}@keyframe
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; opacity:1;background-color:rgb(236 236 236 / var(--tw-bg-opacity, 1));transition:filter 1s,opacity 1s}.image-wrap img{transition:transform 1s,opacity 1s;-o-object-fit:cover;object-; r,.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff; 30%,#0000 0 70%,#ffffffbf 0) 50%/100% 8%;background-repeat:no-repeat;animation:l23 1s infinite steps(12)}.loader.is-small{width:20px}.loader:before,.loader:after{content:"";grid-ar; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px
-  - Public CSS/JS probe keywords: animation, easing, gsap, intersection, keyframes, request_animation_frame, swiper, transform, transition
-  - Public CSS/JS motion snippets: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{transform:translateZ(0);backface-vi; opacity:1;background-color:rgb(236 236 236 / var(--tw-bg-opacity, 1));transition:filter 1s,opacity 1s}.image-wrap img{transition:transform 1s,opacity 1s;-o-object-fit:cover;object-; r,.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff; 30%,#0000 0 70%,#ffffffbf 0) 50%/100% 8%;background-repeat:no-repeat;animation:l23 1s infinite steps(12)}.loader.is-small{width:20px}.loader:before,.loader:after{content:"";grid-ar; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; ria-expanded=true] .plyr__tooltip{display:none}.plyr__menu__container{animation:plyr-popup .2s ease;background:#ffffffe6;background:var(--plyr-menu-background,#ffffffe6);border-rad; ease;transition:width .2s ease}.plyr--loading .plyr__progress__buffer{animation:plyr-progress 1s linear infinite;background-image:linear-gradient(-45deg,#23282f99 25%,#0000 0 50%,#
-  - Exact motion parameters: apper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, init; 100%;height:100%;z-index:1;display:flex;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function, initial);box-sizing:content-box}.s; }.swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;transition-property:transform;display:block}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight; r,.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader{animation:swiper-preloader-spin 1s infinite linear}.swiper-lazy-preloader-white{--swiper-preloader-color: #fff; 30%,#0000 0 70%,#ffffffbf 0) 50%/100% 8%;background-repeat:no-repeat;animation:l23 1s infinite steps(12)}.loader.is-small{width:20px}.loader:before,.loader:after{content:"";grid-ar; -ui ::-webkit-media-text-track-container{display:none}.plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px; round:#00000026}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(to left,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradien; 0000080,#0000)}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(to right,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient; #00000080,#0000)}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(to top,#00000080,#0000)}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradien; wiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translateZ(0)}.swiper-horizontal{touch-action:pan-y}.swiper-vertical{touch-action:pan-x}.swiper-slid
-  - JavaScript/runtime motion evidence: s;app;observer;constructor(e){return this.options=e,this.observer=new IntersectionObserver(this.onIntersection.bind(this),{rootMargin:e.rootMargin||"0% 0% -30% 0%",threshold:e.thre; e(t)}))},Qh=(n,e)=>{_h(n),Kh(n,e)},Zh=(n,e)=>{Qu(n)||(e._observer=new IntersectionObserver((t=>{((r,i,s)=>{r.forEach((o=>jh(o)?Xh(o.target,o,i,s):Wh(o.target,o,i,s)))})(t,n,e)}),(t; l(as||jt.GreenSockGlobals||!jt.gsap&&jt||{}),Pl.forEach(Ml)),c=typeof requestAnimationFrame<"u"&&requestAnimationFrame,l&&h.sleep(),u=c||function(g){return setTimeout(g,o-h.time*1e; !jt.gsap&&jt||{}),Pl.forEach(Ml)),c=typeof requestAnimationFrame<"u"&&requestAnimationFrame,l&&h.sleep(),u=c||function(g){return setTimeout(g,o-h.time*1e3+1|0)},vn=1,_(2))},sleep:f; z,te,A){Bt[A]+=z,Dt[A]+=te,w._vx.update(z),w._vy.update(te),u?Nt||(Nt=requestAnimationFrame(or)):or()},fi=function(z,te){ce&&!mt&&(w.axis=mt=Math.abs(z)>Math.abs(te)?"x":"y",ut=!0); _vx.update(z,!0)),mt!=="x"&&(Dt[2]+=te,w._vy.update(te,!0)),u?Nt||(Nt=requestAnimationFrame(or)):or()},yr=function(z){if(!Pe(z,1)){z=Vi(z,c);var te=z.clientX,A=z.clientY,N=te-w.x,L; .substr(0,6)!=="clamp(")?"clamp("+e+")":e},zf=function n(){return ji&&requestAnimationFrame(n)},Ra=function(){return Ts=1},La=function(){return Ts=0},Kt=function(e){return e},Ki=fu; ect.create(e.prototype),n.prototype.constructor=n,n.__proto__=e}/*! * GSAP 3.14.2 * https://gsap.com * * @license Copyright 2008-2025, GreenSock. All rights reserved. * Subject to
-  - Stylesheet evidence: https://wam.studio/_astro/Layout.CiEkX3Ln.css; https://www.googletagmanager.com/gtag/js?id=G-88SNVEGJ36; https://wam.studio/_astro/Layout.astro_astro_type_script_index_0_lang.B3juHSSv.js; https://wam.studio/_astro/page.FfZlR1JI.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: gsap, intersection, request_animation_frame, swiper
-  - Public stylesheet/script URLs: https://wam.studio/_astro/Layout.CiEkX3Ln.css; https://www.googletagmanager.com/gtag/js?id=G-88SNVEGJ36; https://wam.studio/_astro/Layout.astro_astro_type_script_index_0_lang.B3juHSSv.js; https://wam.studio/_astro/page.FfZlR1JI.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-wam-architecture-studio-component-styles.json`
-  - Asset CDN and media loading patterns: https://wam.studio/strapi/uploads/f_webp,w_800,h_450,q_80/Comm_Bay4_e272621c25.jpg; https://wam.studio/strapi/uploads/f_webp,w_1600,h_900,q_80/Practice2_c0e6fe4069.jpg; https://wam.studio/strapi/uploads/f_webp,w_1600,h_900,q_80/People4_91fe53a231.jpg; https://wam.studio/strapi/uploads/f_webp,w_1000,h_667,q_80/Hiwa_EXT_503_a3086435ae.jpg; https://wam.studio/strapi/uploads/f_webp,w_2000,h_1333,q_80/WAM_sydney58167_V01_02_LR_98f9a0a69c.jpg; https://wam.studio/strapi/uploads/f_webp,w_1000,h_563,q_80/homepageslider_f5604ee999.jpg; https://wam.studio/strapi/uploads/f_webp,w_1000,h_750,q_80/VV_WAM_WB_13_M_c5b2202077.jpg; https://wam.studio/strapi/uploads/f_webp,w_1000,h_683,q_80/Hiwa_INT_0700_4e35ec180e.jpg
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, gsap, intersection, keyframes, request_animation_frame, swiper, transform, transition
-  - Performance/accessibility concerns: heavy media count 29 and scripts 3; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，1000ms linear，load 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0) -> rotate(360deg)，1000ms linear，load 触发 |
+| component | load | animation | 1000ms | 0ms | steps(12) | 组件load：animation rotate(1turn) -> rotate(1turn)，1000ms steps(12)，load 触发 |
+| component | state-change | transform | 600ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，600ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 700ms | 500ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，700ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 1000ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，1000ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.19,1,.22,1) | 组件state-change：opacity，300ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| component | state-change | all | 1000ms | 300ms | cubic-bezier(.215,.61,.355,1) | 组件state-change：all，1000ms cubic-bezier(.215,.61,.355,1)，state-change 触发 |
+| component | state-change | opacity | 600ms | 0ms | cubic-bezier(.19,1,.22,1) | 组件state-change：opacity，600ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| component | state-change | padding-bottom | 1000ms | 0ms | cubic-bezier(.19,1,.22,1) | 组件state-change：padding-bottom，1000ms cubic-bezier(.19,1,.22,1)，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | load | transform | 400ms | 0ms | ease-in-out | 组件load：transform，400ms ease-in-out，load 触发 |
+| component | load | animation | 300ms | 0ms | ease | 组件load：animation 0 -> 1，300ms ease，load 触发 |
+| component | state-change | all | 100ms | 0ms | ease-in-out | 组件state-change：all，100ms ease-in-out，state-change 触发 |
+| navigation | state-change | transform | 300ms | 0ms | ease | 导航state-change：transform，300ms ease，state-change 触发 |
+| navigation | load | animation | 200ms | 0ms | ease | 导航load：animation translateY(10px) -> translateY(0)，200ms ease，load 触发 |
+| navigation | state-change | height | 350ms | 0ms | cubic-bezier(.4,0,.2,1) | 导航state-change：height，350ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| navigation | state-change | width | 350ms | 0ms | cubic-bezier(.4,0,.2,1) | 导航state-change：width，350ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| card | state-change | all | 300ms | 0ms | ease | 卡片state-change：all，300ms ease，state-change 触发 |
+| card | state-change | transform | 300ms | 0ms | ease | 卡片state-change：transform missing -> translateY(-50%) scale(0)，300ms ease，state-change 触发 |
+| card | state-change | opacity | 300ms | 0ms | ease | 卡片state-change：opacity missing -> translateY(-50%) scale(0)，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 300ms | 0ms | ease | 组件state-change：box-shadow，300ms ease，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-wam-architecture-studio-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-transform-missing-missing lacks duration_ms
+- motion-component-state-change-transform-missing-missing lacks easing
+- motion-component-state-change-height-missing-missing lacks duration_ms
+- motion-component-state-change-height-missing-missing lacks easing
+- motion-component-state-change-filter-1000-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-component-state-change-transform-1000-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-component-state-change-filter-1000-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-component-state-change-transform-1000-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-navigation-state-change-all-200-missing lacks easing
+- motion-component-state-change-height-600-missing lacks easing
+- motion-component-state-change-opacity-600-missing lacks easing
+- motion-card-state-change-filter-1000-missing lacks easing
+- motion-card-state-change-opacity-1000-missing lacks easing
+- motion-component-state-change-opacity-200-missing lacks easing
+- motion-component-state-change-visibility-1-missing lacks easing
+- motion-component-state-change-height-200-missing lacks easing
+- motion-component-state-change-height-700-missing lacks easing
+- motion-component-state-change-opacity-1000-missing lacks easing
+- motion-component-state-change-height-700-missing lacks easing
+- motion-component-state-change-opacity-400-missing lacks easing
+- motion-component-state-change-opacity-400-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-1000-linear
+
+```css
+.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader { animation: swiper-preloader-spin 1s infinite linear; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader { animation: swiper-preloader-spin 1s infinite linear; }
+```
+
+### motion-component-load-animation-1000-steps-12
+
+```css
+.loader { animation: l23 1s infinite steps(12); }
+```
+
+### motion-component-state-change-transform-600-cubic-bezier-4-0-2-1
+
+```css
+.burger>div { transition-property: transform; transition-duration: .6s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-700-cubic-bezier-4-0-2-1
+
+```css
+.curtain { transition-property: opacity; transition-duration: .7s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-1000-cubic-bezier-4-0-2-1
+
+```css
+.slider--fader .keen-slider__slide { transition-property: opacity; transition-duration: 1s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-19-1-22-1
+
+```css
+.block-image-text.text-carousel .paragraph:not(.is-active) { transition-property: opacity; transition-duration: .3s; transition-timing-function: cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-component-state-change-all-1000-cubic-bezier-215-61-355-1
+
+```css
+.block-image-text.text-carousel .paragraph.is-active { transition-property: all; transition-duration: 1s; transition-timing-function: cubic-bezier(.215,.61,.355,1); }
+```
+
+### motion-component-state-change-opacity-600-cubic-bezier-19-1-22-1
+
+```css
+[data-swiper-news] .swiper-slide { transition-property: opacity; transition-duration: .6s; transition-timing-function: cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-component-state-change-padding-bottom-1000-cubic-bezier-19-1-22-1
+
+```css
+[data-swiper-news] .swiper-slide .news-image { transition-property: padding-bottom; transition-duration: 1s; transition-timing-function: cubic-bezier(.19,1,.22,1); }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr { transition: box-shadow .3s ease; }
+```
+
+### motion-component-load-transform-400-ease-in-out
+
+```css
+.plyr__captions { transition: transform .4s ease-in-out; }
+```
+
+### motion-component-load-animation-300-ease
+
+```css
+.plyr__captions { animation: plyr-fade-in .3s ease; }
+```
+
+### motion-component-state-change-all-100-ease-in-out
+
+```css
+.plyr__control { transition: all .1s ease-in-out; }
+```
+
+### motion-navigation-state-change-transform-300-ease
+
+```css
+.plyr__menu .plyr__control svg { transition: transform .3s ease; }
+```
+
+### motion-navigation-load-animation-200-ease
+
+```css
+.plyr__menu__container { animation: plyr-popup .2s ease; }
+```
+
+### motion-navigation-state-change-height-350-cubic-bezier-4-0-2-1
+
+```css
+.plyr__menu__container>div { transition: height .35s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-navigation-state-change-width-350-cubic-bezier-4-0-2-1
+
+```css
+.plyr__menu__container>div { transition: width .35s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-card-state-change-all-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:before { transition: all .3s ease; }
+```
+
+### motion-card-state-change-transform-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:after { transition: transform .3s ease; }
+```
+
+### motion-card-state-change-opacity-300-ease
+
+```css
+.plyr__menu__container .plyr__control[role=menuitemradio]:after { transition: opacity .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range] { transition: box-shadow .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-300-ease
+
+```css
+.plyr--full-ui input[type=range]::-webkit-slider-runnable-track { transition: box-shadow .3s ease; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

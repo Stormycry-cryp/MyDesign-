@@ -1,0 +1,38 @@
+.ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-easing);
+  transform: rgba(10, 5, 4, 0.133);
+}
+
+.ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-easing);
+  transform: rgba(7, 3, 3, 0.137);
+}
+
+.ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-backgroundcolor-200-cubic-bezier-0-0-1-1-easing);
+  transform: rgba(0, 0, 0, 0.063);
+}
+
+.ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-backgroundcolor-200-cubic-bezier-0-0-1-1-easing);
+  transform: rgba(0, 0, 0, 0.063);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -1,0 +1,29 @@
+.ds-motion-motion-navigation-hover-backgroundcolor-300-ease {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-hover-backgroundcolor-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-backgroundcolor-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-backgroundcolor-300-ease-easing);
+  transform: rgba(233, 236, 236, 0.576);
+}
+
+.ds-motion-motion-navigation-focus-backgroundcolor-300-ease {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-navigation-focus-backgroundcolor-300-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-backgroundcolor-300-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-backgroundcolor-300-ease-easing);
+  transform: rgba(233, 236, 236, 0.663);
+}
+
+.ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-backgroundcolor-500-ease-in-out-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

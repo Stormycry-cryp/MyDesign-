@@ -1,0 +1,26 @@
+:root {
+  --ds-color-background: #ffffff;
+  --ds-color-neutral-surface: #d0e0e0;
+  --ds-color-supporting-color: #b0c0d0;
+  --ds-color-neutral-surface-2: #808080;
+  --ds-color-neutral-surface-3: #a0a0a0;
+  --ds-color-foreground: #505060;
+  --ds-color-deep-accent: #706070;
+  --ds-color-supporting-color-2: #d0b0b0;
+  --ds-color-supporting-color-3: #a09080;
+  --ds-color-foreground-2: #303030;
+  --ds-color-foreground-3: #1d1d1f;
+  --ds-color-foreground-4: #000000;
+  --ds-spacing-component: 0px 8px;
+  --ds-radius-component: missing;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-duration: 320ms;
+  --ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-delay: 0ms;
+  --ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-easing: cubic-bezier(0.4, 0, 0.6, 1);
+  --ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-duration: 320ms;
+  --ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-delay: 0ms;
+  --ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-easing: cubic-bezier(0.4, 0, 0.6, 1);
+  --ds-motion-motion-button-state-change-opacity-100-linear-duration: 100ms;
+  --ds-motion-motion-button-state-change-opacity-100-linear-delay: 0ms;
+  --ds-motion-motion-button-state-change-opacity-100-linear-easing: linear;
+}

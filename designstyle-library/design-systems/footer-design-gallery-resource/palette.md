@@ -13,9 +13,6 @@
 | `#a0a0a0` | neutral surface | screenshot pixel sample | 0.0022 |
 | `#a05010` | supporting color | screenshot pixel sample | 0.0014 |
 | `#404040` | foreground | screenshot pixel sample | 0.0012 |
-| `#ffd9d9` | supporting color | explicit reference or DOM color |  |
-| `#5928e5` | accent | explicit reference or DOM color |  |
-| `#dddddd` | neutral surface | explicit reference or DOM color |  |
 | `#242424` | foreground | explicit reference or DOM color |  |
 | `#f2f2f2` | neutral surface | explicit reference or DOM color |  |
 

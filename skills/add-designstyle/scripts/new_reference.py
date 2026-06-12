@@ -87,7 +87,10 @@ TODO: one to three sentences naming the transferable design idea, not vague prai
 - TODO
 
 ## When Not To Use
-- TODO
+- missing: record where this page scope should not be reused.
+
+## Style DNA
+- missing: add up to 12 measurable signature decisions with evidence sources, for example `1440x1000 first viewport; source: screenshot`.
 
 ## Evidence Snapshot
 - Captured URL: TODO
@@ -119,6 +122,13 @@ TODO: one to three sentences naming the transferable design idea, not vague prai
 - Observed letter spacing: TODO
 - Preserve role relationships: TODO
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: missing
+- Sentence rhythm: missing
+- Claim density: missing
+- Voice and naming: missing
+- Copy boundaries: missing
+
 ## Color, Material, And Contrast
 - Observed text colors: TODO
 - Observed backgrounds: TODO
@@ -129,6 +139,13 @@ TODO: one to three sentences naming the transferable design idea, not vague prai
 - Macro geometry: TODO
 - Media/card aspect stability: TODO
 - Observed border radii: TODO
+
+## Style Tokens And Surface Grammar
+- Surface/background system: missing
+- Borders/dividers/radii: missing
+- Shadow/depth/material: missing
+- Button/input/control density: missing
+- Icon/illustration stroke style: missing
 
 ## Dimension And Ratio System
 - Viewport and document: TODO

@@ -23,8 +23,12 @@
   "design_system_paths": {
     "component_styles": "design-systems/webinspoo-weav-saas-landing-page/component-styles.md",
     "moodboard": "design-systems/webinspoo-weav-saas-landing-page/moodboard.svg",
+    "motion": "design-systems/webinspoo-weav-saas-landing-page/motion.json",
+    "motion_presets": "design-systems/webinspoo-weav-saas-landing-page/motion-presets.css",
     "palette": "design-systems/webinspoo-weav-saas-landing-page/palette.md",
-    "tokens": "design-systems/webinspoo-weav-saas-landing-page/tokens.json"
+    "tailwind_theme": "design-systems/webinspoo-weav-saas-landing-page/tailwind.theme.json",
+    "tokens": "design-systems/webinspoo-weav-saas-landing-page/tokens.json",
+    "variables_css": "design-systems/webinspoo-weav-saas-landing-page/variables.css"
   },
   "dimension_paths": {
     "assets": "dimensions/webinspoo-weav-saas-landing-page/assets.md",
@@ -35,6 +39,40 @@
     "scene": "dimensions/webinspoo-weav-saas-landing-page/scene.md",
     "type_copy": "dimensions/webinspoo-weav-saas-landing-page/type-copy.md"
   },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9670}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 32x32; 1080x7494; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0; 0x0.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "16px; 16px; 10px; 4px; 24px; 24px; 24px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 9670}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 32:32; 1080:7494; 32:32; 24:24; 32:32; 32:32; 32:32; 24:24; 32:32; 24:24",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "button hover motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "button focus motion uses 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "evidence_source": "motion.json"
+    }
+  ],
   "evidence_limits": [
     "Automated capture covers one desktop viewport and public DOM/resources only.",
     "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",

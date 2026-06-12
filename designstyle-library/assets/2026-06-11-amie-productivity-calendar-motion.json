@@ -1,0 +1,1159 @@
+{
+  "checked_urls": [
+    "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+    "https://amie.so/_next/static/css/7ef81824ee6a42c3.css",
+    "https://app.growsurf.com/growsurf.css?v=2.0.0",
+    "https://connect.facebook.net/signals/config/268889609640918?v=2.9.337&r=stable&domain=amie.so&hme=a4ca9981c995923b5752040373feb3dd5ae6be6b3954c741d676eccf72e2f0a2&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17043094642",
+    "https://amie.so/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://amie.so/_next/static/chunks/webpack-f9a765827fab2803.js",
+    "https://amie.so/_next/static/chunks/framework-e815b2d8c1759260.js",
+    "https://amie.so/_next/static/chunks/main-384bb0a4ed4affcd.js",
+    "https://amie.so/_next/static/chunks/pages/_app-b8b871843e6e0e58.js"
+  ],
+  "items": [
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation，3000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 3000,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "missing",
+      "id": "motion-reveal-viewport-animation-3000-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%,to",
+          "values": {
+            "background-position": "0 50%"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "background-position": "100% 50%"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-backgroundAnimate",
+      "selector_role": "reveal",
+      "snippet": ".animate-backgroundAnimate { animation: backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation 0 -> 1，600ms ease-in-out，viewport 触发",
+      "duration_ms": 600,
+      "easing": "ease-in-out",
+      "from": "0",
+      "id": "motion-reveal-viewport-animation-600-ease-in-out",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "1"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-pulse",
+      "selector_role": "reveal",
+      "snippet": ".animate-pulse { animation: pulse .6s ease-in-out infinite alternate; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "1",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation rotate(0) -> rotate(0)，6000ms ease-in-out，viewport 触发",
+      "duration_ms": 6000,
+      "easing": "ease-in-out",
+      "from": "rotate(0)",
+      "id": "motion-reveal-viewport-animation-6000-ease-in-out",
+      "keyframes": [
+        {
+          "step": "100",
+          "values": {
+            "transform": "rotate(0)"
+          }
+        },
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "4%",
+          "values": {
+            "transform": "rotate(9deg)"
+          }
+        },
+        {
+          "step": "6%",
+          "values": {
+            "transform": "rotate(-8deg)"
+          }
+        },
+        {
+          "step": "8%",
+          "values": {
+            "transform": "rotate(9deg)"
+          }
+        },
+        {
+          "step": "10%",
+          "values": {
+            "transform": "rotate(-8deg)"
+          }
+        },
+        {
+          "step": "12%",
+          "values": {
+            "transform": "rotate(7deg)"
+          }
+        },
+        {
+          "step": "14%",
+          "values": {
+            "transform": "rotate(-6deg)"
+          }
+        },
+        {
+          "step": "16%",
+          "values": {
+            "transform": "rotate(5deg)"
+          }
+        },
+        {
+          "step": "18%",
+          "values": {
+            "transform": "rotate(-4deg)"
+          }
+        },
+        {
+          "step": "20%",
+          "values": {
+            "transform": "rotate(4deg)"
+          }
+        },
+        {
+          "step": "22%",
+          "values": {
+            "transform": "rotate(-3deg)"
+          }
+        },
+        {
+          "step": "24%",
+          "values": {
+            "transform": "rotate(3deg)"
+          }
+        },
+        {
+          "step": "26%",
+          "values": {
+            "transform": "rotate(-2deg)"
+          }
+        },
+        {
+          "step": "28%",
+          "values": {
+            "transform": "rotate(2deg)"
+          }
+        },
+        {
+          "step": "30%",
+          "values": {
+            "transform": "rotate(-1deg)"
+          }
+        },
+        {
+          "step": "32%",
+          "values": {
+            "transform": "rotate(1deg)"
+          }
+        },
+        {
+          "step": "34%",
+          "values": {
+            "transform": "rotate(-.5deg)"
+          }
+        },
+        {
+          "step": "36%",
+          "values": {
+            "transform": "rotate(.5deg)"
+          }
+        },
+        {
+          "step": "38%",
+          "values": {
+            "transform": "rotate(0)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-ring",
+      "selector_role": "reveal",
+      "snippet": ".animate-ring { animation: ring 6s ease-in-out infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "rotate(0)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation scale(1) -> scale(1)，300ms cubic-bezier(.46,.03,.52,.96)，viewport 触发",
+      "duration_ms": 300,
+      "easing": "cubic-bezier(.46,.03,.52,.96)",
+      "from": "scale(1)",
+      "id": "motion-reveal-viewport-animation-300-cubic-bezier-46-03-52-96",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "scale(1)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "scale(.97)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "scale(1)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-scaleBounce",
+      "selector_role": "reveal",
+      "snippet": ".animate-scaleBounce { animation: scaleBounce .3s cubic-bezier(.46,.03,.52,.96); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "scale(1)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation scale(.6) -> scale(1.2)，8000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 8000,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "scale(.6)",
+      "id": "motion-reveal-viewport-animation-8000-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(.6)"
+          }
+        },
+        {
+          "step": "85%",
+          "values": {
+            "opacity": "1",
+            "transform": "scale(1)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "opacity": "0",
+            "transform": "scale(1.2)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-scaleUp",
+      "selector_role": "reveal",
+      "snippet": ".animate-scaleUp { animation: scaleUp 8s cubic-bezier(.2,.7,.64,1.1) infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "scale(1.2)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation，70000ms linear，viewport 触发",
+      "duration_ms": 70000,
+      "easing": "linear",
+      "from": "missing",
+      "id": "motion-reveal-viewport-animation-70000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "background-position": "0 0"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "background-position": "200% 0"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-scroll-x",
+      "selector_role": "reveal",
+      "snippet": ".animate-scroll-x { animation: scrollX 70s linear infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation translateX(-1px) -> translateX(2px)，600ms ease-in-out，viewport 触发",
+      "duration_ms": 600,
+      "easing": "ease-in-out",
+      "from": "translateX(-1px)",
+      "id": "motion-reveal-viewport-animation-600-ease-in-out",
+      "keyframes": [
+        {
+          "step": "10%,90%",
+          "values": {
+            "transform": "translateX(-1px)"
+          }
+        },
+        {
+          "step": "20%,80%",
+          "values": {
+            "transform": "translateX(1px)"
+          }
+        },
+        {
+          "step": "30%,50%,70%",
+          "values": {
+            "transform": "translateX(-2px)"
+          }
+        },
+        {
+          "step": "40%,60%",
+          "values": {
+            "transform": "translateX(2px)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-shake",
+      "selector_role": "reveal",
+      "snippet": ".animate-shake { animation: shake .6s ease-in-out; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "translateX(2px)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation translateZ(0) -> translate3d(-253px,0,0)，70000ms linear，viewport 触发",
+      "duration_ms": 70000,
+      "easing": "linear",
+      "from": "translateZ(0)",
+      "id": "motion-reveal-viewport-animation-70000-linear",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "translateZ(0)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "translate3d(-253px,0,0)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-slideBackground",
+      "selector_role": "reveal",
+      "snippet": ".animate-slideBackground { animation: slideBackground 70s linear infinite alternate; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "translate3d(-253px,0,0)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation rotate(0deg) -> rotate(1turn)，1000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 1000,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "rotate(0deg)",
+      "id": "motion-reveal-viewport-animation-1000-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-spin",
+      "selector_role": "reveal",
+      "snippet": ".animate-spin { animation: spinFull 1s cubic-bezier(.2,.7,.64,1.1) infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "rotate(1turn)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation rotate(0deg) -> rotate(0deg)，8800ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 8800,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "rotate(0deg)",
+      "id": "motion-reveal-viewport-animation-8800-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "50%",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        },
+        {
+          "step": "1000%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-spinBoth",
+      "selector_role": "reveal",
+      "snippet": ".animate-spinBoth { animation: spinBoth 8.8s cubic-bezier(.2,.7,.64,1.1) infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "rotate(0deg)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation rotate(0deg) -> rotate(1turn)，1000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 1000,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "rotate(0deg)",
+      "id": "motion-reveal-viewport-animation-1000-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-spinFast",
+      "selector_role": "reveal",
+      "snippet": ".animate-spinFast { animation: spinFull 1s cubic-bezier(.2,.7,.64,1.1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "rotate(1turn)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "入场元素viewport：animation rotate(0deg) -> rotate(1turn)，4400ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发",
+      "duration_ms": 4400,
+      "easing": "cubic-bezier(.2,.7,.64,1.1)",
+      "from": "rotate(0deg)",
+      "id": "motion-reveal-viewport-animation-4400-cubic-bezier-2-7-64-1-1",
+      "keyframes": [
+        {
+          "step": "0%",
+          "values": {
+            "transform": "rotate(0deg)"
+          }
+        },
+        {
+          "step": "to",
+          "values": {
+            "transform": "rotate(1turn)"
+          }
+        }
+      ],
+      "property": "animation",
+      "reduced_motion": "missing",
+      "selector": ".animate-spinFull",
+      "selector_role": "reveal",
+      "snippet": ".animate-spinFull { animation: spinFull 4.4s cubic-bezier(.2,.7,.64,1.1) infinite; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "rotate(1turn)",
+      "trigger": "viewport"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: background-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: border-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: text-decoration-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: fill; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: stroke; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-filter-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "filter",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：backdrop-filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-backdrop-filter-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "backdrop-filter",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: backdrop-filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：-webkit-backdrop-filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-webkit-backdrop-filter-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "-webkit-backdrop-filter",
+      "reduced_motion": "missing",
+      "selector": ".transition",
+      "selector_role": "component",
+      "snippet": ".transition { transition-property: -webkit-backdrop-filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[box-shadow\\2c transform\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[box-shadow\\2c transform\\] { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[box-shadow\\2c transform\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[box-shadow\\2c transform\\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：height，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-height-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "height",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[height\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[height\\] { transition-property: height; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：left，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-left-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "left",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[left\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[left\\] { transition-property: left; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[opacity\\2c transform\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[opacity\\2c transform\\] { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[opacity\\2c transform\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[opacity\\2c transform\\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[transform\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[transform\\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-width-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[width\\2c _height\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[width\\2c _height\\] { transition-property: width; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：height，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-height-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "height",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[width\\2c _height\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[width\\2c _height\\] { transition-property: height; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：width，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-width-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "width",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[width\\2c transform_250ms_ease\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[width\\2c transform_250ms_ease\\] { transition-property: width; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform .25s ease，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-25s-ease-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform .25s ease",
+      "reduced_motion": "missing",
+      "selector": ".transition-\\[width\\2c transform_250ms_ease\\]",
+      "selector_role": "component",
+      "snippet": ".transition-\\[width\\2c transform_250ms_ease\\] { transition-property: transform .25s ease; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：all，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-all-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".transition-all",
+      "selector_role": "component",
+      "snippet": ".transition-all { transition-property: all; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "color",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：background-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "background-color",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: background-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: border-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：text-decoration-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "text-decoration-color",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: text-decoration-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：fill，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-fill-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "fill",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: fill; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：stroke，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "stroke",
+      "reduced_motion": "missing",
+      "selector": ".transition-colors",
+      "selector_role": "component",
+      "snippet": ".transition-colors { transition-property: stroke; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "opacity",
+      "reduced_motion": "missing",
+      "selector": ".transition-opacity",
+      "selector_role": "component",
+      "snippet": ".transition-opacity { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "box-shadow",
+      "reduced_motion": "missing",
+      "selector": ".transition-shadow",
+      "selector_role": "component",
+      "snippet": ".transition-shadow { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发",
+      "duration_ms": 150,
+      "easing": "cubic-bezier(.4,0,.2,1)",
+      "from": "missing",
+      "id": "motion-component-state-change-transform-150-cubic-bezier-4-0-2-1",
+      "keyframes": [],
+      "property": "transform",
+      "reduced_motion": "missing",
+      "selector": ".transition-transform",
+      "selector_role": "component",
+      "snippet": ".transition-transform { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 75,
+      "description": "组件state-change：all，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-missing-missing",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".delay-75",
+      "selector_role": "component",
+      "snippet": ".delay-75 { transition-property: all; transition-duration: missing; transition-timing-function: missing; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 300,
+      "description": "组件state-change：all，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-missing-missing",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".delay-\\[300ms\\]",
+      "selector_role": "component",
+      "snippet": ".delay-\\[300ms\\] { transition-property: all; transition-duration: missing; transition-timing-function: missing; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 600,
+      "description": "组件state-change：all，missingms missing，state-change 触发",
+      "duration_ms": "missing",
+      "easing": "missing",
+      "from": "missing",
+      "id": "motion-component-state-change-all-missing-missing",
+      "keyframes": [],
+      "property": "all",
+      "reduced_motion": "missing",
+      "selector": ".delay-\\[600ms\\]",
+      "selector_role": "component",
+      "snippet": ".delay-\\[600ms\\] { transition-property: all; transition-duration: missing; transition-timing-function: missing; }",
+      "source": "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+      "to": "missing",
+      "trigger": "state-change"
+    },
+    {
+      "delay_ms": 0,
+      "description": "组件state-change：border-color，150ms ease-in-out，state-change 触发",
+      "duration_ms": 150,
+      "easing": "ease-in-out",
+      "from": "missing",
+      "id": "motion-component-state-change-border-color-150-ease-in-out",
+      "keyframes": [],
+      "property": "border-color",
+      "reduced_motion": "missing",
+      "selector": ".sun-editor-editable[contenteditable=true] .se-component.se-component-copy",
+      "selector_role": "component",
+      "snippet": ".sun-editor-editable[contenteditable=true] .se-component.se-component-copy { transition: border-color .15s ease-in-out; }",
+      "source": "https://app.growsurf.com/growsurf.css?v=2.0.0",
+      "to": "missing",
+      "trigger": "state-change"
+    }
+  ],
+  "missing": [],
+  "noise_filter": {
+    "enabled": true,
+    "rules": 4
+  },
+  "slug": "amie-productivity-calendar",
+  "source": "public CSS/JS declaration-level sampling",
+  "source_urls": [
+    "https://amie.so/_next/static/css/33a73de77c05eb6b.css",
+    "https://app.growsurf.com/growsurf.css?v=2.0.0"
+  ]
+}

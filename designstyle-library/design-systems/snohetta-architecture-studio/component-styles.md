@@ -6,6 +6,7 @@
 - a Snøhetta | rect=85.9x31.9@40,40 | display=inline-block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=Dovre, sans-serif; fontSize=22px; fontWeight=300; lineHeight=31.9px; transition=0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - a Menu | rect=54.2x31.9@506.7,40 | display=block; position=relative; color=rgb(255, 255, 255); border=0px solid rgb(255, 255, 255); fontFamily=Dovre, sans-serif; fontSize=22px; fontWeight=300; lineHeight=31.9px; transition=0.2s; transitionDuration=0.2s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - navigation count 2, image count 20, document height 5139.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -46,8 +47,8 @@
 - div Latest News | rect=117.5x31.9@40,1170.6 | display=flex; position=static; color=rgb(0, 0, 0); border=0px solid rgb(0, 0, 0); fontFamily=Dovre, sans-serif; fontSize=22px; fontWeight=300; lineHeight=31.9px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - a All articles → | rect=153.7x31.9@1246.3,1170.6 | display=inline-flex; position=static; color=rgb(117, 117, 117); border=0px solid rgb(117, 117, 117); fontFamily=Dovre, sans-serif; fontSize=22px; fontWeight=300; lineHeight=31.9px; transition=color 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), fill 0.2s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-text-decoration-color 0.2s cubic-bezier(0.4, 0, 0.2, 1); transitionDuration=0.2s; transitionTimingFunction=cubic-bezier(0.4, 0, 0.2, 1); opacity=1; cursor=pointer
 - article 01 June 2026 Norway and Asia: Shared Dialogues Through Architecture and Design | rect=427x396.3@40,1242.5 | display=block; position=static; color=rgb(0, 0, 0); border=0px solid rgb(0, 0, 0); fontFamily=Dovre, sans-serif; fontSize=22px; fontWeight=300; lineHeight=31.9px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
-- 16px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 16px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Menu ⛰

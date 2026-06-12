@@ -1,0 +1,38 @@
+.ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-easing);
+  transform: rgba(0, 0, 0, 0);
+}
+
+.ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1 {
+  transition-property: backgroundColor;
+  transition-duration: var(--ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-backgroundcolor-500-cubic-bezier-0-25-0-0-25-1-easing);
+  transform: rgba(0, 0, 0, 0);
+}
+
+.ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-duration);
+  transition-delay: var(--ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-hover-opacity-500-cubic-bezier-0-25-0-0-25-1-easing);
+  transform: 0.124922;
+}
+
+.ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1 {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-duration);
+  transition-delay: var(--ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-delay);
+  transition-timing-function: var(--ds-motion-motion-button-focus-opacity-500-cubic-bezier-0-25-0-0-25-1-easing);
+  transform: 0.10201;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

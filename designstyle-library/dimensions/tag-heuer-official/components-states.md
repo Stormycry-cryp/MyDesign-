@@ -4,7 +4,7 @@
 - Components:
   - Navigation: none observed
   - Buttons/links: Hong Kong SAR; CONTINUE THE NAVIGATION ON THE WEBSITE; Close the menu and stay on this website; Open the search Search; My TAG Heuer account; SUBSCRIBE TO THE NEWSLETTER
-  - Computed component styles: `assets/2026-06-05-tag-heuer-official-component-styles.json`
+  - Computed component styles: `assets/2026-06-11-tag-heuer-official-component-styles.json`
   - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
   - Forms/inputs: automated pass did not classify forms.
   - Feedback states: not captured; do not infer.
@@ -14,7 +14,7 @@
   - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
   - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
   - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from `https://www.tagheuer.com/us/en/` when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-05-tag-heuer-official-component-styles.json`
+  - Component computed-style evidence: `assets/2026-06-11-tag-heuer-official-component-styles.json`
   - Asset CDN and media loading patterns: https://www.tagheuer.com/on/demandware.static/Sites-TAG_US-Site/-/default/dwf10ae8f7/images/th-logo.svg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw72cfc051/images/SearchBanner/collection/TAG-Heuer-Collection-Formula1-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw5dda2547/images/SearchBanner/collection/TAG-Heuer-Collection-Aquaracer-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw82205585/images/SearchBanner/collection/TAG-Heuer-Collection-Connected-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw7b8eb138/images/SearchBanner/collection/TAG-Heuer-Collection-Monaco-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf070784e/images/SearchBanner/collection/TAG-Heuer-Collection-Link-thumb.jpg; https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwf7042ea0/images/SearchBanner/collection/TAG-Heuer-Collection-Carrera-thumb.jpg
 
 ## Inference

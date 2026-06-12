@@ -6,6 +6,7 @@
 - header THE WORLD OF MASERATI | rect=1440x64@0,6169 | display=flex; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Everett, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - div social list | rect=226.8x32@280.2,8248.2 | display=block; position=static; color=rgb(255, 255, 255); border=0px none rgb(255, 255, 255); fontFamily=Everett, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1
 - navigation count 0, image count 40, document height 8383.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 - captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
 
 ### Content Samples
@@ -48,8 +49,8 @@
 - div GAS ELECTRIC | rect=587x367@121,1605.2 | display=block; position=relative; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=Everett, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - figure car-card__figure car-card__figure--desktop | rect=587x367@121,1605.2 | display=block; position=static; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=Everett, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=all; transitionDuration=0s; transitionTimingFunction=ease; opacity=1; cursor=pointer
 - img car-card__img | rect=587x367@121,1605.2 | display=block; position=static; color=rgb(33, 37, 41); border=0px none rgb(33, 37, 41); fontFamily=Everett, sans-serif; fontSize=16px; fontWeight=400; lineHeight=24px; transition=transform 1.2s, -webkit-transform 1.2s; transitionDuration=1.2s, 1.2s; transitionTimingFunction=ease, ease; opacity=1; cursor=pointer
-- 50%; 50%; 50%; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 50%; 50%; 50%; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; 2.5px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - GAS ELECTRIC GRECALE EVERYDAY EXCEPTIONAL 4-DOOR SUV, 5-SEAT, 385 HP STARTING AT $84,500 GAS ELECTRIC GRANTURISMO THE OT

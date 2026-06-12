@@ -30,6 +30,14 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10226}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 113x113; 113x113; 400x400; 320x320; 140x140; 400x400; 400x400; 400x400; 113x113; 213x213.; source: Layout Geometry And Spacing
+- Observed border radii: 100px; 7.21272% / 94.2648%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10226}; source: Dimension And Ratio System
+- Observed media ratios: 113:113; 113:113; 400:400; 320:320; 140:140; 400:400; 400:400; 400:400; 113:113; 213:213; source: Dimension And Ratio System
+- Stylesheet evidence: https://events.framer.com/script?v=2; https://framerusercontent.com/sites/kLe3S9ySj0JYvCtrF4uSA/script_main.Bt7RJVYU.mjs; https://cdn.jsdelivr.net/npm/@polar-sh/checkout@latest/dist/embed.global.js; source: Motion Code And Runtime Evidence
 ## Evidence Snapshot
 - Captured URL: https://bauhausclock.com/
 - Page title: Bauhaus Clock - Most Elegant Clock for Mac, iPhone and iPad
@@ -60,6 +68,12 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 Turn waiting into watching.; Clock dials that feel right.; H2 The clock screensaver for Mac designed to be present even when you're not.; They feel it.; Ready to make your idle time beautiful?; Frequently asked questions; navigation none observed
+- Sentence rhythm: 101 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Bauhaus Clock - Most Elegant Clock for Mac, iPhone and iPad; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgb(238, 240, 242); P:rgb(4, 8, 13):rgba(0, 0, 0, 0); A:rgb(0, 0, 238):rgba(0, 0, 0, 0); P:rgb(4, 8, 13):rgba(0, 0, 0, 0); H1:rgb(4, 8, 13):rgba(0, 0, 0, 0); SECTION:rgb(0, 0, 0):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0); P:rgb(12, 20, 25):rgba(0, 0, 0, 0); P:rgb(12, 20, 25):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0); P:rgb(12, 20, 25):rgba(0, 0, 0, 0); P:rgb(12, 20, 25):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0); P:rgb(18, 19, 23):rgba(0, 0, 0, 0)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +85,12 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - Media/card aspect stability: image natural sizes include 113x113; 113x113; 400x400; 320x320; 140x140; 400x400; 400x400; 400x400; 113x113; 213x213.
 - Observed border radii: 100px; 7.21272% / 94.2648%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 100px; 7.21272% / 94.2648%; 4px; 100px; 8px; 30px; 100%; 100%; 100%; 30px; 100%; 100%; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons none observed; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 10226}
 - Observed media ratios: 113:113; 113:113; 400:400; 320:320; 140:140; 400:400; 400:400; 400:400; 113:113; 213:213
@@ -90,22 +110,21 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-bauhaus-clock-interactive-product-component-styles.json`
 - Asset CDN and media loading patterns: https://framerusercontent.com/images/lKdIzoMOsiRbwxVobT9gjZTs.webp?width=113&height=113; https://framerusercontent.com/images/8qQUnpJkQhhJtwCK5JnuZy91s8.webp?width=113&height=113; https://framerusercontent.com/images/vFo2Y5SnzqgciAGjFZtAa6I5I8.jpg?width=400&height=400; https://framerusercontent.com/images/nzRqYsGvxVGBYJd5ugSynrICKA.webp?width=320&height=320; https://framerusercontent.com/images/Ia0ImoCrNPC4Z50jx63hBlSFS8.webp?width=140&height=140; https://framerusercontent.com/images/PsQJc8r5AWCgX9aWd9QjLKMMkQ.png?width=400&height=400; https://framerusercontent.com/images/F9YtRWdYsQf77p7K9xLa9Uc2pHw.jpg?width=400&height=400; https://framerusercontent.com/images/Cp81F5pG4QSFnM8tbLxLBIQrloo.jpg?width=400&height=400
 
 ## Motion
-- Page transitions: no direct transition evidence found
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: unction _(t=!1){return new Promise(e=>{if(te.add(e),!document.hidden){requestAnimationFrame(()=>{let o=()=>{te.delete(e),e()};t?ht?I.yield().then(o):_e?I.postTask(o):o():_e?I.postTask(o,{priority:"background"}):setTimeout, ?"poor":c>l[0]?"needs-improvement":"good")(e.value,o),t(e)))}},De=t=>{requestAnimationFrame(()=>requestAnimationFrame(()=>t()))},Z=()=>q()?.activationStart??0,P=(t,e=-1)=>{let o=q(),r="navigate";return Ke()>=0?r="back-for
-- Timing/easing: otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}},routes:{VOPoKTrm4:{augiA20Il:{enter:{opacity:0,rotate:0,rotate, otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}}}}}});return await l,d}function B(){K&&s.__framer_events.push(a
+- Scroll/entrance behavior: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: :"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===n?.theme?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; ?"#000":"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===a?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {
+- CSS animation/transition evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Public CSS/JS probe keywords: animation, easing, keyframes, request_animation_frame
-- Public CSS/JS motion snippets: :"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===n?.theme?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; ?"#000":"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===a?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {; otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}},routes:{VOPoKTrm4:{augiA20Il:{enter:{o; otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}}}}}});return await l,d}function B(){K&&; unction _(t=!1){return new Promise(e=>{if(te.add(e),!document.hidden){requestAnimationFrame(()=>{let o=()=>{te.delete(e),e()};t?ht?I.yield().then(o):_e?I.postTask(o):o():_e?I.postT; ?"poor":c>l[0]?"needs-improvement":"good")(e.value,o),t(e)))}},De=t=>{requestAnimationFrame(()=>requestAnimationFrame(()=>t()))},Z=()=>q()?.activationStart??0,P=(t,e=-1)=>{let o=q(; ovement":"good")(e.value,o),t(e)))}},De=t=>{requestAnimationFrame(()=>requestAnimationFrame(()=>t()))},Z=()=>q()?.activationStart??0,P=(t,e=-1)=>{let o=q(),r="navigate";return Ke()
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: :"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===n?.theme?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; ?"#000":"#fff"};\n box-shadow: 0 0 0 0 ${"dark"===a?"#fff":"#000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100; otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}},routes:{VOPoKTrm4:{augiA20Il:{enter:{o; otateX:0,rotateY:0,scale:1,transition:{damping:30,delay:0,duration:.2,ease:[.27,0,.51,1],mass:1,stiffness:400,type:`tween`},x:`0px`,y:`0px`}}}}}});return await l,d}function B(){K&&; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {; 000"};\n animation: polar-loader-spinner-animation 1s infinite;\n }\n @keyframes polar-loader-spinner-animation {\n 100% {box-shadow: 0 0 0 30px #0000}\n }\n body.polar-no-scroll {
-- JavaScript/runtime motion evidence: unction _(t=!1){return new Promise(e=>{if(te.add(e),!document.hidden){requestAnimationFrame(()=>{let o=()=>{te.delete(e),e()};t?ht?I.yield().then(o):_e?I.postTask(o):o():_e?I.postT; ?"poor":c>l[0]?"needs-improvement":"good")(e.value,o),t(e)))}},De=t=>{requestAnimationFrame(()=>requestAnimationFrame(()=>t()))},Z=()=>q()?.activationStart??0,P=(t,e=-1)=>{let o=q(; ovement":"good")(e.value,o),t(e)))}},De=t=>{requestAnimationFrame(()=>requestAnimationFrame(()=>t()))},Z=()=>q()?.activationStart??0,P=(t,e=-1)=>{let o=q(),r="navigate";return Ke()
+- JavaScript/runtime motion evidence: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Stylesheet evidence: https://events.framer.com/script?v=2; https://framerusercontent.com/sites/kLe3S9ySj0JYvCtrF4uSA/script_main.Bt7RJVYU.mjs; https://cdn.jsdelivr.net/npm/@polar-sh/checkout@latest/dist/embed.global.js
 - Interpreted motion tags: transition, hover, animation
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +132,7 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: none observed
-- Computed component styles: `assets/2026-06-04-bauhaus-clock-interactive-product-component-styles.json`
+- Computed component styles: `assets/2026-06-12-bauhaus-clock-interactive-product-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +161,4 @@ Bauhaus Clock Interactive Product is captured as a product, interactive, retro, 
 - Reuse value: useful for homepage interactive design object product if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-bauhaus-clock-interactive-product-motion.json`

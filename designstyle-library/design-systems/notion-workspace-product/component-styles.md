@@ -12,7 +12,7 @@
 - a Get Notion free | rect=132.4x36@1207,40 | display=flex; position=static; color=rgb(255, 255, 255); backgroundColor=rgb(69, 93, 211); border=1px solid rgba(255, 255, 255, 0); borderRadius=8px; fontFamily=NotionInter, Inter, -apple-system, "system-ui", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; fontSize=16px; fontWeight=500; lineHeight=24px; padding=4px 14px; transition=all; transitionDuration=0s; transitionTimingFunction=ease
 - a Log in | rect=60.5x30@1355.5,43 | display=flex; position=static; color=rgb(246, 245, 244); border=0px none rgb(246, 245, 244); borderRadius=4px; fontFamily=NotionInter, Inter, -apple-system, "system-ui", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; fontSize=16px; fontWeight=400; lineHeight=24px; padding=5px 10px; gap=8px; transition=background-color 0.15s; transitionDuration=0.15s; transitionTimingFunction=ease
 - navigation count 24, image count 40, document height 7481.
-- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.
+- captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
 
 ### Content Samples
 - Product AI Solutions Resources Developers Enterprise Pricing Request a demo Get Notion free Log in
@@ -57,8 +57,8 @@
 - a Cursor | rect=116x36@538,960 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0); border=1px solid rgba(255, 255, 255, 0); borderRadius=8px; fontFamily=NotionInter, Inter, -apple-system, "system-ui", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; fontSize=16px; fontWeight=500; lineHeight=24px; padding=6px 15px; gap=12px; transition=background-color 0.2s ease-in, color 0.2s ease-in; transitionDuration=0.2s
 - a Vercel | rect=116x36@662,960 | display=flex; position=relative; color=rgb(255, 255, 255); backgroundColor=rgba(255, 255, 255, 0); border=1px solid rgba(255, 255, 255, 0); borderRadius=8px; fontFamily=NotionInter, Inter, -apple-system, "system-ui", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; fontSize=16px; fontWeight=500; lineHeight=24px; padding=6px 15px; gap=12px; transition=background-color 0.2s ease-in, color 0.2s ease-in; transitionDuration=0.2s
 - span semanticTypography_semanticTypography__mWJkv semanticTypography_variantInteractionButtonMe | rect=116x36@786,960 | display=flex; position=static; color=rgb(246, 245, 244); backgroundColor=rgba(255, 255, 255, 0); border=1px solid rgba(255, 255, 255, 0); borderRadius=8px; fontFamily=NotionInter, Inter, -apple-system, "system-ui", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; fontSize=16px; fontWeight=500; lineHeight=24px; padding=6px 15px; gap=12px; transition=background-color 0.2s ease-in, color 0.2s ease-in; transitionDuration=0.2s
-- 4px; 16px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px
-- border radii samples recorded below.
+- included in computed color pairs.; source: Color, Material, And Contrast
+- 4px; 16px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; 8px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
 
 ### Content Samples
 - 查看此页面在您首选的语言中。 切换到 简体中文 →

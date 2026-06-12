@@ -1,42 +1,325 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxE, 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG75 .search_actualSearchBox__zayWu{transform:s, zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchIte
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: not proven in automated pass
-  - Timing/easing: r__gxtmG{position:absolute;bottom:0;width:200px;height:1px;background:linear-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s e, acity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z{opacity:0}.search_loadingIndicator__gxtmG.search_enter__tbd_z .searc, );transition:background-image .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:disabled{cursor:not-allowed;opac, age .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:disabled{cursor:not-allowed;opacity:.3}.Button_button__JJi, opacity:1}.Button_dark__dyBom{color:var(--Base-White,#fff);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.1));box-shadow:inset 0 1px 0 0 rgba(255,255,255,.05),0 0 0 1px rgba(255,2
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchItem__WRh_B{position:relative;display:flex;gap:8px; ar-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gx; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr
-  - Public CSS/JS probe keywords: animation, easing, keyframes, transform, transition
-  - Public CSS/JS motion snippets: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(.95)}.search_searchItem__WRh_B{position:relative;display:flex;gap:8px; ar-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gx; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr; ion-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_current__gpJFY:after{background:linear-gradient(90deg; ase;will-change:opacity,transform}.InstallViaWinget_iconCopied__osOxD{animation:InstallViaWinget_iconSuccess__hI9N1 .3s ease}@keyframes InstallViaWinget_iconSuccess__hI9N1{0%{opaci
-  - Exact motion parameters: Wu{transform:scale(.95)}.search_searchBoxEnterActive__9HVSa{opacity:1;transition:opacity .2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform; 2s}.search_searchBoxEnterActive__9HVSa .search_actualSearchBox__zayWu{transition:transform .2s;transform:scale(1)}.search_searchBoxExit__RNG75{opacity:1}.search_searchBoxExit__RNG7; zayWu{transform:scale(1)}.search_searchBoxExitActive__7_vV8{opacity:0;transition:opacity .2s}.search_searchBoxExitActive__7_vV8 .search_actualSearchBox__zayWu{transition:transform ; 0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z; rrent__gpJFY:after,.Gallery_page__9tY2Q.Gallery_current__gpJFY:before{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-s; re{animation:Gallery_progress__FmE_S var(--animation-duration) linear;animation-play-state:var(--animation-play-state);animation-iteration-count:1}.Gallery_page__9tY2Q.Gallery_curr; r__gxtmG{position:absolute;bottom:0;width:200px;height:1px;background:linear-gradient(90deg,rgba(0,0,0,0) 0,white 50%,rgba(0,0,0,0));opacity:.5;transition:opacity .2s;animation:sea; acity:.5;transition:opacity .2s;animation:search_nightRider__a2oGM 2s ease-in-out infinite}.search_loadingIndicator__gxtmG.search_enter__tbd_z{opacity:0}.search_loadingIndicator__g; );transition:background-image .2s,background-color .2s,box-shadow .2s ease-in-out,transform .1s ease-in-out}.Button_button__JJiqJ>svg{width:16px;height:16px}.Button_button__JJiqJ:d; verflow-y:scroll;background:rgba(0,0,0,.8);backdrop-filter:blur(10px);transform:translateZ(0)}.search_actualSearchBox__zayWu{display:flex;flex-direction:column;max-width:500px;marg
-  - JavaScript/runtime motion evidence: none observed
-  - Stylesheet evidence: https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css; https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css; https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css; https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css; https://www.raycast.com/_next/static/css/88cec015e89afcfe.css; https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css; https://www.raycast.com/_next/static/css/a59e492e46719f4d.css; https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css
-  - Interpreted motion tags: glow-motion, restrained
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: no direct runtime hint found
-  - Public stylesheet/script URLs: https://www.raycast.com/_next/static/css/80f9c2fc1a177881.css; https://www.raycast.com/_next/static/css/13d7c099d5cf5edd.css; https://www.raycast.com/_next/static/css/f1de5538ee4eef17.css; https://www.raycast.com/_next/static/css/5038a0f8e1dbb537.css; https://www.raycast.com/_next/static/css/88cec015e89afcfe.css; https://www.raycast.com/_next/static/css/af9f5781b0bfa376.css; https://www.raycast.com/_next/static/css/a59e492e46719f4d.css; https://www.raycast.com/_next/static/css/4b9ae64dfe6b13c7.css; https://www.raycast.com/_next/static/css/3563776b487bdaf8.css; https://www.raycast.com/_next/static/css/daa5c66cd12da278.css
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-raycast-productivity-component-styles.json`
-  - Asset CDN and media loading patterns: https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=828&q=70
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, keyframes, transform, transition
-  - Performance/accessibility concerns: heavy media count 1 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| component | load | animation | 2000ms | 0ms | ease-in-out | 组件load：animation translateX(0) -> translateX(-100%)，2000ms ease-in-out，load 触发 |
+| button | state-change | box-shadow | 200ms | 0ms | ease-in-out | 按钮state-change：box-shadow，200ms ease-in-out，state-change 触发 |
+| button | state-change | transform | 100ms | 0ms | ease-in-out | 按钮state-change：transform，100ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity missing -> translate(-50%,calc(-50% - 50px))，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | width | 300ms | 0ms | ease | 组件state-change：width，300ms ease，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease | 组件state-change：opacity，400ms ease，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease | 组件state-change：all，300ms ease，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | state-change | opacity | 200ms | 0ms | ease | 组件state-change：opacity，200ms ease，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | ease | 组件state-change：opacity，150ms ease，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | ease | 组件state-change：transform，150ms ease，state-change 触发 |
+| component | load | animation | 300ms | 0ms | ease | 组件load：animation scale(.8) -> scale(1)，300ms ease，load 触发 |
+| component | load | animation | 1500ms | 0ms | cubic-bezier(.455,.03,.515,.955) | 组件load：animation 0 -> 1，1500ms cubic-bezier(.455,.03,.515,.955)，load 触发 |
+| component | state-change | opacity | 300ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity missing -> translate(-50%,calc(-50% - 50px))，300ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | width | 300ms | 0ms | ease | 组件state-change：width，300ms ease，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease | 组件state-change：opacity，400ms ease，state-change 触发 |
+| component | state-change | all | 300ms | 0ms | ease | 组件state-change：all，300ms ease，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | state-change | box-shadow | 200ms | 0ms | ease-in-out | 组件state-change：box-shadow，200ms ease-in-out，state-change 触发 |
+| component | state-change | box-shadow | 200ms | 0ms | ease-in-out | 组件state-change：box-shadow，200ms ease-in-out，state-change 触发 |
+| component | state-change | opacity | 600ms | 0ms | cubic-bezier(.4,0,.22,.96) | 组件state-change：opacity missing -> none，600ms cubic-bezier(.4,0,.22,.96)，state-change 触发 |
+| component | state-change | transform | 600ms | 0ms | cubic-bezier(.4,0,.22,.96) | 组件state-change：transform missing -> none，600ms cubic-bezier(.4,0,.22,.96)，state-change 触发 |
+| hero | state-change | all | 200ms | 0ms | ease | 首屏state-change：all missing -> translateZ(0)，200ms ease，state-change 触发 |
+| hero | viewport | animation | 3000ms | 0ms | linear | 首屏viewport：animation，3000ms linear，viewport 触发 |
+| component | state-change | text-underline-offset | 100ms | 0ms | ease-out | 组件state-change：text-underline-offset，100ms ease-out，state-change 触发 |
+| component | state-change | transform | 200ms | 0ms | ease-out | 组件state-change：transform，200ms ease-out，state-change 触发 |
+| component | state-change | opacity | 400ms | 0ms | ease-out | 组件state-change：opacity，400ms ease-out，state-change 触发 |
+| component | state-change | transform | 100ms | 0ms | ease-out | 组件state-change：transform missing -> translateZ(0)，100ms ease-out，state-change 触发 |
+| component | load | animation | 1000ms | 0ms | linear | 组件load：animation rotate(0deg) -> rotate(1turn)，1000ms linear，load 触发 |
+| navigation | state-change | all | 200ms | 0ms | ease-in-out | 导航state-change：all，200ms ease-in-out，state-change 触发 |
+| component | state-change | text-underline-offset | 100ms | 0ms | ease-out | 组件state-change：text-underline-offset，100ms ease-out，state-change 触发 |
+| component | state-change | color | 300ms | 0ms | ease | 组件state-change：color，300ms ease，state-change 触发 |
+| component | state-change | transform | 1500ms | 0ms | cubic-bezier(.165,.84,.44,1) | 组件state-change：transform missing -> translateY(-37px) translateZ(0)，1500ms cubic-bezier(.165,.84,.44,1)，state-change 触发 |
+| button | hover | backgroundColor | 200ms | 0ms | ease, ease, ease-in-out, ease-in-out | 按钮hover：backgroundColor missing -> rgb(252, 252, 252)，200ms ease, ease, ease-in-out, ease-in-out，hover 触发；样本 Download |
+| button | focus | backgroundColor | 200ms | 0ms | ease, ease, ease-in-out, ease-in-out | 按钮focus：backgroundColor missing -> rgb(252, 252, 252)，200ms ease, ease, ease-in-out, ease-in-out，focus 触发；样本 Download |
+| form | hover | style | 300ms | 0ms | ease, ease | 组件hover：style，300ms ease, ease，hover 触发；样本 ds-form-1 |
+| form | focus | style | 300ms | 0ms | ease, ease | 组件focus：style，300ms ease, ease，focus 触发；样本 ds-form-1 |
+| form | hover | style | 300ms | 0ms | ease-in-out, ease-in-out, ease-in-out | 组件hover：style，300ms ease-in-out, ease-in-out, ease-in-out，hover 触发；样本 ds-form-2 |
+| form | focus | style | 300ms | 0ms | ease-in-out, ease-in-out, ease-in-out | 组件focus：style，300ms ease-in-out, ease-in-out, ease-in-out，focus 触发；样本 ds-form-2 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-12-raycast-productivity-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-opacity-200-missing lacks easing
+- motion-component-state-change-transform-200-missing lacks easing
+- motion-component-state-change-opacity-200-missing lacks easing
+- motion-component-state-change-transform-200-missing lacks easing
+- motion-component-load-opacity-200-missing lacks easing
+- motion-component-state-change-transform-200-missing lacks easing
+- motion-component-state-change-opacity-300-missing lacks easing
+- motion-component-state-change-opacity-300-missing lacks easing
+- motion-button-state-change-background-image-200-missing lacks easing
+- motion-button-state-change-background-color-200-missing lacks easing
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-load-animation-missing-linear lacks duration_ms
+- motion-component-state-change-opacity-300-missing lacks easing
+- motion-component-load-animation-1100-missing lacks easing
+- motion-navigation-load-animation-1100-missing lacks easing
+- motion-navigation-load-animation-1100-missing lacks easing
+- motion-component-load-animation-1100-missing lacks easing
+- motion-component-load-animation-1100-missing lacks easing
+- motion-component-state-change-opacity-500-missing lacks easing
+
+## Snippet Appendix
+### motion-component-load-animation-2000-ease-in-out
+
+```css
+.search_loadingIndicator__gxtmG { animation: search_nightRider__a2oGM 2s ease-in-out infinite; }
+```
+
+### motion-button-state-change-box-shadow-200-ease-in-out
+
+```css
+.Button_button__JJiqJ { transition: box-shadow .2s ease-in-out; }
+```
+
+### motion-button-state-change-transform-100-ease-in-out
+
+```css
+.Button_button__JJiqJ { transition: transform .1s ease-in-out; }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1
+
+```css
+.Gallery_img__grW93 { transition: opacity .3s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-width-300-ease
+
+```css
+.Gallery_page__9tY2Q { transition: width .3s ease; }
+```
+
+### motion-component-state-change-opacity-400-ease
+
+```css
+.Gallery_pageDescription__gzbMf { transition: opacity .4s ease; }
+```
+
+### motion-component-state-change-all-300-ease
+
+```css
+.Gallery_pageDescription__gzbMf>span { transition: all .3s ease; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.Reel_next__jGdWP { transition: color .3s ease; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.Reel_previous__h1vz0 { transition: color .3s ease; }
+```
+
+### motion-component-state-change-opacity-200-ease
+
+```css
+.InstallViaWinget_trigger__a4x9E { transition: opacity .2s ease; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.InstallViaWinget_copyToClipboard__v4nU2 { transition: color .3s ease; }
+```
+
+### motion-component-state-change-opacity-150-ease
+
+```css
+.InstallViaWinget_icon__XAk8H { transition: opacity .15s ease; }
+```
+
+### motion-component-state-change-transform-150-ease
+
+```css
+.InstallViaWinget_icon__XAk8H { transition: transform .15s ease; }
+```
+
+### motion-component-load-animation-300-ease
+
+```css
+.InstallViaWinget_iconCopied__osOxD { animation: InstallViaWinget_iconSuccess__hI9N1 .3s ease; }
+```
+
+### motion-component-load-animation-1500-cubic-bezier-455-03-515-955
+
+```css
+.RaycastWindow_loadingIndicator__uCS_m:after { animation: RaycastWindow_loadingSweep__UKb0Y 1.5s cubic-bezier(.455,.03,.515,.955) forwards; }
+```
+
+### motion-component-state-change-opacity-300-cubic-bezier-4-0-2-1
+
+```css
+.AIShowCase_img__jstSw { transition: opacity .3s cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-width-300-ease
+
+```css
+.AIShowCase_page__IYgfn { transition: width .3s ease; }
+```
+
+### motion-component-state-change-opacity-400-ease
+
+```css
+.AIShowCase_pageDescription__U91h0 { transition: opacity .4s ease; }
+```
+
+### motion-component-state-change-all-300-ease
+
+```css
+.AIShowCase_pageDescription__U91h0>span { transition: all .3s ease; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.FeatureWall_wall__BRIeA .FeatureWall_text__KtcCg { transition: color .3s ease; }
+```
+
+### motion-component-state-change-box-shadow-200-ease-in-out
+
+```css
+.FeatureWall_desktopWrapper__a9h7u { transition: box-shadow .2s ease-in-out; }
+```
+
+### motion-component-state-change-box-shadow-200-ease-in-out
+
+```css
+.FeatureWall_desktop__y7X6D { transition: box-shadow .2s ease-in-out; }
+```
+
+### motion-component-state-change-opacity-600-cubic-bezier-4-0-22-96
+
+```css
+.FeatureWall_enterActive__jjjtR { transition: opacity .6s cubic-bezier(.4,0,.22,.96); }
+```
+
+### motion-component-state-change-transform-600-cubic-bezier-4-0-22-96
+
+```css
+.FeatureWall_enterActive__jjjtR { transition: transform .6s cubic-bezier(.4,0,.22,.96); }
+```
+
+### motion-hero-state-change-all-200-ease
+
+```css
+.HeroAnnouncement_announcementOuter__T5qC1 { transition: all .2s ease; }
+```
+
+### motion-hero-viewport-animation-3000-linear
+
+```css
+.HeroAnnouncement_announcementOuter__T5qC1.HeroAnnouncement_animate__T5ctC { animation: HeroAnnouncement_rotating2__GbW_t -.64s linear 3s infinite; }
+```
+
+### motion-component-state-change-text-underline-offset-100-ease-out
+
+```css
+.SectionParagraph_root__fSzgt a { transition: text-underline-offset .1s ease-out; }
+```
+
+### motion-component-state-change-transform-200-ease-out
+
+```css
+.ai-chat_root__QQJDJ .ai-chat_popover__jq15c { transition: transform .2s ease-out; }
+```
+
+### motion-component-state-change-opacity-400-ease-out
+
+```css
+.ai-chat_root__QQJDJ .ai-chat_popover__jq15c { transition: opacity .4s ease-out; }
+```
+
+### motion-component-state-change-transform-100-ease-out
+
+```css
+.ai-chat_popover__jq15c { transition: transform .1s ease-out; }
+```
+
+### motion-component-load-animation-1000-linear
+
+```css
+.FeaturebaseContent_spinner__EhePC { animation: FeaturebaseContent_spin__1K7tB 1s linear infinite; }
+```
+
+### motion-navigation-state-change-all-200-ease-in-out
+
+```css
+.NavLink_navLink__REP72 { transition: all .2s ease-in-out; }
+```
+
+### motion-component-state-change-text-underline-offset-100-ease-out
+
+```css
+.markdown :where(a):not(:where([class~=not-markdown],[class~=not-markdown] *)) { transition: text-underline-offset .1s ease-out; }
+```
+
+### motion-component-state-change-color-300-ease
+
+```css
+.ArrowLink_link__WKebC { transition: color .3s ease; }
+```
+
+### motion-component-state-change-transform-1500-cubic-bezier-165-84-44-1
+
+```css
+.ApiFig1_bottom__XigQ9 { transition: transform 1.5s cubic-bezier(.165,.84,.44,1); }
+```
+
+### motion-button-hover-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(252, 252, 252)", "boxShadow": "rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px"}
+```
+
+### motion-button-focus-backgroundcolor-200-ease-ease-ease-in-out-ease-in-out
+
+```css
+{"backgroundColor": "rgb(252, 252, 252)", "boxShadow": "rgba(0, 0, 0, 0.2) 0px -1px 0.4px 0px inset, rgb(255, 255, 255) 0px 1px 0.4px 0px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 2px, rgba(255, 255, 255, 0.19) 0px 0px 14px 0px"}
+```
+
+### motion-form-hover-style-300-ease-ease
+
+```css
+{"border": "1px solid rgba(255, 255, 255, 0.184)", "borderBottom": "1px solid rgba(255, 255, 255, 0.184)", "borderLeft": "1px solid rgba(255, 255, 255, 0.184)", "borderRight": "1px solid rgba(255, 255, 255, 0.184)", "borderTop": "1px solid rgba(255, 255, 255, 0.184)"}
+```
+
+### motion-form-focus-style-300-ease-ease
+
+```css
+{"border": "1px solid rgba(255, 255, 255, 0.184)", "borderBottom": "1px solid rgba(255, 255, 255, 0.184)", "borderLeft": "1px solid rgba(255, 255, 255, 0.184)", "borderRight": "1px solid rgba(255, 255, 255, 0.184)", "borderTop": "1px solid rgba(255, 255, 255, 0.184)"}
+```
+
+### motion-form-hover-style-300-ease-in-out-ease-in-out-ease-in-out
+
+```css
+{"cursor": "pointer"}
+```
+
+### motion-form-focus-style-300-ease-in-out-ease-in-out-ease-in-out
+
+```css
+{"cursor": "pointer"}
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

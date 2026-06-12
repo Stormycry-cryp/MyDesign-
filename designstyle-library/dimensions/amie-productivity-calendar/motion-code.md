@@ -1,42 +1,343 @@
 # Motion And Code
 
 ## Observed
-- Motion:
-  - Page transitions: ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,bac, ll,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,bac, color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[box-shadow\2c transform\]{transition-pr
-  - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-  - Scroll/entrance behavior: y.set(n,{});let r=y.get(n),i=JSON.stringify(t);return r[i]||(r[i]=new IntersectionObserver(b,{root:e,...t})),r[i]}(s);return m.set(a,o),u.observe(a),()=>{m.delete(a),u.unobserve(a)}}mount(){this.startObserver()}update(){, erve(a)}}mount(){this.startObserver()}update(){if("undefined"==typeof IntersectionObserver)return;let{props:e,prevProps:t}=this.node;["amount","margin","root"].some(function({viewport:e={}},{viewport:t={}}={}){return n=>, tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:", q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}return N(t,[{key:"setHandler",value:functi
-  - Timing/easing: n:100% 50%}}.animate-backgroundAnimate{animation:backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes, s pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes ring{100{transform:rotate(0)}0%{transform:rotate(0deg)}4%{transform:rotate(9deg)}6%{transform:rotat, otate(.5deg)}38%{transform:rotate(0)}}.animate-ring{animation:ring 6s ease-in-out infinite}@keyframes scaleBounce{0%{transform:scale(1)}50%{transform:scale(.97)}to{transform:scale(1)}}.animate-scaleBounce{animat, to{transform:scale(1)}}.animate-scaleBounce{animation:scaleBounce .3s cubic-bezier(.46,.03,.52,.96)}@keyframes scaleUp{0%{transform:scale(.6);opacity:0}85%{transform:scale(1);opacity:1}to{transform:scale(1.2);opacity:0}}.animate-, transform:scale(1.2);opacity:0}}.animate-scaleUp{animation:scaleUp 8s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes scrollX{0%{background-position:0 0}to{background-position:200% 0}}.animate-scroll-x{animation:scrollX 70s lin
-- Motion code:
-  - Motion source: public styles/scripts sampled from captured DOM.
-  - CSS animation/transition evidence: ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; ll,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; y,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[box-shadow\2c transf; it-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[box-shadow\2c transform\]{transition-property:box-shadow,transform;tran; on:0 50%}50%{background-position:100% 50%}}.animate-backgroundAnimate{animation:backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1; ) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes ring{100{transform:rotate(0)}0%{transform:rotate; g)}36%{transform:rotate(.5deg)}38%{transform:rotate(0)}}.animate-ring{animation:ring 6s ease-in-out infinite}@keyframes scaleBounce{0%{transform:scale(1)}50%{transform:scale(.97)}t
-  - Public CSS/JS probe keywords: animation, easing, framer, intersection, keyframes, request_animation_frame, transform, transition
-  - Public CSS/JS motion snippets: ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; ll,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; y,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[box-shadow\2c transf; it-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-\[box-shadow\2c transform\]{transition-property:box-shadow,transform;tran; on:0 50%}50%{background-position:100% 50%}}.animate-backgroundAnimate{animation:backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1; ) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes ring{100{transform:rotate(0)}0%{transform:rotate; g)}36%{transform:rotate(.5deg)}38%{transform:rotate(0)}}.animate-ring{animation:ring 6s ease-in-out infinite}@keyframes scaleBounce{0%{transform:scale(1)}50%{transform:scale(.97)}t; }50%{transform:scale(.97)}to{transform:scale(1)}}.animate-scaleBounce{animation:scaleBounce .3s cubic-bezier(.46,.03,.52,.96)}@keyframes scaleUp{0%{transform:scale(.6);opacity:0}85; cale(1);opacity:1}to{transform:scale(1.2);opacity:0}}.animate-scaleUp{animation:scaleUp 8s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes scrollX{0%{background-position:0 0}to{bac
-  - Exact motion parameters: ity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; ll,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,t; on:0 50%}50%{background-position:100% 50%}}.animate-backgroundAnimate{animation:backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1; ) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes ring{100{transform:rotate(0)}0%{transform:rotate; g)}36%{transform:rotate(.5deg)}38%{transform:rotate(0)}}.animate-ring{animation:ring 6s ease-in-out infinite}@keyframes scaleBounce{0%{transform:scale(1)}50%{transform:scale(.97)}t; n:100% 50%}}.animate-backgroundAnimate{animation:backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite}@keyframes pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:puls; s pulse{0%{opacity:0}to{opacity:1}}.animate-pulse{animation:pulse .6s ease-in-out infinite alternate}@keyframes ring{100{transform:rotate(0)}0%{transform:rotate(0deg)}4%{transform:; otate(.5deg)}38%{transform:rotate(0)}}.animate-ring{animation:ring 6s ease-in-out infinite}@keyframes scaleBounce{0%{transform:scale(1)}50%{transform:scale(.97)}to{transform:scale(; ne-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:tran
-  - JavaScript/runtime motion evidence: y.set(n,{});let r=y.get(n),i=JSON.stringify(t);return r[i]||(r[i]=new IntersectionObserver(b,{root:e,...t})),r[i]}(s);return m.set(a,o),u.observe(a),()=>{m.delete(a),u.unobserve(a); erve(a)}}mount(){this.startObserver()}update(){if("undefined"==typeof IntersectionObserver)return;let{props:e,prevProps:t}=this.node;["amount","margin","root"].some(function({viewp; function(){return a}});let n=r(14232),u=r(43273),l="function"==typeof IntersectionObserver,o=new Map,f=[];function a(e){let{rootRef:t,rootMargin:r,disabled:a}=e,c=a||!l,[i,s]=(0,n.; if(n&&(t=o.get(n)))return t;let u=new Map;return t={id:r,observer:new IntersectionObserver(e=>{e.forEach(e=>{let t=u.get(e.target),r=e.isIntersecting||e.intersectionRatio>0;t&&r&&t; tion(e){e==="inactive"&&q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){retur; q(w,i,H).call(i)})]),typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(function(){return q(w,i,z).call(i)}):setTimeout(function(){return q(w,i,z).call(i)},0)}r; (t)}catch(e){n(e,"pixel","qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V); ,"qualityChecker")}};typeof e!="undefined"&&e.requestAnimationFrame?e.requestAnimationFrame(r):setTimeout(r,0)}}function X(e,t){var n,r,o=f(e,t);q(w,this,V).call(this,o),W(E,this,(
-  - Stylesheet evidence: https://amie.so/_next/static/css/33a73de77c05eb6b.css; https://amie.so/_next/static/css/7ef81824ee6a42c3.css; https://connect.facebook.net/en_US/fbevents.js; https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js; https://www.googletagmanager.com/gtag/js?id=AW-17043094642; https://amie.so/_next/static/chunks/polyfills-42372ed130431b0a.js; https://amie.so/_next/static/chunks/webpack-f9a765827fab2803.js; https://amie.so/_next/static/chunks/framework-e815b2d8c1759260.js
-  - Interpreted motion tags: transition, hover, scroll
-  - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
-- Code surface:
-  - Framework/runtime hints: framer, intersection, request_animation_frame
-  - Public stylesheet/script URLs: https://amie.so/_next/static/css/33a73de77c05eb6b.css; https://amie.so/_next/static/css/7ef81824ee6a42c3.css; https://connect.facebook.net/en_US/fbevents.js; https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js; https://www.googletagmanager.com/gtag/js?id=AW-17043094642; https://amie.so/_next/static/chunks/polyfills-42372ed130431b0a.js; https://amie.so/_next/static/chunks/webpack-f9a765827fab2803.js; https://amie.so/_next/static/chunks/framework-e815b2d8c1759260.js; https://amie.so/_next/static/chunks/main-384bb0a4ed4affcd.js; https://amie.so/_next/static/chunks/pages/_app-b8b871843e6e0e58.js
-  - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
-  - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
-  - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-  - Component computed-style evidence: `assets/2026-06-04-amie-productivity-calendar-component-styles.json`
-  - Asset CDN and media loading patterns: https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.f8205e72.png&w=3840&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogos-disclaimer-mobile.6c2de414.png&w=1920&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogos-disclaimer.b85b4c57.png&w=1080&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffireflies.24e3baa4.png&w=96&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fotter.a43ee87b.png&w=96&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffathom.5fde64f3.png&w=96&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fslack.ee2a778a.png&w=96&q=75; https://amie.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquentin.8888354e.png&w=256&q=75
-- Implementation notes:
-  - CSS/layout primitives: use screenshot geometry and DOM resource evidence; refine manually before implementation-grade use.
-  - Token ideas: extract from computed colors, font roles, and CSS resources.
-  - Libraries or techniques: animation, easing, framer, intersection, keyframes, request_animation_frame, transform, transition
-  - Performance/accessibility concerns: heavy media count 40 and scripts 36; check reduced-motion and image loading before copying motion patterns.
+| Selector Role | Trigger | Property | Duration | Delay | Easing | Description |
+|---|---|---|---|---|---|---|
+| reveal | viewport | animation | 3000ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation，3000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| reveal | viewport | animation | 600ms | 0ms | ease-in-out | 入场元素viewport：animation 0 -> 1，600ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 6000ms | 0ms | ease-in-out | 入场元素viewport：animation rotate(0) -> rotate(0)，6000ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 300ms | 0ms | cubic-bezier(.46,.03,.52,.96) | 入场元素viewport：animation scale(1) -> scale(1)，300ms cubic-bezier(.46,.03,.52,.96)，viewport 触发 |
+| reveal | viewport | animation | 8000ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation scale(.6) -> scale(1.2)，8000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| reveal | viewport | animation | 70000ms | 0ms | linear | 入场元素viewport：animation，70000ms linear，viewport 触发 |
+| reveal | viewport | animation | 600ms | 0ms | ease-in-out | 入场元素viewport：animation translateX(-1px) -> translateX(2px)，600ms ease-in-out，viewport 触发 |
+| reveal | viewport | animation | 70000ms | 0ms | linear | 入场元素viewport：animation translateZ(0) -> translate3d(-253px,0,0)，70000ms linear，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation rotate(0deg) -> rotate(1turn)，1000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| reveal | viewport | animation | 8800ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation rotate(0deg) -> rotate(0deg)，8800ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| reveal | viewport | animation | 1000ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation rotate(0deg) -> rotate(1turn)，1000ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| reveal | viewport | animation | 4400ms | 0ms | cubic-bezier(.2,.7,.64,1.1) | 入场元素viewport：animation rotate(0deg) -> rotate(1turn)，4400ms cubic-bezier(.2,.7,.64,1.1)，viewport 触发 |
+| component | state-change | color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：background-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：border-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：text-decoration-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：fill，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：stroke，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | box-shadow | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | filter | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | backdrop-filter | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：backdrop-filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | -webkit-backdrop-filter | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：-webkit-backdrop-filter，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | box-shadow | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | height | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：height，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | left | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：left，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | width | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：width，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | height | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：height，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | width | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：width，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform .25s ease | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform .25s ease，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | all | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：all，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | background-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：background-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：border-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | text-decoration-color | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：text-decoration-color，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | fill | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：fill，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | stroke | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：stroke，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | opacity | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：opacity，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | box-shadow | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：box-shadow，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | transform | 150ms | 0ms | cubic-bezier(.4,0,.2,1) | 组件state-change：transform，150ms cubic-bezier(.4,0,.2,1)，state-change 触发 |
+| component | state-change | border-color | 150ms | 0ms | ease-in-out | 组件state-change：border-color，150ms ease-in-out，state-change 触发 |
 
 ## Inference
-- Borrow:
-  - Borrow the page-scope-specific composition, hierarchy, media ratios, component density, and proven motion parameters.
-  - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
+- Motion entries are normalized from declaration-level CSS parse or explicit retained motion evidence.
+- Source motion path: assets/2026-06-11-amie-productivity-calendar-motion.json
 
 ## Missing Evidence
-- None recorded.
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+- motion-component-state-change-all-missing-missing lacks duration_ms
+- motion-component-state-change-all-missing-missing lacks easing
+
+## Snippet Appendix
+### motion-reveal-viewport-animation-3000-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-backgroundAnimate { animation: backgroundAnimate 3s cubic-bezier(.2,.7,.64,1.1) infinite; }
+```
+
+### motion-reveal-viewport-animation-600-ease-in-out
+
+```css
+.animate-pulse { animation: pulse .6s ease-in-out infinite alternate; }
+```
+
+### motion-reveal-viewport-animation-6000-ease-in-out
+
+```css
+.animate-ring { animation: ring 6s ease-in-out infinite; }
+```
+
+### motion-reveal-viewport-animation-300-cubic-bezier-46-03-52-96
+
+```css
+.animate-scaleBounce { animation: scaleBounce .3s cubic-bezier(.46,.03,.52,.96); }
+```
+
+### motion-reveal-viewport-animation-8000-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-scaleUp { animation: scaleUp 8s cubic-bezier(.2,.7,.64,1.1) infinite; }
+```
+
+### motion-reveal-viewport-animation-70000-linear
+
+```css
+.animate-scroll-x { animation: scrollX 70s linear infinite; }
+```
+
+### motion-reveal-viewport-animation-600-ease-in-out
+
+```css
+.animate-shake { animation: shake .6s ease-in-out; }
+```
+
+### motion-reveal-viewport-animation-70000-linear
+
+```css
+.animate-slideBackground { animation: slideBackground 70s linear infinite alternate; }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-spin { animation: spinFull 1s cubic-bezier(.2,.7,.64,1.1) infinite; }
+```
+
+### motion-reveal-viewport-animation-8800-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-spinBoth { animation: spinBoth 8.8s cubic-bezier(.2,.7,.64,1.1) infinite; }
+```
+
+### motion-reveal-viewport-animation-1000-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-spinFast { animation: spinFull 1s cubic-bezier(.2,.7,.64,1.1); }
+```
+
+### motion-reveal-viewport-animation-4400-cubic-bezier-2-7-64-1-1
+
+```css
+.animate-spinFull { animation: spinFull 4.4s cubic-bezier(.2,.7,.64,1.1) infinite; }
+```
+
+### motion-component-state-change-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: background-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: border-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: text-decoration-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-fill-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: fill; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: stroke; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-filter-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-backdrop-filter-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: backdrop-filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-webkit-backdrop-filter-150-cubic-bezier-4-0-2-1
+
+```css
+.transition { transition-property: -webkit-backdrop-filter; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[box-shadow\2c transform\] { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[box-shadow\2c transform\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-height-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[height\] { transition-property: height; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-left-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[left\] { transition-property: left; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[opacity\2c transform\] { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[opacity\2c transform\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[transform\] { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-width-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[width\2c _height\] { transition-property: width; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-height-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[width\2c _height\] { transition-property: height; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-width-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[width\2c transform_250ms_ease\] { transition-property: width; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-25s-ease-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-\[width\2c transform_250ms_ease\] { transition-property: transform .25s ease; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-all-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-all { transition-property: all; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-background-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: background-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-border-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: border-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-text-decoration-color-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: text-decoration-color; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-fill-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: fill; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-stroke-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-colors { transition-property: stroke; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-opacity-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-opacity { transition-property: opacity; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-box-shadow-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-shadow { transition-property: box-shadow; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-transform-150-cubic-bezier-4-0-2-1
+
+```css
+.transition-transform { transition-property: transform; transition-duration: .15s; transition-timing-function: cubic-bezier(.4,0,.2,1); }
+```
+
+### motion-component-state-change-border-color-150-ease-in-out
+
+```css
+.sun-editor-editable[contenteditable=true] .se-component.se-component-copy { transition: border-color .15s ease-in-out; }
+```
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

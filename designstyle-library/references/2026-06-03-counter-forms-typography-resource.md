@@ -30,6 +30,17 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 - Do not use as proof of UX quality beyond the captured public page.
 - Do not use to copy brand identity, claims, proprietary images, or exact campaign language.
 
+## Style DNA
+- First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.; source: Layout Geometry And Spacing
+- Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}.; source: Layout Geometry And Spacing
+- Media/card aspect stability: image natural sizes include 660x414; 660x449; 660x380; 660x470; 660x429; 920x506; 660x445; 567x567; 567x567.; source: Layout Geometry And Spacing
+- Observed border radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing
+- Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}; source: Dimension And Ratio System
+- Observed media ratios: 660:414; 660:449; 660:380; 660:470; 660:429; 920:506; 660:445; 567:567; 567:567; source: Dimension And Ratio System
+- component state-change motion uses 150ms cubic-bezier(.4,0,.2,1); source: motion.json
+- component state-change motion uses 100ms ease; source: motion.json
+- button hover motion uses 0ms ease; source: motion.json
+- button focus motion uses 0ms ease; source: motion.json
 ## Evidence Snapshot
 - Captured URL: https://counter-forms.com/
 - Page title: Counter Forms
@@ -60,6 +71,12 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 - Observed letter spacing: included in font size samples.
 - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
 
+## Reference Text And Copy Grammar
+- H1/H2/eyebrow/CTA samples: H1 none observed; H2 none observed; navigation none observed
+- Sentence rhythm: 105 words in the captured Visual System summary; source: Visual System
+- Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+- Voice and naming: page title Counter Forms; source: Evidence Snapshot
+- Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 ## Color, Material, And Contrast
 - Observed text colors: BODY:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(255, 101, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgba(0, 0, 0, 0); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239); A:rgb(0, 0, 0):rgb(239, 239, 239)
 - Observed backgrounds: included in computed color pairs.
@@ -71,6 +88,12 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 - Media/card aspect stability: image natural sizes include 660x414; 660x449; 660x380; 660x470; 660x429; 920x506; 660x445; 567x567; 567x567.
 - Observed border radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px
 
+## Style Tokens And Surface Grammar
+- Surface/background system: included in computed color pairs.; source: Color, Material, And Contrast
+- Borders/dividers/radii: 50%; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; 2px; source: Layout Geometry And Spacing; source: Layout Geometry And Spacing
+- Shadow/depth/material: inspect screenshot; automated pass records no shadow taxonomy.; source: Visual System
+- Button/input/control density: buttons BULLETIN; forms automated pass did not classify forms.; source: Interaction And Components
+- Icon/illustration stroke style: inspect screenshot; automated pass records image sources only.; source: Assets
 ## Dimension And Ratio System
 - Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 3278}
 - Observed media ratios: 660:414; 660:449; 660:380; 660:470; 660:429; 920:506; 660:445; 567:567; 567:567
@@ -90,22 +113,19 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 - CSS variables/tokens observed: automated pass did not isolate variables; inspect fetched resources for token naming if needed.
 - Layout primitives observed: infer from screenshot and DOM; automated pass records page shape but not semantic layout primitives.
 - Component or class naming clues: raw DOM is not retained in the library; use L4 on-demand recapture from the source URL when L0-L3 evidence is insufficient.
-- Component computed-style evidence: `assets/2026-06-04-counter-forms-typography-resource-component-styles.json`
+- Component computed-style evidence: `assets/2026-06-12-counter-forms-typography-resource-component-styles.json`
 - Asset CDN and media loading patterns: https://cdn.sanity.io/images/4iqputah/production/f3163482a52787c0dbe5b44ab7b709b6ba6ecfef-2890x1815.jpg?w=660&fm=webp; https://cdn.sanity.io/images/4iqputah/production/e53db3a07f3824b259cabc6d005c3db0793847c8-2264x1539.png?w=660&fm=webp; https://cdn.sanity.io/images/4iqputah/production/4215e8a482b4e7b3d6d6f6fb5979450195e3ecd5-13333x7667.jpg?w=660&fm=webp; https://cdn.sanity.io/images/4iqputah/production/5bc15e341015a2b1674b8e0b8ef1767a93a428c1-1516x1080.jpg?w=660&fm=webp; https://cdn.sanity.io/images/4iqputah/production/0e0fb1e4f2a724ad66217c5f95cbf4c8129fcd46-3024x1964.png?w=660&fm=webp; https://counter-forms.com/media/CounterForms-Workroom-PPPTableAndCalculator.jpg; https://cdn.sanity.io/images/4iqputah/production/93ef30280f9d67038deed1d412af732f8098ec24-978x659.png?w=660&fm=webp; https://counter-forms.com/media/CounterForms-Crosswords.png
 
 ## Motion
-- Page transitions: ackdrop-blur-\[9px\]{--tw-backdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Casset, ckdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");font-style:normal;f, n-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");font-style:normal;font-weight:400}@font-face
+- Page transitions: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Micro-interactions: infer only when backed by transition/animation evidence or visible screenshot states.
-- Scroll/entrance behavior: t:function(){return s}});let r=n(2265),o=n(3515),a="function"==typeof IntersectionObserver,i=new Map,u=[];function s(e){let{rootRef:t,rootMargin:n,disabled:s}=e,l=s||!a,[c,f]=(0,r.useState)(!1),d=(0,r.useRef)(null),p=(0,, if(r&&(t=i.get(r)))return t;let o=new Map;return t={id:n,observer:new IntersectionObserver(e=>{e.forEach(e=>{let t=o.get(e.target),n=e.isIntersecting||e.intersectionRatio>0;t&&n&&t(n)})},e),elements:o},u.push(n),i.set(n,, fined",y=typeof window!=m,_=typeof document!=m,v=()=>y&&typeof window.requestAnimationFrame!=m,g=(e,t)=>{let r=s.get(e);return[()=>!h(t)&&e.get(t)||d,a=>{if(!h(t)){let n=e.get(t);t in o||(o[t]=n),r[5](t,f(n,a),n||d)}},r[6, t),Z("offline",r)}}},O=!n.useId,S=!y||"Deno"in window,C=e=>v()?window.requestAnimationFrame(e):setTimeout(e,1),N=S?n.useEffect:n.useLayoutEffect,R="undefined"!=typeof navigator&&navigator.connection,j=!S&&R&&(["slow-2g","
-- Timing/easing: sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");font-style:normal;f, .after\:h-32:after{content:var(--tw-content);height:8rem}.after\:bg-\[linear-gradient\(0deg\2c var\(--color-neutral-gray\)\2c transparent\)\]:after{content:var(--tw-content);background-image:linear-gradient, )\2c transparent\)\]:after{content:var(--tw-content);background-image:linear-gradient(0deg,var(--color-neutral-gray),transparent)}.after\:content-\[\"\"\]:after{--tw-content:"";content:var(--tw-content)}.ho, sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-md\:duration-300{transition-duration:.3s}}@media (min-width:768px){.md\:bottom-3{bottom:.75rem}.md\, h:100%;height:100%}.ws-nw{white-space:nowrap}.hand{transition:all .1s ease;transform-origin:center;stroke:#2e71fe}.hand--second{stroke-width:1px;stroke:#f15640}.hand--minute{stroke-width:1px}.hand--hour{s
+- Timing/easing: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 
 ## Motion Code And Runtime Evidence
 - Motion source: public styles/scripts sampled from captured DOM.
-- CSS animation/transition evidence: ackdrop-blur-\[9px\]{--tw-backdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-; ckdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;sr; n-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");; ng-left:6rem}.max-md\:opacity-0{opacity:0}.max-md\:transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-m; y-0{opacity:0}.max-md\:transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-md\:duration-300{transition-d
 - Public CSS/JS probe keywords: easing, intersection, request_animation_frame, transform, transition
-- Public CSS/JS motion snippets: ackdrop-blur-\[9px\]{--tw-backdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-; ckdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;sr; n-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");; ng-left:6rem}.max-md\:opacity-0{opacity:0}.max-md\:transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-m; y-0{opacity:0}.max-md\:transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-md\:duration-300{transition-d; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light; .after\:h-32:after{content:var(--tw-content);height:8rem}.after\:bg-\[linear-gradient\(0deg\2c var\(--color-neutral-gray\)\2c transparent\)\]:after{content:var(--tw-content);backgr; )\2c transparent\)\]:after{content:var(--tw-content);background-image:linear-gradient(0deg,var(--color-neutral-gray),transparent)}.after\:content-\[\"\"\]:after{--tw-content:"";con; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.max-md\:duration-300{transition-duration:.3s}}@media (min-wi; h:100%;height:100%}.ws-nw{white-space:nowrap}.hand{transition:all .1s ease;transform-origin:center;stroke:#2e71fe}.hand--second{stroke-width:1px;stroke:#f15640}.hand--minute{stroke
+- Public CSS/JS motion snippets: missing evidence; removed truncated CSS/JS fragment. Use structured motion evidence instead.
 - Exact motion parameters: ackdrop-blur-\[9px\]{--tw-backdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-; ckdrop-blur:blur(9px)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;sr; n-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light.woff2) format("woff2");; sition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}@font-face{font-family:Cassette;src:url(/fonts/Cassette-Light; .after\:h-32:after{content:var(--tw-content);height:8rem}.after\:bg-\[linear-gradient\(0deg\2c var\(--color-neutral-gray\)\2c transparent\)\]:after{content:var(--tw-content);backgr; )\2c transparent\)\]:after{content:var(--tw-content);background-image:linear-gradient(0deg,var(--color-neutral-gray),transparent)}.after\:content-\[\"\"\]:after{--tw-content:"";con; ne-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:tran; -translate-x-1\/2{--tw-translate-x:-50%}.-translate-x-1\/2,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-; size-p-large\)\]{font-size:var(--font-size-p-large)}.\!uppercase{text-transform:uppercase!important}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.capital
-- JavaScript/runtime motion evidence: t:function(){return s}});let r=n(2265),o=n(3515),a="function"==typeof IntersectionObserver,i=new Map,u=[];function s(e){let{rootRef:t,rootMargin:n,disabled:s}=e,l=s||!a,[c,f]=(0,r.; if(r&&(t=i.get(r)))return t;let o=new Map;return t={id:n,observer:new IntersectionObserver(e=>{e.forEach(e=>{let t=o.get(e.target),n=e.isIntersecting||e.intersectionRatio>0;t&&n&&t; fined",y=typeof window!=m,_=typeof document!=m,v=()=>y&&typeof window.requestAnimationFrame!=m,g=(e,t)=>{let r=s.get(e);return[()=>!h(t)&&e.get(t)||d,a=>{if(!h(t)){let n=e.get(t);t; t),Z("offline",r)}}},O=!n.useId,S=!y||"Deno"in window,C=e=>v()?window.requestAnimationFrame(e):setTimeout(e,1),N=S?n.useEffect:n.useLayoutEffect,R="undefined"!=typeof navigator&&na
 - Stylesheet evidence: https://counter-forms.com/_next/static/css/2adf036395b90f4c.css; https://counter-forms.com/_next/static/css/bceec7daded1dae4.css; https://counter-forms.com/_next/static/css/7e96a8241f443a4a.css; https://counter-forms.com/_next/static/chunks/fd9d1056-199927e130d7cc3c.js; https://counter-forms.com/_next/static/chunks/117-649774d8dcf920b1.js; https://counter-forms.com/_next/static/chunks/main-app-2dcde4753ea0d175.js; https://counter-forms.com/_next/static/chunks/648-499c5c6476d757c3.js; https://counter-forms.com/_next/static/chunks/145-87d7f29cdd25203c.js
 - Interpreted motion tags: transition, hover, scroll
 - Use this as implementation guidance only where evidence is direct. If CSS/JS is minified or only CDN names are visible, mark library/framework attribution as weak.
@@ -113,7 +133,7 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 ## Interaction And Components
 - Navigation: none observed
 - Buttons/links: BULLETIN
-- Computed component styles: `assets/2026-06-04-counter-forms-typography-resource-component-styles.json`
+- Computed component styles: `assets/2026-06-12-counter-forms-typography-resource-component-styles.json`
 - Cards/sections: inspect screenshot and DOM; automated pass records visible text and media.
 - Forms/inputs: automated pass did not classify forms.
 - Feedback states: not captured; do not infer.
@@ -142,3 +162,4 @@ Counter Forms Typography Resource is captured as a typography, design-resource, 
 - Reuse value: useful for homepage typography resource index if category and screenshot match the future task.
 - Missing pieces: mobile screenshot, secondary page screenshots, manual overlay classification, exact spacing measurements.
 - Revision made: generated from live screenshot, DOM extraction, public resource sampling, and motion/code keyword probing.
+- Structured motion evidence: `assets/2026-06-12-counter-forms-typography-resource-motion.json`

@@ -1,0 +1,29 @@
+.ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-color-320-cubic-bezier-0-4-0-0-6-1-easing);
+  transform: rgba(0, 0, 0, 0.855);
+}
+
+.ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1 {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-color-320-cubic-bezier-0-4-0-0-6-1-easing);
+  transform: rgba(0, 0, 0, 0.875);
+}
+
+.ds-motion-motion-button-state-change-opacity-100-linear {
+  transition-property: opacity;
+  transition-duration: var(--ds-motion-motion-button-state-change-opacity-100-linear-duration);
+  transition-delay: var(--ds-motion-motion-button-state-change-opacity-100-linear-delay);
+  transition-timing-function: var(--ds-motion-motion-button-state-change-opacity-100-linear-easing);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

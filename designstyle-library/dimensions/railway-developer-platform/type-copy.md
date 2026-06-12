@@ -7,6 +7,12 @@
   - Observed weights: included in font size samples as `tag:size:weight:letterSpacing`.
   - Observed letter spacing: included in font size samples.
   - Preserve role relationships: keep display/UI/body scale relationships from screenshot rather than copying exact typefaces.
+- Reference text:
+  - H1/H2/eyebrow/CTA samples: H1 Acceptable Use Policy; H2 none observed; navigation Pricing
+  - Sentence rhythm: 48 words in the captured Visual System summary; source: Visual System
+  - Claim density: existing numeric claims remain in Evidence Snapshot and Visual System; source: L3 text
+  - Voice and naming: page title Acceptable Use Policy | Railway; source: Evidence Snapshot
+  - Copy boundaries: reuse grammar and role hierarchy only; exact copy, claims, product names, and brand voice are not reusable.
 - H1/H2/navigation samples:
   - Captured URL: https://railway.com/legal/acceptable-use
   - Page title: Acceptable Use Policy | Railway
@@ -20,9 +26,7 @@
   - Navigation samples: Pricing
   - Images observed: none observed
   - Video observed: none observed
-  - Overlays or fixed elements: clicked common overlay buttons cookie accept pattern; inspect screenshot before final use.
 - Visual typography:
-  - Layout: infer from screenshot and viewport; primary page text sample starts `本网站利用 Cookie 等技术来启用基本网站功能以及 分析、个性化定制 和 有针对性的广告。 要了解更多信息，请查看以下链接： 隐私政策 Railway Product Developers Enterprise Company Pricing Sign in Book a demo Acceptable Use Policy This Acceptable Use Policy (\"Policy\") governs your use of the services offered by Railway Corp`.
   - Typography: observed font stacks and role rhythm are recorded below.
   - Color: observed computed foreground/background pairs are recorded below.
   - Density: navigation count 1, image count 0, document height 2173.
@@ -35,7 +39,7 @@
   - Borrow category-relevant trust and conversion mechanics visible in the screenshot and text sample.
 
 ## Missing Evidence
-- Reference text from Reference Text And Copy Grammar
+- None recorded.
 
 ## Do Not Copy
 - Do not copy the wordmark, proprietary imagery, product claims, copywriting, exact typefaces, or brand-specific mythology.

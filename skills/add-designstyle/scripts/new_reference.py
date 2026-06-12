@@ -5,9 +5,10 @@ import argparse
 import re
 from datetime import date
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 
 
 def slugify(text: str) -> str:

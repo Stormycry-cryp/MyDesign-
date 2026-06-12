@@ -1,6 +1,6 @@
 # Designstyle Library
 
-Local aesthetic reference library used by `add-designstyle` and `use-designstyle`.
+Local aesthetic reference library used by `add-designstyle` and `use-designstyle`. The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, it defaults to `~/.codex/designstyle-library`.
 
 - `references/`: one active Markdown style reference per website or design source.
 - `references-excluded/`: blocked, rejected, or otherwise excluded captures preserved outside active retrieval.

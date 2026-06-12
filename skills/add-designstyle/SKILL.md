@@ -5,7 +5,9 @@ description: Use when the user provides an example website, product page, app sc
 
 # Add Designstyle
 
-Turn a concrete visual reference into a reusable designstyle entry in `~/.codex/designstyle-library/references/`.
+Turn a concrete visual reference into a reusable designstyle entry in `${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/references/`.
+
+The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, the skill falls back to `${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}`.
 
 The job is feature preservation, not praise. Capture enough evidence that a future build can reproduce the reference's transferable decisions: first viewport geometry, dimension ratios, typography roles, palette source, reference text grammar, style tokens, spacing rhythm, asset direction, motion logic, motion code evidence, interaction states, implementation clues, and anti-patterns.
 
@@ -24,7 +26,7 @@ L1/L2 are retrieval and selective-reading aids; they do not replace the L3 full 
 ## Library
 
 ```text
-~/.codex/designstyle-library/
+${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/
   references/
   screenshots/
   assets/
@@ -82,7 +84,7 @@ If any condition fails, mark the entry partial or blocked instead of counting it
 Run an aesthetic fit probe before writing any new reference. This is a blocking preflight, not a post-hoc review.
 
 ```bash
-python ~/.codex/skills/add-designstyle/scripts/probe_aesthetic_fit.py --name "site name" --url "https://example.com"
+python3 ~/.codex/skills/add-designstyle/scripts/probe_aesthetic_fit.py --name "site name" --url "https://example.com"
 ```
 
 Use `minimum_score: 75` unless the user gives a stricter standard. Score visible first-viewport UI quality, not brand fame. Penalize government-like layouts, generic templates, weak typography hierarchy, cluttered navigation, low visual distinctiveness, blocked/404/security pages, cookie/modal contamination, and screenshots that do not show the actual target UI.
@@ -154,8 +156,8 @@ Decision rule:
    - Generate and validate progressive files after the L3 reference is written:
 
      ```bash
-     python ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --reference ~/.codex/designstyle-library/references/YYYY-MM-DD-slug.md
-     python ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
+     python3 ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --reference ${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/references/YYYY-MM-DD-slug.md
+     python3 ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
      ```
 
    - Report the generated L1 card path and L2 dimension folder. If generation or validation fails, report the exact failing command and do not count the reference as progressive-ready.
@@ -206,13 +208,13 @@ Use this workflow for large library expansion tasks.
    - Run the validator before claiming a batch count:
 
      ```bash
-     python ~/.codex/skills/add-designstyle/scripts/validate_references.py
+     python3 ~/.codex/skills/add-designstyle/scripts/validate_references.py
      ```
    - For progressive batches, also run:
 
      ```bash
-     python ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --all
-     python ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
+     python3 ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --all
+     python3 ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
      ```
 
 ## Curated Website UI Candidate Workflow
@@ -432,26 +434,26 @@ evidence_quality: "visual screenshot plus DOM/style/resource extraction"
 ## Helper
 
 ```bash
-python ~/.codex/skills/add-designstyle/scripts/new_reference.py "site name" --url "https://example.com" --tags "skincare,luxury,split-hero"
+python3 ~/.codex/skills/add-designstyle/scripts/new_reference.py "site name" --url "https://example.com" --tags "skincare,luxury,split-hero"
 ```
 
 Probe public motion/style code when possible:
 
 ```bash
-python ~/.codex/skills/add-designstyle/scripts/probe_motion_code.py
+python3 ~/.codex/skills/add-designstyle/scripts/probe_motion_code.py
 ```
 
 Validate whether references count toward a batch target:
 
 ```bash
-python ~/.codex/skills/add-designstyle/scripts/validate_references.py
+python3 ~/.codex/skills/add-designstyle/scripts/validate_references.py
 ```
 
 Validate progressive cards and dimensions:
 
 ```bash
-python ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --all --dry-run
-python ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
+python3 ~/.codex/skills/add-designstyle/scripts/build_progressive_reference.py --all --dry-run
+python3 ~/.codex/skills/add-designstyle/scripts/validate_progressive_library.py --json
 ```
 
 Fill every section and self-review it before reporting completion. A reference that only says "premium", "clean", "natural", or "high-end" has failed the skill. A reference that claims motion without code/runtime evidence or explicitly marked evidence limits has also failed.

@@ -7,6 +7,8 @@ description: Use when a user asks for designstyle, /designstyle, style-reference
 
 Route designstyle work to the right local skill. This skill is a thin coordinator for:
 
+Library location is configurable. Scripts and tools can read `DESIGNSTYLE_LIBRARY`; if it is not set, they fall back to `~/.codex/designstyle-library`.
+
 - `add-designstyle`: capture a website, app screen, image, or URL into the local designstyle reference library.
 - `use-designstyle`: apply existing local references to a new page, app screen, prototype, visual system, or frontend UI.
 

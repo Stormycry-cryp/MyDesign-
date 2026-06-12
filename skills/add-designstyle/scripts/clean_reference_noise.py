@@ -4,9 +4,10 @@ from __future__ import annotations
 import argparse
 import re
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 SCIENTIFIC_PX = re.compile(r"\b\d+(?:\.\d+)?e[+-]?\d+px\b", re.I)
 AUTOFILL_CONSENT_NOISE = re.compile(
     r"autofill|consent|cookie|onetrust|ot-sdk|hs-banner|hs-modal|recaptcha|captcha",

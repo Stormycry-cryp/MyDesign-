@@ -7,11 +7,13 @@ description: Use when designing or redesigning a webpage, app screen, landing pa
 
 Use local references to preserve transferable design decisions, not to borrow mood words. A good use of references composes multiple evidence dimensions into implementation choices: scene fit, geometry, dimension ratios, typography roles, reference text grammar, style tokens, spacing rhythm, palette source, asset plan, motion logic, motion code evidence, component states, and reuse boundaries.
 
+The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, the skill falls back to `${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}`.
+
 ## Progressive Evidence Layers
 
 Default to progressive disclosure:
 
-- L1 cards: read `~/.codex/designstyle-library/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
+- L1 cards: read `${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
 - L2 dimensions: read only the needed `dimensions/<slug>/*.md` summaries for scene, layout/spacing, type/copy, color/surface, assets, motion/code, or components/states.
 - Design systems: read `design-systems/<slug>/tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` when the task needs color systems, moodboards, component styling, or token-level reuse.
 - Retained component systems: when implementation-grade component styling is needed, check the linked `assets/YYYY-MM-DD-<slug>-component-styles.json` evidence from the full reference or tokens before trusting a summarized component rule. Use exact computed styles for density, radius, border, shadow, padding, typography, and hover/focus deltas; keep missing states explicit.
@@ -25,7 +27,7 @@ Do not jump straight to full references unless the task needs L3/L4 evidence. Do
 Default location:
 
 ```text
-~/.codex/designstyle-library/
+${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/
 ```
 
 If the library is empty or weak for the product scene, say so and either re-query or ask to run `add-designstyle`.
@@ -89,8 +91,8 @@ Build work must first copy or import these files into the target project, then i
 After the first build pass, run a `compare_against_reference` step before final QA:
 
 ```bash
-python ~/.codex/skills/use-designstyle/scripts/compare_against_reference.py \
-  --card ~/.codex/designstyle-library/indexes/cards/<slug>.json \
+python3 ~/.codex/skills/use-designstyle/scripts/compare_against_reference.py \
+  --card ${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/indexes/cards/<slug>.json \
   --generated path/to/generated-first-viewport.png \
   --state first-viewport \
   --output work/designstyle-reference-comparison.md
@@ -198,9 +200,9 @@ One reference can cover multiple roles, but never assume it covers all roles. If
 Search with product scene plus mechanics:
 
    ```bash
-   python ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid swiper transition" --matrix --explain-selection
-   python ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid" --dimension type-copy
-   python ~/.codex/skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --dimension color-surface --full
+   python3 ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid swiper transition" --matrix --explain-selection
+   python3 ~/.codex/skills/use-designstyle/scripts/search_references.py "skincare clinical minimal formula product grid" --dimension type-copy
+   python3 ~/.codex/skills/use-designstyle/scripts/search_references.py "dashboard analytics color system table components" --dimension color-surface --full
    ```
 
 STOP: If top L1 cards are generic, contradictory, contaminated, or unrelated, re-query or say the library lacks a good match. Do not force a SaaS or culture reference onto beauty, retail, spa, or product pages just because tags include `product` or `motion`.

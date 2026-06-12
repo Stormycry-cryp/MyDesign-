@@ -6,9 +6,10 @@ import json
 import re
 from datetime import date
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 SEVERE_FLAGS = {"blocked", "404", "overlay_dominated", "blank", "generic_template", "visually_ordinary"}
 

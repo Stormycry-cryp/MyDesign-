@@ -8,12 +8,13 @@ import sys
 import tempfile
 from datetime import date
 from pathlib import Path
+import os
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import capture_reference as capture
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 
 
 def frontmatter_value(text: str, key: str) -> str:

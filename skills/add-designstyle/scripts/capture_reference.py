@@ -8,10 +8,11 @@ import tempfile
 import re
 from datetime import date
 from pathlib import Path
+import os
 from urllib.parse import urljoin, urlparse
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 
 MOTION_PATTERNS = {

@@ -7,11 +7,12 @@ import subprocess
 import sys
 from datetime import date
 from pathlib import Path
+import os
 
 from build_progressive_reference import parse_frontmatter
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 CAPTURE = Path(__file__).with_name("capture_reference.py")
 
 

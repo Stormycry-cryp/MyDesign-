@@ -6,10 +6,11 @@ import json
 import re
 from datetime import date
 from pathlib import Path
+import os
 from statistics import mean, median
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 DIMENSIONS = {
     "scene",
     "layout_spacing",

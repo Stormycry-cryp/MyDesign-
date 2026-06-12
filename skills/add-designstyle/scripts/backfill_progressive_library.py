@@ -7,9 +7,10 @@ import subprocess
 import sys
 from datetime import date
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 HERE = Path(__file__).resolve().parent
 BUILD = HERE / "build_progressive_reference.py"
 CLEAN = HERE / "clean_reference_noise.py"

@@ -323,6 +323,14 @@ Before producing the final direction or implementation, create a process file na
 
 The process file must start with the task analysis, upfront HITL inputs, and the designstyle-library evidence. Do not let it become a pure creative brief. Treat this file as the execution contract.
 
+After writing or updating the direction plan, validate it before build work:
+
+```bash
+python3 ~/.codex/skills/use-designstyle/scripts/validate_direction_plan.py work/designstyle-direction-plan.md
+```
+
+If validation prints `direction-plan-invalid`, fix the missing sections or evidence and rerun it. Do not start implementation from an invalid plan.
+
 Required sections:
 
 ````markdown
@@ -512,6 +520,7 @@ During implementation or asset generation, follow `work/designstyle-direction-pl
 - Did you avoid direct reuse of protected brand identity, original media, and original copy?
 - Did each completed build step update its status and verification result in the direction plan?
 - If implementation deviated from the plan, was the plan updated first with the reason and new verification target?
+- After any direction-changing plan update, rerun `validate_direction_plan.py` before continuing implementation.
 
 Do not ask the user for repeated confirmation during build. Return to the user only for hard blockers:
 
@@ -524,6 +533,7 @@ Do not ask the user for repeated confirmation during build. Return to the user o
 
 Before claiming completion, audit:
 
+- `validate_direction_plan.py work/designstyle-direction-plan.md` passes after the final plan update.
 - Which references were used and which exact dimensions were borrowed.
 - Whether the final screenshot visibly matches the selected reference mechanics in layout, hierarchy, density, spacing, component grammar, and motion state. If it only shares palette or vibe, say it failed style fidelity and revise.
 - Compare the final desktop screenshot against the retained reference screenshot paths. Name at least 3 visible similarities and 2 intentional differences.

@@ -7,13 +7,13 @@ description: Use when designing or redesigning a webpage, app screen, landing pa
 
 Use local references to preserve transferable design decisions, not to borrow mood words. A good use of references composes multiple evidence dimensions into implementation choices: scene fit, geometry, dimension ratios, typography roles, reference text grammar, style tokens, spacing rhythm, palette source, asset plan, motion logic, motion code evidence, component states, and reuse boundaries.
 
-The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, the skill falls back to `${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}`.
+The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, the skill falls back to `~/.codex/designstyle-library`.
 
 ## Progressive Evidence Layers
 
 Default to progressive disclosure:
 
-- L1 cards: read `${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
+- L1 cards: read `${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}/indexes/cards/*.json` first for candidate ranking, evidence strength, and missing evidence.
 - L2 dimensions: read only the needed `dimensions/<slug>/*.md` summaries for scene, layout/spacing, type/copy, color/surface, assets, motion/code, or components/states.
 - Design systems: read `design-systems/<slug>/tokens.json`, `palette.md`, `moodboard.svg`, and `component-styles.md` when the task needs color systems, moodboards, component styling, or token-level reuse.
 - Retained component systems: when implementation-grade component styling is needed, check the linked `assets/YYYY-MM-DD-<slug>-component-styles.json` evidence from the full reference or tokens before trusting a summarized component rule. Use exact computed styles for density, radius, border, shadow, padding, typography, and hover/focus deltas; keep missing states explicit.
@@ -27,7 +27,7 @@ Do not jump straight to full references unless the task needs L3/L4 evidence. Do
 Default location:
 
 ```text
-${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/
+${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}/
 ```
 
 If the library is empty or weak for the product scene, say so and either re-query or ask to run `add-designstyle`.
@@ -92,7 +92,7 @@ After the first build pass, run a `compare_against_reference` step before final 
 
 ```bash
 python3 ~/.codex/skills/use-designstyle/scripts/compare_against_reference.py \
-  --card ${DESIGNSTYLE_LIBRARY:-${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}}/indexes/cards/<slug>.json \
+  --card ${DESIGNSTYLE_LIBRARY:-~/.codex/designstyle-library}/indexes/cards/<slug>.json \
   --generated path/to/generated-first-viewport.png \
   --state first-viewport \
   --output work/designstyle-reference-comparison.md
@@ -117,6 +117,40 @@ If a state cannot be captured because tooling, auth, rendering, or viewport supp
 Use this fixed flow whenever the skill is active. Keep the output compact, but do not skip gates.
 
 Hard rule: task analysis and designstyle-library retrieval are mandatory. Do not produce a design direction, planning file, image2 prompt, or implementation plan from taste alone unless the library is missing or explicitly too weak; in that case, state the gap first.
+
+### 0. Reference-Led Execution Contract
+
+Before search, planning, or implementation, write a short contract with three parts:
+
+- Goal: what the final UI must borrow from references, across layout, motion, typography, page logic, information hierarchy, fonts, surfaces, components, and states.
+- Method: how the agent will inspect original sites, retained screenshots, L2 dimensions, design-system tokens, component JSON, and final screenshots while building.
+- Acceptance criteria: concrete checks that prove the reference was materially used, not only mentioned.
+
+The acceptance criteria must include all relevant dimensions:
+
+- Layout: first viewport geometry, section order, grid/split ratios, media proportions, header/nav placement, and next-section visibility.
+- Motion: trigger, timing, easing, transform direction, scroll/hover/state transitions, and reduced-motion behavior.
+- Typography/fonts: font family evidence or fallback strategy, display/body/meta/CTA scale, weight, line-height, text measure, and letter spacing.
+- Page logic: what the page asks the user to do first, how sections progress, where proof/work/products appear, and where conversion/contact/navigation happens.
+- Information hierarchy: heading levels, label density, metadata, project/product grouping, CTA priority, and reading path.
+- Style tokens: color roles, background/surface layers, border/radius/shadow/divider grammar, spacing rhythm, and component density.
+- Components/states: nav, buttons, cards, galleries, forms, drawers/menus, hover/focus/loading/empty/error states where applicable.
+
+If any dimension cannot be extracted from the reference evidence, mark it `missing` and do not invent it. If the output lacks visible evidence for a required dimension, the build is not complete.
+
+### 0.5 Original-Site Inspection Gate
+
+When a selected reference has a live `source_url`, open or recapture the original site before implementation unless the user explicitly forbids browsing or the site is blocked. Use the live site or retained screenshot/component evidence to inspect:
+
+- Desktop first viewport and at least one deeper section or secondary page when available.
+- Mobile first viewport when the final deliverable is responsive.
+- Hover/focus state for representative nav/button/card/gallery components when implementation-grade styling is needed.
+- Motion timing and sequence by watching the page after load and during scroll/hover, not just reading tags.
+- Font and computed style evidence via retained component JSON or browser `getComputedStyle` when exact styling matters.
+
+Keep a reference workbench open while implementing: live original site when reachable, plus retained screenshots/component JSON/design-system files for the selected references. Build against this evidence side by side, and after each visual pass compare the current page screenshot to the reference evidence before continuing.
+
+Record the inspection source in `work/designstyle-direction-plan.md`: live URL, retained screenshot path, component JSON path, design-system path, or reason inspection was unavailable. Do not treat a reference as implementation-grade if only a title/card was read.
 
 ### 1. Brief
 
@@ -208,6 +242,31 @@ Search with product scene plus mechanics:
 STOP: If top L1 cards are generic, contradictory, contaminated, or unrelated, re-query or say the library lacks a good match. Do not force a SaaS or culture reference onto beauty, retail, spa, or product pages just because tags include `product` or `motion`.
 STOP: If a result ranks mainly because of generic motion/code snippets while `category_tags`, `page_scope`, and `best_for` do not match the task, demote it manually and re-query with stronger scene/page terms.
 
+### 4.5 Style Fidelity Contract
+
+Before building, write a concrete fidelity contract. This is the guardrail against "referenced but still generic" output.
+
+For each primary reference, extract and commit to at least 8 concrete mechanics:
+
+- First viewport layout: exact macro structure, such as split hero, editorial archive grid, full-bleed image, centered app product, left rail, dense dashboard, or cinematic canvas.
+- Section sequence: what kind of blocks follow the hero and how soon the next section appears.
+- Grid and ratio: column count, split ratio, media aspect ratio, card/list density, text measure, hero height, and header height.
+- Type hierarchy: display/body/meta/CTA relative scale, weight, line-height, letter spacing, and text block width.
+- Surface grammar: background layers, borders, radius, shadows, dividers, cards, image masks, and whether cards exist at all.
+- Content grammar: headline length, CTA verbs, label density, archive/project naming, and claim density.
+- Component grammar: nav shape, buttons, cards, galleries, menus, forms, filters, and hover/focus behavior from component JSON where available.
+- Motion grammar: exact visible purpose plus duration/easing/transform when evidence exists.
+
+Then define the negative contract:
+
+- Name the default pattern that is forbidden for this build, such as generic SaaS hero, centered headline plus feature cards, oversized marketing gradient, nested cards, purple-blue blobs, or unrelated dashboard chrome.
+- If the chosen reference does not use cards, do not introduce card-heavy layout.
+- If the chosen reference is an archive/grid/gallery, preserve the archive/grid/gallery skeleton before applying color or copy.
+- If the chosen reference is cinematic/full-bleed, preserve full-bleed media/canvas hierarchy before adding panels.
+- If the chosen reference is dense/productive, preserve information density before adding editorial whitespace.
+
+Implementation may adapt content, but it must preserve the reference's macro geometry first. Color and mood words are secondary.
+
 ### 5. Evidence Matrix
 
 Do not copy one reference wholesale. Build a matrix with these columns:
@@ -269,6 +328,14 @@ Required sections:
 ````markdown
 # Designstyle Direction Plan
 
+## 0. Reference-Led Execution Contract
+- Goal:
+- Method:
+- Acceptance criteria:
+- Required reference dimensions:
+- Dimensions marked missing:
+- Completion blocker if fidelity is weak:
+
 ## 1. Task Analysis
 - Final deliverable:
 - Page/screen scope:
@@ -287,6 +354,10 @@ Required sections:
 - Add backlog:
 - Evidence strength per role:
 
+## 2.5 Original-Site Inspection Log
+| Reference | Source URL | Live/Screenshot/Component Evidence | What Was Inspected | Key Observed Details | Missing/Blocked |
+|---|---|---|---|---|---|
+
 ## 3. Upfront HITL Inputs And Assumptions
 - Confirmed style anchors:
 - Forbidden drift directions:
@@ -300,6 +371,22 @@ Required sections:
 ## 4. Final Output Content Plan
 | Section | Purpose | Content Blocks | Layout/Ratio | States | Acceptance |
 |---|---|---|---|---|---|
+
+## 4.5 Style Fidelity Contract
+| Reference | Must Preserve | Implement As | Forbidden Drift | Verification |
+|---|---|---|---|---|
+
+## 4.6 Implementation Mapping
+| Reference Mechanic | Target Element/File | CSS/Layout/Motion Constraint | Token/Component Source | QA Evidence |
+|---|---|---|---|---|
+
+## 4.7 Page Logic And Information Hierarchy Mapping
+| Reference Logic | Target Page Logic | Section Order | Hierarchy Rule | Acceptance |
+|---|---|---|---|---|
+
+## 4.8 Typography And Font Mapping
+| Reference Type Role | Evidence | Target Font/Scale | CSS Constraint | Acceptance |
+|---|---|---|---|---|
 
 ## 5. Motion System Plan
 | Scope | Motion | Trigger | Duration/Easing | Connects From | Connects To | Reduced Motion |
@@ -364,11 +451,20 @@ graph LR
 - Asset usage matches plan:
 - No forbidden drift:
 - No external/placeholder assets unless planned:
+- Screenshot structural QA:
+- Overlap/misalignment check:
+- Aesthetic rating:
 ````
 
 Planning rules:
 
 - Final output content plan must list every major section/screen block, what content belongs there, its layout/ratio role, states, and acceptance check.
+- Style fidelity contract must list concrete mechanics from screenshots/L2/design-system/component JSON. It is not enough to write adjectives such as clean, cinematic, premium, playful, AI, or editorial.
+- Implementation mapping must translate each borrowed mechanic into a real target element or CSS/layout constraint, such as `grid-template-columns`, `min-height`, `aspect-ratio`, `max-width`, `position: sticky`, `border-radius`, `gap`, `font-size`, `line-height`, `transition`, or component state rules.
+- At least one mapping row must preserve macro geometry, one typography hierarchy, one surface/component grammar, one spacing/rhythm rule, and one motion/state rule when evidence exists.
+- Original-site inspection log must cite the live URL or retained screenshot/component JSON used for each selected reference. If the live site cannot be opened, the plan must say which retained evidence substitutes for it.
+- Page logic and hierarchy mapping must preserve the reference's information sequence before styling: what the viewer sees first, where proof/work/features appear, how navigation/CTA/contact works, and how section priority is expressed.
+- Typography/font mapping must connect reference font evidence to concrete font-family/fallback, size, weight, line-height, letter-spacing, and text-width decisions. If the original font is proprietary or unavailable, define an explicit fallback that preserves role relationships.
 - Motion plan must define global motion language, per-section motion, triggers, timing/easing, how motions hand off between sections, and reduced-motion fallback.
 - Asset plan must inventory existing assets and missing assets separately, after visual inspection when assets are available. Classify each asset as must-use, usable, risky, or rejected; do not infer suitability from filenames alone. For each missing generated asset, specify what content it represents, where it will be used, prompt intent, target ratio, and visual verification criteria before calling image2.
 - Global background plan must define whether the page uses solid color, layered surfaces, image/video, texture, noise, gradient, or mixed material, plus responsive and contrast constraints.
@@ -401,6 +497,13 @@ Produce a compact direction before implementation:
 During implementation or asset generation, follow `work/designstyle-direction-plan.md` step by step and update it as work proceeds:
 
 - Does the UI match the product scene, not merely the color palette?
+- Does the first viewport preserve the selected reference's macro geometry before styling details are added?
+- Did each implementation mapping row become an actual layout/CSS/component constraint in the code?
+- Does the result avoid the explicitly forbidden default pattern from the fidelity contract?
+- Did the page logic and information hierarchy follow the selected reference role rather than a generic landing-page sequence?
+- Did typography/font decisions preserve reference role relationships with concrete CSS constraints?
+- Did the agent keep the original reference site or retained screenshot/component evidence available while implementing and checking?
+- Did implementation proceed with a side-by-side reference workbench, and did each visual pass compare the current screenshot against the original site or retained evidence?
 - Are real assets, generated assets, or placeholders strong enough for the borrowed style?
 - Did you preserve macro geometry, ratios, and typography roles?
 - Are motion and transitions causal and backed by the chosen motion/code reference?
@@ -422,6 +525,9 @@ Do not ask the user for repeated confirmation during build. Return to the user o
 Before claiming completion, audit:
 
 - Which references were used and which exact dimensions were borrowed.
+- Whether the final screenshot visibly matches the selected reference mechanics in layout, hierarchy, density, spacing, component grammar, and motion state. If it only shares palette or vibe, say it failed style fidelity and revise.
+- Compare the final desktop screenshot against the retained reference screenshot paths. Name at least 3 visible similarities and 2 intentional differences.
+- Confirm the final page logic, information hierarchy, typography/fonts, motion, and component states against the original-site inspection log. If a dimension was marked missing, confirm it was not invented.
 - Which dimensions were intentionally not borrowed and why.
 - Which upfront HITL inputs were followed and which assumptions were used.
 - Whether the stepwise build plan status and iteration log are current.
@@ -455,8 +561,14 @@ Before claiming completion, audit:
 
 ## Direction Plan File
 - Path: `work/designstyle-direction-plan.md`
+- Reference-led execution contract:
+- Original-site inspection log:
 - Upfront HITL inputs:
 - Content plan summary:
+- Style fidelity contract summary:
+- Implementation mapping summary:
+- Page logic/hierarchy mapping summary:
+- Typography/font mapping summary:
 - Motion system summary:
 - Asset/image2 plan summary:
 - Global background/surface summary:
@@ -467,8 +579,11 @@ Before claiming completion, audit:
 ## Design Direction
 - Scene:
 - First viewport geometry:
+- Page logic:
+- Information hierarchy:
 - Dimension/ratio system:
 - Type roles:
+- Font strategy:
 - Reference text grammar:
 - Style tokens:
 - Design system:
@@ -491,6 +606,12 @@ Before claiming completion, audit:
 
 ## Build Checks
 - Library evidence is represented in the final UI, not just named.
+- Borrowed reference mechanics are represented as actual CSS/layout/component constraints.
+- First viewport macro geometry matches the chosen reference role before color/mood polish.
+- The forbidden default pattern from the fidelity contract is absent.
+- Page logic and information hierarchy match the selected reference role, not a default landing-page sequence.
+- Typography/font decisions trace to reference evidence or explicit fallback strategy.
+- Motion behavior is checked against reference timing/purpose, not just any animation.
 - Content, motion, assets, and background match the direction plan.
 - Serial/parallel execution order from the graph was followed or deviations are explained.
 - Stepwise build plan statuses and iteration log were updated.

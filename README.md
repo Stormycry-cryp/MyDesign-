@@ -4,7 +4,7 @@
 
 #### 跨平台 AI 设计参考库 + Agent Skills
 
-[![Release](https://img.shields.io/badge/Release-v0.2.8-3B82F6?style=for-the-badge)](./docs/releases/v0.2.8.md)
+[![Release](https://img.shields.io/badge/Release-v0.2.9-3B82F6?style=for-the-badge)](./docs/releases/v0.2.9.md)
 [![References](https://img.shields.io/badge/References-95-10B981?style=for-the-badge)](#参考库包含什么)
 [![Platforms](https://img.shields.io/badge/macOS%20%2B%20Windows-supported-D97706?style=for-the-badge)](#安装)
 [![Agents](https://img.shields.io/badge/Codex%20%2F%20Claude%20%2F%20OpenCode%20%2F%20OpenClaw-ready-8B5CF6?style=for-the-badge)](#agent-适配)
@@ -182,7 +182,7 @@ designstyle 参考这个网站
 
 ## 参考库包含什么
 
-当前 `v0.2.8` 参考库约 164MB，包含：
+当前 `v0.2.9` 参考库约 164MB，包含：
 
 | 内容 | 数量 | 说明 |
 |---|---:|---|
@@ -213,6 +213,23 @@ designstyle-library/
 ```
 
 覆盖类型包括 SaaS、dashboard、developer platform、docs、analytics、finance、data storytelling、luxury automotive、fashion、jewelry、watch、architecture studio、editorial/culture、typography resource 等。
+
+---
+
+## v0.2.9 能力
+
+`v0.2.9` 重点是让 `use-designstyle` 真正把参考站用起来，而不是只借用风格词。
+
+**Use 侧新增约束**
+
+- 先写 Reference-Led Execution Contract：目标、做法、验收标准。
+- 有 live `source_url` 时，必须打开或重新抓取原站；不可用时要引用保留截图、component JSON 或 design-system 证据。
+- 实现时保持 reference workbench：原站 / 截图 / component JSON / tokens 在旁边对照。
+- Direction plan 必须包含原站检查日志、Style Fidelity Contract、Implementation Mapping、页面逻辑/信息层级映射、字体排版映射。
+- 每个主要参考要抽取至少 8 个具体机制：首屏结构、section 顺序、grid/ratio、typography、surface、content、component、motion。
+- 最终 QA 必须用截图对照，说清至少 3 个可见相似点和 2 个有意差异；只共享 palette/vibe 不算通过。
+
+完整发布说明见 [docs/releases/v0.2.9.md](./docs/releases/v0.2.9.md)。
 
 ---
 
@@ -252,12 +269,14 @@ designstyle-library/
 - Quality score：91.6 / 100 average
 - Search regression：15 / 15 top3，wrong top1 = 0
 - Blind E2E：dashboard、luxury landing、docs-site 三个场景全部通过
+- Use-side fidelity phrase audit：passed
 
 常用命令：
 
 ```bash
 python3 -m unittest skills.add-designstyle.tests.test_progressive_library -q
 python3 -m py_compile skills/add-designstyle/scripts/*.py skills/use-designstyle/scripts/*.py
+python3 -m py_compile install.py
 python skills/add-designstyle/scripts/validate_references.py --library designstyle-library --json
 python skills/add-designstyle/scripts/validate_progressive_library.py --library designstyle-library --json
 python skills/add-designstyle/scripts/clean_reference_noise.py --library designstyle-library --check

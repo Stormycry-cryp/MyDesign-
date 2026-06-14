@@ -41,6 +41,12 @@ After routing, the selected child skill must report:
 
 For complete visual-system tasks, these Required dimensions are mandatory:
 
+- Reference-led execution contract: goal, method, and acceptance criteria for using the selected references materially.
+- Original-site inspection: live source URL or retained screenshot/component JSON evidence for each selected reference.
+- Style fidelity contract: concrete mechanics to preserve and default patterns to forbid.
+- Implementation mapping: each borrowed mechanic mapped to target elements, CSS/layout/motion constraints, token/component source, and QA evidence.
+- Page logic and information hierarchy: section sequence, reading path, proof/work/product placement, CTA/navigation/contact priority.
+- Typography and font mapping: reference font evidence or fallback strategy, type roles, scale, weight, line-height, letter spacing, and text measure.
 - Reference text grammar.
 - Style tokens.
 - Spacing rhythm.
@@ -87,6 +93,12 @@ For mixed tasks: run `add-designstyle` first, validate the reference entry, then
 
 Whichever route is selected, preserve or request these dimensions when the task involves a complete visual system:
 
+- Reference-led execution contract: the goal, method, and acceptance criteria for reference use before build work starts.
+- Original-site inspection: open or recapture selected live references when possible; otherwise cite retained screenshots/component JSON and state the limitation.
+- Layout fidelity: first viewport geometry, section sequence, grid/split ratios, media proportions, header/nav placement, and next-section visibility.
+- Motion fidelity: trigger, timing, easing, transform direction, scroll/hover/state transitions, and reduced-motion behavior.
+- Page logic and hierarchy: section order, heading levels, label density, metadata, CTA priority, proof/work/product grouping, and reading path.
+- Typography/font fidelity: font-family evidence or fallback strategy, display/body/meta/CTA scale, weight, line-height, text measure, and letter spacing.
 - Reference text grammar: H1/H2/eyebrow/CTA/body/meta samples, sentence rhythm, claim density, naming style, and copy boundaries.
 - Style tokens: background/surface layers, borders, radii, shadows, button/input/control density, icon/stroke style, hover/focus states.
 - Spacing rhythm: header height, hero padding, section gaps, grid gutters, card padding, text measure, CTA spacing, media margins, and mobile compression.
@@ -112,3 +124,4 @@ Then continue with the selected child skill workflow.
 - Do not force an add workflow when the user is asking to design from existing references.
 - Do not treat generic style words as enough evidence; check scene/page fit first.
 - Do not claim reference text, style token, or spacing evidence exists unless it was captured or provided.
+- Do not let `use-designstyle` produce a generic default layout after naming references; require original-site inspection, a fidelity contract, implementation mapping, and screenshot QA against the selected references.

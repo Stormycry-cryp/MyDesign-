@@ -13,5 +13,10 @@
     "id": "use-3",
     "prompt": "Use $use-designstyle for a dense internal operations dashboard. Make it polished but not marketing-like.",
     "expected": "Selects quiet operational references such as Linear/Vercel, avoids cinematic/product-led excess, and gives density, component state, and motion guidance."
+  },
+  {
+    "id": "use-4-style-fidelity-regression",
+    "prompt": "Use $use-designstyle to build an AI artist portfolio page from the local references. The final UI must not become a generic centered hero plus cards layout; it must preserve the selected reference site layout, motion, typography, page logic, hierarchy, fonts, surfaces, components, and states.",
+    "expected": "Writes a reference-led execution contract, opens or cites the original reference site/screenshot/component JSON, maps reference mechanics to CSS/layout/motion constraints, implements against those constraints, and final-audits screenshots with visible similarities/differences instead of generic template praise."
   }
 ]

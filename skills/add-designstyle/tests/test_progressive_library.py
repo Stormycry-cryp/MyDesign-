@@ -485,6 +485,35 @@ class ProgressiveLibraryTests(unittest.TestCase):
             self.assertEqual(checked, [stylesheet.as_uri()])
             self.assertEqual(structured["source_urls"], [stylesheet.as_uri()])
 
+    def test_collect_motion_omits_analytics_key_urls(self) -> None:
+        capture = load_module(CAPTURE, "capture_reference")
+        with tempfile.TemporaryDirectory() as td:
+            analytics = Path(td) / "config.js"
+            analytics.write_text("requestAnimationFrame(() => {})", encoding="utf-8")
+            replay = Path(td) / "replay.js"
+            replay.write_text("requestAnimationFrame(() => {})", encoding="utf-8")
+            stylesheet = Path(td) / "style.css"
+            stylesheet.write_text(
+                ".card:hover { transform: translateY(-2px); transition: transform 180ms ease; }",
+                encoding="utf-8",
+            )
+
+            checked, evidence, structured = capture.collect_motion(
+                [
+                    f"{analytics.as_uri()}?project={'ph' + 'c_'}abc123",
+                    f"{replay.as_uri()}?{'replay' + 'ApiKey'}=abc-123",
+                    stylesheet.as_uri(),
+                ],
+                "https://example.com/",
+                "sample",
+            )
+
+            joined = json.dumps({"checked": checked, "evidence": evidence, "structured": structured}, ensure_ascii=False).lower()
+            self.assertNotIn("ph" + "c_", joined)
+            self.assertNotIn(("replay" + "ApiKey").lower(), joined)
+            self.assertEqual(checked, [stylesheet.as_uri()])
+            self.assertEqual(structured["source_urls"], [stylesheet.as_uri()])
+
     def test_capture_resolves_css_variables_and_transition_longhands(self) -> None:
         capture = load_module(CAPTURE, "capture_reference")
         css = """
@@ -873,6 +902,25 @@ class ProgressiveLibraryTests(unittest.TestCase):
             self.assertEqual(result.returncode, 1)
             self.assertIn("autofill/consent noise", result.stdout)
             self.assertIn("truncated css declaration", result.stdout)
+
+    def test_clean_reference_noise_flags_analytics_keys(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            library = Path(td) / "library"
+            motion_dir = library / "dimensions" / "noisy"
+            motion_dir.mkdir(parents=True)
+            (motion_dir / "assets.md").write_text(
+                f"""
+# Assets
+
+- Public stylesheet/script URLs: https://example.com/array/{'ph' + 'c_'}abc123/config.js; https://example.com/replay.js?{'replay' + 'ApiKey'}=abc-123
+""",
+                encoding="utf-8",
+            )
+
+            result = run([sys.executable, str(CLEAN), "--library", str(library), "--check"])
+
+            self.assertEqual(result.returncode, 1)
+            self.assertIn("third-party analytics/replay key", result.stdout)
 
     def test_clean_reference_noise_removes_truncated_css_lines(self) -> None:
         with tempfile.TemporaryDirectory() as td:

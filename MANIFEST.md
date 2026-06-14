@@ -65,7 +65,7 @@ Validated locally for this v0.2.8 snapshot:
 - `python3 -m py_compile skills/add-designstyle/scripts/*.py skills/use-designstyle/scripts/*.py`: passed.
 - `backfill_progressive_library.py --library designstyle-library`: 95 planned, status ok, partial 0.
 - `validate_progressive_library.py --library designstyle-library --json`: valid true, 95 cards, 0 invalid, 0 errors.
-- `clean_reference_noise.py --library designstyle-library --check`: passed with no active truncated CSS, autofill/consent/cookie/captcha noise, or abnormal scientific-notation `px` values.
+- `clean_reference_noise.py --library designstyle-library --check`: passed with no active truncated CSS, autofill/consent/cookie/captcha noise, third-party analytics/replay key shapes, or abnormal scientific-notation `px` values.
 - `score_reference_quality.py --library designstyle-library --json-output designstyle-library/reviews/2026-06-12-final2-design-system-quality-scores.json --markdown-output designstyle-library/reviews/2026-06-12-final2-design-system-quality-scores.md`: 95 references, average 91.6, median 92, range 67-100, blocked/security 0, scientific-notation px 0.
 - Recaptured motion sample audit: 16 sampled references, 14 with reusable complete motion items, 0 active noise/truncation in reusable items; Bauhaus and Hex preserve incomplete/missing motion evidence without fabricated values.
 - Blank Vite/Tailwind Apply Pack smoke at `/tmp/designstyle-vite-tailwind-smoke.toJQNv`: imported Plausible's generated `variables.css` and `motion-presets.css`, loaded generated `tailwind.theme.json` from `tailwind.config.cjs`, and `npm run build` passed with `tailwind-theme-ok 12` plus Vite production assets.
@@ -75,4 +75,4 @@ Validated locally for this v0.2.8 snapshot:
 - `compare_against_reference.py --library designstyle-library --card designstyle-library/indexes/cards/plausible-analytics-live-dashboard.json --generated designstyle-library/screenshots/plausible-analytics-live-dashboard-desktop.png --state first-viewport --output /tmp/designstyle-compare-smoke.md`: generated comparison report with screenshot evidence, Apply Pack paths, DNA checklist, and iteration log.
 - `validate_references.py --library designstyle-library --json`: 95 total L3 references, 95 valid, 0 invalid under the stricter L3 validator.
 - Blocked-page scan: Cloudflare/security challenge-page signatures are absent from active references, retained component JSON, active design-system artifacts, and active dimensions.
-- Raw/reference/design-system noise scan: truncated CSS walls, autofill/consent/cookie/captcha style noise, and abnormal scientific-notation `px` values are not present in active retained artifacts.
+- Raw/reference/design-system noise scan: truncated CSS walls, autofill/consent/cookie/captcha style noise, third-party analytics/replay key shapes, and abnormal scientific-notation `px` values are not present in active retained artifacts.

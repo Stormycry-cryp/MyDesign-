@@ -5,10 +5,11 @@ import argparse
 import importlib.util
 import json
 from pathlib import Path
+import os
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_LIBRARY = Path.home() / ".codex" / "designstyle-library"
+DEFAULT_LIBRARY = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 DEFAULT_QUERIES = ROOT / "references" / "search-regression-queries.json"
 SEARCH = ROOT / "scripts" / "search_references.py"
 

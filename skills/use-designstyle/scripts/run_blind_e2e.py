@@ -9,9 +9,10 @@ import subprocess
 import sys
 from datetime import date
 from pathlib import Path
+import os
 
 
-DEFAULT_LIBRARY = Path.home() / ".codex" / "designstyle-library"
+DEFAULT_LIBRARY = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 HERE = Path(__file__).resolve().parent
 SEARCH = HERE / "search_references.py"
 COMPARE = HERE / "compare_against_reference.py"

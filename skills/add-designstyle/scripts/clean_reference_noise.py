@@ -4,14 +4,18 @@ from __future__ import annotations
 import argparse
 import re
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 SCIENTIFIC_PX = re.compile(r"\b\d+(?:\.\d+)?e[+-]?\d+px\b", re.I)
 AUTOFILL_CONSENT_NOISE = re.compile(
     r"autofill|consent|cookie|onetrust|ot-sdk|hs-banner|hs-modal|recaptcha|captcha",
     re.I,
 )
+POSTHOG_KEY_PREFIX = "ph" + "c_"
+REPLAY_KEY_PARAM = "replay" + "ApiKey"
+ANALYTICS_KEY_NOISE = re.compile(r"\b" + POSTHOG_KEY_PREFIX + r"[A-Za-z0-9]+|\b" + REPLAY_KEY_PARAM + r"=[^&\"'\s]+", re.I)
 TRUNCATED_CSS_DECLARATION = re.compile(
     r"(?:transition|animation|transform|@keyframes)\s*(?::\s*)?(?:$|\n|[^;{}\n]{0,160}$)",
     re.I,
@@ -59,6 +63,8 @@ def noise_reasons(text: str) -> list[str]:
         reasons.append("scientific-notation px")
     if AUTOFILL_CONSENT_NOISE.search(text):
         reasons.append("autofill/consent noise")
+    if ANALYTICS_KEY_NOISE.search(text):
+        reasons.append("third-party analytics/replay key")
     for line in text.splitlines():
         stripped = line.strip()
         if not stripped or stripped.startswith("|") or stripped.startswith("#"):

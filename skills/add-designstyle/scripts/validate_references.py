@@ -5,9 +5,10 @@ import argparse
 import json
 import re
 from pathlib import Path
+import os
 
 
-LIB = Path.home() / ".codex" / "designstyle-library"
+LIB = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / ".codex" / "designstyle-library")))
 
 REQUIRED_FRONTMATTER = [
     "title",

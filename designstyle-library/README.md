@@ -1,6 +1,6 @@
 # Designstyle Library
 
-Local aesthetic reference library used by `add-designstyle` and `use-designstyle`.
+Local aesthetic reference library used by `add-designstyle` and `use-designstyle`. The library path is configurable via `DESIGNSTYLE_LIBRARY`; if unset, it defaults to `~/.codex/designstyle-library`.
 
 - `references/`: one active Markdown style reference per website or design source.
 - `references-excluded/`: blocked, rejected, or otherwise excluded captures preserved outside active retrieval.
@@ -22,7 +22,7 @@ Progressive summaries are aids, not replacements. If a card or dimension summary
 
 Active readiness is evaluated through both the L3 Markdown validator and the generated L1/L2/design-system validator. In the current 2026-06-12 worktree snapshot, the active library has 95 valid L3 references, 95 cards, 665 L2 dimension summaries, 95 component-style JSON files, 95 structured `motion.json` files, 95 design-system packs, and 285 generated Apply Pack files. `validate_references.py` and `validate_progressive_library.py` both pass for the active library.
 
-Design-system packs retain exact color evidence from screenshot pixels and explicit DOM/reference colors, plus observed component style rules, structured motion evidence, and apply-layer tokens. Common CSS values such as `9999px` pill radii are preserved; abnormal browser-computed scientific-notation values, old truncated CSS walls, and autofill/consent/cookie/captcha style noise are filtered from active generated artifacts. Reusable `motion.json.items` are complete-only; incomplete parsed motion evidence stays visible under `omitted_incomplete` with explicit missing fields.
+Design-system packs retain exact color evidence from screenshot pixels and explicit DOM/reference colors, plus observed component style rules, structured motion evidence, and apply-layer tokens. Common CSS values such as `9999px` pill radii are preserved; abnormal browser-computed scientific-notation values, old truncated CSS walls, autofill/consent/cookie/captcha style noise, and third-party analytics/replay key shapes are filtered from active generated artifacts. Reusable `motion.json.items` are complete-only; incomplete parsed motion evidence stays visible under `omitted_incomplete` with explicit missing fields.
 
 Implementation-grade component evidence must come from a real browser capture, not static HTML fallback. Cloudflare/security challenge pages are excluded from active references and do not count as reusable component systems; normal product copy or scripts that mention CAPTCHA/recaptcha are not blocked-page evidence by themselves.
 

@@ -38,9 +38,19 @@ GENERIC_MOTION_TOKENS = {
 GENERIC_PAGE_TOKENS = {
     "home",
     "homepage",
+    "index",
+    "project",
+    "projects",
+    "portfolio",
+    "portfolios",
     "landing",
     "page",
     "pages",
+    "site",
+    "sites",
+    "typography",
+    "website",
+    "websites",
 }
 
 SCENE_ALIASES = {
@@ -81,6 +91,19 @@ def text_for(value: object) -> str:
 def count_matches(query_tokens: list[str], value: object) -> int:
     blob = text_for(value).lower()
     return sum(blob.count(token) for token in query_tokens)
+
+
+def high_signal_tokens(query_tokens: list[str]) -> list[str]:
+    low_signal = GENERIC_MOTION_TOKENS | GENERIC_PAGE_TOKENS | set(SCENE_ALIASES)
+    seen: set[str] = set()
+    result: list[str] = []
+    for token in query_tokens:
+        if token in seen:
+            continue
+        seen.add(token)
+        if token == "ai" or (len(token) >= 3 and token not in low_signal):
+            result.append(token)
+    return result
 
 
 def parse_need(value: str) -> dict[str, str]:
@@ -159,6 +182,12 @@ def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, d
     avoid_penalty = count_matches(query_tokens, card.get("avoid_for")) * 38
     factors["avoid_for_penalty"] = -avoid_penalty
 
+    topic_boost = 0
+    scene_text = scene_blob(card)
+    for token in high_signal_tokens(query_tokens):
+        topic_boost += scene_text.count(token) * 90
+    factors["topic_exact_boost"] = topic_boost
+
     scene_fit = factors["category_tags"] + factors["page_scope"] + factors["best_for"]
     scene_gate = min(1.0, scene_fit / 120) if scene_fit > 0 else 0.0
     motion_code = factors["motion_tags"] + factors["code_tags"]
@@ -176,6 +205,7 @@ def card_score(query_tokens: list[str], card: dict[str, object]) -> tuple[int, d
         + factors["title"]
         + factors["selection_note"]
         + gated_motion_code
+        + topic_boost
         - avoid_penalty
     )
     return total, factors

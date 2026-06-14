@@ -1,0 +1,116 @@
+{
+  "avoid_for": [
+    "plain artist galleries",
+    "enterprise AI sites"
+  ],
+  "best_for": [
+    "AI engineer portfolios",
+    "interactive personal sites",
+    "cosmic technical resumes"
+  ],
+  "category_tags": [
+    "ai-engineer-portfolio",
+    "personal-website",
+    "creative-developer",
+    "awwwards-community",
+    "ai-portfolio"
+  ],
+  "code_tags": [
+    "modern-frontend",
+    "animation",
+    "interactive"
+  ],
+  "component_json_path": "assets/2026-06-14-an-ai-portfolio-in-the-cosmos-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/an-ai-portfolio-in-the-cosmos/component-styles.md",
+    "moodboard": "design-systems/an-ai-portfolio-in-the-cosmos/moodboard.svg",
+    "motion": "design-systems/an-ai-portfolio-in-the-cosmos/motion.json",
+    "motion_presets": "design-systems/an-ai-portfolio-in-the-cosmos/motion-presets.css",
+    "palette": "design-systems/an-ai-portfolio-in-the-cosmos/palette.md",
+    "tailwind_theme": "design-systems/an-ai-portfolio-in-the-cosmos/tailwind.theme.json",
+    "tokens": "design-systems/an-ai-portfolio-in-the-cosmos/tokens.json",
+    "variables_css": "design-systems/an-ai-portfolio-in-the-cosmos/variables.css"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/an-ai-portfolio-in-the-cosmos/assets.md",
+    "color_surface": "dimensions/an-ai-portfolio-in-the-cosmos/color-surface.md",
+    "components_states": "dimensions/an-ai-portfolio-in-the-cosmos/components-states.md",
+    "layout_spacing": "dimensions/an-ai-portfolio-in-the-cosmos/layout-spacing.md",
+    "motion_code": "dimensions/an-ai-portfolio-in-the-cosmos/motion-code.md",
+    "scene": "dimensions/an-ai-portfolio-in-the-cosmos/scene.md",
+    "type_copy": "dimensions/an-ai-portfolio-in-the-cosmos/type-copy.md"
+  },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 800x1734; 960x961; 529x302; 529x302; 1935x517; 1935x517; 150x150; 200x200; 150x150; 361x140.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Observed border radii: 3px; 3px; 3px; 3px; 3px; 3px; 3px; 3px; 50%; 50%; 50%; 999px",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 1000}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 800:1734; 960:961; 529:302; 529:302; 1935:517; 1935:517; 150:150; 200:200; 150:150; 361:140",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "navigation hover motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    },
+    {
+      "decision": "navigation focus motion uses 200ms ease",
+      "evidence_source": "motion.json"
+    }
+  ],
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "scroll-driven-timeline",
+    "cursor-motion",
+    "ambient-background"
+  ],
+  "page_scope": "full-site crawl from homepage plus automated secondary pages",
+  "reference_path": "references/2026-06-14-an-ai-portfolio-in-the-cosmos.md",
+  "selection_note": "AI engineer personal portfolio with cosmos theme, AI projects, scroll timeline, and interactive identity",
+  "slug": "an-ai-portfolio-in-the-cosmos",
+  "structure_tags": [
+    "personal-portfolio",
+    "project-timeline",
+    "about-resume",
+    "full-site-crawl"
+  ],
+  "style_tags": [
+    "cosmic-dark",
+    "interactive-portfolio",
+    "space-interface",
+    "personal-tech"
+  ],
+  "title": "An AI Portfolio in the cosmos"
+}

@@ -33,6 +33,22 @@
       "title": "Amie Productivity Calendar"
     },
     {
+      "card_path": "indexes/cards/an-ai-portfolio-in-the-cosmos.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/an-ai-portfolio-in-the-cosmos/component-styles.md",
+        "moodboard": "design-systems/an-ai-portfolio-in-the-cosmos/moodboard.svg",
+        "motion": "design-systems/an-ai-portfolio-in-the-cosmos/motion.json",
+        "motion_presets": "design-systems/an-ai-portfolio-in-the-cosmos/motion-presets.css",
+        "palette": "design-systems/an-ai-portfolio-in-the-cosmos/palette.md",
+        "tailwind_theme": "design-systems/an-ai-portfolio-in-the-cosmos/tailwind.theme.json",
+        "tokens": "design-systems/an-ai-portfolio-in-the-cosmos/tokens.json",
+        "variables_css": "design-systems/an-ai-portfolio-in-the-cosmos/variables.css"
+      },
+      "reference_path": "references/2026-06-14-an-ai-portfolio-in-the-cosmos.md",
+      "slug": "an-ai-portfolio-in-the-cosmos",
+      "title": "An AI Portfolio in the cosmos"
+    },
+    {
       "card_path": "indexes/cards/apple-vision-pro-product-story.json",
       "design_system_paths": {
         "component_styles": "design-systems/apple-vision-pro-product-story/component-styles.md",
@@ -977,6 +993,22 @@
       "title": "Roman and Williams"
     },
     {
+      "card_path": "indexes/cards/roope-rainisto.json",
+      "design_system_paths": {
+        "component_styles": "design-systems/roope-rainisto/component-styles.md",
+        "moodboard": "design-systems/roope-rainisto/moodboard.svg",
+        "motion": "design-systems/roope-rainisto/motion.json",
+        "motion_presets": "design-systems/roope-rainisto/motion-presets.css",
+        "palette": "design-systems/roope-rainisto/palette.md",
+        "tailwind_theme": "design-systems/roope-rainisto/tailwind.theme.json",
+        "tokens": "design-systems/roope-rainisto/tokens.json",
+        "variables_css": "design-systems/roope-rainisto/variables.css"
+      },
+      "reference_path": "references/2026-06-14-roope-rainisto.md",
+      "slug": "roope-rainisto",
+      "title": "Roope Rainisto"
+    },
+    {
       "card_path": "indexes/cards/rows-spreadsheet-dashboard.json",
       "design_system_paths": {
         "component_styles": "design-systems/rows-spreadsheet-dashboard/component-styles.md",
@@ -1521,5 +1553,5 @@
       "title": "Wiz Cybersecurity SaaS"
     }
   ],
-  "total_cards": 95
+  "total_cards": 97
 }

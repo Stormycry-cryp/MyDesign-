@@ -4,8 +4,8 @@
 
 #### 跨平台 AI 设计参考库 + Agent Skills
 
-[![Release](https://img.shields.io/badge/Release-v0.2.11-3B82F6?style=for-the-badge)](./docs/releases/v0.2.11.md)
-[![References](https://img.shields.io/badge/References-95-10B981?style=for-the-badge)](#参考库包含什么)
+[![Release](https://img.shields.io/badge/Release-v0.2.12-3B82F6?style=for-the-badge)](./docs/releases/v0.2.12.md)
+[![References](https://img.shields.io/badge/References-97-10B981?style=for-the-badge)](#参考库包含什么)
 [![Platforms](https://img.shields.io/badge/macOS%20%2B%20Windows-supported-D97706?style=for-the-badge)](#安装)
 [![Agents](https://img.shields.io/badge/Codex%20%2F%20Claude%20%2F%20OpenCode%20%2F%20OpenClaw-ready-8B5CF6?style=for-the-badge)](#agent-适配)
 
@@ -31,7 +31,7 @@ DesignStyle 是给 AI Agent 用的本地设计参考库。
 | `designstyle` | 路由器：判断要新增参考、使用参考，还是先新增再使用 | [skills/designstyle](./skills/designstyle/SKILL.md) |
 | `add-designstyle` | 入库：把 URL / 截图 / 页面拆成可复用风格证据 | [skills/add-designstyle](./skills/add-designstyle/SKILL.md) |
 | `use-designstyle` | 套用：从素材库检索参考，生成方向、Apply Pack 和对照 QA | [skills/use-designstyle](./skills/use-designstyle/SKILL.md) |
-| `designstyle-library` | 素材库：95 个有效参考和完整生成层 | [designstyle-library](./designstyle-library/README.md) |
+| `designstyle-library` | 素材库：97 个有效参考和完整生成层 | [designstyle-library](./designstyle-library/README.md) |
 | `install.py` | macOS / Windows 通用安装器 | [install.py](./install.py) |
 
 ---
@@ -182,17 +182,17 @@ designstyle 参考这个网站
 
 ## 参考库包含什么
 
-当前 `v0.2.11` 参考库约 164MB，包含：
+当前 `v0.2.12` 参考库约 164MB，包含：
 
 | 内容 | 数量 | 说明 |
 |---|---:|---|
-| Active references | 95 | 可检索、可复用的完整 Markdown 风格参考 |
-| Screenshots | 95 | 每个 active reference 一张桌面证据截图 |
-| Component JSON | 95 | 浏览器 computed style、几何、hover/focus 证据 |
-| L1 cards | 95 | 快速检索、排序、Style DNA 注入 |
-| L2 dimensions | 665 | 每个参考拆成 7 个维度摘要 |
-| Design-system packs | 95 | tokens、palette、moodboard、component styles、motion |
-| Apply Pack files | 285 | CSS variables、Tailwind theme、motion presets |
+| Active references | 97 | 可检索、可复用的完整 Markdown 风格参考 |
+| Screenshots | 97 | 每个 active reference 一张桌面证据截图 |
+| Component JSON | 97 | 浏览器 computed style、几何、hover/focus 证据 |
+| L1 cards | 97 | 快速检索、排序、Style DNA 注入 |
+| L2 dimensions | 679 | 每个参考拆成 7 个维度摘要 |
+| Design-system packs | 97 | tokens、palette、moodboard、component styles、motion |
+| Apply Pack files | 291 | CSS variables、Tailwind theme、motion presets |
 | Excluded references | 10 | 保留但不参与 active retrieval 的失败/阻塞/不适合候选 |
 | Reviews / QA evidence | 多组 | 候选筛选、质量评分、搜索回归、blind E2E 对照截图 |
 
@@ -213,6 +213,18 @@ designstyle-library/
 ```
 
 覆盖类型包括 SaaS、dashboard、developer platform、docs、analytics、finance、data storytelling、luxury automotive、fashion、jewelry、watch、architecture studio、editorial/culture、typography resource 等。
+
+---
+
+## v0.2.12 能力
+
+`v0.2.12` 把两条 AI/AICG 作品集参考发布进素材库，并把 AI artist / AICG portfolio 检索写成回归用例，防止泛作品集、dashboard 或企业 AI 页面抢走首位。
+
+- 新增 `roope-rainisto` 和 `an-ai-portfolio-in-the-cosmos` 两条 active reference。
+- `search_references.py` 增加高信号主题词加权，让 `ai`、`artist`、`aicg` 这类垂直词优先于泛化的 `portfolio`、`project`、`website`。
+- `run_search_regression.py` 支持 `expected_top1`，AI/AICG 作品集查询必须把 `roope-rainisto` 排到第一。
+
+完整发布说明见 [docs/releases/v0.2.12.md](./docs/releases/v0.2.12.md)。
 
 ---
 
@@ -288,11 +300,11 @@ designstyle-library/
 
 - Unit tests：42 passed
 - Python compile：passed
-- L3 validator：95 valid / 0 invalid
-- Progressive validator：95 cards / 0 invalid / 0 errors
+- L3 validator：97 valid / 0 invalid
+- Progressive validator：97 cards / 0 invalid / 0 errors
 - Noise check：passed
 - Quality score：91.6 / 100 average
-- Search regression：15 / 15 top3，wrong top1 = 0
+- Search regression：16 / 16 top3，wrong top1 = 0，expected top1 misses = 0
 - Blind E2E：dashboard、luxury landing、docs-site 三个场景全部通过
 - Use-side fidelity phrase audit：passed
 - Direction plan validator：3 tests passed

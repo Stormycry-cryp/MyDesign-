@@ -1,0 +1,23 @@
+:root {
+  --ds-color-foreground: #000000;
+  --ds-color-background: #ffffff;
+  --ds-color-foreground-2: #202020;
+  --ds-color-deep-accent: #404020;
+  --ds-color-accent: #60c0b0;
+  --ds-color-foreground-3: #505050;
+  --ds-color-deep-accent-2: #606030;
+  --ds-color-deep-accent-3: #303040;
+  --ds-color-supporting-color: #808030;
+  --ds-color-neutral-surface: #909080;
+  --ds-color-background-2: #fafaf8;
+  --ds-color-neutral-surface-2: #e8e0d0;
+  --ds-spacing-component: 10.4px 6.4px;
+  --ds-radius-component: 3px;
+  --ds-shadow-component: missing;
+  --ds-motion-motion-navigation-hover-color-200-ease-duration: 200ms;
+  --ds-motion-motion-navigation-hover-color-200-ease-delay: 0ms;
+  --ds-motion-motion-navigation-hover-color-200-ease-easing: ease;
+  --ds-motion-motion-navigation-focus-color-200-ease-duration: 200ms;
+  --ds-motion-motion-navigation-focus-color-200-ease-delay: 0ms;
+  --ds-motion-motion-navigation-focus-color-200-ease-easing: ease;
+}

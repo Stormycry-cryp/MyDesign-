@@ -1,0 +1,106 @@
+{
+  "avoid_for": [
+    "interactive AI tools",
+    "data dashboards"
+  ],
+  "best_for": [
+    "AI photography portfolios",
+    "collection galleries",
+    "image-led artist sites"
+  ],
+  "category_tags": [
+    "ai-artist",
+    "ai-photography",
+    "aicg-gallery",
+    "artist-portfolio"
+  ],
+  "code_tags": [
+    "portfolio",
+    "gallery"
+  ],
+  "component_json_path": "assets/2026-06-14-roope-rainisto-component-styles.json",
+  "design_system_paths": {
+    "component_styles": "design-systems/roope-rainisto/component-styles.md",
+    "moodboard": "design-systems/roope-rainisto/moodboard.svg",
+    "motion": "design-systems/roope-rainisto/motion.json",
+    "motion_presets": "design-systems/roope-rainisto/motion-presets.css",
+    "palette": "design-systems/roope-rainisto/palette.md",
+    "tailwind_theme": "design-systems/roope-rainisto/tailwind.theme.json",
+    "tokens": "design-systems/roope-rainisto/tokens.json",
+    "variables_css": "design-systems/roope-rainisto/variables.css"
+  },
+  "dimension_paths": {
+    "assets": "dimensions/roope-rainisto/assets.md",
+    "color_surface": "dimensions/roope-rainisto/color-surface.md",
+    "components_states": "dimensions/roope-rainisto/components-states.md",
+    "layout_spacing": "dimensions/roope-rainisto/layout-spacing.md",
+    "motion_code": "dimensions/roope-rainisto/motion-code.md",
+    "scene": "dimensions/roope-rainisto/scene.md",
+    "type_copy": "dimensions/roope-rainisto/type-copy.md"
+  },
+  "dna": [
+    {
+      "decision": "First viewport structure: captured in screenshot at 1440x1000; record exact split/sidebar/hero geometry during manual refinement.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Macro geometry: document size {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8013}.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Media/card aspect stability: image natural sizes include 359x287; 359x287; 359x287; 359x287; 359x287; 359x287; 359x287; 359x287; 359x287; 359x287.",
+      "evidence_source": "Layout Geometry And Spacing"
+    },
+    {
+      "decision": "Viewport and document: {'w': 1440, 'h': 1000, 'docW': 1440, 'docH': 8013}",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "Observed media ratios: 359:287; 359:287; 359:287; 359:287; 359:287; 359:287; 359:287; 359:287; 359:287; 359:287",
+      "evidence_source": "Dimension And Ratio System"
+    },
+    {
+      "decision": "card state-change motion uses 130ms ease-in-out",
+      "evidence_source": "motion.json"
+    }
+  ],
+  "evidence_limits": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "evidence_strength": {
+    "design_system": "strong",
+    "layout_spacing": "strong",
+    "motion_code": "strong",
+    "screenshot": "strong",
+    "type_copy": "strong"
+  },
+  "missing_evidence": [
+    "Automated capture covers one desktop viewport and public DOM/resources only.",
+    "Secondary page evidence is summary-only unless listed above; screenshots remain the primary captured page.",
+    "Some CSS/JS may be bundled, minified, blocked, or dynamically injected after capture."
+  ],
+  "motion_tags": [
+    "low-motion",
+    "image-hover",
+    "gallery-navigation"
+  ],
+  "page_scope": "full-site crawl from homepage plus automated secondary pages",
+  "reference_path": "references/2026-06-14-roope-rainisto.md",
+  "selection_note": "AI photography artist portfolio and collection gallery for cinematic image series",
+  "slug": "roope-rainisto",
+  "structure_tags": [
+    "artist-portfolio",
+    "collection-index",
+    "image-grid",
+    "full-site-crawl"
+  ],
+  "style_tags": [
+    "collector-gallery",
+    "photo-grid",
+    "white-minimal",
+    "cinematic-image"
+  ],
+  "title": "Roope Rainisto"
+}

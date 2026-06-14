@@ -78,14 +78,20 @@ def main() -> int:
     results = []
     top3_hits = 0
     wrong_top1 = 0
+    expected_top1_misses = 0
 
     for case in queries:
         top = top_results(search, cards, str(case["query"]), str(case.get("need") or ""), 5)
+        top1_slug = str(top[0].get("slug")) if top else ""
         top3_slugs = {str(item.get("slug")) for item in top[:3]}
         expected = {str(item) for item in case.get("expected_top3", [])}
         hit = bool(top3_slugs & expected)
         if hit:
             top3_hits += 1
+        expected_top1 = str(case.get("expected_top1") or "")
+        top1_hit = not expected_top1 or top1_slug == expected_top1
+        if not top1_hit:
+            expected_top1_misses += 1
         forbidden = contains_forbidden(top[0] if top else None, [str(item) for item in case.get("forbidden_top1_terms", [])])
         if forbidden:
             wrong_top1 += 1
@@ -94,9 +100,11 @@ def main() -> int:
                 "id": case.get("id"),
                 "query": case.get("query"),
                 "need": case.get("need"),
+                "expected_top1": case.get("expected_top1", ""),
                 "expected_top3": case.get("expected_top3", []),
                 "top5": top,
                 "top3_hit": hit,
+                "top1_hit": top1_hit,
                 "wrong_top1": forbidden,
             }
         )
@@ -109,8 +117,9 @@ def main() -> int:
         "top3_hits": top3_hits,
         "top3_rate": round(top3_rate, 4),
         "wrong_top1": wrong_top1,
+        "expected_top1_misses": expected_top1_misses,
         "threshold": args.top3_threshold,
-        "passed": top3_rate >= args.top3_threshold and wrong_top1 == 0,
+        "passed": top3_rate >= args.top3_threshold and wrong_top1 == 0 and expected_top1_misses == 0,
         "results": results,
     }
     text = json.dumps(payload, ensure_ascii=False, indent=2)

@@ -91,6 +91,14 @@
     "forbidden_top1_terms": ["pricing", "dashboard", "luxury automotive"]
   },
   {
+    "id": "portfolio-ai-artist-aicg",
+    "query": "AI artist AICG portfolio project index motion typography gallery",
+    "need": "scene:portfolio,motion:L2",
+    "expected_top1": "roope-rainisto",
+    "expected_top3": ["roope-rainisto", "an-ai-portfolio-in-the-cosmos", "jacky-winter-gallery"],
+    "forbidden_top1_terms": ["pricing", "dashboard", "enterprise-ai"]
+  },
+  {
     "id": "motion-dashboard-pollution",
     "query": "hover transition animation dashboard metrics table",
     "need": "motion:L2,scene:dashboard",

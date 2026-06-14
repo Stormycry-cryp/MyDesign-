@@ -1,0 +1,22 @@
+.ds-motion-motion-navigation-hover-color-200-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-hover-color-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-hover-color-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-hover-color-200-ease-easing);
+  transform: rgba(255, 255, 255, 0.88);
+}
+
+.ds-motion-motion-navigation-focus-color-200-ease {
+  transition-property: color;
+  transition-duration: var(--ds-motion-motion-navigation-focus-color-200-ease-duration);
+  transition-delay: var(--ds-motion-motion-navigation-focus-color-200-ease-delay);
+  transition-timing-function: var(--ds-motion-motion-navigation-focus-color-200-ease-easing);
+  transform: rgba(255, 255, 255, 0.898);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="ds-motion-"] {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -16,6 +16,7 @@ DEFAULT_LIBRARY = Path(os.environ.get("DESIGNSTYLE_LIBRARY", str(Path.home() / "
 HERE = Path(__file__).resolve().parent
 SEARCH = HERE / "search_references.py"
 COMPARE = HERE / "compare_against_reference.py"
+VALIDATE_PLAN = HERE / "validate_direction_plan.py"
 PROBE = HERE.parents[1] / "add-designstyle" / "scripts" / "probe_aesthetic_fit.py"
 
 DEFAULT_CASES = [
@@ -174,8 +175,27 @@ def html_for_case(case_name: str, card: dict[str, object], motion_class: str, as
 
 def write_plan(case_dir: Path, case: dict[str, str], card: dict[str, object], apply_pack: dict[str, str]) -> Path:
     plan = case_dir / "designstyle-direction-plan.md"
+    source_url = str(card.get("source_url") or "retained evidence only")
+    slug = str(card.get("slug") or case["name"])
+    title = str(card.get("title") or slug)
+    screenshot_paths = {
+        "immediate": case_dir / "screenshots" / "immediate-load.png",
+        "post": case_dir / "screenshots" / "post-animation.png",
+        "desktop": case_dir / "screenshots" / "post-animation.png",
+        "mobile": case_dir / "screenshots" / "mobile.png",
+        "hover": case_dir / "screenshots" / "hover-focus.png",
+        "reduced": case_dir / "screenshots" / "reduced-motion.png",
+    }
     lines = [
         "# Designstyle Direction Plan",
+        "",
+        "## 0. Reference-Led Execution Contract",
+        "- Goal: preserve reference layout, motion, typography, page logic, hierarchy, fonts, surfaces, components, and states in the blind fixture.",
+        "- Method: inspect original site or retained screenshot evidence, keep a side-by-side reference workbench open, apply tokens/component JSON, then compare final screenshots.",
+        "- Acceptance criteria: implementation mapping turns reference mechanics into CSS/layout/motion constraints and screenshot QA records 3 visible similarities plus 2 intentional differences.",
+        "- Required reference dimensions: layout, motion, typography, page logic, hierarchy, fonts, surfaces, components, states.",
+        "- Dimensions marked missing: none for blind E2E fixture; retained evidence substitutes for blocked live inspection.",
+        "- Completion blocker if fidelity is weak: fail blind E2E and revise the plan or fixture.",
         "",
         "## 1. Task Analysis",
         f"- Final deliverable: blind E2E fixture for `{case['name']}`.",
@@ -187,11 +207,39 @@ def write_plan(case_dir: Path, case: dict[str, str], card: dict[str, object], ap
         f"- Selected reference: {card.get('title')} (`{card.get('slug')}`)",
         "- Coverage strength: strong when selected through scene/page hard filter.",
         "",
+        "## 2.5 Original-Site Inspection Log",
+        "| Reference | Source URL | Live/Screenshot/Component Evidence | What Was Inspected | Key Observed Details | Missing/Blocked |",
+        "|---|---|---|---|---|---|",
+        f"| {title} | {source_url} | live original site or retained screenshot plus component JSON/design-system tokens | desktop first viewport, mobile compression, hover/focus, motion, typography | {card.get('page_scope', 'scene/page evidence')} | live inspection may be substituted by retained evidence in skip-browser mode |",
+        "",
         "## Apply Pack",
     ]
     for key, value in apply_pack.items():
         lines.append(f"- {key}: {value}")
     lines.extend([
+        "",
+        "## 4.5 Style Fidelity Contract",
+        "| Reference | Must Preserve | Implement As | Forbidden Drift | Verification |",
+        "|---|---|---|---|---|",
+        f"| {title} | macro geometry, typography hierarchy, surface grammar, spacing rhythm, component states, motion grammar, page logic, media ratio | grid-template-columns, aspect-ratio, max-width, gap, font-size, line-height, transition, reduced-motion CSS | generic centered hero plus cards, palette-only imitation, vague premium styling | screenshot comparison and direction-plan validator |",
+        "",
+        "## 4.6 Implementation Mapping",
+        "| Reference Mechanic | Target Element/File | CSS/Layout/Motion Constraint | Token/Component Source | QA Evidence |",
+        "|---|---|---|---|---|",
+        f"| Scene-fit first viewport geometry | {case['name']}/index.html | grid-template-columns, min-height, max-width, gap | {apply_pack.get('tokens', 'missing')} | {screenshot_paths['desktop']} |",
+        f"| Stable media ratio | {case['name']}/index.html | aspect-ratio: 16 / 9 | retained screenshot evidence for {slug} | {screenshot_paths['post']} |",
+        f"| Typography hierarchy | inline fixture CSS | font-size, font-weight, line-height, letter-spacing, max-width | type-copy.md and component JSON | {screenshot_paths['desktop']} |",
+        f"| Motion and hover state | inline fixture CSS plus Apply Pack | transition, transform, reduced-motion media query | {apply_pack.get('motion_presets', 'missing')} | {screenshot_paths['hover']} |",
+        "",
+        "## 4.7 Page Logic And Information Hierarchy Mapping",
+        "| Reference Logic | Target Page Logic | Section Order | Hierarchy Rule | Acceptance |",
+        "|---|---|---|---|---|",
+        f"| {title} prioritizes scene-specific proof before generic claims | fixture shows reference-selected content first and supporting controls second | overview, evidence, interaction state | primary visual/work area outranks CTA; metadata stays secondary | first viewport screenshot proves hierarchy |",
+        "",
+        "## 4.8 Typography And Font Mapping",
+        "| Reference Type Role | Evidence | Target Font/Scale | CSS Constraint | Acceptance |",
+        "|---|---|---|---|---|",
+        "| Display/heading/body/meta/CTA roles | retained type-copy.md and computed component evidence | Inter or system fallback with large display, readable body, compact metadata, restrained CTA | font-family, font-size, font-weight, line-height, letter-spacing, max-width | screenshot text hierarchy matches reference role relationships |",
         "",
         "## 5. Motion System Plan",
         "| Scope | Motion | Trigger | Duration/Easing | Connects From | Connects To | Reduced Motion |",
@@ -209,9 +257,24 @@ def write_plan(case_dir: Path, case: dict[str, str], card: dict[str, object], ap
         "| Time | Trigger | Plan Change | Implementation Change | Verification |",
         "|---|---|---|---|---|",
         "| generated | initial blind E2E | none | fixture generated | pending final review |",
+        "",
+        "## 13. Final QA Checklist",
+        f"- Immediate first viewport: {screenshot_paths['immediate']}",
+        f"- Post-animation first viewport: {screenshot_paths['post']}",
+        f"- Desktop key sections: {screenshot_paths['desktop']}",
+        f"- Mobile key sections: {screenshot_paths['mobile']}",
+        f"- Hover/focus states: {screenshot_paths['hover']}",
+        f"- Reduced motion: {screenshot_paths['reduced']}",
+        "- Screenshot structural QA: 3 visible similarities and 2 intentional differences recorded in blind E2E comparison.",
+        "- Overlap/misalignment check: pending screenshot review.",
+        "- Aesthetic rating: pending probe score.",
     ])
     plan.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return plan
+
+
+def validate_plan(plan: Path) -> None:
+    subprocess.run([sys.executable, str(VALIDATE_PLAN), str(plan)], check=True)
 
 
 def copy_placeholder_screenshots(reference_shot: Path, paths: dict[str, Path]) -> None:
@@ -349,6 +412,7 @@ def run_case(search, lib: Path, output_dir: Path, case: dict[str, str], skip_bro
     html = case_dir / "index.html"
     html.write_text(html_for_case(case["name"], card, motion_class, asset.name), encoding="utf-8")
     plan = write_plan(case_dir, case, card, apply_pack)
+    validate_plan(plan)
     screenshots = {
         "immediate_load": case_dir / "screenshots" / "immediate-load.png",
         "post_animation": case_dir / "screenshots" / "post-animation.png",

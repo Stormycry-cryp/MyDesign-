@@ -4,11 +4,21 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import importlib.util
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 VALIDATE = ROOT / "scripts" / "validate_direction_plan.py"
+BLIND_E2E = ROOT / "scripts" / "run_blind_e2e.py"
+
+
+def load_blind_e2e():
+    spec = importlib.util.spec_from_file_location("run_blind_e2e", BLIND_E2E)
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 COMPLETE_PLAN = """# Designstyle Direction Plan
@@ -100,6 +110,41 @@ class DirectionPlanValidatorTest(unittest.TestCase):
 
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertIn("direction-plan-valid", result.stdout)
+
+    def test_blind_e2e_generated_plan_passes_validator(self) -> None:
+        blind_e2e = load_blind_e2e()
+        with tempfile.TemporaryDirectory() as tmp:
+            case_dir = Path(tmp)
+            plan = blind_e2e.write_plan(
+                case_dir,
+                {
+                    "name": "artist-portfolio",
+                    "query": "AI artist portfolio project index motion typography gallery",
+                    "need": "scene:portfolio,motion:L2",
+                },
+                {
+                    "title": "Roope Rainisto",
+                    "slug": "roope-rainisto",
+                    "source_url": "https://example.com",
+                    "page_scope": "full-site crawl from homepage plus automated secondary pages",
+                },
+                {
+                    "variables_css": "/tmp/apply-pack/variables.css",
+                    "motion_presets": "/tmp/apply-pack/motion-presets.css",
+                    "tailwind_theme": "/tmp/apply-pack/tailwind.theme.json",
+                    "tokens": "/tmp/apply-pack/tokens.json",
+                    "motion": "/tmp/apply-pack/motion.json",
+                },
+            )
+
+            result = subprocess.run(
+                [sys.executable, str(VALIDATE), str(plan)],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            )
+
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
 
 if __name__ == "__main__":

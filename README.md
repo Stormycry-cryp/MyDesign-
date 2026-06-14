@@ -4,7 +4,7 @@
 
 #### 跨平台 AI 设计参考库 + Agent Skills
 
-[![Release](https://img.shields.io/badge/Release-v0.2.10-3B82F6?style=for-the-badge)](./docs/releases/v0.2.10.md)
+[![Release](https://img.shields.io/badge/Release-v0.2.11-3B82F6?style=for-the-badge)](./docs/releases/v0.2.11.md)
 [![References](https://img.shields.io/badge/References-95-10B981?style=for-the-badge)](#参考库包含什么)
 [![Platforms](https://img.shields.io/badge/macOS%20%2B%20Windows-supported-D97706?style=for-the-badge)](#安装)
 [![Agents](https://img.shields.io/badge/Codex%20%2F%20Claude%20%2F%20OpenCode%20%2F%20OpenClaw-ready-8B5CF6?style=for-the-badge)](#agent-适配)
@@ -182,7 +182,7 @@ designstyle 参考这个网站
 
 ## 参考库包含什么
 
-当前 `v0.2.10` 参考库约 164MB，包含：
+当前 `v0.2.11` 参考库约 164MB，包含：
 
 | 内容 | 数量 | 说明 |
 |---|---:|---|
@@ -213,6 +213,18 @@ designstyle-library/
 ```
 
 覆盖类型包括 SaaS、dashboard、developer platform、docs、analytics、finance、data storytelling、luxury automotive、fashion、jewelry、watch、architecture studio、editorial/culture、typography resource 等。
+
+---
+
+## v0.2.11 能力
+
+`v0.2.11` 把 v0.2.10 的方向计划 validator 接入 blind E2E 链路，防止回归测试生成旧格式计划后仍然通过。
+
+- `run_blind_e2e.py` 生成的 `designstyle-direction-plan.md` 现在必须通过 `validate_direction_plan.py`。
+- blind E2E 计划包含完整 Reference-Led Execution Contract、原站/保留证据检查日志、Style Fidelity Contract、Implementation Mapping、页面逻辑/层级映射、字体映射和截图 QA。
+- 新增测试覆盖：blind E2E 生成的计划必须通过 validator。
+
+完整发布说明见 [docs/releases/v0.2.11.md](./docs/releases/v0.2.11.md)。
 
 ---
 
@@ -283,7 +295,8 @@ designstyle-library/
 - Search regression：15 / 15 top3，wrong top1 = 0
 - Blind E2E：dashboard、luxury landing、docs-site 三个场景全部通过
 - Use-side fidelity phrase audit：passed
-- Direction plan validator：2 tests passed
+- Direction plan validator：3 tests passed
+- Blind E2E validator smoke：passed
 
 常用命令：
 
@@ -292,6 +305,7 @@ python3 -m unittest skills.add-designstyle.tests.test_progressive_library -q
 python3 -m py_compile skills/add-designstyle/scripts/*.py skills/use-designstyle/scripts/*.py
 python3 -m py_compile install.py
 python3 -m unittest skills.use-designstyle.tests.test_direction_plan_validator -q
+python3 skills/use-designstyle/scripts/run_blind_e2e.py --library designstyle-library --skip-browser --case 'artist-portfolio:AI artist portfolio project index motion typography gallery:scene:portfolio,motion:L2'
 python skills/add-designstyle/scripts/validate_references.py --library designstyle-library --json
 python skills/add-designstyle/scripts/validate_progressive_library.py --library designstyle-library --json
 python skills/add-designstyle/scripts/clean_reference_noise.py --library designstyle-library --check
